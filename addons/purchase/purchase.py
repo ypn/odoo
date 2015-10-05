@@ -71,7 +71,7 @@ class PurchaseOrder(models.Model):
     @api.model
     def _default_picking_type(self):
         type_obj = self.env['stock.picking.type']
-        company_id = self.env.user.company_id.id
+        company_id = self.env.context.get('company_id') or self.env.user.company_id.id
         types = type_obj.search([('code', '=', 'incoming'), ('warehouse_id.company_id', '=', company_id)])
         if not types:
             types = type_obj.search([('code', '=', 'incoming'), ('warehouse_id', '=', False)])
@@ -363,7 +363,6 @@ class PurchaseOrder(models.Model):
         This function returns an action that display existing picking orders of given purchase order ids.
         When only one found, show the picking immediately.
         '''
-        context = dict(self._context or {})
         action = self.env.ref('stock.action_picking_tree')
         result = action.read()[0]
 
@@ -385,12 +384,12 @@ class PurchaseOrder(models.Model):
         This function returns an action that display existing vendor bills of given purchase order ids.
         When only one found, show the vendor bill immediately.
         '''
-        context = dict(self._context or {})
         action = self.env.ref('account.action_invoice_tree2')
         result = action.read()[0]
 
         #override the context to get rid of the default filtering
-        result['context'] = {}
+        result['context'] = {'type': 'in_invoice', 'default_purchase_id': self.id}
+        result['domain'] = "[('purchase_id', '=', %s)]" % self.id
         invoice_ids = sum([order.invoice_ids.ids for order in self], [])
         #choose the view_mode accordingly
         if len(invoice_ids) > 1:
@@ -724,7 +723,7 @@ class ProcurementOrder(models.Model):
 
         taxes = self.product_id.supplier_taxes_id
         fpos = po.fiscal_position_id
-        taxes_id = fpos.map_tax(taxes) if fpos else []
+        taxes_id = fpos.map_tax(taxes).ids if fpos else []
 
         return {
             'name': name,
