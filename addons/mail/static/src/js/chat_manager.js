@@ -127,7 +127,7 @@ function add_channel_to_message (message, channel_id) {
 function post_channel_message (data) {
     return ChannelModel.call('message_post', [data.channel_id], {
         message_type: 'comment',
-        content_subtype: 'plaintext',
+        content_subtype: 'html',
         partner_ids: data.partner_ids,
         body: _.str.trim(data.content),
         subtype: 'mail.mt_comment',
@@ -140,6 +140,7 @@ function post_document_message (model_name, res_id, data) {
         attachment_ids: data.attachment_ids,
         body: _.str.trim(data.content),
         content_subtype: data.content_subtype,
+        context: data.context,
         message_type: data.message_type,
         partner_ids: data.partner_ids,
         subtype: data.subtype,
