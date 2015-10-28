@@ -945,11 +945,12 @@ class AccountMoveLine(models.Model):
         tax_lines_vals = []
         if apply_taxes and not context.get('dont_create_taxes') and vals.get('tax_ids'):
             # Get ids from triplets : https://www.odoo.com/documentation/master/reference/orm.html#openerp.models.Model.write
-            tax_ids = map(lambda tax: tax[1], vals['tax_ids'])
+            tax_ids = [tax['id'] for tax in self.resolve_2many_commands('tax_ids', vals['tax_ids']) if tax.get('id')]
             # Since create() receives ids instead of recordset, let's just use the old-api bridge
             taxes = self.env['account.tax'].browse(tax_ids)
+            currency = self.env['res.currency'].browse(vals.get('currency_id'))
             res = taxes.compute_all(amount,
-                vals.get('currency_id'), 1, vals.get('product_id'), vals.get('partner_id'))
+                currency, 1, vals.get('product_id'), vals.get('partner_id'))
             # Adjust line amount if any tax is price_include
             if abs(res['total_excluded']) < abs(amount):
                 if vals['debit'] != 0.0: vals['debit'] = res['total_excluded']
