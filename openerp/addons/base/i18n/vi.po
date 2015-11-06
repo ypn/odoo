@@ -826,22 +826,22 @@ msgid "\n"
 "completed.\n"
 ""
 msgstr "\n"
-"Tự động tạo các Nhiệm vụ dự án từ các chi tiết (dòng) trong lệnh cung ứng (procurement order).\n"
+"Tự động tạo các Tác vụ dự án từ các chi tiết (dòng) trong lệnh cung ứng (procurement order).\n"
 "===========================================================\n"
 "\n"
-"Phân hệ này sẽ tự động tạo mới một nhiệm vụ dựa trên các chi tiết trong lệnh cung ứng (procurement order)\n"
+"Phân hệ này sẽ tự động tạo mới một tác vụ dựa trên các chi tiết trong lệnh cung ứng (procurement order)\n"
 "(ví dụ: cung ứng cho các dòng trong một đơn hàng bán), nếu sản phẩm thỏa mãn tính chất sau đây\n"
 "\n"
 "    * Loại sản phẩm = Dịch vụ\n"
-"    * Tự động tạo nhiệm vụ = True\n"
+"    * Tự động tạo tác vụ = True\n"
 "\n"
 "Nếu trên đó (trong tab Cung ứng) bạn chỉ ra một dự án thì\n"
-"khi nhiệm vụ được tạo sẽ tự động gắn vào dự án đó. Ngược lại, nhiệm vụ sẽ\n"
+"khi tác vụ được tạo sẽ tự động gắn vào dự án đó. Ngược lại, tác vụ sẽ\n"
 "không được gắn vào một dự án cụ thể nào, và bạn có thể gắn sau (thủ công)\n"
 "\n"
-"Khi một nhiệm vụ được chuyển sang trạng thái hoàn thành hoặc bi hủy, tài liệu cung ứng\n"
+"Khi một tác vụ được chuyển sang trạng thái hoàn thành hoặc bi hủy, tài liệu cung ứng\n"
 "tương ứng cũng sẽ được cập nhật theo. Ví dụ, nếu cung ứng liên quan đến một dòng trong đơn hàng bán\n"
-" thì dòng đó trong đơn hàng sẽ được coi là bàn giao khi nhiệm vụ hoàn thành\n"
+" thì dòng đó trong đơn hàng sẽ được coi là bàn giao khi tác vụ hoàn thành\n"
 ""
 
 #. module: base
@@ -2432,10 +2432,10 @@ msgid "\n"
 "Contains the installer for marketing-related modules.\n"
 "    "
 msgstr "\n"
-"Menu for Marketing.\n"
+"Trình đơn cho Marketing.\n"
 "===================\n"
 "\n"
-"Contains the installer for marketing-related modules.\n"
+"Chứa các trình cài đặt cho các phân hệ liên quan đến marketing.\n"
 "    "
 
 #. module: base
@@ -2493,7 +2493,7 @@ msgstr "\n"
 "Phân hệ dành cho việc định nghĩa đối tượng kế toán quản trị.\n"
 "====================================================\n"
 "\n"
-"Trong hệ thống, kế toán quản trị được liên kết với kế toán tài chính nhưng được thực hiện hoàn toàn độc lập\n"
+"Trong hệ thống, kế toán quản trị được liên kết với kế toán tài chính nhưng được xử lý hoàn toàn độc lập\n"
 "Do đó, bạn có thể nhập nhiều hoạt động quản trị khác nhau mà không cần phải đối chiếu với kế toán tài chính\n"
 "    "
 
@@ -3102,7 +3102,7 @@ msgid "\n"
 "==========================\n"
 "        "
 msgstr "\n"
-"Gán và phát hành đối tác\n"
+"Gán và Xuất bản đối tác\n"
 "======================\n"
 "        "
 
@@ -6916,7 +6916,7 @@ msgstr "Quy tắc hành động tự động"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_gengo
 msgid "Automated Translations through Gengo API"
-msgstr "Automated Translations through Gengo API"
+msgstr "Tự động hóa việc dịch thống qua API của Gengo"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_auto_install
@@ -6926,12 +6926,12 @@ msgstr "Cài đặt tự động"
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_translation_state
 msgid "Automatically set to let administators find new terms that might need to be translated"
-msgstr "Automatically set to let administators find new terms that might need to be translated"
+msgstr "Tự động thiết lập để cho phép quản trị có thể tìm thấy các thuật ngữ có thể cần dịch"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_automation
 msgid "Automation"
-msgstr "Automation"
+msgstr "Tự động hóa"
 
 #. module: base
 #: model:res.country,name:base.az
@@ -6942,7 +6942,7 @@ msgstr "Azerbaijan"
 #: code:addons/translate.py:1061
 #, python-format
 msgid "Bad file format: %s"
-msgstr "Bad file format: %s"
+msgstr "Định dạng tập tin không hợp lệ: %s"
 
 #. module: base
 #: model:res.country,name:base.bs
@@ -7054,18 +7054,18 @@ msgstr "Base Kanban"
 #: code:addons/base/res/res_lang.py:190
 #, python-format
 msgid "Base Language 'en_US' can not be deactivated!"
-msgstr "Base Language 'en_US' can not be deactivated!"
+msgstr "Ngôn ngữ cơ sở 'en_US' không thể bị vô hiệu!"
 
 #. module: base
 #: code:addons/base/res/res_lang.py:208
 #, python-format
 msgid "Base Language 'en_US' can not be deleted!"
-msgstr "Base Language 'en_US' can not be deleted!"
+msgstr "Ngôn ngữ cơ sở 'en_US' không thể bị xóa!"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_model_id
 msgid "Base Model"
-msgstr "Base Model"
+msgstr "Model cơ sở"
 
 #. module: base
 #: selection:ir.model,state:0
@@ -7076,7 +7076,7 @@ msgstr "Đối tượng cơ sở"
 #: model:ir.ui.view,arch_db:base.view_model_fields_form
 #: model:ir.ui.view,arch_db:base.view_model_form
 msgid "Base Properties"
-msgstr "Base Properties"
+msgstr "Thuộc tính cơ sở"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_import
@@ -7101,7 +7101,7 @@ msgstr "Base module holding website-related stuff for partner model"
 #. module: base
 #: selection:ir.ui.view,mode:0
 msgid "Base view"
-msgstr "Base view"
+msgstr "Khung nhìn cơ sở"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -7309,7 +7309,7 @@ msgstr "Burundi"
 #. module: base
 #: model:ir.ui.view,arch_db:base.module_form
 msgid "By"
-msgstr "By"
+msgstr "Bởi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm
@@ -7343,12 +7343,12 @@ msgstr "Lịch"
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_calendar
 msgid "Calendars "
-msgstr "Calendars "
+msgstr "Lịch "
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_calendar
 msgid "Calendars on Orderpoints"
-msgstr "Calendars on Orderpoints"
+msgstr "Lịch trên Orderpoints"
 
 #. module: base
 #: model:res.country,name:base.kh
@@ -7364,7 +7364,7 @@ msgstr "Cameroon"
 #: code:addons/base/ir/ir_fields.py:376
 #, python-format
 msgid "Can not create Many-To-One records indirectly, import the field separately"
-msgstr "Can not create Many-To-One records indirectly, import the field separately"
+msgstr "Không thể tạo bản ghi Many-To-One (kiểu Nhiều - Một) một cách gián tiếp, hãy nhập riêng các trường"
 
 #. module: base
 #: code:addons/base/module/module.py:584
@@ -7433,13 +7433,13 @@ msgstr "Không thể sao chép cấu hình!"
 #: code:addons/base/ir/ir_model.py:520
 #, python-format
 msgid "Cannot rename field to %s, because that field already exists!"
-msgstr "Cannot rename field to %s, because that field already exists!"
+msgstr "Không thể đổi tên trường thành %s, bởi vì trường đó đã tồn tại!"
 
 #. module: base
 #: code:addons/base/res/res_lang.py:195
 #, python-format
 msgid "Cannot unactivate a language that is currently used by users."
-msgstr "Cannot unactivate a language that is currently used by users."
+msgstr "Không thể vô hiệu một ngôn ngữ mà đang được sử dụng bởi người dùng."
 
 #. module: base
 #: model:res.country,name:base.cv
@@ -7497,7 +7497,7 @@ msgstr "Thay đổi mật khẩu"
 #. module: base
 #: model:ir.model,name:base.model_change_password_wizard
 msgid "Change Password Wizard"
-msgstr "Thay đổi mật khẩu"
+msgstr "Đồ thuật Thay đổi mật khẩu"
 
 #. module: base
 #: model:ir.model,name:base.model_change_password_user
@@ -7524,7 +7524,7 @@ msgstr "Changing the company of a contact should only be done if it was never co
 #: code:addons/base/ir/ir_model.py:506
 #, python-format
 msgid "Changing the model of a field is forbidden!"
-msgstr "Changing the model of a field is forbidden!"
+msgstr "Đổi model của một trường thì bị cấm!"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:484
@@ -9339,7 +9339,7 @@ msgstr "Ecuador - Accounting"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_view_form
 msgid "Edit Translations"
-msgstr "Edit Translations"
+msgstr "Sửa dịch"
 
 #. module: base
 #: model:res.groups,name:base.group_website_publisher
@@ -9354,7 +9354,7 @@ msgstr "Editor and Designer"
 #. module: base
 #: model:res.country,name:base.eg
 msgid "Egypt"
-msgstr "Egypt"
+msgstr "Ai Cập"
 
 #. module: base
 #: model:res.country,name:base.sv
@@ -9382,7 +9382,7 @@ msgstr "Tên đăng nhập / Email"
 #: model:ir.ui.view,arch_db:base.view_users_form
 #: model:ir.ui.view,arch_db:base.view_users_simple_form
 msgid "Email Address"
-msgstr "Email Address"
+msgstr "Địa chỉ Email"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_fetchmail
@@ -9392,7 +9392,7 @@ msgstr "Email Gateway"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "Email Preferences"
-msgstr "Email Preferences"
+msgstr "Thiết lập về email"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_employee
@@ -9400,7 +9400,7 @@ msgstr "Email Preferences"
 #: model:res.groups,name:base.group_user
 #: model:res.partner.category,name:base.res_partner_category_3
 msgid "Employee"
-msgstr "Employee"
+msgstr "Nhân viên"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_contract
@@ -9410,7 +9410,7 @@ msgstr "Employee Contracts"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr
 msgid "Employee Directory"
-msgstr "Employee Directory"
+msgstr "Hợp đồng Nhân viên"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_employee_form
@@ -9420,7 +9420,7 @@ msgstr "Employees"
 #. module: base
 #: model:res.groups,name:base.group_light_multi_company
 msgid "Enable Light Multi Company"
-msgstr "Enable Light Multi Company"
+msgstr "Kích hoạt chế độ Đa công ty đơn giản"
 
 #. module: base
 #: code:addons/base/res/res_config.py:488
@@ -9619,12 +9619,12 @@ msgstr "Export Translation"
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "Export Translations"
-msgstr "Export Translations"
+msgstr "Xuất Dịch thuật"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_write_expression
 msgid "Expression"
-msgstr "Expression"
+msgstr "Biểu thức"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_server_object_lines_value
@@ -9638,12 +9638,12 @@ msgstr "Expression containing a value specification. \n"
 #. module: base
 #: model:ir.model.fields,help:base.field_wkf_transition_condition
 msgid "Expression to be satisfied if we want the transition done."
-msgstr "Expression to be satisfied if we want the transition done."
+msgstr "Biểu thức phải được thỏa mãn nếu chúng ta muốn việc dịch được thực hiện."
 
 #. module: base
 #: selection:ir.ui.view,mode:0
 msgid "Extension View"
-msgstr "Extension View"
+msgstr "Khung nhìn biểu thức"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_client_xml_id
@@ -9693,7 +9693,7 @@ msgstr "Extra"
 #: model:ir.module.category,name:base.module_category_usability
 #: model:ir.ui.view,arch_db:base.user_groups_view
 msgid "Extra Rights"
-msgstr "Extra Rights"
+msgstr "Quyền Bổ sung"
 
 #. module: base
 #: model:res.country,name:base.fk
@@ -9724,13 +9724,13 @@ msgstr "Fax:"
 #: model:ir.model.fields,field_description:base.field_res_bank_state
 #: model:ir.model.fields,field_description:base.field_res_company_state_id
 msgid "Fed. State"
-msgstr "Fed. State"
+msgstr "Bang/Tỉnh"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_state
 #: model:ir.ui.menu,name:base.menu_country_state_partner
 msgid "Fed. States"
-msgstr "Fed. States"
+msgstr "Bang/Tỉnh"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_model_object_field
@@ -11654,7 +11654,7 @@ msgstr "Language Name"
 #: code:addons/base/module/wizard/base_language_install.py:35
 #, python-format
 msgid "Language Pack"
-msgstr "Language Pack"
+msgstr "Gói ngôn ngữ"
 
 #. module: base
 #: code:addons/base/res/res_lang.py:185
@@ -12113,14 +12113,14 @@ msgstr "Lithuanian / Lietuvių kalba"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_language_install
 msgid "Load"
-msgstr "Load"
+msgstr "Nạp"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_view_base_language_install
 #: model:ir.ui.menu,name:base.menu_view_base_language_install
 #: model:ir.ui.view,arch_db:base.view_base_language_install
 msgid "Load a Translation"
-msgstr "Load a Translation"
+msgstr "Nạp ngôn ngữ"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang_code
@@ -13525,7 +13525,7 @@ msgstr "Outgoing Transitions"
 #: model:ir.model.fields,field_description:base.field_base_language_import_overwrite
 #: model:ir.model.fields,field_description:base.field_base_language_install_overwrite
 msgid "Overwrite Existing Terms"
-msgstr "Overwrite Existing Terms"
+msgstr "Ghi đè lên thuật ngữ đã có"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment_create_uid
@@ -13541,7 +13541,7 @@ msgstr "PDF"
 #. module: base
 #: selection:base.language.export,format:0
 msgid "PO File"
-msgstr "PO File"
+msgstr "Tập tin PO"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
@@ -13556,7 +13556,7 @@ msgstr "POEdit"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pad_project
 msgid "Pad on tasks"
-msgstr "Pad on tasks"
+msgstr "Pad cho các Tác vụ"
 
 #. module: base
 #: model:res.country,name:base.pk
@@ -13586,7 +13586,7 @@ msgstr "Panama - Accounting"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_rml_paper_format
 msgid "Paper Format"
-msgstr "Paper Format"
+msgstr "Định dạng Giấy"
 
 #. module: base
 #: model:res.country,name:base.pg
@@ -13604,12 +13604,12 @@ msgstr "Paraguay"
 #: model:ir.ui.view,arch_db:base.ir_property_view_search
 #: model:ir.ui.view,arch_db:base.ir_property_view_tree
 msgid "Parameters"
-msgstr "Parameters"
+msgstr "Thông số"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_property_view_search
 msgid "Parameters that are used by all resources."
-msgstr "Parameters that are used by all resources."
+msgstr "Các Thông số được sử dụng bởi tất cả các tài nguyên."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_client_params_store
@@ -16430,7 +16430,7 @@ msgstr "The second argument of the many2many field %s must be a SQL table !You u
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_language_install
 msgid "The selected language has been successfully installed. You must change the preferences of the user and open a new menu to view the changes."
-msgstr "The selected language has been successfully installed. You must change the preferences of the user and open a new menu to view the changes."
+msgstr "Ngôn ngữ bạn chọn đã được cài đặt thành công. Bạn cần phải chuyển sang ngôn ngữ đó để thấy sự cập nhật. Hoặc nếu bạn đang ở ngôn ngữ đó, bạn cần phải nạp lại trang bằng cách nhấn F5 (hoặc Ctrl+F5)."
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -16793,7 +16793,7 @@ msgstr "Translation in Progress"
 #: model:ir.ui.view,arch_db:base.view_translation_search
 #: model:ir.ui.view,arch_db:base.view_translation_tree
 msgid "Translations"
-msgstr "Translations"
+msgstr "Dịch thuật"
 
 #. module: base
 #: selection:ir.actions.act_window,view_type:0
@@ -16826,7 +16826,7 @@ msgstr "Tunisia"
 #. module: base
 #: model:res.country,name:base.tr
 msgid "Turkey"
-msgstr "Turkey"
+msgstr "Thổ Nhĩ Kỳ"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tr
