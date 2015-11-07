@@ -20,7 +20,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_supplier_invoice_count
 msgid "# Vendor Bills"
-msgstr ""
+msgstr "SL Hóa đơn Người bán"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_nbr
@@ -37,7 +37,7 @@ msgstr "# của đơn hàng"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1284
 #, python-format
 msgid "% discount"
-msgstr ""
+msgstr "% chiết khấu"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.index
@@ -67,7 +67,7 @@ msgstr "+ Giao dịch"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:277
 #, python-format
 msgid "123.14 €"
-msgstr ""
+msgstr "3.100.000 đ"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.evian_2l
@@ -98,12 +98,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
 msgid "<span class=\"o_stat_text\">Set Closing Balance</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Thiết lập số dư cuối kỳe</span>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
 msgid "<span class=\"o_stat_text\">Set Opening Balance</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Thiết lập số dư đầu kỳ</span>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -111,11 +111,13 @@ msgid ""
 "<span class=\"o_stat_text\">Take</span>\n"
 "                                    <span class=\"o_stat_text\">Money Out</span>"
 msgstr ""
+"<span class=\"o_stat_text\">Lấy</span>\n"
+"                                    <span class=\"o_stat_text\">Tiền ra</span>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "<span>Cash Balance</span>"
-msgstr ""
+msgstr "<span>Số dư tiền mặt</span>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
@@ -125,7 +127,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "<span>Reports</span>"
-msgstr ""
+msgstr "<span>Báo cáo</span>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
@@ -143,6 +145,8 @@ msgid ""
 "<strong>Company</strong>:\n"
 "                            <br/>"
 msgstr ""
+"<strong>Công ty</strong>:\n"
+"                            <br/>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
@@ -150,7 +154,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:point_of_sale.report_statement
 #: model:ir.ui.view,arch_db:point_of_sale.report_usersproduct
 msgid "<strong>Company</strong>:<br/>"
-msgstr ""
+msgstr "<strong>Công ty</strong>:<br/>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_sessionsummary
@@ -170,7 +174,7 @@ msgstr "<strong>Mô tả</strong>"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_sessionsummary
 msgid "<strong>Difference</strong>"
-msgstr ""
+msgstr "<strong>Chênh lệch</strong>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
@@ -205,17 +209,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
 msgid "<strong>Invoiced</strong>"
-msgstr ""
+msgstr "<strong>Đã xuất hóa đơn</strong>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_sessionsummary
 msgid "<strong>Journal</strong>"
-msgstr ""
+msgstr "<strong>Sổ nhật ký</strong>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_statement
 msgid "<strong>Journal</strong>:<br/>"
-msgstr ""
+msgstr "<strong>Sổ nhật ký</strong>:<br/>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_payment
@@ -1273,7 +1277,7 @@ msgstr "Cửa sổ gỡ lỗi"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_pos_config
 msgid "Default Point of Sale"
-msgstr ""
+msgstr "Điểm bán hàng (PoS) mặc định"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_barcode_nomenclature_id
@@ -1517,7 +1521,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_auth_signup_reset_password
 msgid "Enable password reset from Login page"
-msgstr ""
+msgstr "Cho phép đặt lại mật khẩu từ trang Đăng nhập"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_iface_electronic_scale
