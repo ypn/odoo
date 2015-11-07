@@ -41,27 +41,27 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Qty</strong>"
-msgstr ""
+msgstr "<strong>SL</strong>"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Reference </strong>"
-msgstr ""
+msgstr "<strong>Tham chiếu </strong>"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Scheduled Date</strong>"
-msgstr ""
+msgstr "<strong>Ngày theo kế hoạch</strong>"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
-msgid "<strong>Scheduled Ordering Date:</strong><br/>"
+msgid "<strong>Ngày đặt hàng dự kiến:</strong><br/>"
 msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Selection Type:</strong><br/>"
-msgstr ""
+msgstr "<strong>Kiểu lựa chọn</strong><br/>"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -82,11 +82,14 @@ msgid ""
 "            vendors. Once the tenders have been registered, you can review and\n"
 "            compare them and you can validate some and cancel others."
 msgstr ""
+"Một Mời thầu là một thủ tục để có các chào giá cạnh tranh từ các nhà thầu. Trong một hồ sơ mời thầu,"
+" bạn có thể ghi nhận các sản phẩm bạn cần mua và tạo hàng loại Yêu cầu chào giá (RFQ) gửi các nhà cung cấp.\n"
+"Khi các nhà cung cấp gửi chào thầu (báo giá), bạn có thể xem xét và so sánh chúng và thẩm định một số phù hợp cũng như loại bỏ một số khác không phù hợp."
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cần phải có hành động"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_account_analytic_id
@@ -97,7 +100,7 @@ msgstr "Tài khoản quản trị"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Approved by Vendor"
-msgstr ""
+msgstr "Được duyệt bởi nhà cung cấp"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_bid_line_qty
@@ -118,17 +121,17 @@ msgstr "Bid Selection"
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_tree
 msgid "Call for Tenders"
-msgstr ""
+msgstr "Mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_name
 msgid "Call for Tenders Reference"
-msgstr ""
+msgstr "Số Hồ sơ mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Call for Tenders in negotiation"
-msgstr ""
+msgstr "Mời nhà thầu đàm phán"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -196,7 +199,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_partner
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_partner
 msgid "Choose Vendor"
-msgstr ""
+msgstr "Chọn Nhà cung cấp"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -206,12 +209,12 @@ msgstr "Chọn sản phẩm"
 #. module: purchase_requisition
 #: model:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid "Click to start a new Call for Tenders process."
-msgstr ""
+msgstr "Bấm để khởi động một quy trình mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Close Call for Tenders"
-msgstr ""
+msgstr "Đóng Hồ sơ mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -243,7 +246,7 @@ msgstr "Xác nhận đơn hàng"
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 #: selection:purchase.requisition,state:0
 msgid "Confirmed"
-msgstr "Đã được xác nhận"
+msgstr "Đã xác nhận"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_partner
@@ -253,7 +256,7 @@ msgstr "Tạo Yêu cầu chào giá"
 #. module: purchase_requisition
 #: selection:product.template,purchase_requisition:0
 msgid "Create a draft purchase order"
-msgstr ""
+msgstr "Tạo đơn hàng dự thảo"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_bid_line_qty_create_uid
@@ -280,7 +283,7 @@ msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một 
 #: code:addons/purchase_requisition/wizard/purchase_requisition_partner.py:22
 #, python-format
 msgid "Define product(s) you want to include in the call for tenders."
-msgstr ""
+msgstr "Định nghĩa (các) sản phẩm mà bạn muốn trong hồ sơ mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_description
@@ -293,7 +296,7 @@ msgstr "Miêu tả"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_display_name
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_partner_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Tên hiển thị"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -335,7 +338,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_bid_line_qty_id
@@ -371,7 +374,7 @@ msgstr "Ngày thông điệp cuối cùng"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line___last_update
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_partner___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Sửa lần cuối vào"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_bid_line_qty_write_uid
@@ -379,7 +382,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_partner_write_uid
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_bid_line_qty_write_date
@@ -407,7 +410,7 @@ msgstr "Lịch sử trao đổi"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_multiple_rfq_per_supplier
 msgid "Multiple RFQ per vendor"
-msgstr ""
+msgstr "Nhiều RFQ mỗi Nhà cung cấp"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -422,22 +425,22 @@ msgstr "Mới"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "New Call for Tenders"
-msgstr ""
+msgstr "Hồ sơ mời thầu mới"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số hành động"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số thông điệp cần có hành động"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số thông điệp chưa đọc"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -447,7 +450,7 @@ msgstr "Ngày đặt hàng"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Ordering Date"
-msgstr ""
+msgstr "Ngày đặt hàng"
 
 #. module: purchase_requisition
 #: selection:purchase.requisition,state:0
@@ -464,7 +467,7 @@ msgstr "Loại giao nhận"
 #: model:ir.model.fields,field_description:purchase_requisition.field_product_template_purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_procurement_id
 msgid "Procurement"
-msgstr "Mua sắm"
+msgstr "Cung ứng"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_product_id
@@ -484,7 +487,7 @@ msgstr "Mẫu sản phẩm"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_product_uom_id
 msgid "Product Unit of Measure"
-msgstr "Đơn vị tính của sản phẩm"
+msgstr "Đơn vị đo lường của sản phẩm"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -495,7 +498,7 @@ msgstr "Sản phẩm"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_po_line_ids
 msgid "Products by vendor"
-msgstr ""
+msgstr "Sản phẩm theo Nhà cung cấp"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_ids
@@ -505,7 +508,7 @@ msgstr "Sản phẩm cần mua"
 #. module: purchase_requisition
 #: selection:product.template,purchase_requisition:0
 msgid "Propose a call for tenders"
-msgstr ""
+msgstr "Đề xuất một Hồ sơ mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
@@ -563,7 +566,7 @@ msgstr "Yêu cầu mua hàng"
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition
 #: model:ir.ui.menu,name:purchase_requisition.menu_purchase_requisition_pro_mgt
 msgid "Purchase Tenders"
-msgstr ""
+msgstr "Mời thầu"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.act_res_partner_2_purchase_order
@@ -580,7 +583,7 @@ msgstr "Số lượng"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_line_quantity_tendered
 msgid "Quantity Tendered"
-msgstr ""
+msgstr "Số lượng mời thầu"
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:201
@@ -643,7 +646,7 @@ msgstr "Ngày dự kiến đặt mua"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Search Call for Tenders"
-msgstr ""
+msgstr "Tìm hồ sơ thầu"
 
 #. module: purchase_requisition
 #: selection:purchase.requisition,exclusive:0
@@ -660,7 +663,8 @@ msgstr "Chỉ chọn một RFQ (độc quyền)"
 msgid ""
 "Select only one RFQ (exclusive):  On the confirmation of a purchase order, it cancels the remaining purchase order.\n"
 "Select multiple RFQ:  It allows to have multiple purchase orders.On confirmation of a purchase order it does not cancel the remaining orders"
-msgstr "Chỉ chọn một RFQ (độc quyền):  Khi xác nhận một đơn hàng, nó sẽ hủy bỏ các đơn hàng còn lại.\nChọn nhiều RFQ:  Nó cho phép có nhiều đơn hàng. Khi xác nhận đơn hàng, nó sẽ không hủy các đơn hàng còn lại"
+msgstr "Chỉ chọn một RFQ (độc quyền):  Khi xác nhận một đơn hàng, nó sẽ hủy bỏ các đơn hàng còn lại.\n"
+"Chọn nhiều RFQ:  Nó cho phép có nhiều đơn hàng. Khi xác nhận đơn hàng, nó sẽ không hủy các đơn hàng còn lại"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -739,12 +743,12 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_tree_tender
 msgid "Vendor"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_partner_partner_ids
 msgid "Vendors"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_warehouse_id
@@ -765,7 +769,7 @@ msgstr "Lịch sử thông tin liên lạc website"
 #: code:addons/purchase_requisition/purchase_requisition.py:72
 #, python-format
 msgid "You can not confirm call because there is no product line."
-msgstr ""
+msgstr "Bạn không thể xác nhận vì không có sản phẩm nào trong hồ sơ mời thầu"
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:249
@@ -790,4 +794,4 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "e.g. PO0025"
-msgstr "e.g. PO0025"
+msgstr "vd: PO0025"
