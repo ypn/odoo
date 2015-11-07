@@ -1686,7 +1686,7 @@ msgstr "Tạo ghi chú nội bộ"
 #: code:addons/mail/static/src/xml/chatter.xml:75
 #, python-format
 msgid "Log an internal note"
-msgstr "Tạo ghi chú nội bộ"
+msgstr "Ghi chú nội bộ"
 
 #. module: mail
 #. openerp-web
@@ -1696,6 +1696,7 @@ msgid ""
 "Log an internal note which will not be sent to followers, but which can be read\n"
 "                    by users accessing this document."
 msgstr ""
+"Ghi chú nội bộ sẽ không được gửi đến những người theo dõi tài liệu này nhưng có thể đọc được bởi người dùng có quyền truy cập tài liệu này."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
@@ -1973,7 +1974,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/chatter.xml:72
 #, python-format
 msgid "New message"
-msgstr ""
+msgstr "Gửi tin"
 
 #. module: mail
 #. openerp-web
@@ -2006,7 +2007,7 @@ msgstr "Ghi chú"
 #: code:addons/mail/static/src/xml/thread.xml:48
 #, python-format
 msgid "Note by"
-msgstr ""
+msgstr "Ghi chú bởi"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search
@@ -3062,6 +3063,8 @@ msgid ""
 "Warning! \n"
 " If you remove a follower, he won't be notified of any email or discussion on this document. Do you really want to remove this follower ?"
 msgstr ""
+"Cảnh báo! \n"
+"Nếu bạn gỡ bỏ một người theo dõi, người này sẽ không nhận được thông báo về các email hay thảo luận trên tài liệu này. Bạn có thực sự muốn gỡ người này?"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_sub_model_object_field
