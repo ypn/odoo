@@ -57,6 +57,7 @@ Main Features
     ],
     'installable': True,
     'application': True,
+    'auto_install': True,
     'qweb': [
         'static/src/xml/client_action.xml',
         'static/src/xml/composer.xml',
