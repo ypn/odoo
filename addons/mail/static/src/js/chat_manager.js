@@ -19,6 +19,7 @@ var ChannelModel = new Model('mail.channel', session.context);
 //----------------------------------------------------------------------------------
 var messages = [];
 var channels = [];
+var channel_defs = {};
 var emojis = [];
 var emoji_substitutions = {};
 var needaction_counter = 0;
@@ -68,9 +69,11 @@ function make_message (data) {
     var msg = {
         id: data.id,
         author_id: data.author_id,
-        body: data.body,
+        body_short: data.body_short || "",
+        body: data.body || "",
         date: data.date,
         message_type: data.message_type,
+        subtype_description: data.subtype_description,
         is_note: data.is_note,
         attachment_ids: data.attachment_ids,
         subject: data.subject,
@@ -339,6 +342,10 @@ function on_channel_notification (message) {
     if (channel) {
         channel.unread_counter++;
         add_message(message, { channel_id: channel.id, show_notification: true });
+    } else {
+        chat_manager.join_channel(message.channel_ids[0], {autoswitch: false}).then(function() {
+            add_message(message, { channel_id: message.channel_ids[0], show_notification: true });
+        });
     }
 }
 
@@ -378,14 +385,14 @@ function on_mark_as_read_notification (data) {
             chat_manager.bus.trigger('update_message', message);
         }
     });
-    if (data.channel_ids.length) {
+    if (data.channel_ids) {
         _.each(data.channel_ids, function (channel_id) {
             var channel = chat_manager.get_channel(channel_id);
             if (channel) {
                 channel.needaction_counter -= data.message_ids.length;
             }
         });
-    } else {
+    } else { // if no channel_ids specified, this is a 'mark all read' in the inbox
         _.each(channels, function (channel) {
             channel.needaction_counter = 0;
         });
@@ -395,6 +402,12 @@ function on_mark_as_read_notification (data) {
 }
 
 function on_mark_as_unread_notification (data) {
+    _.each(data.message_ids, function (message_id) {
+        var message = _.findWhere(messages, { id: message_id });
+        if (message) {
+            add_channel_to_message(message, 'channel_inbox');
+        }
+    });
     _.each(data.channel_ids, function (channel_id) {
         var channel = chat_manager.get_channel(channel_id);
         if (channel) {
@@ -414,8 +427,7 @@ function on_chat_session_notification (chat_session) {
     }
     // partner specific change (open a detached window for example)
     if ((chat_session.state === "open") || (chat_session.state === "folded")) {
-        add_channel(chat_session, {autoswitch: false});
-        if (chat_session.is_minimized) {
+        if (chat_session.is_minimized && chat_manager.get_channel(chat_session.id)) {
             chat_manager.bus.trigger("open_chat", chat_session);
         }
     } else if (chat_session.state === "closed") {
@@ -468,7 +480,7 @@ var chat_manager = {
     },
     mark_all_as_read: function (channel) {
         if ((!channel && needaction_counter) || (channel && channel.needaction_counter)) {
-            return MessageModel.call('mark_all_as_read', channel ? [[channel.id]] : [[]]);
+            return MessageModel.call('mark_all_as_read', channel ? [[channel.id]] : []);
         }
         return $.when();
     },
@@ -525,22 +537,28 @@ var chat_manager = {
             .then(add_channel);
     },
     join_channel: function (channel_id, options) {
-        return ChannelModel
+        if (channel_id in channel_defs) {
+            return channel_defs[channel_id];
+        }
+        var def = ChannelModel
             .call('channel_join_and_get_info', [[channel_id]])
             .then(function (result) {
                 add_channel(result, options);
             });
+        channel_defs[channel_id] = def;
+        return def;
     },
 
     unsubscribe: function (channel) {
         var def;
-        if (channel.type === "dm") {
-            def = ChannelModel.call('channel_pin', [channel.uuid, false]);
-        } else {
+        if (_.contains(['public', 'private'], channel.type)) {
             def = ChannelModel.call('action_unfollow', [[channel.id]]);
+        } else {
+            def = ChannelModel.call('channel_pin', [channel.uuid, false]);
         }
         return def.then(function () {
             channels = _.without(channels, channel);
+            delete channel_defs[channel.id];
         });
     },
     close_chat_session: function (channel_id) {
@@ -571,9 +589,9 @@ function init () {
     });
 
     var load_channels = session.rpc('/mail/client_action').then(function (result) {
-        _.each(result.channel_slots.channel_channel, add_channel);
-        _.each(result.channel_slots.channel_private_group, add_channel);
-        _.each(result.channel_slots.channel_direct_message, add_channel);
+        _.each(result.channel_slots, function (channels) {
+            _.each(channels, add_channel);
+        });
         needaction_counter = result.needaction_inbox_counter;
     });
 
