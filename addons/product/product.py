@@ -349,6 +349,14 @@ class product_attribute_line(osv.osv):
         'value_ids': fields.many2many('product.attribute.value', id1='line_id', id2='val_id', string='Attribute Values'),
     }
 
+    def _check_valid_attribute(self, cr, uid, ids, context=None):
+        obj_pal = self.browse(cr, uid, ids[0], context=context)
+        return obj_pal.value_ids <= obj_pal.attribute_id.value_ids
+
+    _constraints = [
+        (_check_valid_attribute, 'Error ! You cannot use this attribute with the following value.', ['attribute_id'])
+    ]
+
     def name_search(self, cr, uid, name='', args=None, operator='ilike', context=None, limit=100):
         # TDE FIXME: currently overriding the domain; however as it includes a
         # search on a m2o and one on a m2m, probably this will quickly become
@@ -1209,6 +1217,10 @@ class product_product(osv.osv):
             return price_history_obj.read(cr, uid, history_ids[0], ['cost'], context=context)['cost']
         return 0.0
 
+    def _need_procurement(self, cr, uid, ids, context=None):
+        # When sale/product is installed alone, there is no need to create procurements. Only
+        # sale_stock and sale_service need procurements
+        return False
 
 class product_packaging(osv.osv):
     _name = "product.packaging"
