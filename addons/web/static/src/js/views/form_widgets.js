@@ -15,6 +15,7 @@ var Priority = require('web.Priority');
 var pyeval = require('web.pyeval');
 var session = require('web.session');
 var utils = require('web.utils');
+var dom_utils = require('web.dom_utils');
 
 var _t = core._t;
 var QWeb = core.qweb;
@@ -80,7 +81,6 @@ var WidgetButton = common.FormWidget.extend({
     },
     on_confirmed: function() {
         var self = this;
-
         var context = this.build_context();
         return this.view.do_execute_action(
             _.extend({}, this.node.attrs, {context: context}),
@@ -88,6 +88,8 @@ var WidgetButton = common.FormWidget.extend({
                 if (!_.isObject(reason)) {
                     self.view.recursive_reload();
                 }
+            }).fail(function () {
+                self.view.recursive_reload();
             });
     },
     check_disable: function() {
@@ -573,16 +575,8 @@ var FieldText = common.AbstractField.extend(common.ReinitializeFieldMixin, {
     render_value: function() {
         if (! this.get("effective_readonly")) {
             var show_value = formats.format_value(this.get('value'), this, '');
-            if (show_value === '') {
-                this.$textarea.css('height', parseInt(this.default_height, 10)+"px");
-            }
             this.$textarea.val(show_value);
-            if (! this.auto_sized) {
-                this.auto_sized = true;
-                autosize(this.$textarea);
-            } else {
-                this.$textarea.trigger("autosize");
-            }
+            dom_utils.autoresize(this.$textarea, {parent: this, min_height: parseInt(this.default_height)});
         } else {
             var txt = this.get("value") || '';
             this.$(".oe_form_text_content").text(txt);

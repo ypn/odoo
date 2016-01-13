@@ -150,7 +150,7 @@ class PurchaseOrder(models.Model):
     picking_type_id = fields.Many2one('stock.picking.type', 'Deliver To', states=READONLY_STATES, required=True, default=_default_picking_type,\
         help="This will determine picking type of incoming shipment")
     default_location_dest_id_usage = fields.Selection(related='picking_type_id.default_location_dest_id.usage', string='Destination Location Type',\
-        help="Technical field used to display the Drop Ship Address")
+        help="Technical field used to display the Drop Ship Address", readonly=True)
     group_id = fields.Many2one('procurement.group', string="Procurement Group")
 
     @api.model
@@ -182,7 +182,7 @@ class PurchaseOrder(models.Model):
     @api.multi
     def unlink(self):
         for order in self:
-            if order.state not in ['draft', 'cancel']:
+            if not order.state == 'cancel':
                 raise UserError(_('In order to delete a purchase order, you must cancel it first.'))
         return super(PurchaseOrder, self).unlink()
 

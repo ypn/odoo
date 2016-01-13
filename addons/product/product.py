@@ -457,7 +457,7 @@ class product_template(osv.osv):
         return [x['product_tmpl_id'][0] for x in r]
 
     def _get_product_template_type(self, cr, uid, context=None):
-        return [('consu', 'Consumable'), ('service', 'Service')]
+        return [('consu', _('Consumable')), ('service', _('Service'))]
     _get_product_template_type_wrapper = lambda self, *args, **kwargs: self._get_product_template_type(*args, **kwargs)
 
     _columns = {
@@ -710,7 +710,7 @@ class product_template(osv.osv):
             ctx.update(active_test=False)
             product_ids = []
             for product in self.browse(cr, uid, ids, context=ctx):
-                product_ids = map(int,product.product_variant_ids)
+                product_ids += map(int, product.product_variant_ids)
             self.pool.get("product.product").write(cr, uid, product_ids, {'active': vals.get('active')}, context=ctx)
         return res
 
