@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-25 08:35+0000\n"
 "PO-Revision-Date: 2015-12-25 08:35+0000\n"
@@ -13,11 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mail
 #: model:mail.template,body_html:mail.mail_template_data_notification_email_default
-msgid "\n"
+msgid ""
+"\n"
 "<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n"
 "    <div itemprop=\"potentialAction\" itemscope itemtype=\"http://schema.org/ViewAction\">\n"
 "        <link itemprop=\"target\" href=\"${ctx['button_access']['url']}\"/>\n"
@@ -114,12 +116,11 @@ msgid "\n"
 "    </table>\n"
 "</div>\n"
 "% endif\n"
-""
 msgstr ""
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/js/chat_manager.js:102
+#: code:addons/mail/static/src/js/chat_manager.js:53
 #, python-format
 msgid " from "
 msgstr " từ "
@@ -513,7 +514,7 @@ msgstr "Avatar của Tác giả"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_group_public_id
 msgid "Authorized Group"
-msgstr "Nhóm được phép"
+msgstr "Nhóm Có thẩm quyền"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_auto_delete
@@ -556,7 +557,7 @@ msgstr "Có khả năng gửi thư hàng loạt"
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #: model:ir.ui.view,arch_db:mail.view_message_form
 msgid "Body"
-msgstr "Body"
+msgstr "Thân"
 
 #. module: mail
 #. openerp-web
@@ -581,30 +582,30 @@ msgstr "Đã hủy"
 #. module: mail
 #: selection:mail.shortcode,shortcode_type:0
 msgid "Canned Response"
-msgstr "Canned Response"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_shortcode
 msgid "Canned Response / Shortcode"
-msgstr "Canned Response / Shortcode"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail_email_cc
 msgid "Carbon copy message recipients"
-msgstr "Carbon copy message recipients"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_cc
 #: model:ir.model.fields,help:mail.field_mail_template_email_cc
 msgid "Carbon copy recipients (placeholders may be used here)"
-msgstr "Carbon copy recipients (placeholders may be used here)"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_email_cc
 #: model:ir.model.fields,field_description:mail.field_mail_mail_email_cc
 #: model:ir.model.fields,field_description:mail.field_mail_template_email_cc
 msgid "Cc"
-msgstr "Cc"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
@@ -3196,12 +3197,3 @@ msgstr "bản ghi:"
 #, python-format
 msgid "this document"
 msgstr "tài liệu này"
-
-#. module: mail
-#. openerp-web
-#: code:addons/mail/static/src/xml/client_action.xml:29
-#: code:addons/mail/static/src/xml/client_action.xml:38
-#: code:addons/mail/static/src/xml/client_action.xml:48
-#, python-format
-msgid "true"
-msgstr "true"
