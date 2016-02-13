@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-22 14:25+0000\n"
 "PO-Revision-Date: 2016-01-22 14:25+0000\n"
@@ -13,11 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_state
-msgid "\n"
+msgid ""
+"\n"
 "                * Draft: not confirmed yet and will not be scheduled until confirmed\n"
 "\n"
 "                * Waiting Another Operation: waiting for another move to proceed before it becomes automatically available (e.g. in Make-To-Order flows)\n"
@@ -53,61 +55,65 @@ msgid "\n"
 msgstr ""
 
 #. module: stock
-#: code:addons/stock/stock.py:1858
+#: code:addons/stock/stock.py:1847
 #, python-format
 msgid " (%s reserved)"
 msgstr " (%s xí trước)"
 
 #. module: stock
-#: code:addons/stock/stock.py:1861
+#: code:addons/stock/stock.py:1850
 #, python-format
 msgid " (reserved)"
 msgstr " (xí trước)"
 
 #. module: stock
-#: code:addons/stock/stock.py:3500
+#: code:addons/stock/stock.py:3182
 #, python-format
-msgid " MTO"
-msgstr " MTO"
+msgid ""
+"You cannot have two inventory adjustements in state 'in Progess' with the "
+"same product(%s), same location(%s), same package, same owner and same lot. "
+"Please first validate the first inventory adjustement with this product "
+"before creating another one."
+msgstr ""
 
 #. module: stock
-#: code:addons/stock/product.py:211
-#: code:addons/stock/product.py:384
+#: code:addons/stock/stock.py:3482
+#, python-format
+msgid " MTO"
+msgstr ""
+
+#. module: stock
+#: code:addons/stock/product.py:209 code:addons/stock/product.py:382
 #, python-format
 msgid " On Hand"
 msgstr " Trong kho"
 
 #. module: stock
-#: code:addons/stock/stock.py:3637
-#: code:addons/stock/stock.py:3930
+#: code:addons/stock/stock.py:3619 code:addons/stock/stock.py:3912
 #, python-format
 msgid " Sequence in"
 msgstr " Trình tự vào"
 
 #. module: stock
-#: code:addons/stock/stock.py:3641
-#: code:addons/stock/stock.py:3938
+#: code:addons/stock/stock.py:3623 code:addons/stock/stock.py:3920
 #, python-format
 msgid " Sequence internal"
 msgstr " Trình tự nội bộ"
 
 #. module: stock
-#: code:addons/stock/stock.py:3638
-#: code:addons/stock/stock.py:3932
+#: code:addons/stock/stock.py:3620 code:addons/stock/stock.py:3914
 #, python-format
 msgid " Sequence out"
 msgstr " Trình tự ra"
 
 #. module: stock
-#: code:addons/stock/stock.py:3639
-#: code:addons/stock/stock.py:3934
+#: code:addons/stock/stock.py:3621 code:addons/stock/stock.py:3916
 #, python-format
 msgid " Sequence packing"
 msgstr ""
 
 #. module: stock
-#: code:addons/stock/stock.py:3640
-#: code:addons/stock/stock.py:3936
+#: code:addons/stock/stock.py:3622 code:addons/stock/stock.py:3918
 #, python-format
 msgid " Sequence picking"
 msgstr ""
@@ -118,13 +124,13 @@ msgid "#Products"
 msgstr ""
 
 #. module: stock
-#: code:addons/stock/stock.py:2757
+#: code:addons/stock/stock.py:2739
 #, python-format
 msgid "%s %s %s has been <b>moved to</b> scrap."
 msgstr "%s %s %s đã được <b>chuyển thành</b> phế liệu."
 
 #. module: stock
-#: code:addons/stock/stock.py:3317
+#: code:addons/stock/stock.py:3299
 #, python-format
 msgid "%s: Supply Product from %s"
 msgstr "%s: Cung cấp sản phẩm từ %s"
@@ -137,7 +143,8 @@ msgstr "%s: Địa điểm chuyển tiếp"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_state
-msgid "* New: When the stock move is created and not yet confirmed.\n"
+msgid ""
+"* New: When the stock move is created and not yet confirmed.\n"
 "* Waiting Another Move: This state can be seen when a move is waiting for another one, for example in a chained flow.\n"
 "* Waiting Availability: This state is reached when the procurement resolution is not straight forward. It may need the scheduler to run, a component to me manufactured...\n"
 "* Available: When products are reserved, it is set to 'Available'.\n"
@@ -166,22 +173,7 @@ msgid "* Vendor Location: Virtual location representing the source location for 
 "                       \n"
 "* Transit Location: Counterpart location that should be used in inter-companies or inter-warehouses operations\n"
 "                      "
-msgstr "* Vendor Location: Virtual location representing the source location for products coming from your vendors\n"
-"                       \n"
-"* View: Virtual location used to create a hierarchical structures for your warehouse, aggregating its child locations ; can't directly contain products\n"
-"                       \n"
-"* Internal Location: Physical locations inside your own warehouses,\n"
-"                       \n"
-"* Customer Location: Virtual location representing the destination location for products sent to your customers\n"
-"                       \n"
-"* Inventory Loss: Virtual location serving as counterpart for inventory operations used to correct stock levels (Physical inventories)\n"
-"                       \n"
-"* Procurement: Virtual location serving as temporary counterpart for procurement operations when the source (vendor or production) is not known yet. This location should be empty when the procurement scheduler has finished running.\n"
-"                       \n"
-"* Production: Virtual counterpart location for production operations: this location consumes the raw material and produces finished products\n"
-"                       \n"
-"* Transit Location: Counterpart location that should be used in inter-companies or inter-warehouses operations\n"
-"                      "
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -191,7 +183,7 @@ msgstr ", nếu phân hệ kế toán hoặc mua hàng đã được cài đặt
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "- The Odoo Team"
-msgstr ""
+msgstr "- The ERPOnline Team"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

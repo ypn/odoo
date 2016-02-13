@@ -244,25 +244,25 @@ msgstr "<span class=\"o_stat_text\">Gỡ bỏ</span>\n"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_general_configuration_mail_alias_domain
 msgid "<span>failed emails</span>"
-msgstr "<span>failed emails</span>"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
-msgid "<strong>All records matching your current search filter will be mailed,\n"
+msgid ""
+"<strong>All records matching your current search filter will be mailed,\n"
 "                                    not only the ids selected in the list view.</strong><br/>\n"
 "                                If you want to work only with selected ids, please uncheck the\n"
 "                                list header checkbox."
-msgstr "<strong>All records matching your current search filter will be mailed,\n"
-"                                    not only the ids selected in the list view.</strong><br/>\n"
-"                                If you want to work only with selected ids, please uncheck the\n"
-"                                list header checkbox."
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
-msgid "<strong>Moreover, if you want to send a lot of emails, we recommend you to use the mass mailing module</strong>. <br/>\n"
+msgid ""
+"<strong>Moreover, if you want to send a lot of emails, we recommend you to use the mass mailing module</strong>. <br/>\n"
 "                                Confirming this wizard will probably take a few minutes blocking your browser."
-msgstr "<strong>Moreover, if you want to send a lot of emails, we recommend you to use the mass mailing module</strong>. <br/>\n"
-"                                Confirming this wizard will probably take a few minutes blocking your browser."
+msgstr ""
+"<strong>Hơn nữa, nếu bạn muốn gửi nhiều email, chúng tôi khuyên bạn nên sử dụng mô đun Mass Mailing (gửi email hàng loạt)</strong>. <br/>\n"
+"                                Xác nhận đồ thuật này sẽ mất vài phút, đồng thời phong toả trình duyệt của bạn trong lúc thực hiện"
 
 #. module: mail
 #. openerp-web
@@ -272,11 +272,20 @@ msgid "@ Inbox"
 msgstr "@ Hộp thư đến"
 
 #. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/xml/systray.xml:20
+#, python-format
+msgid "@Inbox"
+msgstr "@Hộp thư đến"
+
+#. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_defaults
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_defaults
 #: model:ir.model.fields,help:mail.field_res_users_alias_defaults
-msgid "A Python dictionary that will be evaluated to provide default values when creating new records for this alias."
-msgstr "A Python dictionary that will be evaluated to provide default values when creating new records for this alias."
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
 
 #. module: mail
 #: model:ir.actions.act_window,help:mail.mail_shortcode_action
@@ -309,7 +318,7 @@ msgstr "Hiệu lực"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_active_domain
 msgid "Active domain"
-msgstr "Miền kích hoạt"
+msgstr "Miền hiệu lực"
 
 #. module: mail
 #. openerp-web
@@ -320,14 +329,21 @@ msgstr "Hoạt động"
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/xml/chatter.xml:139
+#: code:addons/mail/static/src/xml/client_action.xml:78
+#, python-format
+msgid "Add"
+msgstr ""
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/xml/chatter.xml:144
 #, python-format
 msgid "Add Channels"
 msgstr "Thêm Kênh"
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/xml/chatter.xml:136
+#: code:addons/mail/static/src/xml/chatter.xml:141
 #: model:ir.ui.view,arch_db:mail.mail_wizard_invite_form
 #, python-format
 msgid "Add Followers"
@@ -341,8 +357,8 @@ msgstr "Thêm Chữ ký"
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/xml/client_action.xml:30
-#: code:addons/mail/static/src/xml/client_action.xml:47
+#: code:addons/mail/static/src/xml/client_action.xml:26
+#: code:addons/mail/static/src/xml/client_action.xml:44
 #, python-format
 msgid "Add a channel"
 msgstr "Thêm một kênh"
