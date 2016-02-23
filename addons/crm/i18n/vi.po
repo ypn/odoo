@@ -1320,7 +1320,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 msgid "Describe the lead..."
-msgstr "Miêu tả đầu mối..."
+msgstr "Miêu tả tiềm năng..."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_description
@@ -2021,33 +2021,33 @@ msgstr "Cập nhật lần cuối vào"
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #, python-format
 msgid "Lead"
-msgstr "Đầu mối"
+msgstr "Tiềm năng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Lead / Customer"
-msgstr "Đầu mối / Khách hàng"
+msgstr "Tiềm năng / Khách hàng"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_create
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead
 msgid "Lead Created"
-msgstr "Đầu mối được tạo"
+msgstr "Tiềm năng được tạo"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
 msgid "Lead To Opportunity Partner"
-msgstr "Từ Đầu mối tới cơ hội đối tác"
+msgstr "Từ Tiềm năng tới cơ hội đối tác"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
 msgid "Lead created"
-msgstr "Đầu mối được tạo"
+msgstr "Tiềm năng được tạo"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Đầu mối/Cơ hội"
+msgstr "Tiềm năng/Cơ hội"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mass_mail
@@ -2067,13 +2067,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads"
-msgstr "Các đầu mối"
+msgstr "Các tiềm năng"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:60
 #, python-format
 msgid "Leads / Opportunities"
-msgstr "Đầu mối / Cơ hội"
+msgstr "Tiềm năng / Cơ hội"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_report_crm_lead_salesteam
@@ -2082,7 +2082,7 @@ msgstr "Đầu mối / Cơ hội"
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_pivot_lead
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Leads Analysis"
-msgstr "Phân tích Đầu Mối"
+msgstr "Phân tích tiềm năng"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.action_report_crm_lead_salesteam
@@ -2090,7 +2090,7 @@ msgid ""
 "Leads Analysis allows you to check different CRM related information like "
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
-msgstr "Phân tích Đầu mối cho phép ạbạn kiểm tra thông tin Quản trị quan hệ khách hàng khác nhau như là việc xử lý chậm trễ hoặc số tiềm năng theo từng bước. Bạn có thể sắp xếp tiềm năng theo các nhóm khác nhau."
+msgstr "Phân tích Tiềm năng cho phép ạbạn kiểm tra thông tin Quản trị quan hệ khách hàng khác nhau như là việc xử lý chậm trễ hoặc số tiềm năng theo từng bước. Bạn có thể sắp xếp tiềm năng theo các nhóm khác nhau."
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_salesperson
@@ -2125,7 +2125,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are assigned to me"
-msgstr "Đầu mối được giao cho bạn"
+msgstr "Tiềm năng được giao cho bạn"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -2137,12 +2137,12 @@ msgstr ""
 msgid ""
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
-msgstr "Đầu mối mà bạn chọn có sự trùng lặp. Nếu danh sách trống, nó có nghĩa là không có sự trùng lặp nào được tìm thấy"
+msgstr "Tiềm năng mà bạn chọn có sự trùng lặp. Nếu danh sách trống, nó có nghĩa là không có sự trùng lặp nào được tìm thấy"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Leads with existing duplicates (for information)"
-msgstr "Đầu mối với thông tin trùng lặp"
+msgstr "Tiềm năng với thông tin trùng lặp"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_merge_opportunity_opportunity_ids
@@ -2175,7 +2175,7 @@ msgstr "Liên kết tới một khách hàng đã tồn tại"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_partner_id
 msgid "Linked partner (optional). Usually created when converting the lead."
-msgstr "Đối tác được liên kết (tùy chọn). Thường được tạo khi chuyển đổi một Đầu mối "
+msgstr "Đối tác được liên kết (tùy chọn). Thường được tạo khi chuyển đổi một Tiềm năng "
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2295,7 +2295,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge Leads/Opportunities"
-msgstr "Trộn Đầu mối/Cơ hội"
+msgstr "Trộn Tiềm năng/Cơ hội"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_partner_merge
@@ -2306,7 +2306,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:crm.action_merge_opportunities
 #: model:ir.actions.act_window,name:crm.merge_opportunity_act
 msgid "Merge leads/opportunities"
-msgstr "Trộn Đầu mối/Cơ hội"
+msgstr "Trộn Tiềm năng/Cơ hội"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_merge_opportunity
@@ -2338,13 +2338,13 @@ msgstr "Trộn cơ hội đã tồn tại"
 #: code:addons/crm/crm_lead.py:543
 #, python-format
 msgid "Merged lead"
-msgstr "Trộn Đầu mối"
+msgstr "Trộn Tiềm năng"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:537
 #, python-format
 msgid "Merged leads"
-msgstr "Đầu mối đã trộn"
+msgstr "Tiềm năng đã trộn"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:539
@@ -3148,7 +3148,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Search Leads"
-msgstr "Tìm kiếm Đầu mối"
+msgstr "Tìm kiếm Tiềm năng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
@@ -3164,7 +3164,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Select Leads/Opportunities"
-msgstr "Chọn  Đầu mối/Cơ hội"
+msgstr "Chọn  Tiềm năng/Cơ hội"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -3266,7 +3266,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only lead"
-msgstr "Chỉ hiển thị  Đầu mối"
+msgstr "Chỉ hiển thị  Tiềm năng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -3460,7 +3460,7 @@ msgstr ""
 msgid ""
 "The email address associated with this team. New emails received will "
 "automatically create new leads assigned to the team."
-msgstr "Địa chỉ email được liên kết với đội ngũ này. Email mới nhận được sẽ tự động tạo Đầu mối mới và gắn tới đội ngũ này."
+msgstr "Địa chỉ email được liên kết với đội ngũ này. Email mới nhận được sẽ tự động tạo Tiềm năng mới và gắn tới đội ngũ này."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_use_leads
@@ -3662,7 +3662,7 @@ msgstr "Loại"
 #: model:ir.model.fields,help:crm.field_crm_lead_type
 #: model:ir.model.fields,help:crm.field_crm_opportunity_report_type
 msgid "Type is used to separate Leads and Opportunities"
-msgstr "Loại được sử dụng để tách riêng đầu mối và Cơ hội"
+msgstr "Loại được sử dụng để tách riêng tiềm năng và Cơ hội"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
