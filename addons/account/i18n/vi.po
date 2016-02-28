@@ -464,15 +464,17 @@ msgstr "<strong>Tạo một Hóa đơn khách hàng</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>Create a Deposit Ticket</strong><br/>\n"
+msgid ""
+"<strong>Create a Deposit Ticket</strong><br/>\n"
 "                                        This allows you to record the different payments that constitute your bank deposit. (You may need to"
-msgstr "<strong>Create a Deposit Ticket</strong><br/>\n"
-"                                        This allows you to record the different payments that constitute your bank deposit. (You may need to"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>Create the bill in Odoo</strong><br/> with a proper due date, and create the vendor if it doesnt' exist yet."
-msgstr "<strong>Create the bill in Odoo</strong><br/> with a proper due date, and create the vendor if it doesnt' exist yet."
+msgid ""
+"<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
+"create the vendor if it doesnt' exist yet."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
@@ -8870,25 +8872,30 @@ msgid "You cannot change the owner company of an account that already contains j
 msgstr "Bạn không thể thay đổi chủ sở hữu công ty của một tài khoản mà đã bao gồm phát sinh."
 
 #. module: account
-#: code:addons/account/models/account_move.py:1009
+#: code:addons/account/models/account_move.py:997
 #, python-format
 msgid "You cannot change the tax, you should remove and recreate lines."
 msgstr "Bạn không thể thay đổi thuế, bạn phải xóa bỏ và tạo lại."
 
 #. module: account
-#: code:addons/account/models/account_move.py:384
+#: code:addons/account/models/account_move.py:379
 #, python-format
-msgid "You cannot create journal items with a secondary currency without filling both 'currency' and 'amount currency' field."
-msgstr "You cannot create journal items with a secondary currency without filling both 'currency' and 'amount currency' field."
+msgid ""
+"You cannot create journal items with a secondary currency without filling "
+"both 'currency' and 'amount currency' field."
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:417
+#: code:addons/account/models/account_invoice.py:406
 #, python-format
-msgid "You cannot delete an invoice after it has been validated (and received a number). You can set it back to \"Draft\" state and modify its content, then re-confirm it."
-msgstr "You cannot delete an invoice after it has been validated (and received a number). You can set it back to \"Draft\" state and modify its content, then re-confirm it."
+msgid ""
+"You cannot delete an invoice after it has been validated (and received a "
+"number). You can set it back to \"Draft\" state and modify its content, then"
+" re-confirm it."
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:415
+#: code:addons/account/models/account_invoice.py:404
 #, python-format
 msgid "You cannot delete an invoice which is not draft or cancelled. You should refund it instead."
 msgstr "Bạn không thể xóa một hóa đơn mà không thuộc trạng thái dự thảo hoặc hủy bỏ. Thay vì thế, bạn nên hoàn tiền cho nó."
@@ -8897,18 +8904,17 @@ msgstr "Bạn không thể xóa một hóa đơn mà không thuộc trạng thá
 #: code:addons/account/models/account.py:168
 #, python-format
 msgid "You cannot do that on an account that contains journal items."
-msgstr "You cannot do that on an account that contains journal items."
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_move.py:1040
+#: code:addons/account/models/account_move.py:1028
 #, python-format
-msgid "You cannot do this modification on a posted journal entry, you can just change some non legal fields. You must revert the journal entry to cancel it.\n"
-"%s."
-msgstr "You cannot do this modification on a posted journal entry, you can just change some non legal fields. You must revert the journal entry to cancel it.\n"
+msgid ""
+"You cannot do this modification on a posted journal entry, you can just change some non legal fields. You must revert the journal entry to cancel it.\n"
 "%s."
 
 #. module: account
-#: code:addons/account/models/account_move.py:1042
+#: code:addons/account/models/account_move.py:1030
 #, python-format
 msgid "You cannot do this modification on a reconciled entry. You can just change some non legal fields or you must unreconcile first.\n"
 "%s."
@@ -8916,28 +8922,39 @@ msgstr "Bạn không thể thực hiện việc chỉnh sửa trên bút toán �
 "%s."
 
 #. module: account
+#: code:addons/account/models/account.py:329
+#, python-format
+msgid ""
+"You cannot empty the account number once set.\n"
+"If you would like to delete the account number, you can do it from the Bank Accounts list."
+msgstr ""
+
+#. module: account
 #: code:addons/account/models/account.py:96
 #, python-format
-msgid "You cannot have a receivable/payable account that is not reconciliable. (account code: %s)"
-msgstr "You cannot have a receivable/payable account that is not reconciliable. (account code: %s)"
+msgid ""
+"You cannot have a receivable/payable account that is not reconciliable. "
+"(account code: %s)"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:126
 #, python-format
 msgid "You cannot mix customer invoices and vendor bills in a single payment."
-msgstr "You cannot mix customer invoices and vendor bills in a single payment."
+msgstr ""
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1788
 #, python-format
 msgid "You cannot mix items from receivable and payable accounts."
-msgstr "You cannot mix items from receivable and payable accounts."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:143
 #, python-format
-msgid "You cannot modify a posted entry of this journal.\n"
+msgid ""
+"You cannot modify a posted entry of this journal.\n"
 "First you should set the journal to allow cancelling entries."
 msgstr "Bạn không thể chỉnh sửa một bút toán đã vào sổ của sổ nhật ký này.\n"
 "Trước tiên bạn nên thiết lập sổ nhật ký để cho phép hủy bút toán."
@@ -8946,41 +8963,45 @@ msgstr "Bạn không thể chỉnh sửa một bút toán đã vào sổ của s
 #: code:addons/account/wizard/pos_box.py:36
 #, python-format
 msgid "You cannot put/take money in/out for a bank statement which is closed."
-msgstr "You cannot put/take money in/out for a bank statement which is closed."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account.py:173
 #, python-format
-msgid "You cannot remove/deactivate an account which is set on a customer or vendor."
-msgstr "You cannot remove/deactivate an account which is set on a customer or vendor."
+msgid ""
+"You cannot remove/deactivate an account which is set on a customer or "
+"vendor."
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_move.py:892
-#: code:addons/account/models/account_move.py:1011
+#: code:addons/account/models/account_move.py:881
+#: code:addons/account/models/account_move.py:999
 #, python-format
 msgid "You cannot use deprecated account."
 msgstr "You cannot use deprecated account."
 
 #. module: account
-#: code:addons/account/models/account_move.py:948
+#: code:addons/account/models/account_move.py:937
 #, python-format
-msgid "You cannot use this general account in this journal, check the tab 'Entry Controls' on the related journal."
-msgstr "Bạn không thể sử dụng tài khoản tổng quát này cho sổ nhật ký này, kiểm tra tab 'Kiểm soát bút toán' trên sổ nhật ký tương ứng."
+msgid ""
+"You cannot use this general account in this journal, check the tab 'Entry "
+"Controls' on the related journal."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "You have"
-msgstr "You have"
+msgstr ""
 
 #. module: account
 #: code:addons/account/wizard/account_report_general_ledger.py:21
 #, python-format
 msgid "You must define a Start Date"
-msgstr "You must define a Start Date"
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:1108
+#: code:addons/account/models/account_invoice.py:1097
 #, python-format
 msgid "You must first select a partner!"
 msgstr "Trước tiên bạn phải chọn một đối tác!"
@@ -8998,28 +9019,39 @@ msgid "You must set a start date."
 msgstr "Bạn phải chọn ngày bắt đầu."
 
 #. module: account
-#: code:addons/account/models/account_move.py:1172
+#: code:addons/account/models/account_move.py:1160
 #, python-format
-msgid "You should configure the 'Exchange Rate Journal' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
-msgstr "You should configure the 'Exchange Rate Journal' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
+msgid ""
+"You should configure the 'Exchange Rate Journal' in the accounting settings,"
+" to manage automatically the booking of accounting entries related to "
+"differences between exchange rates."
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_move.py:1174
+#: code:addons/account/models/account_move.py:1162
 #, python-format
-msgid "You should configure the 'Gain Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
-msgstr "You should configure the 'Gain Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
+msgid ""
+"You should configure the 'Gain Exchange Rate Account' in the accounting "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_move.py:1176
+#: code:addons/account/models/account_move.py:1164
 #, python-format
-msgid "You should configure the 'Loss Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
-msgstr "You should configure the 'Loss Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
+msgid ""
+"You should configure the 'Loss Exchange Rate Account' in the accounting "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
 
 #. module: account
 #: code:addons/account/wizard/pos_box.py:49
 #: code:addons/account/wizard/pos_box.py:67
 #, python-format
-msgid "You should have defined an 'Internal Transfer Account' in your cash register's journal!"
+msgid ""
+"You should have defined an 'Internal Transfer Account' in your cash "
+"register's journal!"
 msgstr ""
 
 #. module: account
@@ -9031,14 +9063,12 @@ msgstr "Bạn đã xác nhận"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_refund
-msgid "You will be able to edit and validate this\n"
+msgid ""
+"You will be able to edit and validate this\n"
 "                                credit note directly or keep it draft,\n"
 "                                waiting for the document to be issued by\n"
 "                                your supplier/customer."
-msgstr "You will be able to edit and validate this\n"
-"                                credit note directly or keep it draft,\n"
-"                                waiting for the document to be issued by\n"
-"                                your supplier/customer."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -9063,22 +9093,22 @@ msgstr "Sản phẩm của bạn"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Your Trial Balance (list of accounts and their balances)."
-msgstr "Your Trial Balance (list of accounts and their balances)."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Your company's legal name, tax ID, address, and logo."
-msgstr "Your company's legal name, tax ID, address, and logo."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Your outstanding invoices, payments, and undeposited funds."
-msgstr "Your outstanding invoices, payments, and undeposited funds."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_position_form
 msgid "Zip Range"
-msgstr "Zip Range"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_zip_from
@@ -9088,17 +9118,17 @@ msgstr "Zip Range From"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_zip_to
 msgid "Zip Range To"
-msgstr "Zip Range To"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_accounts_wizard
 msgid "account.bank.accounts.wizard"
-msgstr "account.bank.accounts.wizard"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_config_settings
 msgid "account.config.settings"
-msgstr "account.config.settings"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_tax_group
@@ -9179,17 +9209,17 @@ msgstr "giao diện ghi nhận nhanh"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "first)"
-msgstr "first)"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "for this customer. You can allocate them to mark this invoice as paid."
-msgstr "for this customer. You can allocate them to mark this invoice as paid."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "for this supplier. You can allocate them to mark this bill as paid."
-msgstr "for this supplier. You can allocate them to mark this bill as paid."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
@@ -9231,12 +9261,12 @@ msgstr "còn lại)"
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_agedpartnerbalance
 msgid "report.account.report_agedpartnerbalance"
-msgstr "report.account.report_agedpartnerbalance"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_financial
 msgid "report.account.report_financial"
-msgstr "report.account.report_financial"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_generalledger
@@ -9257,7 +9287,7 @@ msgstr ""
 #: code:addons/account/models/account_move.py:202
 #, python-format
 msgid "reversal of: "
-msgstr "reversal of: "
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -9291,12 +9321,17 @@ msgstr "nhà cung cấp"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "the customer list"
-msgstr "the customer list"
+msgstr "danh sách khách hàng"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "the parent company"
 msgstr "công ty mẹ"
+
+#. module: account
+#: model:ir.ui.view,arch_db:account.account_planner
+msgid "the product list"
+msgstr "danh mục sản phẩm"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
