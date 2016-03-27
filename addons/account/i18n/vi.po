@@ -313,7 +313,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Reconcile Bank Statements</strong>\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Đối soát sổ phụ ngân hàng</strong>\n"
+"                                        <strong>Đối soát Sao kê ngân hàng</strong>\n"
 "                                    </span>"
 
 #. module: account
@@ -589,7 +589,7 @@ msgstr "<strong>Mua sắm</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Reconcile Bank Statement</strong>"
-msgstr "<strong>Đối soát sổ phụ ngân hàng</strong>"
+msgstr "<strong>Đối soát Sao kê ngân hàng</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -601,19 +601,19 @@ msgstr "<strong>Reconcile with existing transaction</strong><br/>\n"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Reconcile your Bank Statements</strong>"
-msgstr "<strong>Đối soát sổ phụ ngân hàng</strong>"
+msgstr "<strong>Đối soát Sao kê ngân hàng</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Record Bank Statement (or import file)</strong><br/>\n"
 "                                        Depending on the volume of your transactions, you should be recording your bank statement every week to several times a day."
-msgstr "<strong>Đối soát sổ phụ ngân hàng (hoặc import file)</strong><br/>\n"
-"                                        Tùy thuộc vào số lượng giao dịch, bạn nên chi nhận sao kê/sổ phụ ngân hàng hàng tuần, hoặc hàng ngày hoặc thậm chí vài lần mỗi ngày."
+msgstr "<strong>Đối soát Sao kê ngân hàng (hoặc import file)</strong><br/>\n"
+"                                        Tùy thuộc vào số lượng giao dịch, bạn nên ghi nhận sao kê ngân hàng hàng tuần, hoặc hàng ngày hoặc thậm chí vài lần mỗi ngày."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Record Bank Statement</strong>"
-msgstr "<strong>Ghi nhận Sổ phụ ngân hàng</strong>"
+msgstr "<strong>Ghi nhận Sao kê ngân hàng</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1349,7 +1349,7 @@ msgstr "Tất cả các đối soát"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_state
 msgid "All manually created new journal entries are usually in the status 'Unposted', but you can set the option to skip that status on the related journal. In that case, they will behave as journal entries automatically created by the system on document validation (invoices, bank statements...) and will be created in 'Posted' status."
-msgstr "Tất cả số nhật ký được tạo mới một cách thủ công thường trong tình trạng chưa vào sổ, nhưng bạn có thể thiết lập tùy chọn để bỏ qua tình trạng này trên sổ nhật ký tương ứng. Trong trường hợp đó, chúng sẽ hành xử như là một sổ nhật ký được tạo tự động bởi hệ thống trên việc xác nhận tài liệu (hóa đơn, sổ phụ ngân hàng,...) và sẽ được tạo với tình trạng đã vào sổ."
+msgstr "Tất cả số nhật ký được tạo mới một cách thủ công thường trong tình trạng chưa vào sổ, nhưng bạn có thể thiết lập tùy chọn để bỏ qua tình trạng này trên sổ nhật ký tương ứng. Trong trường hợp đó, chúng sẽ hành xử như là một sổ nhật ký được tạo tự động bởi hệ thống trên việc xác nhận tài liệu (hóa đơn, sao kê ngân hàng,...) và sẽ được tạo với tình trạng đã vào sổ."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.validate_account_move_view
@@ -1813,12 +1813,12 @@ msgstr "Bank Reconciliation Move preset"
 #: model:ir.ui.view,arch_db:account.view_bank_statement_form
 #: model:ir.ui.view,arch_db:account.view_bank_statement_search
 msgid "Bank Statement"
-msgstr "Sổ phụ từ Ngân hàng"
+msgstr "Sao kê Ngân hàng"
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "Giao dịch trên sổ phụ ngân hàng"
+msgstr "Dòng trên Sao kê ngân hàng"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_line
@@ -1830,7 +1830,7 @@ msgstr "Bank Statement Lines"
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Bank Statements"
-msgstr "Sổ phụ ngân hàng"
+msgstr "Sao kê ngân hàng"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.partner_view_buttons
@@ -1860,14 +1860,14 @@ msgstr "Bank statement line reconciled with this entry"
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_journal_2_account_bank_statement
 msgid "Bank statements"
-msgstr "Sổ phụ ngân hàng"
+msgstr "Sao kê ngân hàng"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:204
 #, python-format
 msgid "Bank statements are fully reconciled."
-msgstr "Sổ phụ ngân hàng được đối soát hoàn toàn."
+msgstr "Sao kê ngân hàng được đối soát hoàn toàn."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -4324,7 +4324,7 @@ msgstr "In order to delete a bank statement line, you must first cancel it to de
 #: code:addons/account/models/account_bank_statement.py:198
 #, python-format
 msgid "In order to delete a bank statement, you must first cancel it to delete related journal items."
-msgstr "Để xóa một sổ phụ ngân hàng, trước tiên bạn phải hủy bỏ nó và xóa các phát sinh liên quan."
+msgstr "Để xóa một Sao kê ngân hàng, trước tiên bạn phải hủy bỏ nó và xóa các phát sinh liên quan."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:124
@@ -6320,7 +6320,7 @@ msgstr "Planner"
 #: code:addons/account/wizard/pos_box.py:27
 #, python-format
 msgid "Please check that the field 'Journal' is set on the Bank Statement"
-msgstr "Vui lòng kiểm tra trường 'Sổ nhật ký' được thiết lập trên Sổ phụ ngân hàng"
+msgstr "Vui lòng kiểm tra trường 'Sổ nhật ký' được thiết lập trên Sao kê ngân hàng"
 
 #. module: account
 #: code:addons/account/wizard/pos_box.py:29
@@ -6718,7 +6718,7 @@ msgstr "Giao dịch đối soát"
 #: model:ir.actions.client,name:account.action_bank_reconcile
 #: model:ir.actions.client,name:account.action_bank_reconcile_bank_statements
 msgid "Reconciliation on Bank Statements"
-msgstr "Đối soát trên Sổ phụ ngân hàng"
+msgstr "Đối soát trên Sao kê ngân hàng"
 
 #. module: account
 #. openerp-web
@@ -7068,7 +7068,7 @@ msgstr "Tìm kiếm mẫu tài khoản"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_search
 msgid "Search Bank Statements"
-msgstr "Tìm kiếm Sổ phụ ngân hàng"
+msgstr "Tìm kiếm Sao kê ngân hàng"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_line_search
@@ -7755,7 +7755,7 @@ msgstr "Giao dịch ngân hàng đã được đối soát."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_statement_id
 msgid "The bank statement used for bank reconciliation"
-msgstr "Sổ phụ ngân hàng này được sử dụng cho việc đối soát ngân hàng"
+msgstr "Sao kê ngân hàng này được sử dụng cho việc đối soát ngân hàng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company_chart_template_id
