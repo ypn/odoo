@@ -41,7 +41,7 @@ msgstr "Thông tin kế toán"
 #: code:addons/stock_account/wizard/stock_change_standard_price.py:58
 #, python-format
 msgid "Active ID is not set in Context."
-msgstr "Active ID is not set in Context."
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_config_settings_group_stock_inventory_valuation
@@ -121,7 +121,7 @@ msgstr "Tính toán từ giá trung bình"
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_change_standard_price
 msgid "Cost"
-msgstr "Chi phí"
+msgstr "Giá vốn"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category_property_cost_method
@@ -353,7 +353,7 @@ msgstr "Sản phẩm"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_alert_time
 msgid "Product Alert Time"
-msgstr ""
+msgstr "Thời gian báo động sản phẩm"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_product_category
@@ -454,6 +454,9 @@ msgid ""
 "                    Average Price: The cost price is recomputed at each incoming shipment and used for the product valuation.\n"
 "                    Real Price: The cost price displayed is the price of the last outgoing product (will be use in case of inventory loss for example)."
 msgstr ""
+"Giá tiêu chuẩn: Giá vốn được cập nhật tài cuối mỗi kỳ nhất định (thường là một năm).\n"
+"                    Giá Trung bình: Giá vốn được tính toán lại mội lần hàng về và được sử dụng để định giá sản phẩm.\"
+"                    Giá Thực tế: Giá vốn được hiển thị là giá của hàng xuất lần cuối (vd, sẽ được dùng trong truường hợp hàng mất mát)"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_cost_method
@@ -462,6 +465,9 @@ msgid ""
 "Average Price: The cost price is recomputed at each incoming shipment and used for the product valuation.\n"
 "Real Price: The cost price displayed is the price of the last outgoing product (will be used in case of inventory loss for example)."
 msgstr ""
+"Giá tiêu chuẩn: Giá vốn được cập nhật tài cuối mỗi kỳ nhất định (thường là một năm).\n"
+"                    Giá Trung bình: Giá vốn được tính toán lại mội lần hàng về và được sử dụng để định giá sản phẩm.\"
+"                    Giá Thực tế: Giá vốn được hiển thị là giá của hàng xuất lần cuối (vd, sẽ được dùng trong truường hợp hàng mất mát)"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category_property_stock_account_input_categ_id

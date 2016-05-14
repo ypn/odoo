@@ -1,21 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * product
-# 
-# Translators:
+#	* product
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-29 10:26+0000\n"
-"PO-Revision-Date: 2016-01-14 10:10+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
+"POT-Creation-Date: 2016-05-14 08:03+0000\n"
+"PO-Revision-Date: 2016-05-14 08:03+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: \n"
 
 #. module: product
 #: selection:product.pricelist.item,applied_on:0
@@ -29,22 +27,23 @@ msgid "# of Product Variants"
 msgstr "SL biến thể sản phẩm"
 
 #. module: product
-#: code:addons/product/pricelist.py:288
+#: code:addons/product/pricelist.py:370
 #, python-format
 msgid "%s %% discount"
-msgstr ""
+msgstr "%s %% chiết khấu"
 
 #. module: product
-#: code:addons/product/pricelist.py:290
+#: code:addons/product/pricelist.py:372
 #, python-format
 msgid "%s %% discount and %s surcharge"
-msgstr ""
+msgstr "%s %% chiết khấu và %s phụ phí"
 
 #. module: product
-#: code:addons/product/product.py:710 code:addons/product/product.py:1134
+#: code:addons/product/product.py:715
+#: code:addons/product/product.py:1161
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (bản sao)"
+msgstr "%s (sao chép)"
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_1
@@ -54,18 +53,19 @@ msgstr ""
 #. module: product
 #: model:product.product,description_sale:product.product_product_3
 #: model:product.template,description_sale:product.product_product_3_product_template
-msgid ""
-"17\" LCD Monitor\n"
+msgid "17\" LCD Monitor\n"
 "Processor AMD 8-Core\n"
 "512MB RAM\n"
 "HDD SH-1"
-msgstr ""
+msgstr "Màn hình LCD 17\"\n"
+"Processor AMD 8-Core\n"
+"512MB RAM\n"
+"HDD SH-1"
 
 #. module: product
 #: model:product.product,description:product.product_product_25
 #: model:product.template,description:product.product_product_25_product_template
-msgid ""
-"17\" Monitor\n"
+msgid "17\" Monitor\n"
 "4GB RAM\n"
 "Standard-1294P Processor\n"
 "QWERTY keyboard"
@@ -74,8 +74,7 @@ msgstr ""
 #. module: product
 #: model:product.product,description:product.product_product_26
 #: model:product.template,description:product.product_product_26_product_template
-msgid ""
-"17\" Monitor\n"
+msgid "17\" Monitor\n"
 "6GB RAM\n"
 "Hi-Speed 234Q Processor\n"
 "QWERTY keyboard"
@@ -89,8 +88,7 @@ msgstr ""
 #. module: product
 #: model:product.product,description_sale:product.product_product_8
 #: model:product.template,description_sale:product.product_product_8_product_template
-msgid ""
-"2.7GHz quad-core Intel Core i5\n"
+msgid "2.7GHz quad-core Intel Core i5\n"
 "                Turbo Boost up to 3.2GHz\n"
 "                8GB (two 4GB) memory\n"
 "                1TB hard drive\n"
@@ -118,8 +116,7 @@ msgstr ""
 #: model:product.template,description_sale:product.product_product_4b_product_template
 #: model:product.template,description_sale:product.product_product_4c_product_template
 #: model:product.template,description_sale:product.product_product_4d_product_template
-msgid ""
-"7.9‑inch (diagonal) LED-backlit, 128Gb\n"
+msgid "7.9‑inch (diagonal) LED-backlit, 128Gb\n"
 "Dual-core A5 with quad-core graphics\n"
 "FaceTime HD Camera, 1.2 MP Photos"
 msgstr ""
@@ -138,10 +135,12 @@ msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
-msgid ""
-"<span attrs=\"{'invisible':[('base', 'not in', ('list_price','standard_price'))]}\">Public Price  -  </span>\n"
+msgid "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Public Price  -  </span>\n"
+"                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Cost  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Other Pricelist  -  </span>"
-msgstr ""
+msgstr "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Giá niêm yết  -  </span>\n"
+"                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Giá vốn  -  </span>\n"
+"                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Bảng giá khác  -  </span>"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -170,50 +169,43 @@ msgstr "<strong>Ngày in</strong>:<br/>"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_only_form_view
-msgid ""
-"<strong>Warning</strong>: adding or deleting attributes\n"
+msgid "<strong>Warning</strong>: adding or deleting attributes\n"
 "                            will delete and recreate existing variants and lead\n"
 "                            to the loss of their possible customizations."
-msgstr ""
+msgstr "<strong>Cảnh báo</strong>: thêm hoặc xoá (các) thuộc tính\n"
+"                            sẽ xoá và tạo lại toàn bộ biến thể và\n"
+"                            dẫn đến mất toàn bộ những tuỳ biến mà\n"
+"                            bạn đã thực hiện trước đó cho sản phẩm này.\n"
 
 #. module: product
-#: code:addons/product/product.py:977 sql_constraint:product.product:0
+#: code:addons/product/product.py:1002
+#: sql_constraint:product.product:0
 #, python-format
 msgid "A barcode can only be assigned to one product !"
 msgstr "Một mã vạch chỉ có thể được gán cho một sản phẩm"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category_type
-msgid ""
-"A category of the view type is a virtual category that can be used as the "
-"parent of another category to create a hierarchical structure."
+msgid "A category of the view type is a virtual category that can be used as the parent of another category to create a hierarchical structure."
 msgstr "Một nhóm kiểu view là một nhóm ảo mà được sử dụng như là nhóm cha của nhóm khác trong cấu trúc phả hệ."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_type
 #: model:ir.model.fields,help:product.field_product_template_type
-msgid ""
-"A consumable is a product for which you don't manage stock, a service is a "
-"non-material product provided by a company or an individual."
-msgstr ""
+msgid "A consumable is a product for which you don't manage stock, a service is a non-material product provided by a company or an individual."
+msgstr "Một sản phẩm tiêu dùng là một sản phẩm mà không không quản lý dự trữ, một dịch vụ là một sản phẩm không phải vật liệu vật tư được cung cấp bởi một công ty hay một cá nhân."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description_sale
 #: model:ir.model.fields,help:product.field_product_template_description_sale
-msgid ""
-"A description of the Product that you want to communicate to your customers."
-" This description will be copied to every Sale Order, Delivery Order and "
-"Customer Invoice/Refund"
+msgid "A description of the Product that you want to communicate to your customers. This description will be copied to every Sale Order, Delivery Order and Customer Invoice/Refund"
 msgstr "Một miêu tả sản phẩm mà bạn muốn chuyển tới cho khách hàng. Miêu tả này sẽ được sao chép tới từng Hợp đồng bán hàng, Lệnh giao hàng và Hóa đơn/Hoàn tiền Khách hàng"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description_purchase
 #: model:ir.model.fields,help:product.field_product_template_description_purchase
-msgid ""
-"A description of the Product that you want to communicate to your vendors. "
-"This description will be copied to every Purchase Order, Receipt and Vendor "
-"Bill/Refund."
-msgstr ""
+msgid "A description of the Product that you want to communicate to your vendors. This description will be copied to every Purchase Order, Receipt and Vendor Bill/Refund."
+msgstr "A description of the Product that you want to communicate to your vendors. This description will be copied to every Purchase Order, Receipt and Vendor Bill/Refund."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_9
@@ -224,17 +216,14 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description
 #: model:ir.model.fields,help:product.field_product_template_description
-msgid ""
-"A precise description of the Product, used only for internal information "
-"purposes."
+msgid "A precise description of the Product, used only for internal information purposes."
 msgstr "Một miêu tả chính xác của sản phẩm, chỉ được sử dụng cho mực đích thông tin nội bộ."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_pricelist_action2
-msgid ""
-"A price list contains rules to be evaluated in order to compute\n"
+msgid "A price list contains rules to be evaluated in order to compute\n"
 "                the sales price of the products."
-msgstr ""
+msgstr "Một bảng giá chứa các quy tắc để tính toán giá bán của các sản phẩm.\n"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -247,8 +236,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"About the size of a credit card — and just 5.4 mm thin — iPod nano is the thinnest iPod ever made.\n"
+msgid "About the size of a credit card — and just 5.4 mm thin — iPod nano is the thinnest iPod ever made.\n"
 "                                    The 2.5-inch Multi-Touch display is nearly twice as big as the display on the previous iPod nano,\n"
 "                                    so you can see more of the music, photos, and videos you love."
 msgstr ""
@@ -265,7 +253,7 @@ msgstr "Cần có hành động"
 #: model:ir.model.fields,field_description:product.field_product_template_active
 #: model:ir.model.fields,field_description:product.field_product_uom_active
 msgid "Active"
-msgstr "Kích hoạt"
+msgstr "Hiệu lực"
 
 #. module: product
 #: model:product.category,name:product.product_category_all
@@ -273,7 +261,7 @@ msgid "All"
 msgstr "Tất cả"
 
 #. module: product
-#: code:addons/product/pricelist.py:283
+#: code:addons/product/pricelist.py:365
 #, python-format
 msgid "All Products"
 msgstr "Tất cả Sản phẩm"
@@ -281,7 +269,7 @@ msgstr "Tất cả Sản phẩm"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "All general settings about this product are managed on"
-msgstr ""
+msgstr "Tất cả các cài đặt tổng quát về sản phẩm này được quản lý trên"
 
 #. module: product
 #: model:product.product,description:product.product_product_37
@@ -292,9 +280,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
-msgid ""
-"And at the Apple Online Store, you can configure your iMac with an even more"
-" powerful Intel Core i7 processor, up to 3.5GHz."
+msgid "And at the Apple Online Store, you can configure your iMac with an even more powerful Intel Core i7 processor, up to 3.5GHz."
 msgstr ""
 
 #. module: product
@@ -313,13 +299,13 @@ msgstr ""
 #: model:product.product,name:product.product_product_7
 #: model:product.template,name:product.product_product_7_product_template
 msgid "Apple In-Ear Headphones"
-msgstr ""
+msgstr "Apple In-Ear Headphones"
 
 #. module: product
 #: model:product.product,name:product.product_product_9
 #: model:product.template,name:product.product_product_9_product_template
 msgid "Apple Wireless Keyboard"
-msgstr ""
+msgstr "Apple Wireless Keyboard"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
@@ -329,24 +315,24 @@ msgstr "Có thể áp dụng trên"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_applied_on
 msgid "Apply On"
-msgstr ""
+msgstr "Áp dụng cho"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_search
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Archived"
-msgstr ""
+msgstr "Lưu trữ"
 
 #. module: product
 #: model:product.product,name:product.product_assembly
 #: model:product.template,name:product.product_assembly_product_template
 msgid "Assembly Service Cost"
-msgstr ""
+msgstr "Assembly Service Cost"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_sequence
 msgid "Assigns the priority to the list of product vendor."
-msgstr ""
+msgstr "Assigns the priority to the list of product vendor."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_attribute_id
@@ -369,7 +355,7 @@ msgstr "Giá thuộc tính"
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_value_ids
 #: model:ir.ui.menu,name:product.menu_variants_action
 msgid "Attribute Values"
-msgstr ""
+msgstr "Giá trị thuộc tính"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.attribute_action
@@ -390,9 +376,8 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"Auxiliary port lets you connect other audio sources, like an MP3 player"
-msgstr ""
+msgid "Auxiliary port lets you connect other audio sources, like an MP3 player"
+msgstr "Auxiliary port lets you connect other audio sources, like an MP3 player"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_barcode
@@ -402,19 +387,19 @@ msgstr "Mã vạch"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_base
-msgid ""
-"Base price for computation. \n"
+msgid "Base price for computation. \n"
 " Public Price: The base price will be the Sale/public Price. \n"
 " Cost Price : The base price will be the cost price. \n"
 " Other Pricelist : Computation of the base price based on another Pricelist."
-msgstr ""
+msgstr "Giá cơ sở cho việc tính toán. \n"
+" Giá niêm yết: Giá cơ sở sẽ là giá bán/niêm yết. \n"
+" Giá vốn : Giá cơ sở sẽ là giá vốn. \n"
+" Bảng giá khác : Việc tính toán giá cơ sở được dựa trên kết quả tính toán từ bảng giá khác."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_list_price
 #: model:ir.model.fields,help:product.field_product_template_list_price
-msgid ""
-"Base price to compute the customer price. Sometimes called the catalog "
-"price."
+msgid "Base price to compute the customer price. Sometimes called the catalog price."
 msgstr "Giá cơ bản để tính toán giá bán. Đôi khi còn được gọi là giá catalog."
 
 #. module: product
@@ -432,23 +417,23 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Beautiful 7.9‑inch display."
-msgstr ""
+msgstr "Beautiful 7.9‑inch display."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Beautiful widescreen display."
-msgstr ""
+msgstr "Beautiful widescreen display."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image
 msgid "Big-sized image"
-msgstr "Big-sized image"
+msgstr "Hình cỡ lớn"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_factor_inv
 msgid "Bigger Ratio"
-msgstr ""
+msgstr "Tỷ lệ lớn hơn"
 
 #. module: product
 #: selection:product.uom,uom_type:0
@@ -464,60 +449,57 @@ msgstr "Đen"
 #: model:product.product,name:product.product_product_35
 #: model:product.template,name:product.product_product_35_product_template
 msgid "Blank CD"
-msgstr ""
+msgstr "Blank CD"
 
 #. module: product
 #: model:product.product,name:product.product_product_36
 #: model:product.template,name:product.product_product_36_product_template
 msgid "Blank DVD-RW"
-msgstr ""
+msgstr "Blank DVD-RW"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Bluetooth connectivity"
-msgstr ""
+msgstr "Bluetooth connectivity"
 
 #. module: product
 #: model:product.product,name:product.product_product_5b
 #: model:product.template,name:product.product_product_5b_product_template
 msgid "Bose Mini Bluetooth Speaker"
-msgstr ""
+msgstr "Bose Mini Bluetooth Speaker"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Bose Mini Bluetooth Speaker."
-msgstr ""
+msgstr "Bose Mini Bluetooth Speaker."
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_5b
 #: model:product.template,description_sale:product.product_product_5b_product_template
 msgid "Bose's smallest portable Bluetooth speaker"
-msgstr ""
+msgstr "Bose's smallest portable Bluetooth speaker"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Brilliance onscreen. And behind it."
-msgstr ""
+msgstr "Brilliance onscreen. And behind it."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"Buttons let you quickly play, pause, change songs, or adjust the volume.\n"
+msgid "Buttons let you quickly play, pause, change songs, or adjust the volume.\n"
 "                                    The smooth anodized aluminum design makes iPod nano feel as good as it sounds.\n"
 "                                    And iPod nano wouldn’t be iPod nano without gorgeous, hard-to-choose-from color."
 msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_active
-msgid ""
-"By unchecking the active field you can disable a unit of measure without "
-"deleting it."
+msgid "By unchecking the active field you can disable a unit of measure without deleting it."
 msgstr "Bằng cách bỏ chọn trường \"Hiệu lực\" bạn có thể bỏ dùng một đơn vị đo lường mà không phải xóa nó."
 
 #. module: product
@@ -529,7 +511,7 @@ msgstr "Tính giá sản phẩm trên Đơn vị dựa trên phiên bản bảng
 #: model:ir.model.fields,field_description:product.field_product_product_rental
 #: model:ir.model.fields,field_description:product.field_product_template_rental
 msgid "Can be Rent"
-msgstr ""
+msgstr "Có thể (được) cho thuê"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_sale_ok
@@ -547,18 +529,18 @@ msgstr "Hủy"
 #: model:ir.model.fields,field_description:product.field_product_category_type
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "Category Type"
-msgstr "Kiểu Danh mục"
+msgstr "Kiểu Nhóm"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "Category name"
-msgstr ""
+msgstr "Tên nhóm"
 
 #. module: product
-#: code:addons/product/pricelist.py:277
+#: code:addons/product/pricelist.py:359
 #, python-format
 msgid "Category: %s"
-msgstr ""
+msgstr "Nhóm: %s"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -575,30 +557,29 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"Charging cradle recharges the battery and serves as a convenient\n"
+msgid "Charging cradle recharges the battery and serves as a convenient\n"
 "                                    home base for your speaker, and it lets you play while it charges."
 msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_child_id
 msgid "Child Categories"
-msgstr "Danh mục con"
+msgstr "Nhóm con"
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_categ_form_action
 msgid "Click to add a new unit of measure category."
-msgstr ""
+msgstr "Bấm để thêm mới một nhóm đơn vị đo lường."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_form_action
 msgid "Click to add a new unit of measure."
-msgstr ""
+msgstr "Bấm để thêm mới một đơn vị đo lường."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_pricelist_action2
 msgid "Click to create a pricelist."
-msgstr ""
+msgstr "Bấm để tạo mới một bảng giá"
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
@@ -607,12 +588,12 @@ msgstr ""
 #: model:ir.actions.act_window,help:product.product_template_action_product
 #: model:ir.actions.act_window,help:product.product_variant_action
 msgid "Click to define a new product."
-msgstr ""
+msgstr "Bấm để định nghĩa một sản phẩm mới"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Codes"
-msgstr ""
+msgstr "Mã"
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_2
@@ -623,13 +604,12 @@ msgstr "Màu sắc"
 #: model:ir.model.fields,field_description:product.field_product_product_color
 #: model:ir.model.fields,field_description:product.field_product_template_color
 msgid "Color Index"
-msgstr "Mã màu"
+msgstr "Mã mầu"
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_6
 #: model:product.template,description_sale:product.product_product_6_product_template
-msgid ""
-"Color: White\n"
+msgid "Color: White\n"
 "Capacity: 16GB\n"
 "Connectivity: Wifi\n"
 "Beautiful 7.9-inch display\n"
@@ -656,7 +636,7 @@ msgstr "Thành phần"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Compute Price"
-msgstr ""
+msgstr "Giá tính toán"
 
 #. module: product
 #: model:product.product,name:product.product_product_16
@@ -673,7 +653,7 @@ msgstr ""
 #. module: product
 #: model:product.public.category,name:product.Computer_all_in_one
 msgid "Computer all-in-one"
-msgstr ""
+msgstr "Computer all-in-one"
 
 #. module: product
 #: model:product.public.category,name:product.sub_computers
@@ -681,25 +661,21 @@ msgid "Computers"
 msgstr ""
 
 #. module: product
-#: code:addons/product/product.py:460
+#: code:addons/product/product.py:474
 #, python-format
 msgid "Consumable"
-msgstr ""
+msgstr "Tiêu dùng"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_category_id
-msgid ""
-"Conversion between Units of Measure can only occur if they belong to the "
-"same category. The conversion will be made based on the ratios."
-msgstr "Việc chuyển đổi giữa đơn vị đo lường chỉ có thể xảy ra nếu chúng thuộc cùng một nhóm."
+msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
+msgstr "Việc chuyển đổi qua lại giữa các đơn vị đo lường chỉ có thể xảy ra nếu chúng thuộc cùng một nhóm. Việc chuyển đổi sẽ dựa trên tỉ lệ."
 
 #. module: product
-#: code:addons/product/product.py:119
+#: code:addons/product/product.py:122
 #, python-format
-msgid ""
-"Conversion from Product UoM %s to Default UoM %s is not possible as they "
-"both belong to different Category!."
-msgstr "Việc chuyển đổi từ Đơn vị đo lường sản phẩm %s tới đơn vị đo lường mặc định %s là không thể vì cả hai thuộc nhóm khác nhau!."
+msgid "Conversion from Product UoM %s to Default UoM %s is not possible as they both belong to different Category!."
+msgstr "Việc chuyển đổi từ Đơn vị đo lường sản phẩm %s tới đơn vị đo lường mặc định %s là không thể khi cả hai thuộc nhóm khác nhau!."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_price_history_cost
@@ -711,16 +687,13 @@ msgstr "Chi phí"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_standard_price
-msgid ""
-"Cost of the product template used for standard stock valuation in accounting"
-" and used as a base price on purchase orders. Expressed in the default unit "
-"of measure of the product."
-msgstr ""
+msgid "Cost of the product template used for standard stock valuation in accounting and used as a base price on purchase orders. Expressed in the default unit of measure of the product."
+msgstr "Giá vốn của (mẫu) sản phẩm được sử dụng để định giá theo phương pháp tiêu chuẩn trong kế toán và được sử dụng như giá cơ bản cho các đơn hàng mua. Được thể hiện theo đơn vị đo lường mặc định của sản phẩm."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_standard_price
 msgid "Cost of the product, in the default unit of measure of the product."
-msgstr ""
+msgstr "Giá vốn của sản phẩm, theo đơn vị đo lường mặc định của sản phẩm."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_uid
@@ -739,7 +712,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_uom_categ_create_uid
 #: model:ir.model.fields,field_description:product.field_product_uom_create_uid
 msgid "Created by"
-msgstr "Được tạo bởi"
+msgstr "Tạo bởi"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_date
@@ -758,17 +731,13 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:product.field_product_uom_categ_create_date
 #: model:ir.model.fields,field_description:product.field_product_uom_create_date
 msgid "Created on"
-msgstr "Được tạo vào"
+msgstr "Tạo vào"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
-msgid ""
-"Creating such a stunningly thin design took some equally stunning feats of "
-"technological innovation. We refined,re-imagined,or re-engineered everything"
-" about iMac from the inside out. The result is an advanced, elegant all-in-"
-"one computer that’s as much a work of art as it is state of the art."
-msgstr ""
+msgid "Creating such a stunningly thin design took some equally stunning feats of technological innovation. We refined,re-imagined,or re-engineered everything about iMac from the inside out. The result is an advanced, elegant all-in-one computer that’s as much a work of art as it is state of the art."
+msgstr "Creating such a stunningly thin design took some equally stunning feats of technological innovation. We refined,re-imagined,or re-engineered everything about iMac from the inside out. The result is an advanced, elegant all-in-one computer that’s as much a work of art as it is state of the art."
 
 #. module: product
 #: model:ir.model,name:product.model_res_currency
@@ -796,7 +765,7 @@ msgstr ""
 #: model:product.product,description:product.product_product_5
 #: model:product.template,description:product.product_product_5_product_template
 msgid "Custom computer shipped in kit."
-msgstr ""
+msgstr "Custom computer shipped in kit."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_partner_ref
@@ -818,7 +787,7 @@ msgstr "Ngày tháng"
 #: model:ir.model.fields,help:product.field_product_product_message_last_post
 #: model:ir.model.fields,help:product.field_product_template_message_last_post
 msgid "Date of the last message posted on the record."
-msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
+msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi."
 
 #. module: product
 #: model:product.uom,name:product.product_uom_day
@@ -829,14 +798,12 @@ msgstr "Ngày"
 #: model:ir.model.fields,help:product.field_product_product_uom_id
 #: model:ir.model.fields,help:product.field_product_template_uom_id
 msgid "Default Unit of Measure used for all stock operation."
-msgstr "Đơn vị đo mặc định dùng cho tất cả các hoạt động liên quan đến hàng tồn kho."
+msgstr "Đơn vị đo mặc định dùng cho tất cả các hoạt động tồn kho, dự trữ. Có thể coi đây chính là đơn vị đo lường tiêu chuẩn của sản phẩm này trong hệ thống của bạn."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_uom_po_id
 #: model:ir.model.fields,help:product.field_product_template_uom_po_id
-msgid ""
-"Default Unit of Measure used for purchase orders. It must be in the same "
-"category than the default unit of measure."
+msgid "Default Unit of Measure used for purchase orders. It must be in the same category than the default unit of measure."
 msgstr "Đơn vị đo lường mặc định được sử dụng cho hợp đồng mua hàng. Nó phải thuộc cùng nhóm với đơn vị đo lường mặc định."
 
 #. module: product
@@ -864,7 +831,7 @@ msgstr "Miêu tả cho Báo giá"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Description for Vendors"
-msgstr ""
+msgstr "Miêu tả cho Nhà cung cấp"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -878,7 +845,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_55
 #: model:product.template,name:product.product_product_55_product_template
 msgid "Desktop Computer Table"
-msgstr ""
+msgstr "Desktop Computer Table"
 
 #. module: product
 #: model:product.product,name:product.product_product_56
@@ -895,7 +862,7 @@ msgstr "Chỉ ra thứ tự hiển thị"
 #. module: product
 #: model:product.public.category,name:product.devices
 msgid "Devices"
-msgstr ""
+msgstr "Thiết bị"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_display_name
@@ -920,20 +887,18 @@ msgstr "Tên hiển thị"
 #. module: product
 #: model:product.uom,name:product.product_uom_dozen
 msgid "Dozen(s)"
-msgstr ""
+msgstr "Tá"
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_57
 #: model:product.template,description_sale:product.product_product_57_product_template
-msgid ""
-"Dvorak keyboard \n"
+msgid "Dvorak keyboard \n"
 "            left-handed mouse"
 msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_pricelist_action2
-msgid ""
-"Each rule include a set of applicability criteria (date range,\n"
+msgid "Each rule include a set of applicability criteria (date range,\n"
 "                product category...) and a computation that easily helps to achieve\n"
 "                any kind of pricing."
 msgstr ""
@@ -974,50 +939,52 @@ msgstr ""
 #. module: product
 #: constraint:product.category:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "Lỗi ! Bạn không thể tạo nhóm với cấu trúc lặp đi lặp lại."
+msgstr "Lỗi! Bạn không thể tạo nhóm với cấu trúc đệ quy lẫn nhau."
+
+#. module: product
+#: constraint:product.attribute.line:0
+msgid "Error ! You cannot use this attribute with the following value."
+msgstr "Lỗi! Bạn không được sử dụng thuộc tính với giá trị sau."
+
+#. module: product
+#: constraint:product.product:0
+msgid "Error! It is not allowed to choose more than one value for a given attribute."
+msgstr "Lỗi! Không được phép cho nhiều hơn một giá trị cho một thuộc tính cho trước."
 
 #. module: product
 #: constraint:product.pricelist.item:0
 msgid "Error! The minimum margin should be lower than the maximum margin."
-msgstr "Lỗi! Lợi nhuận tối thiểu phải nhỏ hơn lợi nhuận tối đa."
+msgstr "Lỗi! Biên độ tối thiểu phải nhỏ hơn biên độ tối đa."
 
 #. module: product
 #: constraint:product.pricelist.item:0
-msgid ""
-"Error! You cannot assign the Main Pricelist as Other Pricelist in PriceList "
-"Item!"
+msgid "Error! You cannot assign the Main Pricelist as Other Pricelist in PriceList Item!"
 msgstr "Lỗi! Bạn không thể gán một Bảng giá chính thành Bảng giá Khác trong quy tắc tính giá!"
 
 #. module: product
 #: constraint:res.currency:0
-msgid ""
-"Error! You cannot define a rounding factor for the company's main currency "
-"that is smaller than the decimal precision of 'Account'."
+msgid "Error! You cannot define a rounding factor for the company's main currency that is smaller than the decimal precision of 'Account'."
 msgstr "Lỗi! Bạn không thể định nghĩa một hệ số làm tròn cho tiền tệ chính của công ty mà nhỏ hơn độ chính xác thập phân được cấu hình trong 'Kế toán'."
 
 #. module: product
 #: constraint:decimal.precision:0
-msgid ""
-"Error! You cannot define the decimal precision of 'Account' as greater than "
-"the rounding factor of the company's main currency"
+msgid "Error! You cannot define the decimal precision of 'Account' as greater than the rounding factor of the company's main currency"
 msgstr "Lỗi! Bạn không thể định nghĩa một độ chính xác thập phân trong 'Kế toán' mà lơn hơn hệ số làm tròn của tiền tệ chính của công ty"
 
 #. module: product
 #: constraint:product.template:0
-msgid ""
-"Error: The default Unit of Measure and the purchase Unit of Measure must be "
-"in the same category."
+msgid "Error: The default Unit of Measure and the purchase Unit of Measure must be in the same category."
 msgstr "Lỗi: Đơn vị đo lường mặc định và đơn vị đo lường mua hàng phải thuộc cùng một nhóm."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
-msgid ""
-"Everything you love about iPad — the beautiful\n"
+msgid "Everything you love about iPad — the beautiful\n"
 "                                    screen, fast Colors are vivid and text is sharp on the iPad mini display.\n"
 "                                    But what really makes it stand out is its size. At 7.9 inches,\n"
 "                                    it’s perfectly sized to deliver an experience every bit as big as iPad."
-msgstr ""
+msgstr "Everything you love about iPad — the beautiful\n"
+"       "
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -1028,8 +995,7 @@ msgstr ""
 #: model:product.template,website_description:product.product_product_4b_product_template
 #: model:product.template,website_description:product.product_product_4c_product_template
 #: model:product.template,website_description:product.product_product_4d_product_template
-msgid ""
-"Everything you love about iPad — the beautiful\n"
+msgid "Everything you love about iPad — the beautiful\n"
 "                                    screen, fast and fluid performance, FaceTime and\n"
 "                                    iSight cameras, thousands of amazing apps, 10-hour\n"
 "                                    battery life* — is everything you’ll love about\n"
@@ -1039,8 +1005,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
-msgid ""
-"Everything you love about iPad — the beautiful screen,\n"
+msgid "Everything you love about iPad — the beautiful screen,\n"
 "                                        fast and fluid performance, FaceTime and iSight cameras, \n"
 "                                        thousands of amazing apps, 10-hour battery life* — is everything\n"
 "                                        you’ll love about iPad mini, too. And you can hold it in one hand."
@@ -1056,19 +1021,19 @@ msgstr ""
 #: model:product.product,description:product.product_product_0
 #: model:product.template,description:product.product_product_0_product_template
 msgid "Example of product to invoice on order."
-msgstr ""
+msgstr "Example of product to invoice on order."
 
 #. module: product
 #: model:product.product,description:product.product_product_1b
 #: model:product.template,description:product.product_product_1b_product_template
 msgid "Example of products to invoice based on cost."
-msgstr ""
+msgstr "Example of products to invoice based on cost."
 
 #. module: product
 #: model:product.product,description:product.product_product_1
 #: model:product.template,description:product.product_product_1_product_template
 msgid "Example of products to invoice based on delivery."
-msgstr ""
+msgstr "Example of products to invoice based on delivery."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_name
@@ -1091,7 +1056,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_28
 #: model:product.template,name:product.product_product_28_product_template
 msgid "External Hard disk"
-msgstr ""
+msgstr "External Hard disk"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -1102,12 +1067,12 @@ msgstr ""
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Fix Price"
-msgstr ""
+msgstr "Ấn định giá"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_fixed_price
 msgid "Fixed Price"
-msgstr ""
+msgstr "Giá cố định"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_message_follower_ids
@@ -1119,20 +1084,20 @@ msgstr "Người dõi theo"
 #: model:ir.model.fields,field_description:product.field_product_product_message_channel_ids
 #: model:ir.model.fields,field_description:product.field_product_template_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Người dõi theo (Kênh)"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_message_partner_ids
 #: model:ir.model.fields,field_description:product.field_product_template_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Người dõi theo (Đối tác)"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_min_quantity
-msgid ""
-"For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+msgid "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
-msgstr ""
+msgstr "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+"Expressed in the default unit of measure of the product."
 
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
@@ -1142,8 +1107,7 @@ msgstr "Công thức"
 #. module: product
 #: model:product.product,description_sale:product.product_product_7
 #: model:product.template,description_sale:product.product_product_7_product_template
-msgid ""
-"Frequency: 5Hz to 21kHz\n"
+msgid "Frequency: 5Hz to 21kHz\n"
 "Impedance: 23 ohms\n"
 "Sensitivity: 109 dB SPL/mW\n"
 "Drivers: two-way balanced armature\n"
@@ -1156,19 +1120,19 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Friendly to the environment."
-msgstr ""
+msgstr "Friendly to the environment."
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_44
 #: model:product.template,description_sale:product.product_product_44_product_template
 msgid "Full featured image editing software."
-msgstr ""
+msgstr "Full featured image editing software."
 
 #. module: product
 #: model:product.product,name:product.product_product_1
 #: model:product.template,name:product.product_product_1_product_template
 msgid "GAP Analysis Service"
-msgstr ""
+msgstr "GAP Analysis Service"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -1181,22 +1145,17 @@ msgstr "Thông tin chung"
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "Genius. Your own personal DJ."
-msgstr ""
+msgstr "Genius. Your own personal DJ."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_packaging_ids
 #: model:ir.model.fields,help:product.field_product_template_packaging_ids
-msgid ""
-"Gives the different ways to package the same product. This has no impact on "
-"the picking order and is mainly used if you use the EDI module."
+msgid "Gives the different ways to package the same product. This has no impact on the picking order and is mainly used if you use the EDI module."
 msgstr "Cung cấp một cách khác để đóng gói cùng một sản phẩm. Điều này không ảnh hưởng đến đơn hàng xuất kho và chủ yếu được sử dụng trong phân hệ EDI."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_sequence
-msgid ""
-"Gives the order in which the pricelist items will be checked. The evaluation"
-" gives highest priority to lowest sequence and stops as soon as a matching "
-"item is found."
+msgid "Gives the order in which the pricelist items will be checked. The evaluation gives highest priority to lowest sequence and stops as soon as a matching item is found."
 msgstr "Cung cấp thứ tự mà quy tắc tính giá được kiểm tra. Việc đánh giá được thự hiện với mức độ ưu tiên từ cao đến thấp và dừng lại ngay khi một quy tắc phù hợp được tìm thấy."
 
 #. module: product
@@ -1208,7 +1167,7 @@ msgstr "Cung cấp thứ tự hiển thị một danh sách nhóm sản phẩm."
 #: model:ir.model.fields,help:product.field_product_product_sequence
 #: model:ir.model.fields,help:product.field_product_template_sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr ""
+msgstr "Cung cấp trình tự khi hiển thị một danh mục sản phẩm"
 
 #. module: product
 #: selection:product.pricelist.item,applied_on:0
@@ -1219,13 +1178,13 @@ msgstr "Toàn cục"
 #: model:product.product,name:product.product_product_44
 #: model:product.template,name:product.product_product_44_product_template
 msgid "GrapWorks Software"
-msgstr ""
+msgstr "GrapWorks Software"
 
 #. module: product
 #: model:product.product,name:product.product_product_24
 #: model:product.template,name:product.product_product_24_product_template
 msgid "Graphics Card"
-msgstr ""
+msgstr "Graphics Card"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_weight
@@ -1237,26 +1196,25 @@ msgstr "Tổng khối lượng"
 #: model:product.product,name:product.product_product_17
 #: model:product.template,name:product.product_product_17_product_template
 msgid "HDD SH-1"
-msgstr ""
+msgstr "HDD SH-1"
 
 #. module: product
 #: model:product.product,name:product.product_product_18
 #: model:product.template,name:product.product_product_18_product_template
 msgid "HDD SH-2 (mto)"
-msgstr ""
+msgstr "HDD SH-2 (mto)"
 
 #. module: product
 #: model:product.product,name:product.product_product_19
 #: model:product.template,name:product.product_product_19_product_template
 msgid "HDD on Demand"
-msgstr ""
+msgstr "HDD on Demand"
 
 #. module: product
 #: model:product.product,description:product.product_product_32
 #: model:product.template,description:product.product_product_32_product_template
-msgid ""
-"Hands free headset for laptop PC with in-line microphone and headphone plug."
-msgstr ""
+msgid "Hands free headset for laptop PC with in-line microphone and headphone plug."
+msgstr "Hands free headset for laptop PC with in-line microphone and headphone plug."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1264,18 +1222,18 @@ msgstr ""
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "Have Genius call the tunes."
-msgstr ""
+msgstr "Have Genius call the tunes."
 
 #. module: product
 #: model:product.public.category,name:product.Headset
 msgid "Headset"
-msgstr ""
+msgstr "Headset"
 
 #. module: product
 #: model:product.product,name:product.product_product_33
 #: model:product.template,name:product.product_product_33_product_template
 msgid "Headset USB"
-msgstr ""
+msgstr "Headset USB"
 
 #. module: product
 #: model:product.product,description:product.product_product_33
@@ -1300,8 +1258,7 @@ msgstr ""
 #: model:product.product,description_sale:product.product_product_11b
 #: model:product.template,description_sale:product.product_product_11_product_template
 #: model:product.template,description_sale:product.product_product_11b_product_template
-msgid ""
-"Height: 76.5 mm\n"
+msgid "Height: 76.5 mm\n"
 "Width:  39.6 mm\n"
 "Depth:  5.4 mm\n"
 "Weight: 31 grams"
@@ -1321,26 +1278,22 @@ msgstr "Giờ"
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
-msgid ""
-"How did we make an already gorgeous widescreen display even better? By "
-"making it 75 percent less reflective. And by re-architecting the LCD and "
-"moving it right up against the cover glass. So you see your photos, games, "
-"movies, and everything else in vivid, lifelike detail."
+msgid "How did we make an already gorgeous widescreen display even better? By making it 75 percent less reflective. And by re-architecting the LCD and moving it right up against the cover glass. So you see your photos, games, movies, and everything else in vivid, lifelike detail."
 msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_factor_inv
-msgid ""
-"How many times this Unit of Measure is bigger than the reference Unit of Measure in this category:\n"
+msgid "How many times this Unit of Measure is bigger than the reference Unit of Measure in this category:\n"
 "1 * (this unit) = ratio * (reference unit)"
-msgstr "Đơn vị này lớn hơn đơn vị gốc của nhóm này bao nhiêu lần:\n1 * (đơn vị này) = tỷ lệ * (đơn vị gốc)"
+msgstr "Đơn vị này lớn hơn đơn vị gốc của nhóm này bao nhiêu lần:\n"
+"1 * (đơn vị này) = tỷ lệ * (đơn vị gốc)"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_factor
-msgid ""
-"How much bigger or smaller this unit is compared to the reference Unit of Measure for this category:\n"
+msgid "How much bigger or smaller this unit is compared to the reference Unit of Measure for this category:\n"
 "1 * (reference unit) = ratio * (this unit)"
-msgstr "Đơn vị này lơn hơn hoặc nhỏ hơn đơn vị gốc của nhóm này bao nhiêu lần:\n1 * (đơn vị gốc) = tỷ lệ * (đơn vị này)"
+msgstr "Đơn vị này lơn hơn hoặc nhỏ hơn đơn vị gốc của nhóm này bao nhiêu lần:\n"
+"1 * (đơn vị gốc) = tỷ lệ * (đơn vị này)"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1374,31 +1327,29 @@ msgstr "ID"
 #: model:ir.model.fields,help:product.field_product_product_message_unread
 #: model:ir.model.fields,help:product.field_product_template_message_unread
 msgid "If checked new messages require your attention."
-msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_message_needaction
 #: model:ir.model.fields,help:product.field_product_template_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "If it's made for iPad, it's made for iPad mini."
-msgstr ""
+msgstr "If it's made for iPad, it's made for iPad mini."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_active
-msgid ""
-"If unchecked, it will allow you to hide the pricelist without removing it."
+msgid "If unchecked, it will allow you to hide the pricelist without removing it."
 msgstr "Nếu bỏ đánh dấu, nó sẽ cho phép bạn ẩn bảng giá mà không cần xóa bỏ nó."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_active
 #: model:ir.model.fields,help:product.field_product_template_active
-msgid ""
-"If unchecked, it will allow you to hide the product without removing it."
+msgid "If unchecked, it will allow you to hide the product without removing it."
 msgstr "Nếu bỏ đánh dấu, nó sẽ cho phép bạn ẩn sản phẩm mà không cần xóa bỏ nó."
 
 #. module: product
@@ -1408,24 +1359,17 @@ msgstr "Hình ảnh"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image
-msgid ""
-"Image of the product variant (Big-sized image of product template if false)."
-" It is automatically resized as a 1024x1024px image, with aspect ratio "
-"preserved."
+msgid "Image of the product variant (Big-sized image of product template if false). It is automatically resized as a 1024x1024px image, with aspect ratio preserved."
 msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước lớn của sản phẩm). Nó sẽ tự động thay đổi kích thước thành 1024x10024 mà vẫn giữ nguyên tỷ lệ."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_medium
-msgid ""
-"Image of the product variant (Medium-sized image of product template if "
-"false)."
+msgid "Image of the product variant (Medium-sized image of product template if false)."
 msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước vừa phải của sản phẩm)."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_small
-msgid ""
-"Image of the product variant (Small-sized image of product template if "
-"false)."
+msgid "Image of the product variant (Small-sized image of product template if false)."
 msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước nhỏ của sản phẩm)."
 
 #. module: product
@@ -1442,7 +1386,7 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_product_supplierinfo
 msgid "Information about a product vendor"
-msgstr ""
+msgstr "Thông tin về một nhà cung cấp sản phẩm"
 
 #. module: product
 #: model:product.product,name:product.product_product_38
@@ -1453,8 +1397,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
-msgid ""
-"Inside each earpiece is a stainless steel mesh cap that protects the precision acoustic\n"
+msgid "Inside each earpiece is a stainless steel mesh cap that protects the precision acoustic\n"
 "                                    components from dust and debris. You can remove the caps for cleaning or replace\n"
 "                                    them with an extra set that’s included in the box."
 msgstr ""
@@ -1476,12 +1419,12 @@ msgstr "Nhóm nội bộ"
 #: model:ir.model.fields,field_description:product.field_product_product_default_code
 #: model:ir.model.fields,field_description:product.field_product_template_default_code
 msgid "Internal Reference"
-msgstr "Tham chiếu nội bộ"
+msgstr "Mã mặc định"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_barcode
 msgid "International Article Number used for product identification."
-msgstr "Mã số quốc tế được sử dụng để xác định sản phẩm"
+msgstr "Mã số quốc tế IAN được được sử dụng để nhận dạng sản phẩm."
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -1492,7 +1435,7 @@ msgstr "Tồn kho"
 #: model:ir.model.fields,field_description:product.field_product_product_message_is_follower
 #: model:ir.model.fields,field_description:product.field_product_template_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Là một người dõi theo"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_is_product_variant
@@ -1515,7 +1458,7 @@ msgstr ""
 #. module: product
 #: model:product.public.category,name:product.Keyboard_Mouse
 msgid "Keyboard / Mouse"
-msgstr ""
+msgstr "Keyboard / Mouse"
 
 #. module: product
 #: model:product.product,name:product.product_product_27
@@ -1544,7 +1487,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product_message_last_post
 #: model:ir.model.fields,field_description:product.field_product_template_message_last_post
 msgid "Last Message Date"
-msgstr "Ngày thông điệp cuối cùng"
+msgstr "Ngày thông điệp gần nhất"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute___last_update
@@ -1583,7 +1526,7 @@ msgstr "Sửa lần cuối vào"
 #: model:ir.model.fields,field_description:product.field_product_uom_categ_write_uid
 #: model:ir.model.fields,field_description:product.field_product_uom_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_write_date
@@ -1602,20 +1545,17 @@ msgstr "Last Updated by"
 #: model:ir.model.fields,field_description:product.field_product_uom_categ_write_date
 #: model:ir.model.fields,field_description:product.field_product_uom_write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_delay
-msgid ""
-"Lead time in days between the confirmation of the purchase order and the "
-"receipt of the products in your warehouse. Used by the scheduler for "
-"automatic computation of the purchase order planning."
+msgid "Lead time in days between the confirmation of the purchase order and the receipt of the products in your warehouse. Used by the scheduler for automatic computation of the purchase order planning."
 msgstr "Thời gian được tính theo ngày mà Nhà cung cấp hứa sẽ giao hàng từ lúc xác nhận đơn hàng đến lúc nhận hàng. Được sử dụng bởi bộ đặt lịch cho việc tính toán tự động của đơn hàng."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_left
 msgid "Left Parent"
-msgstr "Left Parent"
+msgstr ""
 
 #. module: product
 #: model:product.uom.categ,name:product.uom_categ_length
@@ -1625,7 +1565,7 @@ msgstr "Chiều dài / Khoảng cách"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_attribute_line_ids
 msgid "Lines"
-msgstr "Lines"
+msgstr "Dòng"
 
 #. module: product
 #: model:product.product,name:product.product_product_50
@@ -1636,7 +1576,7 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_litre
 msgid "Liter(s)"
-msgstr ""
+msgstr "Lít"
 
 #. module: product
 #: model:product.product,name:product.product_product_58
@@ -1653,12 +1593,12 @@ msgstr "Đơn vị đóng gói"
 #. module: product
 #: model:res.groups,name:product.group_uom
 msgid "Manage Multiple Units of Measure"
-msgstr "Quản lý nhiều Đơn vị đo lường"
+msgstr "Quản lý đa đơn vị tính"
 
 #. module: product
 #: model:res.groups,name:product.group_pricelist_item
 msgid "Manage Pricelist Items"
-msgstr ""
+msgstr "Quản lý các chi tiết bảng giá"
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -1669,7 +1609,7 @@ msgstr "Quản lý đóng gòi sản phẩm"
 #: model:ir.model.fields,field_description:product.field_base_config_settings_group_product_variant
 #: model:res.groups,name:product.group_product_variant
 msgid "Manage Product Variants"
-msgstr ""
+msgstr "Quản lý Biến thể sản phẩm"
 
 #. module: product
 #: model:res.groups,name:product.group_mrp_properties
@@ -1684,12 +1624,12 @@ msgstr "Quản lý đơn vị đo lường thứ hai"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Max. Margin"
-msgstr "Max. Margin"
+msgstr "Biên độ tối đa"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_price_max_margin
 msgid "Max. Price Margin"
-msgstr "Max. Price Margin"
+msgstr "Biên độ giá tối đa"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image_medium
@@ -1699,10 +1639,7 @@ msgstr "Hình ảnh với kích thước vừa phải"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_image_medium
-msgid ""
-"Medium-sized image of the product. It is automatically resized as a "
-"128x128px image, with aspect ratio preserved, only when the image exceeds "
-"one of those sizes. Use this field in form views or some kanban views."
+msgid "Medium-sized image of the product. It is automatically resized as a 128x128px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
 msgstr "Hình ảnh vừa phải của sản phẩm. Nó được tự động thay đổi kích thước về 128x128 mà vẫn giữ nguyên tỷ lệ, chỉ khi hình ảnh vượt quá một trong số các kích thước."
 
 #. module: product
@@ -1717,20 +1654,14 @@ msgid "Messages"
 msgstr "Thông điệp"
 
 #. module: product
-#: model:ir.model.fields,help:product.field_product_product_message_ids
-#: model:ir.model.fields,help:product.field_product_template_message_ids
-msgid "Messages and communication history"
-msgstr "Lịch sử trao đổi"
-
-#. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Min. Margin"
-msgstr "Min. Margin"
+msgstr "Biên độ tối thiểu"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_price_min_margin
 msgid "Min. Price Margin"
-msgstr "Min. Price Margin"
+msgstr "Biên độ Giá Tối thiểu"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_min_quantity
@@ -1814,7 +1745,8 @@ msgid "New Price ="
 msgstr "Giá mới ="
 
 #. module: product
-#: selection:product.category,type:0 selection:product.template,state:0
+#: selection:product.category,type:0
+#: selection:product.template,state:0
 msgid "Normal"
 msgstr "Thông thường"
 
@@ -1827,19 +1759,19 @@ msgstr "Ghi chú"
 #: model:ir.model.fields,field_description:product.field_product_product_message_needaction_counter
 #: model:ir.model.fields,field_description:product.field_product_template_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng hành động"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_message_needaction_counter
 #: model:ir.model.fields,help:product.field_product_template_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số lượng thông điệp yêu cầu phải có hành động"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_message_unread_counter
 #: model:ir.model.fields,help:product.field_product_template_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số các thông điệp chưa đọc"
 
 #. module: product
 #: selection:product.template,state:0
@@ -1849,9 +1781,7 @@ msgstr "Lỗi thời"
 #. module: product
 #: model:product.product,description_sale:product.product_product_42
 #: model:product.template,description_sale:product.product_product_42_product_template
-msgid ""
-"Office Editing Software with word processing, spreadsheets, presentations, "
-"graphics, and databases..."
+msgid "Office Editing Software with word processing, spreadsheets, presentations, graphics, and databases..."
 msgstr ""
 
 #. module: product
@@ -1864,7 +1794,7 @@ msgstr ""
 #: model:product.product,description:product.product_product_19
 #: model:product.template,description:product.product_product_19_product_template
 msgid "On demand hard-disk having capacity based on requirement."
-msgstr ""
+msgstr "On demand hard-disk having capacity based on requirement."
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -1889,22 +1819,22 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.product_packaging_tree_view
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Packaging"
-msgstr "Packaging"
+msgstr "Đóng gói"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging_name
 msgid "Packaging Type"
-msgstr ""
+msgstr "Kiểu đóng gói"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.action_packaging_view
 msgid "Packagings"
-msgstr ""
+msgstr "Đóng gói"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_id
 msgid "Parent Category"
-msgstr "Danh mục cha"
+msgstr "Nhóm cha"
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
@@ -1914,13 +1844,13 @@ msgstr "Đối tác"
 #. module: product
 #: model:product.public.category,name:product.Pen_Drive
 msgid "Pen Drive"
-msgstr ""
+msgstr "Pen Drive"
 
 #. module: product
 #: model:product.product,name:product.product_product_29
 #: model:product.template,name:product.product_product_29_product_template
 msgid "Pen drive, SP-2"
-msgstr ""
+msgstr "Pen drive, SP-2"
 
 #. module: product
 #: model:product.product,name:product.product_product_30
@@ -1931,12 +1861,12 @@ msgstr ""
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Percentage (discount)"
-msgstr ""
+msgstr "Phần trăm (chiết khấu)"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_percent_price
 msgid "Percentage Price"
-msgstr ""
+msgstr "Giá phần trăm"
 
 #. module: product
 #: model:product.category,name:product.product_category_5
@@ -1949,7 +1879,7 @@ msgstr ""
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "Playlists. The perfect mix for every mood."
-msgstr ""
+msgstr "P"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -1960,10 +1890,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
-msgid ""
-"Powered by fourth-generation Intel Core processors, this iMac is the fastest"
-" yet. Every model in the lineup comes standard with a quad-core Intel Core "
-"i5 processor, starting at 2.7GHz and topping out at 3.4GHz."
+msgid "Powered by fourth-generation Intel Core processors, this iMac is the fastest yet. Every model in the lineup comes standard with a quad-core Intel Core i5 processor, starting at 2.7GHz and topping out at 3.4GHz."
 msgstr ""
 
 #. module: product
@@ -2000,9 +1927,7 @@ msgstr "Giá cộng thêm"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value_price_extra
-msgid ""
-"Price Extra: Extra price for the variant with this attribute value on sale "
-"price. eg. 200 price extra, 1000 + 200 = 1200."
+msgid "Price Extra: Extra price for the variant with this attribute value on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr "Giá cộng thêm: Cộng thêm giá cho biến thể với giá trị thuộc tính này trên giá bán. ví dụ: giá cộng thêm là 200, giá của sản phẩm là 1000 thì giá của biến thể = 1000 + 200 = 1200. Bạn có thể cộng với một số âm (-) để giảm giá."
 
 #. module: product
@@ -2059,7 +1984,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Pricelist Items"
-msgstr ""
+msgstr "Chi tiết bảng giá"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_name
@@ -2069,7 +1994,7 @@ msgstr "Tên bảng giá"
 #. module: product
 #: model:ir.model,name:product.model_product_pricelist_item
 msgid "Pricelist item"
-msgstr "Mục bảng giá"
+msgstr "Quy tắc tính giá"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_pricelist_action2
@@ -2086,13 +2011,13 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_partner_property_form
 msgid "Pricelists are managed on"
-msgstr "Bảng giá được quản lý trên"
+msgstr "Bảng giá được quản lý theo"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Pricing"
-msgstr ""
+msgstr "Giá"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_product_price_list
@@ -2102,13 +2027,13 @@ msgstr "In"
 #. module: product
 #: model:product.public.category,name:product.printer
 msgid "Printer"
-msgstr ""
+msgstr "Máy in"
 
 #. module: product
 #: model:product.product,name:product.product_product_37
 #: model:product.template,name:product.product_product_37_product_template
 msgid "Printer, All-in-one"
-msgstr ""
+msgstr "Máy in, Tất cả trong một"
 
 #. module: product
 #: model:product.product,name:product.product_product_23
@@ -2196,7 +2121,7 @@ msgstr "Mẫu sản phẩm"
 #: model:ir.model.fields,field_description:product.field_product_product_type
 #: model:ir.model.fields,field_description:product.field_product_template_type
 msgid "Product Type"
-msgstr "Loại sản phẩm"
+msgstr "Kiểu sản phẩm"
 
 #. module: product
 #: model:ir.model,name:product.model_product_uom
@@ -2254,7 +2179,7 @@ msgstr "Bảng giá sản phẩm"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_search
 msgid "Products Price Search"
-msgstr ""
+msgstr "Tìm Giá sản phẩm"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
@@ -2262,7 +2187,7 @@ msgid "Products your store in the inventory"
 msgstr ""
 
 #. module: product
-#: code:addons/product/product.py:817
+#: code:addons/product/product.py:823
 #, python-format
 msgid "Products: "
 msgstr "Sản phẩm: "
@@ -2282,7 +2207,7 @@ msgstr "Bảng giá niêm yết"
 #: model:ir.model.fields,field_description:product.field_product_product_description_purchase
 #: model:ir.model.fields,field_description:product.field_product_template_description_purchase
 msgid "Purchase Description"
-msgstr "Mô tả mua hàng"
+msgstr "Miêu tả mua hàng"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_uom_po_id
@@ -2298,7 +2223,7 @@ msgstr "Số lượng"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging_qty
 msgid "Quantity by Package"
-msgstr "Số lượng gói"
+msgstr "Số lượng theo gói"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_price_list_qty1
@@ -2362,13 +2287,12 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_right
 msgid "Right Parent"
-msgstr "Right Parent"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
-msgid ""
-"Right from the start, apps made for iPad also work with iPad mini.\n"
+msgid "Right from the start, apps made for iPad also work with iPad mini.\n"
 "                                    They’re immersive, full-screen apps that let you do almost anything\n"
 "                                    you can imagine. And with automatic updates,\n"
 "                                    you're always getting the best experience possible."
@@ -2383,8 +2307,7 @@ msgstr ""
 #: model:product.template,website_description:product.product_product_4b_product_template
 #: model:product.template,website_description:product.product_product_4c_product_template
 #: model:product.template,website_description:product.product_product_4d_product_template
-msgid ""
-"Right from the start, there’s a lot to love about\n"
+msgid "Right from the start, there’s a lot to love about\n"
 "                                    iPad. It’s simple yet powerful. Thin and light yet\n"
 "                                    full-featured. It can do just about everything and\n"
 "                                    be just about anything."
@@ -2393,8 +2316,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
-msgid ""
-"Right from the start, there’s a lot to love about iPad.\n"
+msgid "Right from the start, there’s a lot to love about iPad.\n"
 "                                   It’s simple yet powerful. Thin and light yet full-\n"
 "                                   featured. It can do just about everything and be just\n"
 "                                   about anything.And because it’s so easy to use, it’s\n"
@@ -2420,13 +2342,13 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Sale Conditions"
-msgstr "Điều kiện bán hàng"
+msgstr "Điều kiện bán"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_description_sale
 #: model:ir.model.fields,field_description:product.field_product_template_description_sale
 msgid "Sale Description"
-msgstr "Mô tả bán hàng"
+msgstr "Miêu tả bán"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_list_price
@@ -2460,8 +2382,7 @@ msgstr "Bảng giá bán"
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"Say you’re listening to a song you love and you want to stay in the mood.\n"
+msgid "Say you’re listening to a song you love and you want to stay in the mood.\n"
 "                                        Just tap Genius. It finds other songs on iPod nano that go great together\n"
 "                                        and makes a Genius playlist for you. For more song combinations\n"
 "                                        you wouldn’t have thought of yourself, create Genius Mixes in iTunes\n"
@@ -2472,13 +2393,13 @@ msgstr ""
 #. module: product
 #: model:product.public.category,name:product.Screen
 msgid "Screen"
-msgstr ""
+msgstr "Màn hình"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_categ_id
 #: model:ir.model.fields,help:product.field_product_template_categ_id
 msgid "Select category for the current product"
-msgstr "lựa chọn danh mục của sản phẩm"
+msgstr "Chọn nhóm cho sản phẩm hiện tại"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_sequence
@@ -2497,28 +2418,29 @@ msgstr "Trình tự"
 #: model:product.public.category,name:product.server
 #: model:product.template,name:product.product_product_59_product_template
 msgid "Server"
-msgstr "Server"
+msgstr "Máy chủ"
 
 #. module: product
-#: code:addons/product/product.py:460
+#: code:addons/product/product.py:474
 #, python-format
 msgid "Service"
-msgstr ""
+msgstr "Dịch vụ"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 #: model:product.category,name:product.product_category_3
 #: model:product.public.category,name:product.services
 msgid "Services"
-msgstr "Các dịch vụ"
+msgstr "Dịch vụ"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_price_round
-msgid ""
-"Sets the price so that it is a multiple of this value.\n"
+msgid "Sets the price so that it is a multiple of this value.\n"
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, set rounding 10, surcharge -0.01"
-msgstr "Định giá để giá là một bội số của giá trị này.\nLàm tròn số được áp dụng sau khi chiết khấu và trước khi phụ phí.\nĐể có các giá kết thúc bằng 9.99, đặt làm tròn 10 và phụ phí -0.01"
+msgstr "Thiết lập giá để nó là một bội số (số chia hết) của giá trị này.\n"
+"Việc làm tròn được áp dụng sau chiết khấu và trước phụ phí.\n"
+"Để có giá là 9,99 thì thiết lập làm tròn là 10 và phụ phí là -0.01"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_base_config_settings_company_share_product
@@ -2527,8 +2449,7 @@ msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_base_config_settings_company_share_product
-msgid ""
-"Share your product to all companies defined in your instance.\n"
+msgid "Share your product to all companies defined in your instance.\n"
 " * Checked : Product are visible for every company, even if a company is defined on the partner.\n"
 " * Unchecked : Each company can see only its product (product where company is defined). Product not related to a company are visible for all companies."
 msgstr ""
@@ -2543,14 +2464,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product_image_small
 #: model:ir.model.fields,field_description:product.field_product_template_image_small
 msgid "Small-sized image"
-msgstr "Ảnh cỡ nhỏ"
+msgstr "Hình cỡ nhỏ"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_image_small
-msgid ""
-"Small-sized image of the product. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is"
-" required."
+msgid "Small-sized image of the product. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
 msgstr "Hình ảnh với kích thước nhỏ của sản phẩm. Nó tự động thay đổi kích thước thành 64x64 mà vẫn giữ nguyên tỷ lệ."
 
 #. module: product
@@ -2561,16 +2479,14 @@ msgstr "Nhỏ hơn đơn vị gốc của nhóm này"
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"Soft covers are available separately in blue, green or orange. Pick a color "
-"to match your style."
+msgid "Soft covers are available separately in blue, green or orange. Pick a color to match your style."
 msgstr ""
 
 #. module: product
 #: model:product.category,name:product.product_category_4
 #: model:product.public.category,name:product.Software
 msgid "Software"
-msgstr ""
+msgstr "Phần mềm"
 
 #. module: product
 #: model:product.public.category,name:product.Speakers
@@ -2579,36 +2495,28 @@ msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_categ_id
-msgid ""
-"Specify a product category if this rule only applies to products belonging "
-"to this category or its children categories. Keep empty otherwise."
+msgid "Specify a product category if this rule only applies to products belonging to this category or its children categories. Keep empty otherwise."
 msgstr "Chỉ ra một nhóm sản phẩm nếu quy tắc này chỉ áp dụng cho sản phẩm thuộc nhóm này hoặc nhóm con của nó. Nếu không thì để trống."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_product_id
-msgid ""
-"Specify a product if this rule only applies to one product. Keep empty "
-"otherwise."
+msgid "Specify a product if this rule only applies to one product. Keep empty otherwise."
 msgstr "Chỉ ra một sản phẩm nếu quy tắc này chỉ áp dụng trên một sản phẩm. Nếu không thì để trống."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_product_tmpl_id
-msgid ""
-"Specify a template if this rule only applies to one product template. Keep "
-"empty otherwise."
+msgid "Specify a template if this rule only applies to one product template. Keep empty otherwise."
 msgstr "Chỉ ra một mẫu sản phẩm nếu quy tắc chỉ áp dụng trên một mẫu sản phẩm. Nếu không thì để trống."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_sale_ok
 #: model:ir.model.fields,help:product.field_product_template_sale_ok
 msgid "Specify if the product can be selected in a sales order line."
-msgstr "Chỉ ra nếu sản phẩm có thể được sử dụng trong một hợp đông bán hàng."
+msgstr "Chỉ ra nếu sản phẩm có thể được sử dụng trong một hợp đồng bán hàng."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_price_surcharge
-msgid ""
-"Specify the fixed amount to add or substract(if negative) to the amount "
-"calculated with the discount."
+msgid "Specify the fixed amount to add or substract(if negative) to the amount calculated with the discount."
 msgstr "Xác định số tiền cố định để cộng thêm hoặc trừ đi (số âm) số tiền được tính toán với chiết khấu"
 
 #. module: product
@@ -2641,7 +2549,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product_state
 #: model:ir.model.fields,field_description:product.field_product_template_state
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_supplierinfo_type_action
@@ -2658,7 +2566,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_47
 #: model:product.template,name:product.product_product_47_product_template
 msgid "Switch, 24 ports"
-msgstr ""
+msgstr "s"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -2673,8 +2581,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"Tap to play your favorite songs. Or entire albums.\n"
+msgid "Tap to play your favorite songs. Or entire albums.\n"
 "                                    Or everything by one artist. You can even browse by genres or composers.\n"
 "                                    Flip through your music: Album art looks great on the bigger screen.\n"
 "                                    Or to keep things fresh, give iPod nano a shake and it shuffles to a different song in your music library."
@@ -2688,8 +2595,7 @@ msgstr "Tên mẫu"
 #. module: product
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
-msgid ""
-"The Apple In-Ear Headphones deliver a truly immersive sound experience by drastically\n"
+msgid "The Apple In-Ear Headphones deliver a truly immersive sound experience by drastically\n"
 "                                    reducing unwanted outside noises. The soft, silicone ear tips fit snugly and comfortably\n"
 "                                    in your ear, creating a seal that isolates your music from your surroundings.\n"
 "                                    Three different sizes of ear tips are included so you can find a perfect fit for each ear.\n"
@@ -2700,8 +2606,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"The Bose® SoundLink® mini is Bose's smallest portable Bluetooth speaker. Its ultra-compact size fits in the \n"
+msgid "The Bose® SoundLink® mini is Bose's smallest portable Bluetooth speaker. Its ultra-compact size fits in the \n"
 "                                    palm of your hand, yet gives you full, natural sound wirelessly from your iPhone, iPad, or iPod. Grab it and go \n"
 "                                    full-featured. It can do just about everything and\n"
 "                                    experience music just about anywhere."
@@ -2710,8 +2615,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"The SoundLink® Mini speaker is small and light enough\n"
+msgid "The SoundLink® Mini speaker is small and light enough\n"
 "                                        to tuck into your bag. It weighs in at just 1.5 pounds.\n"
 "                                        Its low profile lets you place it almost anywhere and\n"
 "                                        provides a low center of gravity that makes it nearly\n"
@@ -2720,22 +2624,18 @@ msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
-msgid ""
-"The computed price is expressed in the default Unit of Measure of the "
-"product."
-msgstr ""
+msgid "The computed price is expressed in the default Unit of Measure of the product."
+msgstr "Giá tính toán được tính theo Đơn vị đó lường mặc định của sản phẩm."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_rounding
-msgid ""
-"The computed quantity will be a multiple of this value. Use 1.0 for a Unit "
-"of Measure that cannot be further split, such as a piece."
+msgid "The computed quantity will be a multiple of this value. Use 1.0 for a Unit of Measure that cannot be further split, such as a piece."
 msgstr "Số lượng được tính toán sẽ là bội số (số chia hết) của giá trị này. Sử dụng 1.0 cho một đơn vị đo lường mà không thể được chia nhỏ nữa, ví du như đơn vị là một miếng (một mảnh)."
 
 #. module: product
 #: sql_constraint:product.uom:0
 msgid "The conversion ratio for a unit of measure cannot be 0!"
-msgstr "Tỷ lệ chuyển đổi cho một đơn vị đo lương không thể = 0!"
+msgstr "Tỷ lệ chuyển đổi cho một đơn vị đo lương không thể là 0!"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -2765,55 +2665,49 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_9
 #: model:product.template,website_description:product.product_product_9_product_template
-msgid ""
-"The incredibly thin Apple Wireless Keyboard uses Bluetooth technology,\n"
+msgid "The incredibly thin Apple Wireless Keyboard uses Bluetooth technology,\n"
 "                                    which makes it compatible with iPad. And you’re free to type wherever\n"
 "                                    you like — with the keyboard in front of your iPad or on your lap."
 msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_min_qty
-msgid ""
-"The minimal quantity to purchase from this vendor, expressed in the vendor "
-"Product Unit of Measure if not any, in the default unit of measure of the "
-"product otherwise."
-msgstr ""
+msgid "The minimal quantity to purchase from this vendor, expressed in the vendor Product Unit of Measure if not any, in the default unit of measure of the product otherwise."
+msgstr "Số lượng tối thiểu để mua từ nhà cung cấp này, được thể hiện theo đơn vị đo lường phía nhà cung cấp, hoặc nếu ko có là đơn vị đo lượng mặc định của sản phẩm."
 
 #. module: product
-#: code:addons/product/product.py:329
+#: code:addons/product/product.py:332
 #, python-format
-msgid ""
-"The operation cannot be completed:\n"
+msgid "The operation cannot be completed:\n"
 "You are trying to delete an attribute value with a reference on a product variant."
-msgstr ""
+msgstr "Hành động không thể hoàn thành được:\n"
+"Bạn đang cố xoá một giá trị thuộc tính mà đã được sử dụng trên một biến thể sản phẩm."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_price
 msgid "The price to purchase a product"
-msgstr ""
+msgstr "Giá để mua một sản phẩm
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
 #: model:ir.actions.act_window,help:product.product_normal_action_sell
 #: model:ir.actions.act_window,help:product.product_variant_action
-msgid ""
-"The product form contains information to simplify the sale\n"
+msgid "The product form contains information to simplify the sale\n"
 "                process: price, notes in the quotation, accounting data,\n"
 "                procurement methods, etc."
-msgstr ""
+msgstr "Form sản phẩm chứa thông tin để đơn giản hoá quá trình xử lý bán hàng:\n"
+"                giá, ghi chú trong báo giá, dữ liệu kế toán, phương thức\n"
+"                cung ứng, v.v."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_template_action
-msgid ""
-"The product form contains information to simplify the sale process: price, "
-"notes in the quotation, accounting data, procurement methods, etc."
-msgstr ""
+msgid "The product form contains information to simplify the sale process: price, notes in the quotation, accounting data, procurement methods, etc."
+msgstr "The product form contains information to simplify the sale process: price, notes in the quotation, accounting data, procurement methods, etc."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"The rechargeable lithium-ion battery delivers up to seven hours of playtime.\n"
+msgid "The rechargeable lithium-ion battery delivers up to seven hours of playtime.\n"
 "                                    And at home, you can listen even longer—the charging cradle lets\n"
 "                                    you listen while it charges."
 msgstr ""
@@ -2821,16 +2715,14 @@ msgstr ""
 #. module: product
 #: model:product.product,description_sale:product.product_product_9
 #: model:product.template,description_sale:product.product_product_9_product_template
-msgid ""
-"The sleek aluminium Apple Wireless Keyboard.\n"
+msgid "The sleek aluminium Apple Wireless Keyboard.\n"
 "            "
 msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"The speaker has a range of about 30 feet, so you can enjoy\n"
+msgid "The speaker has a range of about 30 feet, so you can enjoy\n"
 "                                    the sound you want without wires. It pairs easily with your\n"
 "                                    smartphone, iPad® or other Bluetooth device.\n"
 "                                    And it remembers the most recent six devices you've used,\n"
@@ -2852,7 +2744,7 @@ msgstr "Thể tích tính theo m3."
 #: model:ir.model.fields,help:product.field_product_product_weight
 #: model:ir.model.fields,help:product.field_product_template_weight
 msgid "The weight of the contents in Kg, not including any packaging, etc."
-msgstr ""
+msgstr "Khối lượng của hàng hoá trong gói, không bao gồm khối lượng của gói, v.v."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -2877,8 +2769,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"There’s another way to get a good mix of music on iPod: Let Genius do the work.\n"
+msgid "There’s another way to get a good mix of music on iPod: Let Genius do the work.\n"
 "                                        Activate Genius in iTunes on your computer, and it automatically finds songs that sound\n"
 "                                        great together. Then it creates Genius Mixes, which you can easily sync to your iPod.\n"
 "                                        It’s the perfect way to rediscover songs you haven’t listened to in forever."
@@ -2887,26 +2778,22 @@ msgstr ""
 #. module: product
 #: sql_constraint:product.attribute.value:0
 msgid "This attribute value already exists !"
-msgstr "Thuộc tính này đã tồn tại !"
+msgstr "Thuộc tính này đã tồn tại!"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_uom
 msgid "This comes from the product form."
-msgstr ""
+msgstr "Lấy từ form sản phẩm"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_variant
-msgid ""
-"This field holds the image used as image for the product variant, limited to"
-" 1024x1024px."
-msgstr ""
+msgid "This field holds the image used as image for the product variant, limited to 1024x1024px."
+msgstr "Trường này chứa hình ảnh được sử dụng làm hình cho biến thể sản phẩm, kích thước bị giới hạn đến 1024x1024px."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_image
-msgid ""
-"This field holds the image used as image for the product, limited to "
-"1024x1024px."
-msgstr ""
+msgid "This field holds the image used as image for the product, limited to 1024x1024px."
+msgstr "Trường này chứa hình ảnh được sử dụng làm hình cho sản phẩm, kích thước bị giới hạn đến 1024x1024px."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_qty
@@ -2916,38 +2803,32 @@ msgstr "Đây là số lượng được quy đổi thành đơn vị đo lườ
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_price_extra
 msgid "This is the sum of the extra price of all attributes"
-msgstr ""
+msgstr "Đây là tổng giá cộng thêm của tất cả các thuộc tính"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note will be displayed on requests for quotation."
-msgstr ""
+msgstr "Ghi chú này sẽ được hiển thị trên các yêu cầu báo giá"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note will be displayed on the quotations."
-msgstr ""
+msgstr "Ghi chú này sẽ được hiển thị trên các báo giá."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_partner_property_product_pricelist
-msgid ""
-"This pricelist will be used, instead of the default one, for sales to the "
-"current partner"
-msgstr "Bảng giá này sẽ được sử dụng, thay vì mặc định, để bán cho đối tác hiện tại"
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Bảng giá này được sử dụng thay cho bảng giá mặc định, cho việc bán hàng cho đối tác hiện tại"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_code
-msgid ""
-"This vendor's product code will be used when printing a request for "
-"quotation. Keep empty to use the internal one."
-msgstr ""
+msgid "This vendor's product code will be used when printing a request for quotation. Keep empty to use the internal one."
+msgstr "Mã sản phẩm của nhà cung cấp này sẽ được sử dụng khi in một yêu cầu báo giá. Để trống để sử dụng mã sản phẩm nội bộ của bạn."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_name
-msgid ""
-"This vendor's product name will be used when printing a request for "
-"quotation. Keep empty to use the internal one."
-msgstr ""
+msgid "This vendor's product name will be used when printing a request for quotation. Keep empty to use the internal one."
+msgstr "Tên sản phẩm của nhà cung cấp này sẽ được sử dụng khi in một yêu cầu báo giá. Để trống để sử dụng tên sản phẩm nội bộ của bạn."
 
 #. module: product
 #: model:product.product,name:product.product_product_39
@@ -2959,12 +2840,12 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
 msgid "Two is better than one."
-msgstr ""
+msgstr "Hai thfi tốt hơn một"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_uom_type
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: product
 #: model:product.product,name:product.product_product_53
@@ -2981,9 +2862,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"USB port allows for software update to ensure ongoing Bluetooth device "
-"compatibility"
+msgid "USB port allows for software update to ensure ongoing Bluetooth device compatibility"
 msgstr ""
 
 #. module: product
@@ -2996,7 +2875,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Ultrathin design"
-msgstr ""
+msgstr "Thiết kế siêu mỏng"
 
 #. module: product
 #: model:product.uom.categ,name:product.product_uom_categ_unit
@@ -3014,12 +2893,12 @@ msgstr "Đơn vị đo lường"
 #: model:ir.actions.act_window,name:product.product_uom_categ_form_action
 #: model:ir.ui.menu,name:product.menu_product_uom_categ_form_action
 msgid "Unit of Measure Categories"
-msgstr "Nhóm đơn vị đo lường"
+msgstr "Nhóm Đơn vị đo lường"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_category_id
 msgid "Unit of Measure Category"
-msgstr ""
+msgstr "Nhóm Đơn vị đo lường"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_unit
@@ -3038,16 +2917,18 @@ msgstr "Đơn vị đo lường"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_uom_categ_form_view
 msgid "Units of Measure categories"
-msgstr "Các loại đơn vị đo"
+msgstr "Nhóm đơn vị đo lường"
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_categ_form_action
-msgid ""
-"Units of measure belonging to the same category can be\n"
+msgid "Units of measure belonging to the same category can be\n"
 "                converted between each others. For example, in the category\n"
 "                <i>'Time'</i>, you will have the following units of measure:\n"
 "                Hours, Days."
-msgstr ""
+msgstr "Các đơn vị đo lưownfg trong cùng một nhóm có thể được\n"
+"                chuyển đổi qua lại lẫn nhau. Ví dụ, trong nhóm\n"
+"                <i>'Thời gian'</i>, bạn sẽ có các đơn vị đo lường sau:\n"
+"                Giờ, Ngày, Phút, v.v."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -3058,8 +2939,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
-msgid ""
-"Unlike many small headphones, each earpiece of the Apple In-Ear Headphones\n"
+msgid "Unlike many small headphones, each earpiece of the Apple In-Ear Headphones\n"
 "                                    contains two separate high-performance drivers — a woofer to handle bass and\n"
 "                                    mid-range sounds and a tweeter for high-frequency audio. These dedicated\n"
 "                                    drivers help ensure accurate, detailed sound across the entire sonic spectrum.\n"
@@ -3077,12 +2957,12 @@ msgstr "Thông điệp chưa đọc"
 #: model:ir.model.fields,field_description:product.field_product_product_message_unread_counter
 #: model:ir.model.fields,field_description:product.field_product_template_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Bộ đếm thông điệp chưa đọc"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "Validity"
-msgstr ""
+msgstr "Hợp lệ"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_name
@@ -3092,7 +2972,7 @@ msgstr "Giá trị"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_ids
 msgid "Values"
-msgstr "Các giá trị"
+msgstr "Giá trị"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_price_extra
@@ -3107,12 +2987,12 @@ msgstr "Hình ảnh biến thể"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Variant Information"
-msgstr ""
+msgstr "Thông tin Biến thể"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Variant Prices"
-msgstr ""
+msgstr "Giá biến thể"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_attribute_value_action
@@ -3126,7 +3006,7 @@ msgstr "Giá trị biến thể"
 #: model:ir.ui.view,arch_db:product.product_template_kanban_view
 #: model:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Variants"
-msgstr "Variants"
+msgstr "Biến thể"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_seller_ids
@@ -3134,33 +3014,33 @@ msgstr "Variants"
 #: model:ir.model.fields,field_description:product.field_product_template_seller_ids
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "Vendor"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_tree_view
 msgid "Vendor Information"
-msgstr ""
+msgstr "Thông tin Nhà cung cấp"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_code
 msgid "Vendor Product Code"
-msgstr ""
+msgstr "Mã sản phẩm phía Nhà cung cấp"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_name
 msgid "Vendor Product Name"
-msgstr ""
+msgstr "Tên sản phẩm phía Nhà cung cấp"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_uom
 msgid "Vendor Unit of Measure"
-msgstr ""
+msgstr "Đơn vị đo lường phía Nhà cung cấp"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_name
 msgid "Vendor of this product"
-msgstr ""
+msgstr "Nhà cung cấp của sản phẩm này"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -3175,6 +3055,7 @@ msgstr "Chỉ xem"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_volume
 #: model:ir.model.fields,field_description:product.field_product_template_volume
+#: model:ir.ui.view,arch_db:product.product_template_form_view
 #: model:product.uom.categ,name:product.product_uom_categ_vol
 msgid "Volume"
 msgstr "Thể tích"
@@ -3188,8 +3069,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
-msgid ""
-"Wall charger can be plugged into the cradle or directly into the speaker"
+msgid "Wall charger can be plugged into the cradle or directly into the speaker"
 msgstr ""
 
 #. module: product
@@ -3208,7 +3088,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 #: model:product.uom.categ,name:product.product_uom_categ_kgm
 msgid "Weight"
-msgstr "Trọng lượng"
+msgstr "Khối lượng"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -3225,15 +3105,13 @@ msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_id
-msgid ""
-"When this field is filled in, the vendor data will only apply to the "
-"variant."
-msgstr ""
+msgid "When this field is filled in, the vendor data will only apply to the variant."
+msgstr "Khi trường này được điền, dữ liệu nhà cung cấp sẽ chỉ áp dụng cho biến thể."
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_3
 msgid "White"
-msgstr ""
+msgstr "Trắng"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -3269,8 +3147,7 @@ msgstr ""
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
-msgid ""
-"With advanced Wi‑Fi that’s up to twice as fast as\n"
+msgid "With advanced Wi‑Fi that’s up to twice as fast as\n"
 "                                   any previous-generation iPad and access to fast\n"
 "                                   cellular data networks around the world, iPad mini\n"
 "                                   lets you download content, stream video,\n"
@@ -3279,47 +3156,43 @@ msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_base_config_settings_group_product_variant
-msgid ""
-"Work with product variant allows you to define some variant of the same "
-"products, an ease the product management in the ecommerce for example"
-msgstr ""
+msgid "Work with product variant allows you to define some variant of the same products, an ease the product management in the ecommerce for example"
+msgstr "Làm việc với các biến thể sản phẩm cho phép bạn định nghĩa một vài biến thể của cùng một sản phẩm, để có thể có một cách quản lý sản phẩm dễ dàng hơn."
 
 #. module: product
 #: model:product.uom.categ,name:product.uom_categ_wtime
 msgid "Working Time"
-msgstr "Giờ làm việc"
+msgstr "Thời gian làm việc"
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_form_action
-msgid ""
-"You must define a conversion rate between several Units of\n"
+msgid "You must define a conversion rate between several Units of\n"
 "                Measure within the same category."
-msgstr ""
+msgstr "Bạn phải đinhụ nghĩa tỷ lệ chuyển đỗi giữa các đơn vị đo\n"
+"                lường trong cùng một nhóm đơn vị đo lường."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
 #: model:ir.actions.act_window,help:product.product_normal_action_sell
 #: model:ir.actions.act_window,help:product.product_variant_action
-msgid ""
-"You must define a product for everything you sell, whether it's\n"
+msgid "You must define a product for everything you sell, whether it's\n"
 "                a physical product, a consumable or a service you offer to\n"
 "                customers."
-msgstr ""
+msgstr "Bạn phải định nghĩa một sản phẩm cho mọi thứ mà bạn bán,\n"
+"                cho dù đó là sản phẩm vật thể hay sản phẩm tiêu\n"
+"                dùng hoặc một dịch vụ mà bạn chào bán cho khách hàng."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_template_action
-msgid ""
-"You must define a product for everything you sell, whether it's a physical "
-"product, a consumable or a service you offer to  customers."
-msgstr ""
+msgid "You must define a product for everything you sell, whether it's a physical product, a consumable or a service you offer to  customers."
+msgstr "Bạn phải định nghĩa một sản phẩm cho mọi thứ mà bạn bán, cho dù đó là sản phẩm vật thể hay sản phẩm tiêu dùng hoặc một dịch vụ mà bạn chào bán cho khách hàng."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"You probably have multiple playlists in iTunes on your computer.\n"
+msgid "You probably have multiple playlists in iTunes on your computer.\n"
 "                                        One for your commute. One for the gym. Sync those playlists\n"
 "                                        to iPod, and you can play the perfect mix for whatever\n"
 "                                        mood strikes you. VoiceOver tells you the name of each playlist,\n"
@@ -3335,7 +3208,7 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_base_config_settings
 msgid "base.config.settings"
-msgstr "base.config.settings"
+msgstr ""
 
 #. module: product
 #: model:product.uom,name:product.product_uom_cm
@@ -3350,7 +3223,7 @@ msgstr "ngày"
 #. module: product
 #: model:ir.model,name:product.model_decimal_precision
 msgid "decimal.precision"
-msgstr "decimal.precision"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
@@ -3360,12 +3233,12 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "e.g. Odoo Enterprise Susbcription"
-msgstr ""
+msgstr "e.g. Thuê bao Odoo ERPOnline"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "e.g. USD Retailers"
-msgstr ""
+msgstr "e.g. Giá bán lẻ bằng USD"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_uom_form_view
@@ -3429,8 +3302,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_11b
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
-msgid ""
-"iTunes on your Mac or PC makes it easy to load up\n"
+msgid "iTunes on your Mac or PC makes it easy to load up\n"
 "                                        your iPod. Just choose the playlists, audiobooks,\n"
 "                                        podcasts, and other audio files you want, then sync."
 msgstr ""
@@ -3453,12 +3325,12 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_lb
 msgid "lb(s)"
-msgstr ""
+msgstr "Pao"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_mile
 msgid "mile(s)"
-msgstr ""
+msgstr "dặm"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -3468,7 +3340,7 @@ msgstr "tháng"
 #. module: product
 #: model:product.uom,name:product.product_uom_oz
 msgid "oz(s)"
-msgstr ""
+msgstr "ao-xơ"
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_line
@@ -3493,21 +3365,19 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_qt
 msgid "qt"
-msgstr ""
+msgstr "sl"
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_58
 #: model:product.template,description_sale:product.product_product_58_product_template
-msgid ""
-"raid 1 \n"
+msgid "raid 1 \n"
 "            512ECC ram"
 msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_59
 #: model:product.template,description_sale:product.product_product_59_product_template
-msgid ""
-"raid 10 \n"
+msgid "raid 10 \n"
 "            2048ECC ram"
 msgstr ""
 
@@ -3524,7 +3394,7 @@ msgstr "công ty mẹ"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "the product template"
-msgstr ""
+msgstr "mẫu sản phẩm"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -3536,3 +3406,4 @@ msgstr "đến"
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_compute_price
 msgid "unknown"
 msgstr "không xác định"
+

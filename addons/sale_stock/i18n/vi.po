@@ -51,7 +51,7 @@ msgstr "Công ty"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_config_settings_default_picking_policy
 msgid "Default Shipping Policy"
-msgstr ""
+msgstr "Chính sách giao hàng mặc định"
 
 #. module: sale_stock
 #: selection:sale.order,picking_policy:0
@@ -117,7 +117,7 @@ msgstr "Hóa đơn"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_invoice_line
 msgid "Invoice Line"
-msgstr ""
+msgstr "Dòng hoá đơn"
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_res_company_security_lead
@@ -130,18 +130,18 @@ msgstr ""
 #. module: sale_stock
 #: selection:sale.config.settings,group_route_so_lines:0
 msgid "No order specific routes like MTO or drop shipping"
-msgstr ""
+msgstr "Không dùng các bộ định tuyến như MTO hay Drop Shipping"
 
 #. module: sale_stock
 #: selection:sale.config.settings,module_delivery:0
 msgid "No shipping costs on sales orders"
-msgstr ""
+msgstr "Không phí vận chuyển với đơn hàng bán"
 
 #. module: sale_stock
 #: code:addons/sale_stock/sale_stock.py:141
 #, python-format
 msgid "Not enough inventory!"
-msgstr ""
+msgstr "Không đủ hàng trong kho"
 
 #. module: sale_stock
 #: code:addons/sale_stock/res_config.py:42
@@ -152,18 +152,18 @@ msgstr "Chỉ Quản trị viên mới có thể thay đổi thiết lập"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_config_settings_group_route_so_lines
 msgid "Order Routing"
-msgstr ""
+msgstr "Định tuyến cho đơn hàng"
 
 #. module: sale_stock
 #: code:addons/sale_stock/sale_stock.py:152
 #, python-format
 msgid "Ordered quantity decreased!"
-msgstr ""
+msgstr "Số lượng đặt hàng bị giảm"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line_product_packaging
 msgid "Packaging"
-msgstr "Packaging"
+msgstr "Đóng gói"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_picking_ids
@@ -173,7 +173,7 @@ msgstr "Hàng xuất kho liên quan tới đơn hàng này"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_procurement_order
 msgid "Procurement"
-msgstr "Mua sắm"
+msgstr "Mua sắm / Cung ứng"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line_product_tmpl_id
@@ -183,7 +183,7 @@ msgstr "Mẫu sản phẩm"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_config_settings_group_mrp_properties
 msgid "Properties on SO Lines"
-msgstr ""
+msgstr "Thuộc tính trên Dòng đơn hàng"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line_route_id
@@ -193,7 +193,7 @@ msgstr "Tuyến đường"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_picking_sale_id
 msgid "Sale Order"
-msgstr ""
+msgstr "Đơn hàng bán"
 
 #. module: sale_stock
 #: model:ir.ui.view,arch_db:sale_stock.stock_location_route_form_view_inherit_sale_stock
@@ -218,7 +218,7 @@ msgstr "Thống kê đơn hàng"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_company_security_lead
 msgid "Sales Safety Days"
-msgstr ""
+msgstr "Số ngày an toàn cho đơn hàng bán"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_location_route_sale_selectable
@@ -228,12 +228,12 @@ msgstr "Có thể chọn trên Chi tiết đơn hàng"
 #. module: sale_stock
 #: selection:sale.config.settings,default_picking_policy:0
 msgid "Ship all products at once, without back orders"
-msgstr ""
+msgstr "Bàn giao tất cả sản phẩm một lần, không cho phép giao từng phần / dở dang"
 
 #. module: sale_stock
 #: selection:sale.config.settings,default_picking_policy:0
 msgid "Ship products when some are available, and allow back orders"
-msgstr ""
+msgstr "Giao hàng hoá ngay khi có sẵn, và cho phép giao từng phần / dở dang"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_config_settings_module_delivery
@@ -244,12 +244,12 @@ msgstr "Vận chuyển"
 #. module: sale_stock
 #: model:ir.ui.view,arch_db:sale_stock.view_order_form_inherit_sale_stock
 msgid "Shipping Information"
-msgstr ""
+msgstr "Thông tin Giao hàng"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_picking_policy
 msgid "Shipping Policy"
-msgstr "Chính sách vận chuyển"
+msgstr "Chính sách Giao hàng"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move
@@ -277,7 +277,7 @@ msgstr "Kho hàng"
 #: code:addons/sale_stock/sale_stock.py:193
 #, python-format
 msgid "Warning"
-msgstr ""
+msgstr "Cảnh báo"
 
 #. module: sale_stock
 #: code:addons/sale_stock/sale_stock.py:153
@@ -285,7 +285,7 @@ msgstr ""
 msgid ""
 "You are decreasing the ordered quantity! Do not forget to manually update "
 "the delivery order if needed."
-msgstr ""
+msgstr "Bạn đang giảm số lượng được đặt hàng! Đừng quên cập nhật lại lệnh giao hàng nếu cần thiết."
 
 #. module: sale_stock
 #: code:addons/sale_stock/sale_stock.py:142
@@ -294,8 +294,10 @@ msgid ""
 "You plan to sell %.2f %s but you only have %.2f %s available!\n"
 "The stock on hand is %.2f %s."
 msgstr ""
+"Bạn dự kiến bán %.2f %s nhưng tồn kho khả dụng của bạn chỉ có %.2f %s!\n"
+"Tồn kho thực tế là %.2f %s."
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_sale_config_settings
 msgid "sale.config.settings"
-msgstr "sale.config.settings"
+msgstr ""
