@@ -25,7 +25,7 @@ msgstr "<b>Nhóm:</b>"
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_kanban
 msgid "<b>Model Number:</b>"
-msgstr ""
+msgstr "<b>Số Model:</b>"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_kanban
@@ -35,7 +35,7 @@ msgstr ""
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_kanban
 msgid "<b>Serial Number:</b>"
-msgstr ""
+msgstr "<b>Số Sê-ri:</b>"
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_alias_defaults
@@ -55,12 +55,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_needaction
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cần có hành động"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_active
 msgid "Active"
-msgstr "Kích hoạt"
+msgstr "Hiệu lực"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_alias_id
@@ -80,12 +80,12 @@ msgstr "Tên miền bí danh"
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_alias_name
 msgid "Alias Name"
-msgstr ""
+msgstr "Tên Bí danh"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_alias_domain
 msgid "Alias domain"
-msgstr ""
+msgstr "Miền bí danh"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_alias_model_id
@@ -95,7 +95,7 @@ msgstr ""
 #. module: hr_equipment
 #: sql_constraint:hr.equipment:0
 msgid "Another asset already exists with this serial number!"
-msgstr ""
+msgstr "Một tài sản khác đã tồn tại với số sê-ri này rồi!"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_config_settings_view_form
@@ -111,18 +111,18 @@ msgstr "Tài sản"
 #: model:ir.model,name:hr_equipment.model_hr_equipment_category
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_id_5383
 msgid "Asset Category"
-msgstr ""
+msgstr "Nhóm Tài sản"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_name
 msgid "Asset Name"
-msgstr ""
+msgstr "Tên Tài sản"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_tree
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_tree
 msgid "Assign To Employee"
-msgstr ""
+msgstr "Giao cho Nhân viên"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
@@ -132,43 +132,43 @@ msgstr "Đã giao"
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_assign_date
 msgid "Assigned Date"
-msgstr ""
+msgstr "Ngày bàn giao"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_user_id
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Assigned to"
-msgstr "Phân công cho"
+msgstr "Giao cho"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_department_id
 msgid "Assigned to Department"
-msgstr ""
+msgstr "Giao cho Phòng ban"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Assigned to Departments"
-msgstr ""
+msgstr "Đã giao cho các Phòng ban"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_employee_id
 msgid "Assigned to Employee"
-msgstr ""
+msgstr "Đã giao cho Nhân viên"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Assigned to Employees"
-msgstr ""
+msgstr "Đã giao cho các Nhân viên"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Assigned to Employees and Departments"
-msgstr ""
+msgstr "Đã giao cho các Nhân viên và Phòng ban"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Available"
-msgstr "Có sẵn"
+msgstr "Khả dụng"
 
 #. module: hr_equipment
 #: selection:hr.equipment.request,kanban_state:0
@@ -186,14 +186,14 @@ msgstr "Hủy"
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Category"
-msgstr "Chuyên mục"
+msgstr "Nhóm"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_name
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_form
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_search
 msgid "Category Name"
-msgstr "Tên danh mục"
+msgstr "Tên nhóm"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_action_from_category_form
@@ -203,23 +203,23 @@ msgstr ""
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_category_action
 msgid "Click to add a new equipment category."
-msgstr ""
+msgstr "Bấm để thêm mới một nhóm thiết bị."
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_action
 msgid "Click to add a new equipment."
-msgstr ""
+msgstr "Bấm để thêm mới một thiết bị."
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_request_action
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_request_action_link
 msgid "Click to add a new maintenance request."
-msgstr ""
+msgstr "Bấm để thêm mới một yêu cầu bảo trì."
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_stage_action
 msgid "Click to add a stage in the maintenance request."
-msgstr ""
+msgstr "Bấm để thêm một giai đoạn trong yêu cầu bảo trì"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_close_date
@@ -241,7 +241,7 @@ msgstr "Bình luận"
 #. module: hr_equipment
 #: model:hr.equipment.category,name:hr_equipment.hr_equipment_computer
 msgid "Computers"
-msgstr ""
+msgstr "Máy vi tính"
 
 #. module: hr_equipment
 #: model:ir.ui.menu,name:hr_equipment.menu_equipment_configuration
@@ -251,17 +251,17 @@ msgstr "Cấu hình"
 #. module: hr_equipment
 #: model:ir.actions.act_window,name:hr_equipment.action_hr_equipment_configuration
 msgid "Configure Equipments"
-msgstr ""
+msgstr "Cấu hình các thiết bị"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_config_settings_view_form
 msgid "Configure Equipments Settings"
-msgstr ""
+msgstr "Cấu hình các Thiết lập thiết bị"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_cost
 msgid "Cost"
-msgstr "Chi phí"
+msgstr "Giá vốn"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_create_uid
@@ -284,7 +284,7 @@ msgstr "Được tạo vào"
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_maintenance_open_count
 msgid "Current Maintenance"
-msgstr ""
+msgstr "Bảo trì hiện hành"
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_message_last_post
@@ -296,7 +296,7 @@ msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_alias_defaults
 msgid "Default Values"
-msgstr ""
+msgstr "Giá trị mặc định"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_kanban
@@ -345,6 +345,8 @@ msgid ""
 "Email alias for this equipment category. New emails will automatically "
 "create new maintenance request for this equipment category."
 msgstr ""
+"Bí danh email cho nhóm thiết bị này. Những email mới gửi đến đây sẽ tự "
+"động tạo một yêu cầu bảo trì cho nhóm thiết bị này."
 
 #. module: hr_equipment
 #: selection:hr.equipment,equipment_assign_to:0
@@ -360,26 +362,26 @@ msgstr "Người lao động"
 #: model:ir.model,name:hr_equipment.model_hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_equipment_count
 msgid "Equipment"
-msgstr ""
+msgstr "Thiết bị"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,description:hr_equipment.mt_mat_assign
 #: model:mail.message.subtype,name:hr_equipment.mt_cat_mat_assign
 #: model:mail.message.subtype,name:hr_equipment.mt_mat_assign
 msgid "Equipment Assigned"
-msgstr ""
+msgstr "Thiết bị đã được giao"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,name:hr_equipment.hr_equipment_category_action
 #: model:ir.ui.menu,name:hr_equipment.menu_equipment_cat
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_form
 msgid "Equipment Categories"
-msgstr ""
+msgstr "Nhóm thiết bị"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_form
 msgid "Equipment Name"
-msgstr ""
+msgstr "Tên thiết bị"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,name:hr_equipment.hr_equipment_action
@@ -390,7 +392,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_form
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_form
 msgid "Equipments"
-msgstr ""
+msgstr "Thiết bị"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_fold
@@ -421,14 +423,14 @@ msgstr "Người dõi theo"
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_channel_ids
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Người dõi theo (Kênh)"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_message_partner_ids
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_partner_ids
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Người dõi theo (Đối tác)"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_search
@@ -481,14 +483,14 @@ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_needaction
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_kanban
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Important Messages"
-msgstr ""
+msgstr "Thông điệp Quan trọng"
 
 #. module: hr_equipment
 #: selection:hr.equipment.request,kanban_state:0
@@ -499,19 +501,19 @@ msgstr "Đang xử lý"
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Internal Note ......."
-msgstr ""
+msgstr "Ghi chú nội bộ ......."
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_message_is_follower
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_is_follower
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Là một Người dõi theo"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_kanban_state
 msgid "Kanban State"
-msgstr "Kanban State"
+msgstr "Trạng thái Kanban"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_message_last_post
@@ -536,7 +538,7 @@ msgstr "Sửa lần cuối vào"
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_stage_write_uid
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_write_date
@@ -563,32 +565,32 @@ msgstr "Thấp"
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_form
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_form
 msgid "Maintenance"
-msgstr ""
+msgstr "Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Maintenance Request"
-msgstr ""
+msgstr "Yêu cầu Bảo trì"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,name:hr_equipment.mt_cat_req_created
 msgid "Maintenance Request Created"
-msgstr ""
+msgstr "Yêu cầu Bảo trì đã được tạo"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_stage_view_tree
 msgid "Maintenance Request Stage"
-msgstr ""
+msgstr "Giai đoạn Yêu cầu Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_stage_view_search
 msgid "Maintenance Request Stages"
-msgstr ""
+msgstr "Các giai đoạn Yêu cầu Bảo trì"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,description:hr_equipment.mt_req_created
 msgid "Maintenance Request created"
-msgstr ""
+msgstr "Yêu cầu Bảo trì đã được tạo"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,name:hr_equipment.hr_equipment_request_action
@@ -597,17 +599,17 @@ msgstr ""
 #: model:ir.model,name:hr_equipment.model_hr_equipment_request
 #: model:ir.ui.menu,name:hr_equipment.menu_m_request_form
 msgid "Maintenance Requests"
-msgstr ""
+msgstr "Yêu cầu Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.model,name:hr_equipment.model_hr_equipment_stage
 msgid "Maintenance Stage"
-msgstr ""
+msgstr "Giai đoạn Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Maintenance Subject"
-msgstr ""
+msgstr "Chủ đề Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_maintenance_ids
@@ -627,7 +629,7 @@ msgstr "Thông điệp"
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_ids
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_ids
 msgid "Messages and communication history"
-msgstr "Lịch sử trao đổi"
+msgstr "Lịch sử thông tin liên lạc"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_model
@@ -642,12 +644,12 @@ msgstr ""
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "My Equipments"
-msgstr ""
+msgstr "Thiết bị của tôi"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 msgid "My Requests"
-msgstr ""
+msgstr "Yêu cầu của tôi"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_stage_name
@@ -659,7 +661,7 @@ msgstr "Tên"
 #. module: hr_equipment
 #: model:hr.equipment.stage,name:hr_equipment.stage_0
 msgid "New Request"
-msgstr ""
+msgstr "Yêu cầu mới"
 
 #. module: hr_equipment
 #: selection:hr.equipment.request,priority:0
@@ -676,26 +678,26 @@ msgstr "Ghi chú"
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_needaction_counter
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng Hành động"
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_message_needaction_counter
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_needaction_counter
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số lượng thông điệp cần phải có hành động"
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_message_unread_counter
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_unread_counter
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số thông điệp chưa đọc"
 
 #. module: hr_equipment
 #: model:ir.actions.client,name:hr_equipment.action_client_hr_equipment_menu
 msgid "Open Equipments Menu"
-msgstr ""
+msgstr "Mở Trình đơn Thiết bị"
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_alias_force_thread_id
@@ -741,11 +743,15 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document\n"
 msgstr ""
+"Chính sách để gửi một thông điệp vào tài liệu sử dụng mailgateway\n"
+"- mọi người: mọi người đều có thể gửi\n"
+"- đối tác: chỉ các đối tác đã có tài khoản người dùng\n"
+"- người dõi theo: chỉ những người nằm trong danh sách người dõi theo tài liệu liên quan"
 
 #. module: hr_equipment
 #: model:hr.equipment.category,name:hr_equipment.hr_equipment_printer
 msgid "Printers"
-msgstr ""
+msgstr "Máy in"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_priority
@@ -770,12 +776,12 @@ msgstr ""
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Repair Responsible"
-msgstr ""
+msgstr "Chịu trách nhiệm sửa chữa"
 
 #. module: hr_equipment
 #: model:hr.equipment.stage,name:hr_equipment.stage_3
 msgid "Repaired"
-msgstr ""
+msgstr "Đã sửa chữa"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_kanban
@@ -785,27 +791,27 @@ msgstr "Yêu cầu"
 #. module: hr_equipment
 #: model:mail.message.subtype,name:hr_equipment.mt_req_created
 msgid "Request Created"
-msgstr ""
+msgstr "Yêu cầu được tạo"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_request_date
 msgid "Request Date"
-msgstr ""
+msgstr "Ngày Yêu cầu"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_stage_done
 msgid "Request Done"
-msgstr ""
+msgstr "Yêu cầu đã Hoàn thành"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_config_settings_view_form
 msgid "Requests Alias"
-msgstr ""
+msgstr "Bí danh Yêu cầu"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Reset Request"
-msgstr ""
+msgstr "Đặt lại Yêu cầu"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_user_id
@@ -828,18 +834,18 @@ msgstr "Phế liệu"
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_scrap_date
 msgid "Scrap Date"
-msgstr ""
+msgstr "Ngày chuyển thành Phế liệu"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_category_view_search
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Search"
-msgstr "Search"
+msgstr "Tìm kiếm"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Sender"
-msgstr ""
+msgstr "Người gửi"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_stage_sequence
@@ -865,7 +871,7 @@ msgstr "Thiết lập"
 #. module: hr_equipment
 #: model:hr.equipment.category,name:hr_equipment.hr_equipment_software
 msgid "Software"
-msgstr ""
+msgstr "Phần mềm"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_stage_id
@@ -882,12 +888,12 @@ msgstr "Trạng thái"
 #. module: hr_equipment
 #: model:mail.message.subtype,name:hr_equipment.mt_req_status
 msgid "Status Changed"
-msgstr ""
+msgstr "Tình trạng đã thay đổi"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,description:hr_equipment.mt_req_status
 msgid "Status changed"
-msgstr ""
+msgstr "Tình trạng đã thay đổi"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
@@ -897,12 +903,12 @@ msgstr "Chủ đề"
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_name
 msgid "Subjects"
-msgstr ""
+msgstr "Chủ đề"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_user_id
 msgid "Technician"
-msgstr ""
+msgstr "Kỹ thuật viên"
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_alias_model_id
@@ -936,6 +942,10 @@ msgid ""
 "                an employee or departement. You will manage allocations, issues\n"
 "                and maintenance of equipment."
 msgstr ""
+"Ứng dụng này giúp bạn theo dõi các thiết bị sử dụng bởi nhân viên.\"
+"                Tạo một vài cái laptop, máy in hoặc phone và liên kết từng thiết\n"
+"                bị đến một nhân viên hay một phòng ban. Bạn sẽ quản lý việc cấp\n"
+"                phát, phát hành các yêu cầu bảo trì và quản lý việc bảo trì thiết bị.\n"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_action_from_category_form
@@ -944,21 +954,25 @@ msgid ""
 "                Create some laptop, printer or phone and link each equipment to an employee or departement.\n"
 "                You will manage allocations, issues and mainteannce of equipment."
 msgstr ""
+"Ứng dụng này giúp bạn theo dõi các thiết bị sử dụng bởi nhân viên.\"
+"                Tạo một vài cái laptop, máy in hoặc phone và liên kết từng thiết\n"
+"                bị đến một nhân viên hay một phòng ban. Bạn sẽ quản lý việc cấp\n"
+"                phát, phát hành các yêu cầu bảo trì và quản lý việc bảo trì thiết bị.\n"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_config_settings_view_form
 msgid "Track Equipments"
-msgstr ""
+msgstr "Theo dõi Thiết bị"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_kanban
 msgid "Unassigned"
-msgstr "Chưa được gán"
+msgstr "Chưa được giao"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Under Maintenance"
-msgstr ""
+msgstr "Đang Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_message_unread
@@ -972,17 +986,17 @@ msgstr "Thông điệp chưa đọc"
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_unread_counter
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Bộ đếm thông điệp chưa đọc"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_config_settings_equipment_alias_prefix
 msgid "Use the following alias to report internal equipment issue"
-msgstr ""
+msgstr "Sử dụng bí danh sau đây để báo cáo các vấn đề thiết bị nội bộ"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_equipment_assign_to
 msgid "Used By"
-msgstr ""
+msgstr "Được sử dụng bởi"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
@@ -994,12 +1008,12 @@ msgstr "Người dùng"
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_partner_id
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Vendor"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_partner_ref
 msgid "Vendor Reference"
-msgstr ""
+msgstr "Tham chiếu Nhà cung cấp"
 
 #. module: hr_equipment
 #: selection:hr.equipment.request,priority:0
@@ -1032,6 +1046,8 @@ msgid ""
 "You cannot delete an equipment category containing equipments or maintenance"
 " requests."
 msgstr ""
+"Bạn không thể xoá một nhóm thiết bị mà đang chứa một hay nhiều thiết bị cũng"
+" như các yêu cầu bảo trì."
 
 #. module: hr_equipment
 #: model:ir.model,name:hr_equipment.model_hr_equipment_config_settings
@@ -1041,9 +1057,9 @@ msgstr ""
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_tree
 msgid "maintenance Request"
-msgstr ""
+msgstr "yêu cầu bảo trì"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 msgid "maintenance Request Search"
-msgstr ""
+msgstr "Tìm kiếm Yêu cầu bảo trì"
