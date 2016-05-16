@@ -13,10 +13,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:346
+#: code:addons/account_asset/account_asset.py:350
 #, python-format
 msgid " (copy)"
 msgstr " (sao chép)"
@@ -58,7 +59,7 @@ msgid "Active"
 msgstr "Hiệu lực"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:482
+#: code:addons/account_asset/account_asset.py:486
 #, python-format
 msgid "Amount"
 msgstr "Tổng tiền"
@@ -90,6 +91,7 @@ msgstr "Tài sản"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_asset_id
+#: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
 msgid "Asset Account"
 msgstr "Tài khoản Nguyên giá"
@@ -148,7 +150,7 @@ msgid "Asset category"
 msgstr "Nhóm tài sản"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:234
+#: code:addons/account_asset/account_asset.py:238
 #, python-format
 msgid "Asset created"
 msgstr "Tài sản được tạo"
@@ -159,7 +161,7 @@ msgid "Asset depreciation line"
 msgstr "Chi tiết khấu hao tài sản"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:267
+#: code:addons/account_asset/account_asset.py:271
 #, python-format
 msgid "Asset sold or disposed. Accounting entry awaiting for validation."
 msgstr "Tài sản bị bán hoặc bị tiêu huỷ. Bút toán kế toán đang chờ thẩm định."
@@ -238,7 +240,8 @@ msgstr "Đánh dấu nếu bạn muốn tự động xác nhận các tài sản
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_method
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_method
-msgid "Choose the method to use to compute the amount of depreciation lines.\n"
+msgid ""
+"Choose the method to use to compute the amount of depreciation lines.\n"
 "  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
 "  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
 msgstr "Lựa chọn phương thức để tính giá trị khấu hao.\n"
@@ -248,7 +251,8 @@ msgstr "Lựa chọn phương thức để tính giá trị khấu hao.\n"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_method_time
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_method_time
-msgid "Choose the method to use to compute the dates and number of depreciation lines.\n"
+msgid ""
+"Choose the method to use to compute the dates and number of depreciation lines.\n"
 "  * Number of Depreciations: Fix the number of depreciation lines and the time between 2 depreciations.\n"
 "  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
 msgstr "Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
@@ -257,12 +261,13 @@ msgstr "Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_asset_depreciation_confirmation_wizard_date
-msgid "Choose the period for which you want to automatically post the depreciation lines of running assets"
+msgid ""
+"Choose the period for which you want to automatically post the depreciation "
+"lines of running assets"
 msgstr "Lựa chọn kỳ kế toán mà bạn muốn tự động vào sổ bút toán khấu hao của các tài sản đang tính khấu hao"
 
 #. module: account_asset
-#: selection:account.asset.asset,state:0
-#: selection:asset.asset.report,state:0
+#: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
 msgid "Close"
 msgstr "Ðóng"
 
@@ -418,13 +423,9 @@ msgstr "Khấu hao"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_depreciation_id
+#: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Depreciation Account"
 msgstr "Tài khoản khấu hao"
-
-#. module: account_asset
-#: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
-msgid "Depreciation Asset Account"
-msgstr "Tài khoản Tài sản khấu hao"
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -440,12 +441,17 @@ msgstr "Ngày khấu hao"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_id
 msgid "Depreciation Entry"
-msgstr "Bút toán khấu hao"
+msgstr "Bút toán Khấu hao"
+
+#. module: account_asset
+#: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
+msgid "Depreciation Asset Account"
+msgstr "Tài khoản Tài sản Khấu hao"
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Depreciation Expense Account"
-msgstr "Tài khoản Chi phí khấu hao"
+msgstr "Tài khoản Chi phí Khấu hao"
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -480,7 +486,7 @@ msgid "Depreciation board modified"
 msgstr ""
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:485
+#: code:addons/account_asset/account_asset.py:489
 #, python-format
 msgid "Depreciation line posted."
 msgstr "Dòng khấu hao được vào sổ."
@@ -496,19 +502,19 @@ msgid "Display Name"
 msgstr "Tên hiển thị"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:270
+#: code:addons/account_asset/account_asset.py:274
 #, python-format
 msgid "Disposal Move"
 msgstr ""
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:273
+#: code:addons/account_asset/account_asset.py:277
 #, python-format
 msgid "Disposal Moves"
 msgstr ""
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:464
+#: code:addons/account_asset/account_asset.py:468
 #, python-format
 msgid "Document closed."
 msgstr "Tài liệu được đóng."
@@ -565,9 +571,12 @@ msgstr "Người dõi theo (Đối tác)"
 
 #. module: account_asset
 #: model:ir.actions.act_window,help:account_asset.action_asset_asset_report
-msgid "From this report, you can have an overview on all depreciations. The\n"
+msgid ""
+"From this report, you can have an overview on all depreciations. The\n"
 "            search bar can also be used to personalize your assets depreciation reporting."
-msgstr ""
+msgstr "Từ báo cáo này, bạn có thể có cái nhìn toàn cảnh về toàn bộ tình\n"
+"            hình khấu hao. Thanh tìm kiếm cũng có thể được sử dụng để cá\n"
+"            nhân hoá báo cáo của bạn."
 
 #. module: account_asset
 #: model:ir.ui.menu,name:account_asset.menu_asset_depreciation_confirmation_wizard
@@ -632,12 +641,17 @@ msgstr "Tài khoản doanh thu"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_prorata
-msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first January / Start date of fiscal year"
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first January / Start date of fiscal "
+"year"
 msgstr "Chỉ ra rằng bút toán khấu hao lần đầu cho tài sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của Tháng Một / Ngày bắt đầu của Năm tài chính"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_prorata
-msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first of January"
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first of January"
 msgstr "Chỉ ra rằng bút toán khấu hao lần đầu cho tài sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của Tháng Một"
 
 #. module: account_asset
@@ -673,7 +687,7 @@ msgid "Journal"
 msgstr "Sổ nhật ký"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:372
+#: code:addons/account_asset/account_asset.py:376
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 #, python-format
 msgid "Journal Entries"
@@ -795,7 +809,7 @@ msgid "Number of unread messages"
 msgstr "Số các thông điệp chưa đọc"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:484
+#: code:addons/account_asset/account_asset.py:488
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_partner_id
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_partner_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -856,10 +870,12 @@ msgid "Prorata Temporis"
 msgstr "Prorata Temporis"
 
 #. module: account_asset
-#: code:addons/account_asset/account_asset.py:312
+#: code:addons/account_asset/account_asset.py:316
 #, python-format
-msgid "Prorata temporis can be applied only for time method \"number of depreciations\"."
-msgstr "Prorata temporis can be applied only for time method \"number of depreciations\"."
+msgid ""
+"Prorata temporis can be applied only for time method \"number of "
+"depreciations\"."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
@@ -902,8 +918,7 @@ msgid "Residual Value"
 msgstr "Giá trị còn lại"
 
 #. module: account_asset
-#: selection:account.asset.asset,state:0
-#: selection:asset.asset.report,state:0
+#: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
 msgid "Running"
 msgstr "Đang tính khấu hao"
