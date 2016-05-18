@@ -25,7 +25,7 @@ msgstr "Quy tắc phân tích"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_bom_count
 msgid "# Bill of Material"
-msgstr ""
+msgstr "SL BoM"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_purchase_num_invoiced
@@ -83,7 +83,7 @@ msgid ""
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sale Order, Delivery Order and "
 "Customer Invoice/Refund"
-msgstr "Một miêu tả sản phẩm mà bạn muốn chuyển tới cho khách hàng. Mô tả này sẽ được sao chép tới từng Hợp đồng bán hàng, Lệnh giao hàng và Hóa đơn/Hoàn tiền Khách hàng"
+msgstr "Một miêu tả sản phẩm mà bạn muốn chuyển tới cho khách hàng. Mô tả này sẽ được sao chép tới từng Hợp đồng bán hàng, Lệnh giao hàng và Hoá đơn/Hoàn tiền Khách hàng"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_description_purchase
@@ -513,7 +513,7 @@ msgstr "Tài khoản chi phí"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_expense_policy
 msgid "Expense Invoice Policy"
-msgstr "Chính sách hóa đơn chi phí"
+msgstr "Chính sách hoá đơn chi phí"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_sale_order_carrier_id
@@ -559,12 +559,12 @@ msgstr "Số lượng dự kiến (được tính bằng Số lượng thực t�
 #: model:delivery.carrier,name:delivery.free_delivery_carrier
 #: model:product.product,name:delivery.free_delivery_carrier_product_product
 msgid "Free delivery charges"
-msgstr ""
+msgstr "Miễn phí giao hàng"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_free_if_more_than
 msgid "Free if Order total is more than"
-msgstr ""
+msgstr "Miễn phí nếu giá trị đơn hàng lớn hơn"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_packaging_ids
@@ -1162,7 +1162,7 @@ msgstr "Ảnh cỡ nhỏ"
 msgid ""
 "Specify a unit of measure here if invoicing is made in another unit of "
 "measure than inventory. Keep empty to use the default unit of measure."
-msgstr "Chỉ ra một đơn vị đo lường tại đây nếu việc xuất hóa đơn được thực hiện trên một đơn vị đo lường khác với tồn kho. Để trống để sử dụng đơn vị đo lường mặc định."
+msgstr "Chỉ ra một đơn vị đo lường tại đây nếu việc xuất hoá đơn được thực hiện trên một đơn vị đo lường khác với tồn kho. Để trống để sử dụng đơn vị đo lường mặc định."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_product_sale_ok
@@ -1387,7 +1387,7 @@ msgstr "Dịch chuyển"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_partner_id
 msgid "Transporter Company"
-msgstr ""
+msgstr "Công ty Vận tải"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_turnover

@@ -188,7 +188,7 @@ msgstr "<strong>Số dư cuối kỳ</strong>:<br/>"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
 msgid "<strong>Invoiced</strong>"
-msgstr "<strong>Đã xuất hóa đơn</strong>"
+msgstr "<strong>Đã xuất hoá đơn</strong>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_sessionsummary
@@ -356,7 +356,7 @@ msgstr "<strong>Tổng chiết khấu</strong>"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
 msgid "<strong>Total invoiced</strong>"
-msgstr "<strong>Tổng đã xuất hóa đơn</strong>"
+msgstr "<strong>Tổng đã xuất hoá đơn</strong>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
@@ -1077,7 +1077,7 @@ msgstr "Khách hàng"
 #: code:addons/point_of_sale/point_of_sale.py:1177
 #, python-format
 msgid "Customer Invoice"
-msgstr "Hóa đơn khách hàng"
+msgstr "Hoá đơn khách hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_property_stock_customer
@@ -1436,7 +1436,7 @@ msgstr "Finished Importing Orders"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_fiscal_position_id
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_property_account_position_id
 msgid "Fiscal Position"
-msgstr "Vị thế tài chính"
+msgstr "Vị thế Tài khoá"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_fiscal_position_ids
@@ -1639,12 +1639,12 @@ msgstr "Ghi chú nội bộ"
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 #, python-format
 msgid "Invoice"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_transaction_pos_invoice_am
 msgid "Invoice Amount"
-msgstr "Giá trị hóa đơn"
+msgstr "Giá trị hoá đơn"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_invoiced
@@ -1653,18 +1653,18 @@ msgstr "Giá trị hóa đơn"
 #: selection:pos.order,state:0
 #: selection:report.pos.order,state:0
 msgid "Invoiced"
-msgstr "Đã xuất hóa đơn"
+msgstr "Đã xuất hoá đơn"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_invoice
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_invoice_ids
 msgid "Invoices"
-msgstr "Các hóa đơn"
+msgstr "Các hoá đơn"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_invoicing
 msgid "Invoicing"
-msgstr "Xuất Hóa đơn"
+msgstr "Xuất Hoá đơn"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_journal
@@ -1948,7 +1948,7 @@ msgstr "Không có"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Not Invoiced"
-msgstr "Chưa xuất hóa đơn"
+msgstr "Chưa xuất hoá đơn"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_session
@@ -3254,7 +3254,7 @@ msgstr "The displayed prices will always include all taxes, even if the taxes ha
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_account_position_id
 msgid "The fiscal position will determine taxes and accounts used for the partner."
-msgstr "Vị thế tài chính sẽ xác nhận thuế và tài khoản được sử dụng cho đối tác này."
+msgstr "Vị thế Tài khoá sẽ xác nhận thuế và tài khoản được sử dụng cho đối tác này."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_proxy_ip
@@ -3467,7 +3467,7 @@ msgstr "This payment term will be used instead of the default one for purchase o
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_payment_term_id
 msgid "This payment term will be used instead of the default one for sale orders and customer invoices"
-msgstr "Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên hợp đồng bán hàng và hóa đơn khách hàng"
+msgstr "Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên hợp đồng bán hàng và hoá đơn khách hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_product_pricelist
@@ -3552,7 +3552,7 @@ msgstr "Giảm giá tổng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_total_invoiced
 msgid "Total Invoiced"
-msgstr "Tổng tiền hóa đơn đã xuất"
+msgstr "Tổng tiền hoá đơn đã xuất"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_debit

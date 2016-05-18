@@ -131,11 +131,11 @@ msgid " * The 'Draft' status is used when a user is encoding a new and unconfirm
 " * The 'Open' status is used when user create invoice, an invoice number is generated. Its in open status till user does not pay invoice.\n"
 " * The 'Paid' status is set automatically when the invoice is paid. Its related journal entries may or may not be reconciled.\n"
 " * The 'Cancelled' status is used when user cancel invoice."
-msgstr " * The 'Draft' status is used when a user is encoding a new and unconfirmed Invoice.\n"
-" * The 'Pro-forma' status is used the invoice does not have an invoice number.\n"
-" * The 'Open' status is used when user create invoice, an invoice number is generated. Its in open status till user does not pay invoice.\n"
-" * The 'Paid' status is set automatically when the invoice is paid. Its related journal entries may or may not be reconciled.\n"
-" * The 'Cancelled' status is used when user cancel invoice."
+msgstr " * Trạng thái 'Dự thảo' được sử dụng khi một người dùng ghi nhận một hoá đơn mới và chưa xác nhận.\n"
+" * Trạng thái 'Pro-forma' được sử dụng làm một bước chuyển tiếp giữa 'Dự thảo' và 'Mở'. Hoá đơn Pro-forma không có số hoá đơn.\n"
+" * Trạng thái 'Mở' là trạng thái mà hoá đơn đã được thẩm định/xác nhận, được cấp một mã số duy nhất trong hệ thống và chưa được thanh toán hết.\n"
+" * Trạng thái 'Đã thanh toán' được tự động thiết lập cho hoá đơn khi hoá đơn được thanh toán hết. Các bút toán sổ nhật ký liên quan có thể đã hoặc chưa đối soát.\n"
+" * Trạng thái 'Đã huỷ bỏ' là trạng thái của hoá đơn bị huỷ bỏ bởi người dùng."
 
 #. module: account
 #. openerp-web
@@ -255,7 +255,7 @@ msgstr "<span class=\"fa\"/> Mời Người dùng của bạn"
 #. module: account
 #: model:ir.ui.view,arch_db:account.partner_view_buttons
 msgid "<span class=\"o_stat_text\">Invoiced</span>"
-msgstr "<span class=\"o_stat_text\">Đã xuất hóa đơn</span>"
+msgstr "<span class=\"o_stat_text\">Đã xuất hoá đơn</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -333,7 +333,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Billing</strong> (Limited access)\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Billing</strong> (Truy cập giới hạn)\n"
+"                                        <strong>Hoá đơn</strong> (Truy cập giới hạn)\n"
 "                                    </span>"
 
 #. module: account
@@ -351,7 +351,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Invoice payment by Check</strong>\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Thanh toán hóa đơn bằng séc</strong>\n"
+"                                        <strong>Thanh toán hoá đơn bằng séc</strong>\n"
 "                                    </span>"
 
 #. module: account
@@ -360,7 +360,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Invoice payment by Wire Transfer</strong>\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Thanh toán hóa đơn bằng Chuyển khoản ngân hàng</strong>\n"
+"                                        <strong>Thanh toán hoá đơn bằng Chuyển khoản ngân hàng</strong>\n"
 "                                    </span>"
 
 #. module: account
@@ -369,7 +369,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Pay your bills</strong>\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Thanh toán hóa đơn cuả bạn</strong>\n"
+"                                        <strong>Thanh toán hoá đơn cuả bạn</strong>\n"
 "                                    </span>"
 
 #. module: account
@@ -387,7 +387,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Record your Bills</strong>\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Ghi nhận các hóa đơn của bạn</strong>\n"
+"                                        <strong>Ghi nhận các hoá đơn của bạn</strong>\n"
 "                                    </span>"
 
 #. module: account
@@ -418,12 +418,12 @@ msgstr "<span>Nhân bản</span>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>New Bill</span>"
-msgstr "<span>Hóa đơn mới</span>"
+msgstr "<span>Hoá đơn mới</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>New Invoice</span>"
-msgstr "<span>Hóa đơn mới</span>"
+msgstr "<span>Hoá đơn mới</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -458,7 +458,7 @@ msgstr "<span>Xem</span>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>-The Odoo Team</strong>"
-msgstr "<strong>-The Odoo Team</strong>"
+msgstr "<strong>-Đội Odoo</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -525,7 +525,7 @@ msgstr "<strong>Hợp đồng &amp; Thuê bao</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Create a Customer Invoice</strong>"
-msgstr "<strong>Tạo một Hóa đơn khách hàng</strong>"
+msgstr "<strong>Tạo một Hoá đơn khách hàng</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -591,12 +591,12 @@ msgstr "<strong>Chi phí</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Fiscal Position Remark:</strong>"
-msgstr "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>Chú giải Vị thế Tài khoá:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Invoice Date:</strong>"
-msgstr "<strong>Ngày hóa đơn:</strong>"
+msgstr "<strong>Ngày hoá đơn:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_generalledger
@@ -607,8 +607,8 @@ msgstr "<strong>Sổ nhật ký:</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Mark the bills to pay</strong><br/>\n"
 "                                        Group or filter your bills to see those due in the next week, then open each bill individually, click on <strong>'Pay'</strong> and select the payment method you prefer."
-msgstr "<strong>Mark the bills to pay</strong><br/>\n"
-"                                        Group or filter your bills to see those due in the next week, then open each bill individually, click on <strong>'Pay'</strong> and select the payment method you prefer."
+msgstr "<strong>Đánh dầu hoá đơn để thanh toán</strong><br/>\n"
+"                                        Nhóm hoặc lọc các hoá đơn của bạn để xem nhưng cái đến hạn trong tuần tới, sau đó mở từng cái một, bấm vào <strong>'Thanh toán'</strong> và chọn phương thức thanh toán mà bạn muốn."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -635,7 +635,7 @@ msgstr "<strong>Của đối tác:</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
 msgid "<strong>Period Length (days)</strong>"
-msgstr "<strong>Độ dài chu kỳ (ngày)</strong>"
+msgstr "<strong>Độ dài Chu kỳ (ngày)</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -698,12 +698,12 @@ msgstr "<strong>Tham chiếu:</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Revenue Recognition</strong>"
-msgstr "<strong>Nhân biết thu nhập</strong>"
+msgstr "<strong>Nhận biết thu nhập</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Send follow-up letters</strong>"
-msgstr "<strong>Gửi thư follow-up letters</strong>"
+msgstr "<strong>Gửi thư follow-up</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_generalledger
@@ -761,7 +761,7 @@ msgstr "<strong>Tổng</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Validate the bill</strong><br/> after encoding the products and taxes."
-msgstr "<strong>Xác nhận hóa đơn</strong><br/> sau khi ghi nhận sản phẩm và các mục thuế."
+msgstr "<strong>Xác nhận hoá đơn</strong><br/> sau khi ghi nhận sản phẩm và các mục thuế."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -858,12 +858,12 @@ msgstr "Một phát sinh được chọn đã được đối soát."
 #: code:addons/account/models/account_bank_statement.py:225
 #, python-format
 msgid "A statement cannot be canceled when its lines are reconciled."
-msgstr ""
+msgstr "Không thể huỷ bỏ sao kê nếu một hay nhiều dòng chi tiết của nó đã được đối soát"
 
 #. module: account
 #: sql_constraint:account.fiscal.position.tax:0
 msgid "A tax fiscal position could be defined only once time on same taxes."
-msgstr ""
+msgstr "Một vị thế tài khoản thuế chỉ có thể được xác định một lần cho cùng thuế."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:387
@@ -920,7 +920,7 @@ msgstr ""
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_closebalance
 msgid "Account Bank Statement closing balance"
-msgstr "Account Bank Statement closing balance"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_account_report
@@ -973,12 +973,12 @@ msgstr "Dòng Tài khoản"
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_template_account_ids
 #: model:ir.ui.view,arch_db:account.view_account_position_form
 msgid "Account Mapping"
-msgstr "Account Mapping"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_reversal
 msgid "Account Move Reversal"
-msgstr ""
+msgstr "Đảo người Bút toán kế toán"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_accounts_wizard_acc_name
@@ -1054,7 +1054,7 @@ msgstr "Tài khoản Thuế"
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_tree
 msgid "Account Tax Template"
-msgstr ""
+msgstr "Mẫu Thuế"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_chart_template_seacrh
@@ -1068,7 +1068,7 @@ msgstr "Mẫu Tài khoản"
 #: model:ir.model.fields,field_description:account.field_account_chart_template_property_stock_valuation_account_id
 #: model:ir.model.fields,field_description:account.field_res_company_property_stock_valuation_account_id
 msgid "Account Template for Stock Valuation"
-msgstr ""
+msgstr "Mẫu tài khoản cho việc định giá tồn kho"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_template_form
@@ -1144,18 +1144,18 @@ msgstr "Tag Tài khoản"
 #: model:ir.model.fields,help:account.field_account_tax_account_id
 #: model:ir.model.fields,help:account.field_account_tax_template_account_id
 msgid "Account that will be set on invoice tax lines for invoices. Leave empty to use the expense account."
-msgstr "Account that will be set on invoice tax lines for invoices. Leave empty to use the expense account."
+msgstr "Tài khoản mà sẽ được thiết lập trên dòng thuế cho các hoá đơn. Để trống để sử dụng tài khoản chi phí."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_refund_account_id
 #: model:ir.model.fields,help:account.field_account_tax_template_refund_account_id
 msgid "Account that will be set on invoice tax lines for refunds. Leave empty to use the expense account."
-msgstr "Account that will be set on invoice tax lines for refunds. Leave empty to use the expense account."
+msgstr "Tài khoản mà sẽ được thiết lập trên dòng thuế cho các hoá đơn hoàn tiền. Để trống để sử dụng tài khoản chi phí."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_account_dest_id
 msgid "Account to Use Instead"
-msgstr "Account to Use Instead"
+msgstr "Tài khoản để dùng thay thế"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_accounts_wizard_account_type
@@ -1193,7 +1193,7 @@ msgstr "Cấu hình Kế toán: một hướng dẫn từng bước một"
 #. module: account
 #: model:ir.actions.act_window,name:account.open_account_journal_dashboard_kanban
 msgid "Accounting Dashboard"
-msgstr "Dashboard Kế toán"
+msgstr "Bảng tin Kế toán"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_date
@@ -1242,12 +1242,12 @@ msgstr "Tài khoản được phép"
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account
 msgid "Accounts Fiscal Position"
-msgstr "Vị thế tài chính kế toán"
+msgstr "Vị thế Tài khoá kế toán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_position_template_form
 msgid "Accounts Mapping"
-msgstr "Accounts Mapping"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_message_needaction
@@ -1322,12 +1322,12 @@ msgstr "Cố vấn"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_include_base_amount
 msgid "Affect Base of Subsequent Taxes"
-msgstr "Affect Base of Subsequent Taxes"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template_include_base_amount
 msgid "Affect Subsequent Taxes"
-msgstr "Affect Subsequent Taxes"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_aged_balance_view
@@ -1413,7 +1413,7 @@ msgstr "Tất cả các đối soát"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_state
 msgid "All manually created new journal entries are usually in the status 'Unposted', but you can set the option to skip that status on the related journal. In that case, they will behave as journal entries automatically created by the system on document validation (invoices, bank statements...) and will be created in 'Posted' status."
-msgstr "Tất cả số nhật ký được tạo mới một cách thủ công thường trong tình trạng chưa vào sổ, nhưng bạn có thể thiết lập tùy chọn để bỏ qua tình trạng này trên sổ nhật ký tương ứng. Trong trường hợp đó, chúng sẽ hành xử như là một sổ nhật ký được tạo tự động bởi hệ thống trên việc xác nhận tài liệu (hóa đơn, Sao kê ngân hàng,...) và sẽ được tạo với tình trạng đã vào sổ."
+msgstr "Tất cả số nhật ký được tạo mới một cách thủ công thường trong tình trạng chưa vào sổ, nhưng bạn có thể thiết lập tùy chọn để bỏ qua tình trạng này trên sổ nhật ký tương ứng. Trong trường hợp đó, chúng sẽ hành xử như là một sổ nhật ký được tạo tự động bởi hệ thống trên việc xác nhận tài liệu (hoá đơn, Sao kê ngân hàng,...) và sẽ được tạo với tình trạng đã vào sổ."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.validate_account_move_view
@@ -1459,7 +1459,7 @@ msgstr "Cho phép đa tiền tệ"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_group_proforma_invoices
 msgid "Allow pro-forma invoices"
-msgstr "Cho phép xuất hóa đơn tạm (Pro-Forma)"
+msgstr "Cho phép xuất hoá đơn tạm (Pro-Forma)"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_group_multi_currency
@@ -1469,7 +1469,7 @@ msgstr "Cho phép môi trường đa tiền tệ"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_group_proforma_invoices
 msgid "Allows you to put invoices in pro-forma state."
-msgstr "Cho phép bạn đặt hóa đơn trong tình trạn tạm"
+msgstr "Cho phép bạn đặt hoá đơn trong tình trạn tạm"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_group_analytic_accounting
@@ -1544,7 +1544,7 @@ msgstr "Số tiền:"
 #. module: account
 #: sql_constraint:account.fiscal.position.account:0
 msgid "An account fiscal position could be defined only once time on same accounts."
-msgstr "Một vị thế tài chính chỉ có thể được xác định duy nhất một lần trên cùng tài khoản"
+msgstr "Một Vị thế Tài khoá chỉ có thể được xác định duy nhất một lần trên cùng tài khoản"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_form
@@ -1953,48 +1953,48 @@ msgstr "Hoá đơn"
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 #: model:ir.ui.view,arch_db:account.invoice_supplier_tree
 msgid "Bill Date"
-msgstr "Ngày hóa đơn"
+msgstr "Ngày hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bill Refund"
-msgstr "Hoàn tiền Bill"
+msgstr "Hoàn tiền Hoá đơn NCC"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "Bill lines"
-msgstr "Bill lines"
+msgstr "Chi tiết Hoá đơn NCC"
 
 #. module: account
 #: model:res.groups,name:account.group_account_invoice
 msgid "Billing"
-msgstr "Lập hóa đơn"
+msgstr "Lập hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills"
-msgstr "Bills"
+msgstr "Hoá đơn NCC"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills Analysis"
-msgstr "Bills Analysis"
+msgstr "Phân tích Hoá đơn NCC"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:161
 #, python-format
 msgid "Bills to pay"
-msgstr "Bills to pay"
+msgstr "Hoá đơn chờ thanh toán"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_type_include_initial_balance
 msgid "Bring Accounts Balance Forward"
-msgstr "Bring Accounts Balance Forward"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
 msgid "Browse available countries."
-msgstr "Browse available countries."
+msgstr "Duyệt các quốc gia khả dụng."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_module_account_budget
@@ -2039,7 +2039,7 @@ msgstr "Theo Nhân viên bán hàng"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_active
 msgid "By unchecking the active field, you may hide a fiscal position without deleting it."
-msgstr "Bằng cách bỏ đánh dấu trường hoạt động này, bạn có thể ẩn một vị thế tài chính mà không cần xóa nó."
+msgstr "Bằng cách bỏ đánh dấu trường hoạt động này, bạn có thể ẩn một Vị thế Tài khoá mà không cần xóa nó."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_visible
@@ -2080,18 +2080,18 @@ msgstr "Hủy bút toán"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "Cancel Invoice"
-msgstr "Hủy hóa đơn"
+msgstr "Hủy hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_invoice_cancel_view
 msgid "Cancel Invoices"
-msgstr "Hủy hóa đơn"
+msgstr "Hủy hoá đơn"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_invoice_cancel
 #: model:ir.ui.view,arch_db:account.account_invoice_cancel_view
 msgid "Cancel Selected Invoices"
-msgstr "Hủy hóa đơn được chọn"
+msgstr "Hủy hoá đơn được chọn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_form
@@ -2101,7 +2101,7 @@ msgstr "Hủy bỏ Statement"
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_cancel
 msgid "Cancel the Selected Invoices"
-msgstr "Hủy hóa đơn được chọn"
+msgstr "Hủy hoá đơn được chọn"
 
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
@@ -2117,7 +2117,7 @@ msgstr "Đã hủy bỏ"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Cancelled Invoice"
-msgstr "Hóa đơn đã hủy"
+msgstr "Hoá đơn đã hủy"
 
 #. module: account
 #: code:addons/account/models/account_move.py:959
@@ -2212,7 +2212,7 @@ msgstr "Két tiền mặt"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Cash Statements"
-msgstr "Cash Statements"
+msgstr "Sao kê Tiền mặt"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_bank_account_ids
@@ -2223,12 +2223,12 @@ msgstr "Tiền mặt và Ngân hàng"
 #: code:addons/account/models/account_bank_statement.py:177
 #, python-format
 msgid "Cash difference observed during the counting (%s)"
-msgstr "Cash difference observed during the counting (%s)"
+msgstr "Chênh lệch tiền mặt quan sát được trong quá trình đếm (%s)"
 
 #. module: account
 #: model:ir.model,name:account.model_account_cashbox_line
 msgid "CashBox Line"
-msgstr "CashBox Line"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cashbox_line_cashbox_id
@@ -2238,17 +2238,17 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_cashbox_cashbox_lines_ids
 msgid "Cashbox Lines"
-msgstr "Cashbox Lines"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_property_account_expense_categ_id
 msgid "Category of Expense Account"
-msgstr "Category of Expense Account"
+msgstr "Nhóm của Tài khoản Chi phí"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_property_account_income_categ_id
 msgid "Category of Income Account"
-msgstr "Category of Income Account"
+msgstr "Nhóm của Tài khoản Thu nhập"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -2332,18 +2332,18 @@ msgstr "Đánh dấu nếu công ty này là một pháp nhân."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_refund_sequence
 msgid "Check this box if you don't want to share the same sequence for invoices and refunds made from this journal"
-msgstr "Check this box if you don't want to share the same sequence for invoices and refunds made from this journal"
+msgstr "Đánh dầu kiểm vào ô này nếu bạn không muốn sử dụng chung một kiểu số trình tự đối với cả bút toán hoá đơn và bút toán hoàn tiền được thực hiện từ sổ nhật ký này"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_update_posted
 msgid "Check this box if you want to allow the cancellation the entries related to this journal or of the invoice related to this journal"
-msgstr "Đánh dấu nếu bạn muốn cho phép hủy bỏ bút toán liên quan đến sổ nhật ký này hoặc hóa đơn cho sổ nhật ký này"
+msgstr "Đánh dấu nếu bạn muốn cho phép hủy bỏ bút toán liên quan đến sổ nhật ký này hoặc hoá đơn cho sổ nhật ký này"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_price_include
 #: model:ir.model.fields,help:account.field_account_tax_template_price_include
 msgid "Check this if the price you use on the product and invoices includes this tax."
-msgstr "Đánh dấu nếu giá tiền mà bạn sử dụng trên sản phẩm và hóa đơn có bao gồ thuế này."
+msgstr "Đánh dấu nếu giá tiền mà bạn sử dụng trên sản phẩm và hoá đơn có bao gồ thuế này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template_reconcile
@@ -2405,27 +2405,27 @@ msgstr "Bấm để tạo một bút toán sổ nhật ký."
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
 msgid "Click to create a new cash log."
-msgstr "Click to create a new cash log."
+msgstr "Bấm để tạo mới một nhật ký tiền mặt."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_operation_template
 msgid "Click to create a reconciliation model."
-msgstr "Click to create a reconciliation model."
+msgstr "Bấm để tạo mới một mô hình đối soát."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_type_form
 msgid "Click to define a new account type."
-msgstr "Click to define a new account type."
+msgstr "Bấm để tạo mới một kiểu tài khoản."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree2
 msgid "Click to record a new vendor bill."
-msgstr "Bấm để tạo một hóa đơn nhà cung cấp."
+msgstr "Bấm để tạo một hoá đơn nhà cung cấp."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid "Click to register a bank statement."
-msgstr "Click to register a bank statement."
+msgstr "Bấm để ghi nhận một sao kê ngân hàng."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_payments
@@ -2664,17 +2664,17 @@ msgstr "Xác nhận"
 #: model:ir.actions.act_window,name:account.action_account_invoice_confirm
 #: model:ir.ui.view,arch_db:account.account_invoice_confirm_view
 msgid "Confirm Draft Invoices"
-msgstr "Xác nhận hóa đơn dự thảo"
+msgstr "Xác nhận hoá đơn dự thảo"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_invoice_confirm_view
 msgid "Confirm Invoices"
-msgstr "Xác nhận hóa đơn"
+msgstr "Xác nhận hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_confirm
 msgid "Confirm the selected invoices"
-msgstr "Xác nhận hóa đơn được chọn"
+msgstr "Xác nhận hoá đơn được chọn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_search
@@ -2684,24 +2684,24 @@ msgstr "Đã xác nhận"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_bnk_stmt_check
 msgid "Confirming this will create automatically a journal entry with the difference in the profit/loss account set on the cash journal."
-msgstr "Confirming this will create automatically a journal entry with the difference in the profit/loss account set on the cash journal."
+msgstr "Xác nhận cái này sẽ tự động tạo một bút toán sổ nhật ký với chênh lệch ở tài khoản lãi/lỗ được khai báo trên sổ nhật ký."
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1507
 #, python-format
 msgid "Congrats, you're all done !"
-msgstr "Congrats, you're all done !"
+msgstr "Chúc mừng, bạn đã hoàn thành!"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Congratulations, you're done!"
-msgstr "Congratulations, you're done!"
+msgstr "Chúc mừng, bạn đã hoàn thành!"
 
 #. module: account
 #: model:ir.model,name:account.model_account_abstract_payment
 msgid "Contains the logic shared between models which allows to register payments"
-msgstr "Contains the logic shared between models which allows to register payments"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_contract_ids
@@ -3028,7 +3028,7 @@ msgstr "Chu trình khách hàng"
 #: selection:account.invoice,type:0
 #: selection:account.invoice.report,type:0
 msgid "Customer Invoice"
-msgstr "Hóa đơn khách hàng"
+msgstr "Hoá đơn khách hàng"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:177
@@ -3037,7 +3037,7 @@ msgstr "Hóa đơn khách hàng"
 #: model:ir.ui.view,arch_db:account.account_planner
 #, python-format
 msgid "Customer Invoices"
-msgstr "Hóa đơn khách hàng"
+msgstr "Hoá đơn khách hàng"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:470
@@ -3079,7 +3079,7 @@ msgstr "Khách hàng"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_board_journal_1
 msgid "Dashboard"
-msgstr "Bảng điều khiển"
+msgstr "Bảng thông tin"
 
 #. module: account
 #. openerp-web
@@ -3168,7 +3168,7 @@ msgstr "Tháng Mười hai"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_refund_sequence
 msgid "Dedicated Refund Sequence"
-msgstr "Dedicated Refund Sequence"
+msgstr "Trình tự Hoàn tiền riêng"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_default_credit_account_id
@@ -3413,7 +3413,7 @@ msgstr "Display on Invoices"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_display_on_footer
 msgid "Display this bank account on the footer of printed documents like invoices and sales orders."
-msgstr "Hiển thị tài khoản ngân hàng này trên phần dưới của tài liệu được in như hóa đơn, hợp đồng bán hàng,..."
+msgstr "Hiển thị tài khoản ngân hàng này trên phần dưới của tài liệu được in như hoá đơn, hợp đồng bán hàng,..."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
@@ -3459,12 +3459,12 @@ msgstr "Draft Bill"
 #: model:ir.ui.view,arch_db:account.invoice_form
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Draft Invoice"
-msgstr "Hóa đơn dự thảo"
+msgstr "Hoá đơn dự thảo"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Draft Invoices"
-msgstr "Hóa đơn dự thảo"
+msgstr "Hoá đơn dự thảo"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
@@ -3475,7 +3475,7 @@ msgstr "Dự thảo hoàn tiền"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Draft bills"
-msgstr "Draft bills"
+msgstr "Hoá đơn dự thảo"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_draft_tree
@@ -3660,7 +3660,7 @@ msgstr "Lỗi!"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Excel template"
-msgstr "Excel template"
+msgstr "Mẫu Excel"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:180
@@ -3833,20 +3833,20 @@ msgstr "Fiscal Mapping"
 #: model:ir.ui.view,arch_db:account.view_account_position_template_tree
 #: model:ir.ui.view,arch_db:account.view_account_position_tree
 msgid "Fiscal Position"
-msgstr "Vị thế tài chính"
+msgstr "Vị thế Tài khoá"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_template_name
 #: model:ir.ui.view,arch_db:account.view_account_position_template_form
 #: model:ir.ui.view,arch_db:account.view_account_position_template_search
 msgid "Fiscal Position Template"
-msgstr "Mẫu vị thế tài chính"
+msgstr "Mẫu Vị thế Tài khoá"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_fiscal_position_form
 #: model:ir.ui.menu,name:account.menu_action_account_fiscal_position_form
 msgid "Fiscal Positions"
-msgstr "Vị thế tài chính"
+msgstr "Vị thế Tài khoá"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
@@ -3856,19 +3856,19 @@ msgstr "Năm tài chính"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Fiscal Year Last Day"
-msgstr "Fiscal Year Last Day"
+msgstr "Ngày cuối của Năm Tài chính"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_fiscalyear_last_day
 #: model:ir.model.fields,field_description:account.field_res_company_fiscalyear_last_day
 msgid "Fiscalyear last day"
-msgstr "Fiscalyear last day"
+msgstr "Ngày cuối Năm Tài chính"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_fiscalyear_last_month
 #: model:ir.model.fields,field_description:account.field_res_company_fiscalyear_last_month
 msgid "Fiscalyear last month"
-msgstr "Fiscalyear last month"
+msgstr "Tháng cuối Năm Tài chính"
 
 #. module: account
 #: selection:account.operation.template,amount_type:0
@@ -4102,7 +4102,7 @@ msgstr "Nhóm theo"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_group_invoice_lines
 msgid "Group Invoice Lines"
-msgstr "Nhóm theo hạng mục trên hóa đơn"
+msgstr "Nhóm theo hạng mục trên hoá đơn"
 
 #. module: account
 #: selection:account.tax,amount_type:0
@@ -4260,7 +4260,7 @@ msgstr "Nếu bỏ chọn trường Hoạt động này, nó sẽ cho phép bạ
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_group_invoice_lines
 msgid "If this box is checked, the system will try to group the accounting lines when generating them from invoices."
-msgstr "Nếu đánh dấu vào ô này, hệ thống sẽ thử nhóm các định khoản khi nó được tạo ra từ hóa đơn."
+msgstr "Nếu đánh dấu vào ô này, hệ thống sẽ thử nhóm các định khoản khi nó được tạo ra từ hoá đơn."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_module_account_sepa
@@ -4286,7 +4286,7 @@ msgstr "If you have less than 200 contacts, we recommend you\n"
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company_tax_calculation_rounding_method
 msgid "If you select 'Round per Line' : for each tax, the tax amount will first be computed and rounded for each PO/SO/invoice line and then these rounded amounts will be summed, leading to the total amount for that tax. If you select 'Round Globally': for each tax, the tax amount will be computed for each PO/SO/invoice line, then these amounts will be summed and eventually this total tax amount will be rounded. If you sell with tax included, you should choose 'Round per line' because you certainly want the sum of your tax-included line subtotals to be equal to the total amount with taxes."
-msgstr "Nếu bạn chọn 'Làm tròn trên từng hạng mục' : cho từng loại thuế, thì trước tiên tổng tiền thuế sẽ được tính toán và làm tròn cho từng hạng mục trên hóa đơn Mua/Bán hàng và sau đó tổng tiền đã được làm tròn sẽ được cộng lại, đó chính là tổng tiền thuế mà bạn cần. Nếu bạn chọn 'Làm tròn toàn cục': cho từng loại thuế, tổng tiền thuế sẽ được tính toán trên từng hạng mục của hóa đơn Bán/Mua, Sau đó tổng tiền sẽ được cộng và cho ra tổng tiền thuế cuối cùng. Nếu bạn bán hàng bao gồm cả thuế, bạn nên chọn 'Làm tròn trên từng hạng mục' bởi vì chắc chắn bạn muốn tổng phụ đã bao gồm thuế bằng với tổng toàn bộ các loại thuế."
+msgstr "Nếu bạn chọn 'Làm tròn trên từng hạng mục' : cho từng loại thuế, thì trước tiên tổng tiền thuế sẽ được tính toán và làm tròn cho từng hạng mục trên hoá đơn Mua/Bán hàng và sau đó tổng tiền đã được làm tròn sẽ được cộng lại, đó chính là tổng tiền thuế mà bạn cần. Nếu bạn chọn 'Làm tròn toàn cục': cho từng loại thuế, tổng tiền thuế sẽ được tính toán trên từng hạng mục của hoá đơn Bán/Mua, Sau đó tổng tiền sẽ được cộng và cho ra tổng tiền thuế cuối cùng. Nếu bạn bán hàng bao gồm cả thuế, bạn nên chọn 'Làm tròn trên từng hạng mục' bởi vì chắc chắn bạn muốn tổng phụ đã bao gồm thuế bằng với tổng toàn bộ các loại thuế."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_tax_calculation_rounding_method
@@ -4323,7 +4323,7 @@ msgstr "Nếu bạn sử dụng điều khoản thanh toán, ngày đến hạn 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_date_due
 msgid "If you use payment terms, the due date will be computed automatically at the generation of accounting entries. The payment term may compute several due dates, for example 50% now and 50% in one month, but if you want to force a due date, make sure that the payment term is not set on the invoice. If you keep the payment term and the due date empty, it means direct payment."
-msgstr "Nếu bạn chọn điều khoản thanh toán, ngày đến hạn sẽ được thanh toán tự động tại thời điểm tạo ra các bút toán. Điều khoản thanh toán này có thể tính toán một vai ngày đến hạn, ví dụ thời điểm này 50% và một tháng sau là 50% nhưng nếu bạn vẫn muốn thực hiện một ngày đến hạn, hãy chắc chắn rằng điều khoản thanh toán không được thiết lập trên hóa đơn. Nếu bạn sử dụng điều khoản thanh toán và để trống ngày đến hạn thì có nghĩa là bạn thanh toán trực tiếp."
+msgstr "Nếu bạn chọn điều khoản thanh toán, ngày đến hạn sẽ được thanh toán tự động tại thời điểm tạo ra các bút toán. Điều khoản thanh toán này có thể tính toán một vai ngày đến hạn, ví dụ thời điểm này 50% và một tháng sau là 50% nhưng nếu bạn vẫn muốn thực hiện một ngày đến hạn, hãy chắc chắn rằng điều khoản thanh toán không được thiết lập trên hoá đơn. Nếu bạn sử dụng điều khoản thanh toán và để trống ngày đến hạn thì có nghĩa là bạn thanh toán trực tiếp."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -4418,13 +4418,13 @@ msgstr "Bao gồm số dư đầu kỳ"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_analytic
 msgid "Include in Analytic Cost"
-msgstr "Include in Analytic Cost"
+msgstr "Bao gồm trong Chi phí Kế toán QT"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_price_include
 #: model:ir.model.fields,field_description:account.field_account_tax_template_price_include
 msgid "Included in Price"
-msgstr "Included in Price"
+msgstr "Bao gồm trong Giá"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_revenue
@@ -4541,42 +4541,42 @@ msgstr "Invite Users"
 #: model:res.request.link,name:account.req_link_invoice
 #, python-format
 msgid "Invoice"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_created
 #: model:mail.message.subtype,name:account.mt_invoice_created
 msgid "Invoice Created"
-msgstr "Hóa đơn được tạo"
+msgstr "Hoá đơn được tạo"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_date_invoice
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "Invoice Date"
-msgstr "Ngày Hóa đơn"
+msgstr "Ngày Hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_line
 #: model:ir.ui.view,arch_db:account.view_invoice_line_form
 #: model:ir.ui.view,arch_db:account.view_invoice_line_tree
 msgid "Invoice Line"
-msgstr "Chi tiết hóa đơn"
+msgstr "Chi tiết hoá đơn"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_invoice_line_ids
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "Invoice Lines"
-msgstr "Chi tiết hóa đơn"
+msgstr "Chi tiết hoá đơn"
 
 #. module: account
 #: sql_constraint:account.invoice:0
 msgid "Invoice Number must be unique per Company!"
-msgstr "Số hóa đơn phải là duy nhất trên một công ty!"
+msgstr "Số hoá đơn phải là duy nhất trên một công ty!"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_invoice_id
 msgid "Invoice Reference"
-msgstr "Tham chiếu Hóa đơn"
+msgstr "Tham chiếu Hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_refund
@@ -4586,12 +4586,12 @@ msgstr "Hoàn tiền"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_state
 msgid "Invoice Status"
-msgstr "Tình trạng hóa đơn"
+msgstr "Tình trạng hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_tax
 msgid "Invoice Tax"
-msgstr "Thuế Hóa đơn"
+msgstr "Thuế Hoá đơn"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_invoice_id
@@ -4601,7 +4601,7 @@ msgstr "Invoice id"
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_paid
 msgid "Invoice paid"
-msgstr "Hóa đơn đã thanh toán hết"
+msgstr "Hoá đơn đã thanh toán hết"
 
 #. module: account
 #: code:addons/account/wizard/account_invoice_refund.py:113
@@ -4613,12 +4613,12 @@ msgstr "Invoice refund"
 #: code:addons/account/models/account_invoice.py:1367
 #, python-format
 msgid "Invoice sent"
-msgstr "Hóa đơn đã được gửi"
+msgstr "Hoá đơn đã được gửi"
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_validated
 msgid "Invoice validated"
-msgstr "Hóa đơn đã xác nhận"
+msgstr "Hoá đơn đã xác nhận"
 
 #. module: account
 #: model:mail.template,report_name:account.email_template_edi_invoice
@@ -4628,7 +4628,7 @@ msgstr "Invoice_${(object.number or '').replace('/','_')}_${object.state == 'dra
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Invoiced"
-msgstr "Đã xuất hóa đơn"
+msgstr "Đã xuất hoá đơn"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_invoice_refund_out_tree
@@ -4645,14 +4645,14 @@ msgstr "Đã xuất hóa đơn"
 #: model:ir.ui.view,arch_db:account.view_invoice_line_calendar
 #: model:ir.ui.view,arch_db:account.view_invoice_pivot
 msgid "Invoices"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:2100
 #, python-format
 msgid "Invoices & Payments Matching"
-msgstr "Invoices & Payments Matching"
+msgstr "Đối chiếu Hoá đơn & Thanh toán"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_invoice_report_all
@@ -4662,12 +4662,12 @@ msgstr "Invoices & Payments Matching"
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_pivot
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Invoices Analysis"
-msgstr "Phân tích hóa đơn"
+msgstr "Phân tích hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_report
 msgid "Invoices Statistics"
-msgstr "Thống kê hóa đơn"
+msgstr "Thống kê hoá đơn"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:161
@@ -4683,7 +4683,7 @@ msgstr "Hoá đơn chờ Xác nhận"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Invoicing & Payments"
-msgstr "Hóa đơn & Thanh toán"
+msgstr "Hoá đơn & Thanh toán"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_message_is_follower
@@ -4711,12 +4711,12 @@ msgstr "Nó hoạt động như là một tài khoản mặc định cho tổng 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_reconciled
 msgid "It indicates that the invoice has been paid and the journal entry of the invoice has been reconciled with one or several journal entries of payment."
-msgstr "Nó chỉ ra rằng hóa đơn này đã được thanh toán hết và bút toán của hóa đơn này đã được đối soát với một hoặc một vài bút toán thanh toán."
+msgstr "Nó chỉ ra rằng hoá đơn này đã được thanh toán hết và bút toán của hoá đơn này đã được đối soát với một hoặc một vài bút toán thanh toán."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_sent
 msgid "It indicates that the invoice has been sent."
-msgstr "Nó chỉ ra rằng hóa đơn này đã được gửi."
+msgstr "Nó chỉ ra rằng hoá đơn này đã được gửi."
 
 #. module: account
 #: code:addons/account/models/account_move.py:846
@@ -4757,12 +4757,12 @@ msgstr "Italic Text (smaller)"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Items"
-msgstr "Items"
+msgstr "Hạng mục"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_generalledger
 msgid "JRNL"
-msgstr "JRNL"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -5155,18 +5155,18 @@ msgstr "Last day of following month"
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_last_time_entries_checked
 msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
-msgstr "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_last_time_entries_checked
 msgid "Last time the invoices & payments matching was performed on this account. It is set either if there's not at least an unreconciled debit and an unreconciled credit Or if you click the \"Done\" button."
-msgstr "Last time the invoices & payments matching was performed on this account. It is set either if there's not at least an unreconciled debit and an unreconciled credit Or if you click the \"Done\" button."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_last_time_entries_checked
 #: model:ir.model.fields,field_description:account.field_res_partner_last_time_entries_checked
 msgid "Latest Invoices & Payments Matching Date"
-msgstr "Latest Invoices & Payments Matching Date"
+msgstr "Ngày Đối chiếu Hoá đơn & Thanh toán gần nhất"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5251,12 +5251,12 @@ msgstr "Lock Date for Non-Advisers"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Lock Entries"
-msgstr "Lock Entries"
+msgstr "Khoá Bút toán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:165
@@ -5284,12 +5284,12 @@ msgstr "MISC"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Main Currency"
-msgstr "Main Currency"
+msgstr "Tiền tệ chính"
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
 msgid "Main Title 1 (bold, underlined)"
-msgstr "Main Title 1 (bold, underlined)"
+msgstr "Tiêu đề chính 1 (bold, underlined)"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_currency_id
@@ -5299,17 +5299,17 @@ msgstr "Tiền tệ chính của công ty."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Manage time &amp; material contracts or fixed-price recurring subscriptions."
-msgstr "Manage time &amp; material contracts or fixed-price recurring subscriptions."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Manage your employee expenses, from encoding, to payments and reporting."
-msgstr "Manage your employee expenses, from encoding, to payments and reporting."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Manage your various fixed assets, such as buildings, machinery, materials, cars, etc..., and calculate their associated depreciation over time."
-msgstr "Manage your various fixed assets, such as buildings, machinery, materials, cars, etc..., and calculate their associated depreciation over time."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_management_menu
@@ -5346,17 +5346,17 @@ msgstr "Tháng Ba"
 #. module: account
 #: selection:account.payment,payment_difference_handling:0
 msgid "Mark invoice as fully paid"
-msgstr "Mark invoice as fully paid"
+msgstr "Đánh dầu hoá đơn là đã thanh toán đủ"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_matched_credit_ids
 msgid "Matched credit ids"
-msgstr "Matched credit ids"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_matched_debit_ids
 msgid "Matched debit ids"
-msgstr "Matched debit ids"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -5366,12 +5366,12 @@ msgstr "Tháng Năm"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_inbound_payment_method_ids
 msgid "Means of payment for collecting money. Odoo modules offer various payments handling facilities, but you can always use the 'Manual' payment method in order to manage payments outside of the software."
-msgstr "Means of payment for collecting money. Odoo modules offer various payments handling facilities, but you can always use the 'Manual' payment method in order to manage payments outside of the software."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid "Means of payment for sending money. Odoo modules offer various payments handling facilities, but you can always use the 'Manual' payment method in order to manage payments outside of the software."
-msgstr "Means of payment for sending money. Odoo modules offer various payments handling facilities, but you can always use the 'Manual' payment method in order to manage payments outside of the software."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_communication
@@ -5379,14 +5379,14 @@ msgstr "Means of payment for sending money. Odoo modules offer various payments 
 #: model:ir.model.fields,field_description:account.field_account_payment_communication
 #: model:ir.model.fields,field_description:account.field_account_register_payments_communication
 msgid "Memo"
-msgstr "Memo"
+msgstr "Ghi nhớ"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:64
 #, python-format
 msgid "Memo:"
-msgstr "Memo:"
+msgstr "Ghi nhớ:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_message_ids
@@ -5413,12 +5413,12 @@ msgstr "Hoạt động khác"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:81
 #, python-format
 msgid "Modify presets"
-msgstr "Modify presets"
+msgstr ""
 
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
 msgid "Modify: create refund, reconcile and create a new draft invoice"
-msgstr "Chỉnh sửa: tạo hoàn tiền, đối soát và tạo hóa đơn dự thảo"
+msgstr "Chỉnh sửa: tạo hoàn tiền, đối soát và tạo hoá đơn dự thảo"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_invoice_partner_relation
@@ -5482,7 +5482,7 @@ msgstr "Đa tiền tệ"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "My Invoices"
-msgstr "Hóa đơn của tôi"
+msgstr "Hoá đơn của tôi"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -5780,8 +5780,8 @@ msgid "Once draft invoices are confirmed, you will not be able\n"
 "                        to modify them. The invoices will receive a unique\n"
 "                        number and journal items will be created in your chart\n"
 "                        of accounts."
-msgstr "Một hóa đơn dự thảo được xác nhận, bạn sẽ không thể\n"
-"                        chỉnh sửa chúng. Hóa đơn này sẽ nhận được một số duy nhất\n"
+msgstr "Một hoá đơn dự thảo được xác nhận, bạn sẽ không thể\n"
+"                        chỉnh sửa chúng. Hoá đơn này sẽ nhận được một số duy nhất\n"
 "                        và các phát sinh sẽ được tạo trong hệ thống tài khoản."
 
 #. module: account
@@ -5794,30 +5794,30 @@ msgstr "Once you have created your chart of accounts, you will need to update yo
 msgid "Once your bank accounts are registered, you will be able \n"
 "                        to access your statements from the Accounting Dashboard. \n"
 "                        The available methods for synchronization are as follows."
-msgstr "Once your bank accounts are registered, you will be able \n"
-"                        to access your statements from the Accounting Dashboard. \n"
-"                        The available methods for synchronization are as follows."
+msgstr "Một khi tài khoản ngân hàng của bạn được đăng ký trong hệ thống, bạn sẽ có thể \n"
+"                        truy cập đến tất cả các giao dịch từ Bảng tin Kế toán. \n"
+"                        Các phương thức đồng bộ khả dụng như sau."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Once your company information is correct, you should"
-msgstr "Once your company information is correct, you should"
+msgstr "Một khi thông tin công ty của bạn đã đúng, bạn nên"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "One bank statement for each bank account you hold."
-msgstr "One bank statement for each bank account you hold."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_only_one_chart_template
 msgid "Only One Chart Template Available"
-msgstr "Only One Chart Template Available"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:320
 #, python-format
 msgid "Only a draft payment can be posted. Trying to post a payment in state %s."
-msgstr "Only a draft payment can be posted. Trying to post a payment in state %s."
+msgstr "Chỉ có khoản thanh toán ở trạng thái dự thảo mới có thể vào sổ. Bạn đang cố vào sổ một khoản thanh toán ở trạng thái %s."
 
 #. module: account
 #: code:addons/account/models/chart_template.py:721
@@ -5830,13 +5830,13 @@ msgstr "Chỉ quản trị viên mới có thể thay đổi thiết lập"
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1512
 #, python-format
 msgid "Only use the ctrl-enter shortcut to validate reconciliations."
-msgstr "Only use the ctrl-enter shortcut to validate reconciliations."
+msgstr "Chỉ sử dụng tổ hợp phím tắt ctrl-enter để thẩm định đối soát."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_period_lock_date
 #: model:ir.model.fields,help:account.field_res_company_period_lock_date
 msgid "Only users with the 'Adviser' role can edit accounts prior to and inclusive of this date. Use it for period locking inside an open fiscal year, for example."
-msgstr "Only users with the 'Adviser' role can edit accounts prior to and inclusive of this date. Use it for period locking inside an open fiscal year, for example."
+msgstr ""
 
 #. module: account
 #: selection:account.invoice,state:0
@@ -5849,12 +5849,12 @@ msgstr "Mở"
 #: code:addons/account/static/src/xml/account_payment.xml:82
 #, python-format
 msgid "Open Payment"
-msgstr "Open Payment"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.client,name:account.action_client_account_menu
 msgid "Open account dashboard menu"
-msgstr "Open account dashboard menu"
+msgstr "Mở trình đơn bảng tin kế toán"
 
 #. module: account
 #. openerp-web
@@ -5863,12 +5863,12 @@ msgstr "Open account dashboard menu"
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:2038
 #, python-format
 msgid "Open balance"
-msgstr "Open balance"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cashbox_line_number
 msgid "Opening Unit Numbers"
-msgstr "Opening Unit Numbers"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_operation_template_form
@@ -6275,7 +6275,7 @@ msgstr "Thanh toán"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Payments Matching"
-msgstr ""
+msgstr "Đối chiếu Thanh toán"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_payments
@@ -6283,6 +6283,8 @@ msgstr ""
 msgid "Payments are used to register liquidity movements (send, collect or transfer money).\n"
 "                  You can then process those payments by your own means or by using installed facilities."
 msgstr ""
+"Thanh toán được sử dụng để ghi nhận các biến động nợ (gửi, thu nhận hoặc chuyển tiền).\n"
+"                  You can then process those payments by your own means or by using installed facilities."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -6321,7 +6323,7 @@ msgstr "Tên đăng nhập tài khoản Paypal (thường là email) cho việc 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_invoice_tree_pending_invoice
 msgid "Pending Invoice"
-msgstr "Hóa đơn đang treo"
+msgstr "Hoá đơn đang treo"
 
 #. module: account
 #: selection:account.payment.term.line,value:0
@@ -6397,7 +6399,7 @@ msgstr "Please check that the field 'Transfer Account' is set on the company."
 #: code:addons/account/models/account_invoice.py:693
 #, python-format
 msgid "Please create some invoice lines."
-msgstr "Vui lòng tạo một vài hạng mục trên hóa đơn."
+msgstr "Vui lòng tạo một vài hạng mục trên hoá đơn."
 
 #. module: account
 #: code:addons/account/models/account_move.py:134
@@ -6409,7 +6411,7 @@ msgstr "Vui lòng định nghĩa trình tự trên sổ nhật ký này."
 #: code:addons/account/models/account_invoice.py:691
 #, python-format
 msgid "Please define sequence on the journal related to this invoice."
-msgstr "Vui lòng định nghĩa trình tự trên sổ nhật ký liên quan tới hóa đơn này."
+msgstr "Vui lòng định nghĩa trình tự trên sổ nhật ký liên quan tới hoá đơn này."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -6523,7 +6525,7 @@ msgstr "In"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "Print Invoice"
-msgstr "In hóa đơn"
+msgstr "In hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
@@ -6540,7 +6542,7 @@ msgstr "Pro-forma"
 #. module: account
 #: model:res.groups,name:account.group_proforma_invoices
 msgid "Pro-forma Invoices"
-msgstr "Hóa đơn Pro-forma"
+msgstr "Hoá đơn Pro-forma"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line_product_id
@@ -6673,7 +6675,7 @@ msgstr "Số lượng"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_currency_exchange_journal_id
 msgid "Rate Difference Journal"
-msgstr "Rate Difference Journal"
+msgstr "Sổ Nhật ký Chênh lệch Tỷ giá"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund_description
@@ -6717,7 +6719,7 @@ msgstr "Tài khoản Phải thu và Phải trả"
 #: selection:account.register.payments,payment_type:0
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Receive Money"
-msgstr "Receive Money"
+msgstr "Nhận Tiền"
 
 #. module: account
 #. openerp-web
@@ -6772,7 +6774,7 @@ msgstr "Đối soát"
 #: model:ir.actions.act_window,name:account.action_account_operation_template
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Reconciliation Models"
-msgstr "Reconciliation Models"
+msgstr "Mô hình Đối soát"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_reconcile_full
@@ -6839,7 +6841,7 @@ msgstr "Reference number"
 #: model:ir.model.fields,help:account.field_account_invoice_line_origin
 #: model:ir.model.fields,help:account.field_account_invoice_origin
 msgid "Reference of the document that produced this invoice."
-msgstr "Tham chiếu của tài liệu tạo ra hóa đơn này."
+msgstr "Tham chiếu của tài liệu tạo ra hoá đơn này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_payment_reference
@@ -6865,18 +6867,18 @@ msgstr "Hoàn tiền"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund_date_invoice
 msgid "Refund Date"
-msgstr "Refund Date"
+msgstr "Ngày Hoàn tiền"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_refund_sequence_id
 msgid "Refund Entry Sequence"
-msgstr "Refund Entry Sequence"
+msgstr "Trình tự cho bút toán Hoàn tiền"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_invoice_refund
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "Refund Invoice"
-msgstr "Hóa đơn hoàn tiền"
+msgstr "Hoá đơn hoàn tiền"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund_filter_refund
@@ -6886,7 +6888,7 @@ msgstr "Phương thức hoàn tiền"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_refund_filter_refund
 msgid "Refund base on this type. You can not Modify and Cancel if the invoice is already reconciled"
-msgstr "Hoàn tiền dựa trên loại này. Bạn không thể Chỉnh sửa và Hủy bỏ nếu hóa đơn này đã được đối soát"
+msgstr "Hoàn tiền dựa trên loại này. Bạn không thể Chỉnh sửa và Hủy bỏ nếu hoá đơn này đã được đối soát"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -6903,17 +6905,17 @@ msgstr "Hoàn tiền"
 #: model:ir.ui.view,arch_db:account.view_account_payment_from_invoices
 #: model:ir.ui.view,arch_db:account.view_account_payment_invoice_form
 msgid "Register Payment"
-msgstr "Register Payment"
+msgstr "Thanh toán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Register Payments"
-msgstr "Register Payments"
+msgstr "Đăng ký các khoản thanh toán"
 
 #. module: account
 #: model:ir.model,name:account.model_account_register_payments
 msgid "Register payments on multiple invoices"
-msgstr "Register payments on multiple invoices"
+msgstr "Đăng ký các khoản thanh toán cho nhiều hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -7144,7 +7146,7 @@ msgstr "Tìm kiếm mẫu hệ thống tài khoản"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "Search Invoice"
-msgstr "Tìm kiếm hóa đơn"
+msgstr "Tìm kiếm hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
@@ -7159,7 +7161,7 @@ msgstr "Tìm kiếm bút toán"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Search Operations"
-msgstr "Search Operations"
+msgstr "Tìm Hoạt động"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_search
@@ -7199,13 +7201,13 @@ msgstr "Select here the kind of valuation related to this payment term line."
 #: code:addons/account/wizard/account_invoice_state.py:42
 #, python-format
 msgid "Selected invoice(s) cannot be cancelled as they are already in 'Cancelled' or 'Done' state."
-msgstr "Hóa đơn được chọn không thể hủy bỏ bởi vì chúng đang trong trạng thái 'Hủy bỏ' hoặc 'Hoàn thành'."
+msgstr "Hoá đơn được chọn không thể hủy bỏ bởi vì chúng đang trong trạng thái 'Hủy bỏ' hoặc 'Hoàn thành'."
 
 #. module: account
 #: code:addons/account/wizard/account_invoice_state.py:21
 #, python-format
 msgid "Selected invoice(s) cannot be confirmed as they are not in 'Draft' or 'Pro-Forma' state."
-msgstr "Hóa đơn được chọn không thể được xác nhận bởi vì chúng không trong trạng thái 'Dự thảo' hoặc 'Tạm'."
+msgstr "Hoá đơn được chọn không thể được xác nhận bởi vì chúng không trong trạng thái 'Dự thảo' hoặc 'Tạm'."
 
 #. module: account
 #: selection:account.abstract.payment,payment_type:0
@@ -7213,7 +7215,7 @@ msgstr "Hóa đơn được chọn không thể được xác nhận bởi vì c
 #: selection:account.register.payments,payment_type:0
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Send Money"
-msgstr "Send Money"
+msgstr "Gửi Tiền"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
@@ -7304,14 +7306,14 @@ msgstr "Hiển thị ở Chân hoá đơn"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_show_on_dashboard
 msgid "Show journal on dashboard"
-msgstr "Show journal on dashboard"
+msgstr "Hiển thị sổ ở Bảng thông tin"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:19
 #, python-format
 msgid "Show more... ("
-msgstr "Show more... ("
+msgstr "Hiển thị thêm... ("
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_sign
@@ -7359,7 +7361,7 @@ msgstr "Số dư ban đầu"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_cashbox_start_id
 msgid "Starting Cashbox"
-msgstr "Starting Cashbox"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_payment_search
@@ -7620,7 +7622,7 @@ msgstr "Các loại Thuế"
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_tax
 msgid "Taxes Fiscal Position"
-msgstr "Vị thế tài chính thuế"
+msgstr "Vị thế Tài khoá thuế"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_position_template_form
@@ -7847,7 +7849,7 @@ msgstr "Mã tài khoản phải là duy nhất đỗi với một công ty !"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_commercial_partner_id
 msgid "The commercial entity that will be used on Journal Entries for this invoice"
-msgstr "Bút toán thương mại này sẽ được sử dụng trên bút toán sổ nhật ký cho hóa đơn này"
+msgstr "Bút toán thương mại này sẽ được sử dụng trên bút toán sổ nhật ký cho hoá đơn này"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_currency_id
@@ -7877,7 +7879,7 @@ msgstr "The first step is to set up your company information. This is mostly use
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_property_account_position_id
 msgid "The fiscal position will determine taxes and accounts used for the partner."
-msgstr "Vị thế tài chính sẽ xác nhận thuế và tài khoản được sử dụng cho đối tác này."
+msgstr "Vị thế Tài khoá sẽ xác nhận thuế và tài khoản được sử dụng cho đối tác này."
 
 #. module: account
 #: code:addons/account/models/account.py:282
@@ -7939,7 +7941,7 @@ msgstr "The optional quantity expressed by this line, eg: number of product sold
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_account_id
 msgid "The partner account used for this invoice."
-msgstr "Tài khoản đối tác được sử dụng cho hóa đơn này."
+msgstr "Tài khoản đối tác được sử dụng cho hoá đơn này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_has_unreconciled_entries
@@ -7955,7 +7957,7 @@ msgstr "The partner has to be the same on all lines for receivable and payable a
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_reference
 msgid "The partner reference of this invoice."
-msgstr "Tham chiếu đối tác của hóa đơn này"
+msgstr "Tham chiếu đối tác của hoá đơn này"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:323
@@ -8015,7 +8017,7 @@ msgstr "There is no journal items in draft state to post."
 #: code:addons/account/static/src/xml/account_reconciliation.xml:315
 #, python-format
 msgid "There is nothing to reconcile."
-msgstr "There is nothing to reconcile."
+msgstr "Không có gì để đối soát."
 
 #. module: account
 #. openerp-web
@@ -8038,36 +8040,36 @@ msgstr "These users handle billing specifically."
 #: code:addons/account/models/account_journal_dashboard.py:101
 #, python-format
 msgid "This Week"
-msgstr "This Week"
+msgstr "Tuần này"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "This Year"
-msgstr "This Year"
+msgstr "Năm nay"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_template_property_account_expense_id
 msgid "This account will be used for invoices instead of the default one to value expenses for the current product."
-msgstr "Tài khoản sẽ được sử dụng cho hóa đơn mua hàng.\n"
-"Cụ thể: khi xác nhận hóa đơn mua hàng, tự động ghi giá trị hóa đơn vào bên NỢ của tài khoản được thiết lập ở đây."
+msgstr "Tài khoản sẽ được sử dụng cho hoá đơn mua hàng.\n"
+"Cụ thể: khi xác nhận hoá đơn mua hàng, tự động ghi giá trị hoá đơn vào bên NỢ của tài khoản được thiết lập ở đây."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_template_property_account_income_id
 msgid "This account will be used for invoices instead of the default one to value sales for the current product."
-msgstr "Tài khoản sẽ được sử dụng cho hóa đơn bán hàng.\n"
-"Cụ thể: khi xác nhận hóa đơn bán hàng, tự động ghi giá trị hóa đơn vào bên CÓ của tài khoản được thiết lập ở đây."
+msgstr "Tài khoản sẽ được sử dụng cho hoá đơn bán hàng.\n"
+"Cụ thể: khi xác nhận hoá đơn bán hàng, tự động ghi giá trị hoá đơn vào bên CÓ của tài khoản được thiết lập ở đây."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_category_property_account_expense_categ_id
 msgid "This account will be used for invoices to value expenses."
-msgstr "Tài khoản sẽ được sử dụng cho hóa đơn mua hàng.\n"
-"Cụ thể: khi xác nhận hóa đơn mua hàng, tự động ghi giá trị hóa đơn vào bên NỢ của tài khoản được thiết lập ở đây."
+msgstr "Tài khoản sẽ được sử dụng cho hoá đơn mua hàng.\n"
+"Cụ thể: khi xác nhận hoá đơn mua hàng, tự động ghi giá trị hoá đơn vào bên NỢ của tài khoản được thiết lập ở đây."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_category_property_account_income_categ_id
 msgid "This account will be used for invoices to value sales."
-msgstr "Tài khoản sẽ được sử dụng cho hóa đơn bán hàng.\n"
-"Cụ thể: khi xác nhận hóa đơn bán hàng, tự động ghi giá trị hóa đơn vào bên CÓ của tài khoản được thiết lập ở đây."
+msgstr "Tài khoản sẽ được sử dụng cho hoá đơn bán hàng.\n"
+"Cụ thể: khi xác nhận hoá đơn bán hàng, tự động ghi giá trị hoá đơn vào bên CÓ của tài khoản được thiết lập ở đây."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_property_account_payable_id
@@ -8213,7 +8215,7 @@ msgstr "This payment term will be used instead of the default one for purchase o
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_property_payment_term_id
 msgid "This payment term will be used instead of the default one for sale orders and customer invoices"
-msgstr "Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên hợp đồng bán hàng và hóa đơn khách hàng"
+msgstr "Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên hợp đồng bán hàng và hoá đơn khách hàng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_default_purchase_tax_id
@@ -8244,8 +8246,8 @@ msgstr "This wizard will validate all journal entries selected. Once journal ent
 #: model:ir.actions.act_window,help:account.action_account_operation_template
 msgid "Those can be used to quickly create a journal items when reconciling\n"
 "                a bank statement or an account."
-msgstr "Those can be used to quickly create a journal items when reconciling\n"
-"                a bank statement or an account."
+msgstr "Mà có thể được sử dụng để nhanh chóng tạo các bút toán sổ nhật ký khi\n"
+"                đối soát một sao kê ngân hàng hay một tài khoản."
 
 #. module: account
 #. openerp-web
@@ -8257,17 +8259,17 @@ msgstr "Khuyên : Nhấn ctrl-enter để đối soát tất cả các hạng m�
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
 msgid "Title 2 (bold)"
-msgstr "Title 2 (bold)"
+msgstr "Tiều đề 2 (bold)"
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
 msgid "Title 3 (bold, smaller)"
-msgstr "Title 3 (bold, smaller)"
+msgstr "Tiều đề 3 (bold, smaller)"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "To Invoice"
-msgstr "To Invoice"
+msgstr "Chờ Hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_tree
@@ -8322,7 +8324,7 @@ msgstr "Tổng nợ"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_total_invoiced
 msgid "Total Invoiced"
-msgstr "Tổng tiền hóa đơn đã xuất"
+msgstr "Tổng tiền hoá đơn đã xuất"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_debit
@@ -8484,7 +8486,7 @@ msgstr "Unless you are starting a new business, you probably have a list of cust
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_journal_2_account_invoice_opened
 msgid "Unpaid Invoices"
-msgstr "Hóa đơn chưa thanh toán hết"
+msgstr "Hoá đơn chưa thanh toán hết"
 
 #. module: account
 #: selection:account.move,state:0
@@ -8701,7 +8703,7 @@ msgstr "Nhà cung cấp"
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 #, python-format
 msgid "Vendor Bill"
-msgstr "Hóa đơn Nhà cung cấp"
+msgstr "Hoá đơn Nhà cung cấp"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:178
@@ -8710,7 +8712,7 @@ msgstr "Hóa đơn Nhà cung cấp"
 #: model:ir.ui.view,arch_db:account.account_planner
 #, python-format
 msgid "Vendor Bills"
-msgstr "Hóa đơn Nhà cung cấp"
+msgstr "Hoá đơn Nhà cung cấp"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8941,7 +8943,7 @@ msgstr "You can not delete a payment that is already posted"
 #: code:addons/account/models/account_payment.py:128
 #, python-format
 msgid "You can only register payments for open invoices"
-msgstr "You can only register payments for open invoices"
+msgstr "Bạn chỉ có thể ghi nhận các khoản thanh toán cho hoá đơn ở trạng thái 'Mở'"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_report_style_overwrite
@@ -8958,7 +8960,7 @@ msgstr "You cannot add/modify entries prior to and inclusive of the lock date %s
 #: code:addons/account/models/account_invoice.py:820
 #, python-format
 msgid "You cannot cancel an invoice which is partially paid. You need to unreconcile related payment entries first."
-msgstr "Bạn không thể hủy một hóa đơn đã được thanh toán một phần. Trước tiên bạn cần hủy đối soát các bút toán thanh toán liên quan."
+msgstr "Bạn không thể hủy một hoá đơn đã được thanh toán một phần. Trước tiên bạn cần hủy đối soát các bút toán thanh toán liên quan."
 
 #. module: account
 #: code:addons/account/models/account.py:162
@@ -8988,7 +8990,7 @@ msgstr "You cannot delete an invoice after it has been validated (and received a
 #: code:addons/account/models/account_invoice.py:414
 #, python-format
 msgid "You cannot delete an invoice which is not draft or cancelled. You should refund it instead."
-msgstr "Bạn không thể xóa một hóa đơn mà không thuộc trạng thái dự thảo hoặc hủy bỏ. Thay vì thế, bạn nên hoàn tiền cho nó."
+msgstr "Bạn không thể xóa một hoá đơn mà không thuộc trạng thái dự thảo hoặc hủy bỏ. Thay vì thế, bạn nên hoàn tiền cho nó."
 
 #. module: account
 #: code:addons/account/models/account.py:168
@@ -9024,20 +9026,20 @@ msgstr "You cannot empty the account number once set.\n"
 #: code:addons/account/models/account.py:96
 #, python-format
 msgid "You cannot have a receivable/payable account that is not reconciliable. (account code: %s)"
-msgstr "You cannot have a receivable/payable account that is not reconciliable. (account code: %s)"
+msgstr "Bạn không thể có tài khoản phải thu/phải trả mà không thể đối soát được (mã tài khoản: %s)"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:132
 #, python-format
 msgid "You cannot mix customer invoices and vendor bills in a single payment."
-msgstr "You cannot mix customer invoices and vendor bills in a single payment."
+msgstr "Bạn không thể trộn cả hoá đơn khách hàng và hoá đơn nhà cung cấp trong cùng một lần thanh toán."
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1792
 #, python-format
 msgid "You cannot mix items from receivable and payable accounts."
-msgstr "You cannot mix items from receivable and payable accounts."
+msgstr "Bạn không thể trộn lẫn các hạng mục từ cả tài khoản phải thu và tài khoản phải trả."
 
 #. module: account
 #: code:addons/account/models/account_move.py:144
@@ -9232,7 +9234,7 @@ msgstr "tất cả"
 #: code:addons/account/static/src/xml/account_payment.xml:17
 #, python-format
 msgid "assign to invoice"
-msgstr "gán cho hóa đơn"
+msgstr "gán cho hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_form

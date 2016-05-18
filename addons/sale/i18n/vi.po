@@ -94,7 +94,7 @@ msgstr "SL Đơn hàng"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_invoice_count
 msgid "# of Invoices"
-msgstr "SL hóa đơn"
+msgstr "SL hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_nbr
@@ -248,7 +248,7 @@ msgstr "Cho phép bạn chỉ ra một tài khoản quản trị trên đơn hà
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_sales_to_invoice_amount
 msgid "Amount of sales to invoice"
-msgstr "Giá trị đơn hàng chờ xuất hóa đơn"
+msgstr "Giá trị đơn hàng chờ xuất hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_project_id
@@ -305,7 +305,7 @@ msgstr "Đã hủy"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_use_invoices
 msgid "Check this box to manage invoices in this sales team."
-msgstr "Đánh dấu để quản lý hóa đơn trong Nhóm bán hàng này"
+msgstr "Đánh dấu để quản lý hoá đơn trong Nhóm bán hàng này"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_use_quotations
@@ -343,12 +343,12 @@ msgstr "Xác nhận bán"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Create Invoice"
-msgstr "Tạo hóa đơn"
+msgstr "Tạo hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Invoices"
-msgstr "Tạo hóa đơn"
+msgstr "Tạo hoá đơn"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
@@ -367,7 +367,7 @@ msgstr "Tạp nhiệm vụ và theo dõi giờ"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create and View Invoices"
-msgstr "Tạo và Xem Hóa đơn"
+msgstr "Tạo và Xem Hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_create_uid
@@ -440,7 +440,7 @@ msgstr "Ngày mà đơn hàng được tạo."
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_default_invoice_policy
 msgid "Default Invoicing"
-msgstr "Chế độ xuất hóa đơn mặc định"
+msgstr "Chế độ xuất hoá đơn mặc định"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company_sale_note
@@ -530,7 +530,7 @@ msgid ""
 "Display 3 fields on sales orders: customer, invoice address, delivery "
 "address"
 msgstr ""
-"Hiển thị 3 trường trên form đơn hàng: khách hàng, địa chỉ hóa đơn, địa chỉ "
+"Hiển thị 3 trường trên form đơn hàng: khách hàng, địa chỉ hoá đơn, địa chỉ "
 "bàn giao"
 
 #. module: sale
@@ -544,7 +544,7 @@ msgstr "Tên hiển thị"
 #. module: sale
 #: model:res.groups,name:sale.group_display_incoterm
 msgid "Display incoterms on Sales Order and related invoices"
-msgstr "Hiển thị incoterms trên Đơn hàng và các hóa đơn liên quan"
+msgstr "Hiển thị incoterms trên Đơn hàng và các hoá đơn liên quan"
 
 #. module: sale
 #: selection:sale.config.settings,module_sale_margin:0
@@ -601,7 +601,7 @@ msgstr "Đồ thuật soạn thảo email"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_module_website_portal
 msgid "Enable customer portal to track orders, delivery and invoices"
-msgstr "Kích hoạt cổng giao dịch khách hàng để theo dõi đơn hàng, giao hàng, hóa đơn"
+msgstr "Kích hoạt cổng giao dịch khách hàng để theo dõi đơn hàng, giao hàng, hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_validity_date
@@ -616,7 +616,7 @@ msgstr "Bộ lọc mở rộng..."
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_fiscal_position_id
 msgid "Fiscal Position"
-msgstr "Vị thế tài chính"
+msgstr "Vị thế Tài khoá"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_config_settings_sale_pricelist_setting
@@ -656,7 +656,7 @@ msgstr ""
 #: selection:sale.order,invoice_status:0
 #: selection:sale.order.line,invoice_status:0
 msgid "Fully Invoiced"
-msgstr "Đã xuất hóa đơn đầy đủ"
+msgstr "Đã xuất hoá đơn đầy đủ"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
@@ -709,38 +709,38 @@ msgstr "Incoterms"
 #. module: sale
 #: model:ir.model,name:sale.model_account_invoice
 msgid "Invoice"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: sale
 #: code:addons/sale/sale.py:785
 #, python-format
 msgid "Invoice %s paid"
-msgstr "Hóa đơn %s đã được thanh toán"
+msgstr "Hoá đơn %s đã được thanh toán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_partner_invoice_id
 msgid "Invoice Address"
-msgstr "Địa chỉ xuất hóa đơn"
+msgstr "Địa chỉ xuất hoá đơn"
 
 #. module: sale
 #: model:mail.message.subtype,name:sale.mt_salesteam_invoice_confirmed
 msgid "Invoice Confirmed"
-msgstr "Hóa đơn đã xác nhận"
+msgstr "Hoá đơn đã xác nhận"
 
 #. module: sale
 #: model:mail.message.subtype,name:sale.mt_salesteam_invoice_created
 msgid "Invoice Created"
-msgstr "Hóa đơn được tạo"
+msgstr "Hoá đơn được tạo"
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Chi tiết hóa đơn"
+msgstr "Chi tiết hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_invoice_lines
 msgid "Invoice Lines"
-msgstr "Chi tiết hóa đơn"
+msgstr "Chi tiết hoá đơn"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
@@ -750,43 +750,43 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Invoice Sales Order"
-msgstr "Xuất hóa đơn Đơn hàng"
+msgstr "Xuất hoá đơn Đơn hàng"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_invoice_status
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_invoice_status
 msgid "Invoice Status"
-msgstr "Tình trạng hóa đơn"
+msgstr "Tình trạng hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_invoiced_target
 msgid "Invoice Target"
-msgstr "Mục tiêu hóa đơn"
+msgstr "Mục tiêu hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_partner_invoice_id
 msgid "Invoice address for current sales order."
-msgstr "Địa chỉ xuất hóa đơn cho đơn hàng hiện tại."
+msgstr "Địa chỉ xuất hoá đơn cho đơn hàng hiện tại."
 
 #. module: sale
 #: selection:sale.config.settings,default_invoice_policy:0
 msgid "Invoice based on costs (time and material, expenses)"
-msgstr "Xuất hóa đơn dựa trên chi phí (thời gian, vật liệu, chi phí nhân sự)"
+msgstr "Xuất hoá đơn dựa trên chi phí (thời gian, vật liệu, chi phí nhân sự)"
 
 #. module: sale
 #: selection:product.template,invoice_policy:0
 msgid "Invoice based on time and material"
-msgstr "Xuất hóa đơn dựa trên thời gian và vật liệu"
+msgstr "Xuất hoá đơn dựa trên thời gian và vật liệu"
 
 #. module: sale
 #: selection:sale.config.settings,default_invoice_policy:0
 msgid "Invoice delivered quantities"
-msgstr "Xuất hóa đơn theo số lượng đã bàn giao"
+msgstr "Xuất hoá đơn theo số lượng đã bàn giao"
 
 #. module: sale
 #: selection:sale.config.settings,default_invoice_policy:0
 msgid "Invoice ordered quantities"
-msgstr "Xuất hóa đơn theo số lượng đã đặt hàng"
+msgstr "Xuất hoá đơn theo số lượng đã đặt hàng"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_invoiced
@@ -799,27 +799,27 @@ msgstr ""
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
 msgid "Invoiceable lines"
-msgstr "Từng dòng có thể xuất hóa đơn"
+msgstr "Từng dòng có thể xuất hoá đơn"
 
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
 msgid "Invoiceable lines (deduct down payments)"
-msgstr "Từng dòng có thể xuất hóa đơn (trừ các khoản ứng trước)"
+msgstr "Từng dòng có thể xuất hoá đơn (trừ các khoản ứng trước)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_qty_invoiced
 msgid "Invoiced"
-msgstr "Đã xuất hóa đơn"
+msgstr "Đã xuất hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoiced Quantity"
-msgstr "Số lượng đã xuất hóa đơn"
+msgstr "Số lượng đã xuất hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_invoiced
 msgid "Invoiced This Month"
-msgstr "Đã xuất hóa đơn tháng này"
+msgstr "Đã xuất hoá đơn tháng này"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_invoice_salesteams
@@ -828,17 +828,17 @@ msgstr "Đã xuất hóa đơn tháng này"
 #: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_kanban
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoices"
-msgstr "Các hóa đơn"
+msgstr "Các hoá đơn"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_account_invoice_report_salesteam
 msgid "Invoices Analysis"
-msgstr "Phân tích hóa đơn"
+msgstr "Phân tích hoá đơn"
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_invoice_report
 msgid "Invoices Statistics"
-msgstr "Thống kê hóa đơn"
+msgstr "Thống kê hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
@@ -851,7 +851,7 @@ msgstr ""
 #: model:ir.ui.menu,name:sale.menu_sale_invoicing
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoicing"
-msgstr "Xuất hóa đơn"
+msgstr "Xuất hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_product_invoice_policy
@@ -874,7 +874,7 @@ msgstr "Địa chỉ giao hàng và xuất hoá đơn:"
 msgid ""
 "Invoicing and shipping addresses are always the same (Example: services "
 "companies)"
-msgstr "Địa chỉ xuất hóa đơn và địa chỉ bàn giao trùng nhau (vd: đối với các công ty cung cấp dịch vụ)"
+msgstr "Địa chỉ xuất hoá đơn và địa chỉ bàn giao trùng nhau (vd: đối với các công ty cung cấp dịch vụ)"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_form
@@ -916,7 +916,7 @@ msgstr "Cập nhật lần cuối"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_module_sale_contract
 msgid "Manage subscriptions and recurring invoicing"
-msgstr "Quản lý thuê bao và các hóa đơn có tính chu kỳ"
+msgstr "Quản lý thuê bao và các hoá đơn có tính chu kỳ"
 
 #. module: sale
 #: selection:product.template,track_service:0
@@ -1004,7 +1004,7 @@ msgstr ""
 #: selection:sale.order,invoice_status:0
 #: selection:sale.order.line,invoice_status:0
 msgid "Nothing to Invoice"
-msgstr "Không còn gì để xuất hóa đơn"
+msgstr "Không còn gì để xuất hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_needaction_counter
@@ -1261,12 +1261,12 @@ msgstr "SL được giao"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_qty_invoiced
 msgid "Qty Invoiced"
-msgstr "SL đã xuất hóa đơn"
+msgstr "SL đã xuất hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_qty_to_invoice
 msgid "Qty To Invoice"
-msgstr "SL chờ xuất hóa đơn"
+msgstr "SL chờ xuất hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_product_uom_qty
@@ -1399,7 +1399,7 @@ msgstr "Bán hàng"
 #. module: sale
 #: model:ir.model,name:sale.model_sale_advance_payment_inv
 msgid "Sales Advance Payment Invoice"
-msgstr "Hóa đơn thanh toán tạm ứng"
+msgstr "Hoá đơn thanh toán tạm ứng"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_order_report_all
@@ -1455,7 +1455,7 @@ msgstr "Chi tiết đơn hàng"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Sales Order Lines ready to be invoiced"
-msgstr "Hạng mục sẵn sàng xuất hóa đơn"
+msgstr "Hạng mục sẵn sàng xuất hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
@@ -1503,7 +1503,7 @@ msgstr "Nhóm bán hàng"
 #: model:ir.ui.menu,name:sale.menu_sale_order_invoice
 #: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_kanban
 msgid "Sales to Invoice"
-msgstr "Chờ xuất hóa đơn"
+msgstr "Chờ xuất hoá đơn"
 
 #. module: sale
 #: selection:sale.config.settings,module_sale_margin:0
@@ -1553,7 +1553,7 @@ msgstr "Trình tự"
 #: code:addons/sale/static/src/js/sale.js:19
 #, python-format
 msgid "Set an invoicing target: "
-msgstr "Thiết lập mục tiêu xuất hóa đơn"
+msgstr "Thiết lập mục tiêu xuất hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1573,7 +1573,7 @@ msgstr "Thiết lập điều khoản và điều kiện mặc định trong ph�
 #. module: sale
 #: selection:sale.config.settings,group_display_incoterm:0
 msgid "Show incoterms on sale orders and invoices"
-msgstr "Hiển thị incoterms trên đơn hàng và hóa đơn"
+msgstr "Hiển thị incoterms trên đơn hàng và hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_product_pricelist
@@ -1708,7 +1708,7 @@ msgid ""
 " partner, product, etc.) Use this report to perform analysis on sales not "
 "having invoiced yet. If you want to analyse your turnover, you should use "
 "the Invoice Analysis report in the Accounting application."
-msgstr "Báo cáo này thực hiện việc phân tích trên báo giá và đơn hàng của bạn. Kiểm tra doanh thu bán hàng và sắp xếp nó theo tiêu chí nhóm khác nhau (nhân viên bán hàng, đối tác, sản phẩm,...). Sử dụng báo cáo này để thực hiện phân tích trên đơn hàng mà chưa xuất hóa đơn. Nếu bạn muốn phân tích đơn hàng đã xuất hóa đơn, bạn nên sử dụng báo cáo Phân tích hóa đơn trong ứng dụng Kế toán."
+msgstr "Báo cáo này thực hiện việc phân tích trên báo giá và đơn hàng của bạn. Kiểm tra doanh thu bán hàng và sắp xếp nó theo tiêu chí nhóm khác nhau (nhân viên bán hàng, đối tác, sản phẩm,...). Sử dụng báo cáo này để thực hiện phân tích trên đơn hàng mà chưa xuất hoá đơn. Nếu bạn muốn phân tích đơn hàng đã xuất hoá đơn, bạn nên sử dụng báo cáo Phân tích hoá đơn trong ứng dụng Kế toán."
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_report_quotation_salesteam
@@ -1718,7 +1718,7 @@ msgid ""
 "product, etc.) Use this report to perform analysis on sales not having "
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
-msgstr "Báo cáo này thực hiện việc phân tích trên báo giá và đơn hàng của bạn. Kiểm tra doanh thu bán hàng và sắp xếp nó theo tiêu chí nhóm khác nhau (nhân viên bán hàng, đối tác, sản phẩm,...). Sử dụng báo cáo này để thực hiện phân tích trên đơn hàng mà chưa xuất hóa đơn. Nếu bạn muốn phân tích đơn hàng đã xuất hóa đơn, bạn nên sử dụng báo cáo Phân tích hóa đơn trong ứng dụng Kế toán."
+msgstr "Báo cáo này thực hiện việc phân tích trên báo giá và đơn hàng của bạn. Kiểm tra doanh thu bán hàng và sắp xếp nó theo tiêu chí nhóm khác nhau (nhân viên bán hàng, đối tác, sản phẩm,...). Sử dụng báo cáo này để thực hiện phân tích trên đơn hàng mà chưa xuất hoá đơn. Nếu bạn muốn phân tích đơn hàng đã xuất hoá đơn, bạn nên sử dụng báo cáo Phân tích hoá đơn trong ứng dụng Kế toán."
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_report_so_salesteam
@@ -1728,7 +1728,7 @@ msgid ""
 "product, etc.) Use this report to perform analysis on sales not having "
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
-msgstr "Báo cáo này thực hiện việc phân tích trên báo giá và đơn hàng của bạn. Kiểm tra doanh thu bán hàng và sắp xếp nó theo tiêu chí nhóm khác nhau (nhân viên bán hàng, đối tác, sản phẩm,...). Sử dụng báo cáo này để thực hiện phân tích trên đơn hàng mà chưa xuất hóa đơn. Nếu bạn muốn phân tích đơn hàng đã xuất hóa đơn, bạn nên sử dụng báo cáo Phân tích hóa đơn trong ứng dụng Kế toán."
+msgstr "Báo cáo này thực hiện việc phân tích trên báo giá và đơn hàng của bạn. Kiểm tra doanh thu bán hàng và sắp xếp nó theo tiêu chí nhóm khác nhau (nhân viên bán hàng, đối tác, sản phẩm,...). Sử dụng báo cáo này để thực hiện phân tích trên đơn hàng mà chưa xuất hoá đơn. Nếu bạn muốn phân tích đơn hàng đã xuất hoá đơn, bạn nên sử dụng báo cáo Phân tích hoá đơn trong ứng dụng Kế toán."
 
 #. module: sale
 #: selection:product.template,track_service:0
@@ -1742,7 +1742,7 @@ msgstr ""
 #: selection:sale.order,invoice_status:0
 #: selection:sale.order.line,invoice_status:0
 msgid "To Invoice"
-msgstr "Chờ hóa đơn"
+msgstr "Chờ hoá đơn"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_amount_total
@@ -1873,7 +1873,7 @@ msgid ""
 "                to a Sale Order, then create the Invoice and collect the Payment."
 msgstr ""
 "Các hành động tiếp theo của bạn sẽ tiếp diễn hiệu quả theo chu trình: xác nhận Báo giá \n"
-"                thành Đơn hàng, rồi tạo hóa đơn và thu thập các khoản thanh toán liên quan."
+"                thành Đơn hàng, rồi tạo hoá đơn và thu thập các khoản thanh toán liên quan."
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
@@ -1884,7 +1884,7 @@ msgid ""
 "Order, then create the Invoice and collect the Payment."
 msgstr ""
 "Các hành động tiếp theo của bạn sẽ tiếp diễn hiệu quả theo chu trình: xác nhận Báo giá "
-"thành Đơn hàng, rồi tạo hóa đơn và thu thập các khoản thanh toán liên quan."
+"thành Đơn hàng, rồi tạo hoá đơn và thu thập các khoản thanh toán liên quan."
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_config_settings

@@ -27,17 +27,17 @@ msgstr "Các cuộc gặp"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_nbr_activities
 msgid "# of Activities"
-msgstr ""
+msgstr "SL Hoạt động"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "(if leads are activated)"
-msgstr ""
+msgstr "(nếu tiềm năng được kích hoạt)"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "(you can change it here)"
-msgstr ""
+msgstr "(bạn có thể đổi nó ở đây)"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -47,7 +47,7 @@ msgstr ", nếu phân hệ kế toán hoặc mua hàng đã được cài đặt
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<i class=\"fa fa-question-circle\"> view examples</i>"
-msgstr ""
+msgstr "<i class=\"fa fa-question-circle\"> xem ví dụ</i>"
 
 #. module: crm
 #: model:ir.actions.server,body_html:crm.action_email_reminder_lead
@@ -60,6 +60,12 @@ msgid ""
 "<li>Description: ${object.description}</li>\n"
 "</ul>"
 msgstr ""
+"<p>Có hội này đã không có bất cứ hoạt động nào trong ít nhất 5 ngày. Đây là một số thông tin:</p>\n"
+"<ul>\n"
+"<li>Tên: ${object.name}</li>\n"
+"<li>ID: ${object.id}</li>\n"
+"<li>Mô tả: ${object.description}</li>\n"
+"</ul>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1580,7 +1586,7 @@ msgstr ""
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
 msgid "Finished"
-msgstr ""
+msgstr "Đã kết thúc"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_fold
@@ -2893,7 +2899,7 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.crm_opportunity_report_menu
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Pipeline"
-msgstr ""
+msgstr "Cơ hội"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_report_crm_opportunity_salesteam
@@ -2903,7 +2909,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_pivot
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Pipeline Analysis"
-msgstr "Phân tích Pipeline"
+msgstr "Phân tích Cơ hội"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_opportunity_report_action
@@ -4044,7 +4050,7 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.menu_crm_opportunities
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your Pipeline"
-msgstr ""
+msgstr "Cơ hội"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
