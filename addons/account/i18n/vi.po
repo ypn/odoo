@@ -4930,12 +4930,12 @@ msgstr "Để trống để sử dụng ngày hiện tại"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_date
 msgid "Keep empty to use the invoice date."
-msgstr "Keep empty to use the invoice date."
+msgstr "Để trống để sử dụng ngày hoá đơn."
 
 #. module: account
 #: selection:account.payment,payment_difference_handling:0
 msgid "Keep open"
-msgstr "Keep open"
+msgstr "Để ở trạng thái Mở"
 
 #. module: account
 #. openerp-web
@@ -5026,7 +5026,7 @@ msgstr "Sửa lần cuối"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:329
 #, python-format
 msgid "Last Reconciliation :"
-msgstr "Last Reconciliation :"
+msgstr "Đối soát lần cuối:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag_write_uid
@@ -5083,7 +5083,7 @@ msgstr "Last Reconciliation :"
 #: model:ir.model.fields,field_description:account.field_validate_account_move_write_uid
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag_write_date
@@ -5140,22 +5140,22 @@ msgstr "Last Updated by"
 #: model:ir.model.fields,field_description:account.field_validate_account_move_write_date
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Cập nhật lần cuối"
 
 #. module: account
 #: selection:account.payment.term.line,option:0
 msgid "Last day of current month"
-msgstr "Last day of current month"
+msgstr "Ngày cuối của tháng hiện tại"
 
 #. module: account
 #: selection:account.payment.term.line,option:0
 msgid "Last day of following month"
-msgstr "Last day of following month"
+msgstr "Ngày cuối của tháng kế tiếp"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_last_time_entries_checked
 msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
-msgstr ""
+msgstr "Lần cuối việc đối chiếu thanh toán và hoá đơn được thực hiện cho đối tác này. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_last_time_entries_checked
@@ -5171,22 +5171,22 @@ msgstr "Ngày Đối chiếu Hoá đơn & Thanh toán gần nhất"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Legal Name"
-msgstr "Legal Name"
+msgstr "Tên Pháp lý"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Less Cost of Revenue"
-msgstr "Less Cost of Revenue"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Less Current Liabilities"
-msgstr "Less Current Liabilities"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Less Expenses"
-msgstr "Less Expenses"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -6133,7 +6133,7 @@ msgstr "Hạn mức phải trả"
 #: model:ir.model.fields,field_description:account.field_account_payment_amount
 #: model:ir.model.fields,field_description:account.field_account_register_payments_amount
 msgid "Payment Amount"
-msgstr "Payment Amount"
+msgstr "Số tiền"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_payment_date
@@ -6145,7 +6145,7 @@ msgstr "Ngày thanh toán"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_payment_difference_handling
 msgid "Payment Difference"
-msgstr "Payment Difference"
+msgstr "Chênh lệch"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_journal_id
@@ -6160,7 +6160,7 @@ msgstr "Phương thức thanh toán"
 #: code:addons/account/static/src/xml/account_payment.xml:60
 #, python-format
 msgid "Payment Method:"
-msgstr "Payment Method:"
+msgstr "Phương thức thanh toán:"
 
 #. module: account
 #: model:ir.model,name:account.model_account_payment_method
@@ -6189,7 +6189,7 @@ msgstr "Điều khoản thanh toán"
 #. module: account
 #: model:ir.model,name:account.model_account_payment_term_line
 msgid "Payment Term Line"
-msgstr "Payment Term Line"
+msgstr "Chi tiết Điều khoản thanh toán"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_payment_term_form
