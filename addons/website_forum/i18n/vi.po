@@ -44,7 +44,7 @@ msgstr "\n"
 "    Xin chào ${object.name},\n"
 "</p>\n"
 "<p>\n"
-"    Bạn được mời thẩm định địa chỉ email của bạn để có thể truy cập đến Diễn đàn Hỏi & Đáp \"${object.company_id.name}\".\n"
+"    Bạn được mời thẩm định địa chỉ email của bạn để có thể truy cập đến Diễn đàn \"${object.company_id.name}\".\n"
 "</p>\n"
 "<p>\n"
 "    Để thẩm định email, vui lòng bấm vào link sau đây:\n"
@@ -72,7 +72,7 @@ msgstr " karma là bắt buộc để thực hiện hành động này. Bạn c�
 #. module: website_forum
 #: model:mail.template,subject:website_forum.validation_email
 msgid "${object.company_id.name} Forums validation"
-msgstr "${object.company_id.name} tính hợp lệ của diễn đàn"
+msgstr "Thẩm định - Diễn đàn ${object.company_id.name}"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.tag
@@ -112,8 +112,8 @@ msgstr "45% các câu hỏi được chia sẻ"
 #, python-format
 msgid "65% more chance to get an\n"
 "        answer"
-msgstr "65% more chance to get an\n"
-"        answer"
+msgstr "trên 65% cơ hội nhận được\n"
+"        câu trả lời"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.display_post_question_block
@@ -160,7 +160,7 @@ msgstr ""
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "<b>Answers should not comment other answers</b>. Instead add a comment on the other answers."
-msgstr "<b>Answers should not comment other answers</b>. Instead add a comment on the other answers."
+msgstr "<b>Câu trả lời không nên đưa vào phần bình luận của câu trả lời khác</b>. Thay vì thế, thêm một bình luận vào câu trả lời khác."
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -168,7 +168,7 @@ msgid "<b>Answers should not start debates</b>\n"
 "    This community Q&amp;A is not a discussion group. Please avoid holding debates in\n"
 "    your answers as they tend to dilute the essence of questions and answers. For\n"
 "    brief discussions please use commenting facility."
-msgstr "<b>Answers should not start debates</b>\n"
+msgstr "<b>Các câu trả lời không nên khởi động một cuộc tranh cãi</b>\n"
 "    This community Q&amp;A is not a discussion group. Please avoid holding debates in\n"
 "    your answers as they tend to dilute the essence of questions and answers. For\n"
 "    brief discussions please use commenting facility."
@@ -176,7 +176,7 @@ msgstr "<b>Answers should not start debates</b>\n"
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "<b>Answers shouldn't just point to other Questions</b>. Instead add a question comment indication \"Possible duplicate of...\". However, it's ok to include links to other questions or answers providing relevant additional information."
-msgstr "<b>Answers shouldn't just point to other Questions</b>. Instead add a question comment indication \"Possible duplicate of...\". However, it's ok to include links to other questions or answers providing relevant additional information."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -185,11 +185,7 @@ msgid "<b>Answers shouldn't just point to other questions</b>.\n"
 "    of...\"</i>. However, it's fine to include links to other\n"
 "    questions or answers providing relevant additional\n"
 "    information."
-msgstr "<b>Answers shouldn't just point to other questions</b>.\n"
-"    Instead add a comment indicating <i>\"Possible duplicate\n"
-"    of...\"</i>. However, it's fine to include links to other\n"
-"    questions or answers providing relevant additional\n"
-"    information."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -198,16 +194,12 @@ msgid "<b>Answers shouldn't just provide a\n"
 "    description text in your answer, even if it's just a\n"
 "    copy/paste. Links are welcome, but should complementary to\n"
 "    answer, referring sources or additional reading."
-msgstr "<b>Answers shouldn't just provide a\n"
-"    link a solution</b>. Instead provide the solution\n"
-"    description text in your answer, even if it's just a\n"
-"    copy/paste. Links are welcome, but should complementary to\n"
-"    answer, referring sources or additional reading."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "<b>Answers shouldn't just provide a link a solution</b>. Instead provide the solution description text in your answer, even if it's just a copy/paste. Links are welcome, but should complementary to answer, referring sources or additional reading."
-msgstr "<b>Answers shouldn't just provide a link a solution</b>. Instead provide the solution description text in your answer, even if it's just a copy/paste. Links are welcome, but should complementary to answer, referring sources or additional reading."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -241,10 +233,7 @@ msgid "<b>Please try to give a substantial answer.</b> If you wanted to comment 
 "        <b>use the commenting tool.</b> Please remember that you can always <b>revise your answers</b>\n"
 "        - no need to answer the same question twice. Also, please <b>don't forget to vote</b>\n"
 "        - it really helps to select the best questions and answers!"
-msgstr "<b>Please try to give a substantial answer.</b> If you wanted to comment on the question or answer, just\n"
-"        <b>use the commenting tool.</b> Please remember that you can always <b>revise your answers</b>\n"
-"        - no need to answer the same question twice. Also, please <b>don't forget to vote</b>\n"
-"        - it really helps to select the best questions and answers!"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_discussion
@@ -259,12 +248,12 @@ msgstr "<b>[Trả lời]</b>"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge
 msgid "<i class=\"text-muted\"> awarded users</i>"
-msgstr "<i class=\"text-muted\"> thành viên được trao giải</i>"
+msgstr "<i class=\"text-muted\"> thành viên được trao thưởng</i>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_badges
 msgid "<i class=\"text-muted\">awarded users</i>"
-msgstr "<i class=\"text-muted\">thành viên được trao giải</i>"
+msgstr "<i class=\"text-muted\">thành viên được trao thưởng</i>"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:507
@@ -276,7 +265,7 @@ msgstr "<p>Một câu trả lời mới cho <i>%s</i> đã được đăng. <a h
 #: code:addons/website_forum/models/forum.py:519
 #, python-format
 msgid "<p>A new question <i>%s</i> has been asked on %s and require your validation. <a href=\"%s/forum/%s/question/%s\">Click here to access the question.</a></p>"
-msgstr "<p>A new question <i>%s</i> has been asked on %s and require your validation. <a href=\"%s/forum/%s/question/%s\">Click here to access the question.</a></p>"
+msgstr "<p>Một câu hỏi <i>%s</i> đã được hỏi trên %s và yêu cầu bạn thẩm định. <a href=\"%s/forum/%s/question/%s\">Bấm vào đây để truy cập câu hỏi đó.</a></p>"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:511
@@ -296,7 +285,7 @@ msgstr "<small class=\"text-muted\">\n"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "<small>profile</small>"
-msgstr "<small>profile</small>"
+msgstr "<small>hồ sơ</small>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
@@ -379,12 +368,12 @@ msgstr "Chấp thuận câu trả lời"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_answer_accept_own
 msgid "Accept an answer on own questions"
-msgstr "Accept an answer on own questions"
+msgstr "Chấp thuận một câu trả lời ở câu hỏi của chính mình"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_answer_accept_all
 msgid "Accept an answer to all questions"
-msgstr "Accept an answer to all questions"
+msgstr "Chấp thuận một câu trả lời cho tất cả câu hỏi"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.view_forum_post_search
@@ -421,31 +410,31 @@ msgstr "Hiệu lực"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "Activity"
-msgstr "Activity"
+msgstr "Hoạt động"
 
 #. module: website_forum
 #. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:19
 #, python-format
 msgid "Add Content"
-msgstr "Add Content"
+msgstr "Thêm Nội dung"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_answer
 msgid "Add a Comment"
-msgstr "Add a Comment"
+msgstr "Thêm Bình luận"
 
 #. module: website_forum
 #. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:25
 #, python-format
 msgid "Add page in menu"
-msgstr "Add page in menu"
+msgstr "Thêm trang vào trình đơn"
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum_allow_share
 msgid "After posting the user will be proposed to share its question or answer on social networks, enabling social network propagation of the forum content."
-msgstr "After posting the user will be proposed to share its question or answer on social networks, enabling social network propagation of the forum content."
+msgstr "Sau khi đăng bài, người dùng sẽ được đề nghị chia share câu hỏi hoặc câu trả lời của họ lên các mạng xã hội. Enabling social network propagation of the forum content."
 
 #. module: website_forum
 #: code:addons/website_forum/controllers/main.py:187
@@ -457,7 +446,7 @@ msgstr "Tất cả"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_allow_bump
 msgid "Allow Bump"
-msgstr "Allow Bump"
+msgstr "Cho phép Bump"
 
 #. module: website_forum
 #. openerp-web
@@ -465,7 +454,7 @@ msgstr "Allow Bump"
 #: model:ir.ui.view,arch_db:website_forum.display_post_question_block
 #, python-format
 msgid "Answer"
-msgstr "Answer"
+msgstr "Trả lời"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:494
@@ -480,7 +469,7 @@ msgstr "Trả lời được sửa"
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:108
 #, python-format
 msgid "Answer Posted"
-msgstr "Answer Posted"
+msgstr "Trả lời đã được đăng"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_gen_answer_accepted
@@ -490,12 +479,12 @@ msgstr "Câu trả lời được chấp thuận"
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_6
 msgid "Answer accepted with 15 or more votes"
-msgstr "Answer accepted with 15 or more votes"
+msgstr "Trả lời được chấp thuận với 15 hoặc nhiều hơn bầu chọn"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_gen_answer_downvote
 msgid "Answer downvoted"
-msgstr "Answer downvoted"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_gen_answer_flagged
@@ -505,32 +494,32 @@ msgstr "Trả lời được gắn cờ"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_answer
 msgid "Answer questions"
-msgstr "Answer questions"
+msgstr "Trả lời các câu hỏi"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_gen_answer_upvote
 msgid "Answer upvoted"
-msgstr "Answer upvoted"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_4
 msgid "Answer voted up 15 times"
-msgstr "Answer voted up 15 times"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_2
 msgid "Answer voted up 4 times"
-msgstr "Answer voted up 4 times"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_3
 msgid "Answer voted up 6 times"
-msgstr "Answer voted up 6 times"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_5
 msgid "Answer was accepted with 3 or more votes"
-msgstr "Answer was accepted with 3 or more votes"
+msgstr ""
 
 #. module: website_forum
 #: selection:forum.forum,default_order:0
@@ -540,12 +529,12 @@ msgstr "Đã trả lời"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.view_forum_post_search
 msgid "Answered Questions"
-msgstr "Answered Questions"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.view_forum_post_form
 msgid "Answered by"
-msgstr "Answered by"
+msgstr "Trả lời bởi"
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_8
@@ -1759,7 +1748,7 @@ msgstr "Thông báo gần nhất được đánh dấu là đã đọc"
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_res_users_last_time_entries_checked
 msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
-msgstr "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
