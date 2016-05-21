@@ -29,12 +29,12 @@ msgstr ""
 #: code:addons/board/static/src/js/dashboard.js:406
 #, python-format
 msgid "'%s' added to dashboard"
-msgstr ""
+msgstr "'%s' đã được thêm vào bảng thông tin"
 
 #. module: board
 #: model:ir.actions.act_window,help:board.open_board_my_dash_action
 msgid "<b>Your personal dashboard is empty.</b>"
-msgstr ""
+msgstr "<b>Bảng thông tin cá nhân của bạn trống không.</b>"
 
 #. module: board
 #. openerp-web
@@ -60,17 +60,17 @@ msgstr "Bạn có chắc muốn gỡ bỏ hạng mục này?"
 #. module: board
 #: model:ir.model,name:board.model_board_board
 msgid "Board"
-msgstr ""
+msgstr "Bảng"
 
 #. module: board
 #: model:ir.model,name:board.model_board_create
 msgid "Board Creation"
-msgstr ""
+msgstr "Sáng tạo bảng"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_create_name
 msgid "Board Name"
-msgstr ""
+msgstr "Tên Bảng"
 
 #. module: board
 #: model:ir.ui.view,arch_db:board.view_board_create
@@ -82,28 +82,28 @@ msgstr "Hủy"
 #: code:addons/board/static/src/xml/board.xml:6
 #, python-format
 msgid "Change Layout"
-msgstr ""
+msgstr "Đổi Bố cục"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/xml/board.xml:4
 #, python-format
 msgid "Change Layout.."
-msgstr ""
+msgstr "Đổi Bố cục..."
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/xml/board.xml:36
 #, python-format
 msgid "Choose dashboard layout"
-msgstr ""
+msgstr "Chọn bố cục bảng thông tin"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/js/dashboard.js:408
 #, python-format
 msgid "Could not add filter to dashboard"
-msgstr ""
+msgstr "Không thể thêm bộ lọc vào bảng thông tin"
 
 #. module: board
 #: model:ir.ui.view,arch_db:board.view_board_create
@@ -114,12 +114,12 @@ msgstr "Tạo"
 #: model:ir.actions.act_window,name:board.action_board_create
 #: model:ir.ui.menu,name:board.menu_board_create
 msgid "Create Board"
-msgstr ""
+msgstr "Tạo Bảng tin"
 
 #. module: board
 #: model:ir.ui.view,arch_db:board.view_board_create
 msgid "Create New Dashboard"
-msgstr ""
+msgstr "Tạo Bảng thông tin mới"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_create_create_uid
@@ -142,13 +142,13 @@ msgstr "Tên hiển thị"
 #: code:addons/board/static/src/js/dashboard.js:94
 #, python-format
 msgid "Edit Layout"
-msgstr ""
+msgstr "Sửa Bố cục"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_board_id
 #: model:ir.model.fields,field_description:board.field_board_create_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_board___last_update
@@ -159,7 +159,7 @@ msgstr "Sửa lần cuối"
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_create_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_create_write_date
@@ -171,7 +171,7 @@ msgstr "Cập nhật lần cuối"
 #: model:ir.ui.menu,name:board.menu_board_my_dash
 #: model:ir.ui.view,arch_db:board.board_my_dash_view
 msgid "My Dashboard"
-msgstr ""
+msgstr "Bảng thông tin của tôi"
 
 #. module: board
 #: model:ir.model.fields,field_description:board.field_board_create_menu_parent_id
@@ -185,6 +185,10 @@ msgid ""
 "                    menu, switch to list or graph view, and click <i>'Add to\n"
 "                    Dashboard'</i> in the extended search options."
 msgstr ""
+"Để thêm báo cáo đầu tiên và bảng thông tin này, di chuyển đến\n"
+"                    bất kỳ một trình đơn nào, chuyển giao diện\n"
+"                    sang dạng danh sách hoặc đồ thị, và bấm vào <i>'Thêm vào\n"
+"                    Bảng thông tin của tôi</i> trong tuỳ chọn tìm kiếm mở rộng."
 
 #. module: board
 #: model:ir.actions.act_window,help:board.open_board_my_dash_action
@@ -192,3 +196,5 @@ msgid ""
 "You can filter and group data before inserting into the\n"
 "                    dashboard using the search options."
 msgstr ""
+"Bạn có thể lọc và nhóm dữ liệu trước khi chèn vào bảng\n"
+"                    thông tin sử dụng các tuỳ chọn tìm kiếm."

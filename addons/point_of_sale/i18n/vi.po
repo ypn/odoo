@@ -67,7 +67,7 @@ msgstr "3.100.000 đ"
 msgid "<br/>\n"
 "                        Date:"
 msgstr "<br/>\n"
-"                        Date:"
+"                        Ngày:"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -636,7 +636,7 @@ msgstr "Các phương thức thanh toán khả dụng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_template_available_in_pos
 msgid "Available in the Point of Sale"
-msgstr "Available in the Point of Sale"
+msgstr "Khả dụng ở Điểm bán hàng (PoS)"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_average_price
@@ -913,7 +913,7 @@ msgstr "Đã đóng & Đã vào sổ"
 #: code:addons/point_of_sale/static/src/js/gui.js:333
 #, python-format
 msgid "Closing ..."
-msgstr "Closing ..."
+msgstr "Đang đóng ..."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:166
@@ -930,7 +930,7 @@ msgstr "Ngày đóng cửa"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_ref_company_ids
 msgid "Companies that refers to partner"
-msgstr "Companies that refers to partner"
+msgstr "Các công ty mà tham chiếu đến đối tác"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_company_id
@@ -948,12 +948,12 @@ msgstr "Cấu hình"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_configuration
 msgid "Configure Point of Sale"
-msgstr "Configure Point of Sale"
+msgstr "Cấu hình Điểm Bán hàng"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_config_kanban
 msgid "Configure at least one Point of Sale to be able to sell through the PoS interface."
-msgstr "Configure at least one Point of Sale to be able to sell through the PoS interface."
+msgstr "Cấu hình ít nhất một Điểm bán hàng (PoS) để có thể bán thông qua giao diện PoS."
 
 #. module: point_of_sale
 #. openerp-web
@@ -998,7 +998,7 @@ msgstr "Không đóng được PoS"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_payment_method_count
 msgid "Count Payment Method"
-msgstr "Count Payment Method"
+msgstr "Đếm Phương thức thanh toán"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1044,7 +1044,7 @@ msgstr "Ngày tạo"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_pos_mercury
 msgid "Credit Cards"
-msgstr "Credit Cards"
+msgstr "Thẻ Tín dụng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_currency_id
@@ -1055,12 +1055,12 @@ msgstr "Tiền tệ"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_currency_id
 msgid "Currency id"
-msgstr "Currency id"
+msgstr "IO Tiền tệ"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_current_session_id
 msgid "Current Session"
-msgstr "Current Session"
+msgstr "Phiên hiện tại"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1135,12 +1135,12 @@ msgstr "PoS Mặc định"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_barcode_nomenclature_id
 msgid "Defines what kind of barcodes are available and how they are assigned to products, customers and cashiers"
-msgstr "Defines what kind of barcodes are available and how they are assigned to products, customers and cashiers"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_delay_validation
 msgid "Delay Validation"
-msgstr "Delay Validation"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -2394,12 +2394,12 @@ msgstr "Phân tích Điểm bán Hàng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_template_pos_categ_id
 msgid "Point of Sale Category"
-msgstr "Point of Sale Category"
+msgstr "Nhóm PoS"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_search
 msgid "Point of Sale Config"
-msgstr "Point of Sale Config"
+msgstr "Cấu hình PoS"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_form

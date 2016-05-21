@@ -68,13 +68,13 @@ msgstr ""
 #: code:addons/crm_partner_assign/wizard/crm_channel_interested.py:30
 #, python-format
 msgid "<p>I am interested by this lead.</p>"
-msgstr ""
+msgstr "<p>Tôi quan tâm đến tiềm năng này</p>"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_channel_interested.py:35
 #, python-format
 msgid "<p>I am not interested by this lead. I contacted the lead.</p>"
-msgstr ""
+msgstr "<p>Tôi không quan tâm đến tiềm năng này. Tôi đã liên hệ với tiềm năng.</p>"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_channel_interested.py:37
@@ -82,6 +82,7 @@ msgstr ""
 msgid ""
 "<p>I am not interested by this lead. I have not contacted the lead.</p>"
 msgstr ""
+"<p>Tôi không quan tâm đến tiềm năng này. Tôi vẫn chưa liên hệ với tiềm năng.</p>"
 
 #. module: crm_partner_assign
 #: model:ir.ui.view,arch_db:crm_partner_assign.view_crm_lead_geo_assign_form
@@ -428,7 +429,7 @@ msgstr ""
 #. module: crm_partner_assign
 #: model:ir.model.fields,field_description:crm_partner_assign.field_res_partner_assigned_partner_id
 msgid "Implemented by"
-msgstr ""
+msgstr "Được triển khai bởi"
 
 #. module: crm_partner_assign
 #: model:ir.model.fields,field_description:crm_partner_assign.field_crm_lead_channel_interested_interested

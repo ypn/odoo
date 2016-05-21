@@ -25,13 +25,13 @@ msgstr "Ngày cảnh báo"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot_use_date
 msgid "Best before Date"
-msgstr ""
+msgstr "Tốt nhất trước Ngày"
 
 #. module: product_expiry
 #: model:product.product,name:product_expiry.product_product_pain
 #: model:product.template,name:product_expiry.product_product_pain_product_template
 msgid "Bread"
-msgstr ""
+msgstr "Bánh mì"
 
 #. module: product_expiry
 #: model:product.product,name:product_expiry.product_product_lait
@@ -69,17 +69,17 @@ msgstr "Lô/Số sê-ri"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_product_template_alert_time
 msgid "Product Alert Time"
-msgstr ""
+msgstr "Thời gian Cảnh báo Sản phẩm"
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_product_template_life_time
 msgid "Product Life Time"
-msgstr ""
+msgstr "Tuổi thọ Sản phẩm"
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_product_template_removal_time
 msgid "Product Removal Time"
-msgstr ""
+msgstr "Thời gian Tiêu huỷ"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_product_template
@@ -89,12 +89,12 @@ msgstr "Mẫu sản phẩm"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_product_template_use_time
 msgid "Product Use Time"
-msgstr ""
+msgstr "Thời gian Sử dụng"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_quant
 msgid "Quants"
-msgstr "Số lượng"
+msgstr ""
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot_removal_date
@@ -135,25 +135,25 @@ msgstr "Đây là ngày mà hàng hóa với số sê-ri này bắt đầu xấu
 msgid ""
 "When a new a Serial Number is issued, this is the number of days before an "
 "alert should be notified."
-msgstr "Khi một số sể-ri mới đươc tạo ra, đây là số ngày trước khi một cảnh báo được thông báo."
+msgstr "Khi một số sể-ri mới đươc phát hành, đây là số ngày trước khi một cảnh báo được thông báo."
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_template_life_time
 msgid ""
 "When a new a Serial Number is issued, this is the number of days before the "
 "goods may become dangerous and must not be consumed."
-msgstr "Khi một số sê-ri mới được tạo ra, đây là số ngày trước khi hàng hóa trở nên nguy hiểm và không thể tiêu thụ."
+msgstr "Khi một số sê-ri mới được  phát hành, đây là số ngày trước khi hàng hóa trở nên nguy hiểm và không thể tiêu thụ."
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_template_removal_time
 msgid ""
 "When a new a Serial Number is issued, this is the number of days before the "
 "goods should be removed from the stock."
-msgstr "Khi một số sê-ri mới được tạo ra, đây là số ngày trước khi hàng hóa sẽ bị xóa bỏ khỏi kho."
+msgstr "Khi một số sê-ri mới được  phát hành, đây là số ngày trước khi hàng hóa sẽ bị xóa bỏ khỏi kho (tiêu huỷ)."
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_template_use_time
 msgid ""
 "When a new a Serial Number is issued, this is the number of days before the "
 "goods starts deteriorating, without being dangerous yet."
-msgstr "Khi một số sê-ri mới được tạo ra, đây là số ngày trước khi hàng hóa bắt đầu xấu đi nhưng chưa trở nên nguy hiểm."
+msgstr "Khi một số sê-ri mới được  phát hành, đây là số ngày trước khi hàng hóa bắt đầu xấu đi nhưng chưa trở nên nguy hiểm."

@@ -362,7 +362,7 @@ msgstr "Tạo một báo giá, bước đầu tiên của một đơn hàng."
 #. module: sale
 #: selection:product.template,track_service:0
 msgid "Create a task and track hours"
-msgstr "Tạp nhiệm vụ và theo dõi giờ"
+msgstr "Tạo một nhiệm vụ và theo dõi giờ"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
@@ -465,7 +465,7 @@ msgstr "Đã giao tận nơi"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Delivered Quantity"
-msgstr ""
+msgstr "Số lượng Đã giao"
 
 #. module: sale
 #: selection:product.template,invoice_policy:0
@@ -745,7 +745,7 @@ msgstr "Chi tiết hoá đơn"
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 msgid "Invoice Order"
-msgstr ""
+msgstr "Xuất Hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
@@ -846,6 +846,7 @@ msgid ""
 "Invoices will be created in draft so that you can update\n"
 "                        them before validation."
 msgstr ""
+"Hoá đơn sẽ được tạo ở trạng thái dự thảo để bạn có thể cập nhật lại trước khi xác nhận."
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_sale_invoicing
@@ -1091,12 +1092,12 @@ msgstr "Trạng thái Đơn hàng"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Ordered Qty"
-msgstr ""
+msgstr "SL Đặt hàng"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Ordered Quantity"
-msgstr ""
+msgstr "Số lượng Đặt hàng"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
@@ -1835,7 +1836,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_advance_payment_method
 msgid "What do you want to invoice?"
-msgstr ""
+msgstr "Bạn muốn xuất hoá đơn cho cái gì?"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_config_settings_group_product_variant
