@@ -1305,9 +1305,8 @@ msgstr "Tạo RFQ"
 msgid "Create a backorder, if you expect to process the remaining\n"
 "                        products later.  Do not create a backorder if you will not\n"
 "                        supply the remaining products."
-msgstr "Create a backorder, if you expect to process the remaining\n"
-"                        products later.  Do not create a backorder if you will not\n"
-"                        supply the remaining products."
+msgstr "Tạo một Phần dở dang (còn lại), nếu bạn muốn xử lý số lượng còn lại sau.\n"
+"                        Đừng tạo Phần dở dang nếu bạn không giao/nhận số hàng hoá còn lại."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -3485,7 +3484,7 @@ msgstr "Newly created pack operation"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid "No Backorder"
-msgstr "No Backorder"
+msgstr "Không tạo phần dở dang"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_stock_lines_date_search
@@ -4857,7 +4856,7 @@ msgstr "Trả hàng"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking_location_id
 msgid "Return Location"
-msgstr "Return Location"
+msgstr "Địa điểm Hàng trả lại"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_return_picking
@@ -4868,12 +4867,12 @@ msgstr "Trả hàng"
 #: code:addons/stock/wizard/stock_return_picking.py:178
 #, python-format
 msgid "Returned Picking"
-msgstr "Returned Picking"
+msgstr "Lô hàng bị Trả lại"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Reverse"
-msgstr "Reverse"
+msgstr "Trả hàng"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_stock_return_picking
@@ -4884,7 +4883,7 @@ msgstr "Trả lại hàng"
 #: model:ir.model.fields,field_description:stock.field_stock_location_parent_right
 #: model:ir.model.fields,field_description:stock.field_stock_quant_package_parent_right
 msgid "Right Parent"
-msgstr "Right Parent"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_route_id
@@ -6539,7 +6538,7 @@ msgstr "Bạn đã tạo các dòng sản phẩm một cách thủ công. Vui l�
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid "You have processed less products than the initial demand."
-msgstr "You have processed less products than the initial demand."
+msgstr Bạn đã xử lý ít sản phẩm hơn nhu cầu ban đầu."
 
 #. module: stock
 #: code:addons/stock/product.py:341
@@ -6556,8 +6555,8 @@ msgstr "Bạn không thể chọn một đơn vị đo lường trong cùng nhó
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid "You haven't set processed quantities. If you click <i>apply</i>,\n"
 "                        Odoo will process all quantities to do."
-msgstr "You haven't set processed quantities. If you click <i>apply</i>,\n"
-"                        Odoo will process all quantities to do."
+msgstr "Bạn chưa đặt số lượng được xử lý. Nếu bạn bấm vào <i>Áp dụng</i>,\n"
+"                        Odoo sẽ xử lý toàn bộ số lượng phải thực hiện."
 
 #. module: stock
 #: code:addons/stock/wizard/stock_return_picking.py:48
