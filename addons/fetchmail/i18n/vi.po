@@ -103,7 +103,7 @@ msgstr "Tên hiển thị"
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_form
 msgid "Fetch Now"
-msgstr ""
+msgstr "Lấy về Ngay"
 
 #. module: fetchmail
 #: model:ir.model.fields,help:fetchmail.field_fetchmail_server_server
@@ -114,12 +114,12 @@ msgstr "Tên host hoặc IP của máy chủ email"
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_config_settings_id
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_search
 msgid "IMAP"
-msgstr "IMAP"
+msgstr ""
 
 #. module: fetchmail
 #: selection:fetchmail.server,type:0
@@ -161,7 +161,7 @@ msgstr "Giữ bản gốc"
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_date
 msgid "Last Fetch Date"
-msgstr ""
+msgstr "Ngày lấy về gần nhất"
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_config_settings___last_update
@@ -213,6 +213,8 @@ msgid ""
 "Optional custom server action to trigger for each incoming mail, on the "
 "record that was created or updated by this mail"
 msgstr ""
+"Hành động máy chủ tuỳ ý được gọi khi một email được gửi đến, đối với bản "
+"mà được tạo hoặc cập nhật bởi email này"
 
 #. module: fetchmail
 #: model:ir.model,name:fetchmail.model_mail_mail
@@ -256,21 +258,24 @@ msgid ""
 "document type. This will create new documents for new conversations, or "
 "attach follow-up emails to the existing conversations (documents)."
 msgstr ""
+"Xử lý mỗi email gửi đến như một phần của đoạn hội thoại ứng với kiểu tài liệu. "
+" Tính năng này sẽ tạo một tài liệu mới cho hội thoại mới, hoặc đính kèm các "
+" thư tiếp theo trong cùng hội thoại với một hội thoại (tài liệu) được tạo trước đó."
 
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_form
 msgid "Reset Confirmation"
-msgstr ""
+msgstr "Cấu hình lại"
 
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_search
 msgid "SSL"
-msgstr "SSL"
+msgstr ""
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_is_ssl
 msgid "SSL/TLS"
-msgstr "SSL/TLS"
+msgstr ""
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_script
@@ -290,7 +295,7 @@ msgstr "Máy chủ & Đăng nhập"
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_action_id
 msgid "Server Action"
-msgstr "Server Action"
+msgstr "Hành động phía Máy chủ"
 
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_form
@@ -305,7 +310,7 @@ msgstr "Tên máy chủ"
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_priority
 msgid "Server Priority"
-msgstr "Mức ưu máy chủ"
+msgstr "Mức ưu tiên máy chủ"
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_type
@@ -325,7 +330,7 @@ msgstr "Máy chủ kiểu POP."
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_state
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_form
@@ -344,6 +349,9 @@ msgid ""
 "attached to each processed message. This will usually double the size of "
 "your message database."
 msgstr ""
+"Có giữ lại Bản gốc đầy đủ của email để tham khảo và gắn với từng thông điệp "
+"được xử lý hay không. Cái này sẽ làm gấp đôi dung lượng cơ sở dữ liệu lưu trữ "
+"các thông điệp của bạn."
 
 #. module: fetchmail
 #: model:ir.model.fields,help:fetchmail.field_fetchmail_server_attach
@@ -351,6 +359,8 @@ msgid ""
 "Whether attachments should be downloaded. If not enabled, incoming emails "
 "will be stripped of any attachments before being processed"
 msgstr ""
+"Có tải về các đính kèm với email không. Nếu không kích hoạt, các email gửi "
+"đến mà có chứa đính kèm sẽ bị loại bỏ đính kèm trước khi xử lý"
 
 #. module: fetchmail
 #: model:ir.model,name:fetchmail.model_fetchmail_config_settings

@@ -625,6 +625,10 @@ msgid "A task's kanban state indicates special situations affecting it:\n"
 " * Blocked indicates something is preventing the progress of this task\n"
 " * Ready for next stage indicates the task is ready to be pulled to the next stage"
 msgstr ""
+"Một trạng thái kanban của nhiệm vụ chỉ ra tình huống đặc biệt có tác động đến nó:\n"
+" * Bình thường là trạng thái mặc định\n"
+" * Bị phong toả là trạng thái chỉ báo có gì đó đang ngăn cản tiến trình của nhiệm vụ này\n"
+" * Sẵn sàng cho giai đoạn kế tiếp là trạng thái chỉ báo nhiệm vụ đã hoàn thành ở giai đoạn này và sẵn sàng cho việc kéo sang giai đoạn kế tiếp"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -680,7 +684,7 @@ msgstr "Thêm mô tả"
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Added in current sprint"
-msgstr "Added in current sprint"
+msgstr "Đã được thêm trong sprint hiện hành"
 
 #. module: project
 #: model:project.task.type,name:project.project_stage_data_2
@@ -700,7 +704,7 @@ msgstr "An ninh về bí danh"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model
 msgid "Alias Model"
-msgstr "Alias Model"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_name
@@ -715,7 +719,7 @@ msgstr "Miền bí danh"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model_id
 msgid "Aliased Model"
-msgstr "Aliased Model"
+msgstr ""
 
 #. module: project
 #: code:addons/project/project.py:129
@@ -812,9 +816,8 @@ msgstr "Ngày Phân công"
 msgid "At each stage employees can block or make task/issue ready for next stage.\n"
 "                            You can define here labels that will be displayed for the state instead\n"
 "                            of the default labels."
-msgstr "At each stage employees can block or make task/issue ready for next stage.\n"
-"                            You can define here labels that will be displayed for the state instead\n"
-"                            of the default labels."
+msgstr "Tại mỗi giai đoạn, nhân viên có thể phong toả hoặc đánh dấu nhiệm vụ / phát sinh là đã sẵn sàng cho giai đoạn tiếp theo.\n"
+"                            Bạn có thể định nghĩa các nhãn ở đây để có thể được hiển thị thay thế cho các nhãn mặc định của giai đoạn."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -837,12 +840,12 @@ msgstr "Đính kèm"
 #. module: project
 #: selection:project.config.settings,generate_project_alias:0
 msgid "Automatically generate an email alias at the project creation"
-msgstr "Automatically generate an email alias at the project creation"
+msgstr "Tự động tạo bí danh email khi khởi tạo dự án"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Available on the Apple Store"
-msgstr "Available on the Apple Store"
+msgstr "Có sẵn ở Apple Store"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -890,7 +893,7 @@ msgstr "Bị phong tỏa"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_crossovered_budget_line
 msgid "Budget Lines"
-msgstr "Budget Lines"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -951,22 +954,22 @@ msgstr "Nhiệm vụ con vẫn ở trạng thái mở.\n"
 #: code:addons/project/static/src/js/web_planner_project.js:54
 #, python-format
 msgid "Clear description and purpose"
-msgstr "Clear description and purpose"
+msgstr "Mục tiêu và mô tả rõ ràng"
 
 #. module: project
 #: model:ir.actions.act_window,help:project.project_tags_action
 msgid "Click to add a new tag."
-msgstr "Click to add a new tag."
+msgstr "Bấm để tạo một thẻ mới."
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
 msgid "Click to add a stage in the task pipeline."
-msgstr "Click to add a stage in the task pipeline."
+msgstr "Bấm để thêm một giai đoạn trong pipeline nhiệm vụ."
 
 #. module: project
 #: model:web.tip,description:project.project_tip_1
 msgid "Click to view all the tasks related to this project."
-msgstr "Click to view all the tasks related to this project."
+msgstr "Bấm để xem tất cả các nhiệm vụ liên quan đến dự án này."
 
 #. module: project
 #: selection:project.project,state:0
@@ -1008,7 +1011,7 @@ msgstr "Công ty"
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_company_uom_id
 #: model:ir.model.fields,field_description:project.field_project_project_company_uom_id
 msgid "Company UOM"
-msgstr "Company UOM"
+msgstr "Đơn vị đo lường trong Cty"
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_config
@@ -2791,7 +2794,7 @@ msgstr "Giai đoạn được thay đổi"
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
 msgid "Stage Description and Tooltips"
-msgstr "Stage Description and Tooltips"
+msgstr "Tooltip và Mô tả cho các giai đoạn"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_name
@@ -2839,7 +2842,7 @@ msgstr "Trạng thái"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_state
 #: model:ir.ui.view,arch_db:project.view_task_history_search
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: project
 #: sql_constraint:project.tags:0
@@ -2904,7 +2907,7 @@ msgstr "Nhiệm vụ Sẵn sàng"
 #: model:ir.ui.view,arch_db:project.task_type_edit
 #: model:ir.ui.view,arch_db:project.task_type_tree
 msgid "Task Stage"
-msgstr "Trạng thái của Nhiệm vụ"
+msgstr "Giai đoạn của Nhiệm vụ"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_stage
@@ -3429,12 +3432,12 @@ msgstr "Khối lượng công việc"
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
 msgid "You can also add a description to help your coworkers understand the meaning and purpose of the stage."
-msgstr ""
+msgstr "Bạn cũng có thể thêm một mô tả để giúp cộng sự của bạn hiểu về ý nghĩa và mục đích của giai đoạn."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
 msgid "You can also give a tooltip about the use of the stars available in the kanban and form views."
-msgstr ""
+msgstr "Bạn cũng có thể thêm một tooltip về việc sử dụng các sao có ở trong giao diện kanban và giao diện form"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3449,7 +3452,7 @@ msgstr "Bạn có thể học thêm về Bảng chấm công ở trong phần 'S
 #. module: project
 #: model:ir.actions.act_window,help:project.act_project_project_2_project_task_all
 msgid "You can now manage your tasks in order to get things done efficiently. Track progress, discuss, attach documents, etc."
-msgstr "You can now manage your tasks in order to get things done efficiently. Track progress, discuss, attach documents, etc."
+msgstr "Giờ bạn có thể quản lý các nhiệm vụ của bạn để hoàn thành mọi việc hiệu quả: Theo dõi tiến trình, thảo luận, đính kèm tài liệu, v.v."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
