@@ -20,17 +20,17 @@ msgstr ""
 #. module: website_mail
 #: model:mail.channel,name:website_mail.channel_public
 msgid "Discussion Group"
-msgstr ""
+msgstr "Nhóm Thảo luận"
 
 #. module: website_mail
 #: model:ir.model,name:website_mail.model_mail_thread
 msgid "Email Thread"
-msgstr "Email Thread"
+msgstr ""
 
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "Leave a comment"
-msgstr ""
+msgstr "Để lại bình luận"
 
 #. module: website_mail
 #: model:ir.model,name:website_mail.model_mail_message
@@ -40,17 +40,17 @@ msgstr "Thông điệp"
 #. module: website_mail
 #: model:ir.model.fields,help:website_mail.field_mail_message_description
 msgid "Message description: either the subject, or the beginning of the body"
-msgstr ""
+msgstr "Mô tả Thông điệp: hoặc chủ đề, hoặc nội dung mở đầu"
 
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "Oops! Something went wrong. Try to reload the page and to log in."
-msgstr ""
+msgstr "Oops! Có vẻ có gì đó trục trặc. Hãy nạp lại trang và đăng nhập."
 
 #. module: website_mail
 #: model:ir.model.fields,field_description:website_mail.field_mail_message_website_published
 msgid "Published"
-msgstr ""
+msgstr "Đã xuất bản"
 
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
@@ -70,6 +70,9 @@ msgid ""
 "\n"
 "(Document type: %s, Operation: %s)"
 msgstr ""
+"Hoạt động bạn yêu cầu không thể thực hiện được vì các giới hạn về bảo mật. Vui lòng liên hệ quản trị hệ thống của bạn.\n"
+"\n"
+"(Kiểu tài liệu: %s, Hoạt động: %s)"
 
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.follow
@@ -79,7 +82,7 @@ msgstr "Ngừng theo dõi"
 #. module: website_mail
 #: model:ir.model.fields,help:website_mail.field_mail_message_website_published
 msgid "Visible on the website as a comment"
-msgstr ""
+msgstr "Hiển thị ở website như một lời bình"
 
 #. module: website_mail
 #: model:ir.model.fields,field_description:website_mail.field_mail_thread_website_message_ids
@@ -94,19 +97,19 @@ msgstr "Lịch sử thông tin liên lạc website"
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "Write a message..."
-msgstr ""
+msgstr "Viết một thông điệp..."
 
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "You must be"
-msgstr ""
+msgstr "Bạn phải là"
 
 #. module: website_mail
 #. openerp-web
 #: code:addons/website_mail/static/src/xml/chatter_message.xml:8
 #, python-format
 msgid "just now"
-msgstr ""
+msgstr "vừa xong"
 
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
@@ -116,7 +119,7 @@ msgstr ""
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "on"
-msgstr "trên"
+msgstr "vào"
 
 #. module: website_mail
 #: model:ir.model,name:website_mail.model_publisher_warranty_contract
@@ -126,7 +129,7 @@ msgstr ""
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "to post a comment."
-msgstr ""
+msgstr "để đăng một lời bình."
 
 #. module: website_mail
 #: model:ir.model.fields,field_description:website_mail.field_mail_message_description
