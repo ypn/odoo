@@ -86,7 +86,7 @@ msgstr "Thay đổi giá tiêu chuẩn"
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_wizard_valuation_history
 msgid "Choose a date in the past to get the inventory at that date."
-msgstr ""
+msgstr "Chọn một ngày trong quá khứ để lấy số liệu tồn kho tại ngày đó."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_inventory_accounting_date
@@ -94,6 +94,7 @@ msgid ""
 "Choose the accounting date at which you want to value the stock moves "
 "created by the inventory instead of the default one (the inventory end date)"
 msgstr ""
+""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_wizard_valuation_history
@@ -181,7 +182,8 @@ msgstr "ID"
 msgid ""
 "If cost price is increased, stock variation account will be debited and stock output account will be credited with the value = (difference of amount * quantity available).\n"
 "If cost price is decreased, stock variation account will be creadited and stock input account will be debited."
-msgstr "Nếu giá vốn tăng, tài khoản biến động kho sẽ ghi nợ và tài khoản xuất kho ghi tăng với giá trị = (số tiền chênh lệch * số lượng khả dụng).\nNếu giá vốn giảm, tài khoản biến động kho sẽ ghi có và tài khoản nhập kho sẽ ghi nợ."
+msgstr "Nếu giá vốn tăng, tài khoản biến động kho sẽ được ghi nợ và tài khoản xuất kho sẽ được ghi có với giá trị = (số tiền chênh lệch * số lượng khả dụng).\n"
+"Nếu giá vốn giảm, tài khoản biến động kho sẽ được ghi có và tài khoản nhập kho sẽ được ghi nợ."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_valuation
@@ -209,14 +211,14 @@ msgstr ""
 #. module: stock_account
 #: selection:stock.config.settings,module_stock_landed_costs:0
 msgid "Include landed costs in product costing computation"
-msgstr "Bao gồm cả landed cost khi tính chi phí sản phẩm"
+msgstr "Bao gồm cả landed cost vào việc tính toán giá vốn sản phẩm"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_config_settings_module_stock_landed_costs
 msgid ""
 "Install the module that allows to affect landed costs on pickings, and split"
 " them onto the different products."
-msgstr "Cài đặt phân hệ này sẽ cho phép tác động tới landed costs trên lô hàng nhập/xuất và phân bổ chúng vào các sản phẩm khác nhau."
+msgstr "Cài đặt phân hệ này sẽ cho phép tác động landed costs vào lô hàng và phân bổ chúng vào các sản phẩm khác nhau."
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_inventory
@@ -262,7 +264,7 @@ msgstr "Chi tiết hoá đơn"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_config_settings_module_stock_landed_costs
 msgid "Landed Costs"
-msgstr "Landed Costs"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price___last_update
@@ -408,7 +410,7 @@ msgstr "Nhận giá trị tồn kho"
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_wizard_valuation_history
 msgid "Retrieve the curent stock valuation."
-msgstr ""
+msgstr "Nhận giá trị tồn kho hiện hành"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_history_serial_number
@@ -431,7 +433,7 @@ msgstr "Chỉ ra một đơn vị đo lường tại đây nếu việc xuất h
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_product_can_be_expensed
 msgid "Specify whether the product can be selected in an HR expense."
-msgstr ""
+msgstr "Xác định sản phẩm có thể được chọn ở ngữ cảnh kê khai chi phí ở Nhân sự (HR Expense) hay không."
 
 #. module: stock_account
 #: selection:product.category,property_cost_method:0
@@ -612,7 +614,7 @@ msgid ""
 "incoming stock moves will be posted in this account, unless there is a "
 "specific valuation account set on the source location. When not set on the "
 "product, the one from the product category is used."
-msgstr "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh đối ứng cho tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ khi có một tài khoản định giá được thiết lập trên địa điểm nguồn. Khi không thiết lập trên một sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm. "
+msgstr "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh đối ứng cho tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ khi có một tài khoản định giá được thiết lập trên địa điểm nguồn. Khi không thiết lập trên sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm. "
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_stock_account_output_categ_id

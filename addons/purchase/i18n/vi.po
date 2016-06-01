@@ -995,7 +995,7 @@ msgstr "Tham chiếu đơn hàng"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_state
 msgid "Order Status"
-msgstr "Trạng thái Đơn hàng"
+msgstr "Tình trạng Đơn hàng"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
@@ -1010,12 +1010,12 @@ msgstr "Đơn hàng"
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_mail
 msgid "Outgoing Mails"
-msgstr "Outgoing Mails"
+msgstr ""
 
 #. module: purchase
 #: model:mail.template,report_name:purchase.email_template_edi_purchase_done
 msgid "PO_${(object.name or '').replace('/','_')}"
-msgstr "PO_${(object.name or '').replace('/','_')}"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_partner
@@ -1026,12 +1026,12 @@ msgstr "Đối tác"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_country_id
 msgid "Partner Country"
-msgstr "Partner Country"
+msgstr "Quốc gia Đối tác"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Partner's Country"
-msgstr "Partner's Country"
+msgstr "Quốc gia của Đối tác"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_payment_term_id
@@ -1545,23 +1545,23 @@ msgstr "Yêu cầu chào giá lưu trữ lịch sử các thảo luận/đàm ph
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_category_property_account_creditor_price_difference_categ
 msgid "This account will be used to value price difference between purchase price and accounting cost."
-msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giữa giá mua và chi phí theo kế toán."
+msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá vốn theo kế toán."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_property_account_creditor_price_difference
 #: model:ir.model.fields,help:purchase.field_product_template_property_account_creditor_price_difference
 msgid "This account will be used to value price difference between purchase price and cost price."
-msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giữa giá mua và chi phí theo kế toán."
+msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá vốn theo kế toán."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_partner_property_purchase_currency_id
 msgid "This currency will be used, instead of the default one, for purchases from the current partner"
-msgstr "This currency will be used, instead of the default one, for purchases from the current partner"
+msgstr "Tiền tệ này sẽ được This currency will be used, instead of the default one, for purchases from the current partner"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
 msgid "This vendor has no purchase order. Click to create a new RfQ."
-msgstr "This vendor has no purchase order. Click to create a new RfQ."
+msgstr "Nhà cung cấp này chưa có đơn hàng nào với chúng ta. Bấm để tạo mới một RFQ (Yêu cầu Báo giá)."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_picking_type_id
@@ -1571,7 +1571,7 @@ msgstr "Nó sẽ xác định loại đóng gói của lô hàng sắp về"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_pos_categ_id
 msgid "Those categories are used to group similar products for point of sale."
-msgstr "Those categories are used to group similar products for point of sale."
+msgstr "Những nhóm này để nhóm các sản phẩm tương tự cho Điểm bán lẻ (POS)"
 
 #. module: purchase
 #: selection:purchase.order,state:0
@@ -1582,7 +1582,7 @@ msgstr "Chờ duyệt"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product_to_weight
 msgid "To Weigh With Scale"
-msgstr "To Weigh With Scale"
+msgstr "Để cân bằng Cân"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_amount_total
@@ -1614,13 +1614,13 @@ msgstr "Dịch chuyển"
 #: code:addons/purchase/purchase.py:290
 #, python-format
 msgid "Unable to cancel purchase order %s as some receptions have already been done."
-msgstr "Unable to cancel purchase order %s as some receptions have already been done."
+msgstr "Không thể huỷ đơn hàng mua %s khi đã nhận hàng (dủ ít nhiều)"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:293
 #, python-format
 msgid "Unable to cancel this purchase order.i You must first cancel related vendor bills."
-msgstr "Unable to cancel this purchase order.i You must first cancel related vendor bills."
+msgstr "Không thể huỷ đơn hàng mua này. Trước tiên, bạn phải huỷ các hoá đơn nhà cung cấp liên quan đến đơn hàng mua này."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_unit
@@ -1651,7 +1651,7 @@ msgstr "Thông điệp chưa đọc"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "Unread Messages Counter"
+msgstr "Bộ đếm Thông điệp Chưa đọc"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
@@ -1674,10 +1674,7 @@ msgid "Use this menu to control the invoices to be received from your\n"
 "            vendor. When registering a new bill, set the purchase order\n"
 "            and Odoo will fill the bill automatically according to ordered\n"
 "            or received quantities."
-msgstr "Use this menu to control the invoices to be received from your\n"
-"            vendor. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
-"            or received quantities."
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
@@ -1685,10 +1682,7 @@ msgid "Use this menu to search within your purchase orders by\n"
 "                references, vendor, products, etc. For each purchase order,\n"
 "                you can track the related discussion with the vendor, control\n"
 "                the products received and control the vendor bills."
-msgstr "Use this menu to search within your purchase orders by\n"
-"                references, vendor, products, etc. For each purchase order,\n"
-"                you can track the related discussion with the vendor, control\n"
-"                the products received and control the vendor bills."
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_mail_mail_path
@@ -1704,7 +1698,7 @@ msgstr "Người dùng"
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "VAT:"
-msgstr "VAT:"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_partner_id

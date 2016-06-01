@@ -1132,7 +1132,7 @@ msgstr "Tài khoản sẽ được sử dụng cho hóa đơn bán hàng.\n"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_account_creditor_price_difference
 msgid "This account will be used to value price difference between purchase price and cost price."
-msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giữa giá mua và chi phí theo kế toán."
+msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá vốn theo kế toán."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_res_partner_property_delivery_carrier_id
@@ -1339,12 +1339,12 @@ msgstr "Khối lượng * Thể tích"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_stock_account_input
 msgid "When doing real-time inventory valuation, counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account set on the source location. When not set on the product, the one from the product category is used."
-msgstr "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh đối ứng cho tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ khi có một tài khoản định giá được thiết lập trên địa điểm nguồn. Khi không thiết lập trên một sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm. "
+msgstr "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh kế toán đối ứng cho tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ khi có một tài khoản định giá được thiết lập trên địa điểm nguồn. Khi không thiết lập trên một sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_stock_account_output
 msgid "When doing real-time inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account, unless there is a specific valuation account set on the destination location. When not set on the product, the one from the product category is used."
-msgstr "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh đối ứng cho tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ khi có một tài khoản định giá được thiết lập trên địa điểm đích. Khi không thiết lập trên một sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm. "
+msgstr "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh kế toán đối ứng cho tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ khi có một tài khoản định giá được thiết lập trên địa điểm đích. Khi không thiết lập trên một sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm."
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:106
