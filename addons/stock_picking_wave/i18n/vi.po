@@ -20,24 +20,24 @@ msgstr ""
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cần có Hành động"
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_to_wave
 msgid "Add pickings to a picking wave"
-msgstr ""
+msgstr "Thêm các lô nhập/xuất vào một đợt"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Add pickings to wave"
-msgstr ""
+msgstr "Thêm các lô nhập/xuất vào đợt"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_to_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.picking_to_wave_act
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Add to Wave"
-msgstr ""
+msgstr "Thêm vào Đợt"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
@@ -48,7 +48,7 @@ msgstr "Hủy"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Cancel picking"
-msgstr ""
+msgstr "Huỷ nhập/xuất"
 
 #. module: stock_picking_wave
 #: selection:stock.picking.wave,state:0
@@ -58,7 +58,7 @@ msgstr "Đã hủy"
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,help:stock_picking_wave.action_picking_wave
 msgid "Click to create a Picking Wave."
-msgstr ""
+msgstr "Bấm để tạo một Đợt Nhập/Xuất"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
@@ -68,7 +68,7 @@ msgstr "Xác nhận"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Confirm picking"
-msgstr ""
+msgstr "Xác nhận nhập/xuất"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_create_uid
@@ -112,22 +112,22 @@ msgstr "Người dõi theo"
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Kênh dõi theo"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Đối tác dõi theo"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Force availability"
-msgstr ""
+msgstr "Cưỡng bức khả dụng"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_id
@@ -139,7 +139,7 @@ msgstr "ID"
 #: model:product.product,name:stock_picking_wave.product_product_ice_cream_choco
 #: model:product.template,name:stock_picking_wave.product_product_ice_cream_choco_product_template
 msgid "Ice Cream Chocolate"
-msgstr ""
+msgstr "Kem Sô-cô-la"
 
 #. module: stock_picking_wave
 #: model:product.product,description_sale:stock_picking_wave.product_product_ice_cream_choco
@@ -153,7 +153,7 @@ msgstr ""
 #: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_vani_product_template
 #: model:product.template,name:stock_picking_wave.product_product_ice_cream_vani_product_template
 msgid "Ice Cream Vanilla"
-msgstr ""
+msgstr "Kem Vanilla"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_unread
@@ -163,17 +163,17 @@ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu đánh dầu, thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "In Progress"
-msgstr "Đang xử lý"
+msgstr "Đang thực hiện"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Là một người dõi theo"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_last_post
@@ -190,7 +190,7 @@ msgstr "Sửa lần cuối"
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_write_uid
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_write_date
@@ -201,7 +201,7 @@ msgstr "Cập nhật lần cuối"
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_picking_ids
 msgid "List of picking associated to this wave"
-msgstr ""
+msgstr "Danh sách các lô hàng vào đợt này"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_ids
@@ -216,33 +216,33 @@ msgstr "Lịch sử trao đổi"
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_name
 msgid "Name of the picking wave"
-msgstr ""
+msgstr "Tên của Đợt nhập xuất"
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:42
 #, python-format
 msgid "Nothing to print."
-msgstr ""
+msgstr "Không có gì để in."
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng Hành động"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số lượng thông điệp cần có hành động"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số thông điệp chưa đọc"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_user_id
 msgid "Person responsible for this wave"
-msgstr ""
+msgstr "Người mà chịu trách nhiệm cho đợt nhập/xuất này"
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:60
@@ -252,39 +252,39 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 #, python-format
 msgid "Picking Wave"
-msgstr ""
+msgstr "Đợt nhập xuất"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_name
 msgid "Picking Wave Name"
-msgstr ""
+msgstr "Tên Đợt Nhập/Xuất"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_wave
 #: model:ir.ui.menu,name:stock_picking_wave.menu_action_picking_wave
 msgid "Picking Waves"
-msgstr ""
+msgstr "Đợt Nhập/Xuất"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Picking Waves not finished"
-msgstr ""
+msgstr "Đợt Nhập/Xuất chưa kết thúc"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_id_9563
 msgid "Picking wave associated to this picking"
-msgstr ""
+msgstr "Đợt Nhập/Xuất gắn với lô hàng này"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_picking_ids
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Pickings"
-msgstr "Pickings"
+msgstr "Các lô Xuất/Nhập"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Print all pickings"
-msgstr ""
+msgstr "In tất cả Phiếu Xuất/Nhập"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_user_id
@@ -299,12 +299,12 @@ msgstr "Đang chạy"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Search Picking Waves"
-msgstr ""
+msgstr "Tìm kiếm Đợt Nhập/Xuất"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Select a wave"
-msgstr ""
+msgstr "Chọn một đợt"
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:59
@@ -313,6 +313,8 @@ msgid ""
 "Some pickings are still waiting for goods. Please check or force their "
 "availability before setting this wave to done."
 msgstr ""
+"Một số lô hàng (nhập/xuất) vẫn đang chờ có hàng. Hãy kiểm tra lại hoặc cưỡng "
+" bức tính khả dụng trước khi đặt đợt này sang trạng thái hoàn thành."
 
 #. module: stock_picking_wave
 #: model:product.product,name:stock_picking_wave.product_product_dry_specu
@@ -336,13 +338,13 @@ msgstr "Giai đoạn được thay đổi"
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_state
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "State"
-msgstr "Giai đoạn"
+msgstr "Trạng thái"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_tree
 msgid "Stock Picking Waves"
-msgstr ""
+msgstr "Đợt Nhập/Xuất"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,help:stock_picking_wave.action_picking_wave
@@ -352,6 +354,11 @@ msgid ""
 "                It may also be useful to assign jobs (one person = one wave) or\n"
 "                help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
+"Mục tiêu của các Đợt Nhập/Xuất là để nhóm các hoạt động mà (hoặc cần phải)\n"
+"                được thực hiện cùng nhau để tăng hiệu quả. Điều này cũng hữu\n"
+"                trong việc phân công công việc (vd: một người = một đợt) hoặc\n"
+"                giúp quản lý gian của các hoạt động (vd: nhiệm vụ được thực hiện\n"
+"                lúc 1 giờ chiều)."
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking
@@ -362,7 +369,7 @@ msgstr "Dịch chuyển"
 #: code:addons/stock_picking_wave/stock_picking_wave.py:60
 #, python-format
 msgid "Transferred by"
-msgstr ""
+msgstr "Dịch chuyển bởi"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_unread
@@ -372,7 +379,7 @@ msgstr "Thông điệp chưa đọc"
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Bộ đếm thông điệp chưa đọc"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
@@ -382,7 +389,7 @@ msgstr "Người dùng"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_stock_picking_wave_search_inherit
 msgid "Wave"
-msgstr ""
+msgstr "Đợt"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_website_message_ids

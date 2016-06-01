@@ -745,7 +745,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_in_move
 msgid "Incoming  Products"
-msgstr "Hàng săp về"
+msgstr "Sản phẩm sắp về"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -765,7 +765,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_incoterm_id
 msgid "International Commercial Terms are a series of predefined commercial terms used in international transactions."
-msgstr ""
+msgstr "Bộ Điều khoản Thương mại Quốc tế (Incoterms) là một chuỗi các điều khoản thương mại được định nghĩa trước để sử dụng trong các giao dịch quốc tế."
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
@@ -785,12 +785,12 @@ msgstr "Chi tiết hoá đơn"
 #. module: purchase
 #: selection:purchase.order,invoice_status:0
 msgid "Invoice Received"
-msgstr "đã nhận Hoá đơn"
+msgstr "Hoá đơn Đã nhận"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_invoice_status
 msgid "Invoice Status"
-msgstr "Tình trạng hoá đơn"
+msgstr "Tình trạng Hoá đơn"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -873,12 +873,12 @@ msgstr "Hoá đơn thủ công"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company_po_lead
 msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for procuring products, they will be scheduled that many days earlier to cope with unexpected vendor delays."
-msgstr ""
+msgstr "Biên độ sai lệch đối với thời gian mua hàng. Khi hệ thống tự tạo các đơn hàng mua để cung ứng sản phẩm, nó sẽ ấn định thêm số ngày này vào thời gian phải mua hàng để ngăn ngừa sự trễ hẹn không mong muốn từ phía nhà cung cấp."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_mail_mail_description
 msgid "Message description: either the subject, or the beginning of the body"
-msgstr ""
+msgstr "Mô tả thông điệp: hoặc là chủ đề, hoặc là phần mở đầu của nội dung"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_message_ids
@@ -1163,17 +1163,17 @@ msgstr "Mua hàng"
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_order_report_all
 msgid "Purchase Analysis"
-msgstr "Phân tích mua"
+msgstr "Phân tích Mua"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid "Purchase Analysis allows you to easily check and analyse your company purchase history and performance. From this menu you can track your negotiation performance, the delivery performance of your vendors, etc."
-msgstr "Purchase Analysis allows you to easily check and analyse your company purchase history and performance. From this menu you can track your negotiation performance, the delivery performance of your vendors, etc."
+msgstr "Phân tích Mua cho phép bạn dễ dàng kiểm tra và phân tích lịch sử và hiệu suất mua sắm của công ty bạn. Từ trình đơn này, bạn có thể truy xuất hiệu suất đàm phán, hiệu suất bàn giao của các nhà cung cấp của bạn, v.v."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_lead
 msgid "Purchase Lead Time"
-msgstr "Purchase Lead Time"
+msgstr "Ngày An toàn Mua"
 
 #. module: purchase
 #: model:ir.actions.report.xml,name:purchase.action_report_purchase_order
