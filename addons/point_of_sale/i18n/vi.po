@@ -229,7 +229,7 @@ msgstr "<strong>Thanh toán</strong>"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_sessionsummary
 msgid "<strong>Point of Sale</strong>:<br/>"
-msgstr "<strong>Điểm bán hàng</strong>:<br/>"
+msgstr "<strong>Điểm bán lẻ</strong>:<br/>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
@@ -636,7 +636,7 @@ msgstr "Các phương thức thanh toán khả dụng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_template_available_in_pos
 msgid "Available in the Point of Sale"
-msgstr "Khả dụng ở Điểm bán hàng (PoS)"
+msgstr "Khả dụng ở Điểm bán lẻ (PoS)"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_average_price
@@ -948,12 +948,12 @@ msgstr "Cấu hình"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_configuration
 msgid "Configure Point of Sale"
-msgstr "Cấu hình Điểm Bán hàng"
+msgstr "Cấu hình Điểm bán lẻ"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_config_kanban
 msgid "Configure at least one Point of Sale to be able to sell through the PoS interface."
-msgstr "Cấu hình ít nhất một Điểm bán hàng (PoS) để có thể bán thông qua giao diện PoS."
+msgstr "Cấu hình ít nhất một Điểm bán lẻ (PoS) để có thể bán thông qua giao diện PoS."
 
 #. module: point_of_sale
 #. openerp-web
@@ -2382,14 +2382,14 @@ msgstr "PoS Orders"
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
 #: model:ir.ui.view,arch_db:point_of_sale.view_sale_config_settings_form_pos
 msgid "Point of Sale"
-msgstr "Điểm bán hàng"
+msgstr "Điểm bán lẻ"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_graph
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_pivot
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Point of Sale Analysis"
-msgstr "Phân tích Điểm bán Hàng"
+msgstr "Phân tích Điểm bán lẻ"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_template_pos_categ_id
@@ -3854,7 +3854,7 @@ msgstr "You need to select the customer before you can invoice an order."
 #: code:addons/point_of_sale/point_of_sale.py:494
 #, python-format
 msgid "You should assign a Point of Sale to your session."
-msgstr "Bạn nên chỉ định một điểm bán hàng cho phiên làm việc của bạn"
+msgstr "Bạn nên chỉ định một Điểm bán lẻ cho phiên làm việc của bạn"
 
 #. module: point_of_sale
 #. openerp-web
