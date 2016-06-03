@@ -28,7 +28,7 @@ msgstr ", đến tab 'Bán hàng'"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ", go to the 'Variants' tab"
-msgstr ", go to the 'Variants' tab"
+msgstr ", đến tab 'Biến thể'"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -40,23 +40,23 @@ msgstr "-- Giao đến địa chỉ khác --"
 msgid "30-day money-back guarantee<br/>\n"
 "                    Free Shipping in U.S.<br/>\n"
 "                    Buy now, get in 2 days"
-msgstr "30-day money-back guarantee<br/>\n"
-"                    Free Shipping in U.S.<br/>\n"
-"                    Buy now, get in 2 days"
+msgstr "Đảm bảo bằng 30-ngày Hoàn tiền<br/>\n"
+"                    Miễn phí vận chuyển ở VN<br/>\n"
+"                    Mua ngay, nhận hàng trong 2 ngày"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<br/>\n"
 "                                <small>(don't forget to apply the changes)</small>"
 msgstr "<br/>\n"
-"                                <small>(don't forget to apply the changes)</small>"
+"                                <small>(đừng quên trả phí - nếu có)</small>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<br/>\n"
 "                                <small>(you'll have to subscribe directly on each of the payment companies' websites)</small>"
 msgstr "<br/>\n"
-"                                <small>(you'll have to subscribe directly on each of the payment companies' websites)</small>"
+"                                <small>(bạn phải đăng ký trực tiếp tại từng website của nhà cung cấp dịch vụ thanh toán)</small>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -68,17 +68,17 @@ msgstr "<br/>\n"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
 msgid "<i class=\"fa fa-cog\"/> Configure Transfer Details"
-msgstr "<i class=\"fa fa-cog\"/> Configure Transfer Details"
+msgstr "<i class=\"fa fa-cog\"/> Cấu hình Chi tiết Chuyển tiền"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<i class=\"fa fa-comment-o\"/> Website Live Chat on"
-msgstr "<i class=\"fa fa-comment-o\"/> Website Live Chat on"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<i class=\"fa fa-envelope-o\"/> Email Our Website Expert"
-msgstr "<i class=\"fa fa-envelope-o\"/> Email Our Website Expert"
+msgstr "<i class=\"fa fa-envelope-o\"/> Email cho Chuyên gia"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -90,7 +90,7 @@ msgstr "<i class=\"fa fa-print\"/> In"
 msgid "<i class=\"fa fa-shopping-cart\"/>\n"
 "              My cart"
 msgstr "<i class=\"fa fa-shopping-cart\"/>\n"
-"              Giỏ hàng của tôi"
+"              Giỏ hàng"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.total
@@ -120,26 +120,26 @@ msgstr "<span class=\"fa fa-arrow-right\"/> đổi"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"fa fa-comment-o\"/> Website Live Chat on"
-msgstr "<span class=\"fa fa-comment-o\"/> Website Live Chat on"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"fa fa-envelope-o\"/> Email Our Website Expert"
-msgstr "<span class=\"fa fa-envelope-o\"/> Email Our Website Expert"
+msgstr "<span class=\"fa fa-envelope-o\"/> Email cho Chuyên gia Website"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                        At cost price is a good option for heavy or oversized packages."
 msgstr "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                        At cost price is a good option for heavy or oversized packages."
+"                        Theo giá vốn là một tuỳ chọn tốt đối với các gói nặng hoặc quá khổ."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                        Offering free delivery with a minimum amount or minimum number of items should drive up your average order value and help to compensate for the delivery costs."
 msgstr "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                        Offering free delivery with a minimum amount or minimum number of items should drive up your average order value and help to compensate for the delivery costs."
+"                        Cung cấp giao hàng miễn phí với giá trị hoặc số lượng mua tối thiểu có thể làm tăng giá trị trung bình các đơn hàng và giúp bù đắp chi phí giao hàng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -183,14 +183,17 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"panel-title\">\n"
 "                            <span class=\"fa fa-tag\"/>\n"
+"                            <strong> 1. On Product pages:</strong> Show suggested products\n"
+"                        </span>"
+msgstr "<span class=\"panel-title\">\n"
+"                            <span class=\"fa fa-tag\"/>\n"
 "                            <strong> 1. On Product pages:</strong> Hiển thị sản phẩm được gợi ý\n"
 "                        </span>"
-msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"panel-title\"><span class=\"fa fa-cc-paypal\"/><strong> Paypal</strong> (Recommended for starters)</span>"
-msgstr ""
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-cc-paypal\"/><strong> Paypal</strong> (Khuyên dùng cho người mới)</span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -205,17 +208,17 @@ msgstr "<span class=\"panel-title\"><span class=\"fa fa-lock\"/><strong>Chuyển
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"panel-title\"><span class=\"fa fa-pencil-square-o\"/><strong> Web-Services</strong><br/>scripts development</span>"
-msgstr ""
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-pencil-square-o\"/><strong> Web-Services</strong><br/>Phát triển các kịch bản (scripts)</span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"panel-title\"><span class=\"fa fa-shopping-cart\"/><strong> At cost price</strong> (customer pay what you pay)</span>"
-msgstr ""
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-shopping-cart\"/><strong> Theo giá vốn</strong> (khách hàng trả tiền cho cái bạn trả)</span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"panel-title\"><span class=\"fa fa-sitemap\"/><strong> Importation</strong><br/>by using a CSV file</span>"
-msgstr ""
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-sitemap\"/><strong> Nhập liệu hàng loạt</strong><br/>bằng cách dùng một tập tin CSV</span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -225,12 +228,12 @@ msgstr "<span class=\"panel-title\"><span class=\"fa fa-smile-o\"/><strong> Giao
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"panel-title\"><span class=\"fa fa-table\"/><strong> Flat rates</strong> (everybody pays the same)</span>"
-msgstr "<span class=\"panel-title\"><span class=\"fa fa-table\"/><strong> Flat rates</strong> (everybody pays the same)</span>"
+msgstr "<span class=\"panel-title\"><span class=\"fa fa-table\"/><strong> Flat rates</strong> (mọi người phải trả như nhau)</span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "<span class=\"text-danger\">* </span>Field 2"
-msgstr "<span class=\"text-danger\">* </span>Field 2"
+msgstr "<span class=\"text-danger\">* </span>Trường 2"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.suggested_products_list
@@ -240,32 +243,32 @@ msgstr "<strong>Thêm vào Giỏ</strong>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Bonuses:</strong> what you get on top of the offer"
-msgstr "<strong>Bonuses:</strong> what you get on top of the offer"
+msgstr "<strong>Thưởng thêm:</strong> vd: bạn sẽ nhận được xx khi mua sản phẩm này"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Call to action</strong> short and clear: (Add to Cart, Ask for quote,...)"
-msgstr "<strong>Call to action</strong> short and clear: (Add to Cart, Ask for quote,...)"
+msgstr "<strong>Call to action</strong> ngắn và rõ ràng: (Thêm vào giỏ, Hỏi giá, v.v.)"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Cons:</strong>"
-msgstr "<strong>Cons:</strong>"
+msgstr "<strong>Bất lợi:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Cons:</strong> The delivery cost may be discouraging for your cheapest items."
-msgstr "<strong>Cons:</strong> The delivery cost may be discouraging for your cheapest items."
+msgstr "<strong>Bất lợi:</strong> Phí giao hàng kiểu này có thể không phù hợp đối với các sản phẩm giá rẻ của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Cons:</strong> customers have to wait until checkout to find out the delivery price."
-msgstr "<strong>Cons:</strong> customers have to wait until checkout to find out the delivery price."
+msgstr "<strong>Bất lợi:</strong> khách hàng phải chờ đợi cho đến khi quá trình checkout hoàn thành để có thể thấy phí giao hàng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Cons:</strong> will require you to either absorb the cost or slightly increase your prices to cover it."
-msgstr "<strong>Cons:</strong> will require you to either absorb the cost or slightly increase your prices to cover it."
+msgstr "<strong>Bất lợi:</strong> sẽ cần bạn phải chịu chi phí hoặc tăng giá sản phẩm một chút để bù đắp."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -275,29 +278,29 @@ msgstr "<strong>Liên hệ với chúng tôi ngay:</strong><br/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Customers review:</strong> what do the customers think of the product"
-msgstr "<strong>Customers review:</strong> what do the customers think of the product"
+msgstr "<strong>Đánh giá của khách hàng:</strong> khách hàng nghĩ gì về sản phẩm"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Features and benefits:</strong> what the product does and why that is good"
-msgstr "<strong>Features and benefits:</strong> what the product does and why that is good"
+msgstr "<strong>Tính năng và lợi ích:</strong> sản phẩm có thể làm gì và tai sao nó tốt"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>High-quality picture</strong>"
-msgstr "<strong>High-quality picture</strong>"
+msgstr "<strong>Hình ảnh chất lượng cao</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Key features, emotional and commercial content</strong><br/>\n"
 "                            Recommended for at least for your top products, because it can have a big impact on your sales and conversion rates."
-msgstr "<strong>Key features, emotional and commercial content</strong><br/>\n"
-"                            Recommended for at least for your top products, because it can have a big impact on your sales and conversion rates."
+msgstr "<strong>Tính năng chính, nội dung thương mại và xúc cảm</strong><br/>\n"
+"                            Được khuyến nghị, ít nhất là đối với các sản phẩm hàng đầu của bạn, bởi vì việc này có ảnh hưởng lớn đến doanh số và tỷ lệ chuyển đổi (conversion rates) của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Mandatory content</strong><br/>"
-msgstr "<strong>Mandatory content</strong><br/>"
+msgstr "<strong>Nội dung Bắt buộc</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -307,7 +310,7 @@ msgstr "<strong>Tên</strong> sản phẩm của bạn"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Need help to import your products?</strong>"
-msgstr "<strong>Need help to import your products?</strong>"
+msgstr "<strong>Cần trợ giúp nhập các sản phẩm của bạn?</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -328,7 +331,7 @@ msgstr "<strong>Thông tin thanh toán:</strong>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Pictures gallery of the product:</strong> all angles, detailed view, package,etc."
-msgstr "<strong>Pictures gallery of the product:</strong> all angles, detailed view, package,etc."
+msgstr "<strong>Thư viện hình cho sản phẩm của bạn:</strong> tất cả các góc độ, xem chi tiết, đóng gói, v.v."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -340,61 +343,61 @@ msgstr "<strong>Giá</strong> với tiền tệ"
 msgid "<strong>Product variants</strong><br/>\n"
 "                            Product variants are used to offer variations of the same product to your customers on the products page.<br/>\n"
 "                            For example, the customer choose a T-shirt and then select its size or color."
-msgstr "<strong>Product variants</strong><br/>\n"
-"                            Product variants are used to offer variations of the same product to your customers on the products page.<br/>\n"
-"                            For example, the customer choose a T-shirt and then select its size or color."
+msgstr "<strong>Các biến thể sản phẩm</strong><br/>\n"
+"                            Các biến thể sản phẩm được sử dụng để chào hàng cho các biến thể khác nhau của cùng một sản phẩm trên cùng một trang sản phẩm đến khách hàng của bạn.<br/>\n"
+"                            Ví dụ, khách hàng chọn Áo phông, và sau đó chọn kích cỡ và màu sắc."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Pros:</strong>"
-msgstr "<strong>Pros:</strong>"
+msgstr "<strong>Thuận lợi:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Pros:</strong> being transparent about your charges can win you the trust of your customers."
-msgstr "<strong>Pros:</strong> being transparent about your charges can win you the trust of your customers."
+msgstr "<strong>Thuận lợi:</strong> minh bạch về chi phí của bạn có thể lấy được lòng tin với khách hàng của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Pros:</strong> gives you a significant advantage over any competitors that don't offer the same perk."
-msgstr "<strong>Pros:</strong> gives you a significant advantage over any competitors that don't offer the same perk."
+msgstr "<strong>Thuận lợi:</strong> cho bạn ưu thế rõ ràng đối với bất kỳ đối thủ mà không thể cung cấp cùng phạm vi dịch vụ này."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Pros:</strong> simple for your customers to understand."
-msgstr "<strong>Pros:</strong> simple for your customers to understand."
+msgstr "<strong>Thuận lợi:</strong> đơn giản để khách hàng của bạn có thể hiểu được."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Reassurance arguments</strong><br/>\n"
 "                            Anticipate your customers questions &amp; worries on practical details like Shipping rates &amp; policies, Return &amp; replacement policies, Payment methods &amp; security, General Conditions, etc."
-msgstr "<strong>Reassurance arguments</strong><br/>\n"
-"                            Anticipate your customers questions &amp; worries on practical details like Shipping rates &amp; policies, Return &amp; replacement policies, Payment methods &amp; security, General Conditions, etc."
+msgstr "<strong>Các yếu tố đảm bảo lại</strong><br/>\n"
+"                            Hãy lưu ý đến các băn khoăn lo lắng của khác hàng về và chi tiết thực tế như phí vận chuyển &amp; chính sách, chính sách thay thế &amp; trả hàng, Phương thức thanh toán &amp; bảo mật, Các điều khoản tổng quát, v.v."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Recommended action:</strong>"
-msgstr "<strong>Recommended action:</strong>"
+msgstr "<strong>Hành động cần làm:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Recommended actions:</strong>"
-msgstr "<strong>Recommended actions:</strong>"
+msgstr "<strong>Hành động cần làm:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>See it in action</strong><br/>"
-msgstr "<strong>See it in action</strong><br/>"
+msgstr "<strong>Xem thực tế nó thế nào</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Short description</strong> of the product or service"
-msgstr "<strong>Short description</strong> of the product or service"
+msgstr "<strong>Mô tả ngắn</strong> về sản phẩm / dịch vụ"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Technical information:</strong> what do you get and how does it work?"
-msgstr "<strong>Technical information:</strong> what do you get and how does it work?"
+msgstr "<strong>Thông tin kỹ thuật:</strong> bạn sẽ nhận được gì từ sản phẩm và nó hoạt động thế nào?"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -404,12 +407,12 @@ msgstr "<strong>Tổng:</strong>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Value proposition:</strong> what’s the end-benefit of this product and who is it for?"
-msgstr "<strong>Value proposition:</strong> what’s the end-benefit of this product and who is it for?"
+msgstr "<strong>Gợi ý về giá trị:</strong> giá trị cuối cùng của sản phẩm này là gì và dành cho ai?"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Variants</strong> of the product like size or color (see below)"
-msgstr "<strong>Variants</strong> of the product like size or color (see below)"
+msgstr "<strong>Các Biến thể</strong> của sản phẩm như kích thước hoặc màu sắc (xem bên dưới)"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_accessory_product_ids
@@ -425,17 +428,17 @@ msgstr "Kích hoạt 'Sản phẩm được gợi ý' từ trình đơn 'Tuỳ b
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Activate the 'Support multiple variants per products' option in"
-msgstr "Activate the 'Support multiple variants per products' option in"
+msgstr "Kích hoạt tuỳ chọn 'Hỗ trợ nhiều biến thể cho mỗi sản phẩm' ở"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Activate the payment options you want to use"
-msgstr "Activate the payment options you want to use"
+msgstr "Kích hoạt các tuỳ chọn thanh toán mà bạn muốn sử dụng"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Add as many variants as you need from 3 different types: radio buttons, drop-down menu or color buttons."
-msgstr "Add as many variants as you need from 3 different types: radio buttons, drop-down menu or color buttons."
+msgstr "Thêm nhiều biến thể theo nhu cầu từ 3 kiểu khác nhau: radio buttons, drop-down menu hoặc color buttons."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -451,7 +454,7 @@ msgstr "Tất cả sản phẩm"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_website_pricelist_selectable
 msgid "Allow the end user to choose this price list"
-msgstr "Allow the end user to choose this price list"
+msgstr "Cho phép người dùng cuối lựa chọn bảng giá"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product_alternative_product_ids
@@ -499,19 +502,19 @@ msgstr "Thông tin Thanh toán<span class=\"chevron\"/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Can take up to several days for you to receive the money"
-msgstr "Can take up to several days for you to receive the money"
+msgstr "Có thể mất một vài ngày cho đến khi bạn nhận được tiền"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_cart_quantity
 msgid "Cart Quantity"
-msgstr "Số lượng trong giỏ"
+msgstr "Số lượng trong Giỏ"
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
 msgid "Categories are used to browse your products through the\n"
 "            touchscreen interface."
-msgstr "Categories are used to browse your products through the\n"
-"            touchscreen interface."
+msgstr "Các nhóm được sử dụng để duyệt qua các sản phẩm của bạn\n"
+"            qua giao diện cảm ứng."
 
 #. module: website_sale
 #. openerp-web
@@ -530,14 +533,14 @@ msgstr "Nhóm con"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:72
 #, python-format
 msgid "Choose an image"
-msgstr "Choose an image"
+msgstr "Chọn một hình"
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:73
 #, python-format
 msgid "Choose an image from the library."
-msgstr "Choose an image from the library."
+msgstr "Chọn một hình từ thư viện."
 
 #. module: website_sale
 #. openerp-web
@@ -575,26 +578,26 @@ msgstr "Bấm vào đây để chọn một hình ảnh đại diện mô tả c
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:47
 #, python-format
 msgid "Click on <em>Continue</em> to create the product."
-msgstr "Click on <em>Continue</em> to create the product."
+msgstr "Bấm vào <em>Tiếp tục</em> để tạo sản phẩm."
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:106
 #, python-format
 msgid "Click on <em>Publish</em> your product so your customers can see it."
-msgstr "Click on <em>Publish</em> your product so your customers can see it."
+msgstr "Bấm vào <em>Xuất bản</em> sản phẩm của bạn để khách hàng có thể nhìn thấy nó."
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:84
 #, python-format
 msgid "Click on <em>Save</em> to add the image to the product description."
-msgstr "Click on <em>Save</em> to add the image to the product description."
+msgstr "Bấm vào <em>Lưu</em> để cập nhật hình ảnh vào mô tả sản phẩm."
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
 msgid "Click to define a new category."
-msgstr "Click to define a new category."
+msgstr "Bấm để định nghĩa một nhóm mới."
 
 #. module: website_sale
 #. openerp-web
@@ -616,12 +619,12 @@ msgstr "Tên Công ty"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Configure your bank account(s)"
-msgstr "Configure your bank account(s)"
+msgstr "Cấu hình (các) tài khoản ngân hàng của bạn"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Configure your delivery prices"
-msgstr "Configure your delivery prices"
+msgstr "Cấu hình giá giao hàng của bạn"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -755,22 +758,22 @@ msgstr "Bảng giá mặc định"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_config_settings_view_form
 msgid "Default Sales Team"
-msgstr "Default Sales Team"
+msgstr "Đội bán hàng Mặc định"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_config_settings_view_form
 msgid "Default Salesperson"
-msgstr "Default Salesperson"
+msgstr "Nhân viên bán Mặc định"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Defining a good delivery strategy is difficult: you don't want to cut into your margins, but you want to be attractive to customers."
-msgstr "Defining a good delivery strategy is difficult: you don't want to cut into your margins, but you want to be attractive to customers."
+msgstr "Xác định một chiến lược bàn giao thì khó khăn vì bạn không muốn cắt lợi nhuận của bạn, nhưng vẫn muốn hấp dẫn khách hàng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Delivery Strategy"
-msgstr "Delivery Strategy"
+msgstr "Chiến lược giao hàng"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_description
@@ -787,7 +790,7 @@ msgstr "Xác định trình tự hiển thị trên website"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_line_discounted_price
 msgid "Discounted price"
-msgstr "Discounted price"
+msgstr "Giá đã chiết khấu"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_display_name
@@ -808,12 +811,12 @@ msgstr "Kéo & Thả một khối"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:91
 #, python-format
 msgid "Drag this website block and drop it in your page."
-msgstr "Drag this website block and drop it in your page."
+msgstr "Kéo khối này và thả vào trang của bạn"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_code
 msgid "E-commerce Promotional Code"
-msgstr "E-commerce Promotional Code"
+msgstr "Mã khuyến mãi cho E-Commerce"
 
 #. module: website_sale
 #. openerp-web
@@ -825,7 +828,7 @@ msgstr "Sửa giá của sản phẩm bày bằng cách bấm vào giá của s�
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Electronic payments have the advantage of being integrated into the buying process. This means your customers will be less likely to drop out before the payment, resulting in a higher conversion rate at the end."
-msgstr "Electronic payments have the advantage of being integrated into the buying process. This means your customers will be less likely to drop out before the payment, resulting in a higher conversion rate at the end."
+msgstr "Thanh toán điện tử có thuận lợi về việc tích hợp trực tiếp và quy trình bán hàng. Điều này có nghĩa khách hàng của bạn sẽ ít từ bỏ trước khi thanh toán, tạo nên tỉ lệ chuyển đổi cuối cùng cao hơn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -837,17 +840,17 @@ msgstr "Tên đăng nhập / Email"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:40
 #, python-format
 msgid "Enter a name for your new product"
-msgstr "Enter a name for your new product"
+msgstr "Nhập một cái tên cho sản phẩm mới của bạn"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Enter their identification credentials"
-msgstr "Enter their identification credentials"
+msgstr "Nhập xác thực nhận dạng của chúng"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Enter your existing products into this CSV file, respecting its structure."
-msgstr "Enter your existing products into this CSV file, respecting its structure."
+msgstr "Nhập liệu về các sản phẩm bạn đang có vào tập tin CSV vừa được xuất ra theo cấu trúc mẫu."
 
 #. module: website_sale
 #: constraint:product.public.category:0
@@ -857,27 +860,27 @@ msgstr "Lỗi! Bạn không được tạo các nhóm đệ quy lẫn nhau."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Example of Good Product Page"
-msgstr "Example of Good Product Page"
+msgstr "Ví dụ về một Trang Sản phẩm Tốt"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Example: you sell T-shirts in the US only. You can offer free delivery because your items are medium priced and the delivery costs are limited and well defined."
-msgstr "Example: you sell T-shirts in the US only. You can offer free delivery because your items are medium priced and the delivery costs are limited and well defined."
+msgstr "Ví dụ: bạn bán Áo phông chỉ ở Việt Nam. Bạn có thể cung cấp hàng hoá và miễn phí giao hàng bởi vì sản phẩm của bạn có giá trị trung bình và chi phí giao hàng thì giới hạn và có thể xác định dễ dàng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Example: you sell cheap specialized electronic components. You choose flat rates because the price of an item is sometimes lower than the delivery costs."
-msgstr "Example: you sell cheap specialized electronic components. You choose flat rates because the price of an item is sometimes lower than the delivery costs."
+msgstr "Ví dụ: bạn bán các linh kiện điện tử đặc chủng. Bạn chọn Flat Rate bởi vì giá của một hạng mục đôi khi thấp hơn phí giao hàng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Example: you sell custom-made wood sculptures, and because your customers are all over the world, each delivery is different and at cost price."
-msgstr "Example: you sell custom-made wood sculptures, and because your customers are all over the world, each delivery is different and at cost price."
+msgstr "Ví dụ: bạn bán các sản phẩm điêu khắc tuỳ ý bằng gỗ, và bởi vì khách hàng của bạn ở khắp thế giới, mỗi lô hàng giao đều khác nhau và giá vốn khác nhau."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Export the 3 products you have already created by checking them and choosing 'Export' from the 'More' menu"
-msgstr "Export the 3 products you have already created by checking them and choosing 'Export' from the 'More' menu"
+msgstr "Xuất (Export) 3 sản phẩm mà bạn đã tạo trước đây bằng cách đánh dấu kiểm chọn chúng và bấm chọn 'Xuất' từ trình đơn 'Hành động'"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info_option
@@ -897,42 +900,42 @@ msgstr "Tích hợp Fedex"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "Field 1"
-msgstr "Field 1"
+msgstr "Trường 1"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "Field 3"
-msgstr "Field 3"
+msgstr "Trường 3"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "Field not custom"
-msgstr "Field not custom"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "Field not required"
-msgstr "Field not required"
+msgstr "Trường không bắt buộc"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "Field required"
-msgstr "Field required"
+msgstr "Trường bắt buộc"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Focus on adding content and improving the pages for your best-selling products: don't try to create complete pages for all your products at first!"
-msgstr "Focus on adding content and improving the pages for your best-selling products: don't try to create complete pages for all your products at first!"
+msgstr "Tập trung vào việc thêm nội dung và cải tiến các trang của bạn để có thể bán hàng tốt nhất: đừng cố gắng tạo các trang sản phẩm hoàn chỉnh trước!"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Free and easy to setup"
-msgstr "Free and easy to setup"
+msgstr "Miễn phí và dễ dàng cài đặt"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "From a"
-msgstr "From a"
+msgstr "Từ một"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_public_category_sequence
@@ -942,12 +945,12 @@ msgstr "Cung cấp thứ tự hiển thị một danh sách nhóm sản phẩm."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Go to the"
-msgstr "Go to the"
+msgstr "Hãy đi đến"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_style_html_class
 msgid "HTML Classes"
-msgstr "HTML Classes"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute_value_color
@@ -957,7 +960,7 @@ msgstr "Chỉ số màu sắc theo HTML"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_ir_http
 msgid "HTTP routing"
-msgstr "HTTP routing"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.reduction_code
@@ -967,7 +970,7 @@ msgstr "Có mã giảm giá? Hãy điền vào trường này và nhấn áp d�
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Here are <strong>some pros and cons</strong> to help you decide:"
-msgstr "Here are <strong>some pros and cons</strong> to help you decide:"
+msgstr "Đây là một số <strong>thuận lợi và bất lợi</strong> để giúp bạn quyết định:"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_attribute_value_color
@@ -991,9 +994,9 @@ msgstr "ID"
 msgid "If you have an eCommerce, one of your objectives is of course to grow your revenues by\n"
 "                    selling more and pricier products. Luckily for you, Odoo integrates three powerful\n"
 "                    customizations for that."
-msgstr "If you have an eCommerce, one of your objectives is of course to grow your revenues by\n"
-"                    selling more and pricier products. Luckily for you, Odoo integrates three powerful\n"
-"                    customizations for that."
+msgstr "Nếu bạn có một gian hàng thương mại điện tử, một trong số các mục tiêu của bạn là tăng trưởng thu nhập\n"
+"                    bằng cách bán nhiều hơn với giá tốt hơn. Thật may cho bạn, Odoo tích hợp 3 tuỳ\n"
+"                    chỉnh mạnh mẽ cho điều đó"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_image
@@ -1005,39 +1008,39 @@ msgstr "Hình"
 msgid "Imagine a new customer who comes to your website, finds the product they want and add it to their cart.<br/>\n"
 "                        Then they get to the checkout page and are hit with the delivery and handling charges.<br/>\n"
 "                        Suddenly, a product that looked like it was a fair price seems little expensive, and the customer leaves your website disappointed."
-msgstr "Imagine a new customer who comes to your website, finds the product they want and add it to their cart.<br/>\n"
-"                        Then they get to the checkout page and are hit with the delivery and handling charges.<br/>\n"
-"                        Suddenly, a product that looked like it was a fair price seems little expensive, and the customer leaves your website disappointed."
+msgstr "Hãy hình dung một khách hàng mới đến website của bạn, tìm thấy sản phẩm mà họ muốn và thêm vào giỏ hàng của họ.<br/>\n"
+"                        Sau đó họ đến trang thanh toán và bị 'tấn công' bởi phí vận chuyển và bàn giao.<br/>\n"
+"                        Đột nhiên, một sản phẩm có vẻ đã có giá tốt đã trở thành một sản phẩm đắt đỏ, và khách hàng rời trang web của bạn trong sự thất vọng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Import Your Products"
-msgstr "Import Your Products"
+msgstr "Nhập các Sản phẩm của bạn"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "In order to take money from customers, you need a way of accepting payments.<br/>\n"
 "                        That's what a payment gateway is for: it helps you make money, but that does cost money.<br/>\n"
 "                        That why it's important to choose the right provider for your online payments."
-msgstr "In order to take money from customers, you need a way of accepting payments.<br/>\n"
-"                        That's what a payment gateway is for: it helps you make money, but that does cost money.<br/>\n"
-"                        That why it's important to choose the right provider for your online payments."
+msgstr "Để có thể thu tiền từ khách hàng, bạn cần ít nhất một cách để chấp thuận các khoản thanh toán.<br/>\n"
+"                        Đó là mục đích mà một công thanh toán được sử dụng: nó giúp bạn kiếm tiền, nhưng không tốn nhiều chi phí.<br/>\n"
+"                        Đó là lý do tại sao việc lựa chọn nhà cung cấp dịch vụ thanh toán lại quan trọng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Increase your average cart amount by proposing complementary products to your visitors."
-msgstr "Increase your average cart amount by proposing complementary products to your visitors."
+msgstr "Tăng cường giá trị bình quân của giỏ hàng bằng cách đề xuất thêm các sản phẩm theo bộ đến khách hàng của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Increase your chances to make a sale by displaying suggested products."
-msgstr "Increase your chances to make a sale by displaying suggested products."
+msgstr "Tăng cường cơ hội bán hàng bằng cách hiển thị thêm các sản phẩm được gợi ý"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:563
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
-msgstr "Invalid Email! Please enter a valid email address."
+msgstr "Email không hợp lệ! Vui lòng điền một email hợp lệ."
 
 #. module: website_sale
 #: code:addons/website_sale/models/sale_order.py:86
@@ -1048,7 +1051,7 @@ msgstr "Bạn không được phép sửa một đơn hàng mà không ở trạ
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "It's difficult to recommend one over the others. So, simply pick the one that is more popular in your country!"
-msgstr "It's difficult to recommend one over the others. So, simply pick the one that is more popular in your country!"
+msgstr "Thật khó nói cái nào tốt hơn cái nào. Đơn giản là hãy chọn một cái mà phổ biến ở nước bạn!"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category___last_update
@@ -1060,7 +1063,7 @@ msgstr "Sửa lần cuối"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_partner_last_website_so_id
 msgid "Last Online Sale Order"
-msgstr "Last Online Sale Order"
+msgstr "Đơn hàng trực tuyến gần nhất"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_write_uid
@@ -1089,14 +1092,14 @@ msgstr "Hình cỡ trung của nhóm. Nó sẽ tự động được thu về k�
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_config_settings_view_form
 msgid "Merchant Connectors"
-msgstr "Merchant Connectors"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale.js:15
 #, python-format
 msgid "My Cart"
-msgstr "My Cart"
+msgstr "Giỏ hàng của tôi"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_complete_name
@@ -1128,7 +1131,7 @@ msgstr "Sản phẩm mới được tạo"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "No monthly fees for standard offer"
-msgstr "No monthly fees for standard offer"
+msgstr "Không phí hàng tháng đối với chào hàng tiêu chuẩn"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.products
@@ -1138,7 +1141,7 @@ msgstr "Không có sản phẩm được định nghĩa."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Now you can also <strong>import your existing products:</strong>"
-msgstr "Now you can also <strong>import your existing products:</strong>"
+msgstr "Giờ bạn có thể <strong>nhập (import) các sản phẩm bạn đang có:</strong>"
 
 #. module: website_sale
 #. openerp-web
@@ -1149,13 +1152,13 @@ msgstr "Đồng ý"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "Odoo offers an importation service to handle the whole process for you!"
-msgstr "Odoo offers an importation service to handle the whole process for you!"
+msgid "ERPOnline offers an importation service to handle the whole process for you!"
+msgstr "ERPOnline cung cấp dịch vụ để thực hiện toàn bộ quy trình này cho bạn!"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Odoo's web-services allows developers to create scripts that will load data automatically into the system."
-msgstr "Odoo's web-services allows developers to create scripts that will load data automatically into the system."
+msgstr "Web-services của Odoo cho phép các nhà phát triển tạo các script để nạp dữ liệu tự động vào trong hệ thống."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1167,12 +1170,12 @@ msgstr "Trên webstie của bạn, di chuyển đến trang sản phẩm nơi b�
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:98
 #, python-format
 msgid "Once you click on <em>Save</em>, your product is updated."
-msgstr "Once you click on <em>Save</em>, your product is updated."
+msgstr "Một khi bạn bấm vào <em>Lưu</em>, sản phẩm của bạn sẽ được cập nhật."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_only_services
 msgid "Only Services"
-msgstr "Only Services"
+msgstr "Chỉ các Dịch vụ"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -1209,7 +1212,7 @@ msgstr "Thanh toán Ngay"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment
 msgid "Pay Now <span class=\"fa fa-long-arrow-right\"/>"
-msgstr "Pay Now <span class=\"fa fa-long-arrow-right\"/>"
+msgstr "Thanh toán Ngay <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_payment_acquirer_id
@@ -1261,7 +1264,7 @@ msgstr "Giá"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_website_pricelist_ids
 msgid "Price list available for this Ecommerce/Website"
-msgstr "Price list available for this Ecommerce/Website"
+msgstr "Bảng giá khả dụng ở Ecommerce/Website"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_pricelist
@@ -1294,12 +1297,12 @@ msgstr "Tên sản phẩm"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Product Pages"
-msgstr "Product Pages"
+msgstr "Các trang Sản phẩm"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product_public_category_tree_view
 msgid "Product Product Categories"
-msgstr "Product Product Categories"
+msgstr "Nhóm Sản phẩm"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template
@@ -1309,7 +1312,7 @@ msgstr "Mẫu sản phẩm"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Product detail form"
-msgstr "Product detail form"
+msgstr "Form chi tiết sản phẩm"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -1331,12 +1334,12 @@ msgstr "Sản phẩm"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Products list"
-msgstr "Products list"
+msgstr "Danh mục sản phẩm"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Products list view"
-msgstr "Products list view"
+msgstr "Giao diện Danh mục sản phẩm"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_sale
@@ -1378,7 +1381,7 @@ msgstr "Đẩy lên"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Put the practical details (shipping, payment options,...) as links in the footer; that way, they will be accessible from all your product pages."
-msgstr "Put the practical details (shipping, payment options,...) as links in the footer; that way, they will be accessible from all your product pages."
+msgstr "Đặt chi tiết về thực tế giao hàng, thanh toán, v.v. thành các liên kết (link) ở chân trang web; bằng cách đó, chúng sẽ có thể được truy cập từ các trang sản phẩm của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
@@ -1407,7 +1410,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template_rating_ids
 msgid "Rating"
-msgstr "Rating"
+msgstr "Đánh giá"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1427,7 +1430,7 @@ msgstr "Xem lại Đơn hàng<span class=\"chevron\"/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.products_item
 msgid "Sale"
-msgstr ""
+msgstr "Khuyến mãi"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_payment_transaction_sale_order_id
@@ -1437,7 +1440,7 @@ msgstr "Đơn hàng"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Sales / Settings"
-msgstr "Sales / Settings"
+msgstr "Bán hàng > Cấu hình"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_sale_order
@@ -1471,7 +1474,7 @@ msgstr "Lưu"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Save and import the modified CSV file from the 'More' menu of the"
-msgstr "Save and import the modified CSV file from the 'More' menu of the"
+msgstr "Lưu lại và nhập tập tin CSV đã chỉnh sửa bằng cách bấm vào nút 'Nhập' của "
 
 #. module: website_sale
 #. openerp-web
@@ -1495,12 +1498,12 @@ msgstr "Chọn"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:32
 #, python-format
 msgid "Select <em>New Product</em> to create it and manage its properties to boost your sales."
-msgstr "Select <em>New Product</em> to create it and manage its properties to boost your sales."
+msgstr "Chọn <em>Sản phẩm Mới</em> để tạo một sản phẩm mới và quản lý các thuộc tính của nó để thúc đẩy doanh số của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Select a product from the"
-msgstr "Select a product from the"
+msgstr "Chọn một sản phẩm từ"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_pricelist_selectable
@@ -1510,12 +1513,12 @@ msgstr "Có thể được chọn"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Sell"
-msgstr "Sell"
+msgstr "Bán"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Sell More"
-msgstr "Sell More"
+msgstr "Bán thêm nữa"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_sequence
@@ -1550,7 +1553,7 @@ msgstr "Giao hàng &amp;"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_config_settings_view_form
 msgid "Shipping Connectors"
-msgstr "Shipping Connectors"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -1566,7 +1569,7 @@ msgstr "Sản phẩm & Dịch vụ"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
 msgid "Shop - Checkout"
-msgstr "Shop - Checkout"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -1635,13 +1638,13 @@ msgstr "Hình cỡ nhỏ của nhóm. Hình được tự động thu nhỏ về
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Some customers prefer to pay this way"
-msgstr "Some customers prefer to pay this way"
+msgstr "Một số khách hàng thích thanh toán theo cách này hơn"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:585
 #, python-format
 msgid "Some required fields are empty."
-msgstr "Some required fields are empty."
+msgstr "Một số trường bắt buộc vẫn đang để trống."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.404
@@ -1712,29 +1715,29 @@ msgstr "Cảm ơn bạn đã đặt hàng."
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "The best way to start your online shop is by creating 3 products pages directly in the website.<br/>\n"
 "                        To help you, here are some guidelines that will convert customers:"
-msgstr "The best way to start your online shop is by creating 3 products pages directly in the website.<br/>\n"
-"                        To help you, here are some guidelines that will convert customers:"
+msgstr "Cách tốt nhất để khởi đầu một cửa hàng trực tuyến là tạo 3 trang sản phẩm trực tiếp ở website.<br/>\n"
+"                        Để giúp đỡ bạn, đây là một số hướng dẫn mà sẽ chuyển đổi khách hàng:"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product_website_url
 #: model:ir.model.fields,help:website_sale.field_product_template_website_url
 msgid "The full URL to access the document through the website."
-msgstr "The full URL to access the document through the website."
+msgstr "Địa chỉ URL đầy đủ để truy cập tài liệu này trên website."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
 msgid "The payment seems to have been canceled."
-msgstr "The payment seems to have been canceled."
+msgstr "Khoản thanh toán dường như đã bị huỷ."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
 msgid "There seems to be an error with your request."
-msgstr "There seems to be an error with your request."
+msgstr "Dường như đã có lỗi khi xử lý yêu cầu của bạn."
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_public_category_image
 msgid "This field holds the image used as image for the category, limited to 1024x1024px."
-msgstr "This field holds the image used as image for the category, limited to 1024x1024px."
+msgstr "Trường này chứa hình ảnh được sử dụng làm hình đại diện cho nhóm, giới hạn đến 1024x1024px."
 
 #. module: website_sale
 #. openerp-web
@@ -1746,7 +1749,7 @@ msgstr "Trang này chứa toàn bộ thông tin liên quan đến sản phẩm m
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.reduction_code
 msgid "This promo code is not available"
-msgstr "This promo code is not available"
+msgstr "Promo code này không khả dụng"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product_public_categ_ids
@@ -1757,7 +1760,7 @@ msgstr "Đây là các Nhóm để nhóm các sản phẩm tương tự vào th�
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "To use them:"
-msgstr "To use them:"
+msgstr "Để sử dụng tính năng này:"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -1772,7 +1775,7 @@ msgstr "Giao dịch"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Try to apply what you've learned above by manually creating three Product pages from the Content menu."
-msgstr "Try to apply what you've learned above by manually creating three Product pages from the Content menu."
+msgstr "Hãy cố gắng áp dụng những điều bạn đã học ở bên trên để tạo 3 trang sản phẩm từ trình đơn 'Nội dung' ở ngoài website."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute_type
@@ -1782,12 +1785,12 @@ msgstr "Kiểu"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_config_settings_module_delivery_ups
 msgid "UPS integration"
-msgstr "UPS integration"
+msgstr "Tích hợp UPS"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_config_settings_module_delivery_usps
 msgid "USPS integration"
-msgstr "USPS integration"
+msgstr "Tích hợp USPS"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -1804,12 +1807,12 @@ msgstr "Cập nhật hình"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.products
 msgid "Use the <i>'Content'</i> top menu to create a new product."
-msgstr "Use the <i>'Content'</i> top menu to create a new product."
+msgstr "Sử dụng trình đơn <i>'Nội dung'</i> ở trên cùng website để tạo mới một sản phẩm."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Users will buy more accessories and services if they can add them to their cart in one click."
-msgstr "Users will buy more accessories and services if they can add them to their cart in one click."
+msgstr "Khách hàng có thể sẽ mua nhiều phụ kiện và dịch vụ hơn nếu họ có thể thêm chúng vào giỏ chỉ với một cú bấm."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -1835,12 +1838,12 @@ msgstr "Thấy được ở Website"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_rating_rating_website_published
 msgid "Visible on the website as a comment"
-msgstr "Visible on the website as a comment"
+msgstr "Thấy ở trên website như một bình luận"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Web Service technical documentation."
-msgstr "Web Service technical documentation."
+msgstr "Tài liệu Kỹ thuật về Web Service."
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website
@@ -1905,7 +1908,7 @@ msgstr "Nhóm trên Website"
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website
 msgid "Website Shop"
-msgstr "Website Shop"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_url
@@ -1918,21 +1921,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_website_meta_description
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_meta_description
 msgid "Website meta description"
-msgstr "Website meta description"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_keywords
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_website_meta_keywords
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Website meta keywords"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_title
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category_website_meta_title
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_meta_title
 msgid "Website meta title"
-msgstr "Website meta title"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1944,29 +1947,29 @@ msgstr "Chào mừng đến với gian hàng trực tuyến"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "You can also define different prices for the variants you created by activating the 'Use pricelists to adapt your price per customers' option in"
-msgstr "You can also define different prices for the variants you created by activating the 'Use pricelists to adapt your price per customers' option in"
+msgstr "Bạn cũng có thể định giá cho các biết thể mà bạn tạo ra bằng cách kích hoạt tuỳ chọn 'Sử dụng Bảng giá để đáp ứng giá bán theo khách hàng' ở"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "You can setup 3 types of <strong>payment methods in Odoo:</strong>"
-msgstr "You can setup 3 types of <strong>payment methods in Odoo:</strong>"
+msgstr "Bạn có thể thiết lập 3 kiểu <strong>phương thức thanh toán trong Odoo:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "You have to reconcile the payment manually"
-msgstr "You have to reconcile the payment manually"
+msgstr "Bạn phải đối soát/đối chiếu khoản thanh toán một cách thủ công"
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:18
 #, python-format
 msgid "You successfully installed the e-commerce. This guide will help you to create your product and promote your sales."
-msgstr "You successfully installed the e-commerce. This guide will help you to create your product and promote your sales."
+msgstr "Bạn đã cài đặt thành công e-commerce. Hướng dẫn này sẽ giúp bạn tạo sản phẩm của bạn và thúc đẩy doanh số."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
 msgid "Your Address"
-msgstr "Thông tin liên hệ"
+msgstr "Địa chỉ của bạn"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -1987,17 +1990,17 @@ msgstr "Giỏ hàng của bạn trống rỗng!"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
 msgid "Your order has been confirmed, thank you for your loyalty."
-msgstr "Your order has been confirmed, thank you for your loyalty."
+msgstr "Đơn hàng của bạn đã được xác nhận, cám ơn bạn vì sự tin tưởng liên tục."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
 msgid "Your payment has been received."
-msgstr "Your payment has been received."
+msgstr "Khoản thanh toán của bạn đã được nhận."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
 msgid "Your transaction is waiting a manual confirmation."
-msgstr "Your transaction is waiting a manual confirmation."
+msgstr "Giao dịch của bạn đang chờ thẩm định thủ công."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message
@@ -2012,7 +2015,7 @@ msgstr "Mã Zip / Bưu chính"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "and fill in one or more <strong>'Suggested Products'</strong>."
-msgstr "and fill in one or more <strong>'Sản phẩm Gợi ý'</strong>."
+msgstr "và điền một hay nhiều <strong>'Sản phẩm Gợi ý'</strong>."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.reduction_code
@@ -2032,12 +2035,12 @@ msgstr "bình luận"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_config_settings_module_sale_ebay
 msgid "eBay connector"
-msgstr "eBay connector"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_config_settings_view_form
 msgid "eCommerce"
-msgstr "eCommerce"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
@@ -2047,7 +2050,7 @@ msgstr "hạng mục)"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "of the Sales module"
-msgstr "of the Sales module"
+msgstr "của phân hệ Bán hàng"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -2057,17 +2060,17 @@ msgstr "hoặc"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.products
 msgid "pagination form-inline"
-msgstr "pagination form-inline"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_attribute_value
 msgid "product.attribute.value"
-msgstr "product.attribute.value"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_style
 msgid "product.style"
-msgstr "product.style"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -2077,12 +2080,12 @@ msgstr "chọn..."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "using one or several of the strategies above"
-msgstr "using one or several of the strategies above"
+msgstr "sử dụng một hay vài trong số các chiến lược bên trên"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_config_settings
 msgid "website.config.settings"
-msgstr "website.config.settings"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
