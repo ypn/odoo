@@ -22,7 +22,7 @@ msgstr ""
 #: code:addons/stock_landed_costs/stock_landed_costs.py:130
 #, python-format
 msgid " already out"
-msgstr ""
+msgstr " đã xuất rồi"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines_account_id
@@ -32,23 +32,23 @@ msgstr "Tài khoản"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_account_journal_id
 msgid "Account Journal"
-msgstr "Sổ nhật ký tài khoản"
+msgstr "Sổ nhật ký Kế toán"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cần có hành động"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_additional_landed_cost
 msgid "Additional Landed Cost"
-msgstr "Landed Cost Thêm"
+msgstr "Landed Cost Bổ sung"
 
 #. module: stock_landed_costs
 #: selection:product.template,split_method:0
 #: selection:stock.landed.cost.lines,split_method:0
 msgid "By Current Cost"
-msgstr ""
+msgstr "Theo Giá vốn Hiện tại (tính đến lúc phân bổ landed cost)"
 
 #. module: stock_landed_costs
 #: selection:product.template,split_method:0
@@ -146,6 +146,8 @@ msgid ""
 "Disabling the costing methods will prevent you to use the landed costs "
 "feature."
 msgstr ""
+"Vô hiệu phương thức giá vốn sẽ làm bạn không thể sử dụng được tính năng "
+"landed cost (để phân bổ chi phí nhập về kho và hàng hoá)"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_display_name
@@ -185,22 +187,22 @@ msgstr "Người dõi theo"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Kênh dõi theo"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Người dõi theo"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_former_cost
 msgid "Former Cost"
-msgstr "Former Cost"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_former_cost_per_unit
 msgid "Former Cost(Per Unit)"
-msgstr "Former Cost(Per Unit)"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
@@ -222,7 +224,7 @@ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_type_form
@@ -293,7 +295,7 @@ msgstr "Sửa lần cuối"
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_write_uid
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines_write_date
@@ -326,28 +328,28 @@ msgstr "Tên"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng Hành động"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số lượng thông điệp cần có hành động"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số lượng thông điệp chưa đọc"
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/stock_landed_costs.py:181
 #, python-format
 msgid "Only draft landed costs can be validated"
-msgstr ""
+msgstr "Chỉ có các landed cost ở trạng thái dự thảo mới có thể được xác nhận"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_picking_ids
 msgid "Pickings"
-msgstr "Pickings"
+msgstr "Lô hàng"
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/stock_landed_costs.py:90
@@ -401,17 +403,17 @@ msgstr "Giai đoạn"
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_landed_cost
 msgid "Stock Landed Cost"
-msgstr "Stock Landed Cost"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_landed_cost_lines
 msgid "Stock Landed Cost Lines"
-msgstr "Stock Landed Cost Lines"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_move_id
@@ -421,7 +423,7 @@ msgstr "Dịch chuyển kho"
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
 msgid "Stock Valuation Adjustment Lines"
-msgstr "Stock Valuation Adjustment Lines"
+msgstr ""
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/stock_landed_costs.py:52
@@ -432,6 +434,10 @@ msgid ""
 " time valuation with real price costing method. Please make sure it is the "
 "case, or you selected the correct picking"
 msgstr ""
+"Lô hàng bạn chọn không chứa bất kỳ dịch chuyển nào mà có thể được tương tác "
+"bởi landed cost. Landed cost chỉ khả dụng với các sản phẩm mà được cấu hình "
+"định giá tồn kho theo thời gian thực với giá vốn tính bằng phương pháp thực tế. "
+"Hãy chắc chắn rằng ít nhất một sản phẩm trong lô hàng được cấu hình như vậy."
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_amount_total
@@ -446,7 +452,7 @@ msgstr "Thông điệp chưa đọc"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Bộ đếm Thông điệp chưa đọc"
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
@@ -460,12 +466,14 @@ msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
 "landed costs to reverse them"
 msgstr ""
+"Các landed cost đã xác nhận thì không thể huỷ được. Nhưng bạn vẫn có thể "
+"tạo landed cost khác ngược lại với nó để xử lý tình huống như vậy."
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_valuation_adjustment_lines
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Valuation Adjustments"
-msgstr "Valuation Adjustments"
+msgstr "Điều chỉnh Giá trị phân bổ"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_volume
@@ -500,6 +508,8 @@ msgid ""
 "You cannot validate a landed cost which has no valid valuation adjustments "
 "lines. Did you click on Compute?"
 msgstr ""
+"Bạn không thể xác nhận một landed cost mà chưa có dòng nào điều chỉnh / phân bố "
+"giá trị. Bạn đã bấm vào nút Tính toán chưa?"
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_type_form

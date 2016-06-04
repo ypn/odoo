@@ -30,6 +30,8 @@ msgid ""
 "A restaurant floor represents the place where customers are served, this is where you can\n"
 "                define and position the tables."
 msgstr ""
+"Một mặt bằng nhà hàng đại diện cho một không gian mà khách hàng được phục vụ. Đây là chỗ mà\n"
+"                bạn định nghĩa các bàn và lập sơ đồ vị trí cho chúng."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_active
@@ -41,7 +43,7 @@ msgstr "Hiệu lực"
 #: code:addons/pos_restaurant/static/src/js/notes.js:54
 #, python-format
 msgid "Add Note"
-msgstr ""
+msgstr "Thêm Ghi chú"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_orderline_notes
@@ -78,7 +80,7 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/js/floors.js:535
 #, python-format
 msgid "Are you sure ?"
-msgstr ""
+msgstr "Bạn có chắc"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -86,22 +88,22 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:61
 #, python-format
 msgid "Back"
-msgstr ""
+msgstr "Quay lại"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_color
 msgid "Background Color"
-msgstr ""
+msgstr "Màu nền"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_image
 msgid "Background Image"
-msgstr ""
+msgstr "Hình nền"
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_pos_config_form
 msgid "Bar & Restaurant"
-msgstr ""
+msgstr "Bar & Nhà hàng"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -116,7 +118,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_iface_printbill
 #, python-format
 msgid "Bill Printing"
-msgstr ""
+msgstr "In Bill"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -124,7 +126,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_iface_splitbill
 #, python-format
 msgid "Bill Splitting"
-msgstr ""
+msgstr "Tách Bill"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -139,7 +141,7 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/js/floors.js:396
 #, python-format
 msgid "Changes could not be saved"
-msgstr ""
+msgstr "Sự thay đổi đã không thể lưu được"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -147,17 +149,17 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/js/floors.js:397
 #, python-format
 msgid "Check your internet connection and access rights"
-msgstr ""
+msgstr "Kiểm tra kết nối Internet của bạn và quyền truy cập"
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid "Click to add a Restaurant Floor."
-msgstr ""
+msgstr "Bấm để thêm một Mặt bằng cho Nhà hàng."
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_printer_form
 msgid "Click to add a Restaurant Order Printer."
-msgstr ""
+msgstr "Bấm để thêm một Máy in Order"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_color
@@ -183,14 +185,14 @@ msgstr "Được tạo vào"
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:91
 #, python-format
 msgid "Discount:"
-msgstr ""
+msgstr "Chiết khấu:"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:140
 #, python-format
 msgid "Discounts"
-msgstr ""
+msgstr "Chiết khấu"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_display_name
@@ -207,27 +209,31 @@ msgid ""
 "                An Order Printer will only print updates for prodcuts belonging to one of\n"
 "                its categories."
 msgstr ""
+"Mỗi máy in có một địa chỉ IP để xác định PosBox/Hardware Proxy nơi mà\n"
+"                máy in có thể được tìm thấy, và một danh sách các nhóm\n"
+"                sản phẩm. Máy in sẽ chỉ in các cập nhật đối vói các sản phẩm thuộc về một\n"
+"                trong số các nhóm của nó."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_splitbill
 msgid "Enables Bill Splitting in the Point of Sale"
-msgstr ""
+msgstr "Cho phép tách Bill (tách bàn) ở Điểm bán lẻ"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_floor_id
 msgid "Floor"
-msgstr ""
+msgstr "Mặt bằng"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_name
 msgid "Floor Name"
-msgstr ""
+msgstr "Tên Mặt bằng"
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_floor_form
 #: model:ir.ui.menu,name:pos_restaurant.menu_restaurant_floor_all
 msgid "Floor Plans"
-msgstr ""
+msgstr "Sơ đồ Mặt bằng"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -235,14 +241,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_customer_count
 #, python-format
 msgid "Guests"
-msgstr ""
+msgstr "Khách"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:883
 #, python-format
 msgid "Guests ?"
-msgstr ""
+msgstr "Khách?"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_height
@@ -252,7 +258,7 @@ msgstr "Chiều cao"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_position_h
 msgid "Horizontal Position"
-msgstr ""
+msgstr "Vị trí phương ngang"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_id
@@ -280,7 +286,7 @@ msgstr "Sửa lần cuối"
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_write_uid
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_write_date
@@ -316,7 +322,7 @@ msgstr "Ghi chú"
 #: code:addons/pos_restaurant/static/src/js/floors.js:468
 #, python-format
 msgid "Number of Seats ?"
-msgstr ""
+msgstr "Số chỗ ngồi?"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -337,7 +343,7 @@ msgstr "Đơn hàng"
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_printer_ids
 #: model:ir.ui.menu,name:pos_restaurant.menu_restaurant_printer_all
 msgid "Order Printers"
-msgstr ""
+msgstr "Máy in Lệnh"
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_printer_form
@@ -345,6 +351,8 @@ msgid ""
 "Order Printers are used by restaurants and bars to print the\n"
 "                order updates in the kitchen/bar when the waiter updates the order."
 msgstr ""
+"Máy in Lệnh (Order Printers) được sử dụng bởi các nhà hàng và quán bar để in\n"
+"                cập nhật đặt mua vào bếp/quầy bar khi phục vụ cập nhận đơn hàng."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_iface_orderline_notes
@@ -354,7 +362,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_printer_form
 msgid "POS Printer"
-msgstr ""
+msgstr "Máy in POS"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -389,7 +397,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_name
 msgid "Printer Name"
-msgstr ""
+msgstr "Tên Máy in"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_proxy_ip
@@ -406,13 +414,13 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Restaurant Floor"
-msgstr ""
+msgstr "Mặt bằng Nhà hàng"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_floor_ids
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_tree
 msgid "Restaurant Floors"
-msgstr ""
+msgstr "Các Mặt bằng Nhà hàng"
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_printer
@@ -422,7 +430,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_table_form
 msgid "Restaurant Table"
-msgstr ""
+msgstr "Bàn Nhà hàng"
 
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
@@ -432,7 +440,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_seats
 msgid "Seats"
-msgstr ""
+msgstr "Số Chỗ"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_sequence
@@ -444,24 +452,24 @@ msgstr "Trình tự"
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:71
 #, python-format
 msgid "Served by"
-msgstr ""
+msgstr "Phục vụ bởi"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_shape
 msgid "Shape"
-msgstr ""
+msgstr "Hình dạng"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:6
 #, python-format
 msgid "Split"
-msgstr "Split"
+msgstr "Tách"
 
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
 msgid "Square"
-msgstr ""
+msgstr "Vuông"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -480,32 +488,32 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_table_id
 msgid "Table"
-msgstr ""
+msgstr "Bàn"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_name
 msgid "Table Name"
-msgstr ""
+msgstr "Tên Bàn"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:456
 #, python-format
 msgid "Table Name ?"
-msgstr ""
+msgstr "Tên Bàn?"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_table_ids
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Tables"
-msgstr ""
+msgstr "Các Bàn"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:54
 #, python-format
 msgid "Tel:"
-msgstr ""
+msgstr "ĐT:"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_printer_proxy_ip
@@ -515,7 +523,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order_customer_count
 msgid "The amount of customers that have been served by this order."
-msgstr ""
+msgstr "Số khách hàng mà đã được phục vụ bởi đơn hàng này"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_background_color
@@ -527,22 +535,22 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table_seats
 msgid "The default number of customer served at this table."
-msgstr ""
+msgstr "Số khách mặc định được phục vụ bởi bàn này"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_table_ids
 msgid "The list of tables in this floor"
-msgstr ""
+msgstr "Danh sách bàn ở mặt bằng này"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table_pos_order_ids
 msgid "The orders served at this table"
-msgstr ""
+msgstr "Các đơn hàng đã phục vụ bàn này"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_floor_ids
 msgid "The restaurant floors served by this point of sale"
-msgstr ""
+msgstr "Các mặt bằng được phục vụ bởi PoS này"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order_table_id
@@ -595,12 +603,12 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:57
 #, python-format
 msgid "VAT:"
-msgstr "VAT:"
+msgstr "MST:"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_position_v
 msgid "Vertical Position"
-msgstr ""
+msgstr "Vị trí phương dọc"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_width
@@ -612,14 +620,14 @@ msgstr "Chiều rộng"
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:44
 #, python-format
 msgid "With a"
-msgstr ""
+msgstr "Bằng một"
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:36
 #, python-format
 msgid "at"
-msgstr "at"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -641,7 +649,7 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:46
 #, python-format
 msgid "discount"
-msgstr ""
+msgstr "chiết khấu"
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_config
