@@ -1322,12 +1322,12 @@ msgstr "Quản lý Tài chính"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_include_base_amount
 msgid "Affect Base of Subsequent Taxes"
-msgstr ""
+msgstr "Tác động Giá trị tính thuế tiếp theo"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template_include_base_amount
 msgid "Affect Subsequent Taxes"
-msgstr ""
+msgstr "Tác động Thuế tiếp theo"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_aged_balance_view
@@ -3876,7 +3876,7 @@ msgstr "Tháng cuối Năm Tài chính"
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Fixed"
-msgstr "Đã sửa"
+msgstr "Giá trị cố định"
 
 #. module: account
 #: selection:account.payment.term.line,value:0
@@ -3892,7 +3892,7 @@ msgstr "Tài sản cố định"
 #: model:ir.model.fields,help:account.field_account_operation_template_amount
 #: model:ir.model.fields,help:account.field_account_operation_template_second_amount
 msgid "Fixed amount will count as a debit if it is negative, as a credit if it is positive."
-msgstr ""
+msgstr "Tổng số theo Giá trị cố định sẽ được ghi vào bên nợ nếu mang dấu âm hoặc ghi bên có nếu mang dấu dương."
 
 #. module: account
 #: selection:account.payment.term.line,option:0
@@ -3920,7 +3920,7 @@ msgstr "Người dõi theo"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_report_sign
 msgid "For accounts that are typically more debited than credited and that you would like to print as negative amounts in your reports, you should reverse the sign of the balance; e.g.: Expense account. The same applies for accounts that are typically more credited than debited and that you would like to print as positive amounts in your reports; e.g.: Income account."
-msgstr "For accounts that are typically more debited than credited and that you would like to print as negative amounts in your reports, you should reverse the sign of the balance; e.g.: Expense account. The same applies for accounts that are typically more credited than debited and that you would like to print as positive amounts in your reports; e.g.: Income account."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line_value_amount
@@ -3932,6 +3932,8 @@ msgstr "Đối với phần trăm, nhập tỷ số từ 0-100."
 msgid "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
+"Thay mặt cho Odoo Team,<br/>\n"
+"                            Fabien Pinckaers, Nhà sáng lập"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_currency_id
@@ -4240,13 +4242,13 @@ msgstr "If empty, uses the journal of the journal entry to be reversed."
 #: model:ir.model.fields,help:account.field_account_tax_include_base_amount
 #: model:ir.model.fields,help:account.field_account_tax_template_include_base_amount
 msgid "If set, taxes which are computed after this one will be computed based on the price tax included."
-msgstr "If set, taxes which are computed after this one will be computed based on the price tax included."
+msgstr "Nếu được chọn, các thuế mà được tính toán sau thuế này sẽ được tính toán dựa trên giá đã bao gồm thuế này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_analytic
 #: model:ir.model.fields,help:account.field_account_tax_template_analytic
 msgid "If set, the amount computed by this tax will be assigned to the same analytic account as the invoice line (if any)"
-msgstr "If set, the amount computed by this tax will be assigned to the same analytic account as the invoice line (if any)"
+msgstr "Nếu được chọn, giá trị được tính bởi thuế này cũng sẽ được ghi nhận vào cùng tài khoản kế toán quản trị được khai báo trên dòng hoá đơn (nếu có)"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_active
@@ -6331,18 +6333,18 @@ msgstr "Percentage Matched"
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Percentage of Price"
-msgstr "Phân trăm của Giá"
+msgstr "Phần trăm của Giá"
 
 #. module: account
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Percentage of Price Tax Included"
-msgstr "Phân trăm của Giá bao gồm thuế"
+msgstr "Phần trăm của Giá đã bao gồm thuế"
 
 #. module: account
 #: selection:account.operation.template,second_amount_type:0
 msgid "Percentage of amount"
-msgstr "Percentage of amount"
+msgstr "Phần trăm của tổng tiền"
 
 #. module: account
 #: selection:account.operation.template,amount_type:0
@@ -6385,7 +6387,7 @@ msgstr "Vui lòng kiểm tra trường 'Sổ nhật ký' được thiết lập 
 #: code:addons/account/wizard/pos_box.py:29
 #, python-format
 msgid "Please check that the field 'Transfer Account' is set on the company."
-msgstr "Please check that the field 'Transfer Account' is set on the company."
+msgstr "Vui lòng kiểm tra xem trường 'Transfer Account' đã được thiết lập ở Công ty chưa."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:693
