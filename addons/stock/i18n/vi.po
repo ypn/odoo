@@ -2145,12 +2145,12 @@ msgstr "Toàn cục"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_procurement_rules
 msgid "Global Procurement Rules"
-msgstr "Global Procurement Rules"
+msgstr "Quy tắc cung ứng toàn cục"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_location_path
 msgid "Global Push Rules"
-msgstr "Global Push Rules"
+msgstr "Quy tắc Push Toàn cục"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_default_resupply_wh_id
@@ -2170,7 +2170,7 @@ msgstr "Đồ thị"
 #: model:ir.ui.view,arch_db:stock.view_stock_level_forecast_filter
 #: model:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.quant_package_search_view
@@ -2181,7 +2181,7 @@ msgstr "Nhóm theo..."
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_form_stock_inherit
 msgid "Group's Pickings"
-msgstr "Group's Pickings"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_pack_operation_exist
@@ -2196,7 +2196,7 @@ msgstr "Có Biến động dự trữ"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_quant_reserved_exist
 msgid "Has quants already reserved"
-msgstr "Has quants already reserved"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_posz
@@ -2221,30 +2221,29 @@ msgid "Here you can receive individual products, no matter what\n"
 "                an order, you can filter based on the name of the vendor or\n"
 "                the purchase order reference. Then you can confirm all products\n"
 "                received using the buttons on the right of each line."
-msgstr "Here you can receive individual products, no matter what\n"
-"                purchase order or picking order they come from. You will find\n"
-"                the list of all products you are waiting for. Once you receive\n"
-"                an order, you can filter based on the name of the vendor or\n"
-"                the purchase order reference. Then you can confirm all products\n"
-"                received using the buttons on the right of each line."
+msgstr "Tại đây bạn có thể nhận các sản phẩm riêng lẻ, không quan tâm đến\n"
+"                việc chúng đến đơn hàng mua hay lô hàng nào. Một khi bạn nhận\n"
+"                một đơn hàng, bạn có thể lọc dựa trên tên của nhà cung cấp hoặc\n"
+"                Tham chiếu đơn hàng. Rồi bạn có thể xác nhận tất cả các sản phẩm\n"
+"                đã được nhận sử dụng các nút phía bên phải của từng dòng trên đơn hàng."
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_deliver_move
 msgid "Here you will find the history of all past deliveries related to\n"
 "                this product, as well as all the products you must deliver to\n"
 "                customers."
-msgstr "Here you will find the history of all past deliveries related to\n"
-"                this product, as well as all the products you must deliver to\n"
-"                customers."
+msgstr "Tại đây bạn sẽ tìm thấy lịch sử của toàn bộ các lô hàng xuất liên quan\n"
+"                đến sản phẩm này, cũng như tất cả các sản phẩm mà bạn phải giao\n"
+"                cho khách hàng."
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_receive_move
 msgid "Here you will find the history of all receipts related to\n"
 "                this product, as well as all future receipts you are waiting\n"
 "                from your suppliers."
-msgstr "Here you will find the history of all receipts related to\n"
-"                this product, as well as all future receipts you are waiting\n"
-"                from your suppliers."
+msgstr "Tại đây bạn sẽ tìm thấy lịch sử của toàn bộ các lần nhận hàng liên quan\n"
+"                đến sản phẩm này, cũng như các lô hàng nhận trong tương lai\n"
+"                mà bạn đang đợi từ các nhà cung cấp."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_stock_quant_form
@@ -2254,7 +2253,7 @@ msgstr "Lịch sử"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "How to use Lot Tracking:"
-msgstr "Các sử dụng Truy về Lô:"
+msgstr "Cách sử dụng Truy vết Lô:"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_make_procurement_id
@@ -2295,24 +2294,24 @@ msgstr "ID"
 #: code:addons/stock/stock.py:3228
 #, python-format
 msgid "INV:"
-msgstr "INV:"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/wizard/stock_change_product_qty.py:84
 #, python-format
 msgid "INV: %s"
-msgstr "INV: %s"
+msgstr ""
 
 #. module: stock
 #: model:stock.location,name:stock.stock_location_3
 msgid "IT Vendors"
-msgstr "IT Vendors"
+msgstr ""
 
 #. module: stock
 #: model:product.product,name:stock.product_icecream
 #: model:product.template,name:stock.product_icecream_product_template
 msgid "Ice Cream"
-msgstr "Ice Cream"
+msgstr "Kem Lạnh"
 
 #. module: stock
 #: model:product.product,description:stock.product_icecream
@@ -2355,7 +2354,7 @@ msgstr "Nếu được đánh dấu, khi một dịch chuyển kho trước bị
 #. module: stock
 #: model:ir.model.fields,help:stock.field_procurement_rule_propagate
 msgid "If checked, when the previous move of the move (which was generated by a next procurement) is cancelled or split, the move generated by this move will too"
-msgstr "If checked, when the previous move of the move (which was generated by a next procurement) is cancelled or split, the move generated by this move will too"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_propagate
@@ -2370,12 +2369,12 @@ msgstr "Nếu route_id là False, quy tắc mang tính toàn cục"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_pack_operation_result_package_id
 msgid "If set, the operations are packed into this package"
-msgstr "If set, the operations are packed into this package"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_active
 msgid "If the active field is set to False, it will allow you to hide the orderpoint without removing it."
-msgstr "If the active field is set to False, it will allow you to hide the orderpoint without removing it."
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location_route_active
@@ -2385,22 +2384,22 @@ msgstr "Nếu bỏ chọn trường 'Hiệu lực', nó sẽ cho phép bạn ẩ
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_location_path_filter
 msgid "If the route is global"
-msgstr "If the route is global"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant_negative_move_id
 msgid "If this is a negative quant, this will be the move that caused this negative quant."
-msgstr "If this is a negative quant, this will be the move that caused this negative quant."
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_use_create_lots
 msgid "If this is checked only, it will suppose you want to create new Serial Numbers / Lots, so you can provide them in a text field. "
-msgstr "If this is checked only, it will suppose you want to create new Serial Numbers / Lots, so you can provide them in a text field. "
+msgstr " "
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_use_existing_lots
 msgid "If this is checked, you will be able to choose the Serial Number / Lots. You can also decide to not put lots in this picking type.  This means it will create stock with no lot or not put a restriction on the lot taken. "
-msgstr "If this is checked, you will be able to choose the Serial Number / Lots. You can also decide to not put lots in this picking type.  This means it will create stock with no lot or not put a restriction on the lot taken. "
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_backorder_id
@@ -2481,7 +2480,7 @@ msgstr "Đang xử lý"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_in_type_id
 msgid "In Type"
-msgstr "In Type"
+msgstr "Kiểu Nhập"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_procurement_order_partner_dest_id
@@ -3789,7 +3788,7 @@ msgstr "Otherwise make sure the right stock/owner is set."
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_out_type_id
 msgid "Out Type"
-msgstr "Out Type"
+msgstr "Kiểu xuất"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product_outgoing_qty
@@ -3838,13 +3837,13 @@ msgstr "Chủ sở hữu của địa điểm nếu nó thuộc ngoài công ty"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_pack_operation_owner_id
 msgid "Owner of the quants"
-msgstr "Owner of the quants"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/product.py:313
 #, python-format
 msgid "P&L Qty"
-msgstr "P&L Qty"
+msgstr "SL P&L"
 
 #. module: stock
 #: code:addons/stock/stock.py:3743
@@ -3857,12 +3856,12 @@ msgstr "Gói"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.pack_details
 msgid "Pack Details"
-msgstr "Pack Details"
+msgstr "Chi tiết Gói"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_pack_type_id
 msgid "Pack Type"
-msgstr "Kiểm Gói"
+msgstr "Kiểu đóng gói"
 
 #. module: stock
 #: code:addons/stock/stock.py:4947
@@ -3878,12 +3877,12 @@ msgstr "Gói"
 #. module: stock
 #: model:ir.actions.report.xml,name:stock.action_report_quant_package_barcode_small
 msgid "Package BarCode"
-msgstr "Package BarCode"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.report.xml,name:stock.action_report_quant_package_barcode
 msgid "Package BarCode with Contents"
-msgstr "Package BarCode with Contents"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_package_complete_name
