@@ -4121,7 +4121,7 @@ msgstr "Có hoá đơn"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_has_outstanding
 msgid "Has outstanding"
-msgstr "Có Nợ quá hạn"
+msgstr "Có Nợ tồn đọng"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_has_unreconciled_entries
@@ -9066,19 +9066,19 @@ msgstr "You cannot use deprecated account."
 #: code:addons/account/models/account_move.py:983
 #, python-format
 msgid "You cannot use this general account in this journal, check the tab 'Entry Controls' on the related journal."
-msgstr "You cannot use this general account in this journal, check the tab 'Entry Controls' on the related journal."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "You have"
-msgstr "You have"
+msgstr "Bạn có"
 
 #. module: account
 #: code:addons/account/wizard/account_report_general_ledger.py:21
 #, python-format
 msgid "You must define a Start Date"
-msgstr "You must define a Start Date"
+msgstr "Bạn phải xác định một Ngày bắt đầu"
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1152
@@ -9108,20 +9108,20 @@ msgstr "You should configure the 'Exchange Rate Journal' in the accounting setti
 #: code:addons/account/models/account_move.py:1229
 #, python-format
 msgid "You should configure the 'Gain Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
-msgstr "You should configure the 'Gain Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:1231
 #, python-format
 msgid "You should configure the 'Loss Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
-msgstr "You should configure the 'Loss Exchange Rate Account' in the accounting settings, to manage automatically the booking of accounting entries related to differences between exchange rates."
+msgstr ""
 
 #. module: account
 #: code:addons/account/wizard/pos_box.py:49
 #: code:addons/account/wizard/pos_box.py:67
 #, python-format
 msgid "You should have defined an 'Internal Transfer Account' in your cash register's journal!"
-msgstr "You should have defined an 'Internal Transfer Account' in your cash register's journal!"
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -9136,10 +9136,7 @@ msgid "You will be able to edit and validate this\n"
 "                                credit note directly or keep it draft,\n"
 "                                waiting for the document to be issued by\n"
 "                                your supplier/customer."
-msgstr "You will be able to edit and validate this\n"
-"                                credit note directly or keep it draft,\n"
-"                                waiting for the document to be issued by\n"
-"                                your supplier/customer."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -9285,12 +9282,12 @@ msgstr "đầu tiên)"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "for this customer. You can allocate them to mark this invoice as paid."
-msgstr "đối với khách hàng này. You can allocate them to mark this invoice as paid."
+msgstr "đối với khách hàng này. Bạn có thể phân bổ chúng vào hoá đơn này để đánh dấu hoá đơn đã nhận khoản thanh toán đó."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "for this supplier. You can allocate them to mark this bill as paid."
-msgstr "đối với nhà cung cấp này. You can allocate them to mark this bill as paid."
+msgstr "đối với nhà cung cấp này. Bạn có thể phân bổ chúng vào hoá đơn này để đánh dấu hoá đơn đã nhận khoản thanh toán đó."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
@@ -9308,12 +9305,12 @@ msgstr "khác"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "outstanding debits"
-msgstr "nợ quá hạn"
+msgstr "nợ tồn đọng"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "outstanding payments"
-msgstr "thanh toán quá hạn"
+msgstr "thanh toán tồn đọng"
 
 #. module: account
 #. openerp-web
