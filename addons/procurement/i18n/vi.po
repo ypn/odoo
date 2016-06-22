@@ -23,6 +23,8 @@ msgid ""
 "<b>Procurement Orders</b> represent the need for a certain quantity of "
 "products, at a given time, in a given location."
 msgstr ""
+"<b>Các Lênh yêu cầu cung ứng</b> thể hiện nhu cầu về số lượng đối với "
+"một sản phẩm nào đó, vào một thời điểm nhất định, ở một địa điểm kho nhất định."
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
@@ -30,6 +32,8 @@ msgid ""
 "<b>Sales Orders</b> are one typical source of Procurement Orders (but these are distinct documents). \n"
 "                <br>Depending on the procurement parameters and the product configuration, the procurement engine will attempt to satisfy the need by reserving products from stock, ordering products from a supplier, or passing a manufacturing order, etc..."
 msgstr ""
+"<b>Các đơn hàng bán</b> chính là các nguồn điển hình cho các Nhu cầu cung ứng (mặc dù đây chỉ là một trường hợp đặc thù). \n"
+"                <br/>Phụ thuộc vào các thông số thiết lập đối với từng sản phẩm, cỗ máy cung ứng sẽ tìm cách để thỏa mãn bằng cách dành riêng/xí phần các sản phẩm từ kho, đặt mua từ một nhà cung cấp, hoặc tự tạo một lệnh sản xuất, v.v..."
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
@@ -39,6 +43,10 @@ msgid ""
 "automatically, but others require manual intervention (those are identified "
 "by a specific error message in the chatter)."
 msgstr ""
+"<b>Ngoại lệ cung ứng</b> xảy ra khi hệ thống không thể tìm ra được một cách để "
+"đáp ứng nhu cầu cung ứng. Một số ngoại lệ sẽ tự động được xử lý, trong khi một "
+"số khác sẽ cần phải có sự can thiệp thủ công (those are identified by a specific "
+"error message in the chatter)."
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_action
@@ -50,6 +58,10 @@ msgid ""
 "                created automatically from <i>sales orders, pull logistic rules or\n"
 "                minimum stock rules.</i>"
 msgstr ""
+"Một <b>Nhu cầu cung ứng</b> được sử dụng để ghi nhận nhu cầu về một sản\n"
+"                phẩm tại một địa điểm nhất định. Các nhu cầu cung ứng thường\n"
+"                được tạo tự động từ các <i>đơn hàng bán, quy tắc kéo trong logistics\n"
+"                hay từ các quy tắc tồn kho tối thiểu</i>."
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_action
@@ -59,7 +71,7 @@ msgstr "Hành động"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cần có hành động"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_active
@@ -79,7 +91,7 @@ msgstr "Hủy"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Cancel Procurement"
-msgstr ""
+msgstr "Huỷ nhu cầu cung ứng"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -90,12 +102,12 @@ msgstr "Đã hủy"
 #: code:addons/procurement/procurement.py:139
 #, python-format
 msgid "Cannot delete Procurement Order(s) which are in %s state."
-msgstr ""
+msgstr "Không thể xoá được (các) Nhu cầu cung ứng mà ở trạng thái %s."
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Check Procurement"
-msgstr ""
+msgstr "Kiểm tra Nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_order_rule_id
@@ -111,13 +123,15 @@ msgid ""
 "Click to create a Procurement order in exception state, or remove the filter"
 " on the search bar to display all the procurements."
 msgstr ""
+"Bấm để tạo một Nhu cầu cung ứng ở trạng thái ngoại lệ, hoặc gỡ bỏ bộ lọc ở"
+" ô tìm kiếm để hiển thị tất cả nhu cầu cung ứng."
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_action
 #: model:ir.actions.act_window,help:procurement.procurement_order_action_product_product_stat
 #: model:ir.actions.act_window,help:procurement.procurement_order_action_product_template_stat
 msgid "Click to create a procurement order."
-msgstr ""
+msgstr "Bấm để tạo một nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_company_id
@@ -128,7 +142,7 @@ msgstr "Công ty"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
 msgid "Compute all procurements in the background."
-msgstr ""
+msgstr "Tính toán ngầm toàn bộ nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order_compute_all
@@ -207,12 +221,12 @@ msgstr "Thông tin bổ sung"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Fixed"
-msgstr "Đã sửa"
+msgstr "Cố định"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_id
 msgid "Fixed Procurement Group"
-msgstr ""
+msgstr "Nhóm Cung ứng Cố định"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_follower_ids
@@ -222,12 +236,12 @@ msgstr "Người dõi theo"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Kênh dõi theo"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Người dõi theo"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
@@ -237,13 +251,13 @@ msgstr "Toàn cục"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.do_view_procurements
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Group's Procurements"
-msgstr ""
+msgstr "Nhu cầu cung ứng cùng nhóm"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_id
@@ -261,12 +275,12 @@ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_order_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu đánh dấu, thông điệp mới"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
 msgid "If the route is global"
-msgstr ""
+msgstr "Nếu tuyến đường mang tính toàn cục"
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_rule_active
@@ -276,7 +290,7 @@ msgstr "Nếu bỏ chọn, nó sẽ cho phép bạn ẩn quy tắc mà không c�
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Là một người dõi theo"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_last_post
@@ -297,7 +311,7 @@ msgstr "Sửa lần cuối"
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_write_uid
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_write_date
@@ -315,7 +329,7 @@ msgstr "Trễ"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Leave Empty"
-msgstr ""
+msgstr "Để trống"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.mrp_company
@@ -330,7 +344,7 @@ msgstr "Thông điệp"
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_order_message_ids
 msgid "Messages and communication history"
-msgstr "Lịch sử trao đổi"
+msgstr "Lịch sử trao đổi thông tin liên lạc"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_name
@@ -341,7 +355,7 @@ msgstr "Tên"
 #: code:addons/procurement/procurement.py:206
 #, python-format
 msgid "No rule matching this procurement"
-msgstr ""
+msgstr "Không có quy tắc nào khớp với cung ứng này"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -361,17 +375,17 @@ msgstr "Ghi chú"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng Hành động"
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_order_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số lượng cần phải có Hành động"
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_order_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số lượng Thông điệp chưa đọc"
 
 #. module: procurement
 #: selection:procurement.group,move_type:0
@@ -388,7 +402,7 @@ msgstr "Mức độ ưu tiên"
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Procurement"
-msgstr "Mua sắm"
+msgstr "Cung ứng"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.procurement_action5
@@ -400,19 +414,19 @@ msgstr "Ngoại lệ Cung ứng"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_group_id
 msgid "Procurement Group"
-msgstr "Nhóm Thu mua"
+msgstr "Nhóm Cung ứng"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_tree_view
 msgid "Procurement Lines"
-msgstr ""
+msgstr "Chi tiết nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.procurement_action
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_product_product_stat
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_product_template_stat
 msgid "Procurement Orders"
-msgstr "Lệnh cung ứng"
+msgstr "Nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_group

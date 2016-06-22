@@ -469,6 +469,11 @@ msgid "Click to define a new product."
 msgstr "Bấm để định nghĩa một sản phẩm mới"
 
 #. module: purchase
+#: model:web.tip,description:purchase.purchase_tip_1
+msgid "Click to mark products as received."
+msgstr "Bấm để đánh dấu (một số) sản phẩm như là đã nhận."
+
+#. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_open_invoice
 msgid "Click to record a vendor bill related to this purchase."
 msgstr "Bấm để ghi nhận một hoá đơn nhà cung cấp liên quan đến vụ mua sắm này"
@@ -593,7 +598,7 @@ msgstr "Giao hàng & Hoá đơn"
 #: model:ir.model.fields,help:purchase.field_purchase_order_date_order
 #: model:ir.model.fields,help:purchase.field_purchase_order_line_date_order
 msgid "Depicts the date where the Quotation should be validated and converted into a purchase order."
-msgstr ""
+msgstr "Mô tả cái ngày mà Báo giá sẽ được thẩm định và chuyển thành một đơn hàng mua (PO)."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_name
@@ -603,7 +608,7 @@ msgstr "Mô tả"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_default_location_dest_id_usage
 msgid "Destination Location Type"
-msgstr "Destination Location Type"
+msgstr "Kiểu Địa điểm Đích"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_mail_mail_path
@@ -632,7 +637,7 @@ msgstr "Giá trị thẩm định hai lần"
 #. module: purchase
 #: selection:purchase.order,state:0
 msgid "Draft PO"
-msgstr "Đơn hàng dự thảo"
+msgstr "Đơn hàng Dự thảo"
 
 #. module: purchase
 #: selection:purchase.report,state:0
@@ -647,7 +652,7 @@ msgstr "Địa chỉ Drop Ship"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_module_stock_dropshipping
 msgid "Dropshipping"
-msgstr "Dropshipping"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_compose_message
@@ -662,7 +667,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Expected Date"
-msgstr "Ngày dự kiến"
+msgstr "Ngày mong đợi"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
@@ -697,6 +702,11 @@ msgid "Get 2 levels of approvals to confirm a purchase order"
 msgstr "2 cấp độ duyệt để xác nhận đơn hàng mua"
 
 #. module: purchase
+#: model:web.tip,description:purchase.purchase_tip_3
+msgid "Get all the shipments related to this order."
+msgstr "Xem toàn bộ các lô hàng liên quan đến đơn hàng này."
+
+#. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
@@ -706,7 +716,7 @@ msgstr "Nhóm theo"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Hide cancelled lines"
-msgstr "Ẩn chi tiết đã hủy bỏ"
+msgstr "Ẩn các dòng đã hủy"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_id
@@ -729,7 +739,7 @@ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới sẽ yêu cầu sự có mặt của bạn."
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:186
@@ -740,7 +750,7 @@ msgstr "để xóa một đơn hàng, bạn phải hủy nó trước tiên."
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_advance_purchase_requisition
 msgid "In the process of a public tendering, you can compare the tender lines and choose for each requested product which quantity you will buy from each bid."
-msgstr ""
+msgstr "Trong quy trình đấu thầu công khai, bạn có thể so sánh chi tiết (từng line) của hồ sơ chào thầu và chọn từng sản phẩm với số lượng mà bạn muốn mua từ một nhà cung cấp."
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_in_move

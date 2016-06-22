@@ -2181,7 +2181,7 @@ msgstr "Nhóm theo..."
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_form_stock_inherit
 msgid "Group's Pickings"
-msgstr ""
+msgstr "Giao nhận cùng Nhóm"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_pack_operation_exist
@@ -2196,7 +2196,7 @@ msgstr "Có Biến động dự trữ"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_quant_reserved_exist
 msgid "Has quants already reserved"
-msgstr ""
+msgstr "Có các quant đã được xí trước"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_posz
@@ -2420,7 +2420,7 @@ msgid "If you configured automatic procurement, Odoo automatically generates\n"
 "                        Procurements Orders. You usually don't need to worry about them, but\n"
 "                        sometimes the system can remain blocked without generating a\n"
 "                        corresponding document, usually due to a configuration problem."
-msgstr "Nếu bạn cầu hình cung ứng tự động, Odoo sẽ tự động tạo các Lệnh cung ứng. Bạn\n"
+msgstr "Nếu bạn cầu hình cung ứng tự động, Odoo sẽ tự động tạo các Nhu cầu cung ứng. Bạn\n"
 "                        thường sẽ không phải lo lắng về chúng, nhưng đối khi hệ thống vẫn\n"
 "                        bị khoá mà không thể tạo ra các tài liệu (đơn hàng, lệnh sản xuất, v.v.)\n"
 "                        tương ứng, thường là do vấn đề về cấu hình."
@@ -3197,7 +3197,7 @@ msgstr "Cung ứng theo đơn hàng (MTO)"
 #. module: stock
 #: selection:stock.warehouse,delivery_steps:0
 msgid "Make packages into a dedicated location, then bring them to the output location for shipping (Pick + Pack + Ship)"
-msgstr "Đóng gói vào một địa điểm chuyên dụng (chuyển vào địa điểm đóng gói), rồi đưa ra điểm điểm xuất (Output) để chờ giao (Pick + Pack + Ship)"
+msgstr "Đóng gói vào một địa điểm chuyên dụng (chuyển vào địa điểm đóng gói), rồi đưa ra điểm điểm xuất (Output) để chờ giao (Gom hàng + Đóng gói + Bàn giao)"
 
 #. module: stock
 #: model:res.groups,name:stock.group_tracking_owner
@@ -3430,12 +3430,12 @@ msgstr "Dịch chuyển ảnh hưởng bởi hoạt động này cho việc tín
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant_history_ids
 msgid "Moves that operate(d) on this quant"
-msgstr "Moves that operate(d) on this quant"
+msgstr "Các dịch chuyển mà liên quan đến quant này"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_config_settings_group_stock_multiple_locations
 msgid "Multi Locations"
-msgstr "Multi Locations"
+msgstr "Đa địa điểm kho"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_putaway_name
@@ -3449,7 +3449,7 @@ msgstr "Tên"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.quant_search_view
 msgid "Negative"
-msgstr "Negative"
+msgstr "Âm"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_negative_dest_location_id
@@ -3474,12 +3474,12 @@ msgstr "SL mới trong kho"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_form
 msgid "New Transfer"
-msgstr "New Transfer"
+msgstr "Dịch chuyển mới"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_pack_operation_fresh_record
 msgid "Newly created pack operation"
-msgstr "Newly created pack operation"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_backorder_confirmation
@@ -3516,7 +3516,7 @@ msgstr "Không cho phép số lượng âm"
 #: code:addons/stock/wizard/stock_return_picking.py:73
 #, python-format
 msgid "No products to return (only lines in Done state and not fully returned yet can be returned)!"
-msgstr "No products to return (only lines in Done state and not fully returned yet can be returned)!"
+msgstr "Không có sản phẩm để trả về (chỉ những dòng ở trạng thái Hoàn thành và chưa trả về hết thì mới có thể trả về)!"
 
 #. module: stock
 #: code:addons/stock/procurement.py:313
@@ -3537,7 +3537,7 @@ msgstr "Non European Customers"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_pack_operation_product_ids
 msgid "Non pack"
-msgstr "Non pack"
+msgstr ""
 
 #. module: stock
 #: selection:stock.move,priority:0
@@ -3583,18 +3583,18 @@ msgstr "Số ngày"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_lead_days
 msgid "Number of days after the orderpoint is triggered to receive the products or to order to the vendor"
-msgstr ""
+msgstr "Số ngày để nhận hàng hoặc đặt hàng nhà cung cấp sau khi điểm đặt hàng (orderpoint) được tri-gơ"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location_path_delay
 msgid "Number of days needed to transfer the goods"
-msgstr ""
+msgstr "Số ngày cần thiết để dịch chuyển hàng hoá"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_message_needaction_counter
 #: model:ir.model.fields,help:stock.field_stock_production_lot_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số thông điệp cần có hành động"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_message_unread_counter
@@ -3928,12 +3928,12 @@ msgstr "Đóng gói"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_config_settings_group_stock_packaging
 msgid "Packaging Methods"
-msgstr "Packaging Methods"
+msgstr "Phương thức Đóng gói"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_packagings
 msgid "Packagings"
-msgstr "Packagings"
+msgstr "Các Gói"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_wh_pack_stock_loc_id
@@ -4032,25 +4032,25 @@ msgstr "Địa điểm vật lý"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_quant_package
 msgid "Physical Packages"
-msgstr "Physical Packages"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/stock.py:3755
 #, python-format
 msgid "Pick"
-msgstr "Pick"
+msgstr "Gom hàng"
 
 #. module: stock
 #: code:addons/stock/stock.py:3860
 #, python-format
 msgid "Pick + Pack + Ship"
-msgstr "Pick + Pack + Ship"
+msgstr "Gom hàng + Đóng gói + Bàn giao"
 
 #. module: stock
 #: code:addons/stock/stock.py:3859
 #, python-format
 msgid "Pick + Ship"
-msgstr "Pick + Ship"
+msgstr "Gom hàng + Bàn giao"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_pick_type_id
@@ -4061,7 +4061,7 @@ msgstr "Kiểm giao nhận"
 #: model:ir.model.fields,field_description:stock.field_stock_backorder_confirmation_pick_id
 #: model:ir.model.fields,field_description:stock.field_stock_immediate_transfer_pick_id
 msgid "Pick id"
-msgstr "Pick id"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_search
@@ -4076,12 +4076,12 @@ msgstr "Bảng kê hàng hoá"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Picking Lists"
-msgstr "Bảng kế hàng hóa"
+msgstr "Bảng kê hàng hóa"
 
 #. module: stock
 #: model:ir.actions.report.xml,name:stock.action_report_picking
 msgid "Picking Operations"
-msgstr "Picking Operations"
+msgstr "Hoạt động Giao nhận"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_picking_type_id
@@ -4256,7 +4256,7 @@ msgstr "Nhóm Nhu cầu cung ứng"
 #: model:ir.model.fields,field_description:stock.field_product_product_property_stock_procurement
 #: model:ir.model.fields,field_description:stock.field_product_template_property_stock_procurement
 msgid "Procurement Location"
-msgstr "Địa điểm Cung ứng"
+msgstr "Địa điểm Nhu cầu Cung ứng"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_make_procurement
