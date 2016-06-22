@@ -1104,7 +1104,7 @@ msgstr "Báo giá trực tuyến"
 #: code:addons/sale/static/src/js/sale.js:26
 #, python-format
 msgid "Only Integer Value should be valid."
-msgstr ""
+msgstr "Bạn chỉ được nhập số nguyên."
 
 #. module: sale
 #: model:ir.actions.client,name:sale.action_client_sale_menu
@@ -1119,7 +1119,7 @@ msgstr "Đơn hàng"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Order #"
-msgstr ""
+msgstr "Đơn hàng #"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_date_order
@@ -1178,7 +1178,7 @@ msgstr "Theo số lượng đặt hàng"
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
 #: model:ir.ui.menu,name:sale.menu_sale_order_upselling
 msgid "Orders to Upsell"
-msgstr ""
+msgstr "Đơn hàng Bán gia tăng"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1194,12 +1194,12 @@ msgstr "Đối tác"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_country_id
 msgid "Partner Country"
-msgstr ""
+msgstr "Quốc gia Đối tác"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Partner's Country"
-msgstr ""
+msgstr "Quốc gia của Đối tác"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_payment_term_id
@@ -1210,7 +1210,7 @@ msgstr "Điều khoản thanh toán"
 #: code:addons/sale/sale.py:233
 #, python-format
 msgid "Please define an accounting sale journal for this company."
-msgstr ""
+msgstr "Vui lòng xác định một sổ nhật ký kế toán bán hàng cho công ty này."
 
 #. module: sale
 #: code:addons/sale/sale.py:654
@@ -1219,6 +1219,8 @@ msgid ""
 "Please define income account for this product: \"%s\" (id:%d) - or for its "
 "category: \"%s\"."
 msgstr ""
+"Vui lòng xác định tài khoản doanh thu cho sản phẩm này: \"%s\" (id:%d) - hoặc "
+"cho nhóm của nó: \"%s\"."
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -1228,7 +1230,7 @@ msgstr "Giá"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_price_reduce
 msgid "Price Reduce"
-msgstr ""
+msgstr "Giảm giá"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_pricelist_id
@@ -1259,12 +1261,12 @@ msgstr "Cung ứng"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_procurement_group_id
 msgid "Procurement Group"
-msgstr "Nhóm Thu mua"
+msgstr "Nhóm Cung ứng"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_procurement_ids
 msgid "Procurements"
-msgstr "Thu mua"
+msgstr "Cung ứng"
 
 #. module: sale
 #: model:ir.model,name:sale.model_product_product
@@ -1317,7 +1319,7 @@ msgstr "Thuộc tính trên từng dòng"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Qty"
-msgstr "Số lượng"
+msgstr "SL"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_qty_delivered
