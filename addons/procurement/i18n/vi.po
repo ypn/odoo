@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Một <b>Nhu cầu cung ứng</b> được sử dụng để ghi nhận nhu cầu về một sản\n"
 "                phẩm tại một địa điểm nhất định. Các nhu cầu cung ứng thường\n"
-"                được tạo tự động từ các <i>đơn hàng bán, quy tắc kéo trong logistics\n"
+"                được tạo tự động từ các <i>đơn hàng bán, quy tắc kéo (pull) trong logistics\n"
 "                hay từ các quy tắc tồn kho tối thiểu</i>."
 
 #. module: procurement
@@ -147,7 +147,7 @@ msgstr "Tính toán ngầm toàn bộ nhu cầu cung ứng"
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order_compute_all
 msgid "Compute all schedulers"
-msgstr ""
+msgstr "Tính toán tất cả lịch điều độ"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -257,7 +257,7 @@ msgstr "Nhóm theo"
 #: model:ir.actions.act_window,name:procurement.do_view_procurements
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Group's Procurements"
-msgstr "Nhu cầu cung ứng cùng nhóm"
+msgstr "Nhu cầu cùng nhóm"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_id
@@ -355,7 +355,7 @@ msgstr "Tên"
 #: code:addons/procurement/procurement.py:206
 #, python-format
 msgid "No rule matching this procurement"
-msgstr "Không có quy tắc nào khớp với cung ứng này"
+msgstr "Không có quy tắc cung ứng nào khớp với nhu cầu cung ứng này"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -460,7 +460,7 @@ msgstr "Cung ứng bị bắt đầu muộn"
 #: model:ir.ui.view,arch_db:procurement.product_product_view_form_procurement_button
 #: model:ir.ui.view,arch_db:procurement.product_template_view_form_procurement_button
 msgid "Procurements"
-msgstr "Thu mua"
+msgstr "Nhu cầu Cung ứng"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_product_id
@@ -481,7 +481,7 @@ msgstr ""
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "Propagation Options"
-msgstr ""
+msgstr "Tuỳ chọn Propagation"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_propagation_option
@@ -496,7 +496,7 @@ msgstr "Số lượng"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Reconfirm Procurement"
-msgstr ""
+msgstr "Tái xác nhận Nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_name
@@ -509,27 +509,29 @@ msgid ""
 "Reference of the document that created this Procurement.\n"
 "This is automatically completed by Odoo."
 msgstr ""
+"Dẫn chiếu đến tài liệu mà tạo ra Nhu cầu cung ứng này.\n"
+"Cái này được hoàn thành tự động bởi Odoo."
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_rule_id
 msgid "Rule"
-msgstr ""
+msgstr "Quy tắc"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Run Procurement"
-msgstr ""
+msgstr "Chạy Nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.actions.server,name:procurement.procurement_order_server_action
 msgid "Run Procurements"
-msgstr ""
+msgstr "Chạy Nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.action_compute_schedulers
 #: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
 msgid "Run Schedulers"
-msgstr ""
+msgstr "Chạy Trình điều độ"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -539,7 +541,7 @@ msgstr "Đang chạy"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_date_planned
 msgid "Scheduled Date"
-msgstr "Ngày theo kế hoạch"
+msgstr "Ngày theo Điều độ"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
@@ -549,18 +551,18 @@ msgstr "Tháng theo kế hoạch"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
 msgid "Scheduler Parameters"
-msgstr ""
+msgstr "Các Tham số Điều độ"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Scheduling"
-msgstr ""
+msgstr "Điều độ"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
 msgid "Search Procurement"
-msgstr ""
+msgstr "Tìm kiếm Nhu cầu cung ứng"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_sequence
@@ -576,7 +578,7 @@ msgstr "Tài liệu nguồn"
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_state
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_rule_name
@@ -596,7 +598,7 @@ msgstr "Thông điệp chưa đọc"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Bộ đếm thông điệp chưa đọc"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -627,13 +629,16 @@ msgid ""
 "                creates the necessary operations to fullfil the need: purchase\n"
 "                order proposition, manufacturing order, etc."
 msgstr ""
+"Khi một nhu cầu cầu cung ứng được xác nhận, not sẽ tự động\n"
+"                tạo các hoạt động cần thiết để đáp ứng nhu cầu: đề xuất mua hàng\n"
+"                tạo các lệnh sản xuất, v.v."
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "e.g. Buy"
-msgstr ""
+msgstr "vd: Mua"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "e.g. SO005"
-msgstr ""
+msgstr "vd: SO005"
