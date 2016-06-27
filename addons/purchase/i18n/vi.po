@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-30 13:52+0000\n"
-"PO-Revision-Date: 2015-11-30 13:52+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-10-09 09:18+0000\n"
+"PO-Revision-Date: 2016-06-22 09:11+0000\n"
+"Last-Translator: David Tran\n"
+"Language-Team: ERPOnline (https://www.erponline.vn)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1520,7 +1520,7 @@ msgstr "Các loại Thuế"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_default_location_dest_id_usage
 msgid "Technical field used to display the Drop Ship Address"
-msgstr "Technical field used to display the Drop Ship Address"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_notes
@@ -1529,7 +1529,8 @@ msgstr "Điều khoản và Điều kiện"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased
-msgid "The product form contains detailed information to improve the\n"
+msgid ""
+"The product form contains detailed information to improve the\n"
 "            purchase process: prices, procurement logistics, accounting data,\n"
 "            available vendors, etc."
 msgstr "Form sản phẩm chứa các thông tin chi tiết để cải thiện quy trình\n"
@@ -1629,7 +1630,9 @@ msgstr "Không thể huỷ đơn hàng mua %s khi đã nhận hàng (dủ ít nh
 #. module: purchase
 #: code:addons/purchase/purchase.py:293
 #, python-format
-msgid "Unable to cancel this purchase order.i You must first cancel related vendor bills."
+msgid ""
+"Unable to cancel this purchase order.i You must first cancel related vendor "
+"bills."
 msgstr "Không thể huỷ đơn hàng mua này. Trước tiên, bạn phải huỷ các hoá đơn nhà cung cấp liên quan đến đơn hàng mua này."
 
 #. module: purchase
@@ -1680,7 +1683,8 @@ msgstr "Sử dụng phương pháp tính giá vốn 'Cố định', 'Thực tế
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
-msgid "Use this menu to control the invoices to be received from your\n"
+msgid ""
+"Use this menu to control the invoices to be received from your\n"
 "            vendor. When registering a new bill, set the purchase order\n"
 "            and Odoo will fill the bill automatically according to ordered\n"
 "            or received quantities."
@@ -1688,16 +1692,12 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
-msgid "Use this menu to search within your purchase orders by\n"
+msgid ""
+"Use this menu to search within your purchase orders by\n"
 "                references, vendor, products, etc. For each purchase order,\n"
 "                you can track the related discussion with the vendor, control\n"
 "                the products received and control the vendor bills."
 msgstr ""
-
-#. module: purchase
-#: model:ir.model.fields,help:purchase.field_mail_mail_path
-msgid "Used to display messages in a paragraph-based chatter using a unique path;"
-msgstr "Used to display messages in a paragraph-based chatter using a unique path;"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
@@ -1776,7 +1776,7 @@ msgstr "Kho hàng"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_website_message_ids
 #: model:ir.model.fields,field_description:purchase.field_stock_picking_website_message_ids
 msgid "Website Messages"
-msgstr "Thông điệp website"
+msgstr "Thông điệp Website"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_invoice_website_message_ids
@@ -1811,6 +1811,12 @@ msgid "You must define a product for everything you purchase, whether\n"
 msgstr "Bạn phải định nghĩa một sản phẩm cho mọi thứ mà bạn mua, cho dù\n"
 "            đó là một sản phẩm hữu hình, một dạng có thể tiêu thụ hay dịch vụ mà bạn mua từ các nhà thầu phụ.\n"
 ""
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:335
+#, python-format
+msgid "You must set a Vendor Location for this partner %s"
+msgstr "Bạn phải thiết lập một Địa điểm Nhà cung cấp cho đối tác này %s"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_config_settings
