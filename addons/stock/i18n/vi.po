@@ -3011,12 +3011,12 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_linked_move_operation_ids
 msgid "Linked Operations"
-msgstr ""
+msgstr "Hoạt động liên kết"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_propagated_from_id
 msgid "Linked Quant"
-msgstr ""
+msgstr "Quant Liên kết"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_location_form
@@ -5175,7 +5175,7 @@ msgstr "Một vài sản phẩm có thể được bán/mua theo các đơn vị
 #: code:addons/stock/stock.py:1568
 #, python-format
 msgid "Some products require lots, so you need to specify those first!"
-msgstr "Một vài sản phầm yêu cầu lô. Vì vậy bạn phải xác định chúng trước"
+msgstr "Một vài sản phầm yêu cầu lô. Vì vậy, trước tiên bạn phải xác định số lô/sê-ri cho các sản phẩm."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_search
@@ -5493,7 +5493,7 @@ msgstr "Mã nhà kho phải là duy nhất đối với mỗi công ty!"
 #. module: stock
 #: sql_constraint:stock.production.lot:0
 msgid "The combination of serial number and product must be unique !"
-msgstr "Cặp sản phẩm và số sê-ri và là duy nhất!"
+msgstr "Cặp giá trị 'sản phẩm (id) và số sê-ri (lot name)' phải là duy nhất!"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant_company_id
@@ -5587,7 +5587,7 @@ msgstr "Quy tắc push mà đã tạo ra dịch chuyển kho này"
 #: code:addons/stock/stock.py:4472
 #, python-format
 msgid "The quantity to split should be smaller than the quantity To Do.  "
-msgstr "The quantity to split should be smaller than the quantity To Do.  "
+msgstr "Số lượng để tách phải nhỏ hơn số lượng cần thực hiện."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -5598,13 +5598,13 @@ msgstr "Báo giá trở thành một Đơn hàng bán và một Lệnh giao hàn
 #: code:addons/stock/stock.py:1896
 #, python-format
 msgid "The requested operation cannot be processed because of a programming error setting the `product_qty` field instead of the `product_uom_qty`."
-msgstr ""
+msgstr "Hoạt động được yêu cầu không thể xử lý được vì thiết lập `product_qty` được sử dụng thay cho `product_uom_qty`."
 
 #. module: stock
 #: code:addons/stock/stock.py:2688
 #, python-format
 msgid "The roundings of your Unit of Measures %s on the move vs. %s on the product don't allow to do these operations or you are not transferring the picking at once. "
-msgstr "The roundings of your Unit of Measures %s on the move vs. %s on the product don't allow to do these operations or you are not transferring the picking at once. "
+msgstr "Làm tròn đơn vị đo lường %s ở dịch chuyển kho so với %s ở sản phẩm không cho phép thực hiện các hoạt động này hoặc bạn đang không xử lý toàn bộ số lượng của lô hàng cùng lúc."
 
 #. module: stock
 #: code:addons/stock/stock.py:4360
@@ -5867,7 +5867,13 @@ msgid "Track different dates on products and serial numbers.\n"
 "                    - removal date\n"
 "                    - alert date.\n"
 "                    This installs the module product_expiry."
-msgstr ""
+msgstr "Theo dõi các ngày khác nhau trên sản phẩm và số sê-ri.\n"
+"                    Những ngày dưới đây có thể được theo dõi:\n"
+"                    - Tuổi thọ Sản phẩm\n"
+"                    - Thời hạn Sử dụng (tốt nhất trước ngày)\n"
+"                    - Thời hạn Tiêu huỷ\n"
+"                    - Thời hạn Cảnh báo.\n"
+"                    Cái này sẽ cài phân hệ product_expiry."
 
 #. module: stock
 #: selection:stock.config.settings,group_stock_production_lot:0
@@ -6517,12 +6523,12 @@ msgstr ""
 #. module: stock
 #: sql_constraint:stock.pack.operation.lot:0
 msgid "You have already mentioned this lot in another line"
-msgstr ""
+msgstr "Bạn đã sử dụng lô này ở một dòng khác rồi"
 
 #. module: stock
 #: sql_constraint:stock.pack.operation.lot:0
 msgid "You have already mentioned this lot name in another line"
-msgstr ""
+msgstr "Bạn đã sử dụng tên lô này ở một dòng khác rồi"
 
 #. module: stock
 #: code:addons/stock/wizard/stock_return_picking.py:129
@@ -6533,13 +6539,13 @@ msgstr "Bạn đã tạo các dòng sản phẩm một cách thủ công. Vui l�
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid "You have processed less products than the initial demand."
-msgstr Bạn đã xử lý ít sản phẩm hơn nhu cầu ban đầu."
+msgstr "Bạn đã xử lý ít sản phẩm hơn nhu cầu ban đầu."
 
 #. module: stock
 #: code:addons/stock/product.py:341
 #, python-format
 msgid "You have products in stock that have no lot number.  You can assign serial numbers by doing an inventory.  "
-msgstr ""
+msgstr "Bạn có hàng hoá dự trữ mà khoogn có số lô. Bạn có thể gán số sê-ri thông qua việc thực hiện một kiểm kê (Điều chỉnh tồn kho)."
 
 #. module: stock
 #: constraint:stock.warehouse.orderpoint:0
@@ -6550,8 +6556,8 @@ msgstr "Bạn không thể chọn một đơn vị đo lường trong cùng nhó
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid "You haven't set processed quantities. If you click <i>apply</i>,\n"
 "                        Odoo will process all quantities to do."
-msgstr "Bạn chưa đặt số lượng được xử lý. Nếu bạn bấm vào <i>Áp dụng</i>,\n"
-"                        Odoo sẽ xử lý toàn bộ số lượng phải thực hiện."
+msgstr "Bạn chưa thiết lập số lượng cần được xử lý. Nếu bạn bấm vào <i>Áp dụng</i>,\n"
+"                        Odoo sẽ xử lý toàn bộ số lượng phải thực hiện của lô hàng này."
 
 #. module: stock
 #: code:addons/stock/wizard/stock_return_picking.py:48
@@ -6576,13 +6582,13 @@ msgstr "Bạn cần phải cung cấp Số Lô/Sê-ri cho sản phẩm %s"
 #: code:addons/stock/stock.py:571
 #, python-format
 msgid "You should only receive by the piece with the same serial number"
-msgstr ""
+msgstr "Bạn chỉ nên nhận với cùng số sê-ri"
 
 #. module: stock
 #: code:addons/stock/stock.py:4498
 #, python-format
 msgid "You should provide a different serial number for each piece"
-msgstr ""
+msgstr "Bạn nên cung cấp các số sê-ri khác nhau cho từng đơn vị hàng hoá (piece)"
 
 #. module: stock
 #: constraint:stock.move:0
