@@ -214,12 +214,12 @@ msgstr "Bấm để thêm mới một thiết bị."
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_request_action
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_request_action_link
 msgid "Click to add a new maintenance request."
-msgstr "Bấm để thêm mới một yêu cầu bảo trì."
+msgstr "Bấm để thêm mới một Đề nghị bảo trì."
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_stage_action
 msgid "Click to add a stage in the maintenance request."
-msgstr "Bấm để thêm một giai đoạn trong yêu cầu bảo trì"
+msgstr "Bấm để thêm một giai đoạn trong Đề nghị bảo trì"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_close_date
@@ -346,7 +346,7 @@ msgid ""
 "create new maintenance request for this equipment category."
 msgstr ""
 "Bí danh email cho nhóm thiết bị này. Những email mới gửi đến đây sẽ tự "
-"động tạo một yêu cầu bảo trì cho nhóm thiết bị này."
+"động tạo một Đề nghị bảo trì cho nhóm thiết bị này."
 
 #. module: hr_equipment
 #: selection:hr.equipment,equipment_assign_to:0
@@ -476,14 +476,14 @@ msgstr ""
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_unread
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_unread
 msgid "If checked new messages require your attention."
-msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới Đề nghị sự có mặt của bạn."
 
 #. module: hr_equipment
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_category_message_needaction
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_message_needaction
 #: model:ir.model.fields,help:hr_equipment.field_hr_equipment_request_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới Đề nghị sự có mặt của bạn."
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_kanban
@@ -570,27 +570,27 @@ msgstr "Bảo trì"
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Maintenance Request"
-msgstr "Yêu cầu Bảo trì"
+msgstr "Đề nghị Bảo trì"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,name:hr_equipment.mt_cat_req_created
 msgid "Maintenance Request Created"
-msgstr "Yêu cầu Bảo trì đã được tạo"
+msgstr "Đề nghị Bảo trì đã được tạo"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_stage_view_tree
 msgid "Maintenance Request Stage"
-msgstr "Giai đoạn Yêu cầu Bảo trì"
+msgstr "Giai đoạn Đề nghị Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_stage_view_search
 msgid "Maintenance Request Stages"
-msgstr "Các giai đoạn Yêu cầu Bảo trì"
+msgstr "Các giai đoạn Đề nghị Bảo trì"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,description:hr_equipment.mt_req_created
 msgid "Maintenance Request created"
-msgstr "Yêu cầu Bảo trì đã được tạo"
+msgstr "Đề nghị Bảo trì đã được tạo"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,name:hr_equipment.hr_equipment_request_action
@@ -599,7 +599,7 @@ msgstr "Yêu cầu Bảo trì đã được tạo"
 #: model:ir.model,name:hr_equipment.model_hr_equipment_request
 #: model:ir.ui.menu,name:hr_equipment.menu_m_request_form
 msgid "Maintenance Requests"
-msgstr "Yêu cầu Bảo trì"
+msgstr "Đề nghị Bảo trì"
 
 #. module: hr_equipment
 #: model:ir.model,name:hr_equipment.model_hr_equipment_stage
@@ -649,7 +649,7 @@ msgstr "Thiết bị của tôi"
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 msgid "My Requests"
-msgstr "Yêu cầu của tôi"
+msgstr "Đề nghị của tôi"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_stage_name
@@ -661,7 +661,7 @@ msgstr "Tên"
 #. module: hr_equipment
 #: model:hr.equipment.stage,name:hr_equipment.stage_0
 msgid "New Request"
-msgstr "Yêu cầu mới"
+msgstr "Đề nghị mới"
 
 #. module: hr_equipment
 #: selection:hr.equipment.request,priority:0
@@ -786,32 +786,32 @@ msgstr "Đã sửa chữa"
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_kanban
 msgid "Request"
-msgstr "Yêu cầu"
+msgstr "Đề nghị"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,name:hr_equipment.mt_req_created
 msgid "Request Created"
-msgstr "Yêu cầu được tạo"
+msgstr "Đề nghị được tạo"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_request_date
 msgid "Request Date"
-msgstr "Ngày Yêu cầu"
+msgstr "Ngày Đề nghị"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_stage_done
 msgid "Request Done"
-msgstr "Yêu cầu đã Hoàn thành"
+msgstr "Đề nghị đã Hoàn thành"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_config_settings_view_form
 msgid "Requests Alias"
-msgstr "Bí danh Yêu cầu"
+msgstr "Bí danh Đề nghị"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_form
 msgid "Reset Request"
-msgstr "Đặt lại Yêu cầu"
+msgstr "Đặt lại Đề nghị"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_user_id
@@ -876,19 +876,19 @@ msgstr "Phần mềm"
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_stage_id
 msgid "Stage"
-msgstr "Trạng thái"
+msgstr "Giai đoạn"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,name:hr_equipment.hr_equipment_stage_action
 #: model:ir.ui.menu,name:hr_equipment.menu_equipment_stage_configuration
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 msgid "Stages"
-msgstr "Trạng thái"
+msgstr "Giai đoạn"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,name:hr_equipment.mt_req_status
 msgid "Status Changed"
-msgstr "Tình trạng đã thay đổi"
+msgstr "Tình trạng Đã thay đổi"
 
 #. module: hr_equipment
 #: model:mail.message.subtype,description:hr_equipment.mt_req_status
@@ -945,7 +945,7 @@ msgstr ""
 "Ứng dụng này giúp bạn theo dõi các thiết bị sử dụng bởi nhân viên.\"
 "                Tạo một vài cái laptop, máy in hoặc phone và liên kết từng thiết\n"
 "                bị đến một nhân viên hay một phòng ban. Bạn sẽ quản lý việc cấp\n"
-"                phát, phát hành các yêu cầu bảo trì và quản lý việc bảo trì thiết bị.\n"
+"                phát, phát hành các Đề nghị bảo trì và quản lý việc bảo trì thiết bị.\n"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_action_from_category_form
@@ -957,7 +957,7 @@ msgstr ""
 "Ứng dụng này giúp bạn theo dõi các thiết bị sử dụng bởi nhân viên.\"
 "                Tạo một vài cái laptop, máy in hoặc phone và liên kết từng thiết\n"
 "                bị đến một nhân viên hay một phòng ban. Bạn sẽ quản lý việc cấp\n"
-"                phát, phát hành các yêu cầu bảo trì và quản lý việc bảo trì thiết bị.\n"
+"                phát, phát hành các Đề nghị bảo trì và quản lý việc bảo trì thiết bị.\n"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_config_settings_view_form
@@ -1047,7 +1047,7 @@ msgid ""
 " requests."
 msgstr ""
 "Bạn không thể xoá một nhóm thiết bị mà đang chứa một hay nhiều thiết bị cũng"
-" như các yêu cầu bảo trì."
+" như các Đề nghị bảo trì."
 
 #. module: hr_equipment
 #: model:ir.model,name:hr_equipment.model_hr_equipment_config_settings
@@ -1057,9 +1057,9 @@ msgstr ""
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_tree
 msgid "maintenance Request"
-msgstr "yêu cầu bảo trì"
+msgstr "Đề nghị bảo trì"
 
 #. module: hr_equipment
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 msgid "maintenance Request Search"
-msgstr "Tìm kiếm Yêu cầu bảo trì"
+msgstr "Tìm kiếm Đề nghị bảo trì"
