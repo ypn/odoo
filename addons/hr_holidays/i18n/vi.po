@@ -560,6 +560,9 @@ msgid ""
 "leaves than the available ones for this type and will not take them into "
 "account for the \"Remaining Legal Leaves\" defined on the employee form."
 msgstr ""
+"Nếu bạn đánh dấu vào hộp này, hệ thống sẽ cho phép nhân viên được nghỉ nhiều "
+"hơn số ngày nghỉ khả dụng đối với kiểu này và sẽ không xem xét giá trị "
+"\"Nghỉ hợp luật còn lại\" được xác định trên form Nhân viên."
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_message_is_follower
@@ -957,7 +960,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.client,name:hr_holidays.action_client_hr_holidays_menu
 msgid "Open HR Menu"
-msgstr ""
+msgstr "Mở Trình đơn Nhân sự"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_parent_id
@@ -973,7 +976,7 @@ msgstr "In"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_notes
 msgid "Reasons"
-msgstr ""
+msgstr "Lý do"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -1009,7 +1012,7 @@ msgstr "Số ngày nghỉ còn lại"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_remaining_leaves
 #: model:ir.ui.view,arch_db:hr_holidays.hr_holidays_leaves_assign_tree_view
 msgid "Remaining Legal Leaves"
-msgstr ""
+msgstr "Nghỉ hợp luật còn lại"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_remaining_leaves_user_no_of_leaves

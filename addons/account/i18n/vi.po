@@ -4720,14 +4720,14 @@ msgstr "Nó chỉ ra rằng hoá đơn này đã được gửi."
 #: code:addons/account/models/account_move.py:846
 #, python-format
 msgid "It is mandatory to specify an account and a journal to create a write-off."
-msgstr "It is mandatory to specify an account and a journal to create a write-off."
+msgstr "Bắt buộc phải chỉ ra một tài khoản kế toán và một sổ nhật ký để ghi nhận write-off."
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:212
 #, python-format
 msgid "It took you"
-msgstr "It took you"
+msgstr "Bạn mất"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -4909,17 +4909,17 @@ msgstr "Tháng Sáu"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_kanban_dashboard
 msgid "Kanban dashboard"
-msgstr "Kanban dashboard"
+msgstr "Bảng thông tin Kanban"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_kanban_dashboard_graph
 msgid "Kanban dashboard graph"
-msgstr "Kanban dashboard graph"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Keep empty for no control"
-msgstr "Keep empty for no control"
+msgstr "Để trống để không kiểm soát"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_date_invoice
@@ -6796,7 +6796,7 @@ msgstr "Đối soát / Đối chiếu các bút toán sổ nhật ký"
 #. module: account
 #: selection:account.journal,bank_statements_source:0
 msgid "Record Manually"
-msgstr "Record Manually"
+msgstr "Ghi nhận thủ công"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -6829,7 +6829,7 @@ msgstr "Tham chiếu đơn vị tính"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
 msgid "Reference number"
-msgstr "Reference number"
+msgstr "Số tham chiếu"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_line_origin
@@ -7300,7 +7300,7 @@ msgstr "Hiển thị ở Chân hoá đơn"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_show_on_dashboard
 msgid "Show journal on dashboard"
-msgstr "Hiển thị sổ ở Bảng thông tin"
+msgstr "Hiển thị ở Bảng thông tin"
 
 #. module: account
 #. openerp-web
@@ -7317,12 +7317,12 @@ msgstr "Dấu trên báo cáo"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Simplify your cash, checks, or credit cards deposits with an integrated batch payment function."
-msgstr "Simplify your cash, checks, or credit cards deposits with an integrated batch payment function."
+msgstr "Đơn giản hoá đặt cọc / ứng trước bằng thẻ tín dụng, séc, tiền mặt bằng chức năng thanh toán hàng loạt được tích hợp."
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
 msgid "Smallest Text"
-msgstr "Smallest Text"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report_general_ledger_sortby
@@ -7360,7 +7360,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "State"
-msgstr "Giai đoạn"
+msgstr "Trạng thái"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_statement_id
@@ -7377,7 +7377,7 @@ msgstr "Sao kê %s được xác nhận, phát sinh đã được tạo."
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_line_form
 msgid "Statement Line"
-msgstr "Statement Line"
+msgstr "Giao dịch"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_ids
@@ -7400,7 +7400,7 @@ msgstr "Trạng thái"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_states_count
 msgid "States count"
-msgstr "States count"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_state
@@ -7412,7 +7412,7 @@ msgstr "States count"
 #: model:ir.ui.view,arch_db:account.view_bank_statement_search
 #: model:ir.ui.view,arch_db:account.view_move_line_form2
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cashbox_line_subtotal
@@ -7438,7 +7438,7 @@ msgstr "TỔNG NGUỒN VỐN"
 #: model:ir.model.fields,field_description:account.field_account_account_tag_ids
 #: model:ir.model.fields,field_description:account.field_account_tax_tag_ids
 msgid "Tags"
-msgstr ""
+msgstr "Thẻ"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_cash_box_out
@@ -7854,16 +7854,16 @@ msgstr "Tiền tệ được dùng cho sao kê"
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid "The discussions with your customer are automatically displayed at\n"
 "                the bottom of each invoice."
-msgstr "The discussions with your customer are automatically displayed at\n"
-"                the bottom of each invoice."
+msgstr "Các thảo luận với khách hàng của bạn tự động hiển thị ở cuối của\n"
+"                mỗi hoá đơn."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:183
 #, python-format
 msgid "The ending balance is incorrect !\n"
 "The expected balance (%s) is different from the computed one. (%s)"
-msgstr "The ending balance is incorrect !\n"
-"The expected balance (%s) is different from the computed one. (%s)"
+msgstr "Số dư cuối cùng không đúng!\n"
+"Số dư được mong đợi (%s) thì khác với số được tính toán. (%s)"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8018,12 +8018,12 @@ msgstr "Không có gì để đối soát."
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1495
 #, python-format
 msgid "There you go, it's all done !"
-msgstr "There you go, it's all done !"
+msgstr "Đây, được rồi nhé, đã hoàn thành tất cả!"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template_user_type_id
 msgid "These types are defined according to your country. The type contains more information about the account and its specificities."
-msgstr "These types are defined according to your country. The type contains more information about the account and its specificities."
+msgstr "Các kiểu này được định nghĩa theo quốc gia của bạn. Kiểu tài khoản chứa các thông tin thêm về tài khoản và các đặc trưng của nó."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner

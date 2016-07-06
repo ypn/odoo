@@ -2067,9 +2067,9 @@ msgid "\n"
 "This module allows you to easily add extra costs on pickings and decide the split of these costs among their stock moves in order to take them into account in your stock valuation.\n"
 "    "
 msgstr "\n"
-"Quản lý chi phí mở rộng\n"
-"=======================\n"
-"Phân hệ này cho phép bạn dễ dàng thêm một chi phí mở rộng trên các lô hàng và quyết phân bổ các chi phí này trên mỗi một dịch chuyển kho để đưa chúng vào tài khoản lưu kho.\n"
+"Quản lý chi phí về kho\n"
+"======================\n"
+"Phân hệ này cho phép bạn dễ dàng thêm một chi phí về kho đối với các lô hàng nhập và phân bổ các chi phí này trên mỗi một dịch chuyển kho để đưa chúng vào giá vốn hàng hoá.\n"
 "    "
 
 #. module: base
@@ -2153,16 +2153,16 @@ msgid "\n"
 "This module also uses analytic accounting and is compatible with the invoice on timesheet module so that you are able to automatically re-invoice your customers' expenses if your work by project.\n"
 "    "
 msgstr "\n"
-"Quản lý chi phí do nhân viên\n"
-"============================\n"
+"Quản lý chi tiêu bởi nhân viên\n"
+"==============================\n"
 "\n"
-"Phân hệ này cho phép bản quản lý chi phí phát sinh hàng ngày do nhân viên (vd: phí khách sạn khi đi công tác). Nó cho phép bạn truy cập đến các kê khai chi phí của nhân viên và cho bạn quyền để phê duyệt hoặc từ chối các kê khai chi phí này. Sau khi một kê khai chi phí được phê duyệt, phân hệ này sẽ tạo một hoá đơn xuất cho nhân viên.\n"
-"Nhân viên có thể kê khai các chi phí của họ và phân hệ này sẽ tự động hạch toán các chi phí này vào hệ thống kế toán sau khi các kê khai này được phê duyệt bởi người quản lý.\n"
+"Phân hệ này cho phép bản quản lý chi tiêu phát sinh hàng ngày do nhân viên (vd: phí khách sạn khi đi công tác). Nó cho phép bạn truy cập đến các kê khai chi tiêu của nhân viên và cho bạn quyền để phê duyệt hoặc từ chối các kê khai chi tiêu này. Sau khi một kê khai chi tiêu được phê duyệt, phân hệ này sẽ tạo một hoá đơn xuất cho nhân viên.\n"
+"Nhân viên có thể kê khai các chi tiêu của họ và phân hệ này sẽ tự động hạch toán các chi tiêu này vào hệ thống kế toán sau khi các kê khai này được phê duyệt bởi người quản lý.\n"
 "\n"
 "\n"
 "Toàn bộ chu trình ứng dụng phân hệ này như sau:\n"
 "---------------------------------\n"
-"* Kê khai chi phí dạng bản thảo\n"
+"* Kê khai chi tiêu dạng bản thảo\n"
 "* Gửi cho người quản lý trực tiếp\n"
 "* Được duyệt bởi người quản lý\n"
 "* Xác nhận bởi kế toán và các bút toán kế toán được tạo tự động\n"
@@ -9660,12 +9660,12 @@ msgstr "Thực hiện"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_expense
 msgid "Expense Tracker"
-msgstr "Expense Tracker"
+msgstr "Theo dõi Chi tiêu"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_expense
 msgid "Expenses Validation, Invoicing"
-msgstr "Xác nhận chi phí, xuất hoá đơn"
+msgstr "Xác nhận chi tiêu, xuất hoá đơn"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_exports_line_export_id
@@ -9681,7 +9681,7 @@ msgstr "Xuất thành công"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_exports_export_fields
 msgid "Export ID"
-msgstr "Export ID"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_exports_name
@@ -18757,7 +18757,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_attachment_form
 msgid "on"
-msgstr "trên"
+msgstr "vào"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
@@ -18803,7 +18803,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_res_request_link
 msgid "res.request.link"
-msgstr "res.request.link"
+msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_users_log

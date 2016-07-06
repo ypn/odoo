@@ -37,7 +37,7 @@ msgstr "\n"
 "                    Tôi vui mừng thông báo rằng <strong> ${object.name} </strong> sẽ gia nhập với chúng ta như là một ${object.job_id.name}.\n"
 "                %endif\n"
 "            </p>\n"
-"            <p>Hãy chào mừng anh / cô ấy và giúp đỡn anh / cô ấy tìm thấy dấu ấn của mình trong chúng ta.</p>\n"
+"            <p>Hãy chào mừng anh / cô ấy và giúp đỡ anh / cô ấy tìm thấy dấu ấn của mình trong chúng ta.</p>\n"
 "            "
 
 #. module: hr_recruitment
@@ -107,10 +107,13 @@ msgid "<p>Dear ${object.partner_name or 'applicant'},</p>\n"
 "         ${object.user_id.signature | safe}"
 msgstr "<p>Gửi ${object.partner_name or 'ứng viên'},</p>\n"
 "        <p>Chúc mừng! Hồ sơ của bạn đã nhận được sự quan tâm của chúng tôi!\n"
-"        I will call you as soon as possible to make a 10 minutes phone interview and  plan a first meeting.</p>\n"
-"        <p>If we can’t reach you or if you miss our call, feel free to reach me back on the number 001 312 349 3030\n"
-"        If I do not answer, please let me a message with some schedules to call you back.</p>\n"
-"        <p>Kind regards,</p>\n"
+"        Chúng tôi sẽ gọi cho bạn ngay khi có thể để thực hiện một cuộc phỏng vấn ngắn qua điện thoại cũng như đặt lịch hẹn cho lần gặp gỡ đầu tiên.</p>\n"
+"        <p>Nếu chúng tôi không thể liên lạc với bạn hoặc nếu bạn bỏ lỡ cuộc gọi của chúng tôi,\n"
+"        đừng ngần ngại gọi lại cho chúng tôi theo số điện thoại đăng ở mục đăng tuyển của chúng\n"
+"        tôi (hoặc theo số ở chữ ký của email này). Trong trường hợp chúng tôi không trả lời,\n"
+"        đừng ngần ngại gửi email cho chúng tôi và cho chúng tôi biết khi nào chúng tôi có thể\n"
+"        gọi lại cho bạn.</p>\n"
+"        <p>Trân trọng,</p>\n"
 "        <br/>\n"
 "         ${object.user_id.signature | safe}"
 
@@ -124,12 +127,12 @@ msgid "<p>Dear ${object.partner_name or 'applicant'},</p>\n"
 "        <p>Kind regards,</p>\n"
 "        <br/>\n"
 "         ${object.user_id and object.user_id.signature | safe or ''}"
-msgstr "<p>Dear ${object.partner_name or 'applicant'},</p>\n"
-"        <p>We thank you for your interest in our company and for your application.\n"
-"        Unfortunately, your profile does not match with our needs or our recruitment\n"
-"        campaign has reached its term.</p>\n"
-"        <p>If you want more details, feel free to contact us by phone.</p>\n"
-"        <p>Kind regards,</p>\n"
+msgstr "<p>Gửi ${object.partner_name or 'applicant'},</p>\n"
+"        <p>Chúng tôi cám ơn bạn đã quan tâm đến công ty chúng tôi và gửi hồ sơ ứng tuyển.\n"
+"        Thật không may, hồ sơ của bạn không phù hợp với nhu cầu của chúng tôi hoặc cũng có\n"
+"        thể do đợt tuyển dụng của chúng tôi đã hết hạn.</p>\n"
+"        <p>Nếu bạn muốn thêm chi tiết, vui lòng liên hệ với chúng tôi qua email hoặc điện thoại.</p>\n"
+"        <p>Trân trọng,</p>\n"
 "        <br/>\n"
 "         ${object.user_id and object.user_id.signature | safe or ''}"
 
@@ -143,19 +146,19 @@ msgstr "<span class=\"o_stat_text\">Buổi gặp</span>"
 msgid "<span class=\"o_stat_text\">Print</span>\n"
 "                            <span class=\"o_stat_text\">Interview</span>"
 msgstr "<span class=\"o_stat_text\">In</span>\n"
-"                            <span class=\"o_stat_text\">Interview</span>"
+"                            <span class=\"o_stat_text\">Phỏng vấn</span>"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
 msgid "<span class=\"o_stat_text\">Start</span>\n"
 "                            <span class=\"o_stat_text\">Interview</span>"
 msgstr "<span class=\"o_stat_text\">Khởi động</span>\n"
-"                            <span class=\"o_stat_text\">Interview</span>"
+"                            <span class=\"o_stat_text\">Phỏng vấn</span>"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
 msgid "<span class=\"o_stat_text\">Trackers</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Truy vết</span>"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -205,7 +208,7 @@ msgstr "Bí danh"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_contact
 msgid "Alias Contact Security"
-msgstr "Alias Contact Security"
+msgstr "Mức bảo mật cho Alias"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_source_alias_id
@@ -423,7 +426,7 @@ msgstr "Hủy"
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_graph_view_job
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_pivot_view_job
 msgid "Cases By Stage and Estimates"
-msgstr "Cases By Stage and Estimates"
+msgstr "Tình huống theo Giao đoạn & Dự kiến"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_applicant_category
@@ -445,7 +448,7 @@ msgstr "Click here to create a new job. You can remove the \"In Recruitment\" fi
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid "Click to add a new employee."
-msgstr "Click to add a new employee."
+msgstr "Bấm để tạo mới một nhân viên."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
@@ -480,12 +483,12 @@ msgstr "Cấu hình"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_configuration
 msgid "Configure HR Recruitment"
-msgstr "Configure HR Recruitment"
+msgstr "Cấu hình Tuyển dụng NS"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_recruitment_configuration
 msgid "Configure Recruitment"
-msgstr "Configure Recruitment"
+msgstr "Cấu hình Tuyển dụng"
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/models/hr_recruitment.py:384
@@ -498,7 +501,7 @@ msgstr "Liên hệ"
 #: code:addons/hr_recruitment/models/hr_recruitment.py:386
 #, python-format
 msgid "Contact Email"
-msgstr "Contact Email"
+msgstr "Email Liên hệ"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
@@ -508,7 +511,7 @@ msgstr "Hợp đồng"
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job4
 msgid "Contract Proposal"
-msgstr "Contract Proposal"
+msgstr "Đề xuất Hợp đồng"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job5
@@ -518,7 +521,7 @@ msgstr "Hợp đồng được ký"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_date_create
 msgid "Create Date"
-msgstr "Create Date"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
@@ -528,21 +531,21 @@ msgstr "Tạo nhân viên"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_source_tree
 msgid "Create alias"
-msgstr "Create alias"
+msgstr "Tạo bí danh"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_sources
 msgid "Create email and url for each distinct source. <br>\n"
 "                When the applicant will arrive, you will know from wich source the Job position is coming."
-msgstr "Create email and url for each distinct source. <br>\n"
-"                When the applicant will arrive, you will know from wich source the Job position is coming."
+msgstr "Tạo email và url cho từng nguồn riêng biệt. <br>\n"
+"                Khi một ứng viên đến, bạn sẽ biết ứng viên đó đến từ nguồn nào khi ứng tuyển vị trí này."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_sources
 msgid "Create here some alias...\n"
 "                That will allow you to track from where the applicant is coming from..."
-msgstr "Create here some alias...\n"
-"                That will allow you to track from where the applicant is coming from..."
+msgstr "Hãy tạo một số các bí danh (alias)...\n"
+"                Mà sẽ cho phép bạn truy vết ứng viên đến từ đâu..."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_category_create_uid
