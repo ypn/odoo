@@ -20,7 +20,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytic Line"
+msgstr "Dòng KT Quản trị"
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_res_company
@@ -55,17 +55,17 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_hr_employee_timesheet_cost
 msgid "Timesheet Cost"
-msgstr ""
+msgstr "Chi phí Timesheet"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_timesheet_count
 msgid "Timesheet activities"
-msgstr ""
+msgstr "Hoạt động Chấm công"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_timesheet_ids
 msgid "Timesheet activities associated to this sale"
-msgstr ""
+msgstr "Hoạt động Chấm công gắn với đơn hàng này"
 
 #. module: sale_timesheet
 #: model:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_employee_extd_form
@@ -80,3 +80,6 @@ msgid ""
 "should split your order to include only one contract based on time and "
 "material."
 msgstr ""
+"Bạn chỉ có thể dùng một sản phẩm trên bảng chấm công trong phạm vi cùng một đơn hàng bán."
+"Bạn nên tách đơn hàng để chỉ bao gồm một hợp đồng dựa trên thời gian và "
+"vật liệu"

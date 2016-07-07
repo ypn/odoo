@@ -29,9 +29,9 @@ msgid "\n"
 "        % endif\n"
 "        "
 msgstr "\n"
-"        <p>Congratulation, you have received the badge <strong>${object.badge_id.name}</strong> !\n"
+"        <p>Chúc mừng, bạn đã nhận được huy chương <strong>${object.badge_id.name}</strong> !\n"
 "            % if object.sender_id\n"
-"                This badge was granted by <strong>${object.sender_id.name}</strong>.\n"
+"                Huy chương này được trao bởi <strong>${object.sender_id.name}</strong>.\n"
 "            % endif\n"
 "        </p>\n"
 "\n"
@@ -1467,7 +1467,7 @@ msgstr "Trao tặng bởi"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Rewards for challenges"
-msgstr ""
+msgstr "Trao tặng đối với các thử thách"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_search_view
