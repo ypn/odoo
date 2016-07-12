@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-13 14:27+0000\n"
-"PO-Revision-Date: 2016-06-08 08:50+0000\n"
+"PO-Revision-Date: 2016-07-08 03:12+0000\n"
 "Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>\n"
 "Language-Team: Thai (http://www.transifex.com/odoo/odoo-9/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -218,14 +218,14 @@ msgstr ""
 #, python-format
 msgid ""
 "<div><p>Hello,</p><p>%s invited you to follow %s document: %s.</p></div>"
-msgstr ""
+msgstr "<div><p>สวัสดี</p><p>%s ได้เรียนเชิญให้คุณติดตาม %s เอกสาร: %s</p></div>"
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:25
 #, python-format
 msgid ""
 "<div><p>Hello,</p><p>%s invited you to follow a new document.</p></div>"
-msgstr ""
+msgstr "<div><p>สวัสดี</p><p>%s ได้เรียนเชิญให้คุณติดตามเอกสารใหม่</p></div>"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -1264,7 +1264,7 @@ msgstr "ฟิลด์"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_field_desc
 msgid "Field Description"
-msgstr ""
+msgstr "คำอธิบายฟิลด์"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_field_type
@@ -1605,7 +1605,7 @@ msgstr "เป็นการแจ้งเตือน"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_is_member
 msgid "Is a member"
-msgstr ""
+msgstr "เป็นสมาชิก"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_is_pinned
@@ -1703,7 +1703,7 @@ msgstr "อัพเดทครั้งสุดท้ายเมื่อ"
 #: code:addons/mail/static/src/xml/client_action.xml:97
 #, python-format
 msgid "Leave this channel"
-msgstr ""
+msgstr "ออกจากช่องสนทนานี้"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_wizard_invite_channel_ids
@@ -2041,7 +2041,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_new_value_integer
 msgid "New Value Integer"
-msgstr ""
+msgstr "ค่าจำนวนเต็มใหม่"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_new_value_monetary
@@ -2076,14 +2076,14 @@ msgstr "ข้อความใหม่"
 #: code:addons/mail/static/src/xml/thread.xml:25
 #, python-format
 msgid "New messages appear here."
-msgstr "ข้อความใหม่จะปรากฎขึ้นตรงนี้"
+msgstr "ข้อความใหม่จะปรากฎขึ้นบริเวณนี้"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:81
 #, python-format
 msgid "New people"
-msgstr ""
+msgstr "บุคคลใหม่"
 
 #. module: mail
 #. openerp-web
@@ -2242,7 +2242,7 @@ msgstr "ผู้ติดตามหนึ่งคน"
 #: code:addons/mail/static/src/xml/client_action.xml:107
 #, python-format
 msgid "Online"
-msgstr ""
+msgstr "ออนไลน์"
 
 #. module: mail
 #: selection:mail.channel.partner,fold_state:0
@@ -2523,7 +2523,7 @@ msgstr "ช่องทางส่วนตัว"
 #: code:addons/mail/wizard/mail_compose_message.py:176
 #, python-format
 msgid "Re:"
-msgstr ""
+msgstr "ตอบกลับ:"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search selection:mail.mail,state:0
@@ -3132,7 +3132,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_mail_tracking_value_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message_tracking_value_ids
 msgid "Tracking values"
-msgstr ""
+msgstr "ค่าที่ติดตาม"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_message_type
@@ -3244,7 +3244,7 @@ msgstr "กำลังอัพโหลด"
 #: code:addons/mail/static/src/js/composer.js:583
 #, python-format
 msgid "Uploading error"
-msgstr ""
+msgstr "การอัพโหลดไฟล์ล้มเหลว"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_use_active_domain

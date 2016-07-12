@@ -337,7 +337,7 @@ class AccountMoveLine(models.Model):
             if (line.account_id.code != self.account_id.code):
                 counterpart.add(line.account_id.code)
         if len(counterpart) > 2:
-            counterpart = counterpart[0:2] + ["..."]
+            counterpart = list(counterpart)[0:2] + ["..."]
         self.counterpart = ",".join(counterpart)
 
     name = fields.Char(required=True, string="Label")
@@ -759,6 +759,10 @@ class AccountMoveLine(models.Model):
             #or if all lines share the same currency
             field = 'amount_residual_currency'
             rounding = self[0].currency_id.rounding
+        if self._context.get('skip_full_reconcile_check') == 'amount_currency_excluded':
+            field = 'amount_residual'
+        elif self._context.get('skip_full_reconcile_check') == 'amount_currency_only':
+            field = 'amount_residual_currency'
         #target the pair of move in self that are the oldest
         sorted_moves = sorted(self, key=lambda a: a.date)
         debit = credit = False
