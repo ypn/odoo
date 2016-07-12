@@ -292,7 +292,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
 "                                        <span class=\"fa\" data-icon=\"&#57440;\"/>\n"
-"                                        <strong> Tạp thủ công</strong><br/>\n"
+"                                        <strong> Tạo thủ công</strong><br/>\n"
 "                                        <span class=\"small\">&lt; 200 liên hệ</span>\n"
 "                                    </span>"
 
@@ -305,7 +305,7 @@ msgid "<span class=\"panel-title\">\n"
 "                                    </span>"
 msgstr "<span class=\"panel-title\">\n"
 "                                        <span class=\"fa\" data-icon=\"&#57440;\"/>\n"
-"                                        <strong> Tạp thủ công</strong><br/>\n"
+"                                        <strong> Tạo thủ công</strong><br/>\n"
 "                                        <span class=\"small\">Khuyến nghị nếu &lt;100 sản phẩm</span>\n"
 "                                    </span>"
 
@@ -688,7 +688,7 @@ msgstr "<strong>Ghi nhận một khoản thanh toán bằng séc ngay trên Hoá
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Reduced data entry:</strong> no need to manually create invoices, register bank statements, and send payment follow-ups."
-msgstr "<strong>Giảm thiểu nhập liệu:</strong> không cần thiết phải tạo hoá đơn một cách thủ công, chỉ cần ghi nhân sao kê ngân hàng, và gửi nhắc nhở thanh toán (payment follow-ups)."
+msgstr "<strong>Giảm thiểu nhập liệu:</strong> không cần thiết phải tạo hoá đơn một cách thủ công, chỉ cần ghi nhận sao kê ngân hàng, và gửi nhắc nhở thanh toán (payment follow-ups)."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
@@ -3886,6 +3886,11 @@ msgstr "Tổng số theo Giá trị cố định sẽ được ghi vào bên n�
 
 #. module: account
 #: selection:account.payment.term.line,option:0
+msgid "Day(s) after the end of the invoice month (Net EOM)"
+msgstr "Ngày sau ngày cuối của tháng hoá đơn (Net EOM)"
+
+#. module: account
+#: selection:account.payment.term.line,option:0
 msgid "Fixed day of the following month"
 msgstr "Ngày cố định của tháng kế tiếp"
 
@@ -4490,7 +4495,7 @@ msgstr "Ghi chú nội bộ"
 #: selection:account.payment,payment_type:0
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Internal Transfer"
-msgstr "Dịch chuyển nội bộ"
+msgstr "Chuyển nội bộ"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_template_form
@@ -6696,7 +6701,7 @@ msgstr "Tài khoản Phải thu và Phải trả"
 #: selection:account.register.payments,payment_type:0
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Receive Money"
-msgstr "Nhận Tiền"
+msgstr "Thu Tiền"
 
 #. module: account
 #. openerp-web
@@ -7192,7 +7197,7 @@ msgstr "Hoá đơn được chọn không thể được xác nhận bởi vì c
 #: selection:account.register.payments,payment_type:0
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Send Money"
-msgstr "Gửi Tiền"
+msgstr "Chi Tiền"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
