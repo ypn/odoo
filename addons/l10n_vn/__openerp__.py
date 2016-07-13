@@ -17,7 +17,7 @@ This module applies to companies based in Vietnamese Accounting Standard (VAS).
 
 **Credits:** General Solutions.
 """,
-    "depends" : ["account","base_vat","base_iban"],
+    "depends" : ["account","base_iban"],
     "data" : ["account_chart.xml","account_tax.xml","account_chart_template.yml"],
     "demo" : [],
     "installable": True,
