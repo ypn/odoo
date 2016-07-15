@@ -209,7 +209,7 @@ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_active
@@ -233,7 +233,7 @@ msgstr "Đã xuất hoá đơn"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Là người dõi theo"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_message_last_post
@@ -255,7 +255,7 @@ msgstr "Tháng trước"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_write_date
@@ -311,17 +311,17 @@ msgstr "Các Hành động Kế tiếp"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng Hành động"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số thông điệp cần phải có hành động"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số thông điệp chưa đọc"
 
 #. module: sales_team
 #. openerp-web
@@ -504,7 +504,7 @@ msgstr "Thông điệp chưa đọc"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Bộ đếm Thông điệp Chưa đọc"
 
 #. module: sales_team
 #: model:ir.actions.act_window,help:sales_team.crm_team_act
@@ -515,6 +515,9 @@ msgid ""
 "                    departments into separate teams. Each team will work in\n"
 "                    its own list of opportunities."
 msgstr ""
+"Sử dụng đội bán hàng để tổ chức nhân viên bán hàng hay\n"
+"                    các phòng ban thành các đối khác nhau. Mỗi đội sẽ làm việc\n"
+"                    với một danh sách các cơ hội kinh doanh của chính họ."
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users

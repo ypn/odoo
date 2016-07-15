@@ -161,7 +161,7 @@ msgstr ""
 "<p>Chúng tôi muốn cảm ơn bạn về sự có mặt của bạn ở sự kiện ${object.event_id.name} của chúng tôi.\n"
 "<br/><br/>\n"
 "    % if object.event_id.organizer_id and object.event_id.organizer_id.is_company:\n"
-"        <strong>The ${object.event_id.organizer_id.name} Team</strong>\n"
+"        <strong>${object.event_id.organizer_id.name}</strong>\n"
 "    % elif object.event_id.organizer_id:\n"
 "        <strong>${object.event_id.organizer_id.name}</strong>\n"
 "    % endif\n"
@@ -526,7 +526,7 @@ msgstr "Xác nhận Đăng ký"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_auto_confirm
 msgid "Confirmation not required"
-msgstr "Không bắt buộc phải Xác nhận"
+msgstr "Không bắt buộc Xác nhận"
 
 #. module: event
 #: selection:event.event,state:0 selection:event.registration,state:0
@@ -730,12 +730,12 @@ msgstr "Tên đăng nhập / Email"
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_form
 msgid "Email Schedule"
-msgstr "Ấn định lịch Email"
+msgstr "Gửi Email tự động"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_config_settings_group_email_scheduling
 msgid "Email Scheduling"
-msgstr "Ấn định lịch Email"
+msgstr "Ấn định lịch gửi Email"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_template_id
@@ -875,7 +875,7 @@ msgstr "Sự kiện đang cho Đăng ký"
 #: model:ir.ui.view,arch_db:event.view_event_search
 #: model:ir.ui.view,arch_db:event.view_event_tree
 msgid "Events"
-msgstr "Các sự kiện"
+msgstr "Sự kiện"
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_report_event_registration
@@ -885,7 +885,7 @@ msgstr "Phân tích Sự kiện"
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_mail
 msgid "Events Mail Schedulers"
-msgstr ""
+msgstr "Ấn định lịch gửi email sự kiện"
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
@@ -1570,7 +1570,7 @@ msgstr ""
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_form
 msgid "Registrations"
-msgstr ""
+msgstr "Đăng ký"
 
 #. module: event
 #: model:mail.template,subject:event.event_reminder
@@ -1580,7 +1580,7 @@ msgstr "Nhắc nhở về sự kiện ${object.event_id.name}"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_default_reply_to
 msgid "Reply To"
-msgstr "Trả lời Đến"
+msgstr "Trả lời Đến (email)"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_reply_to
@@ -1620,12 +1620,12 @@ msgstr "Người phụ trách"
 #. module: event
 #: model:res.groups,name:event.group_email_scheduling
 msgid "Schedule Emails on Event Subscription"
-msgstr ""
+msgstr "Lên lịch gửi email khi Đăng ký Sự kiện"
 
 #. module: event
 #: selection:event.config.settings,group_email_scheduling:0
 msgid "Schedule emails to attendees and subscribers"
-msgstr ""
+msgstr "Gửi email tự động (theo cấu hình) đến Người tham dự và Người đăng ký"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_scheduled_date
@@ -1680,7 +1680,7 @@ msgstr "Tài liệu nguồn"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_date_begin
 msgid "Start Date"
-msgstr "Ngày bắt đầu"
+msgstr "Ngày Bắt đầu"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_date_begin_located
@@ -1690,7 +1690,7 @@ msgstr ""
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_search
 msgid "Start Month"
-msgstr ""
+msgstr "Tháng Bắt đầu"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_state
@@ -1708,7 +1708,7 @@ msgstr "Đăng ký nhận tin"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_config_settings_module_website_event_questions
 msgid "Subscription Survey"
-msgstr ""
+msgstr "Khảo sát/Hỏi khi Đăng ký"
 
 #. module: event
 #: model:event.event,name:event.event_3
@@ -1718,7 +1718,7 @@ msgstr "Đào tạo Kỹ thuật"
 #. module: event
 #: model:mail.template,subject:event.event_thanks
 msgid "Thanks for attending ${object.event_id.name}"
-msgstr ""
+msgstr "Cám ơn bạn đã tham dự ${object.event_id.name}"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_reply_to
@@ -1728,6 +1728,9 @@ msgid ""
 "registrations confirmation. You can also put the email address of your mail "
 "gateway if you use one."
 msgstr ""
+"Thường sẽ là email của nhà tổ chức sự kiện sẽ được điền vào đây, để phần mềm"
+"sẽ đưa giá trị này vào trường reply-to của email khi email được gửi tự động. "
+"Bạn cũng có thể đưa email của máy chủ nhận email của bạn vào đây nếu muốn."
 
 #. module: event
 #: model:event.event,description:event.event_0

@@ -1040,7 +1040,7 @@ msgstr "Độ dài tối đa không thể nhỏ hơn độ dài tối thiểu!"
 #. module: survey
 #: sql_constraint:survey.question:0
 msgid "Max value cannot be smaller than min value!"
-msgstr "Giá trị lớn nhất không thể nhỏ hơn giá trị nhỏ nhất!"
+msgstr "Giá trị tối đa không thể nhỏ hơn giá trị nhỏ nhất!"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_validation_max_date
@@ -1055,7 +1055,7 @@ msgstr "Độ dài văn bản tối đa"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_validation_max_float_value
 msgid "Maximum value"
-msgstr "Giá trị lớn nhất"
+msgstr "Giá trị tối đa"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_record_name
@@ -1797,7 +1797,7 @@ msgstr "Trang khảo sát"
 #: model:ir.ui.menu,name:survey.menu_survey_form
 #: model:ir.ui.menu,name:survey.menu_surveys
 msgid "Surveys"
-msgstr "Các khảo sát"
+msgstr "Khảo sát"
 
 #. module: survey
 #: selection:survey.mail.compose.message,message_type:0
@@ -1853,7 +1853,7 @@ msgstr ""
 #. module: survey
 #: constraint:survey.user_input_line:0
 msgid "The answer must be in the right type"
-msgstr ""
+msgstr "Câu trả lời phải là kiểu dữ liệu hợp lệ"
 
 #. module: survey
 #: code:addons/survey/survey.py:620
@@ -1878,12 +1878,12 @@ msgstr "Câu trả lợi bạn nhập có định dạng không hợp lệ."
 #: code:addons/survey/wizard/survey_email_compose_message.py:174
 #, python-format
 msgid "The content of the text don't contain '__URL__'.                     __URL__ is automaticaly converted into the special url of the survey."
-msgstr "Nội dung của văn bản không chứa '__URL__'.                     __URL__ được tự động chuyển đổi thành url đặc biết của khảo sát."
+msgstr "Nội dung của văn bản không chứa '__URL__'.                     __URL__ được tự động chuyển đổi thành url đặc biệt của khảo sát."
 
 #. module: survey
 #: model:survey.label,value:survey.choice_2_4_1
 msgid "The current menu structure is good"
-msgstr ""
+msgstr "Cấu trúc trình đơn hiện tại khá tốt"
 
 #. module: survey
 #: sql_constraint:survey.user_input:0
