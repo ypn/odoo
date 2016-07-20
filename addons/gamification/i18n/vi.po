@@ -368,12 +368,12 @@ msgstr "Huy chương"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Badges are granted when a challenge is finished. This is either at the end of a running period (eg: end of the month for a monthly challenge), at the end date of a challenge (if no periodicity is set) or when the challenge is manually closed."
-msgstr "Các huy chương được trao khi một thử thách được kết thúc. This is either at the end of a running period (eg: end of the month for a monthly challenge), at the end date of a challenge (if no periodicity is set) or when the challenge is manually closed."
+msgstr "Các huy chương được trao khi một thử thách được kết thúc. Đây hoặc là kết thúc một chu kỳ thực thi (vd: cuối tháng của một thử thách hàng tháng), vào ngày cuối của một thử thách (nếu không thiết lập định kỳ) hoặc khi thử thách được đóng lại một cách thủ công."
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition_batch_mode
 msgid "Batch Mode"
-msgstr "Batch Mode"
+msgstr ""
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_idea
@@ -389,7 +389,7 @@ msgstr "Không thể cấp"
 #: code:addons/gamification/models/goal.py:446
 #, python-format
 msgid "Can not modify the configuration of a started goal"
-msgstr "Can not modify the configuration of a started goal"
+msgstr "Không thể điều chỉnh thay đổi cấu hình của một tiêu chí đã được khởi động"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
@@ -1004,7 +1004,7 @@ msgstr "Ảnh"
 #. module: gamification
 #: selection:gamification.challenge,state:0
 msgid "In Progress"
-msgstr "Đang trong quá trình"
+msgstr "Đang Thực hiện"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_definition_form_view
@@ -1191,7 +1191,7 @@ msgstr "Chỉ tiêu của tôi"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_stat_my_monthly_sending
 msgid "My Monthly Sending Total"
-msgstr "Tổng gửi đi hàng tháng của tôi"
+msgstr "Tổng Gửi đi Hàng tháng của tôi"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_stat_my_this_month
@@ -1704,7 +1704,7 @@ msgstr "Số ngày mà người dùng được gán đến một chỉ tiêu th�
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge_stat_my_this_month
 msgid "The number of time the current user has received this badge this month."
-msgstr "Số lần người dùng hiện hành đã nhận được huy chương này trong tháng."
+msgstr "Số lần người dùng hiện hành đã nhận được (được trao tặng) huy chương này trong tháng."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge_stat_my
@@ -1813,7 +1813,7 @@ msgstr "Tổng"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_unique_owner_ids
 msgid "Unique Owners"
-msgstr "Chủ soử hữu duy nhất"
+msgstr "Chủ sở hữu duy nhất"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line_definition_suffix
@@ -1870,17 +1870,17 @@ msgstr "Thấy được ở Website"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users_website_description
 msgid "Website Partner Full Description"
-msgstr ""
+msgstr "Mô tả Đầy đủ cho Đối tác ở Website"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users_website_short_description
 msgid "Website Partner Short Description"
-msgstr ""
+msgstr "Mô tả Vắn tắt cho Đối tác ở Website"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users_website_url
 msgid "Website URL"
-msgstr ""
+msgstr "URL của Website"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users_website_meta_description
@@ -1998,7 +1998,7 @@ msgstr "ví dụ: ngày"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. result = pool.get('mail.followers').search(cr, uid, [('res_model', '=', 'mail.channel'), ('partner_id', '=', object.user_id.partner_id.id)], count=True, context=context)"
-msgstr ""
+msgstr "vd: result = pool.get('mail.followers').search(cr, uid, [('res_model', '=', 'mail.channel'), ('partner_id', '=', object.user_id.partner_id.id)], count=True, context=context)"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_definition_form_view
