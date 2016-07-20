@@ -54,7 +54,7 @@ msgstr "\n"
 "        <strong>Nhắc nhở ${object.name}</strong>\n"
 "    </header>\n"
 "    \n"
-"    <p>Bạn chưa cập nhật tiến trình cho tiêu chí ${object.definition_id.name} (hiện đang đạt được ${object.completeness}%) cho ít nhất ${object.remind_update_delay} ngày. Đừng quên làm điều đó.</p>\n"
+"    <p>Bạn chưa cập nhật tiến trình cho Mục tiêu ${object.definition_id.name} (hiện đang đạt được ${object.completeness}%) cho ít nhất ${object.remind_update_delay} ngày. Đừng quên làm điều đó.</p>\n"
 "            "
 
 #. module: gamification
@@ -204,7 +204,7 @@ msgstr "\n"
 #: code:addons/gamification/models/challenge.py:746
 #, python-format
 msgid "<br/>Nobody has succeeded to reach every goal, no badge is rewarded for this challenge."
-msgstr "<br/>Không ai thành công trong việc đạt được mọi tiêu chí đề ra, không có huy chương nào được trao tặng cho thử thách này."
+msgstr "<br/>Không ai thành công trong việc đạt được mọi Mục tiêu đề ra, không có huy chương nào được trao tặng cho thử thách này."
 
 #. module: gamification
 #: code:addons/gamification/models/challenge.py:744
@@ -222,7 +222,7 @@ msgstr "<br/>Những phần thưởng đặc biết đã được gửi đến n
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "<span class=\"o_stat_text\">Related</span>\n"
 "                                    <span class=\"o_stat_text\">Goals</span>"
-msgstr "<span class=\"o_stat_text\">Tiêu chí</span>\n"
+msgstr "<span class=\"o_stat_text\">Mục tiêu</span>\n"
 "                                    <span class=\"o_stat_text\">Liên quan</span>"
 
 #. module: gamification
@@ -243,7 +243,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition_condition
 msgid "A goal is considered as completed when the current value is compared to the value to reach"
-msgstr "Một tiêu chí được coi là hoàn thành khi giá trị hiện tại của tiêu chí bằng giá trị cần phải đạt được (value to reach)"
+msgstr "Một Mục tiêu được coi là hoàn thành khi giá trị hiện tại của Mục tiêu bằng giá trị cần phải đạt được (value to reach)"
 
 #. module: gamification
 #: model:ir.actions.act_window,help:gamification.goal_list_action
@@ -389,7 +389,7 @@ msgstr "Không thể cấp"
 #: code:addons/gamification/models/goal.py:446
 #, python-format
 msgid "Can not modify the configuration of a started goal"
-msgstr "Không thể điều chỉnh thay đổi cấu hình của một tiêu chí đã được khởi động"
+msgstr "Không thể điều chỉnh thay đổi cấu hình của một Mục tiêu đã được khởi động"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
@@ -470,12 +470,12 @@ msgstr "Bấm để tạo một thử thách."
 #. module: gamification
 #: model:ir.actions.act_window,help:gamification.goal_definition_list_action
 msgid "Click to create a goal definition."
-msgstr "Bấm để tạo một định nghĩa về tiêu chí."
+msgstr "Bấm để tạo một định nghĩa về Mục tiêu."
 
 #. module: gamification
 #: model:ir.actions.act_window,help:gamification.goal_list_action
 msgid "Click to create a goal."
-msgstr "Bấm để tạo một tiêu chí."
+msgstr "Bấm để tạo một Mục tiêu."
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_definition_form_view
@@ -501,7 +501,7 @@ msgstr "Hoàn thành Hồ sơ của bạn"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_completeness
 msgid "Completeness"
-msgstr "Năng lực cạnh tranh"
+msgstr "Mức độ Hoàn thành"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition_computation_mode
@@ -798,17 +798,17 @@ msgstr "Thử thách Gamification"
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge_line
 msgid "Gamification generic goal for challenge"
-msgstr "Tiêu chí Gamification tổng quát cho thử thách"
+msgstr "Mục tiêu Gamification tổng quát cho thử thách"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal_definition
 msgid "Gamification goal definition"
-msgstr "Đinh nghĩa tiêu chí Gamification"
+msgstr "Đinh nghĩa Mục tiêu Gamification"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal
 msgid "Gamification goal instance"
-msgstr "Phiên bản tiêu chí Gamification"
+msgstr "Phiên bản Mục tiêu Gamification"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user
@@ -835,7 +835,7 @@ msgstr "Kinh độ địa lý"
 #: model:ir.ui.view,arch_db:gamification.goal_form_view
 #: model:ir.ui.view,arch_db:gamification.view_challenge_kanban
 msgid "Goal"
-msgstr "Tiêu chí"
+msgstr "Mục tiêu"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line_definition_id
@@ -843,46 +843,46 @@ msgstr "Tiêu chí"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition_name
 #: model:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Goal Definition"
-msgstr "Định nghĩa tiêu chí"
+msgstr "Định nghĩa Mục tiêu"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goal_definition_list_action
 #: model:ir.ui.menu,name:gamification.gamification_definition_menu
 #: model:ir.ui.view,arch_db:gamification.goal_definition_list_view
 msgid "Goal Definitions"
-msgstr "Các định nghĩa tiêu chí"
+msgstr "Định nghĩa Mục tiêu"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition_description
 msgid "Goal Description"
-msgstr "Mô tả tiêu chí"
+msgstr "Mô tả Mục tiêu"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal Failed"
-msgstr "Tiêu chí bị trượt"
+msgstr "Mục tiêu Không đạt"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_list_view
 msgid "Goal List"
-msgstr "Danh mục tiêu chí"
+msgstr "Danh mục Mục tiêu"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition_condition
 msgid "Goal Performance"
-msgstr "Sự thực hiện tiêu chí"
+msgstr "Sự thực hiện Mục tiêu"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal Reached"
-msgstr "Tiêu chí đã đạt"
+msgstr "Mục tiêu Đã đạt"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view
 #: model:ir.ui.view,arch_db:gamification.challenge_list_view
 #: model:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Goal definitions"
-msgstr "Định nghĩa tiêu chí"
+msgstr "Định nghĩa Mục tiêu"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goal_list_action
@@ -891,7 +891,7 @@ msgstr "Định nghĩa tiêu chí"
 #: model:ir.ui.view,arch_db:gamification.view_challenge_kanban
 #: model:ir.ui.view,arch_db:gamification.view_challenge_wizard
 msgid "Goals"
-msgstr "Tiêu chí"
+msgstr "Mục tiêu"
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_good_job
@@ -955,7 +955,7 @@ msgstr "Ẩn"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "How to compute the goal?"
-msgstr "Chỉ tiêu này được tính toán thế nào?"
+msgstr "Mục tiêu này được tính toán thế nào?"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_id
@@ -1252,7 +1252,7 @@ msgstr "Không tuần hoàn"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_remind_update_delay
 msgid "Non-updated manual goals will be reminded after"
-msgstr "Các chỉ tiêu không cập nhật thủ công sẽ được nhắc sau"
+msgstr "Các chỉ tiêu thủ công mà chưa cập nhật sẽ được nhắc nhở sau"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1405,7 +1405,7 @@ msgstr "Nhắc nhở delay"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Reminders for Manual Goals"
-msgstr "Nhăc nhở cho các Tiêu chí Thủ công"
+msgstr "Nhăc nhở cho các Mục tiêu Thủ công"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_report_message_frequency
@@ -1492,12 +1492,12 @@ msgstr "Tìm các thử thách"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_definition_search_view
 msgid "Search Goal Definitions"
-msgstr "Tìm các định nghĩa tiêu chí"
+msgstr "Tìm các định nghĩa Mục tiêu"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Search Goals"
-msgstr "Tìm các tiêu chí"
+msgstr "Tìm các Mục tiêu"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.badge_form_view
@@ -1568,7 +1568,7 @@ msgstr "Ngày bắt đầu"
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Start goal"
-msgstr "Khởi động tiêu chí"
+msgstr "Khởi động Mục tiêu"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_state
@@ -1765,7 +1765,7 @@ msgstr "Giá trị để so sánh với trường phân biệt. Biểu thức c�
 #: model:ir.actions.act_window,help:gamification.goals_from_challenge_act
 msgid "There is no goals associated to this challenge matching your search.\n"
 "                Make sure that your challenge is active and assigned to at least one user."
-msgstr "Không có tiêu chí nào liên kết với thử thách này mà khớp với điều kiện\n"
+msgstr "Không có Mục tiêu nào liên kết với thử thách này mà khớp với điều kiện\n"
 "                tìm kiếm của bạn. Hãy chắc rằng thử thách của bạn đang có hiệu lực và được\n"
 "                gắn với ít nhất một người dùng."
 
@@ -1945,7 +1945,7 @@ msgstr "Bạn không thể tự trao tặng huy chương cho chính mình (tự 
 #: code:addons/gamification/models/challenge.py:235
 #, python-format
 msgid "You can not reset a challenge with unfinished goals."
-msgstr "Bạn không thể đặt lại một thử thách có các tiêu chí chưa kết thúc."
+msgstr "Bạn không thể đặt lại một thử thách có các Mục tiêu chưa kết thúc."
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.badge_form_view
