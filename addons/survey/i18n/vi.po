@@ -206,7 +206,7 @@ msgstr "Có trục trặc đã xảy ra"
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_4
 msgid "A process is defined for all enterprise flows"
-msgstr ""
+msgstr "Một tiến trình xử lý (process) được xác định cho tất cả quy trình doanh nghiệp"
 
 #. module: survey
 #: constraint:survey.user_input_line:0
@@ -216,7 +216,7 @@ msgstr "Một câu hỏi không thể không trả lời hoặc bỏ qua"
 #. module: survey
 #: sql_constraint:survey.user_input:0
 msgid "A token must be unique!"
-msgstr ""
+msgstr "Token phải là duy nhất!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
@@ -275,12 +275,12 @@ msgstr "Các lựa chọn trả lời"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line_answer_type
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_type
 msgid "Answer Type"
-msgstr "Kiểu câu trả lời"
+msgstr "Kiểu Trả lời"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.result
 msgid "Answered"
-msgstr "Đã trả lời"
+msgstr "Được trả lời"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_user_input
@@ -289,12 +289,12 @@ msgstr "Đã trả lời"
 #: model:ir.ui.menu,name:survey.menu_survey_type_form1
 #: model:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Answers"
-msgstr "Các câu trả lời"
+msgstr "Bản trả lời"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_mail_compose_message_no_auto_thread
 msgid "Answers do not go in the original document discussion thread. This has an impact on the generated message-id."
-msgstr "Các câu trả lời không về luồng thảo luận trên tài liệu gốc. Cái này có một sự tác động vào message-id được tạo."
+msgstr "Các câu trả lời không về luồng thảo luận trên tài liệu gốc. Cái này có sự tác động vào message-id được tạo."
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
@@ -1475,27 +1475,27 @@ msgstr "Link Kết quả"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line_value_suggested_row
 msgid "Row answer"
-msgstr ""
+msgstr "Câu trả lời (theo hàng)"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Row1"
-msgstr ""
+msgstr "Hàng 1"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Row2"
-msgstr ""
+msgstr "Hàng 2"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Row3"
-msgstr ""
+msgstr "Hàng 3"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Rows"
-msgstr ""
+msgstr "Các Hàng"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_labels_ids_2
@@ -1505,7 +1505,7 @@ msgstr "Các hàng của Ma trận"
 #. module: survey
 #: model:survey.label,value:survey.frow_2_7_4
 msgid "Running the configuration wizards is a good way to spare time"
-msgstr ""
+msgstr "Chạy các đồ thuật cấu hình là cách thức tốt để tiết kiệm thời gian"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_1
@@ -1632,12 +1632,12 @@ msgstr "Hộp văn bản 1 dòng"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line_skipped
 #: model:ir.ui.view,arch_db:survey.result
 msgid "Skipped"
-msgstr "Đã bỏ qua"
+msgstr "Bị bỏ qua"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_mail_compose_message_author_avatar
 msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
-msgstr ""
+msgstr "Hình cỡ nhỏ cho liên hệ này. Nó được tự động chuyển đổi thành kích hước 64x64px, và giữ nguyên tỷ lệ. Trường này được sử dụng ở bất cứ đâu mà cần hình cỡ nhỏ."
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.page
@@ -1769,7 +1769,7 @@ msgstr "Dữ liệu người dùng nhập vào Khảo sát"
 #. module: survey
 #: model:ir.model,name:survey.model_survey_user_input_line
 msgid "Survey User Input Line"
-msgstr ""
+msgstr "Các dòng nhập liệu của Người dùng khảo sát"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_user_input_line
@@ -1872,7 +1872,7 @@ msgstr "Câu trả lời phải là kiểu dữ liệu hợp lệ"
 #: model:survey.question,validation_error_msg:survey.feedback_4_1
 #, python-format
 msgid "The answer you entered has an invalid format."
-msgstr "Câu trả lợi bạn nhập có định dạng không hợp lệ."
+msgstr "Câu trả lời bạn nhập có định dạng không hợp lệ."
 
 #. module: survey
 #: code:addons/survey/wizard/survey_email_compose_message.py:174
@@ -2165,7 +2165,7 @@ msgstr "Bầu chọn"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_7
 msgid "What do you think about configuration wizards?"
-msgstr ""
+msgstr "Bạn nghĩ gì về đồ thuật cấu hình?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
