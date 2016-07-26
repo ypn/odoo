@@ -13,11 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account
 #: model:mail.template,body_html:account.email_template_edi_invoice
-msgid "\n"
+msgid ""
+"\n"
 "<div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
 "    <p>Hello ${object.partner_id.name},</p>\n"
 "    <p>A new invoice is available for you: </p>\n"
@@ -173,15 +175,15 @@ msgid "%d transactions were automatically reconciled."
 msgstr "%d giao dịch đã được đối soát tự động."
 
 #. module: account
-#: code:addons/account/models/account.py:540
+#: code:addons/account/models/account.py:528
 #, python-format
 msgid "%s (Copy)"
 msgstr "%s (Bản sao)"
 
 #. module: account
 #: code:addons/account/models/account.py:152
-#: code:addons/account/models/account.py:305
-#: code:addons/account/models/account.py:306
+#: code:addons/account/models/account.py:295
+#: code:addons/account/models/account.py:296
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (bản sao)"
@@ -314,9 +316,7 @@ msgstr "<span class=\"panel-title\">\n"
 msgid "<span class=\"panel-title\">\n"
 "                                        <strong>Accountant</strong> (Advanced access)\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n"
-"                                        <strong>Kế toán viên</strong> (Truy cập nâng cao)\n"
-"                                    </span>"
+msgstr "<span class=\"panel-title\">\n<strong>Kế toán viên</strong> (Truy cập nâng cao)\n</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner

@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-14 08:03+0000\n"
 "PO-Revision-Date: 2016-05-14 08:03+0000\n"
@@ -13,7 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: product
 #: selection:product.pricelist.item,applied_on:0
@@ -65,7 +66,8 @@ msgstr "Màn hình LCD 17\"\n"
 #. module: product
 #: model:product.product,description:product.product_product_25
 #: model:product.template,description:product.product_product_25_product_template
-msgid "17\" Monitor\n"
+msgid ""
+"17\" Monitor\n"
 "4GB RAM\n"
 "Standard-1294P Processor\n"
 "QWERTY keyboard"
@@ -74,7 +76,8 @@ msgstr ""
 #. module: product
 #: model:product.product,description:product.product_product_26
 #: model:product.template,description:product.product_product_26_product_template
-msgid "17\" Monitor\n"
+msgid ""
+"17\" Monitor\n"
 "6GB RAM\n"
 "Hi-Speed 234Q Processor\n"
 "QWERTY keyboard"
@@ -88,7 +91,8 @@ msgstr ""
 #. module: product
 #: model:product.product,description_sale:product.product_product_8
 #: model:product.template,description_sale:product.product_product_8_product_template
-msgid "2.7GHz quad-core Intel Core i5\n"
+msgid ""
+"2.7GHz quad-core Intel Core i5\n"
 "                Turbo Boost up to 3.2GHz\n"
 "                8GB (two 4GB) memory\n"
 "                1TB hard drive\n"
@@ -135,8 +139,8 @@ msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
-msgid "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Public Price  -  </span>\n"
-"                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Cost  -  </span>\n"
+msgid ""
+"<span attrs=\"{'invisible':[('base', 'not in', ('list_price','standard_price'))]}\">Public Price  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Other Pricelist  -  </span>"
 msgstr "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Giá niêm yết  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Giá vốn  -  </span>\n"
@@ -299,13 +303,13 @@ msgstr ""
 #: model:product.product,name:product.product_product_7
 #: model:product.template,name:product.product_product_7_product_template
 msgid "Apple In-Ear Headphones"
-msgstr "Apple In-Ear Headphones"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_9
 #: model:product.template,name:product.product_product_9_product_template
 msgid "Apple Wireless Keyboard"
-msgstr "Apple Wireless Keyboard"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
@@ -327,12 +331,12 @@ msgstr "Lưu trữ"
 #: model:product.product,name:product.product_assembly
 #: model:product.template,name:product.product_assembly_product_template
 msgid "Assembly Service Cost"
-msgstr "Assembly Service Cost"
+msgstr "Chi phí Dịch vụ Lắp ráp"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_sequence
 msgid "Assigns the priority to the list of product vendor."
-msgstr "Assigns the priority to the list of product vendor."
+msgstr "Thiết lập mức độ ưu tiên cho danh mục các nhà cung cấp sản phẩm."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_attribute_id

@@ -1,7 +1,8 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* purchase
-#
+# * purchase
+# 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
@@ -130,8 +131,7 @@ msgstr ""
 msgid ""
 "\n"
 "Creates the dropship Route and add more complex tests-This installs the module stock_dropshipping."
-msgstr "\n"
-""
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/stock.py:62
@@ -1195,8 +1195,7 @@ msgstr "Ngày An toàn Mua"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_pivot
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
 #: model:ir.ui.view,arch_db:purchase.view_purchase_configuration
-#: selection:purchase.order,state:0
-#: selection:purchase.report,state:0
+#: selection:purchase.order,state:0 selection:purchase.report,state:0
 #: model:res.request.link,name:purchase.req_link_purchase_order
 msgid "Purchase Order"
 msgstr "Đơn hàng"
@@ -1243,10 +1242,10 @@ msgid "Purchase Orders Statistics"
 msgstr "Thống kê đơn hàng"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:539
+#: code:addons/purchase/purchase.py:530
 #, python-format
 msgid "Purchase order line deleted."
-msgstr "Purchase order line deleted."
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -1352,7 +1351,7 @@ msgstr "Số lượng nhận vào"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_picking_count
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_picking_ids
 msgid "Receptions"
-msgstr "Receptions"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
@@ -1367,13 +1366,18 @@ msgstr "Tham chiếu đơn vị tính"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_origin
-msgid "Reference of the document that generated this purchase order request (e.g. a sale order or an internal procurement request)"
-msgstr "Reference of the document that generated this purchase order request (e.g. a sale order or an internal procurement request)"
+msgid ""
+"Reference of the document that generated this purchase order request (e.g. a"
+" sale order or an internal procurement request)"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_partner_ref
-msgid "Reference of the sales order or bid sent by the vendor. It's used to do the matching when you receive the products as this reference is usually written on the delivery order sent by your vendor."
-msgstr "Reference of the sales order or bid sent by the vendor. It's used to do the matching when you receive the products as this reference is usually written on the delivery order sent by your vendor."
+msgid ""
+"Reference of the sales order or bid sent by the vendor. It's used to do the "
+"matching when you receive the products as this reference is usually written "
+"on the delivery order sent by your vendor."
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.report.xml,name:purchase.report_purchase_quotation
@@ -1580,20 +1584,10 @@ msgid "This will determine picking type of incoming shipment"
 msgstr "Điều này sẽ xác định kiểu hoạt động giao nhận của lô hàng về"
 
 #. module: purchase
-#: model:ir.model.fields,help:purchase.field_product_product_pos_categ_id
-msgid "Those categories are used to group similar products for point of sale."
-msgstr "Những nhóm này để nhóm các sản phẩm tương tự cho Điểm bán lẻ (POS)"
-
-#. module: purchase
 #: selection:purchase.order,state:0
 #: selection:purchase.report,state:0
 msgid "To Approve"
 msgstr "Chờ duyệt"
-
-#. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_product_product_to_weight
-msgid "To Weigh With Scale"
-msgstr "Để cân bằng Cân"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_amount_total
@@ -1746,7 +1740,8 @@ msgstr "Tham chiếu Nhà cung cấp"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
-msgid "Vendors bills can be pre-generated based on purchase\n"
+msgid ""
+"Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
 "                    document in Odoo."
@@ -1771,18 +1766,12 @@ msgid "Warehouse"
 msgstr "Kho hàng"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_account_invoice_website_message_ids
-#: model:ir.model.fields,field_description:purchase.field_procurement_order_website_message_ids
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_website_message_ids
-#: model:ir.model.fields,field_description:purchase.field_stock_picking_website_message_ids
 msgid "Website Messages"
 msgstr "Thông điệp Website"
 
 #. module: purchase
-#: model:ir.model.fields,help:purchase.field_account_invoice_website_message_ids
-#: model:ir.model.fields,help:purchase.field_procurement_order_website_message_ids
 #: model:ir.model.fields,help:purchase.field_purchase_order_website_message_ids
-#: model:ir.model.fields,help:purchase.field_stock_picking_website_message_ids
 msgid "Website communication history"
 msgstr "Lịch sử thông tin liên lạc website"
 
@@ -1798,7 +1787,8 @@ msgstr "Làm việc với biến thể sản phẩm cho phép bạn định ngh�
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_open_invoice
-msgid "You can control the invoice from your vendor according to\n"
+msgid ""
+"You can control the invoice from your vendor according to\n"
 "            what you purchased (services) or received (products)."
 msgstr "Bạn có thể kiểm soát hoá đơn từ nhà cung cấp của bạn theo\n"
 "             những sản phẩm / dịch vụ mà bạn mua hoặc nhận từ nhà cung cấp."

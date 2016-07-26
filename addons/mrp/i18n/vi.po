@@ -1,10 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* mrp
-#
+# * mrp
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-01 10:38+0000\n"
 "PO-Revision-Date: 2016-07-01 10:38+0000\n"
@@ -190,7 +191,8 @@ msgstr ""
 
 #. module: mrp
 #: sql_constraint:mrp.bom.line:0
-msgid "All product quantities must be greater than 0.\n"
+msgid ""
+"All product quantities must be greater than 0.\n"
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs !"
 msgstr "Tất cả giá trị ở trường Số lượng sản phẩm phải lớn hơn 0.\n"
 "Bạn nên cài phân hệ mrp_byproduct nếu bạn muốn quản lý phụ phẩm trong BoMs !"
@@ -328,7 +330,7 @@ msgid "BoM"
 msgstr "BoM"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:316
+#: code:addons/mrp/mrp.py:303
 #, python-format
 msgid "BoM \"%s\" contains a BoM line with a product recursion: \"%s\"."
 msgstr "BoM \"%s\" chứa một dòng với sản phẩm đệ quy: \"%s\"."
@@ -359,7 +361,7 @@ msgid "By-Products"
 msgstr "Phụ phẩm"
 
 #. module: mrp
-#: code:addons/mrp/stock.py:228
+#: code:addons/mrp/stock.py:227
 #, python-format
 msgid "Can't find any generic Manufacture route."
 msgstr "Không thể tìm thấy bất kỳ quy trình sản xuất nào."
@@ -386,7 +388,7 @@ msgstr "Đã hủy"
 #: code:addons/mrp/stock.py:149
 #, python-format
 msgid "Cannot consume a move with negative or zero quantity."
-msgstr "Không thể tiêu thụ một dịch chuyển với số lượng bằng 0 hoặc nhỏ hơn 0"
+msgstr "Không thể tiêu thụ một dịch chuyển với số lượng nhỏ hơn hoặc bằng 0"
 
 #. module: mrp
 #: code:addons/mrp/mrp.py:639
@@ -600,7 +602,7 @@ msgstr "Thông tin chi phí"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_create_uid
 #: model:ir.model.fields,field_description:mrp.field_stock_move_consume_create_uid
 msgid "Created by"
-msgstr "Tạo bởi"
+msgstr "Được tạo bởi"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_date
@@ -619,7 +621,7 @@ msgstr "Tạo bởi"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_create_date
 #: model:ir.model.fields,field_description:mrp.field_stock_move_consume_create_date
 msgid "Created on"
-msgstr "Tạo vào"
+msgstr "Được tạo vào"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_costs_cycle_account_id
@@ -729,12 +731,16 @@ msgstr "Thông tin bổ sung"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_costs_cycle_account_id
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_costs_hour_account_id
-msgid "Fill this only if you want automatic analytic accounting entries on production orders."
+msgid ""
+"Fill this only if you want automatic analytic accounting entries on "
+"production orders."
 msgstr "Chỉ điền nó nếu bạn muốn bút toán kế toán quản trị tự động trên lệnh sản xuất."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_product_id
-msgid "Fill this product to easily track your production costs in the analytic accounting."
+msgid ""
+"Fill this product to easily track your production costs in the analytic "
+"accounting."
 msgstr "Điền sản phẩm này để dễ dàng theo dõi chi phí sản xuất bằng kế toán quản trị."
 
 #. module: mrp
@@ -770,7 +776,8 @@ msgstr "Người dõi theo"
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_property_group_action
-msgid "For instance, in the property group \"Warranty\", you an have\n"
+msgid ""
+"For instance, in the property group \"Warranty\", you an have\n"
 "                two properties: 1 year warranty, 3 years warranty. Depending\n"
 "                on the propoerties selected in the sales order, Odoo will\n"
 "                schedule a production using the matching bill of materials."
@@ -801,7 +808,8 @@ msgstr "Chỉ ra trình tự sắp xếp khi hiển thị một danh sách Đị
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter_sequence
-msgid "Gives the sequence order when displaying a list of routing Work Centers."
+msgid ""
+"Gives the sequence order when displaying a list of routing Work Centers."
 msgstr "Chỉ ra trình tự sắp xếp khi hiển thị một danh sách quy trình sản xuất."
 
 #. module: mrp
@@ -1050,8 +1058,7 @@ msgid "Manager"
 msgstr "Quản lý"
 
 #. module: mrp
-#: code:addons/mrp/procurement.py:15
-#: code:addons/mrp/stock.py:225
+#: code:addons/mrp/procurement.py:15 code:addons/mrp/stock.py:224
 #: model:stock.location.route,name:mrp.route_warehouse0_manufacture
 #, python-format
 msgid "Manufacture"
@@ -2279,9 +2286,10 @@ msgstr "Bạn có thể cấu hình sản phẩm phụ trong một Định mức
 "-Việc này sẽ cài đặt phân hệ mrp_byproduct."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:357
+#: code:addons/mrp/mrp.py:348
 #, python-format
-msgid "You can not delete a Bill of Material with running manufacturing orders.\n"
+msgid ""
+"You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."
 msgstr "Bạn không thể xóa một BoM có các lệnh sản xuất (MO) đang chạy tham chiếu đến.\n"
 "Vui lòng đóng hoặc hủy các lệnh sản xuất liên quan trước."

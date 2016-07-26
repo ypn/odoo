@@ -1,10 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* fleet
-#
+# * fleet
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-05 03:18+0000\n"
 "PO-Revision-Date: 2016-04-05 03:18+0000\n"
@@ -13,16 +14,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: fleet
-#: code:addons/fleet/fleet.py:367
+#: code:addons/fleet/fleet.py:373
 #, python-format
 msgid "%s %s has been added to the fleet!"
 msgstr "%s %s đã được thêm vào đội!"
 
 #. module: fleet
-#: code:addons/fleet/fleet.py:643
+#: code:addons/fleet/fleet.py:649
 #, python-format
 msgid "%s contract(s) need(s) to be renewed and/or closed!"
 msgstr "%s hợp đồng cần phải được gia hoặc hoặc/và đóng!"
@@ -1047,16 +1049,15 @@ msgstr "Make"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_id
 msgid "Make of the vehicle"
-msgstr "Make of the vehicle"
+msgstr "Nhà sản xuất phương tiện"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_act
-msgid "Manage all your contracts (leasing, insurances, etc.) with\n"
+msgid ""
+"Manage all your contracts (leasing, insurances, etc.) with\n"
 "                their related services, costs. Odoo will automatically warn\n"
 "                you when some contracts have to be renewed."
-msgstr "Manage all your contracts (leasing, insurances, etc.) with\n"
-"                their related services, costs. Odoo will automatically warn\n"
-"                you when some contracts have to be renewed."
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
@@ -1080,13 +1081,21 @@ msgstr "Hình ảnh với kích thước vừa phải"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image_medium
-msgid "Medium-sized logo of the brand. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
-msgstr "Medium-sized logo of the brand. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgid ""
+"Medium-sized logo of the brand. It is automatically resized as a 128x128px "
+"image, with aspect ratio preserved. Use this field in form views or some "
+"kanban views."
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_message_ids
 msgid "Messages"
 msgstr "Thông điệp"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_message_ids
+msgid "Messages and communication history"
+msgstr "Lịch sử thông tin liên lạc"
 
 #. module: fleet
 #: selection:fleet.vehicle,odometer_unit:0
@@ -1104,13 +1113,13 @@ msgstr "Mô hình"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_tree
 msgid "Model Make"
-msgstr "Model Make"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_brand_act
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_model_brand_menu
 msgid "Model make of Vehicle"
-msgstr "Model make of Vehicle"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_name
@@ -1123,12 +1132,12 @@ msgid "Model of a vehicle"
 msgstr "Model của phương tiện"
 
 #. module: fleet
-#: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_id_6459
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_id_2845
 msgid "Model of the vehicle"
 msgstr "Model của phương tiện"
 
 #. module: fleet
-#: code:addons/fleet/fleet.py:380
+#: code:addons/fleet/fleet.py:386
 #, python-format
 msgid "Model: from '%s' to '%s'"
 msgstr "Model: từ '%s' đến '%s'"
@@ -1172,10 +1181,8 @@ msgid "No"
 msgstr "Không"
 
 #. module: fleet
-#: code:addons/fleet/fleet.py:379
-#: code:addons/fleet/fleet.py:383
-#: code:addons/fleet/fleet.py:387
-#: code:addons/fleet/fleet.py:390
+#: code:addons/fleet/fleet.py:385 code:addons/fleet/fleet.py:389
+#: code:addons/fleet/fleet.py:393 code:addons/fleet/fleet.py:396
 #, python-format
 msgid "None"
 msgstr "Không"

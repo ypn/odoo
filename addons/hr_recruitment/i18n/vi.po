@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-15 13:24+0000\n"
 "PO-Revision-Date: 2016-05-15 13:24+0000\n"
@@ -13,11 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.hr_welcome_new_employee
-msgid "\n"
+msgid ""
+"\n"
 "            <p>\n"
 "                %if object.department_id:\n"
 "                    I’m very pleased to announce that <strong> ${object.name} </strong> will be joining us as a ${object.job_id.name}\n"
@@ -97,7 +99,8 @@ msgstr "<b>Phòng ban:</b>"
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.applicant_interest
-msgid "<p>Dear ${object.partner_name or 'applicant'},</p>\n"
+msgid ""
+"<p>Dear ${object.partner_name or 'applicant'},</p>\n"
 "        <p>Congrats! Your resume's got our interest!\n"
 "        I will call you as soon as possible to make a 10 minutes phone interview and  plan a first meeting.</p>\n"
 "        <p>If we can’t reach you or if you miss our call, feel free to reach me back on the number 001 312 349 3030\n"
@@ -119,7 +122,8 @@ msgstr "<p>Gửi ${object.partner_name or 'ứng viên'},</p>\n"
 
 #. module: hr_recruitment
 #: model:mail.template,body_html:hr_recruitment.applicant_refuse
-msgid "<p>Dear ${object.partner_name or 'applicant'},</p>\n"
+msgid ""
+"<p>Dear ${object.partner_name or 'applicant'},</p>\n"
 "        <p>We thank you for your interest in our company and for your application.\n"
 "        Unfortunately, your profile does not match with our needs or our recruitment\n"
 "        campaign has reached its term.</p>\n"
@@ -177,7 +181,9 @@ msgstr "<span>Xem</span>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_defaults
-msgid "A Python dictionary that will be evaluated to provide default values when creating new records for this alias."
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
 msgstr ""
 
 #. module: hr_recruitment
@@ -281,21 +287,19 @@ msgstr "Các ứng viên"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
-msgid "Applicants and their attached CV are created automatically when an email is sent.\n"
+msgid ""
+"Applicants and their attached CV are created automatically when an email is sent.\n"
 "                If you install the document management modules, all resumes are indexed automatically,\n"
 "                so that you can easily search through their content."
-msgstr "Applicants and their attached CV are created automatically when an email is sent.\n"
-"                If you install the document management modules, all resumes are indexed automatically,\n"
-"                so that you can easily search through their content."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
-msgid "Applicants and their attached CV are created automatically when an email is sent.\n"
+msgid ""
+"Applicants and their attached CV are created automatically when an email is sent.\n"
 "            If you install the document management modules, all resumes are indexed automatically, \n"
 "            so that you can easily search through their content."
-msgstr "Applicants and their attached CV are created automatically when an email is sent.\n"
-"            If you install the document management modules, all resumes are indexed automatically, \n"
-"            so that you can easily search through their content."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -310,12 +314,12 @@ msgstr "Tóm tắt ứng viên"
 #. module: hr_recruitment
 #: model:mail.template,subject:hr_recruitment.applicant_interest
 msgid "Application approved"
-msgstr "Application approved"
+msgstr "Ứng viên được duyệt"
 
 #. module: hr_recruitment
 #: model:mail.template,subject:hr_recruitment.applicant_refuse
 msgid "Application refused"
-msgstr "Ứng viên đã từ chối"
+msgstr "Ứng viên bị từ chối"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -354,7 +358,7 @@ msgstr "Đánh giá"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_crm_case_jobs_filter
 msgid "Archived"
-msgstr "Archived"
+msgstr "Đã lưu trữ"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_date_open
@@ -375,17 +379,17 @@ msgstr "Khả dụng"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_delay_close
 msgid "Avg. Delay to Close"
-msgstr "Avg. Delay to Close"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_salary_exp_avg
 msgid "Avg. Expected Salary"
-msgstr "Lương trung bình mong đợi"
+msgstr "Lương mong đợi trung bình"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_salary_prop_avg
 msgid "Avg. Proposed Salary"
-msgstr "Lương trung bình đề xuất"
+msgstr "Lương đề xuất trung bình"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bachelor
@@ -442,8 +446,10 @@ msgstr "Chọn một form phỏng vấn cho vị trí công việc này và bạ
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_config
-msgid "Click here to create a new job. You can remove the \"In Recruitment\" filter to display all the job positions."
-msgstr "Click here to create a new job. You can remove the \"In Recruitment\" filter to display all the job positions."
+msgid ""
+"Click here to create a new job. You can remove the \"In Recruitment\" filter"
+" to display all the job positions."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
@@ -454,7 +460,7 @@ msgstr "Bấm để tạo mới một nhân viên."
 #: model:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
 #: model:ir.actions.act_window,help:hr_recruitment.hr_recruitment_stage_act
 msgid "Click to add a new stage in the recruitment process."
-msgstr "Click to add a new stage in the recruitment process."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_date_closed
@@ -521,7 +527,7 @@ msgstr "Hợp đồng được ký"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_date_create
 msgid "Create Date"
-msgstr ""
+msgstr "Ngày tạo"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
@@ -535,14 +541,16 @@ msgstr "Tạo bí danh"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_sources
-msgid "Create email and url for each distinct source. <br>\n"
+msgid ""
+"Create email and url for each distinct source. <br>\n"
 "                When the applicant will arrive, you will know from wich source the Job position is coming."
 msgstr "Tạo email và url cho từng nguồn riêng biệt. <br>\n"
 "                Khi một ứng viên đến, bạn sẽ biết ứng viên đó đến từ nguồn nào khi ứng tuyển vị trí này."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_sources
-msgid "Create here some alias...\n"
+msgid ""
+"Create here some alias...\n"
 "                That will allow you to track from where the applicant is coming from..."
 msgstr "Hãy tạo một số các bí danh (alias)...\n"
 "                Mà sẽ cho phép bạn truy vết ứng viên đến từ đâu..."
@@ -575,7 +583,7 @@ msgstr "Ngày tạo"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_report_search
 msgid "Creation Week"
-msgstr "Creation Week"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_message_last_post
@@ -604,18 +612,20 @@ msgstr "Xác định một địa chỉ liên hệ cụ thể cho vị trí côn
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
-msgid "Define here your stages of the recruitment process, for example:\n"
+msgid ""
+"Define here your stages of the recruitment process, for example:\n"
 "            qualification call, first interview, second interview, refused,\n"
 "            hired."
-msgstr "Define here your stages of the recruitment process, for example:\n"
-"            qualification call, first interview, second interview, refused,\n"
-"            hired."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_config
-msgid "Define job position profile and manage recruitment in a context of a particular job: print interview survey, define number of expected new employees, and manage its recruitment pipe"
-msgstr "Define job position profile and manage recruitment in a context of a particular job: print interview survey, define number of expected new employees, and manage its recruitment pipe"
+msgid ""
+"Define job position profile and manage recruitment in a context of a "
+"particular job: print interview survey, define number of expected new "
+"employees, and manage its recruitment pipe"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_recruitment_degree_action
@@ -1187,7 +1197,7 @@ msgid "New Applications"
 msgstr "Ứng viên mới"
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:434
+#: code:addons/hr_recruitment/models/hr_recruitment.py:428
 #, python-format
 msgid "New Employee %s Hired"
 msgstr ""
@@ -1195,22 +1205,22 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_employee_view_search
 msgid "New Hired"
-msgstr "Mới được thuê"
+msgstr "Mới được tuyển"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_department_new_hired_employee
 msgid "New Hired Employee"
-msgstr ""
+msgstr "Nhân viên mới tuyển"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_employee_action_from_department
 msgid "Newly Hired Employees"
-msgstr "Newly Hired Employees"
+msgstr "Nhân viên mới tuyển"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_employee_newly_hired_employee
 msgid "Newly hired employee"
-msgstr "Newly hired employee"
+msgstr "Nhân viên mới tuyển"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_title_action
@@ -1230,10 +1240,10 @@ msgstr "Hành động Kế tiếp"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "No Interview Form"
-msgstr "No Interview Form"
+msgstr "Không có Form Phỏng vấn"
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:402
+#: code:addons/hr_recruitment/models/hr_recruitment.py:395
 #, python-format
 msgid "No Subject"
 msgstr "Không chủ đề"
@@ -1281,17 +1291,17 @@ msgstr "Số các thông điệp chưa đọc"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
-msgid "Odoo helps you track applicants in the recruitment\n"
+msgid ""
+"Odoo helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
-msgstr "Odoo helps you track applicants in the recruitment\n"
-"                process and follow up all operations: meetings, interviews, etc."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
-msgid "Odoo helps you track applicants in the recruitment\n"
+msgid ""
+"Odoo helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
-msgstr "Odoo helps you track applicants in the recruitment\n"
-"            process and follow up all operations: meetings, interviews, etc."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_3
@@ -1306,12 +1316,15 @@ msgstr "Địa điểm văn phòng"
 #. module: hr_recruitment
 #: model:ir.actions.client,name:hr_recruitment.action_client_hr_recruitment_menu
 msgid "Open HR Menu"
-msgstr "Open HR Menu"
+msgstr "Mở Trình đơn HR"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_force_thread_id
-msgid "Optional ID of a thread (record) to which all incoming messages will be attached, even if they did not reply to it. If set, this will disable the creation of new records completely."
-msgstr "Optional ID of a thread (record) to which all incoming messages will be attached, even if they did not reply to it. If set, this will disable the creation of new records completely."
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_user_id
@@ -1321,17 +1334,20 @@ msgstr "Chủ sở hữu"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_parent_model_id
 msgid "Parent Model"
-msgstr "Parent Model"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_parent_thread_id
 msgid "Parent Record Thread ID"
-msgstr "Parent Record Thread ID"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_parent_model_id
-msgid "Parent model holding the alias. The model holding the alias reference is not necessarily the model given by alias_model_id (example: project (parent_model) and task (model))"
-msgstr "Parent model holding the alias. The model holding the alias reference is not necessarily the model given by alias_model_id (example: project (parent_model) and task (model))"
+msgid ""
+"Parent model holding the alias. The model holding the alias reference is not"
+" necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_partner_id
@@ -1341,7 +1357,7 @@ msgstr "Đối tác"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_9
 msgid "Perks such as free parking, gym passes"
-msgstr "Perks such as free parking, gym passes"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_phone
@@ -1350,16 +1366,12 @@ msgstr "Điện thoại"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_contact
-msgid "Policy to post a message on the document using the mailgateway.\n"
+msgid ""
+"Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
-"- followers: only followers of the related document or members of following channels\n"
-""
-msgstr "Policy to post a message on the document using the mailgateway.\n"
-"- everyone: everyone can post\n"
-"- partners: only authenticated partners\n"
-"- followers: only followers of the related document or members of following channels\n"
-""
+"- followers: only followers of the related document\n"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
@@ -1401,7 +1413,7 @@ msgstr "Tuyển dụng"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_job_stage_act
 msgid "Recruitment / Applicants Stages"
-msgstr "Recruitment / Applicants Stages"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_recruitment_report_all
@@ -1431,7 +1443,7 @@ msgstr "Người phụ trách tuyển dụng"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_department_view_kanban
 msgid "Recruitments"
-msgstr "Recruitments"
+msgstr "Tuyển dụng"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_report
@@ -1451,7 +1463,7 @@ msgstr "Từ chối"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_12
 msgid "Regular meetings"
-msgstr "Regular meetings"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.report_hr_recruitment
@@ -1462,12 +1474,12 @@ msgstr "Báo cáo"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage_requirements
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
 msgid "Requirements"
-msgstr "Yêu cầu"
+msgstr "Các Yêu cầu"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
 msgid "Reset Application"
-msgstr "Reset Application"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_response_id
@@ -1484,13 +1496,13 @@ msgstr "Người phụ trách"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_config_settings_module_document
 msgid "Resumes"
-msgstr "Resumes"
+msgstr "Hồ sơ"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_applicant_resumes
 #: model:ir.ui.menu,name:hr_recruitment.menu_crm_case_categ0_act_job02
 msgid "Resumes and Letters"
-msgstr "Resumes and Letters"
+msgstr "Hồ sơ & Thư ứng tuyển"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_salary_exp
@@ -1540,7 +1552,7 @@ msgstr "Tìm kiếm ứng viên"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid "Search through resumes and motivation letters."
-msgstr "Search through resumes and motivation letters."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job3
@@ -1620,7 +1632,7 @@ msgstr "Giai đoạn được thay đổi"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage_name
 msgid "Stage name"
-msgstr "Stage name"
+msgstr "Tên Giai đoạn"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_stage
@@ -1629,8 +1641,10 @@ msgstr "Giai đoạn Tuyển dụng"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_last_stage_id
-msgid "Stage of the applicant before being in the current stage. Used for lost cases analysis."
-msgstr "Stage of the applicant before being in the current stage. Used for lost cases analysis."
+msgid ""
+"Stage of the applicant before being in the current stage. Used for lost "
+"cases analysis."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_recruitment_stage_act
@@ -1642,12 +1656,12 @@ msgstr "Giai đoạn"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "Start Recruitment"
-msgstr "Start Recruitment"
+msgstr "Khởi động tuyển dụng"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_5
 msgid "State of the art technology"
-msgstr "State of the art technology"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_crm_case_jobs_filter
@@ -1689,12 +1703,15 @@ msgstr "Câu trả lời bạn nhập có định dạng không hợp lệ."
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_availability
 msgid "The date at which the applicant will be available to start working"
-msgstr "The date at which the applicant will be available to start working"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
-msgid "The model (Odoo Document Kind) to which this alias corresponds. Any incoming email that does not reply to an existing record will cause the creation of a new record of this model (e.g. a Project Task)"
-msgstr "The model (Odoo Document Kind) to which this alias corresponds. Any incoming email that does not reply to an existing record will cause the creation of a new record of this model (e.g. a Project Task)"
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+" email that does not reply to an existing record will cause the creation of "
+"a new record of this model (e.g. a Project Task)"
+msgstr ""
 
 #. module: hr_recruitment
 #: sql_constraint:hr.recruitment.degree:0
@@ -1708,7 +1725,11 @@ msgstr "Tên của bí danh email, vd 'vieclam' nếu bạn muốn bắt thông 
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_user_id
-msgid "The owner of records created upon receiving emails on this alias. If this field is not set the system will attempt to find the right owner based on the sender (From) address, or will use the Administrator account if no system user is found for that address."
+msgid ""
+"The owner of records created upon receiving emails on this alias. If this "
+"field is not set the system will attempt to find the right owner based on "
+"the sender (From) address, or will use the Administrator account if no "
+"system user is found for that address."
 msgstr ""
 
 #. module: hr_recruitment
@@ -1728,12 +1749,15 @@ msgstr "Năm nay"
 
 #. module: hr_recruitment
 #: model:survey.survey,description:hr_recruitment.recruitment_form
-msgid "This form is intended to help the responsible of a recruitment interview."
+msgid ""
+"This form is intended to help the responsible of a recruitment interview."
 msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_campaign_id
-msgid "This is a name that helps you keep track of your different campaign efforts Ex: Fall_Drive, Christmas_Special"
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts "
+"Ex: Fall_Drive, Christmas_Special"
 msgstr ""
 
 #. module: hr_recruitment
@@ -1745,7 +1769,9 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_source_id
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_report_source_id
-msgid "This is the source of the link Ex: Search Engine, another domain, or name of email list"
+msgid ""
+"This is the source of the link Ex: Search Engine, another domain, or name of"
+" email list"
 msgstr ""
 
 #. module: hr_recruitment
@@ -1847,13 +1873,14 @@ msgstr "Giới tính của bạn?"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
-msgid "With just a quick glance on the Odoo employee screen, you\n"
+msgid ""
+"With just a quick glance on the Odoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:438
+#: code:addons/hr_recruitment/models/hr_recruitment.py:432
 #, python-format
 msgid "You must define an Applied Job and a Contact Name for this applicant."
 msgstr ""
@@ -1869,7 +1896,7 @@ msgid "hr.recruitment.config.settings"
 msgstr ""
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:303
+#: code:addons/hr_recruitment/models/hr_recruitment.py:300
 #, python-format
 msgid "job applicants"
 msgstr "ứng viên"

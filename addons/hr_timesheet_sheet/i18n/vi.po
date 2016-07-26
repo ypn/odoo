@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-16 03:14+0000\n"
 "PO-Revision-Date: 2016-05-16 03:14+0000\n"
@@ -13,16 +13,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_hr_timesheet_sheet_sheet_state
-msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed timesheet.                 \n"
+msgid ""
+" * The 'Draft' status is used when a user is encoding a new and unconfirmed timesheet.                 \n"
 "* The 'Confirmed' status is used for to confirm the timesheet by user.                 \n"
 "* The 'Done' status is used when users timesheet is accepted by his/her senior."
-msgstr " * The 'Draft' status is used when a user is encoding a new and unconfirmed timesheet.                 \n"
-"* The 'Confirmed' status is used for to confirm the timesheet by user.                 \n"
-"* The 'Done' status is used when users timesheet is accepted by his/her senior."
+msgstr ""
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_report_nbr
@@ -449,9 +449,10 @@ msgid "Periodicity on which you validate your timesheets."
 msgstr "Khoảng thời gian định kỳ mà bạn thẩm định các bảng chấm công."
 
 #. module: hr_timesheet_sheet
-#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:114
+#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:108
 #, python-format
-msgid "Please verify that the total difference of the sheet is lower than %.2f."
+msgid ""
+"Please verify that the total difference of the sheet is lower than %.2f."
 msgstr ""
 
 #. module: hr_timesheet_sheet
@@ -763,7 +764,8 @@ msgstr "Bạn không thể có 2 bảng chấm công mà chồng chéo nhau!\n"
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:72
 #, python-format
-msgid "You cannot have 2 timesheets that overlap!\n"
+msgid ""
+"You cannot have 2 timesheets that overlap!\n"
 "You should use the menu 'My Timesheet' to avoid this problem."
 msgstr "Bạn không thể có 2 bảng chấm công mà chồng chéo nhau!\n"
 "Bạn nên sử dụng trình đơn 'Bảng chấm công của tôi' để tránh điều này."
@@ -783,7 +785,8 @@ msgstr "Bạn không thể sửa đổi một đầu vào trong một bảng ch�
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,help:hr_timesheet_sheet.act_hr_timesheet_sheet_form
 #: model:ir.actions.act_window,help:hr_timesheet_sheet.act_hr_timesheet_sheet_my_timesheets
-msgid "You must record timesheets every day and confirm at the end\n"
+msgid ""
+"You must record timesheets every day and confirm at the end\n"
 "                of the week. Once the timesheet is confirmed, it should be\n"
 "                validated by a manager."
 msgstr "Bạn phải ghi nhận bảng chấm công hàng ngày và xác nhận vào cuối tuần.\n"
