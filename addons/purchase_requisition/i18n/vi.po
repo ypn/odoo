@@ -83,7 +83,7 @@ msgid ""
 "            compare them and you can validate some and cancel others."
 msgstr ""
 "Một Mời thầu là một thủ tục để có các chào giá cạnh tranh từ các nhà thầu. Trong một hồ sơ mời thầu,"
-" bạn có thể ghi nhận các sản phẩm bạn cần mua và tạo hàng loại Yêu cầu chào giá (RFQ) gửi các nhà cung cấp.\n"
+" bạn có thể ghi nhận các sản phẩm bạn cần mua và tạo hàng loại Yêu cầu Báo giá (RFQ) gửi các nhà cung cấp.\n"
 "Khi các nhà cung cấp gửi chào thầu (báo giá), bạn có thể xem xét và so sánh chúng và thẩm định một số phù hợp cũng như loại bỏ một số khác không phù hợp."
 
 #. module: purchase_requisition
@@ -175,7 +175,7 @@ msgstr ""
 #: code:addons/purchase_requisition/purchase_requisition.py:67
 #, python-format
 msgid "Cancelled by the tender associated to this quotation."
-msgstr "Bị hủy bởi một cuộc mời thầu liên quan tới yêu cầu chào giá này."
+msgstr "Bị hủy bởi một cuộc mời thầu liên quan tới Yêu cầu Báo giá này."
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_bid_line_qty
@@ -251,7 +251,7 @@ msgstr "Đã xác nhận"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_partner
 msgid "Create Request for Quotation"
-msgstr "Tạo Yêu cầu chào giá"
+msgstr "Tạo Yêu cầu Báo giá"
 
 #. module: purchase_requisition
 #: selection:product.template,purchase_requisition:0
@@ -604,17 +604,17 @@ msgstr "Tham chiếu"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Request a Quotation"
-msgstr "Yêu cầu chào giá"
+msgstr "Yêu cầu Báo giá"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Requests for Quotation"
-msgstr "Yêu cầu chào giá"
+msgstr "Yêu cầu Báo giá"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "Requests for Quotation Details"
-msgstr "Chi tiết Yêu cầu chào giá"
+msgstr "Chi tiết Yêu cầu Báo giá"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.purchase_order_search_inherit
@@ -783,7 +783,7 @@ msgstr "Bạn đã tạo đơn hàng."
 msgid ""
 "You have already one %s purchase order for this partner, you must cancel "
 "this purchase order to create a new quotation."
-msgstr "Bạn đã có một đơn hàng %s cho đối tác này, bạn phải hủy đơn hàng này để tạo một yêu cầu chào giá mới."
+msgstr "Bạn đã có một đơn hàng %s cho đối tác này, bạn phải hủy đơn hàng này để tạo một Yêu cầu Báo giá mới."
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:258
