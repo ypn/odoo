@@ -30,12 +30,12 @@ msgstr "Biểu đồ tài khoản quản trị"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_currency_id
 msgid "Account Currency"
-msgstr ""
+msgstr "Tiền tệ Tài khoản"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cần có Hành động"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_amount
@@ -131,7 +131,7 @@ msgstr "Hệ thống tài khoản quản trị"
 #. module: analytic
 #: model:ir.actions.act_window,help:analytic.action_analytic_account_form
 msgid "Click to add an analytic account."
-msgstr ""
+msgstr "Bấm để tạo mới một tài khoản phân tích (kế toán quản trị)"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag_color
@@ -147,12 +147,12 @@ msgstr "Công ty"
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "Cost/Revenue"
-msgstr ""
+msgstr "Chi phí/Doanh thu"
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action
 msgid "Costs & Revenues"
-msgstr ""
+msgstr "Chi phí & Doanh thu"
 
 #. module: analytic
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
@@ -273,6 +273,10 @@ msgid ""
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
+"Trong Odoo, các đơn hàng bán và các dự án được triển khai sử dụng\n"
+"                các tài khoản phân tích (kế toán quản trị). Bạn có thể\n"
+"                theo vết & truy xuất nguồn gốc các chi phí và doanh thu để phân tích\n"
+"                được lợi nhuận tạm tính của bạn một các dễ dàng."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
@@ -298,7 +302,7 @@ msgstr "Sửa lần cuối"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_write_uid
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_write_date
@@ -321,32 +325,32 @@ msgstr "Lịch sử trao đổi"
 #. module: analytic
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 msgid "No activity yet on this account."
-msgstr ""
+msgstr "Chưa có hoạt động nào ở tài khoản này"
 
 #. module: analytic
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid "No activity yet."
-msgstr ""
+msgstr "Chưa có hoạt động nào."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Số lượng Hành động"
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Số lượng thông điệp cần có hành động"
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Số lượng thông điệp chưa đọc"
 
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.account_analytic_chart_view
 msgid "Open Charts"
-msgstr "Open Charts"
+msgstr "Mở Đồ thị"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_partner_id
@@ -373,6 +377,11 @@ msgid ""
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
 msgstr ""
+"Doanh thu sẽ được tạo tự động khi bạn tạo hoá đơn khách hàng.\n"
+"                Các hoá đơn khách hàng có thể được tạo dựa trên đơn hàng bán (hoá\n"
+"                đơn giá cố định), hoặc dựa theo chấm công (dựa trên thời gian làm việc)\n"
+"                hoặc dựa trên các khoản chi tiêu nhân sự (vd: xuất lại hoá đơn chi phí đi\n"
+"                lại của nhân viên cho khách hàng của bạn."
 
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter

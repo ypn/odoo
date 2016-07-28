@@ -456,7 +456,7 @@ msgstr "Bấm vào đây để tạo một hoá đơn dự thảo."
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
 msgid "Click to create a quotation that will be converted into a purchase order."
-msgstr "Bấm để tạo một báo giá mà sau này có thể chuyển thành một đơn hàng"
+msgstr "Bấm để tạo một Yêu cầu báo giá mà sau này có thể chuyển thành một đơn hàng mua"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
@@ -755,7 +755,7 @@ msgstr "Trong quy trình đấu thầu công khai, bạn có thể so sánh chi 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_in_move
 msgid "Incoming  Products"
-msgstr "Sản phẩm sắp về"
+msgstr "Hàng sắp về"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1683,6 +1683,10 @@ msgid ""
 "            and Odoo will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
+"Sử dụng trình đơn (menu) này để tìm kiếm trong phạm vi các hoá đơn từ nhà cung cấp.\n"
+"            Khi tạo một hoá đơn mới, chỉ cần chọn đơn hàng mua và Odoo sẽ tự động\n"
+"            điền các thông tin liên quan căn cứ trên đơn hàng hoặc trên số lượng hàng\n"
+"            bạn đã nhận."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
@@ -1692,6 +1696,10 @@ msgid ""
 "                you can track the related discussion with the vendor, control\n"
 "                the products received and control the vendor bills."
 msgstr ""
+"Sử dụng trình đơn (menu) này để tìm kiếm trong phạm vi các đơn hàng mua\n"
+"                theo Tham chiếu (số), Nhà cung cấp, Sản phẩm, v.v. Với mỗi đơn\n"
+"                hàng, bạn có thể theo vết các thảo luận liên giữa bạn với nhà cung cấp,\n"
+"                kiểm soát các hàng hoá đã nhận cũng như hoá đơn từ nhà cung cấp."
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
