@@ -7162,7 +7162,7 @@ msgstr "Tìm kiếm Thuế"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_type
 msgid "Select 'Sale' for customer invoices journals. Select 'Purchase' for vendor bills journals. Select 'Cash' or 'Bank' for journals that are used in customer or vendor payments. Select 'General' for miscellaneous operations journals. Select 'Opening/Closing Situation' for entries generated for new fiscal years."
-msgstr "Select 'Sale' for customer invoices journals. Select 'Purchase' for vendor bills journals. Select 'Cash' or 'Bank' for journals that are used in customer or vendor payments. Select 'General' for miscellaneous operations journals. Select 'Opening/Closing Situation' for entries generated for new fiscal years."
+msgstr "Chọn 'Bán hàng' đối với sổ nhật ký ghi nhận hạch toán hoá đơn khách hàng. Chọn 'Mua hàng' đối với sổ nhật ký ghi nhận hạch toán hoá đơn từ nhà cung cấp. Chọn 'Ngân hàng' hoặc 'Tiền mặt' đối với các số nhật ký ghi nhận hạch toán các khoản thanh toán. Chọn 'Khác' đối với các sổ nhật ký dành cho các hoạt động khác."
 
 #. module: account
 #. openerp-web
@@ -7176,12 +7176,12 @@ msgstr "Chọn đối tác"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:234
 #, python-format
 msgid "Select a partner or choose a counterpart"
-msgstr "Select a partner or choose a counterpart"
+msgstr "Chọn một đối tác hoặc một đối ứng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line_value
 msgid "Select here the kind of valuation related to this payment term line."
-msgstr "Select here the kind of valuation related to this payment term line."
+msgstr ""
 
 #. module: account
 #: code:addons/account/wizard/account_invoice_state.py:42
@@ -7244,7 +7244,7 @@ msgstr "Trình tự"
 #: model:ir.model.fields,help:account.field_account_tax_active
 #: model:ir.model.fields,help:account.field_account_tax_template_active
 msgid "Set active to false to hide the tax without removing it."
-msgstr "Set active to false to hide the tax without removing it."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -7364,19 +7364,19 @@ msgstr "Sao kê"
 #: code:addons/account/models/account_bank_statement.py:251
 #, python-format
 msgid "Statement %s confirmed, journal items were created."
-msgstr "Sao kê %s được xác nhận, phát sinh đã được tạo."
+msgstr "Sao kê %s được xác nhận, các phát sinh kế toán đã được tạo."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_line_form
 msgid "Statement Line"
-msgstr "Giao dịch"
+msgstr "Chi tiết Giao dịch"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_ids
 #: model:ir.ui.view,arch_db:account.view_bank_statement_form
 #: model:ir.ui.view,arch_db:account.view_bank_statement_line_tree
 msgid "Statement lines"
-msgstr "Giao dịch"
+msgstr "Chi tiết Giao dịch"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_bank_statement_tree
@@ -7534,7 +7534,7 @@ msgstr "Chi tiết Thuế"
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_template_tax_ids
 #: model:ir.ui.view,arch_db:account.view_account_position_form
 msgid "Tax Mapping"
-msgstr ""
+msgstr "Ánh xạ Thuế"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_name
@@ -7551,7 +7551,7 @@ msgstr "Phạm vi Thuế"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_tax_template_tax_src_id
 msgid "Tax Source"
-msgstr "Nguồn thuế"
+msgstr "Nguồn Thuế"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_search
@@ -7613,7 +7613,7 @@ msgstr "Vị thế Tài khoá Thuế"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_position_template_form
 msgid "Taxes Mapping"
-msgstr ""
+msgstr "Ánh xạ các Thuế"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_search
@@ -7628,7 +7628,7 @@ msgstr "Thuế được sử dụng trong bán hàng"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_balance
 msgid "Technical field holding the debit - credit in order to open meaningful graph views from reports"
-msgstr ""
+msgstr "Trường mang tính kỹ thuật để lưu nợ - có để mở ra giao diện đồ thị từ các báo cáo"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_balance_cash_basis
