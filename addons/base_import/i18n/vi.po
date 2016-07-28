@@ -27,7 +27,7 @@ msgstr "(%d thêm)"
 #: code:addons/base_import/static/src/js/import.js:281
 #, python-format
 msgid "A single column was found in the file, this often means the file separator is incorrect"
-msgstr ""
+msgstr "Có một cột cô độc tìm thấy trong tập tin. Điều này thường có nghĩa là bị lỗi cú pháp ngăn cách (separator) trong tập tin"
 
 #. module: base_import
 #. openerp-web
@@ -111,28 +111,28 @@ msgstr ""
 #: code:addons/base_import/static/src/xml/import.xml:217
 #, python-format
 msgid "CSV file for Manufacturer, Retailer"
-msgstr ""
+msgstr "Tập tin CSV cho Nhà sản xuất, Nhà bán lẻ"
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/import.xml:181
 #, python-format
 msgid "CSV file for Products"
-msgstr ""
+msgstr "Tập tin CSV cho Sản phẩm"
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/import.xml:180
 #, python-format
 msgid "CSV file for categories"
-msgstr ""
+msgstr "Tập tin CSV cho Nhóm/Phân loại"
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/import.xml:250
 #, python-format
 msgid "Can I import several times the same record?"
-msgstr ""
+msgstr "Tôi có thể nhập một bản ghi nhiều lần không?"
 
 #. module: base_import
 #. openerp-web
@@ -147,7 +147,7 @@ msgstr "Hủy bỏ"
 #: code:addons/base_import/static/src/js/import.js:216
 #, python-format
 msgid "Comma"
-msgstr ""
+msgstr "Dấu phẩy"
 
 #. module: base_import
 #. openerp-web
@@ -236,7 +236,7 @@ msgstr "Tạo vào"
 #: code:addons/base_import/static/src/xml/import.xml:244
 #, python-format
 msgid "Customers and their respective contacts"
-msgstr ""
+msgstr "Khách hàng và các liên hệ tương ứng của họ"
 
 #. module: base_import
 #: code:addons/base_import/models.py:149
@@ -298,7 +298,7 @@ msgstr "Mọi thứ dường như hợp lệ."
 #: code:addons/base_import/static/src/xml/import.xml:74
 #, python-format
 msgid "External ID"
-msgstr "External ID"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -354,7 +354,7 @@ msgstr "Tập tin:"
 #: code:addons/base_import/static/src/xml/import.xml:384
 #, python-format
 msgid "For CSV files, the issue could be an incorrect encoding."
-msgstr ""
+msgstr "Đối với các tập tin CSV, vấn đề này có thể là do encoding không đúng."
 
 #. module: base_import
 #. openerp-web
@@ -396,14 +396,14 @@ msgstr "Những câu hỏi thường gặp"
 #: code:addons/base_import/static/src/js/import.js:490
 #, python-format
 msgid "Get all possible values"
-msgstr ""
+msgstr "Lấy ra tất cả các giá trị khả thi"
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import.js:477
 #, python-format
 msgid "Here are the possible values:"
-msgstr ""
+msgstr "Đây là các giá trị khả thi:"
 
 #. module: base_import
 #. openerp-web
@@ -500,7 +500,9 @@ msgid "If the file contains\n"
 "                the column names, Odoo can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
-msgstr ""
+msgstr "Nếu tập tin chứa các tên cột, Odoo sẽ cố gắng nhận diện chúng tự động\n"
+"                để khớp với các trường trong cơ sở dữ liệu. Khả năng này làm\n"
+"                đơn giản hoá quá trình nhập khẩu dữ liệu khi tập tin có nhiều cột."
 
 #. module: base_import
 #. openerp-web
@@ -820,7 +822,7 @@ msgstr ""
 #, python-format
 msgid "The first row of the\n"
 "                file contains the label of the column"
-msgstr ""
+msgstr "Hàng đầu tiên của tập tin chứa nhãn của cột/trường"
 
 #. module: base_import
 #. openerp-web
@@ -828,7 +830,8 @@ msgstr ""
 #, python-format
 msgid "The following CSV file shows how to import \n"
 "                        customers and their respective contacts"
-msgstr ""
+msgstr "Tập tin CSV sau đây thể hiện mẫu cách nhập hàng\n"
+"                        loạt khách hàng và các liên hệ tương ứng"
 
 #. module: base_import
 #. openerp-web
@@ -836,7 +839,8 @@ msgstr ""
 #, python-format
 msgid "The following CSV file shows how to import purchase \n"
 "                        orders with their respective purchase order lines:"
-msgstr ""
+msgstr "Tập tin CSV sau đây thể hiện mẫu cách nhập hàng\n"
+"                        loạt đơn hàng mua và các chi tiết/dòng tương ứng trong đơn hàng"
 
 #. module: base_import
 #. openerp-web
