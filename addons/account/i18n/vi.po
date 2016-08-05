@@ -2707,7 +2707,7 @@ msgstr "Kiểm soát Truy cập"
 #. module: account
 #: model:account.account.type,name:account.data_account_type_direct_costs
 msgid "Cost of Revenue"
-msgstr "Chi phí Bán hàng"
+msgstr "Chi phí Bán hàng Trực tiếp"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:377
@@ -2995,7 +2995,7 @@ msgstr "Nợ ngắn hạn"
 #. module: account
 #: model:account.account.type,name:account.data_unaffected_earnings
 msgid "Current Year Earnings"
-msgstr ""
+msgstr "Thu nhập năm hiện tại"
 
 #. module: account
 #: selection:account.abstract.payment,partner_type:0
@@ -3398,7 +3398,7 @@ msgstr "Hiển thị chi tiết"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template_description
 msgid "Display on Invoices"
-msgstr "Display on Invoices"
+msgstr "Hiển thị trên Hoá đơn"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_display_on_footer
@@ -3409,8 +3409,8 @@ msgstr "Hiển thị tài khoản ngân hàng này trên phần dưới của t�
 #: model:ir.ui.view,arch_db:account.report_overdue_document
 msgid "Document: Customer account statement<br/>\n"
 "                    Date:"
-msgstr "Document: Customer account statement<br/>\n"
-"                    Date:"
+msgstr "Tài liệu: Sao kê tài khoản khách hàng<br/>\n"
+"                    Ngày:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -3443,7 +3443,7 @@ msgstr "Dự thảo"
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "Draft Bill"
-msgstr "Draft Bill"
+msgstr "Hoá đơn Dự thảo"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
@@ -3460,7 +3460,7 @@ msgstr "Hoá đơn dự thảo"
 #: model:ir.ui.view,arch_db:account.invoice_form
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
 msgid "Draft Refund"
-msgstr "Dự thảo hoàn tiền"
+msgstr "Hoàn tiền Dự thảo"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -3506,7 +3506,7 @@ msgstr "Thanh toán đến hạn"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_payment_term_line_tree
 msgid "Due Type"
-msgstr "Due Type"
+msgstr "Kiểu Đến hạn"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_date_maturity
@@ -3517,12 +3517,12 @@ msgstr "Ngày đến hạn"
 #: code:addons/account/models/account_invoice.py:789
 #, python-format
 msgid "Duplicated vendor reference detected. You probably encoded twice the same vendor bill/refund."
-msgstr "Duplicated vendor reference detected. You probably encoded twice the same vendor bill/refund."
+msgstr "Tìm thấy Mã số dẫn chiếu nhà cung cấp bị trùng lặp. Chắc bạn đã ghi nhận hoá đơn/hoàn tiền nhà cung cấp 2 lần."
 
 #. module: account
 #: model:ir.actions.report.xml,name:account.account_invoice_action_report_duplicate
 msgid "Duplicates"
-msgstr "Duplicates"
+msgstr "Nhân bản"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:157
@@ -3530,25 +3530,25 @@ msgstr "Duplicates"
 #: code:addons/account/models/chart_template.py:180
 #, python-format
 msgid "EXCH"
-msgstr "EXCH"
+msgstr ""
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1511
 #, python-format
 msgid "Efficiency at its finest"
-msgstr "Efficiency at its finest"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:848
 #, python-format
 msgid "Either pass both debit and credit or none."
-msgstr "Either pass both debit and credit or none."
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "Hướng dẫn email theo đồ thuật"
+msgstr "Đồ thuật soạn email"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_accounting_report_enable_filter
@@ -3558,12 +3558,12 @@ msgstr "Kích hoạt tính năng so sánh"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_module_account_reports_followup
 msgid "Enable payment followup management"
-msgstr "Enable payment followup management"
+msgstr "Kích hoạt quản lý theo dõi thanh toán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "End"
-msgstr "End"
+msgstr "Kết thúc"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_aged_trial_balance_date_to
@@ -5163,7 +5163,7 @@ msgstr "Tên Pháp lý"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Less Cost of Revenue"
-msgstr "Trừ Chi phí Bán hàng"
+msgstr "Trừ Chi phí Bán hàng Trực tiếp"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
