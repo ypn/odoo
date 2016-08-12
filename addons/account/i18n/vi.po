@@ -1521,7 +1521,7 @@ msgstr "Tài khoản liên quan bởi lần khớp này. Được giả định 
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_amount_currency
 #: model:ir.model.fields,field_description:account.field_account_move_line_amount_currency
 msgid "Amount currency"
-msgstr "Giá trị Ngoại tệ"
+msgstr "Giá trị Nguyên tệ"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_amount_currency
@@ -3138,17 +3138,17 @@ msgstr "Tổng nợ"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_debit_cash_basis
 msgid "Debit cash basis"
-msgstr "Debit cash basis"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_matched_debit_ids
 msgid "Debit journal items that are matched with this journal item."
-msgstr "Debit journal items that are matched with this journal item."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_debit_move_id
 msgid "Debit move id"
-msgstr "Debit move id"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -3174,7 +3174,7 @@ msgstr "Tài khoản ghi nợ mặc định"
 #: model:ir.model.fields,field_description:account.field_account_config_settings_default_purchase_tax_id
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_purchase_tax_id
 msgid "Default Purchase Tax"
-msgstr "Thuế mua hàng mặc định"
+msgstr "Thuế mặc định khi mua"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_default_sale_tax_id
@@ -3184,7 +3184,7 @@ msgstr "Thuế bán hàng mặc định"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_sale_tax_id
 msgid "Default Sales Tax"
-msgstr "Default Sales Tax"
+msgstr "Thuế mặc định khi bán"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tax_ids
@@ -3212,12 +3212,12 @@ msgstr "Thuế bán hàng mặc định"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_bank_account_code_prefix
 msgid "Define the code prefix for the bank accounts"
-msgstr "Define the code prefix for the bank accounts"
+msgstr "Xác định tiền tố cho các mã tài khoản ngân hàng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_cash_account_code_prefix
 msgid "Define the code prefix for the cash accounts"
-msgstr "Define the code prefix for the cash accounts"
+msgstr "Xác định tiền tố cho các mã tài khoản tiền mặt"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -3228,7 +3228,7 @@ msgstr "Định nghĩa"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_deprecated
 msgid "Deprecated"
-msgstr "Deprecated"
+msgstr "Lỗi thời"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_depreciation
@@ -4209,7 +4209,7 @@ msgstr ""
 #: code:addons/account/models/account_bank_statement.py:393
 #, python-format
 msgid "If \"Amount Currency\" is specified, then \"Amount\" must be as well."
-msgstr "Nếu \"Giá trị Ngoại tệ\" được xác định, thì \"Tổng tiền\" cũng phải được xác định."
+msgstr "Nếu \"Giá trị Nguyên tệ\" được xác định, thì \"Tổng tiền\" cũng phải được xác định."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_message_unread
@@ -8630,12 +8630,12 @@ msgstr "Used to register a profit when the ending balance of a cash register dif
 #: model:ir.model.fields,help:account.field_account_partial_reconcile_company_currency_id
 #: model:ir.model.fields,help:account.field_res_partner_currency_id
 msgid "Utility field to express amount currency"
-msgstr "Utility field to express amount currency"
+msgstr "Trường tiện ích để thể hiện giá trị nguyên tệ"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_vat_required
 msgid "VAT required"
-msgstr "VAT required"
+msgstr "VAT là bắt buộc"
 
 #. module: account
 #. openerp-web
@@ -8964,13 +8964,13 @@ msgstr "Bạn không thể thay đổi thuế, bạn phải xóa bỏ và tạo 
 #: code:addons/account/models/account_move.py:406
 #, python-format
 msgid "You cannot create journal items with a secondary currency without filling both 'currency' and 'amount currency' field."
-msgstr "You cannot create journal items with a secondary currency without filling both 'currency' and 'amount currency' field."
+msgstr "Bạn không thể tạo các bút toán sổ nhật ký với tiền tệ thứ hai mà không khai báo trường 'tiền tệ' và 'giá trị nguyên tê'."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:416
 #, python-format
 msgid "You cannot delete an invoice after it has been validated (and received a number). You can set it back to \"Draft\" state and modify its content, then re-confirm it."
-msgstr "You cannot delete an invoice after it has been validated (and received a number). You can set it back to \"Draft\" state and modify its content, then re-confirm it."
+msgstr "Bạn không thể xoá một hoá đơn sau khi đã xác nhận / thẩm định (và đã được cấp một số). Thay vì xoá, bạn có thể huỷ hoặc thiết lập nó về trạng thái \"Dự thảo\" để sửa lại nội dung của nó rồi xác nhận lại."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:414
@@ -8982,15 +8982,14 @@ msgstr "Bạn không thể xóa một hoá đơn mà không thuộc trạng thá
 #: code:addons/account/models/account.py:168
 #, python-format
 msgid "You cannot do that on an account that contains journal items."
-msgstr "You cannot do that on an account that contains journal items."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:1081
 #, python-format
 msgid "You cannot do this modification on a posted journal entry, you can just change some non legal fields. You must revert the journal entry to cancel it.\n"
 "%s."
-msgstr "You cannot do this modification on a posted journal entry, you can just change some non legal fields. You must revert the journal entry to cancel it.\n"
-"%s."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:1083
@@ -9005,8 +9004,7 @@ msgstr "Bạn không thể thực hiện việc chỉnh sửa trên bút toán �
 #, python-format
 msgid "You cannot empty the account number once set.\n"
 "If you would like to delete the account number, you can do it from the Bank Accounts list."
-msgstr "You cannot empty the account number once set.\n"
-"If you would like to delete the account number, you can do it from the Bank Accounts list."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account.py:96
@@ -9039,20 +9037,20 @@ msgstr "Bạn không thể chỉnh sửa một bút toán đã vào sổ của s
 #: code:addons/account/wizard/pos_box.py:36
 #, python-format
 msgid "You cannot put/take money in/out for a bank statement which is closed."
-msgstr "You cannot put/take money in/out for a bank statement which is closed."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account.py:173
 #, python-format
 msgid "You cannot remove/deactivate an account which is set on a customer or vendor."
-msgstr "You cannot remove/deactivate an account which is set on a customer or vendor."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:927
 #: code:addons/account/models/account_move.py:1048
 #, python-format
 msgid "You cannot use deprecated account."
-msgstr "You cannot use deprecated account."
+msgstr "Bạn không được phép sử dụng tài khoản đã đánh dấu lỗi thời"
 
 #. module: account
 #: code:addons/account/models/account_move.py:983
