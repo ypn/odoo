@@ -714,7 +714,7 @@ msgid "Status"
 msgstr "Tình trạng"
 
 #. module: hr_timesheet_sheet
-#: view:hr_timesheet_sheet.sheet:0
+#: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 msgid "Submit to Manager"
 msgstr "Đệ trình cho Quản lý"
 
@@ -754,7 +754,7 @@ msgid "Timesheet"
 msgstr "Bảng chấm công"
 
 #. module: hr_timesheet_sheet
-#: view:hr_timesheet_sheet.sheet:0
+#: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 #: field:hr_timesheet_sheet.sheet,timesheet_activity_count:0
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_sheet_2_hr_analytic_timesheet
 msgid "Timesheet Activities"
@@ -793,7 +793,8 @@ msgid "Timesheet by Account"
 msgstr "Bảng chấm công theo tài khoản"
 
 #. module: hr_timesheet_sheet
-#: view:hr_timesheet_sheet.sheet.account:0
+#: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_form
+#: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_tree
 msgid "Timesheet by Accounts"
 msgstr "Bảng chấm công theo tài khoản"
 
@@ -813,10 +814,12 @@ msgid "Timesheet range"
 msgstr "Chu kỳ chấm công"
 
 #. module: hr_timesheet_sheet
-#: view:hr.employee:0 field:hr.employee,timesheet_count:0
-#: view:hr_timesheet_sheet.sheet:0
+#: view:hr.employee:hr_timesheet_sheet.hr_timesheet_sheet_employee_extd_form
+#: field:hr.employee,timesheet_count:0
+#: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
+#: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_tree_simplified
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_employee_2_hr_timesheet
-#: view:res.company:0
+#: view:res.company:hr_timesheet_sheet.hr_timesheet_sheet_company
 msgid "Timesheets"
 msgstr "Bảng chấm công"
 
@@ -833,7 +836,7 @@ msgid "Timesheets to Validate"
 msgstr "Bảng chấm công cần xác nhận"
 
 #. module: hr_timesheet_sheet
-#: view:hr_timesheet_sheet.sheet:0
+#: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "To Approve"
 msgstr "Cần phê duyệt"
 
@@ -841,7 +844,8 @@ msgstr "Cần phê duyệt"
 #. openerp-web
 #: code:addons/hr_timesheet_sheet/static/src/xml/timesheet.xml:15
 #: code:addons/hr_timesheet_sheet/static/src/xml/timesheet.xml:40
-#: view:hr_timesheet_sheet.sheet.account:0
+#: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_form
+#: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_tree
 #, python-format
 msgid "Total"
 msgstr "Tổng"
@@ -849,17 +853,17 @@ msgstr "Tổng"
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_attendance:0
 msgid "Total Attendance"
-msgstr "Total Attendance"
+msgstr ""
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet.day:0
 msgid "Total Attendances"
-msgstr "Total Attendances"
+msgstr ""
 
 #. module: hr_timesheet_sheet
-#: view:hr_timesheet_sheet.sheet.day:0
+#: view:hr_timesheet_sheet.sheet.day:hr_timesheet_sheet.hr_timesheet_day_tree
 msgid "Total Difference"
-msgstr "Total Difference"
+msgstr ""
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet.account,total:0
@@ -868,15 +872,16 @@ msgstr "Tổng thời gian"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_timesheet:0
-#: view:hr_timesheet_sheet.sheet.day:0
+#: view:hr_timesheet_sheet.sheet.day:hr_timesheet_sheet.hr_timesheet_day_tree
 #: field:hr_timesheet_sheet.sheet.day,total_timesheet:0
 msgid "Total Timesheet"
-msgstr "Total Timesheet"
+msgstr ""
 
 #. module: hr_timesheet_sheet
-#: view:timesheet.report:0 field:timesheet.report,to_invoice:0
+#: view:hr.timesheet.report:hr_timesheet_sheet.view_timesheet_report_search
+#: field:hr.timesheet.report,to_invoice:0
 msgid "Type of Invoicing"
-msgstr "Loại hoá đơn"
+msgstr "Kiểu xuất hoá đơn"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,message_unread:0
@@ -884,7 +889,7 @@ msgid "Unread Messages"
 msgstr "Thông điệp chưa đọc"
 
 #. module: hr_timesheet_sheet
-#: view:hr_timesheet_sheet.sheet:0
+#: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Unvalidated Timesheets"
 msgstr "Bảng chấm công chưa được thẩm định"
 
@@ -896,8 +901,8 @@ msgid "User"
 msgstr "Người dùng"
 
 #. module: hr_timesheet_sheet
-#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:493
-#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:512
+#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:496
+#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:515
 #, python-format
 msgid "User Error!"
 msgstr "Lỗi người dùng!"
@@ -905,7 +910,7 @@ msgstr "Lỗi người dùng!"
 #. module: hr_timesheet_sheet
 #: field:hr.config.settings,timesheet_range:0
 msgid "Validate timesheets every"
-msgstr "Validate timesheets every"
+msgstr ""
 
 #. module: hr_timesheet_sheet
 #: selection:hr_timesheet_sheet.sheet,state:0
@@ -922,17 +927,17 @@ msgstr "Cảnh báo !"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:128
 #, python-format
 msgid "Warning!"
-msgstr "Cảnh báo !"
+msgstr "Cảnh báo!"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "Thông điệp Website"
 
 #. module: hr_timesheet_sheet
 #: help:hr_timesheet_sheet.sheet,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "Lịch sử thông tin liên lạc website"
 
 #. module: hr_timesheet_sheet
 #: selection:hr.config.settings,timesheet_range:0
@@ -965,14 +970,12 @@ msgid ""
 "You can not enter an attendance in a submitted timesheet. Ask your manager "
 "to reset it before adding attendance."
 msgstr ""
-"You can not enter an attendance in a submitted timesheet. Ask your manager "
-"to reset it before adding attendance."
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:255
 #, python-format
 msgid "You cannot delete a timesheet which have attendance entries."
-msgstr "You cannot delete a timesheet which have attendance entries."
+msgstr ""
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:253
@@ -987,7 +990,7 @@ msgid "You cannot duplicate a timesheet."
 msgstr "Bạn không thể sao chép một bảng chấm công."
 
 #. module: hr_timesheet_sheet
-#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:512
+#: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:515
 #, python-format
 msgid ""
 "You cannot enter an attendance date outside the current timesheet dates."
@@ -1016,7 +1019,7 @@ msgstr ""
 #. module: hr_timesheet_sheet
 #: constraint:hr.analytic.timesheet:0
 msgid "You cannot modify an entry in a Confirmed/Done timesheet !"
-msgstr "You cannot modify an entry in a Confirmed/Done timesheet !"
+msgstr ""
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:519
@@ -1038,8 +1041,6 @@ msgid ""
 "You will be able to register your working hours and\n"
 "                        activities."
 msgstr ""
-"You will be able to register your working hours and\n"
-"                        activities."
 
 #. module: hr_timesheet_sheet
 #: view:hr.timesheet.current.open:hr_timesheet_sheet.view_hr_timesheet_current_open
