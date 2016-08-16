@@ -248,6 +248,13 @@ msgid "Click to define a new delivery method."
 msgstr "Bấm để định nghĩa một phương thức giao nhận mới."
 
 #. module: delivery
+#: model:ir.model.fields,help:delivery.field_delivery_carrier_uos_coeff
+msgid ""
+"Coefficient to convert default Unit of Measure to Unit of Sale uos = uom * "
+"coeff"
+msgstr ""
+
+#. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_color
 msgid "Color Index"
 msgstr "Mã mầu"
@@ -556,7 +563,13 @@ msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự c
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_valuation
-msgid "If perpetual valuation is enabled for a product, the system will automatically create journal entries corresponding to stock moves, with product price as specified by the 'Costing Method'The inventory variation account set on the product category will represent the current inventory value, and the stock input and stock output account will hold the counterpart moves for incoming and outgoing products."
+msgid ""
+"If perpetual valuation is enabled for a product, the system will "
+"automatically create journal entries corresponding to stock moves, with "
+"product price as specified by the 'Costing Method'The inventory variation "
+"account set on the product category will represent the current inventory "
+"value, and the stock input and stock output account will hold the "
+"counterpart moves for incoming and outgoing products."
 msgstr ""
 
 #. module: delivery
@@ -566,17 +579,24 @@ msgstr "Nếu giá trị đơn hàng đạt đến một con số nhất định
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_active
-msgid "If unchecked, it will allow you to hide the product without removing it."
+msgid ""
+"If unchecked, it will allow you to hide the product without removing it."
 msgstr "Nếu bỏ đánh dấu, nó sẽ cho phép bạn ẩn sản phẩm mà không cần xóa bỏ nó."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_expense_policy
-msgid "If you invoice at cost, the expense will be invoiced on the sale order at the cost of the analytic line;if you invoice at sales price, the price of the product will be used instead."
-msgstr "If you invoice at cost, the expense will be invoiced on the sale order at the cost of the analytic line;if you invoice at sales price, the price of the product will be used instead."
+msgid ""
+"If you invoice at cost, the expense will be invoiced on the sale order at "
+"the cost of the analytic line;if you invoice at sales price, the price of "
+"the product will be used instead."
+msgstr "Nếu bạn xuất hóa đơn theo giá thành, chi phí sẽ được xuất hóa đơn trên lệnh bán hàng theo chi phí của dòng phát sinh kế toán quản trị; Nếu bạn xuất hóa đơn theo giá bán, giá của sản phẩm sẽ được sử dụng thay thế"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_image
-msgid "Image of the product variant (Big-sized image of product template if false). It is automatically resized as a 1024x1024px image, with aspect ratio preserved."
+msgid ""
+"Image of the product variant (Big-sized image of product template if false)."
+" It is automatically resized as a 1024x1024px image, with aspect ratio "
+"preserved."
 msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước lớn của sản phẩm). Nó sẽ tự động thay đổi kích thước thành 1024x10024 mà vẫn giữ nguyên tỷ lệ."
 
 #. module: delivery
