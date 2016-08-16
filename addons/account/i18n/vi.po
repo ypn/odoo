@@ -7932,13 +7932,13 @@ msgstr "Tài khoản đối tác được sử dụng cho hoá đơn này."
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_has_unreconciled_entries
 msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
-msgstr "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:826
 #, python-format
 msgid "The partner has to be the same on all lines for receivable and payable accounts!"
-msgstr "The partner has to be the same on all lines for receivable and payable accounts!"
+msgstr "Phải là cùng một đối tác cho tất tất cả các dòng chứa tài khoản phải thu và phải trả"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_reference
@@ -7949,17 +7949,17 @@ msgstr "Tham chiếu đối tác của hoá đơn này"
 #: code:addons/account/models/account_payment.py:323
 #, python-format
 msgid "The payment cannot be processed because the invoice is not open!"
-msgstr "The payment cannot be processed because the invoice is not open!"
+msgstr "Khoản thanh toán không thể xử lý được vì hoá đơn liên quan không ở trạng thái Mở"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_amount_residual_currency
 msgid "The residual amount on a journal item expressed in its currency (possibly not the company currency)."
-msgstr "The residual amount on a journal item expressed in its currency (possibly not the company currency)."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_amount_residual
 msgid "The residual amount on a journal item expressed in the company currency."
-msgstr "The residual amount on a journal item expressed in the company currency."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:399
@@ -7977,25 +7977,25 @@ msgstr "Đơn vị tính được chọn không tương thích với đơn vị 
 #: model:ir.model.fields,help:account.field_account_tax_sequence
 #: model:ir.model.fields,help:account.field_account_tax_template_sequence
 msgid "The sequence field is used to define order in which the tax lines are applied."
-msgstr "The sequence field is used to define order in which the tax lines are applied."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:441
 #, python-format
 msgid "The sequence of journal %s is deactivated."
-msgstr "The sequence of journal %s is deactivated."
+msgstr "Trình tự của sổ nhật ký %s thì đang bị vô hoạt."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:171
 #, python-format
 msgid "There is no account defined on the journal %s for %s involved in a cash difference."
-msgstr "There is no account defined on the journal %s for %s involved in a cash difference."
+msgstr "Khoog có tài khoản kế toán được xác định cho sổ nhật ký %s đối với %s liên quan đến sự bất đồng/chênh lệch tiền mặt."
 
 #. module: account
 #: code:addons/account/wizard/account_validate_account_move.py:18
 #, python-format
 msgid "There is no journal items in draft state to post."
-msgstr "There is no journal items in draft state to post."
+msgstr "Không có một phát sinh kế toán nào ở trạng thái dự thảo để có thể vào sổ cả."
 
 #. module: account
 #. openerp-web

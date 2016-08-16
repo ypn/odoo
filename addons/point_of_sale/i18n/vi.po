@@ -580,7 +580,7 @@ msgstr "Số tiền"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_account_journal_amount_authorized_diff
 msgid "Amount Authorized Difference"
-msgstr "Amount Authorized Difference"
+msgstr "Chênh lệch số tiền được phép"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_order_tree
@@ -3411,22 +3411,22 @@ msgstr "Tài khoản được sử dụng mặc định như là tài khoản ph
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_account_journal_amount_authorized_diff
 msgid "This field depicts the maximum difference allowed between the ending balance and the theoretical cash when closing a session, for non-POS managers. If this maximum is reached, the user will have an error message at the closing of his session saying that he needs to contact his manager."
-msgstr "This field depicts the maximum difference allowed between the ending balance and the theoretical cash when closing a session, for non-POS managers. If this maximum is reached, the user will have an error message at the closing of his session saying that he needs to contact his manager."
+msgstr "Trường này giới hạn sự chênh lệch số liệu tiền mặt cho phép giữa số dư đóng sổ và số dư tính tính toán (lý thuyết), áp dụng cho người không phải người quản lý PoS. Nếu số chênh lệch lớn hơn hoặc bằng số này thì người sử dụng PoS sẽ nhận được một thông điệp báo lỗi khi đóng phiên của anh/cô ấy và yêu cầu anh/cô ấy liên lạc với người quản lý."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_category_image
 msgid "This field holds the image used as image for the cateogry, limited to 1024x1024px."
-msgstr "This field holds the image used as image for the cateogry, limited to 1024x1024px."
+msgstr "Trưởng này lưu trữ hình ảnh đại diện cho nhóm, giới hạn ở kích thước 1024x1024px."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_pos_manager_id
 msgid "This field is there to pass the id of the pos manager group to the point of sale client"
-msgstr "This field is there to pass the id of the pos manager group to the point of sale client"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_pos_user_id
 msgid "This field is there to pass the id of the pos user group to the point of sale client"
-msgstr "This field is there to pass the id of the pos user group to the point of sale client"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_module_pos_restaurant
@@ -3437,32 +3437,26 @@ msgid "This module adds several restaurant features to the Point of Sale: \n"
 "- Bill Splitting: Allows you to split an order into different orders \n"
 "\n"
 "- Kitchen Order Printing: allows you to print orders updates to kitchen or bar printers"
-msgstr "This module adds several restaurant features to the Point of Sale: \n"
-"\n"
-"- Bill Printing: Allows you to print a receipt before the order is paid \n"
-"\n"
-"- Bill Splitting: Allows you to split an order into different orders \n"
-"\n"
-"- Kitchen Order Printing: allows you to print orders updates to kitchen or bar printers"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:261
 #, python-format
 msgid "This operation will permanently destroy all paid orders from the local storage. You will lose all the data. This operation cannot be undone."
-msgstr "This operation will permanently destroy all paid orders from the local storage. You will lose all the data. This operation cannot be undone."
+msgstr "Hoạt động này sẽ huỷ vĩnh viễn toàn bộ các đơn hàng khỏi nơi lưu trữ cục bộ ở thiết bị của bạn. Bạn sẽ mất toàn bộ dữ liệu. Hoạt động này không thể quay lại một khi đã được thực hiện."
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:271
 #, python-format
 msgid "This operation will permanently destroy all unpaid orders from all sessions that have been put in the local storage. You will lose all the data and exit the point of sale. This operation cannot be undone."
-msgstr "This operation will permanently destroy all unpaid orders from all sessions that have been put in the local storage. You will lose all the data and exit the point of sale. This operation cannot be undone."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_supplier_payment_term_id
 msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
-msgstr "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_payment_term_id
