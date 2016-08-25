@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-21 09:18+0000\n"
-"PO-Revision-Date: 2016-07-20 03:11+0000\n"
+"POT-Creation-Date: 2016-08-17 07:54+0000\n"
+"PO-Revision-Date: 2016-08-17 08:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_expense
+#: model:ir.ui.view,arch_db:hr_expense.report_expense
+msgid "<strong>Currency:</strong>"
+msgstr "<strong>Tiền tệ:</strong>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense
@@ -31,6 +36,16 @@ msgstr "<strong>Mô tả:</strong>"
 #: model:ir.ui.view,arch_db:hr_expense.report_expense
 msgid "<strong>Employee:</strong>"
 msgstr "<strong>Nhân viên:</strong>"
+
+#. module: hr_expense
+#: model:ir.ui.view,arch_db:hr_expense.report_expense
+msgid "<strong>Manager:</strong>"
+msgstr "<strong>Quản lý:</strong>"
+
+#. module: hr_expense
+#: model:ir.ui.view,arch_db:hr_expense.report_expense
+msgid "<strong>Status:</strong>"
+msgstr "<strong>Tình trạng:</strong>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense
@@ -738,7 +753,7 @@ msgstr "Đơn giá"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_product_uom_id
 msgid "Unit of Measure"
-msgstr "Đơn vị đo lường"
+msgstr "Đơn vị tính"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_message_unread
