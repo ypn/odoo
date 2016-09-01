@@ -128,7 +128,8 @@ msgstr "\n"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_state
-msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed Invoice.\n"
+msgid ""
+" * The 'Draft' status is used when a user is encoding a new and unconfirmed Invoice.\n"
 " * The 'Pro-forma' status is used the invoice does not have an invoice number.\n"
 " * The 'Open' status is used when user create invoice, an invoice number is generated. Its in open status till user does not pay invoice.\n"
 " * The 'Paid' status is set automatically when the invoice is paid. Its related journal entries may or may not be reconciled.\n"
@@ -175,15 +176,15 @@ msgid "%d transactions were automatically reconciled."
 msgstr "%d giao dịch đã được đối soát tự động."
 
 #. module: account
-#: code:addons/account/models/account.py:528
+#: code:addons/account/models/account.py:558
 #, python-format
 msgid "%s (Copy)"
 msgstr "%s (Bản sao)"
 
 #. module: account
 #: code:addons/account/models/account.py:152
-#: code:addons/account/models/account.py:295
-#: code:addons/account/models/account.py:296
+#: code:addons/account/models/account.py:309
+#: code:addons/account/models/account.py:310
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (bản sao)"
@@ -222,7 +223,7 @@ msgstr "15 Ngày"
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_net
 msgid "30 Net Days"
-msgstr "30 ngày Net"
+msgstr "30 ngày từ ngày hoá đơn"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance
@@ -2705,12 +2706,13 @@ msgid "Control-Access"
 msgstr "Kiểm soát Truy cập"
 
 #. module: account
+#: code:addons/account/models/account_payment.py:377
 #: model:account.account.type,name:account.data_account_type_direct_costs
 msgid "Cost of Revenue"
 msgstr "Chi phí Bán hàng Trực tiếp"
 
 #. module: account
-#: code:addons/account/models/account_payment.py:377
+#: code:addons/account/models/account_payment.py:388
 #: model:ir.model.fields,field_description:account.field_account_move_line_counterpart
 #, python-format
 msgid "Counterpart"
