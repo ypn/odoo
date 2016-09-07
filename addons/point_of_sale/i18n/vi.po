@@ -13,7 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_users_supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "SL Hoá đơn NCC"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_nbr
@@ -21,9 +27,9 @@ msgid "# of Lines"
 msgstr "Số lượng dòng"
 
 #. module: point_of_sale
-#: model:ir.model.fields,field_description:point_of_sale.field_res_users_sale_order_count
-msgid "# of Sales Order"
-msgstr "# Đơn hàng"
+#: model:ir.model.fields,field_description:point_of_sale.field_res_users_purchase_order_count
+msgid "# of Purchase Order"
+msgstr "# Đơn hàng mua"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3420,12 +3426,26 @@ msgstr "Trưởng này lưu trữ hình ảnh đại diện cho nhóm, giới h�
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_pos_manager_id
-msgid "This field is there to pass the id of the pos manager group to the point of sale client"
+msgid ""
+"This field is there to pass the id of the pos manager group to the point of "
+"sale client"
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_pos_user_id
-msgid "This field is there to pass the id of the pos user group to the point of sale client"
+msgid ""
+"This field is there to pass the id of the pos user group to the point of "
+"sale client"
+msgstr ""
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_module_google_calendar
+msgid "This installs the module google_calendar."
+msgstr ""
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_module_google_drive
+msgid "This installs the module google_docs."
 msgstr ""
 
 #. module: point_of_sale
@@ -3489,27 +3509,35 @@ msgid "Those categories are used to group similar products for point of sale."
 msgstr "Those categories are used to group similar products for point of sale."
 
 #. module: point_of_sale
+#: model:product.product,name:point_of_sale.timmermans_kriek_37,5cl
+#: model:product.template,name:point_of_sale.timmermans_kriek_37,5cl_product_template
+msgid "Timmermans Kriek 37.5cl"
+msgstr ""
+
+#. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:629
 #, python-format
 msgid "Tip"
-msgstr "Tip"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_tip_product_id
 msgid "Tip Product"
-msgstr "Tip Product"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_template_to_weight
 msgid "To Weigh With Scale"
-msgstr "To Weigh With Scale"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1074
 #, python-format
-msgid "To return product(s), you need to open a session that will be used to register the refund."
-msgstr "To return product(s), you need to open a session that will be used to register the refund."
+msgid ""
+"To return product(s), you need to open a session that will be used to "
+"register the refund."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
@@ -3598,7 +3626,7 @@ msgstr "Tổng cuối kỳ tiền mặt."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session_cash_register_balance_start
 msgid "Total of opening cash control lines."
-msgstr "Total of opening cash control lines."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_order_line
@@ -3620,7 +3648,17 @@ msgid "Trade Receivables"
 msgstr "Khoản phải thu"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1000
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_google_drive_uri
+msgid "URI"
+msgstr ""
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_server_uri
+msgid "URI for tuto"
+msgstr ""
+
+#. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:985
 #, python-format
 msgid "Unable to cancel the picking."
 msgstr "Không thể hủy bỏ giao nhận"
@@ -3628,8 +3666,10 @@ msgstr "Không thể hủy bỏ giao nhận"
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:508
 #, python-format
-msgid "Unable to open the session. You have to assign a sale journal to your point of sale."
-msgstr "Unable to open the session. You have to assign a sale journal to your point of sale."
+msgid ""
+"Unable to open the session. You have to assign a sale journal to your point "
+"of sale."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line_price_unit
@@ -3652,19 +3692,18 @@ msgstr "Lỗi không xác định"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:1221
+#: code:addons/point_of_sale/static/src/js/screens.js:1218
 #, python-format
 msgid "Unsupported File Format"
-msgstr "Định dạng tập tin không hỗ trợ"
+msgstr "Định dạng tập tin không được hỗ trợ"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_pos_form
-msgid "Use this menu to browse previous orders. To record new\n"
+msgid ""
+"Use this menu to browse previous orders. To record new\n"
 "                orders, you may use the menu <i>Your Session</i> for\n"
 "                the touchscreen interface."
-msgstr "Use this menu to browse previous orders. To record new\n"
-"                orders, you may use the menu <i>Your Session</i> for\n"
-"                the touchscreen interface."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_sales_by_user_pos_month_user_id
@@ -3684,7 +3723,7 @@ msgstr "Nhãn Người dùng"
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_pos_users_product
 #: model:ir.ui.view,arch_db:point_of_sale.report_usersproduct
 msgid "User's Product"
-msgstr "User's Product"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -3698,11 +3737,6 @@ msgstr "Người dùng:"
 #: model:ir.model,name:point_of_sale.model_res_users
 msgid "Users"
 msgstr "Người dùng"
-
-#. module: point_of_sale
-#: model:ir.model.fields,help:point_of_sale.field_res_users_currency_id
-msgid "Utility field to express amount currency"
-msgstr "Utility field to express amount currency"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3726,7 +3760,7 @@ msgstr "Thẩm định đóng & Vào sổ các bút toán"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_property_stock_supplier
 msgid "Vendor Location"
-msgstr "Vendor Location"
+msgstr "Địa điểm Người bán"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_property_supplier_payment_term_id
@@ -3744,11 +3778,17 @@ msgid "Warehouse"
 msgstr "Kho hàng"
 
 #. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:1600
+#, python-format
+msgid "Weighted Product"
+msgstr "Sản phẩm Được cân"
+
+#. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1180
 #, python-format
 msgid "Weighting"
-msgstr "Weighting"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -3759,15 +3799,31 @@ msgid "With a"
 msgstr "Bằng một"
 
 #. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_group_light_multi_company
+msgid ""
+"Work in multi-company environments, with appropriate security access between"
+" companies."
+msgstr ""
+
+#. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Year"
 msgstr "Năm"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:786
+#: model:product.product,name:point_of_sale.poivron_jaunes
+#: model:product.template,name:point_of_sale.poivron_jaunes_product_template
+msgid "Yellow Peppers"
+msgstr "Hạt tiêu Vàng"
+
+#. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:771
 #, python-format
-msgid "You cannot change the partner of a POS order for which an invoice has already been issued."
-msgstr "You cannot change the partner of a POS order for which an invoice has already been issued."
+msgid ""
+"You cannot change the partner of a POS order for which an invoice has "
+"already been issued."
+msgstr ""
+"Bạn không được thay đổi đối tác trên đơn hàng ở Điểm bán lẻ (PoS) mà đã xuất hoá đơn."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:621
@@ -3786,10 +3842,14 @@ msgid "You cannot create two active sessions with the same responsible!"
 msgstr "Bạn không thể tạo hai phiên làm việc cho cùng một người chịu trách nhiệm!"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1569
+#: code:addons/point_of_sale/point_of_sale.py:1554
 #, python-format
-msgid "You cannot delete a product saleable in point of sale while a session is still opened."
-msgstr "You cannot delete a product saleable in point of sale while a session is still opened."
+msgid ""
+"You cannot delete a product saleable in point of sale while a session is "
+"still opened."
+msgstr ""
+"Bạn không được xoá một sản phẩm bán được ở Điểm bán lẻ (PoS) khi mà có tồn "
+"tại một phiên chưa đóng."
 
 #. module: point_of_sale
 #. openerp-web
@@ -4070,16 +4130,16 @@ msgstr "đơn hàng chưa thanh toán"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1038
 #, python-format
 msgid "unpaid orders could not be imported"
-msgstr "unpaid orders could not be imported"
+msgstr "đơn hàng chưa thanh toán không thể nhập (import) vào được"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_uuid
 msgid "uuid"
-msgstr "uuid"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1040
 #, python-format
 msgid "were duplicates of existing orders"
-msgstr ""
+msgstr "bị trùng lặp với đơn hàng đã có"
