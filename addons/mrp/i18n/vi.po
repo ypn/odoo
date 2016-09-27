@@ -2295,6 +2295,15 @@ msgstr "Bạn không thể xóa một BoM có các lệnh sản xuất (MO) đan
 "Vui lòng đóng hoặc hủy các lệnh sản xuất liên quan trước."
 
 #. module: mrp
+#: code:addons/mrp/wizard/mrp_product_produce.py:128
+#, python-format
+msgid ""
+"You plan to consume more than 1.00 unit of product %s with unique lot number"
+" %s"
+msgstr ""
+"Bạn lập kế hoạch tiêu thụ nhiều hơn 1.00 đơn vị sản phẩm %s có số series %s"
+
+#. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_product_template_form_inherited
 msgid "days"
 msgstr "ngày"

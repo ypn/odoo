@@ -18,7 +18,8 @@ msgstr ""
 
 #. module: account_voucher
 #: model:ir.model.fields,help:account_voucher.field_account_voucher_state
-msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed Voucher.\n"
+msgid ""
+" * The 'Draft' status is used when a user is encoding a new and unconfirmed Voucher.\n"
 " * The 'Pro-forma' status is used when the voucher does not have a voucher number.\n"
 " * The 'Posted' status is used when user create voucher,a voucher number is generated and voucher entries are created in account.\n"
 " * The 'Cancelled' status is used when user cancel voucher."
@@ -82,7 +83,7 @@ msgstr "Thông tin hoá đơn"
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_reference
 msgid "Bill Reference"
-msgstr "Bill Reference"
+msgstr "Tham chiếu Hoá đơn"
 
 #. module: account_voucher
 #: model:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
@@ -92,7 +93,7 @@ msgstr "Hủy"
 #. module: account_voucher
 #: model:ir.ui.view,arch_db:account_voucher.view_sale_receipt_form
 msgid "Cancel Receipt"
-msgstr "Hủy biên lai"
+msgstr "Hủy Biên lai"
 
 #. module: account_voucher
 #: selection:account.voucher,state:0
@@ -632,13 +633,14 @@ msgstr "Khi một biên lai mua hàng được xác nhận, bạn có thể ghi 
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_sale_receipt
-msgid "When the sale receipt is confirmed, you can record the customer\n"
+msgid ""
+"When the sale receipt is confirmed, you can record the customer\n"
 "                payment related to this sales receipt."
 msgstr "Khi một biên lai bán hàng được xác nhận, bạn có thể ghi nhận thanh\n"
 "                toán liên quan đến biên lai bán hàng này."
 
 #. module: account_voucher
-#: code:addons/account_voucher/account_voucher.py:348
+#: code:addons/account_voucher/account_voucher.py:345
 #, python-format
 msgid "You must first select a partner!"
 msgstr "Trước tiên bạn phải chọn một đối tác!"
