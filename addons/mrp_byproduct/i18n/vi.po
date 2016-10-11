@@ -31,13 +31,13 @@ msgstr ""
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_subproduct
 msgid "Byproduct"
-msgstr ""
+msgstr "Phụ phẩm"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_bom_sub_products
 #: model:ir.ui.view,arch_db:mrp_byproduct.mrp_subproduct_view
 msgid "Byproducts"
-msgstr ""
+msgstr "Phụ phẩm"
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_change_production_qty
@@ -65,6 +65,12 @@ msgid ""
 "BoM / quantity of manufactured product set on the BoM * quantity of "
 "manufactured product in the production order.)'"
 msgstr ""
+"Xác định cách thức mà số lượng phụ phẩm sẽ được thiết lập ở lệnh sản xuất "
+"sử dụng BoM. 'Có định' mô tả một tình huống mà số lượng phụ phẩm tạo ra "
+"bằng số lượng được thiết lập ở BoM, mà không quan tâm thực tế được tạo ra "
+"bao nhiêu trong quá trình sản xuất. Ngược lại, 'Biến thiên' có nghĩa là "
+"số lượng sẽ được tính toán bằng '(số lương phụ phẩm thiết lập ở BoM / số lượng "
+"thành phẩm thiết lập ở BoM * số lượng thành phẩm được sản xuất thực tế)'"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_display_name
@@ -74,7 +80,7 @@ msgstr "Tên hiển thị"
 #. module: mrp_byproduct
 #: selection:mrp.subproduct,subproduct_type:0
 msgid "Fixed"
-msgstr "Đã sửa"
+msgstr "Cố định"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_id
@@ -84,17 +90,17 @@ msgstr "ID"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct___last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "Sửa lần cuối"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_id
@@ -104,12 +110,12 @@ msgstr "Sản phẩm"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_qty
 msgid "Product Qty"
-msgstr "Số lượng sản phẩm"
+msgstr "SL sản phẩm"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_uom
 msgid "Product Unit of Measure"
-msgstr "Đơn vị tính của sản phẩm"
+msgstr "Đơn vị đo lường sản phẩm"
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_production
@@ -120,7 +126,7 @@ msgstr "Sản phẩm"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_subproduct_type
 msgid "Quantity Type"
-msgstr ""
+msgstr "Kiểu Số lượng"
 
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/mrp_byproduct.py:45
@@ -135,7 +141,7 @@ msgstr ""
 #. module: mrp_byproduct
 #: selection:mrp.subproduct,subproduct_type:0
 msgid "Variable"
-msgstr "Thay đổi"
+msgstr "Biến thiên"
 
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/mrp_byproduct.py:45
