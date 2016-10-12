@@ -1,18 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * sales_team
+#	* sales_team
 #
-# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 14:08+0000\n"
-"PO-Revision-Date: 2016-07-20 03:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/"
-"vi/)\n"
-"Language: vi\n"
+"POT-Creation-Date: 2016-10-12 14:00+0000\n"
+"PO-Revision-Date: 2016-10-12 14:00+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,28 +20,28 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:91
 #, python-format
 msgid "3 exp. closing"
-msgstr ""
+msgstr "3 được chờ đóng"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:137
 #, python-format
 msgid "35,029.39€"
-msgstr ""
+msgstr "35,029.39€"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:124
 #, python-format
 msgid "78,140.03€"
-msgstr ""
+msgstr "78,140.03€"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:169
 #, python-format
 msgid "80.000€"
-msgstr ""
+msgstr "80.000€"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_view_kanban
@@ -59,7 +56,7 @@ msgstr "<span>Báo cáo</span>"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_view_kanban
 msgid "<span>View</span>"
-msgstr "<span>Giao diện</span>"
+msgstr "<span>Xem</span>"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_active
@@ -71,14 +68,40 @@ msgstr "Kích hoạt"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:114
 #, python-format
 msgid "Activities Done"
-msgstr "Hoạt động Hoàn thành"
+msgstr "Hoạt động đã Hoàn thành"
+
+#. module: sales_team
+#: model:ir.ui.view,arch_db:sales_team.view_sale_config_settings
+msgid "Apply"
+msgstr "Áp dụng"
+
+#. module: sales_team
+#: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
+msgid "Archived"
+msgstr "Đã lưu "
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_action_res_partner_bank_form
+#: model:ir.ui.menu,name:sales_team.menu_config_bank_accounts
+msgid "Bank Accounts"
+msgstr "Tài khoản ngân hàng"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_action_res_bank_form
+msgid "Banks"
+msgstr "Ngân hàng"
+
+#. module: sales_team
+#: model:ir.ui.view,arch_db:sales_team.view_sale_config_settings
+msgid "Cancel"
+msgstr "Hủy"
 
 #. module: sales_team
 #: model:ir.actions.act_window,help:sales_team.crm_team_act
 #: model:ir.actions.act_window,help:sales_team.crm_team_salesteams_act
 #: model:ir.actions.act_window,help:sales_team.sales_team_config_action
 msgid "Click here to define a new sales team."
-msgstr ""
+msgstr "Bấm để định nghĩa một Đội bán hàng mới"
 
 #. module: sales_team
 #. openerp-web
@@ -91,12 +114,7 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:182
 #, python-format
 msgid "Click to set"
-msgstr ""
-
-#. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team_code
-msgid "Code"
-msgstr "Mã"
+msgstr "Bấm để thiết lập"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_color
@@ -110,21 +128,69 @@ msgid "Company"
 msgstr "Công ty"
 
 #. module: sales_team
-#. openerp-web
-#: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:215
-#, python-format
-msgid "Create a few opportunities to activate your dashboard."
+#: model:ir.ui.menu,name:sales_team.menu_sale_config
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#. module: sales_team
+#: model:ir.actions.act_window,name:sales_team.action_sale_config
+#: model:ir.ui.view,arch_db:sales_team.view_sale_config_settings
+msgid "Configure Sales"
+msgstr "Cấu hình Bán hàng"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_partner_category_form
+msgid "Contact Tags"
+msgstr "Tag Liên hệ"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_partner_title_contact
+msgid "Contact Titles"
 msgstr ""
 
 #. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_config_address_book
+msgid "Contacts"
+msgstr "Liên hệ"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_country_partner
+msgid "Countries"
+msgstr "Quốc gia"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_country_group
+msgid "Country Group"
+msgstr "Nhóm Quốc gia"
+
+#. module: sales_team
+#. openerp-web
+#: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:215
+#, python-format
+msgid "Create a few opportunities in it."
+msgstr "Tạo một vài cơ hội bên trong nó."
+
+#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_create_uid
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings_create_uid
 msgid "Created by"
 msgstr "Được tạo bởi"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_create_date
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings_create_date
 msgid "Created on"
 msgstr "Được tạo vào"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_action_currency_form
+msgid "Currencies"
+msgstr "Tiền tệ"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_partner_form
+msgid "Customers"
+msgstr "Khách hàng"
 
 #. module: sales_team
 #. openerp-web
@@ -133,31 +199,35 @@ msgstr "Được tạo vào"
 #: model:ir.ui.menu,name:sales_team.menu_sales_team_act
 #, python-format
 msgid "Dashboard"
-msgstr ""
+msgstr "Bảng thông tin"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
 msgid "Direct Sales"
-msgstr ""
+msgstr "Bán trực tiếp"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_display_name
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings_display_name
 msgid "Display Name"
 msgstr "Tên hiển thị"
 
 #. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_country_state_partner
+msgid "Fed. States"
+msgstr "Tiểu bang/Tỉnh thành TƯ"
+
+#. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
-msgid ""
-"Follow this salesteam to automatically track the events associated to users "
-"of this team."
-msgstr ""
+msgid "Follow this salesteam to automatically track the events associated to users of this team."
+msgstr "Theo dõi (follow) đội bán hàng này để tự động truy vết các sự kiện gắn với các thành viên của đội này."
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:214
 #, python-format
 msgid "Great sales journeys start with a clean pipeline."
-msgstr ""
+msgstr "Một hành trình bán hàng hoàn hảo được bắt đầu bằng một pipeline sạch"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -169,34 +239,40 @@ msgstr "Nhóm theo..."
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:213
 #, python-format
 msgid "Hi there!"
-msgstr ""
+msgstr "Xin chào!"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_id
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings_id
 msgid "ID"
 msgstr "ID"
 
 #. module: sales_team
+#: model:ir.model.fields,help:sales_team.field_res_partner_team_id
+#: model:ir.model.fields,help:sales_team.field_res_users_team_id
+msgid "If set, sale team used notably for sales and assignations related to this partner"
+msgstr ""
+
+#. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_active
-msgid ""
-"If the active field is set to false, it will allow you to hide the sales "
-"team without removing it."
+msgid "If the active field is set to false, it will allow you to hide the sales team without removing it."
 msgstr ""
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
 msgid "Indirect Sales"
-msgstr ""
+msgstr "Bán gián tiếp"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:140
 #, python-format
 msgid "Invoiced"
-msgstr "Đã xuất hóa đơn"
+msgstr "Đã xuất Hoá đơn"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team___last_update
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings___last_update
 msgid "Last Modified on"
 msgstr "Sửa lần cuối vào"
 
@@ -205,17 +281,29 @@ msgstr "Sửa lần cuối vào"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:188
 #, python-format
 msgid "Last Month"
-msgstr ""
+msgstr "Tháng trước"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_write_uid
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_write_date
+#: model:ir.model.fields,field_description:sales_team.field_sale_config_settings_write_date
 msgid "Last Updated on"
 msgstr "Cập nhật lần cuối"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_localisation
+msgid "Localization"
+msgstr "Địa phương hoá"
+
+#. module: sales_team
+#: model:res.groups,name:sales_team.group_sale_manager
+msgid "Manager"
+msgstr "Quản lý"
 
 #. module: sales_team
 #. openerp-web
@@ -227,33 +315,33 @@ msgstr "Các cuộc gặp"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_view_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr ""
+msgstr "Thêm <i class=\"fa fa-caret-down\"/>"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "More Info"
-msgstr ""
+msgstr "Thông tin thêm"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:42
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:44
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:216
-#, fuzzy, python-format
+#, python-format
 msgid "My Pipeline"
 msgstr "Đường dẫn pipeline của bạn"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
 msgid "My Salesteams"
-msgstr ""
+msgstr "Đội Bán hàng của tôi"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:50
 #, python-format
 msgid "Next 7 days"
-msgstr ""
+msgstr "Bảy Ngày tiếp"
 
 #. module: sales_team
 #. openerp-web
@@ -264,10 +352,10 @@ msgstr "Các Hành động Kế tiếp"
 
 #. module: sales_team
 #. openerp-web
-#: code:addons/sales_team/static/src/js/sales_team_dashboard.js:84
+#: code:addons/sales_team/static/src/js/sales_team_dashboard.js:83
 #, python-format
 msgid "Only Integer Value should be valid."
-msgstr ""
+msgstr "Chỉ chấp nhận giá trị số nguyên (Integer)"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_partner
@@ -279,17 +367,28 @@ msgstr "Đối tác"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:102
 #, python-format
 msgid "Performance"
-msgstr ""
+msgstr "Năng suất"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_reply_to
 msgid "Reply-To"
-msgstr ""
+msgstr "Reply-To"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_sale_report
+msgid "Reports"
+msgstr "Báo cáo"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_res_users_property_product_pricelist
 msgid "Sale Pricelist"
 msgstr "Bảng giá bán"
+
+#. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_base_partner
+#: model:ir.ui.menu,name:sales_team.menu_sales
+msgid "Sales"
+msgstr "Bán hàng"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_team
@@ -300,37 +399,37 @@ msgstr "Bảng giá bán"
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_tree
 msgid "Sales Team"
-msgstr "Đội ngũ bán hàng"
+msgstr "Đội bán hàng"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_res_users_sale_team_id
-msgid ""
-"Sales Team the user is member of. Used to compute the members of a sales "
-"team through the inverse one2many"
+msgid "Sales Team the user is member of. Used to compute the members of a sales team through the inverse one2many"
 msgstr ""
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_act
 #: model:ir.actions.act_window,name:sales_team.sales_team_config_action
+#: model:ir.ui.menu,name:sales_team.sales_team_config
 msgid "Sales Teams"
-msgstr "Đội ngũ bán hàng"
+msgstr "Đội bán hàng"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Sales team"
-msgstr ""
+msgstr "Đội bán hàng"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Salesteam name..."
-msgstr ""
+msgstr "Tên Đội bán hàng..."
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
 msgid "Salesteams Search"
-msgstr ""
+msgstr "Tìm Đội bán hàng"
 
 #. module: sales_team
+#: model:ir.ui.menu,name:sales_team.menu_sale_general_settings
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_view_kanban
 msgid "Settings"
 msgstr "Thiết lập"
@@ -340,7 +439,7 @@ msgstr "Thiết lập"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:146
 #, python-format
 msgid "Target"
-msgstr ""
+msgstr "Mục tiêu"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_user_id
@@ -352,23 +451,16 @@ msgstr "Trưởng nhóm"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member_ids
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Team Members"
-msgstr "Các thành viên trong nhóm"
-
-#. module: sales_team
-#: sql_constraint:crm.team:0
-msgid "The code of the sales team must be unique !"
-msgstr ""
+msgstr "Các thành viên trong đội"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_color
 msgid "The color of the team"
-msgstr ""
+msgstr "Màu sắc của đội"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
-msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
-"cases in this sales team"
+msgid "The email address put in the 'Reply-To' of all emails sent by Odoo about cases in this sales team"
 msgstr ""
 
 #. module: sales_team
@@ -376,15 +468,12 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:102
 #, python-format
 msgid "This Month"
-msgstr ""
+msgstr "Tháng này"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_res_users_property_product_pricelist
-msgid ""
-"This pricelist will be used, instead of the default one, for sales to the "
-"current partner"
-msgstr ""
-"Bảng giá này sẽ được sử dụng, thay vì mặc định, để bán cho đối tác hiện tại"
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Bảng giá này sẽ được sử dụng, thay vì mặc định, để bán cho đối tác hiện tại"
 
 #. module: sales_team
 #. openerp-web
@@ -439,7 +528,7 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:13
 #, python-format
 msgid "To do"
-msgstr ""
+msgstr "Cần làm"
 
 #. module: sales_team
 #. openerp-web
@@ -452,11 +541,22 @@ msgstr "Hôm nay"
 #: model:ir.actions.act_window,help:sales_team.crm_team_act
 #: model:ir.actions.act_window,help:sales_team.crm_team_salesteams_act
 #: model:ir.actions.act_window,help:sales_team.sales_team_config_action
-msgid ""
-"Use sales team to organize your different salespersons or\n"
+msgid "Use sales team to organize your different salespersons or\n"
 "                    departments into separate teams. Each team will work in\n"
 "                    its own list of opportunities."
-msgstr ""
+msgstr "Sử dụng đội bán hàng để tổ chức nhân viên bán hàng hay\n"
+"                    các phòng ban thành các đối khác nhau. Mỗi đội sẽ làm việc\n"
+"                    với một danh sách các cơ hội kinh doanh của chính họ."
+
+#. module: sales_team
+#: model:res.groups,name:sales_team.group_sale_salesman_all_leads
+msgid "User: All Documents"
+msgstr "Người dùng: Tất cả Tài liệu"
+
+#. module: sales_team
+#: model:res.groups,name:sales_team.group_sale_salesman
+msgid "User: Own Documents Only"
+msgstr "Người dùng: Chỉ tài liệu của chính mình"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users
@@ -464,32 +564,57 @@ msgid "Users"
 msgstr "Người dùng"
 
 #. module: sales_team
+#: model:crm.team,name:sales_team.salesteam_website_sales
+msgid "Website Sales"
+msgstr "Bán hàng qua Website"
+
+#. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:127
 #, python-format
 msgid "Won in Opportunities"
-msgstr ""
+msgstr "Thắng theo Cơ hội"
 
 #. module: sales_team
 #. openerp-web
-#: code:addons/sales_team/static/src/js/sales_team_dashboard.js:84
+#: code:addons/sales_team/static/src/js/sales_team_dashboard.js:83
 #, python-format
 msgid "Wrong value entered!"
-msgstr ""
+msgstr "Giá trị nhập không hợp lệ"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:89
 #, python-format
 msgid "exp. closing"
-msgstr ""
+msgstr " được mong đóng lại"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:79
 #, python-format
 msgid "overdue"
+msgstr "quá hạn"
+
+#. module: sales_team
+#: model:ir.model,name:sales_team.model_sale_config_settings
+msgid "sale.config.settings"
 msgstr ""
+
+#. module: sales_team
+#: model:res.groups,comment:sales_team.group_sale_salesman_all_leads
+msgid "the user will have access to all records of everyone in the sales application."
+msgstr "người dùng sẽ có toàn quyền truy cập đến tất cả các bản ghi của tất cả mọi người trong phạm vi ứng dụng bán hàng."
+
+#. module: sales_team
+#: model:res.groups,comment:sales_team.group_sale_salesman
+msgid "the user will have access to his own data in the sales application."
+msgstr "người dùng sẽ chỉ có quyền truy cập đến các dữ liệu của chính mình phạm vi ứng dụng bán hàng."
+
+#. module: sales_team
+#: model:res.groups,comment:sales_team.group_sale_manager
+msgid "the user will have an access to the sales configuration as well as statistic reports."
+msgstr "người dùng sẽ có quyền truy cập đến các cấu hình bán hàng cũng như các báo cáo / thống kê."
 
 #~ msgid "Date of the last message posted on the record."
 #~ msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
