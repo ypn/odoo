@@ -521,17 +521,17 @@ msgstr "\n"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_cancel_state
 msgid " # No of Cancelled Registrations"
-msgstr "Số lượng Đăng ký bị Huỷ"
+msgstr " Số lượng Đăng ký bị Huỷ"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_confirm_state
 msgid " # No of Confirmed Registrations"
-msgstr "Số lượng Đăng ký đã Xác nhận"
+msgstr " Số lượng Đăng ký đã Xác nhận"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_draft_state
 msgid " # No of Draft Registrations"
-msgstr "Số lượng Đăng ký Dự thảo"
+msgstr " Số lượng Đăng ký Dự thảo"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_kanban
@@ -1117,7 +1117,7 @@ msgstr "Hoàn thành"
 #: selection:report.event.registration,event_state:0
 #: selection:report.event.registration,registration_state:0
 msgid "Draft"
-msgstr "Bản thảo"
+msgstr "Dự thảo"
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -1262,7 +1262,7 @@ msgstr "Trạng thái Sự kiện"
 #: model:ir.ui.view,arch_db:event.view_event_type_tree
 #: model:ir.ui.view,arch_db:event.view_report_event_registration_search
 msgid "Event Type"
-msgstr "Kiểu sự kiện"
+msgstr "Kiểu Sự kiện"
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
@@ -1296,7 +1296,7 @@ msgstr "Phân tích Sự kiện"
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_mail
 msgid "Events Mail Schedulers"
-msgstr "Ấn định lịch gửi email sự kiện"
+msgstr "Trình ấn định Gửi thư Sự kiện"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_search
@@ -1604,7 +1604,7 @@ msgstr "Người quản lý"
 #. module: event
 #: selection:event.config.settings,auto_confirmation:0
 msgid "Manually confirm every registration"
-msgstr "Xác nhận thủ công từng đăng ký
+msgstr "Xác nhận thủ công từng đăng ký"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_seats_max
@@ -1882,7 +1882,7 @@ msgstr "Nhắc nhở về ${object.event_id.name}"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_default_reply_to
 msgid "Reply To"
-msgstr "Trả lời Đến"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_reply_to
