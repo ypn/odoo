@@ -20,13 +20,13 @@ Business logic and extension is generally performed on the server side,
 although supporting client features (e.g. new data representation such as
 interactive maps) can be added to the client.
 
-In order to start the server, simply invoke the command :ref:`odoo.py
+In order to start the server, simply invoke the command :ref:`odoo-bin
 <reference/cmdline>` in the shell, adding the full path to the file if
 necessary:
 
 .. code:: bash
 
-    odoo.py
+    odoo-bin
 
 The server is stopped by hitting ``Ctrl-C`` twice from the terminal, or by
 killing the corresponding OS process.
@@ -67,7 +67,7 @@ Module structure
 ----------------
 
 Each module is a directory within a *module directory*. Module directories
-are specified by using the :option:`--addons-path <odoo.py --addons-path>`
+are specified by using the :option:`--addons-path <odoo-bin --addons-path>`
 option.
 
 .. tip::
@@ -90,13 +90,13 @@ might contain::
 
     from . import mymodule
 
-Odoo provides a mechanism to help set up a new module, :ref:`odoo.py
+Odoo provides a mechanism to help set up a new module, :ref:`odoo-bin
 <reference/cmdline/server>` has a subcommand :ref:`scaffold
 <reference/cmdline/scaffold>` to create an empty module:
 
 .. code-block:: console
 
-    $ odoo.py scaffold <module name> <where to put it>
+    $ odoo-bin scaffold <module name> <where to put it>
 
 The command creates a subdirectory for your module, and automatically creates a
 bunch of standard files for a module. Most of them simply contain commented code
@@ -109,7 +109,7 @@ or XML. The usage of most of those files will be explained along this tutorial.
 
     .. only:: solutions
 
-        #. Invoke the command ``odoo.py scaffold openacademy addons``.
+        #. Invoke the command ``odoo-bin scaffold openacademy addons``.
         #. Adapt the manifest file to your module.
         #. Don't bother about the other files.
 
@@ -211,7 +211,7 @@ overridden by setting :attr:`~odoo.models.Model._rec_name`.
 
     .. only:: solutions
 
-        Edit the file ``openacademy/models.py`` to include a *Course* class.
+        Edit the file ``openacademy/models/models.py`` to include a *Course* class.
 
         .. patch::
 
@@ -255,7 +255,7 @@ be declared in the ``'data'`` list (always loaded) or in the ``'demo'`` list
 
     .. only:: solutions
 
-        Edit the file ``openacademy/demo.xml`` to include some data.
+        Edit the file ``openacademy/demo/demo.xml`` to include some data.
 
         .. patch::
 
@@ -484,7 +484,7 @@ client data; it is also related to its sale order line records.
 
     .. only:: solutions
 
-        #. Create the class *Session* in ``openacademy/models.py``.
+        #. Create the class *Session* in ``openacademy/models/models.py``.
         #. Add access to the session object in ``openacademy/view/openacademy.xml``.
 
         .. patch::
@@ -684,7 +684,7 @@ instead of a single view its ``arch`` field is composed of any number of
            inspect the view, find its external ID and the place to put the
            new field.
 
-       #. Create a file ``openacademy/partner.py`` and import it in
+       #. Create a file ``openacademy/models/partner.py`` and import it in
           ``__init__.py``
        #. Create a file ``openacademy/views/partner.xml`` and add it to
           ``__manifest__.py``
