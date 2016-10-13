@@ -250,7 +250,7 @@ msgstr "Đã hủy"
 #. module: marketing_campaign
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_object_id
 msgid "Choose the resource on which you want this campaign to be run"
-msgstr "Lựa chọn tài nguyên mà bạn muốn chiến dịch này chạy trên đó"
+msgstr "Lựa chọn Nguồn lực mà bạn muốn chiến dịch này chạy trên đó"
 
 #. module: marketing_campaign
 #: model:ir.actions.act_window,help:marketing_campaign.action_marketing_campaign_form
@@ -721,7 +721,7 @@ msgstr "Chế độ"
 #: constraint:marketing.campaign.segment:0
 msgid "Model of filter must be same as resource model of Campaign "
 msgstr ""
-"Mô hình (model) của bộ lọc phải giống với mô hình Tài nguyên của chiến dịch "
+"Mô hình (model) của bộ lọc phải giống với mô hình Nguồn lực của chiến dịch "
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -877,7 +877,7 @@ msgstr ""
 "duyệt được) dưới đây:\n"
 "   - activity: hoạt động của chiến dịch\n"
 "   - workitem: workitem của chiến dịch\n"
-"   - resource: đối tượng tài nguyên mà hạng mục chiến dịch này đại diện\n"
+"   - resource: đối tượng Nguồn lực mà hạng mục chiến dịch này đại diện\n"
 "   - transitions: danh mục các chuyển tiếp chiến dịch ra ngoài từ hoạt động "
 "này\n"
 "...- re: Python regular expression module"
@@ -906,18 +906,18 @@ msgstr "Đặt lại"
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_search
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Resource"
-msgstr "Tài nguyên"
+msgstr "Nguồn lực"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_res_id
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Resource ID"
-msgstr "ID Tài nguyên"
+msgstr "ID Nguồn lực"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_res_name
 msgid "Resource Name"
-msgstr "Tên Tài nguyên"
+msgstr "Tên Nguồn lực"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_campaign_analysis_revenue
@@ -1169,10 +1169,10 @@ msgid ""
 msgstr ""
 "Loại hành động để thực thi khi một hạng mục nhập vào hoạt động này, ví như:\n"
 "   - Email: gửi email sử dụng một mẫu email được định nghĩa trước\n"
-"   - Báo cáo: in một Báo cáo có sẵn được định nghĩa theo hạng mục tài nguyên "
+"   - Báo cáo: in một Báo cáo có sẵn được định nghĩa theo hạng mục Nguồn lực "
 "và lưu nó trong một thư mục cụ thể\n"
 "   - Hành động tự do: thực thi một hành động được định nghĩa trước, ví dụ: "
-"sửa các trường của một bản ghi tài nguyên\n"
+"sửa các trường của một bản ghi Nguồn lực\n"
 "  "
 
 #. module: marketing_campaign
