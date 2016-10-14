@@ -11691,12 +11691,12 @@ msgstr "Mô đun"
 #: model:ir.ui.view,arch_db:base.view_module_category_form
 #: model:ir.ui.view,arch_db:base.view_module_category_tree
 msgid "Module Category"
-msgstr "Loại mô-đun"
+msgstr "Nhóm mô-đun"
 
 #. module: base
 #: model:ir.actions.server,name:base.action_server_module_immediate_install
 msgid "Module Immediate Install"
-msgstr "Module Immediate Install"
+msgstr "Cài Mô đun"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_shortdesc
@@ -11712,27 +11712,27 @@ msgstr "Cập nhật Mô đun"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_update
 msgid "Module Update Result"
-msgstr "Kết quả cập nhật modun"
+msgstr "Kết quả Cập nhật Mô đun"
 
 #. module: base
 #: model:ir.model,name:base.model_base_module_upgrade
 msgid "Module Upgrade"
-msgstr "Nâng cấp mô đun"
+msgstr "Nâng cấp Mô đun"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade_install
 msgid "Module Upgrade Install"
-msgstr "Module Upgrade Install"
+msgstr "Cài Nâng cấp Mô đun"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_module_module_dependency
 msgid "Module dependency"
-msgstr "Phụ thuộc của mô-đun"
+msgstr "Phụ thuộc Mô đun"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_translation_module
 msgid "Module this term belongs to"
-msgstr "Module this term belongs to"
+msgstr "Module mà thuật ngữ này thuộc về"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_category_module_ids
@@ -15109,50 +15109,50 @@ msgstr "Tên đầy đủ của quốc gia."
 #. module: base
 #: model:ir.model.fields,help:base.field_wkf_transition_group_id
 msgid "The group that a user must have to be authorized to validate this transition."
-msgstr "The group that a user must have to be authorized to validate this transition."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_user_id
 #: model:ir.model.fields,help:base.field_res_users_user_id
 msgid "The internal user that is in charge of communicating with this contact if any."
-msgstr "The internal user that is in charge of communicating with this contact if any."
+msgstr "Người dùng nội bộ mà chịu trách nhiệm thông tin liên lạc với liên hệ này, nếu có."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_inherited_model_ids
 msgid "The list of models that extends the current model."
-msgstr "The list of models that extends the current model."
+msgstr "Danh sách các model mà mở rộng model hiện hành."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_filters_action_id
 msgid "The menu action this filter applies to. When left empty the filter applies to all menus for this model."
-msgstr "The menu action this filter applies to. When left empty the filter applies to all menus for this model."
+msgstr ""
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:100
 #, python-format
 msgid "The model name can only contain lowercase characters, digits, underscores and dots."
-msgstr "The model name can only contain lowercase characters, digits, underscores and dots."
+msgstr ""
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:98
 #, python-format
 msgid "The model name must start with 'x_'."
-msgstr "The model name must start with 'x_'."
+msgstr "Tên model phải bắt đầu với 'x_'."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_server_wkf_model_id
 msgid "The model that will receive the workflow signal. Note that it should have a workflow associated with it."
-msgstr "The model that will receive the workflow signal. Note that it should have a workflow associated with it."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields_model_id
 msgid "The model this field belongs to"
-msgstr "The model this field belongs to"
+msgstr "Model mà trường này thuộc về"
 
 #. module: base
 #: sql_constraint:res.country:0
 msgid "The name of the country must be unique !"
-msgstr "Tên quốc gia phải duy nhất !"
+msgstr "Tên quốc gia phải duy nhất!"
 
 #. module: base
 #: code:addons/base/res/res_users.py:150
@@ -15173,7 +15173,7 @@ msgstr "Tên ngôn ngữ phải duy nhất"
 #. module: base
 #: sql_constraint:ir.module.module:0
 msgid "The name of the module must be unique!"
-msgstr "The name of the module must be unique!"
+msgstr "Tên của module phải là duy nhất!"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence_number_increment
@@ -15257,7 +15257,7 @@ msgstr "Mô đun được lựa chọn đã được cập nhật / cài đặt 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_country_state_code
 msgid "The state code."
-msgstr ""
+msgstr "Mã Bang/Tỉnh thành"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:389
@@ -15312,31 +15312,30 @@ msgstr "Cửa sổ này"
 #: code:addons/base/ir/ir_model.py:432
 #, python-format
 msgid "This column contains module data and cannot be removed!"
-msgstr "This column contains module data and cannot be removed!"
+msgstr "Cột này chứa dữ liệu module và không thể loại bỏ!"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_company_logo
 #: model:ir.model.fields,help:base.field_res_partner_image
 #: model:ir.model.fields,help:base.field_res_users_image
 msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
-msgstr "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Trường này chứa hình ảnh mà được sử dụng làm avatar cho liên hệ này, kích thước tối đa 1024x1024px"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_lang_code
 msgid "This field is used to set/get locales for user"
-msgstr "This field is used to set/get locales for user"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "This file was generated using the universal <strong>Unicode/UTF-8</strong> file encoding, please be sure to view and edit\n"
 "                           using the same encoding."
-msgstr "This file was generated using the universal <strong>Unicode/UTF-8</strong> file encoding, please be sure to view and edit\n"
-"                           using the same encoding."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_window_views
 msgid "This function field computes the ordered list of views that should be enabled when displaying the result of an action, federating view mode, views and reference view. The result is returned as an ordered list of pairs (view_id,view_mode)."
-msgstr "This function field computes the ordered list of views that should be enabled when displaying the result of an action, federating view mode, views and reference view. The result is returned as an ordered list of pairs (view_id,view_mode)."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_report_xml_attachment
@@ -15364,7 +15363,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang_thousands_sep
 msgid "Thousands Separator"
-msgstr "Dấu phân cách ngàn"
+msgstr "Dấu phân cách phần Nghìn"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang_time_format
@@ -15374,12 +15373,12 @@ msgstr "Định dạng thời gian"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project_timesheet
 msgid "Timesheet in Website Portal"
-msgstr ""
+msgstr "Bảng chấm công ở Website Portal"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_issue_sheet
 msgid "Timesheet on Issues"
-msgstr "Chấm công trên Phát sinh"
+msgstr "Chấm công cho Phát sinh"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project_issue_sheet
@@ -15395,7 +15394,7 @@ msgstr "Chấm công"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet_sheet
 msgid "Timesheets / Attendances"
-msgstr ""
+msgstr "Chấm công / Có vắng"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_timesheet_sheet
@@ -15424,12 +15423,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_partner_title_name
 #: model:ir.model.fields,field_description:base.field_res_users_title
 msgid "Title"
-msgstr "Tiêu đề"
+msgstr "Danh xưng"
 
 #. module: base
 #: sql_constraint:res.partner.title:0
 msgid "Title name already exists !"
-msgstr ""
+msgstr "Danh xưng đã tồn tại!"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_date_range_date_to
@@ -15445,7 +15444,7 @@ msgstr "Cần làm"
 #. module: base
 #: selection:ir.translation,state:0
 msgid "To Translate"
-msgstr "Dịch thành"
+msgstr "Chờ Dịch"
 
 #. module: base
 #: selection:ir.module.module,state:0
@@ -15478,7 +15477,7 @@ msgstr "Tô-gô"
 #. module: base
 #: model:res.country,name:base.tk
 msgid "Tokelau"
-msgstr "Tokelau"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.to
@@ -15493,7 +15492,7 @@ msgstr "Công cụ"
 #. module: base
 #: model:ir.module.module,summary:base.module_point_of_sale
 msgid "Touchscreen Interface for Shops"
-msgstr "Giao diện cảm ứng cho Cửa hàng"
+msgstr "Giao diện Cảm ứng cho PoS"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_tour
@@ -15503,7 +15502,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_event
 msgid "Trainings, Conferences, Meetings, Exhibitions, Registrations"
-msgstr "Đào tạo, Hôi nghị, Cuộc họp, Triển lãm"
+msgstr "Đào tạo, Hôi nghị, Cuộc họp, Triển lãm, Đăng ký"
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment_transfer
@@ -15553,7 +15552,7 @@ msgstr "Chuyển tiếp"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_trans_implied_ids
 msgid "Transitively inherits"
-msgstr "Transitively inherits"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_translate
@@ -15576,7 +15575,7 @@ msgstr "Đã dịch"
 #: model:ir.actions.act_window,name:base.action_translation
 #: model:ir.ui.menu,name:base.menu_action_translation
 msgid "Translated Terms"
-msgstr "Thuật ngữ đã dịch"
+msgstr "Thuật ngữ đã Dịch"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_translation_name
