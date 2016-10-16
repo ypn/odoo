@@ -6677,7 +6677,7 @@ msgstr "Bạn đã xử lý ít sản phẩm hơn nhu cầu ban đầu."
 #: code:addons/stock/models/product.py:320
 #, python-format
 msgid "You have products in stock that have no lot number.  You can assign serial numbers by doing an inventory.  "
-msgstr ""
+msgstr "Bạn có sản phẩm trong kho mà không có số lô. Bạn có thể gán một số lô/sê-ri bằng cách thực hiện kiểm kho."
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:768
@@ -6689,13 +6689,14 @@ msgstr "Bạn không thể chọn một đơn vị đo lường trong cùng nhó
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid "You haven't set processed (<i>done</i>) quantities. Click <i>apply</i> and\n"
 "                        Odoo will process all quantities to do."
-msgstr ""
+msgstr "Bạn vẫn chưa thiết lập số lượng cần xử lý (nhập giá trị vào trường <i>Hoàn thành</i>).\n"
+"                        Bấm <i>Áp dụng</i> thì Odoo sẽ xử lý toàn bộ số lượng cần thực hiện."
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:43
 #, python-format
 msgid "You may only return Done pickings"
-msgstr ""
+msgstr "Bạn chỉ có thể thực hiện việc trả hàng với các lô hàng đã Hoàn thành"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:548
