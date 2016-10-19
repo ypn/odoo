@@ -289,7 +289,9 @@ msgstr "Tất cả giá trị ở trường Số lượng sản phẩm phải l�
 #: model:ir.actions.act_window,help:mrp.mrp_unbuild
 msgid "An unbuild order will do a reverse bill of materials, unbuilding products\n"
 "            you produced, but you can also use it to unbuild products you purchased."
-msgstr ""
+msgstr "Một lệnh tháo dỡ (Unbuild Order) sẽ thực hiện việc đảo ngược của BoM, tháo\n"
+"            dỡ các sản phẩm mà bạn đã sản xuất theo BoM đó. Dĩ nhiên, bạn cũng có thể\n"
+"            tháo dỡ cả những hàng hoá bạn mua về, với cùng phương thức."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_config
@@ -312,7 +314,7 @@ msgstr "Đã lưu "
 #: model:product.product,name:mrp.product_assembly
 #: model:product.template,name:mrp.product_assembly_product_template
 msgid "Assembly Service Cost"
-msgstr ""
+msgstr "Chi phí Dịch vụ Lắp ráp"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:258
@@ -398,12 +400,12 @@ msgstr "Định mức Nguyên liệu"
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_bom_id
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "Bill of Material"
-msgstr "Định mức nguyên liệu"
+msgstr "Định mức Nguyên liệu"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_line_view_form
 msgid "Bill of Material line"
-msgstr ""
+msgstr "Dòng Định mức Nguyên liệu"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_bom_form_action
@@ -454,7 +456,7 @@ msgstr "Phong toả"
 #: model:ir.actions.act_window,name:mrp.act_mrp_block_workcenter_wo
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_block_wizard_form
 msgid "Block Workcenter"
-msgstr ""
+msgstr "Phong toả Năng lực Sản xuất"
 
 #. module: mrp
 #: selection:mrp.workcenter,working_state:0
@@ -469,7 +471,7 @@ msgstr "Thời gian Phong toả"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_blocked_time
 msgid "Blocked hour(s) over the last month"
-msgstr ""
+msgstr "Số giờ bị phong toả trong tháng trước"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_procurement_order_bom_id
@@ -500,7 +502,7 @@ msgstr "Chi tiết BoM"
 #: code:addons/mrp/models/mrp_bom.py:67
 #, python-format
 msgid "BoM line product %s should not be same as BoM product."
-msgstr ""
+msgstr "Sản phẩm trong chi tiết BoM (dòng trong BoM) không được trùng với Sản phẩm BoM (sản phẩm tạo ra theo BoM)"
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_computer_desk_bolt
@@ -516,7 +518,7 @@ msgstr "Phụ phẩm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product_can_be_expensed
 msgid "Can be Expensed"
-msgstr ""
+msgstr "Có thể là Chi tiêu"
 
 #. module: mrp
 #: code:addons/mrp/models/stock_warehouse.py:36
@@ -543,7 +545,7 @@ msgstr "Đã hủy"
 #: code:addons/mrp/models/mrp_production.py:263
 #, python-format
 msgid "Cannot delete a manufacturing order not in cancel state"
-msgstr ""
+msgstr "Không thể xoá một lệnh sản xuất mà không ở trong trạng thái huỷ"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_capacity
@@ -559,7 +561,7 @@ msgstr "Thay đổi SL sản phẩm"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_change_production_qty
 msgid "Change Quantity To Produce"
-msgstr ""
+msgstr "Thay đổi Số lượng chờ Sản xuất"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_change_production_qty
@@ -569,12 +571,12 @@ msgstr "Thay đổi số lượng sản phẩm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_check_to_done
 msgid "Check Produced Qty"
-msgstr ""
+msgstr "Kiểm tra SL đã Sản xuất"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Check availability"
-msgstr ""
+msgstr "Kiểm tra tính khả dụng"
 
 #. module: mrp
 #. openerp-web
@@ -612,7 +614,7 @@ msgstr "Bấm để tạo mới một quy trình."
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_unbuild
 msgid "Click to start a new Unbuild Order"
-msgstr ""
+msgstr "Bấm để tạo mới một Lệnh Tháo dỡ"
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_production_action_planning
@@ -626,7 +628,7 @@ msgstr "Bấm để khởi động một lệnh sản xuất mới."
 #: model:ir.actions.act_window,help:mrp.action_mrp_workorder_workcenter
 #: model:ir.actions.act_window,help:mrp.mrp_workorder_todo
 msgid "Click to start a new work order."
-msgstr ""
+msgstr "Bấm để khởi động một hoạt động sản xuất mới."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_code
@@ -666,13 +668,13 @@ msgstr "Thành phần"
 #. module: mrp
 #: selection:mrp.routing.workcenter,time_mode:0
 msgid "Compute based on real time"
-msgstr ""
+msgstr "Tính toán dự trên thời gian thực"
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_computer_desk
 #: model:product.template,name:mrp.product_product_computer_desk_product_template
 msgid "Computer Desk"
-msgstr ""
+msgstr "Bàn Máy tính"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_configuration
@@ -724,17 +726,17 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 msgid "Continue Production"
-msgstr ""
+msgstr "Tiếp tục Sản xuất"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost_report
 msgid "Cost Structure"
-msgstr ""
+msgstr "Cấu trúc Chi phí"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type_count_mo_late
 msgid "Count mo late"
-msgstr ""
+msgstr "Đếm MO bị muộn"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type_count_mo_todo
@@ -749,7 +751,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Create Workorders"
-msgstr ""
+msgstr "Tạo Hoạt động Sản xuất"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_uid
@@ -792,7 +794,7 @@ msgstr "Được tạo vào"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_final_lot_id
 msgid "Current Lot"
-msgstr ""
+msgstr "Lô Hiện hành"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -802,12 +804,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 msgid "Current Qty"
-msgstr ""
+msgstr "SL Hiện hành"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_qty_producing
 msgid "Currently Produced Quantity"
-msgstr "Currently Produced Quantity"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_dashboard
@@ -858,7 +860,7 @@ msgstr "Miêu tả"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_note
 msgid "Description of the Work Center."
-msgstr ""
+msgstr "Mô tả Năng lực Sản xuất"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -1381,7 +1383,7 @@ msgstr "Quản lý các Hoạt động Sản xuất"
 #. module: mrp
 #: selection:mrp.config.settings,module_mrp_plm:0
 msgid "Manage engineering changes, versions and documents"
-msgstr "Quản lý các thay đổi về kỹ thuật, thiết kế, phiển bản và tài liệu"
+msgstr "Quản lý các thay đổi về kỹ thuật, thiết kế, phiên bản và tài liệu"
 
 #. module: mrp
 #: selection:mrp.config.settings,group_mrp_routings:0
@@ -2832,31 +2834,31 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_traceability
 msgid "Traceability: Lots"
-msgstr ""
+msgstr "Truy xuất nguồn gốc: Các Lô"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_product_tracking
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_has_tracking
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_product_tracking
 msgid "Tracking"
-msgstr ""
+msgstr "Truy vết"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 msgid "Unblock"
-msgstr ""
+msgstr "Bỏ Phong toả"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view
 msgid "Unbuild"
-msgstr ""
+msgstr "Tháo dỡ"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_unbuild
 #: model:ir.model.fields,field_description:mrp.field_stock_move_unbuild_id
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view
 msgid "Unbuild Order"
-msgstr ""
+msgstr "Lệnh Tháo dỡ"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_unbuild.py:76
@@ -2869,7 +2871,7 @@ msgstr ""
 #: model:ir.ui.menu,name:mrp.menu_mrp_unbuild
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view
 msgid "Unbuild Orders"
-msgstr ""
+msgstr "Lệnh Tháo dỡ"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost_report
