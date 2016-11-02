@@ -1636,12 +1636,12 @@ msgstr "Hoạt động SX Tiếp theo"
 #: code:addons/mrp/models/procurement.py:90
 #, python-format
 msgid "No BoM exists for this product!"
-msgstr ""
+msgstr "Không có BoM nào định nghĩa cho sản phẩm này!"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "No Routing"
-msgstr ""
+msgstr "Không Quy trình SX"
 
 #. module: mrp
 #: selection:mrp.config.settings,module_mrp_byproduct:0
@@ -1653,7 +1653,9 @@ msgstr "Không có phụ phẩm trong định mức nguyên vật liệu (A + B 
 #: model:ir.actions.act_window,help:mrp.mrp_workorder_delta_report
 msgid "No data to display. You will get here statistics about the\n"
 "              work orders duration related to this routing."
-msgstr ""
+msgstr "Không có dữ liệu để hiển thị. Bạn sẽ nhận được các thống kê\n"
+"              về thời lượng các hoạt động sản xuất liên quan đến quy\n"
+"              trình sản xuất này."
 
 #. module: mrp
 #: selection:mrp.config.settings,module_mrp_maintenance:0
@@ -1727,7 +1729,7 @@ msgstr "Ghi chú"
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_capacity
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_capacity
 msgid "Number of pieces that can be produced in parallel."
-msgstr ""
+msgstr "Số lượng đơn vị sản phẩm mà có thể được sản xuất song song."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -1742,7 +1744,7 @@ msgstr "Mục tiêu OEE"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_oee_target
 msgid "OEE Target in percentage"
-msgstr ""
+msgstr "Mục tiêu Hiệu suất Thiết bị Toàn phần (OEE) theo phần trăm"
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
@@ -2715,7 +2717,7 @@ msgstr "Năm nay"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_time_efficiency
 msgid "This field depict the efficiency of the resource to complete tasks. e.g  resource put alone on a phase of 5 days with 5 tasks assigned to him, will show a load of 100% for this phase by default, but if we put a efficiency of 200%, then his load will only be 50%."
-msgstr "Trường này mô tả hiệu suất của Nguồn lực khi thực hiện các nhiệm vụ. Ví dụ: nguồn lực được đặt một mình trong một giai đoạn 5 ngày với 5 nhiệm vụ được giao, sẽ hiển thị mức tải / áp lực 100%, nhưng nếu chúng ta thiết lập Hiệu quả là 200%, thì mức chịu tải/áp lực của nguồn lực này sẽ chỉ là 50%."
+msgstr "Trường này mô tả hiệu suất của Nguồn lực khi thực hiện các nhiệm vụ. Ví dụ: nguồn lực được đặt một mình trong một giai đoạn 5 ngày với 5 nhiệm vụ được giao, sẽ hiển thị mức tải / áp lực 100%, nhưng nếu chúng ta thiết lập Hệ số Hiệu suất là 200%, thì mức chịu tải/áp lực của nguồn lực này sẽ chỉ là 50%."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_time_ids
@@ -3055,7 +3057,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:mrp.action_mrp_workcenter_load_report_graph
 #: model:ir.ui.view,arch_db:mrp.view_workcenter_load_pivot
 msgid "Work Center Loads"
-msgstr "Tải của Năng lực SX"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view

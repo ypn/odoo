@@ -365,7 +365,7 @@ msgstr "<strong>Hơn nữa, nếu bạn muốn gửi nhiều email, chúng tôi 
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_alias_defaults
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_defaults
 msgid "A Python dictionary that will be evaluated to provide default values when creating new records for this alias."
-msgstr ""
+msgstr "Một Python dictionary mà sẽ được biểu thị/đánh giá để cung cấp các giá trị mặc định khi tạo mới các bản ghi cho bí danh này."
 
 #. module: mail
 #: model:ir.actions.act_window,help:mail.mail_shortcode_action
@@ -1791,7 +1791,7 @@ msgstr "ID"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_alias_parent_thread_id
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_parent_thread_id
 msgid "ID of the parent record holding the alias (example: project holding the task creation alias)"
-msgstr ""
+msgstr "ID của bản ghi cha mà chứa bí danh (ví dụ: dự án chứa bí danh để tạo nhiệm vụ)"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_followers_res_id
@@ -3131,7 +3131,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_alias_force_thread_id
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_force_thread_id
 msgid "Optional ID of a thread (record) to which all incoming messages will be attached, even if they did not reply to it. If set, this will disable the creation of new records completely."
-msgstr ""
+msgstr "ID tuỳ chọn của một chủ đề/bản ghi (thread) mà tất cả các thông điệp đến sẽ được gắn/đính vào, thâm chí nếu người ta không reply nó. Nếu được thiết lập, điều này sẽ vô hiệu hoàn toàn việc tạo mới bản ghi."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_mail_server_id
@@ -4289,7 +4289,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_compose_message_is_log
 #: model:ir.model.fields,help:mail.field_survey_mail_compose_message_is_log
 msgid "Whether the message is an internal note (comment mode only)"
-msgstr ""
+msgstr "Thông điệp có phải là một ghi chú nội bộ không (chế độ chỉ bình luận)"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
@@ -4365,7 +4365,7 @@ msgstr "Bạn cũng có thể thêm mới một %(document)s bằng cách gửi 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
 msgid "You have been assigned to the"
-msgstr ""
+msgstr "Bạn đã được phân công cho"
 
 #. module: mail
 #. openerp-web
@@ -4587,7 +4587,7 @@ msgstr "bản ghi:"
 #: code:addons/mail/models/mail_thread.py:921
 #, python-format
 msgid "reply to missing document (%s,%s)"
-msgstr ""
+msgstr "phản hồi đến tài liệu bị mất (%s,%s)"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:914
