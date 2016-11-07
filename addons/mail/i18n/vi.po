@@ -1,26 +1,33 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mail
-#
+# 
 # Translators:
+# lam nguyen <lamev.inc@gmail.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# son dang <son.dang@doda100.com>, 2016
+# Phạm Lân <phamquanglan@gmail.com>, 2016
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 14:06+0000\n"
-"PO-Revision-Date: 2016-07-23 09:04+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/"
-"vi/)\n"
-"Language: vi\n"
+"POT-Creation-Date: 2016-10-10 08:43+0000\n"
+"PO-Revision-Date: 2016-10-10 08:43+0000\n"
+"Last-Translator: Hoang Loc Le Huu <loclhh@gmail.com>, 2016\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mail
 #: model:mail.template,body_html:mail.mail_template_data_notification_email_default
 msgid "\n"
+"<div>\n"
+"% if ctx.get('has_button_access'):\n"
 "<div>\n"
 "% if ctx.get('has_button_access'):\n"
 "<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n"
@@ -195,7 +202,11 @@ msgstr " Kênh này mang tính riêng tư. Người phải được mời thì m
 
 #. module: mail
 #: model:mail.template,subject:mail.mail_template_data_notification_email_default
-msgid "${object.subject or (object.record_name and 'Re: %s' % object.record_name) or (object.parent_id and object.parent_id.subject and 'Re: %s' % object.parent_id.subject) or (object.parent_id and object.parent_id.record_name and 'Re: %s' % object.parent_id.record_name)}"
+msgid ""
+"${object.subject or (object.record_name and 'Re: %s' % object.record_name) "
+"or (object.parent_id and object.parent_id.subject and 'Re: %s' % "
+"object.parent_id.subject) or (object.parent_id and "
+"object.parent_id.record_name and 'Re: %s' % object.parent_id.record_name)}"
 msgstr ""
 
 #. module: mail
@@ -4629,9 +4640,3 @@ msgstr "tài liệu này"
 #, python-format
 msgid "unknown target model %s"
 msgstr "model mục tiêu không xác định %s"
-
-#~ msgid "Automatically sanitized HTML contents"
-#~ msgstr "Nội dung HTML được làm sạch tự động"
-
-#~ msgid "Join Group"
-#~ msgstr "Tham gia Nhóm"

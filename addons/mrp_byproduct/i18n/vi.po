@@ -1,21 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mrp_byproduct
-#
+# 
 # Translators:
+# fanha99 <fanha99@hotmail.com>, 2016
+# Phạm Lân <phamquanglan@gmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# son dang <son.dang@doda100.com>, 2016
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 14:07+0000\n"
-"PO-Revision-Date: 2015-08-25 10:19+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/"
-"vi/)\n"
-"Language: vi\n"
+"POT-Creation-Date: 2016-09-07 08:57+0000\n"
+"PO-Revision-Date: 2016-09-07 08:57+0000\n"
+"Last-Translator: Hoang Loc Le Huu <loclhh@gmail.com>, 2016\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mrp_byproduct
@@ -53,18 +57,6 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_create_date
 msgid "Created on"
 msgstr "Được tạo vào"
-
-#. module: mrp_byproduct
-#: model:ir.model.fields,help:mrp_byproduct.field_mrp_subproduct_subproduct_type
-msgid ""
-"Define how the quantity of byproducts will be set on the production orders "
-"using this BoM.  'Fixed' depicts a situation where the quantity of created "
-"byproduct is always equal to the quantity set on the BoM, regardless of how "
-"many are created in the production order.  By opposition, 'Variable' means "
-"that the quantity will be computed as    '(quantity of byproduct set on the "
-"BoM / quantity of manufactured product set on the BoM * quantity of "
-"manufactured product in the production order.)'"
-msgstr ""
 "Xác định cách thức mà số lượng phụ phẩm sẽ được thiết lập ở lệnh sản xuất "
 "sử dụng BoM. 'Có định' mô tả một tình huống mà số lượng phụ phẩm tạo ra "
 "bằng số lượng được thiết lập ở BoM, mà không quan tâm thực tế được tạo ra "
@@ -103,6 +95,11 @@ msgid "Last Updated on"
 msgstr "Cập nhật lần cuối"
 
 #. module: mrp_byproduct
+#: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_operation_id
+msgid "Produced at Operation"
+msgstr ""
+
+#. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_id
 msgid "Product"
 msgstr "Sản phẩm"
@@ -118,18 +115,17 @@ msgid "Product Unit of Measure"
 msgstr "Đơn vị đo lường sản phẩm"
 
 #. module: mrp_byproduct
-#: model:ir.model,name:mrp_byproduct.model_mrp_production
-#, fuzzy
-msgid "Production"
-msgstr "Sản phẩm"
+#: model:ir.model.fields,field_description:mrp_byproduct.field_stock_move_subproduct_id
+msgid "Subproduct"
+msgstr ""
 
 #. module: mrp_byproduct
-#: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_subproduct_type
-msgid "Quantity Type"
+#: model:ir.model.fields,help:mrp_byproduct.field_stock_move_subproduct_id
+msgid "Subproduct line that generated the move in a manufacturing order"
 msgstr "Kiểu Số lượng"
 
 #. module: mrp_byproduct
-#: code:addons/mrp_byproduct/mrp_byproduct.py:45
+#: code:addons/mrp_byproduct/models/mrp_subproduct.py:32
 #, python-format
 msgid ""
 "The Product Unit of Measure you chose has a different category than in the "
@@ -144,10 +140,7 @@ msgid "Variable"
 msgstr "Biến thiên"
 
 #. module: mrp_byproduct
-#: code:addons/mrp_byproduct/mrp_byproduct.py:45
+#: code:addons/mrp_byproduct/models/mrp_subproduct.py:31
 #, python-format
 msgid "Warning"
 msgstr "Cảnh báo"
-
-#~ msgid "Manufacturing Order"
-#~ msgstr "Lệnh sản xuất"

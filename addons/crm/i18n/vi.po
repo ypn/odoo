@@ -1,28 +1,36 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * crm
-#
+# 
 # Translators:
+# lam nguyen <lamev.inc@gmail.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
 # David Tran <david.tran@ma.tvtmarine.com>, 2016
+# van quy bui <aladeck@gmail.com>, 2016
+# Phạm Lân <phamquanglan@gmail.com>, 2016
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
+# sao sang <saosangmo@yahoo.com>, 2016
+# PHAM QUOC MY <mypham2802@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 14:06+0000\n"
-"PO-Revision-Date: 2016-07-21 09:26+0000\n"
-"Last-Translator: son dang <son.dang@doda100.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/"
-"vi/)\n"
-"Language: vi\n"
+"POT-Creation-Date: 2016-10-10 08:42+0000\n"
+"PO-Revision-Date: 2016-10-10 08:42+0000\n"
+"Last-Translator: PHAM QUOC MY <mypham2802@gmail.com>, 2016\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: crm
 #: model:mail.template,body_html:crm.mail_template_data_module_install_crm
-msgid "\n"
+msgid ""
+"\n"
 "\n"
 "            <div style=\"margin: 10px auto;\">\n"
 "            % set last_created_team = user.env['crm.team'].search([], order=\"create_date desc\")[0]\n"
@@ -326,7 +334,11 @@ msgstr "<p>Xin chào ${object.user_id and object.user_id.name or ''},</p>\n"
 #. openerp-web
 #: code:addons/crm/static/src/js/tour.js:45
 #, python-format
-msgid "<p>You will be able to customize your followup activities. Examples:</p><ol><li>introductory email</li><li>call 10 days after</li><li>second call 3 days after, ...</li></ol><p class='mb0'><i>Select a standard activity for now on.</i></p>"
+msgid ""
+"<p>You will be able to customize your followup activities. "
+"Examples:</p><ol><li>introductory email</li><li>call 10 days "
+"after</li><li>second call 3 days after, ...</li></ol><p "
+"class='mb0'><i>Select a standard activity for now on.</i></p>"
 msgstr "<p>Bạn sẽ có thể tuỳ chỉnh các hoạt động theo sát (followup). Ví dụ:</p><ol><li>email giới thiệu</li><li>gọi điện sau đó 10 ngày</li><li>3 ngày tiếp nữa gọi cuộc thứ 2, ...</li></ol><p class='mb0'><i>Chọn một hoạt động tiêu chuẩn từ nay về sau.</i></p>"
 
 #. module: crm
@@ -361,14 +373,16 @@ msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> Cài Thương mại Điện 
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
+msgid ""
+"<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                        <strong>Tips:</strong>"
 msgstr "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                        <strong>Lời khuyên:</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n"
+msgid ""
+"<span class=\"fa fa-lightbulb-o fa-lg\"/>\n"
 "                        <strong>Note:</strong>\n"
 "                        Using templates can boost the quality of your\n"
 "                        quotations and their success rate. However,\n"
@@ -385,7 +399,8 @@ msgstr "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n"
+msgid ""
+"<span class=\"fa fa-lightbulb-o fa-lg\"/>\n"
 "                        <strong>Tip:</strong> For developers, you can\n"
 "                        use our API to load data through scripts: read\n"
 "                        the"
@@ -4456,77 +4471,3 @@ msgstr "sử dụng Odoo API để import qua các script"
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "with your work above"
 msgstr "với công việc bên trên của bạn"
-
-
-#~ msgid "Both"
-#~ msgstr "Cả hai"
-
-#~ msgid "Date of the last message posted on the record."
-#~ msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
-
-#~ msgid "Done"
-#~ msgstr "Hoàn thành"
-
-#~ msgid "Follow-up"
-#~ msgstr "Theo sát"
-
-#~ msgid "Followers"
-#~ msgstr "Người dõi theo"
-
-#~ msgid "Followers (Channels)"
-#~ msgstr "Người theo dõi (Các kênh)"
-
-#~ msgid "Followers (Partners)"
-#~ msgstr "Người theo dõi (Các đối tác)"
-
-#~ msgid "Function"
-#~ msgstr "Chức năng"
-
-#~ msgid "If checked new messages require your attention."
-#~ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
-
-#~ msgid "Incoming"
-#~ msgstr "Doanh thu"
-
-#~ msgid "Is Follower"
-#~ msgstr "Trở thành người theo dõi"
-
-#~ msgid "Last Message Date"
-#~ msgstr "Ngày thông điệp cuối cùng"
-
-#~ msgid "Messages"
-#~ msgstr "Thông điệp"
-
-#~ msgid "Messages and communication history"
-#~ msgstr "Lịch sử trao đổi"
-
-#~ msgid "Negotiation"
-#~ msgstr "Đàm phán"
-
-#~ msgid "Open Sale Menu"
-#~ msgstr "Mở trình đơn bán hàng"
-
-#~ msgid "Qualification"
-#~ msgstr "Thẩm định"
-
-#~ msgid "Select Stages for this Sales Team"
-#~ msgstr "Chọn giai đoạn cho Đội ngũ bán hàng này"
-
-#~ msgid ""
-#~ "This field is used to distinguish stages related to Leads from stages "
-#~ "related to Opportunities, or to specify stages available for both types."
-#~ msgstr ""
-#~ "Trường này được sử dụng để phân biệt giai đoạn liên quan tới Nguồn dẫn từ "
-#~ "các giai đoạn liên quan tới Cơ hội, hoặc để cả hai."
-
-#~ msgid "Website Messages"
-#~ msgstr "Tin từ Website"
-
-#~ msgid "Website communication history"
-#~ msgstr "Lịch sử thông tin liên lạc website"
-
-#~ msgid "Your Customers"
-#~ msgstr "Khách hàng "
-
-#~ msgid "Your Proposal"
-#~ msgstr "Đề xuất báo giá"

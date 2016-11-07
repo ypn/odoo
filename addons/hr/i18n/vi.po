@@ -1,21 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr
-#
+# 
 # Translators:
+# lam nguyen <lamev.inc@gmail.com>, 2016
+# trieu le <trieu.lth@gmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
+# son dang <son.dang@doda100.com>, 2016
+# Phạm Lân <phamquanglan@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 14:07+0000\n"
-"PO-Revision-Date: 2016-07-20 03:03+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/"
-"vi/)\n"
-"Language: vi\n"
+"POT-Creation-Date: 2016-10-10 08:43+0000\n"
+"PO-Revision-Date: 2016-10-10 08:43+0000\n"
+"Last-Translator: Phạm Lân <phamquanglan@gmail.com>, 2016\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr
@@ -91,7 +97,11 @@ msgstr "<span>Cần làm</span>"
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
-msgid "A full time job, with an attractive salary package in a small team of smart people. You will start contract with a full technical and functional training. If you are passionate, motivate and flexible apply for this job, you will certainly join the best company ever."
+msgid ""
+"A full time job, with an attractive salary package in a small team of smart "
+"people. You will start contract with a full technical and functional "
+"training. If you are passionate, motivate and flexible apply for this job, "
+"you will certainly join the best company ever."
 msgstr ""
 
 #. module: hr
@@ -139,7 +149,11 @@ msgstr "Số Tài khoản Ngân hàng"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
-msgid "Because of our constant growth, we're now looking for people to reinforce our team of enthusiastic chief technical officer. So if working on an open source project in a friendly and cooperative atmosphere sounds like fun to you, read on..."
+msgid ""
+"Because of our constant growth, we're now looking for people to reinforce "
+"our team of enthusiastic chief technical officer. So if working on an open "
+"source project in a friendly and cooperative atmosphere sounds like fun to "
+"you, read on..."
 msgstr ""
 
 #. module: hr
@@ -153,7 +167,10 @@ msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_trainee
-msgid "Because of our constant growth, we're now looking for people to reinforce our team of enthusiastic trainees. So if working on an open source project in a friendly and cooperative atmosphere sounds like fun to you, read on..."
+msgid ""
+"Because of our constant growth, we're now looking for people to reinforce "
+"our team of enthusiastic trainees. So if working on an open source project "
+"in a friendly and cooperative atmosphere sounds like fun to you, read on..."
 msgstr ""
 
 #. module: hr
@@ -179,7 +196,7 @@ msgstr "Phòng ban cấp dưới"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Citizenship & Other Information"
-msgstr ""
+msgstr "Quốc tịch & Thông tin khác"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_city
@@ -281,7 +298,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_create_date
 #: model:ir.model.fields,field_description:hr.field_hr_job_create_date
 msgid "Created on"
-msgstr "Được tạo vào"
+msgstr "Thời điểm tạo"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_no_of_employee
@@ -363,6 +380,16 @@ msgstr "Bí danh Email"
 #: model:ir.model,name:hr.model_mail_thread
 msgid "Email Thread"
 msgstr "Luồng Email"
+
+#. module: hr
+#: model:ir.model,name:hr.model_mail_alias
+msgid "Email Aliases"
+msgstr ""
+
+#. module: hr
+#: model:ir.model,name:hr.model_mail_thread
+msgid "Email Thread"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee
@@ -472,7 +499,17 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 msgid "Followers"
-msgstr "Người dõi theo"
+msgstr "Người theo dõi"
+
+#. module: hr
+#: model:ir.model,name:hr.model_gamification_badge
+msgid "Gamification badge"
+msgstr ""
+
+#. module: hr
+#: model:ir.model,name:hr.model_gamification_challenge
+msgid "Gamification challenge"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_gamification_badge
@@ -755,6 +792,11 @@ msgid "Manual Attendance"
 msgstr ""
 
 #. module: hr
+#: model:res.groups,name:hr.group_hr_attendance
+msgid "Manual Attendance"
+msgstr ""
+
+#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_marital
 msgid "Marital Status"
 msgstr "Tình trạng hôn nhân"
@@ -832,6 +874,11 @@ msgstr "Quốc tịch (Quốc gia)"
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Nice to have"
 msgstr "Có thì tốt"
+
+#. module: hr
+#: selection:hr.job,state:0
+msgid "Not Recruiting"
+msgstr ""
 
 #. module: hr
 #: selection:hr.job,state:0
@@ -1005,6 +1052,11 @@ msgid "Resource Name"
 msgstr "Tên Nguồn lực"
 
 #. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee_name_related
+msgid "Resource Name"
+msgstr "Tên Tài nguyên"
+
+#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_resource_type
 msgid "Resource Type"
 msgstr "Kiểu Nguồn lực"
@@ -1138,6 +1190,13 @@ msgstr "Tên của vị trí công việc phải là duy nhất đối với m�
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid "The user will gain access to the human resources attendance menu, enabling him to manage his own attendance."
+msgstr ""
+
+#. module: hr
+#: model:res.groups,comment:hr.group_hr_attendance
+msgid ""
+"The user will gain access to the human resources attendance menu, enabling "
+"him to manage his own attendance."
 msgstr ""
 
 #. module: hr
@@ -1498,24 +1557,3 @@ msgstr "người dùng sẽ có quyền phê duyệt tài liệu tạo bởi Nh�
 #: model:res.groups,comment:hr.group_hr_manager
 msgid "the user will have an access to the human resources configuration as well as statistic reports."
 msgstr "người dùng sẽ có quyền truy cập đến phần cấu hình / thiết lập cũng như các báo cáo / phân tích."
-
-#~ msgid "Date of the last message posted on the record."
-#~ msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
-
-#~ msgid "Followers (Channels)"
-#~ msgstr "Người theo dõi (Các kênh)"
-
-#~ msgid "Followers (Partners)"
-#~ msgstr "Người theo dõi (Các đối tác)"
-
-#~ msgid "If checked new messages require your attention."
-#~ msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
-
-#~ msgid "Is Follower"
-#~ msgstr "Trở thành người theo dõi"
-
-#~ msgid "Last Message Date"
-#~ msgstr "Ngày thông điệp cuối cùng"
-
-#~ msgid "Update Date"
-#~ msgstr "Ngày Cập nhật"

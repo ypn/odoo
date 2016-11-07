@@ -1,23 +1,32 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* survey
-#
+# * survey
+# 
+# Translators:
+# lam nguyen <lamev.inc@gmail.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
+# Phạm Lân <phamquanglan@gmail.com>, 2016
+# son dang <son.dang@doda100.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-11 13:48+0000\n"
-"PO-Revision-Date: 2016-10-11 13:48+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2016-10-10 08:44+0000\n"
+"PO-Revision-Date: 2016-10-10 08:44+0000\n"
+"Last-Translator: son dang <son.dang@doda100.com>, 2016\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: survey
 #: model:mail.template,body_html:survey.email_template_survey
-msgid "\n"
+msgid ""
+"\n"
 "                \n"
 "<p>Hello,</p>\n"
 "<p>We are conducting a survey, and your response would be appreciated.</p>\n"
@@ -1821,7 +1830,8 @@ msgstr "Sử dụng mẫu"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question_description
-msgid "Use this field to add         additional explanations about your question"
+msgid ""
+"Use this field to add         additional explanations about your question"
 msgstr ""
 
 #. module: survey
@@ -1885,7 +1895,7 @@ msgstr "Thẩm định"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_validation_error_msg
 msgid "Validation Error message"
-msgstr ""
+msgstr "Thông điệp báo lỗi thẩm định"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_user_input_form
@@ -1919,7 +1929,9 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
-msgid "What do you think about the process views of Odoo, available in the web client ?"
+msgid ""
+"What do you think about the process views of Odoo, available in the web "
+"client ?"
 msgstr ""
 
 #. module: survey
@@ -1945,7 +1957,8 @@ msgstr ""
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_question_form
-msgid "YYYY-MM-DD hh:mm:ss\n"
+msgid ""
+"YYYY-MM-DD hh:mm:ss\n"
 "                                            <i class=\"fa fa-calendar fa-2x\"/>"
 msgstr ""
 
@@ -1966,12 +1979,19 @@ msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form
-msgid "You can create surveys for different purposes: customer opinion, services feedback, recruitment interviews, employee's periodical evaluations, marketing campaigns, etc."
+msgid ""
+"You can create surveys for different purposes: customer opinion, services "
+"feedback, recruitment interviews, employee's periodical evaluations, "
+"marketing campaigns, etc."
 msgstr "Bạn có thể tạo các khảo sát cho các mục đích khác nhau: ý kiến khách hàng, phản hồi về dịch vụ, phỏng vấn tuyển dụng, đánh giá định kỳ cho nhân viên, các chiến dịch marketing, v.v."
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_email_compose_message
-msgid "You can share your survey web public link and/or send private invitations to your audience. People can answer once per invitation, and whenever they want with the public web link (in this case, the \"Login Required\" setting must be disabled)."
+msgid ""
+"You can share your survey web public link and/or send private invitations to"
+" your audience. People can answer once per invitation, and whenever they "
+"want with the public web link (in this case, the \"Login Required\" setting "
+"must be disabled)."
 msgstr ""
 
 #. module: survey
@@ -2020,39 +2040,3 @@ msgstr "điểm."
 #: model:ir.ui.view,arch_db:survey.sfinished
 msgid "review your answers"
 msgstr "xem lại câu trả lời của bạn"
-
-#~ msgid "Messages"
-#~ msgstr "Thông điệp"
-
-#~ msgid "Messages and communication history"
-#~ msgstr "Lịch sử trao đổi"
-
-#~ msgid "Notify followers"
-#~ msgstr "Thông báo những Người dõi theo"
-
-#~ msgid "Outgoing mail server"
-#~ msgstr "Máy chủ gửi email"
-
-#~ msgid "Related Document ID"
-#~ msgstr "ID tài liệu liên quan"
-
-#~ msgid ""
-#~ "Small-sized image of this contact. It is automatically resized as a "
-#~ "64x64px image, with aspect ratio preserved. Use this field anywhere a "
-#~ "small image is required."
-#~ msgstr ""
-
-#~ msgid "Starred"
-#~ msgstr "Được đánh sao"
-
-#~ msgid "Subject"
-#~ msgstr "Chủ đề"
-
-#~ msgid "System notification"
-#~ msgstr "Thông báo hệ thống"
-
-#~ msgid "Unread Messages"
-#~ msgstr "Thông điệp chưa đọc"
-
-#~ msgid "on"
-#~ msgstr "vào"

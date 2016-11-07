@@ -1,22 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
-#
+# 
 # Translators:
+# lam nguyen <lamev.inc@gmail.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# son dang <son.dang@doda100.com>, 2016
 # Nguyen Hong Quan <ng.hong.quan@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 14:08+0000\n"
-"PO-Revision-Date: 2016-07-20 03:02+0000\n"
-"Last-Translator: Nguyen Hong Quan <ng.hong.quan@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/"
-"vi/)\n"
-"Language: vi\n"
+"POT-Creation-Date: 2016-09-07 08:57+0000\n"
+"PO-Revision-Date: 2016-09-07 08:57+0000\n"
+"Last-Translator: Nguyen Hong Quan <ng.hong.quan@gmail.com>, 2016\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web
@@ -24,7 +27,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_common.js:874
 #, python-format
 msgid " & Close"
-msgstr " & Đóng"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2374,7 +2377,7 @@ msgstr "Có"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/abstract_web_client.js:230
+#: code:addons/web/static/src/js/abstract_web_client.js:217
 #, python-format
 msgid "You are back online"
 msgstr "Bạn đã online trở lại"
@@ -2387,7 +2390,7 @@ msgid "You are creating a new %s, are you sure it does not exist yet?"
 msgstr "Bạn đang tạo mới một %s, Bạn chắc chắc nó không có sẵn?"
 
 #. module: web
-#: code:addons/web/controllers/main.py:726
+#: code:addons/web/controllers/main.py:716
 #, python-format
 msgid "You cannot leave any password empty."
 msgstr "Bạn không thể để trống mật khẩu."
@@ -2403,8 +2406,10 @@ msgstr "Bạn đã cập nhật"
 #. openerp-web
 #: code:addons/web/static/src/js/framework/misc.js:17
 #, python-format
-msgid "You may not believe it,<br />but the application is actually loading..."
-msgstr "Bạn có thể không tin,<br />nhưng thực sự úng dụng vẫn đang được nạp..."
+msgid ""
+"You may not believe it,<br />but the application is actually loading..."
+msgstr ""
+"Bạn có thể không tin,<br />nhưng thực sự úng dụng vẫn đang được nạp..."
 
 #. module: web
 #. openerp-web
@@ -2624,6 +2629,3 @@ msgstr "không phải là một số hợp lệ"
 #, python-format
 msgid "or"
 msgstr "hoặc"
-
-#~ msgid "Quantity"
-#~ msgstr "Số lượng"
