@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -117,7 +117,8 @@ msgstr "%d năm trước"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.webclient_bootstrap
-msgid "&lt;!--[if lt IE 10]&gt;\n"
+msgid ""
+"&lt;!--[if lt IE 10]&gt;\n"
 "                        &lt;body class=\"ie9\"&gt;\n"
 "                    &lt;![endif]--&gt;"
 msgstr ""
@@ -1030,10 +1031,12 @@ msgstr "Đổi trục"
 #. openerp-web
 #: code:addons/web/static/src/js/views/pivot_view.js:820
 #, python-format
-msgid "For Excel compatibility, data cannot be exported if there are more than 256 columns.\n"
+msgid ""
+"For Excel compatibility, data cannot be exported if there are more than 256 columns.\n"
 "\n"
 "Tip: try to flip axis, filter further or reduce the number of measures."
-msgstr "Để tương thích với Excel, dữ liệu xuất ra không được phép có nhiều hơn 256 cột.\n"
+msgstr ""
+"Để tương thích với Excel, dữ liệu xuất ra không được phép có nhiều hơn 256 cột.\n"
 "\n"
 "Tư vấn: hãy thử đổi trục, lọc thêm nữa để giảm số liệu đo lường."
 
@@ -1098,7 +1101,7 @@ msgstr "Cao"
 #: code:addons/web/static/src/xml/base.xml:167
 #, python-format
 msgid "ID:"
-msgstr "ID:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1202,11 +1205,13 @@ msgstr "Đang nạp..."
 #. openerp-web
 #: code:addons/web/static/src/js/framework/pyeval.js:997
 #, python-format
-msgid "Local evaluation failure\n"
+msgid ""
+"Local evaluation failure\n"
 "%s\n"
 "\n"
 "%s"
-msgstr "Đánh giá cục bộ thất bại\n"
+msgstr ""
+"Đánh giá cục bộ thất bại\n"
 "%s\n"
 "\n"
 "%s"
@@ -1393,16 +1398,22 @@ msgstr "Không Cập nhật:"
 #. openerp-web
 #: code:addons/web/static/src/js/views/graph_widget.js:96
 #, python-format
-msgid "No data available for this chart. Try to add some records, or make sure that there is no active filter in the search bar."
-msgstr "Không có dữ liệu cho đồ thị này. Hãy thử thêm vài bản ghi và đảm bảo không có bộ lọc nào được kích hoạt trên ô tìm kiếm."
+msgid ""
+"No data available for this chart. Try to add some records, or make sure that"
+" there is no active filter in the search bar."
+msgstr ""
+"Không có dữ liệu cho đồ thị này. Hãy thử thêm vài bản ghi và đảm bảo không "
+"có bộ lọc nào được kích hoạt trên ô tìm kiếm."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:607
 #, python-format
-msgid "No data available for this pivot table.  Try to add some records, or make sure\n"
+msgid ""
+"No data available for this pivot table.  Try to add some records, or make sure\n"
 "        that there is at least one measure and no active filter in the search bar."
-msgstr "Không có dữ liệu cho pivot table này. Hãy thử thêm vào bản ghi, hoặc chắc chắn\n"
+msgstr ""
+"Không có dữ liệu cho pivot table này. Hãy thử thêm vào bản ghi, hoặc chắc chắn\n"
 "        rằng bạn đã chọn ít nhất một thước đo và không có bộ lọc nào được kích hoạt ở ô tìm kiếm."
 
 #. module: web
@@ -1600,15 +1611,21 @@ msgstr "Biểu đồ bánh"
 #. openerp-web
 #: code:addons/web/static/src/js/views/graph_widget.js:207
 #, python-format
-msgid "Pie chart cannot display all zero numbers.. Try to change your domain to display positive results"
+msgid ""
+"Pie chart cannot display all zero numbers.. Try to change your domain to "
+"display positive results"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/graph_widget.js:200
 #, python-format
-msgid "Pie chart cannot mix positive and negative numbers. Try to change your domain to only display positive results"
-msgstr "Biểu đồ bánh không thể chứa cả số dương và số âm. Hãy thay đổi miền để chỉ hiển thị kết quả dương"
+msgid ""
+"Pie chart cannot mix positive and negative numbers. Try to change your "
+"domain to only display positive results"
+msgstr ""
+"Biểu đồ bánh không thể chứa cả số dương và số âm. Hãy thay đổi miền để chỉ "
+"hiển thị kết quả dương"
 
 #. module: web
 #. openerp-web
@@ -1635,8 +1652,12 @@ msgstr "Xin hãy lưu ý rằng chỉ mã được chọn mới được xuất.
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1125
 #, python-format
-msgid "Please pay attention that all records matching your search filter will be exported. Not only the selected ids."
-msgstr "Hãy lưu ý rằng, tất cả bản ghi được tìm thấy sẽ được xuất, không chỉ những bản ghi được lựa chọn"
+msgid ""
+"Please pay attention that all records matching your search filter will be "
+"exported. Not only the selected ids."
+msgstr ""
+"Hãy lưu ý rằng, tất cả bản ghi được tìm thấy sẽ được xuất, không chỉ những "
+"bản ghi được lựa chọn"
 
 #. module: web
 #. openerp-web
@@ -2013,8 +2034,12 @@ msgstr "Những trường sau đây không hợp lệ"
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view_editable.js:123
 #, python-format
-msgid "The line has been modified, your changes will be discarded. Are you sure you want to discard the changes ?"
-msgstr "Chi tiết/Dòng đã bị thay đổi. Các thay đổi sẽ bị mất. Bạn có chắc không muốn lưu các thay đổi chứ?"
+msgid ""
+"The line has been modified, your changes will be discarded. Are you sure you"
+" want to discard the changes ?"
+msgstr ""
+"Chi tiết/Dòng đã bị thay đổi. Các thay đổi sẽ bị mất. Bạn có chắc không muốn"
+" lưu các thay đổi chứ?"
 
 #. module: web
 #: code:addons/web/controllers/main.py:728
@@ -2032,7 +2057,8 @@ msgstr ""
 #. module: web
 #: code:addons/web/controllers/main.py:733
 #, python-format
-msgid "The old password you provided is incorrect, your password was not changed."
+msgid ""
+"The old password you provided is incorrect, your password was not changed."
 msgstr "Mật khẩu cũ không hợp lệ, bận chưa thay đổi được mật khẩu."
 
 #. module: web
@@ -2046,8 +2072,12 @@ msgstr "Dữ liệu không được tìm thấy trong cơ sở dữ liệu."
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:726
 #, python-format
-msgid "The record has been modified, your changes will be discarded. Are you sure you want to leave this page ?"
-msgstr "Bản ghi đã bị sửa đổi, mọi thay đổi bạn làm sẽ bị huỷ bỏ và không được lưu. Bạn có chắc muốn rời khỏi trang này chứ?"
+msgid ""
+"The record has been modified, your changes will be discarded. Are you sure "
+"you want to leave this page ?"
+msgstr ""
+"Bản ghi đã bị sửa đổi, mọi thay đổi bạn làm sẽ bị huỷ bỏ và không được lưu. "
+"Bạn có chắc muốn rời khỏi trang này chứ?"
 
 #. module: web
 #. openerp-web
@@ -2060,7 +2090,9 @@ msgstr "Tập tin được chọn chạm giới hạn dung lượng tối đa %s
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1586
 #, python-format
-msgid "The type of the field '%s' must be a many2many field with a relation to 'ir.attachment' model."
+msgid ""
+"The type of the field '%s' must be a many2many field with a relation to "
+"'ir.attachment' model."
 msgstr ""
 
 #. module: web
@@ -2074,16 +2106,20 @@ msgstr "Có một vấn đề đã xảy ra trong quá trình tải file"
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_menus.js:244
 #, python-format
-msgid "This filter is global and will be removed for everybody if you continue."
-msgstr "Bộ lọc này là toàn cục và sẽ bị gỡ bỏ bởi tất cả mọi người nếu bạn tiếp tục."
+msgid ""
+"This filter is global and will be removed for everybody if you continue."
+msgstr ""
+"Bộ lọc này là toàn cục và sẽ bị gỡ bỏ bởi tất cả mọi người nếu bạn tiếp tục."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1082
 #, python-format
-msgid "This wizard will export all data that matches the current search criteria to a CSV file.\n"
+msgid ""
+"This wizard will export all data that matches the current search criteria to a CSV file.\n"
 "        You can export all data or only the fields that can be reimported after modification."
-msgstr "Đồ thuật này sẽ xuất toàn bộ dữ liệu mà khớp với các tiêu chí lọc/tìm kiếm hiện tại vào một\n"
+msgstr ""
+"Đồ thuật này sẽ xuất toàn bộ dữ liệu mà khớp với các tiêu chí lọc/tìm kiếm hiện tại vào một\n"
 "        tập tin CSV. Bạn có thể xuất toàn bộ dữ liệu hoặc chỉ dữ liệu của một số trường mà có thể tái import\n"
 "        sau khi chỉnh sửa."
 
@@ -2091,8 +2127,13 @@ msgstr "Đồ thuật này sẽ xuất toàn bộ dữ liệu mà khớp với c
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:861
 #, python-format
-msgid "Timezone Mismatch : The timezone of your browser doesn't match the selected one. The time in Odoo is displayed according to your field timezone."
-msgstr "Múi giờ không khớp: Múi giờ ở trình duyệt của bạn không khớp với múi giờ bạn chọn trong Odoo. Thời gian trong Odoo được hiển thị theo thiết lập múi giờ của bạn."
+msgid ""
+"Timezone Mismatch : The timezone of your browser doesn't match the selected "
+"one. The time in Odoo is displayed according to your field timezone."
+msgstr ""
+"Múi giờ không khớp: Múi giờ ở trình duyệt của bạn không khớp với múi giờ bạn"
+" chọn trong Odoo. Thời gian trong Odoo được hiển thị theo thiết lập múi giờ "
+"của bạn."
 
 #. module: web
 #. openerp-web
@@ -2430,7 +2471,9 @@ msgstr "Bạn phải chọn ít nhất một bản ghi."
 #: code:addons/web/static/src/js/framework/crash_manager.js:58
 #, python-format
 msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Phiên làm việc của bạn đã hết hạn. Xin hãy nạp lại trang hiện tại (F5 hoặc Ctrl+F5)."
+msgstr ""
+"Phiên làm việc của bạn đã hết hạn. Xin hãy nạp lại trang hiện tại (F5 hoặc "
+"Ctrl+F5)."
 
 #. module: web
 #. openerp-web

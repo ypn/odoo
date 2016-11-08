@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * event
-# 
+#
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -148,7 +148,8 @@ msgid ""
 "    </table>\n"
 "</div>\n"
 "            "
-msgstr "\n"
+msgstr ""
+"\n"
 "<div style=\"background:#F3F5F6;color:#515166;padding:25px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "% set date_begin = format_tz(object.event_id.date_begin, tz='UTC', format='%Y%m%dT%H%M%SZ')\n"
 "% set date_end = format_tz(object.event_id.date_end, tz='UTC', format='%Y%m%dT%H%M%SZ')\n"
@@ -274,7 +275,8 @@ msgstr "\n"
 
 #. module: event
 #: model:mail.template,body_html:event.event_subscription
-msgid "\n"
+msgid ""
+"\n"
 "<div style=\"background:#F3F5F6;color:#515166;padding:25px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "% set date_begin = format_tz(object.event_id.date_begin, tz='UTC', format='%Y%m%dT%H%M%SZ')\n"
 "% set date_end = format_tz(object.event_id.date_end, tz='UTC', format='%Y%m%dT%H%M%SZ')\n"
@@ -392,7 +394,8 @@ msgid "\n"
 "    </table>\n"
 "</div>\n"
 "            "
-msgstr "\n"
+msgstr ""
+"\n"
 "<div style=\"background:#F3F5F6;color:#515166;padding:25px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "% set date_begin = format_tz(object.event_id.date_begin, tz='UTC', format='%Y%m%dT%H%M%SZ')\n"
 "% set date_end = format_tz(object.event_id.date_end, tz='UTC', format='%Y%m%dT%H%M%SZ')\n"
@@ -513,13 +516,15 @@ msgstr "\n"
 
 #. module: event
 #: model:mail.template,body_html:event.event_registration_mail_template_badge
-msgid "\n"
+msgid ""
+"\n"
 "<p>Dear ${object.name},</p>\n"
 "<p>Thank you for your inquiry.</p>\n"
 "<p>Here is your badge for the event ${object.event_id.name}.</p>\n"
 "<p>If you have any questions, please let us know.</p>\n"
 "<p>Best regards,</p>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<p>Dear ${object.name},</p>\n"
 "<p>Cám ơn về yêu cầu của bạn.</p>\n"
 "<p>Đây là thẻ tham dự sự kiện ${object.event_id.name} của bạn.</p>\n"
@@ -555,51 +560,74 @@ msgstr "5 Ngày Chuyên sâu"
 
 #. module: event
 #: model:event.event,description:event.event_2
-msgid "<em>(Chamber Works reserves the right to cancel, re-name or re-locate<br>the event or change the dates on which it is held.)</em>"
+msgid ""
+"<em>(Chamber Works reserves the right to cancel, re-name or re-locate<br>the"
+" event or change the dates on which it is held.)</em>"
 msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
-msgid "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo Programming</i></font>"
-msgstr "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">để học <i>Lập trình Odoo</i></font>"
+msgid ""
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo"
+" Programming</i></font>"
+msgstr ""
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">để học <i>Lập "
+"trình Odoo</i></font>"
 
 #. module: event
 #: model:event.event,description:event.event_1
-msgid "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>technical aspects</i></font>"
-msgstr "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">để học <i>các khía cạnh kỹ thuật</i></font>"
+msgid ""
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn "
+"<i>technical aspects</i></font>"
+msgstr ""
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">để học <i>các "
+"khía cạnh kỹ thuật</i></font>"
 
 #. module: event
 #: model:event.event,description:event.event_3
-msgid "<font style=\"font-size: 24px;\">to learn <i>business applications development</i></font>"
-msgstr "<font style=\"font-size: 24px;\">để học <i>phát triển các ứng dụng doanh nghiệp</i></font>"
+msgid ""
+"<font style=\"font-size: 24px;\">to learn <i>business applications "
+"development</i></font>"
+msgstr ""
+"<font style=\"font-size: 24px;\">để học <i>phát triển các ứng dụng doanh "
+"nghiệp</i></font>"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_kanban
-msgid "<i class=\"fa fa-clock-o\"/>\n"
+msgid ""
+"<i class=\"fa fa-clock-o\"/>\n"
 "                                        <b>To</b>"
-msgstr "<i class=\"fa fa-clock-o\"/>\n"
+msgstr ""
+"<i class=\"fa fa-clock-o\"/>\n"
 "                                        <b>Đến</b>"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "<i>You will be able to create dynamic page interacting with the ORM.</i>"
+msgid ""
+"<i>You will be able to create dynamic page interacting with the ORM.</i>"
 msgstr "<i>Bạn sẽ có thể tạo trang động tương tác với ORM.</i>"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "<i>You will be able to develop a full application with backend and user interface.</i>"
-msgstr "<i>Bạn sẽ có thể phát triển một ứng dụng hoàn chỉnh với backend và giao diện người dùng.</i>"
+msgid ""
+"<i>You will be able to develop a full application with backend and user "
+"interface.</i>"
+msgstr ""
+"<i>Bạn sẽ có thể phát triển một ứng dụng hoàn chỉnh với backend và giao diện"
+" người dùng.</i>"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "<i>You will be able to develop simple dynamic components in HTML pages.</i>"
-msgstr "<i>Bạn sẽ có thể phát triển các thành phần động trong các trang HTML.</i>"
+msgid ""
+"<i>You will be able to develop simple dynamic components in HTML pages.</i>"
+msgstr ""
+"<i>Bạn sẽ có thể phát triển các thành phần động trong các trang HTML.</i>"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.event_event_report_template_badge
@@ -616,10 +644,12 @@ msgstr ""
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_form
-msgid "<span attrs=\"{'invisible': [('seats_availability', '=', 'unlimited')]}\" class=\"oe_read_only\">\n"
+msgid ""
+"<span attrs=\"{'invisible': [('seats_availability', '=', 'unlimited')]}\" class=\"oe_read_only\">\n"
 "                                                to \n"
 "                                            </span>"
-msgstr "<span attrs=\"{'invisible': [('seats_availability', '=', 'unlimited')]}\" class=\"oe_read_only\">\n"
+msgstr ""
+"<span attrs=\"{'invisible': [('seats_availability', '=', 'unlimited')]}\" class=\"oe_read_only\">\n"
 "                                                đến \n"
 "                                            </span>"
 
@@ -627,8 +657,17 @@ msgstr "<span attrs=\"{'invisible': [('seats_availability', '=', 'unlimited')]}\
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "<span style=\"text-align: -webkit-center; \">This course is dedicated to developers who need to grasp knowledge of the <strong>business applications development </strong>process. This course is for new developers or for IT professionals eager to learn more about technical aspects.</span>"
-msgstr "<span style=\"text-align: -webkit-center; \">Khoá học này được thiết kế riêng cho các nhà phát triển mà cần kiến thức thấu đáo về quy trình <strong>phát triển các ứng dụng quản trị doanh nghiệp</strong>. Khoá này dành cho các nhà phát triển mới hoặc các chuyên gia IT thiết tha với việc học thêm về các khía cạnh kỹ thuật.</span>"
+msgid ""
+"<span style=\"text-align: -webkit-center; \">This course is dedicated to "
+"developers who need to grasp knowledge of the <strong>business applications "
+"development </strong>process. This course is for new developers or for IT "
+"professionals eager to learn more about technical aspects.</span>"
+msgstr ""
+"<span style=\"text-align: -webkit-center; \">Khoá học này được thiết kế "
+"riêng cho các nhà phát triển mà cần kiến thức thấu đáo về quy trình "
+"<strong>phát triển các ứng dụng quản trị doanh nghiệp</strong>. Khoá này "
+"dành cho các nhà phát triển mới hoặc các chuyên gia IT thiết tha với việc "
+"học thêm về các khía cạnh kỹ thuật.</span>"
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -639,7 +678,9 @@ msgstr "<strong>Hội thảo về Các Ứng dụng Doanh nghiệp</strong>"
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "<strong>Having attended this course, participants should be able to:</strong>"
+msgid ""
+"<strong>Having attended this course, participants should be able "
+"to:</strong>"
 msgstr "<strong>Tham gia khoá học này, học viên sẽ có thể:</strong>"
 
 #. module: event
@@ -714,7 +755,9 @@ msgstr "Cho phép bán vé"
 #. module: event
 #: selection:event.config.settings,module_website_event_track:0
 msgid "Allow tracks, agenda and dedicated menus/website per event"
-msgstr "Cho phép theo dõi, lên chương trình và các trình đơn/website đặc dụng với mỗi sự kiện"
+msgstr ""
+"Cho phép theo dõi, lên chương trình và các trình đơn/website đặc dụng với "
+"mỗi sự kiện"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_configuration
@@ -868,8 +911,7 @@ msgid "Cancel Registration"
 msgstr "Huỷ Đăng ký"
 
 #. module: event
-#: selection:event.event,state:0
-#: selection:event.registration,state:0
+#: selection:event.event,state:0 selection:event.registration,state:0
 #: selection:report.event.registration,event_state:0
 #: selection:report.event.registration,registration_state:0
 msgid "Cancelled"
@@ -957,8 +999,7 @@ msgid "Confirmation not required"
 msgstr "Không bắt buộc Xác nhận"
 
 #. module: event
-#: selection:event.event,state:0
-#: selection:event.registration,state:0
+#: selection:event.event,state:0 selection:event.registration,state:0
 #: model:ir.ui.view,arch_db:event.view_event_search
 #: selection:report.event.registration,event_state:0
 #: selection:report.event.registration,registration_state:0
@@ -1129,8 +1170,13 @@ msgstr "Dự thảo"
 
 #. module: event
 #: model:event.event,description:event.event_2
-msgid "During this conference, our team will give a detailed overview of our business applications. You’ll know all the benefits of using it."
-msgstr "Trong cuộc hội thảo này, chúng tôi sẽ cung cấp cái nhìn chi tiết, hoàn chỉnh về các ứng dụng doanh nghiệp. Bạn sẽ biết toàn bộ các lợi ích khi sử dụng nó."
+msgid ""
+"During this conference, our team will give a detailed overview of our "
+"business applications. You’ll know all the benefits of using it."
+msgstr ""
+"Trong cuộc hội thảo này, chúng tôi sẽ cung cấp cái nhìn chi tiết, hoàn chỉnh"
+" về các ứng dụng doanh nghiệp. Bạn sẽ biết toàn bộ các lợi ích khi sử dụng "
+"nó."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_email
@@ -1353,13 +1399,23 @@ msgstr "Để biết thêm bất cứ thông tin gì, vui long liên hệ với 
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_seats_max
-msgid "For each event you can define a maximum registration of seats(number of attendees), above this numbers the registrations are not accepted."
-msgstr "Đối với từng sự kiện, bạn có thể định nghĩa số chỗ ngồi đăng ký tối đa (số người tham dự), vượt quá số lượng này thì sẽ không được phép đăng ký."
+msgid ""
+"For each event you can define a maximum registration of seats(number of "
+"attendees), above this numbers the registrations are not accepted."
+msgstr ""
+"Đối với từng sự kiện, bạn có thể định nghĩa số chỗ ngồi đăng ký tối đa (số "
+"người tham dự), vượt quá số lượng này thì sẽ không được phép đăng ký."
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_seats_min
-msgid "For each event you can define a minimum reserved seats (number of attendees), if it does not reach the mentioned registrations the event can not be confirmed (keep 0 to ignore this rule)"
-msgstr "Đối với từng sự kiện, bạn có thể định nghĩa số chỗ ngồi đăng ký (số người tham dự) tối thiểu. Nếu số lượng này không đạt thì sự kiện sẽ không thể được xác nhận. Hãy để 0 nếu bạn muốn bỏ qua quy tắc ràng buộc này."
+msgid ""
+"For each event you can define a minimum reserved seats (number of "
+"attendees), if it does not reach the mentioned registrations the event can "
+"not be confirmed (keep 0 to ignore this rule)"
+msgstr ""
+"Đối với từng sự kiện, bạn có thể định nghĩa số chỗ ngồi đăng ký (số người "
+"tham dự) tối thiểu. Nếu số lượng này không đạt thì sự kiện sẽ không thể được"
+" xác nhận. Hãy để 0 nếu bạn muốn bỏ qua quy tắc ràng buộc này."
 
 #. module: event
 #: model:event.event,name:event.event_1
@@ -1413,8 +1469,12 @@ msgstr "Cách Debug (Gỡ lỗi)"
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "I did not expect such a great learning experience. I feel like I can develop anything now."
-msgstr "Tôi đã không mong đợi một trải nghiệp học tuyệt vời như vậy. Tôi dưới nhu thấy hiện giờ tôi đã có thể phát triển ứng cho cho Odoo."
+msgid ""
+"I did not expect such a great learning experience. I feel like I can develop"
+" anything now."
+msgstr ""
+"Tôi đã không mong đợi một trải nghiệp học tuyệt vời như vậy. Tôi dưới nhu "
+"thấy hiện giờ tôi đã có thể phát triển ứng cho cho Odoo."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_config_settings_id
@@ -1426,12 +1486,20 @@ msgstr "Tôi đã không mong đợi một trải nghiệp học tuyệt vời n
 #: model:ir.model.fields,field_description:event.field_event_type_id
 #: model:ir.model.fields,field_description:event.field_report_event_registration_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_state
-msgid "If event is created, the status is 'Draft'. If event is confirmed for the particular dates the status is set to 'Confirmed'. If the event is over, the status is set to 'Done'. If event is cancelled the status is set to 'Cancelled'."
-msgstr "Nếu sự kiện được tạo, nó sẽ ở trạng thái 'Dự thảo'. Nếu sự kiện được xác nhận cho các ngày nào đó, trạng thái được chuyển sang 'Đã xác nhận'. Nếu sự kiện bị trôi qua, trạng thái được chuyển sang 'Hoàn thành'. Nếu sự kiện bị huỷ, trạng được chuyển sang 'Bị huỷ'"
+msgid ""
+"If event is created, the status is 'Draft'. If event is confirmed for the "
+"particular dates the status is set to 'Confirmed'. If the event is over, the"
+" status is set to 'Done'. If event is cancelled the status is set to "
+"'Cancelled'."
+msgstr ""
+"Nếu sự kiện được tạo, nó sẽ ở trạng thái 'Dự thảo'. Nếu sự kiện được xác "
+"nhận cho các ngày nào đó, trạng thái được chuyển sang 'Đã xác nhận'. Nếu sự "
+"kiện bị trôi qua, trạng thái được chuyển sang 'Hoàn thành'. Nếu sự kiện bị "
+"huỷ, trạng được chuyển sang 'Bị huỷ'"
 
 #. module: event
 #: selection:event.mail,interval_unit:0
@@ -1725,11 +1793,13 @@ msgstr ""
 
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
-msgid "Odoo helps you schedule and efficiently organize your events:\n"
+msgid ""
+"Odoo helps you schedule and efficiently organize your events:\n"
 "    track registrations and participations, automate the confirmation emails,\n"
 "    sell tickets, etc."
-msgstr "Odoo giúp bạn ấn định lịch và tổ chức hiệu quả các sự kiện của bạn:"
-"    theo dõi đăng ký và tham dự, tự động hoá email xác nhận, bán vé, v.v."
+msgstr ""
+"Odoo giúp bạn ấn định lịch và tổ chức hiệu quả các sự kiện của bạn:    theo "
+"dõi đăng ký và tham dự, tự động hoá email xác nhận, bán vé, v.v."
 
 #. module: event
 #: model:event.event,name:event.event_0
@@ -1755,15 +1825,23 @@ msgstr "Người tham dự / Tên Liên hệ"
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Participants are expected to have some knowledge in programming. A basic knowledge of the Python programming is recommended."
-msgstr "Học viên tham dự cần có một số kiến thức cơ bản về lập trình. Có kiến thức lập trình bằng ngôn ngữ Python thì được đề cao."
+msgid ""
+"Participants are expected to have some knowledge in programming. A basic "
+"knowledge of the Python programming is recommended."
+msgstr ""
+"Học viên tham dự cần có một số kiến thức cơ bản về lập trình. Có kiến thức "
+"lập trình bằng ngôn ngữ Python thì được đề cao."
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Participants preferably have a functional knowledge of our software (see Functional Training)."
-msgstr "Người tham dự cần có hiểu biết nhất định về các tính năng của phần mềm của chúng tôi (xem Tập huấn Tính năng)."
+msgid ""
+"Participants preferably have a functional knowledge of our software (see "
+"Functional Training)."
+msgstr ""
+"Người tham dự cần có hiểu biết nhất định về các tính năng của phần mềm của "
+"chúng tôi (xem Tập huấn Tính năng)."
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_registration_search
@@ -1806,8 +1884,12 @@ msgstr "Đọc các Nội dung Tuyệt vời"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_registration_origin
-msgid "Reference of the document that created the registration, for example a sale order"
-msgstr "Dẫn chiếu của đối tượng tài liệu mà đã tạo đăng ký này, ví dụ: một đơn hàng bán."
+msgid ""
+"Reference of the document that created the registration, for example a sale "
+"order"
+msgstr ""
+"Dẫn chiếu của đối tượng tài liệu mà đã tạo đăng ký này, ví dụ: một đơn hàng "
+"bán."
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_form
@@ -2017,19 +2099,32 @@ msgstr "Đào tạo Kỹ thuật"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_reply_to
-msgid "The email address of the organizer is likely to be put here, with the effect to be in the 'Reply-To' of the mails sent automatically at event or registrations confirmation. You can also put the email address of your mail gateway if you use one."
-msgstr "Thường sẽ là email của nhà tổ chức sự kiện sẽ được điền vào đây, để phần mềmsẽ đưa giá trị này vào trường reply-to của email khi email được gửi tự động. Bạn cũng có thể đưa email của máy chủ nhận email của bạn vào đây nếu muốn."
+msgid ""
+"The email address of the organizer is likely to be put here, with the effect"
+" to be in the 'Reply-To' of the mails sent automatically at event or "
+"registrations confirmation. You can also put the email address of your mail "
+"gateway if you use one."
+msgstr ""
+"Thường sẽ là email của nhà tổ chức sự kiện sẽ được điền vào đây, để phần "
+"mềmsẽ đưa giá trị này vào trường reply-to của email khi email được gửi tự "
+"động. Bạn cũng có thể đưa email của máy chủ nhận email của bạn vào đây nếu "
+"muốn."
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "This course help me build my first application within a month. Definetly worth its price."
-msgstr "Khoá học này đã giúp tôi xây dựng ứng dụng đầu tiên của tôi trong vòng 1 tháng. Nó thực sự xứng đáng với số tiền tôi đa bỏ ra."
+msgid ""
+"This course help me build my first application within a month. Definetly "
+"worth its price."
+msgstr ""
+"Khoá học này đã giúp tôi xây dựng ứng dụng đầu tiên của tôi trong vòng 1 "
+"tháng. Nó thực sự xứng đáng với số tiền tôi đa bỏ ra."
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_mail_template_id
-msgid "This field contains the template of the mail that will be automatically sent"
+msgid ""
+"This field contains the template of the mail that will be automatically sent"
 msgstr "Trường này chứa mãu email mà sẽ được gửi tự động"
 
 #. module: event
@@ -2091,8 +2186,7 @@ msgid "Training Center Module"
 msgstr "Phân hệ Trung tâm Đào tạo"
 
 #. module: event
-#: selection:event.event,state:0
-#: selection:event.registration,state:0
+#: selection:event.event,state:0 selection:event.registration,state:0
 #: model:ir.ui.view,arch_db:event.view_event_search
 msgid "Unconfirmed"
 msgstr "Chưa xác nhận"
@@ -2139,8 +2233,11 @@ msgstr "Thông điệp chưa đọc"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_config_settings_auto_confirmation
-msgid "Unselect this option to manually manage draft event and draft registration"
-msgstr "Bỏ chọn tuỳ chọn này để quản lý thủ công các sự kiện dự thảo và đăng ký dự thảo"
+msgid ""
+"Unselect this option to manually manage draft event and draft registration"
+msgstr ""
+"Bỏ chọn tuỳ chọn này để quản lý thủ công các sự kiện dự thảo và đăng ký dự "
+"thảo"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_search
@@ -2171,8 +2268,12 @@ msgstr "Quản lý Kho, Hoạch định Sản xuất (MRP) &amp; Bán, Xuất/Nh
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_confirm
-msgid "Warning: This Event has not reached its Minimum Registration Limit. Are you sure you want to confirm it?"
-msgstr "Cảnh báo: Sự kiện Này chưa đạt Giới hạn Tối thiểu Đăng ký. Bạn có chắc chắn muốn xác nhận nó?"
+msgid ""
+"Warning: This Event has not reached its Minimum Registration Limit. Are you "
+"sure you want to confirm it?"
+msgstr ""
+"Cảnh báo: Sự kiện Này chưa đạt Giới hạn Tối thiểu Đăng ký. Bạn có chắc chắn "
+"muốn xác nhận nó?"
 
 #. module: event
 #: selection:event.mail,interval_unit:0
@@ -2208,8 +2309,12 @@ msgstr "Quy trình"
 #. module: event
 #: code:addons/event/models/event.py:246
 #, python-format
-msgid "You have already set a registration for this event as 'Attended'. Please reset it to draft if you want to cancel this event."
-msgstr "Bạn đã đặt (ít nhất) một đăng ký cho sự kiện này thành 'Đã tham dự'. Vui lòng đặt lại về Dự thảo nếu bạn muốn huỷ sự kiện này."
+msgid ""
+"You have already set a registration for this event as 'Attended'. Please "
+"reset it to draft if you want to cancel this event."
+msgstr ""
+"Bạn đã đặt (ít nhất) một đăng ký cho sự kiện này thành 'Đã tham dự'. Vui "
+"lòng đặt lại về Dự thảo nếu bạn muốn huỷ sự kiện này."
 
 #. module: event
 #: code:addons/event/models/event.py:371

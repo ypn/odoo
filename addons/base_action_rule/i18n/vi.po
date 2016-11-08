@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base_action_rule
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -147,10 +147,12 @@ msgstr "Độ trễ sau Ngày Tri-gơ"
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_range
-msgid "Delay after the trigger date.\n"
+msgid ""
+"Delay after the trigger date.\n"
 "                                    You can put a negative number if you need a delay before the\n"
 "                                    trigger date, like sending a reminder 15 minutes before a meeting."
-msgstr "Độ trễ sau ngày tri-gơ.\n"
+msgstr ""
+"Độ trễ sau ngày tri-gơ.\n"
 "                                    Bạn có thể nhập số âm nếu bạn cần độ trễ trước ngày tri-gơ,\n"
 "                                    ví dụ như gửi email trước 15 phút."
 
@@ -202,7 +204,10 @@ msgid ""
 "Go to your \"Related Document Model\" page and set the filter parameters in "
 "the \"Search\" view (Example of filter based on Leads/Opportunities: "
 "Creation Date \"is equal to\" 01/01/2012)"
-msgstr "Chuyển đến trang \"Đối tượng Tài liệu liên quan\" và thiết lập các thông số bộ lọc trong giao diện \"Tìm kiếm\" (Ví dụ về bộ lọc dựa trên Tiềm năng/Cơ hội: Ngày tạo \"bằng\" 01.01/2012)"
+msgstr ""
+"Chuyển đến trang \"Đối tượng Tài liệu liên quan\" và thiết lập các thông số "
+"bộ lọc trong giao diện \"Tìm kiếm\" (Ví dụ về bộ lọc dựa trên Tiềm năng/Cơ "
+"hội: Ngày tạo \"bằng\" 01.01/2012)"
 
 #. module: base_action_rule
 #: selection:base.action.rule,trg_date_range_type:0
@@ -214,7 +219,7 @@ msgstr "Giờ"
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_id
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_filter_domain
@@ -223,7 +228,8 @@ msgid ""
 "If present, this condition must be satisfied before executing the action "
 "rule."
 msgstr ""
-"Nếu có, điều kiện này phải được thoả mãn trước khi thực thi quy tắc hành động."
+"Nếu có, điều kiện này phải được thoả mãn trước khi thực thi quy tắc hành "
+"động."
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_filter_pre_domain
@@ -231,7 +237,9 @@ msgstr ""
 msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record."
-msgstr "Nếu có, điều kiện này phải được thoả mãn trước khi thực thi cập nhật bản ghi."
+msgstr ""
+"Nếu có, điều kiện này phải được thoả mãn trước khi thực thi cập nhật bản "
+"ghi."
 
 #. module: base_action_rule
 #: selection:base.action.rule.lead.test,state:0
@@ -240,8 +248,14 @@ msgstr "Đang thực hiện"
 
 #. module: base_action_rule
 #: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
-msgid "In this same \"Search\" view, select the menu \"Save Current Filter\", enter the name (Ex: Create the 01/01/2012) and add the option \"Share with all users\""
-msgstr "Trong cùng giao diện \"Tìm kiếm\", chọn menu \"Lưu bộ lọc hiện tại\", nhập tên cho bộ lọc (vd. Tạo vào ngày 01/01/2012) và chọn tuỳ chọn \"Chia sẻ với tất cả người dùng\""
+msgid ""
+"In this same \"Search\" view, select the menu \"Save Current Filter\", enter"
+" the name (Ex: Create the 01/01/2012) and add the option \"Share with all "
+"users\""
+msgstr ""
+"Trong cùng giao diện \"Tìm kiếm\", chọn menu \"Lưu bộ lọc hiện tại\", nhập "
+"tên cho bộ lọc (vd. Tạo vào ngày 01/01/2012) và chọn tuỳ chọn \"Chia sẻ với "
+"tất cả người dùng\""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_customer
@@ -366,8 +380,12 @@ msgstr "Tên quy tắc"
 
 #. module: base_action_rule
 #: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
-msgid "Select when the action must be run, and choose records and/or timing conditions."
-msgstr "Chọn tuỳ chọn khi nào thì hành động phải được thực hiện, và thêm các bản ghi và/hoặc điều kiện thời gian."
+msgid ""
+"Select when the action must be run, and choose records and/or timing "
+"conditions."
+msgstr ""
+"Chọn tuỳ chọn khi nào thì hành động phải được thực hiện, và thêm các bản ghi"
+" và/hoặc điều kiện thời gian."
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_sequence
@@ -432,12 +450,14 @@ msgstr "Sử dụng lịch"
 
 #. module: base_action_rule
 #: model:ir.actions.act_window,help:base_action_rule.base_action_rule_act
-msgid "Use automated actions to automatically trigger actions for\n"
+msgid ""
+"Use automated actions to automatically trigger actions for\n"
 "                various screens. Example: a lead created by a specific user may\n"
 "                be automatically set to a specific sales team, or an\n"
 "                opportunity which still has status pending after 14 days might\n"
 "                trigger an automatic reminder email."
-msgstr "Sử dụng các hành động tự động để tự khởi chạy (tri-gơ) các hành động\n"
+msgstr ""
+"Sử dụng các hành động tự động để tự khởi chạy (tri-gơ) các hành động\n"
 "                cho một số tình huống. Ví dụ: một tiềm năng được tạo bởi một\n"
 "                người dùng cụ thể nào đó có thể được tự động thiết lập vào một\n"
 "                đội bán hàng, hoặc một cơ hội mà vẫn ở trạng thái treo sau 14\n"
@@ -450,12 +470,17 @@ msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_calendar_id
-msgid "When calculating a day-based timed condition, it is possible to use a calendar to compute the date based on working days."
-msgstr "Khi tính toán điều kiện thời gian dựa trên ngày, phần mềm có thể xem xét lịch làm việc của nhân viên để tính toán ngày dựa trên khung giờ làm việc đó"
+msgid ""
+"When calculating a day-based timed condition, it is possible to use a "
+"calendar to compute the date based on working days."
+msgstr ""
+"Khi tính toán điều kiện thời gian dựa trên ngày, phần mềm có thể xem xét "
+"lịch làm việc của nhân viên để tính toán ngày dựa trên khung giờ làm việc đó"
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_id
-msgid "When should the condition be triggered.\n"
+msgid ""
+"When should the condition be triggered.\n"
 "                                  If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 
@@ -471,5 +496,9 @@ msgstr "Khi bỏ đánh dấu, quy tắc bị ẩn đi và sẽ không được 
 
 #. module: base_action_rule
 #: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
-msgid "You may also use filters instead of choosing records. In order to create a new filter:"
-msgstr "Bạn có thể sử dụng các bộ lọc thay vì lựa chọn các bản ghi. Để tạo mới một bộ lọc:"
+msgid ""
+"You may also use filters instead of choosing records. In order to create a "
+"new filter:"
+msgstr ""
+"Bạn có thể sử dụng các bộ lọc thay vì lựa chọn các bản ghi. Để tạo mới một "
+"bộ lọc:"

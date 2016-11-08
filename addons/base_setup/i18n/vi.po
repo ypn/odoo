@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base_setup
-# 
+#
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -29,8 +29,12 @@ msgstr "(nạp lại fonts)"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
-msgid "<span>(*) This configuration is related to the company you're logged into.</span>"
-msgstr "<span>(*) Cấu hình này liên quan đến công ty mà bạn đang đăng nhập vào.</span>"
+msgid ""
+"<span>(*) This configuration is related to the company you're logged "
+"into.</span>"
+msgstr ""
+"<span>(*) Cấu hình này liên quan đến công ty mà bạn đang đăng nhập "
+"vào.</span>"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_portal
@@ -70,7 +74,8 @@ msgstr "Áp dụng"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_google_drive
 msgid "Attach Google documents to any record"
-msgstr "Đính kèm tài liệu Google (Google Docs) và bất kỳ Bản ghi nào trong Odoo"
+msgstr ""
+"Đính kèm tài liệu Google (Google Docs) và bất kỳ Bản ghi nào trong Odoo"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
@@ -84,8 +89,10 @@ msgstr "Hủy"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_custom_footer
-msgid "Check this to define the report footer manually. Otherwise it will be filled in automatically."
-msgstr "Check this to define the report footer manually. Otherwise it will be filled in automatically."
+msgid ""
+"Check this to define the report footer manually. Otherwise it will be filled"
+" in automatically."
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_company_id
@@ -178,7 +185,7 @@ msgstr "Tích hợp Google"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
@@ -232,8 +239,12 @@ msgstr "Quyền truy cập của người dùng mới"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
-msgid "Once installed, you can configure your API credentials for \"Google calendar\""
-msgstr "Một khi được cài đặt, bạn có thể cấu hình API credentials for \"Google calendar\""
+msgid ""
+"Once installed, you can configure your API credentials for \"Google "
+"calendar\""
+msgstr ""
+"Một khi được cài đặt, bạn có thể cấu hình API credentials for \"Google "
+"calendar\""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_rml_paper_format
@@ -282,7 +293,9 @@ msgstr "Chân Báo cáo *"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_font
-msgid "Set the font into the report header, it will be used as default font in the RML reports of the user company"
+msgid ""
+"Set the font into the report header, it will be used as default font in the "
+"RML reports of the user company"
 msgstr ""
 
 #. module: base_setup
@@ -297,7 +310,8 @@ msgstr "Chia sẻ đối tác cho tất cả các công ty"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_company_share_partner
-msgid "Share your partners to all companies defined in your instance.\n"
+msgid ""
+"Share your partners to all companies defined in your instance.\n"
 " * Checked : Partners are visible for every companies, even if a company is defined on the partner.\n"
 " * Unchecked : Each company can see only its partner (partners where company is defined). Partners not related to a company are visible for all companies."
 msgstr ""
@@ -319,9 +333,11 @@ msgstr "Cái này sẽ cài đặt phân hệ google_docs"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_inter_company_rules
-msgid "This installs the module inter_company_rules.\n"
+msgid ""
+"This installs the module inter_company_rules.\n"
 " Configure company rules to automatically create SO/PO when one of your company sells/buys to another of your company."
-msgstr "Cái này sẽ cài đặt phân hệ inter_company_rules.\n"
+msgstr ""
+"Cái này sẽ cài đặt phân hệ inter_company_rules.\n"
 " Cấu hình các quy tắc công ty để tự động tạo SO/PO khi một trong số các công ty mua/bán với một công ty khác."
 
 #. module: base_setup
@@ -331,12 +347,14 @@ msgstr "Sử dụng các nhà cung cấp dịch vụ xác thực bên ngoài (OA
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
-msgid "When you send a document to a customer\n"
+msgid ""
+"When you send a document to a customer\n"
 "                                    (quotation, invoice), your customer will be\n"
 "                                    able to signup to get all his documents,\n"
 "                                    read your company news, check his projects,\n"
 "                                    etc."
-msgstr "Khi bạn gửi một tài liệu đến một khách hàng\n"
+msgstr ""
+"Khi bạn gửi một tài liệu đến một khách hàng\n"
 "                                    (báo giá, hoá đơn), khách hàng của bạn sẽ có thể đăng ký\n"
 "                                    và đăng nhập vào hệ thống của bạn để xem các tài liệu liên quan,\n"
 "                                    đọc các tin tức về công ty bạn, theo dõi các dự án của họ,\n"
@@ -344,13 +362,21 @@ msgstr "Khi bạn gửi một tài liệu đến một khách hàng\n"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_group_multi_company
-msgid "Work in multi-company environments, with appropriate security access between companies."
-msgstr "Làm việc trong môi trường đa công ty, với việc phân quyền truy cập phù hợp giữa các công ty."
+msgid ""
+"Work in multi-company environments, with appropriate security access between"
+" companies."
+msgstr ""
+"Làm việc trong môi trường đa công ty, với việc phân quyền truy cập phù hợp "
+"giữa các công ty."
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
-msgid "You will find more options in your company details: address for the header and footer, overdue payments texts, etc."
-msgstr "Bạn sẽ thấy nhiều tùy chọn hơn trong phần chi tiết công ty bạn: địa chỉ cho phần header và footer, mẫu thư nhắc nhở các khoản thanh toán quá hạn, v.v."
+msgid ""
+"You will find more options in your company details: address for the header "
+"and footer, overdue payments texts, etc."
+msgstr ""
+"Bạn sẽ thấy nhiều tùy chọn hơn trong phần chi tiết công ty bạn: địa chỉ cho "
+"phần header và footer, mẫu thư nhắc nhở các khoản thanh toán quá hạn, v.v."
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_base_config_settings

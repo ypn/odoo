@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * auth_signup
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -48,7 +48,8 @@ msgid ""
 "        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
 "    </p>\n"
 "</div>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
 "        <tbody><tr>\n"
@@ -71,7 +72,7 @@ msgstr "\n"
 "<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Gửi bởi ${user.company_id.name} sử dụng <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"        <strong>Gửi bởi ${user.company_id.name} sử dụng <a href=\"https://www.erponline.vn\" style=\"text-decoration:none; color: #875A7B;\">Odoo ERPOnline</a></strong>\n"
 "    </p>\n"
 "</div>"
 
@@ -107,7 +108,8 @@ msgid ""
 "        <strong>Sent by ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
 "    </p>\n"
 "</div>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
 "        <tbody><tr>\n"
@@ -133,7 +135,7 @@ msgstr "\n"
 "<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
 "    ${user.signature | safe}\n"
 "    <p style=\"font-size: 11px; margin-top: 10px;\">\n"
-"        <strong>Gửi bởi ${user.company_id.name} sử dụng <a href=\https://"www.erponline.vn\" style=\"text-decoration:none; color: #875A7B;\">ERPOnline</a></strong>\n"
+"        <strong>Gửi bởi ${user.company_id.name} sử dụng <a href=\"https://www.erponline.vn\" style=\"text-decoration:none; color: #875A7B;\">Odoo ERPOnline</a></strong>\n"
 "    </p>\n"
 "</div>"
 
@@ -144,13 +146,20 @@ msgstr "Lời mời kết nối từ ${object.company_id.name}"
 
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.res_users_form_view
-msgid "<strong>A password reset has been requested for this user. An email containing the following link has been sent:</strong>"
-msgstr "<strong>Một yêu cầu đặt lại mật khẩu cho người dùng này vừa được tạo và gửi đến người dùng qua email chứa liên kết (link) sau:</strong>"
+msgid ""
+"<strong>A password reset has been requested for this user. An email "
+"containing the following link has been sent:</strong>"
+msgstr ""
+"<strong>Một yêu cầu đặt lại mật khẩu cho người dùng này vừa được tạo và gửi "
+"đến người dùng qua email chứa liên kết (link) sau:</strong>"
 
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.res_users_form_view
-msgid "<strong>An invitation email containing the following subscription link has been sent:</strong>"
-msgstr "<strong>Một thư mời chứa link đăng ký nhận tin sau đây đã được gửi</strong>"
+msgid ""
+"<strong>An invitation email containing the following subscription link has "
+"been sent:</strong>"
+msgstr ""
+"<strong>Một thư mời chứa link đăng ký nhận tin sau đây đã được gửi</strong>"
 
 #. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_base_config_settings_auth_signup_uninvited
@@ -161,7 +170,9 @@ msgstr "Cho phép người dùng bên ngoài đăng ký."
 #: code:addons/auth_signup/controllers/main.py:61
 #, python-format
 msgid "An email has been sent with credentials to reset your password"
-msgstr "Một email chứa các thông tin chứng thực để đặt lại mật khẩu của bạn đã được gửi."
+msgstr ""
+"Một email chứa các thông tin chứng thực để đặt lại mật khẩu của bạn đã được "
+"gửi."
 
 #. module: auth_signup
 #: code:addons/auth_signup/controllers/main.py:38
@@ -325,7 +336,9 @@ msgstr "URL đầy đủ để truy cập tài liệu thông qua website."
 #. module: auth_signup
 #: model:ir.model.fields,help:auth_signup.field_base_config_settings_auth_signup_reset_password
 msgid "This allows users to trigger a password reset from the Login page."
-msgstr "Điều này cho phép người dùng tri-gơ một yêu cầu đặt lại mật khẩu từ trang đăng nhập."
+msgstr ""
+"Điều này cho phép người dùng tri-gơ một yêu cầu đặt lại mật khẩu từ trang "
+"đăng nhập."
 
 #. module: auth_signup
 #: model:ir.model,name:auth_signup.model_res_users

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base_vat
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -29,7 +29,10 @@ msgstr "Công ty"
 msgid ""
 "If checked, Partners VAT numbers will be fully validated against EU's VIES "
 "service rather than via a simple format validation (checksum)."
-msgstr "Nếu đánh dầu kiểm, mã số thuế GTGT của đối tác sẽ được kiểm tra với dịch vụ VIES của EU chứ không chỉ thẩm định định dạng đơn giản (checksum). Chú ý: Thứ này chỉ hoạt động với các DN đăng ký ở EU."
+msgstr ""
+"Nếu đánh dầu kiểm, mã số thuế GTGT của đối tác sẽ được kiểm tra với dịch vụ "
+"VIES của EU chứ không chỉ thẩm định định dạng đơn giản (checksum). Chú ý: "
+"Thứ này chỉ hoạt động với các DN đăng ký ở EU."
 
 #. module: base_vat
 #: model:ir.model,name:base_vat.model_res_partner
@@ -42,7 +45,8 @@ msgstr "Đối tác"
 msgid ""
 "The VAT number [%s] for partner [%s] does not seem to be valid. \n"
 "Note: the expected format is %s"
-msgstr "Mã số thuế GTGT [%s] của đối tác [%s] dường như không hợp lệ.\n"
+msgstr ""
+"Mã số thuế GTGT [%s] của đối tác [%s] dường như không hợp lệ.\n"
 "Lưu ý: định dạng được mong đợi là %s"
 
 #. module: base_vat
@@ -51,7 +55,9 @@ msgstr "Mã số thuế GTGT [%s] của đối tác [%s] dường như không h�
 msgid ""
 "The VAT number [%s] for partner [%s] either failed the VIES VAT validation "
 "check or did not respect the expected format %s."
-msgstr "Mã số thuế GTGT [%s] của đối tác [%s] hoặc không thẩm định thành công được với VIES hoặc không thoả mãn định dạng mong đợi %s."
+msgstr ""
+"Mã số thuế GTGT [%s] của đối tác [%s] hoặc không thẩm định thành công được "
+"với VIES hoặc không thoả mãn định dạng mong đợi %s."
 
 #. module: base_vat
 #: model:ir.model.fields,field_description:base_vat.field_res_company_vat_check_vies

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * calendar
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -108,7 +108,8 @@ msgid ""
 "        </tr></tbody>\n"
 "    </table>\n"
 "</div>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<div summary=\"o_mail_template\" style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "% set colors = {'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00',  'declined': 'red'}\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
@@ -193,7 +194,8 @@ msgstr "\n"
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_invitation
-msgid "\n"
+msgid ""
+"\n"
 "<div summary=\"o_mail_template\" style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "% set colors = {'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00',  'declined': 'red'}\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
@@ -274,7 +276,8 @@ msgid "\n"
 "        </tr></tbody>\n"
 "    </table>\n"
 "</div>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<div summary=\"o_mail_template\" style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "% set colors = {'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00',  'declined': 'red'}\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
@@ -358,7 +361,8 @@ msgstr "\n"
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_reminder
-msgid "\n"
+msgid ""
+"\n"
 "<div summary=\"o_mail_template\" style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "% set colors = {'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00',  'declined': 'red'}\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
@@ -440,7 +444,8 @@ msgid "\n"
 "        </tr></tbody>\n"
 "    </table>\n"
 "</div>"
-msgstr "\n"
+msgstr ""
+"\n"
 "<div summary=\"o_mail_template\" style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
 "% set colors = {'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00',  'declined': 'red'}\n"
 "    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
@@ -548,7 +553,8 @@ msgstr "${object.event_id.name}: Ngày đã được cập nhật"
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:639
 #, python-format
-msgid "%s at %s To\n"
+msgid ""
+"%s at %s To\n"
 " %s at %s (%s)"
 msgstr ""
 
@@ -614,7 +620,7 @@ msgstr "Cả ngày , %s"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_duration
 msgid "Amount"
-msgstr ""
+msgstr "Thời lượng"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_is_attendee
@@ -679,7 +685,9 @@ msgstr "Mời tham dự"
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Click here to update only this instance and not all recurrences."
-msgstr "Bấm để cập nhật chỉ sự kiện này (mà không phải các sự kiện khác trong cùng chuỗi lặp lại của nó)"
+msgstr ""
+"Bấm để cập nhật chỉ sự kiện này (mà không phải các sự kiện khác trong cùng "
+"chuỗi lặp lại của nó)"
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -807,7 +815,7 @@ msgstr "Thời lượng theo phút"
 #: selection:calendar.alarm,type:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_email
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_compose_message
@@ -946,7 +954,8 @@ msgstr "Nhóm theo"
 #: code:addons/calendar/models/calendar.py:1424
 #, python-format
 msgid "Group by date is not supported, use the calendar view instead."
-msgstr "Nhóm theo ngày không được hỗ trợ, thay vì thế hãy sử dụng giao diện lịch"
+msgstr ""
+"Nhóm theo ngày không được hỗ trợ, thay vì thế hãy sử dụng giao diện lịch"
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_http
@@ -966,12 +975,16 @@ msgstr "Giờ"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_active
-msgid "If the active field is set to false, it will allow you to hide the event alarm information without removing it."
-msgstr "Nếu trường Hiệu lực được thiết lập là false, thông tin báo động sự kiện có thể được ẩn đi mà không cần xoá nó."
+msgid ""
+"If the active field is set to false, it will allow you to hide the event "
+"alarm information without removing it."
+msgstr ""
+"Nếu trường Hiệu lực được thiết lập là false, thông tin báo động sự kiện có "
+"thể được ẩn đi mà không cần xoá nó."
 
 #. module: calendar
 #: model:mail.message.subtype,name:calendar.subtype_invitation
@@ -1364,7 +1377,8 @@ msgstr "Ngày giờ Bắt đầu"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_start
 msgid "Start date of an event, without time for full days events"
-msgstr "Ngày bắt đầu của sự kiện, không có giờ đối với các sự kiện kéo dài cả ngày"
+msgstr ""
+"Ngày bắt đầu của sự kiện, không có giờ đối với các sự kiện kéo dài cả ngày"
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1391,7 +1405,9 @@ msgstr "Dừng"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_stop
 msgid "Stop date of an event, without time for full days events"
-msgstr "Ngày kết thúc của một sự kiện, không có thời gian đối với các sự kiện diễn ra cả ngày"
+msgstr ""
+"Ngày kết thúc của một sự kiện, không có thời gian đối với các sự kiện diễn "
+"ra cả ngày"
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_tree
@@ -1425,10 +1441,12 @@ msgstr ""
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
-msgid "The calendar is shared between employees and fully integrated with\n"
+msgid ""
+"The calendar is shared between employees and fully integrated with\n"
 "            other applications such as the employee holidays or the business\n"
 "            opportunities."
-msgstr "Lịch được chia sẻ giữa các nhân viên và tích hợp đầy đủ với các ứng dụng khác\n"
+msgstr ""
+"Lịch được chia sẻ giữa các nhân viên và tích hợp đầy đủ với các ứng dụng khác\n"
 "            như là Ngày nghỉ, Cơ hội kinh doanh."
 
 #. module: calendar

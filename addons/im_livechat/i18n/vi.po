@@ -124,7 +124,8 @@ msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_canned_response_action
-msgid "Canned responses allow you to insert prewritten responses in\n"
+msgid ""
+"Canned responses allow you to insert prewritten responses in\n"
 "                your messages by typing <i>:shortcut</i>. The shortcut is\n"
 "                replaced directly in your message, so that you can still edit\n"
 "                it before sending."
@@ -203,7 +204,8 @@ msgstr "Hội thoại"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
-msgid "Copy and paste this code into your website, within the &lt;head&gt; tag:"
+msgid ""
+"Copy and paste this code into your website, within the &lt;head&gt; tag:"
 msgstr "Copy và paste mã này vào website của bạn, ở giữa thẻ &lt;head&gt;:"
 
 #. module: im_livechat
@@ -264,7 +266,10 @@ msgstr "Dòng chữ mặc định được hiển thị ở nút Livechat Suppor
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_auto_popup_timer
-msgid "Delay (in seconds) to automatically open the conversation window. Note: the selected action must be 'Auto popup' otherwise this parameter will not be taken into account."
+msgid ""
+"Delay (in seconds) to automatically open the conversation window. Note: the "
+"selected action must be 'Auto popup' otherwise this parameter will not be "
+"taken into account."
 msgstr ""
 
 #. module: im_livechat
@@ -300,9 +305,11 @@ msgstr "Thời lượng của cuộc hội thoại (tính bằng giây)"
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
-msgid "Each channel has it's own URL that you can send by email to\n"
+msgid ""
+"Each channel has it's own URL that you can send by email to\n"
 "                your customers in order to start chatting with you."
-msgstr "Mỗi kênh có một URL riêng của chính nó mà bạn có thể dùng để gửi\n"
+msgstr ""
+"Mỗi kênh có một URL riêng của chính nó mà bạn có thể dùng để gửi\n"
 "                qua email đến khách hàng của bạn để họ có thể bắt đầu chat\n"
 "                với bạn."
 
@@ -315,12 +322,17 @@ msgstr "Giải thích về ghi chú của bạn"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
-msgid "For website built with Odoo CMS, please install the website_livechat module. Then go to Settings &gt; Website Settings and select the Website Live Chat Channel you want to add on your website."
+msgid ""
+"For website built with Odoo CMS, please install the website_livechat module."
+" Then go to Settings &gt; Website Settings and select the Website Live Chat "
+"Channel you want to add on your website."
 msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_sequence
-msgid "Given the order to find a matching rule. If 2 rules are matching for the given url/country, the one with the lowest sequence will be chosen."
+msgid ""
+"Given the order to find a matching rule. If 2 rules are matching for the "
+"given url/country, the one with the lowest sequence will be chosen."
 msgstr ""
 
 #. module: im_livechat
@@ -384,7 +396,7 @@ msgstr "Tôi không muốn đánh giá cuộc hội thoại này"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_id
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image
@@ -473,7 +485,10 @@ msgstr "Kênh Chat trực tuyến"
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_report_channel_action
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_report_operator_action
-msgid "Livechat Support Channel Statistics allows you to easily check and analyse your company livechat session performance. Extract information about the missed sessions, the audiance, the duration of a session, etc."
+msgid ""
+"Livechat Support Channel Statistics allows you to easily check and analyse "
+"your company livechat session performance. Extract information about the "
+"missed sessions, the audiance, the duration of a session, etc."
 msgstr ""
 
 #. module: im_livechat
@@ -513,8 +528,14 @@ msgstr "Trung bình"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image_medium
-msgid "Medium-sized photo of the group. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
-msgstr "Hình ảnh cỡ trung bình của nhóm. Kích thước sẽ tự động chỉnh về tối đa 128x128px (có giữ nguyên tỉ lệ). Sử dụng trường này ở giao diện form hoặc một số giao diện kanban."
+msgid ""
+"Medium-sized photo of the group. It is automatically resized as a 128x128px "
+"image, with aspect ratio preserved. Use this field in form views or some "
+"kanban views."
+msgstr ""
+"Hình ảnh cỡ trung bình của nhóm. Kích thước sẽ tự động chỉnh về tối đa "
+"128x128px (có giữ nguyên tỉ lệ). Sử dụng trường này ở giao diện form hoặc "
+"một số giao diện kanban."
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
@@ -530,8 +551,10 @@ msgstr "Tên"
 #. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:117
 #, python-format
-msgid "None of our collaborators seems to be available, please try again later."
-msgstr "Không có ai trong số các động sự của chúng tôi đang trực, hãy thử lại sau."
+msgid ""
+"None of our collaborators seems to be available, please try again later."
+msgstr ""
+"Không có ai trong số các động sự của chúng tôi đang trực, hãy thử lại sau."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_nbr_channel
@@ -577,16 +600,20 @@ msgstr "Người vận hành"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
-msgid "Operators\n"
+msgid ""
+"Operators\n"
 "                                            <br/>\n"
 "                                            <i class=\"fa fa-comments\"/>"
-msgstr "Người vận hành\n"
+msgstr ""
+"Người vận hành\n"
 "                                            <br/>\n"
 "                                            <i class=\"fa fa-comments\"/>"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
-msgid "Operators that do not show any activity In Odoo for more than 30 minutes will be considered as disconnected."
+msgid ""
+"Operators that do not show any activity In Odoo for more than 30 minutes "
+"will be considered as disconnected."
 msgstr ""
 
 #. module: im_livechat
@@ -613,7 +640,8 @@ msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_regex_url
-msgid "Regular expression specifying the web pages this rule will be applied on."
+msgid ""
+"Regular expression specifying the web pages this rule will be applied on."
 msgstr ""
 
 #. module: im_livechat
@@ -674,7 +702,10 @@ msgstr "Lịch sử Phiên"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image_small
-msgid "Small-sized photo of the group. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgid ""
+"Small-sized photo of the group. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is"
+" required."
 msgstr ""
 
 #. module: im_livechat
@@ -706,7 +737,12 @@ msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_country_ids
-msgid "The rule will only be applied for these countries. Example: if you select 'Belgium' and 'United States' and that you set the action to 'Hide Button', the chat button will be hidden on the specified URL from the visitors located in these 2 countries. This feature requires GeoIP installed on your server."
+msgid ""
+"The rule will only be applied for these countries. Example: if you select "
+"'Belgium' and 'United States' and that you set the action to 'Hide Button', "
+"the chat button will be hidden on the specified URL from the visitors "
+"located in these 2 countries. This feature requires GeoIP installed on your "
+"server."
 msgstr ""
 
 #. module: im_livechat
@@ -721,12 +757,16 @@ msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image
-msgid "This field holds the image used as photo for the group, limited to 1024x1024px."
+msgid ""
+"This field holds the image used as photo for the group, limited to "
+"1024x1024px."
 msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_default_message
-msgid "This is an automated 'welcome' message that your visitor will see when they initiate a new conversation."
+msgid ""
+"This is an automated 'welcome' message that your visitor will see when they "
+"initiate a new conversation."
 msgstr ""
 
 #. module: im_livechat
@@ -751,7 +791,9 @@ msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_web_page
-msgid "URL to a static page where you client can discuss with the operator of the channel."
+msgid ""
+"URL to a static page where you client can discuss with the operator of the "
+"channel."
 msgstr ""
 
 #. module: im_livechat
@@ -789,14 +831,17 @@ msgstr "Thông điệp Chào mừng"
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
-msgid "You can create channels for each website on which you want\n"
+msgid ""
+"You can create channels for each website on which you want\n"
 "                to integrate the website live chat widget, allowing your website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.mail_channel_action
-msgid "Your chatter history is empty. Create a channel and start chatting to fill up your history."
+msgid ""
+"Your chatter history is empty. Create a channel and start chatting to fill "
+"up your history."
 msgstr ""
 
 #. module: im_livechat
@@ -817,7 +862,8 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "or copy this url and send it by email to your customers or suppliers:"
-msgstr "hoặc copy url này và gửi nó qua email cho khách hàng hoặc nhà cung cấp:"
+msgstr ""
+"hoặc copy url này và gửi nó qua email cho khách hàng hoặc nhà cung cấp:"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form

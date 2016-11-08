@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * purchase_requisition
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -255,7 +255,7 @@ msgstr "Nhóm theo"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_id
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_type_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
@@ -513,10 +513,12 @@ msgstr "Chỉ chọn một RFQ (độc quyền)"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_type_exclusive
-msgid "Select only one RFQ (exclusive):  when a purchase order is confirmed, cancel the remaining purchase order.\n"
+msgid ""
+"Select only one RFQ (exclusive):  when a purchase order is confirmed, cancel the remaining purchase order.\n"
 "\n"
 "                    Select multiple RFQ: allows multiple purchase orders. On confirmation of a purchase order it does not cancel the remaining orders"
-msgstr "Chỉ chọn một RFQ (độc quyền):  Khi xác nhận một đơn hàng, nó sẽ hủy bỏ các đơn hàng còn lại.\n"
+msgstr ""
+"Chỉ chọn một RFQ (độc quyền):  Khi xác nhận một đơn hàng, nó sẽ hủy bỏ các đơn hàng còn lại.\n"
 "Chọn nhiều RFQ:  Nó cho phép có nhiều đơn hàng. Khi xác nhận đơn hàng, nó sẽ không hủy các đơn hàng còn lại"
 
 #. module: purchase_requisition
@@ -552,8 +554,10 @@ msgstr "Điều khoản và Điều kiện"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_schedule_date
-msgid "The expected and scheduled delivery date where all the products are received"
-msgstr "Ngày bàn giao mong đợi và được ấn định, khi mà toàn bộ hàng hoá được nhận"
+msgid ""
+"The expected and scheduled delivery date where all the products are received"
+msgstr ""
+"Ngày bàn giao mong đợi và được ấn định, khi mà toàn bộ hàng hoá được nhận"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -608,8 +612,8 @@ msgid ""
 "You have to cancel or validate every RfQ before closing the purchase "
 "requisition."
 msgstr ""
-"Bạn phải huỷ hoặc xác nhận mọi RFQ liên quan trước khi đóng một đề nghị "
-"mua hàng."
+"Bạn phải huỷ hoặc xác nhận mọi RFQ liên quan trước khi đóng một đề nghị mua "
+"hàng."
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form

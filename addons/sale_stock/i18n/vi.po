@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_stock
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -44,14 +44,17 @@ msgstr "Cho phép thêm chi phí vận chuyển"
 #. module: sale_stock
 #: selection:sale.config.settings,group_mrp_properties:0
 msgid "Allow setting manufacturing order properties per order line (advanced)"
-msgstr "Cho phép thiết lập thuộc tính sản xuất cho từng dòng đơn hàng (nâng cao)"
+msgstr ""
+"Cho phép thiết lập thuộc tính sản xuất cho từng dòng đơn hàng (nâng cao)"
 
 #. module: sale_stock
 #: selection:sale.config.settings,module_sale_order_dates:0
 msgid ""
 "Allow to modify the sales order dates to postpone deliveries and "
 "procurements"
-msgstr "Cho phép chỉnh sửa ngày của đơn hàng đề trì hoãn kế hoạch giao hàng hoặc cung ứng"
+msgstr ""
+"Cho phép chỉnh sửa ngày của đơn hàng đề trì hoãn kế hoạch giao hàng hoặc "
+"cung ứng"
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_sale_config_settings_group_mrp_properties
@@ -116,13 +119,23 @@ msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_account_invoice_incoterms_id
-msgid "Incoterms are series of sales terms. They are used to divide transaction costs and responsibilities between buyer and seller and reflect state-of-the-art transportation practices."
-msgstr "Incoterms là một bộ các thuật ngữ thương mại. Chúng được sử dụng để phân chia chi phí và trách nhiệm giữa người mua và người bán và phản anh các thực nghiệm vận tải tốt nhất đã được cả thế giới thừa nhận."
+msgid ""
+"Incoterms are series of sales terms. They are used to divide transaction "
+"costs and responsibilities between buyer and seller and reflect state-of-"
+"the-art transportation practices."
+msgstr ""
+"Incoterms là một bộ các thuật ngữ thương mại. Chúng được sử dụng để phân "
+"chia chi phí và trách nhiệm giữa người mua và người bán và phản anh các thực"
+" nghiệm vận tải tốt nhất đã được cả thế giới thừa nhận."
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_sale_order_incoterm
-msgid "International Commercial Terms are a series of predefined commercial terms used in international transactions."
-msgstr "Bộ Điều khoản Thương mại Quốc tế (Incoterms) là một chuỗi các điều khoản thương mại được định nghĩa trước để sử dụng trong các giao dịch quốc tế."
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms "
+"used in international transactions."
+msgstr ""
+"Bộ Điều khoản Thương mại Quốc tế (Incoterms) là một chuỗi các điều khoản "
+"thương mại được định nghĩa trước để sử dụng trong các giao dịch quốc tế."
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_location_route
@@ -147,8 +160,15 @@ msgstr "Hoá đơn"
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_res_company_security_lead
 #: model:ir.model.fields,help:sale_stock.field_sale_config_settings_security_lead
-msgid "Margin of error for dates promised to customers. Products will be scheduled for procurement and delivery that many days earlier than the actual promised date, to cope with unexpected delays in the supply chain."
-msgstr "Biên độ sai lệch cho số ngày mà bạn hứa với khách hàng. Sản phẩm / Hàng hoá sẽ được ấn định cung ứng và bàn giao sớm hơn ngày mà bạn hứa với số ngày sớm hơn chính là Ngày an toàn Bán, để có thể đề phòng tình huống chậm trễ không mong đợi trong chuỗi cung ứng của bạn"
+msgid ""
+"Margin of error for dates promised to customers. Products will be scheduled "
+"for procurement and delivery that many days earlier than the actual promised"
+" date, to cope with unexpected delays in the supply chain."
+msgstr ""
+"Biên độ sai lệch cho số ngày mà bạn hứa với khách hàng. Sản phẩm / Hàng hoá "
+"sẽ được ấn định cung ứng và bàn giao sớm hơn ngày mà bạn hứa với số ngày sớm"
+" hơn chính là Ngày an toàn Bán, để có thể đề phòng tình huống chậm trễ không"
+" mong đợi trong chuỗi cung ứng của bạn"
 
 #. module: sale_stock
 #: selection:sale.config.settings,group_route_so_lines:0
@@ -265,7 +285,8 @@ msgstr "Có thể chọn trên Chi tiết đơn hàng"
 #. module: sale_stock
 #: selection:sale.config.settings,default_picking_policy:0
 msgid "Ship all products at once, without back orders"
-msgstr "Bàn giao tất cả sản phẩm một lần, không cho phép giao từng phần / dở dang"
+msgstr ""
+"Bàn giao tất cả sản phẩm một lần, không cho phép giao từng phần / dở dang"
 
 #. module: sale_stock
 #: selection:sale.config.settings,default_picking_policy:0
@@ -319,7 +340,8 @@ msgstr "Chuyển hàng"
 #: model:ir.model.fields,help:sale_stock.field_stock_return_picking_line_to_refund_so
 msgid ""
 "Trigger a decrease of the delivered quantity in the associated Sale Order"
-msgstr "Tri-gơ một sự kiện giảm số lượng bàn giao ở trên đơn hàng bán tương ứng"
+msgstr ""
+"Tri-gơ một sự kiện giảm số lượng bàn giao ở trên đơn hàng bán tương ứng"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_warehouse_id
@@ -336,15 +358,21 @@ msgstr "Cảnh báo"
 #. module: sale_stock
 #: code:addons/sale_stock/models/sale_order.py:157
 #, python-format
-msgid "You are decreasing the ordered quantity! Do not forget to manually update the delivery order if needed."
-msgstr "Bạn đang giảm số lượng được đặt hàng! Đừng quên cập nhật lại lệnh giao hàng nếu cần thiết."
+msgid ""
+"You are decreasing the ordered quantity! Do not forget to manually update "
+"the delivery order if needed."
+msgstr ""
+"Bạn đang giảm số lượng được đặt hàng! Đừng quên cập nhật lại lệnh giao hàng "
+"nếu cần thiết."
 
 #. module: sale_stock
 #: code:addons/sale_stock/models/sale_order.py:146
 #, python-format
-msgid "You plan to sell %s %s but you only have %s %s available!\n"
+msgid ""
+"You plan to sell %s %s but you only have %s %s available!\n"
 "The stock on hand is %s %s."
-msgstr "Bạn định bán %s %s nhưng bạn chỉ có %s %s khả dụng!\n"
+msgstr ""
+"Bạn định bán %s %s nhưng bạn chỉ có %s %s khả dụng!\n"
 "Mức tồn kho thực tế là %s %s."
 
 #. module: sale_stock

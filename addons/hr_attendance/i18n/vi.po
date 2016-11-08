@@ -106,14 +106,18 @@ msgstr "Hủy"
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:85
 #, python-format
-msgid "Cannot create new attendance record for %(empl_name)s, the employee hasn't checked out since %(datetime)s"
+msgid ""
+"Cannot create new attendance record for %(empl_name)s, the employee hasn't "
+"checked out since %(datetime)s"
 msgstr ""
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:72
 #: code:addons/hr_attendance/models/hr_attendance.py:98
 #, python-format
-msgid "Cannot create new attendance record for %(empl_name)s, the employee was already checked in on %(datetime)s"
+msgid ""
+"Cannot create new attendance record for %(empl_name)s, the employee was "
+"already checked in on %(datetime)s"
 msgstr ""
 
 #. module: hr_attendance
@@ -125,7 +129,10 @@ msgstr ""
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:125
 #, python-format
-msgid "Cannot perform check out on %(empl_name)s, could not find corresponding check in. Your attendances have probably been modified manually by human resources."
+msgid ""
+"Cannot perform check out on %(empl_name)s, could not find corresponding "
+"check in. Your attendances have probably been modified manually by human "
+"resources."
 msgstr ""
 
 #. module: hr_attendance
@@ -280,13 +287,19 @@ msgstr "Nhân viên"
 
 #. module: hr_attendance
 #: selection:base.config.settings,group_attendance_use_pin:0
-msgid "Employees do not need to enter their PIN to check in manually in the \"Kiosk Mode\"."
-msgstr "Nhân viên không cần nhập mã PIN của họ để check-in thủ công trong \"Chế độ Ki-Ốt\""
+msgid ""
+"Employees do not need to enter their PIN to check in manually in the \"Kiosk"
+" Mode\"."
+msgstr ""
+"Nhân viên không cần nhập mã PIN của họ để check-in thủ công trong \"Chế độ "
+"Ki-Ốt\""
 
 #. module: hr_attendance
 #: selection:base.config.settings,group_attendance_use_pin:0
 msgid "Employees must enter their PIN to check in manually in the \"Kiosk Mode\"."
-msgstr "Nhân viên bắt buộc phải nhập mã PIN của họ để check-in thủ công trong \"Chế độ Ki-Ốt\""
+msgstr ""
+"Nhân viên bắt buộc phải nhập mã PIN của họ để check-in thủ công trong \"Chế "
+"độ Ki-Ốt\""
 
 #. module: hr_attendance
 #: model:res.groups,name:hr_attendance.group_hr_attendance_use_pin
@@ -296,7 +309,8 @@ msgstr "Sử dụng PIN"
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_base_config_settings_group_attendance_use_pin
 msgid "Enable or disable employee PIN identification at check in"
-msgstr "Kích hoạt hoặc vô hiệu việc xác định danh tính bằng mã PIN khi check-in"
+msgstr ""
+"Kích hoạt hoặc vô hiệu việc xác định danh tính bằng mã PIN khi check-in"
 
 #. module: hr_attendance
 #. openerp-web
@@ -410,7 +424,7 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_employee_barcode
@@ -454,7 +468,7 @@ msgstr "Cập nhật lần cuối"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_last_attendance_id
 msgid "Last attendance id"
-msgstr "Last attendance id"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_manage_attendances
@@ -506,12 +520,14 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_pin
 msgid "PIN"
-msgstr "PIN"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_employee_pin
 msgid "PIN used to Check In/Out in Kiosk Mode (if enabled in Configuration)."
-msgstr "PIN được sử dụng để Check In/Out trong chế độ Ki-Ốt (nếu được kích hoạt ở Cấu hình)."
+msgstr ""
+"PIN được sử dụng để Check In/Out trong chế độ Ki-Ốt (nếu được kích hoạt ở "
+"Cấu hình)."
 
 #. module: hr_attendance
 #. openerp-web
@@ -565,7 +581,9 @@ msgstr "Thiết lập"
 
 #. module: hr_attendance
 #: sql_constraint:hr.employee:0
-msgid "The Badge ID must be unique, this one is already assigned to another employee."
+msgid ""
+"The Badge ID must be unique, this one is already assigned to another "
+"employee."
 msgstr ""
 
 #. module: hr_attendance
@@ -576,7 +594,10 @@ msgstr "Mã PIN phải là một dãy số."
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,help:hr_attendance.hr_attendance_action
-msgid "The Time Tracking functionality aims to manage employee attendances from Check in/Check out actions. You can also link this feature to an attendance device using Odoo's web service features."
+msgid ""
+"The Time Tracking functionality aims to manage employee attendances from "
+"Check in/Check out actions. You can also link this feature to an attendance "
+"device using Odoo's web service features."
 msgstr ""
 
 #. module: hr_attendance
@@ -588,13 +609,19 @@ msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_employee_manual_attendance
-msgid "The employee will have access to the \"My Attendances\" menu to check in and out from his session"
+msgid ""
+"The employee will have access to the \"My Attendances\" menu to check in and"
+" out from his session"
 msgstr ""
 
 #. module: hr_attendance
 #: model:res.groups,comment:hr_attendance.group_hr_attendance_use_pin
-msgid "The user will have to enter his PIN to check in and out manually at the company screen."
-msgstr "Người dùng sẽ phải nhập mã PIN của anh ta để check in và out một cách thủ công ở giao diện công ty."
+msgid ""
+"The user will have to enter his PIN to check in and out manually at the "
+"company screen."
+msgstr ""
+"Người dùng sẽ phải nhập mã PIN của anh ta để check in và out một cách thủ "
+"công ở giao diện công ty."
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -605,8 +632,12 @@ msgstr "Hôm nay"
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:94
 #, python-format
-msgid "Warning! Last check in was over 12 hours ago.<br/>If this isn't right, please contact Human Resources."
-msgstr "Cảnh báo! Lần check in cuối cùng đã cách đây hơn 12 tiếng.<br/>Nếu điều này không đúng, vui lòng liên hệ Bộ phận Nhân sự."
+msgid ""
+"Warning! Last check in was over 12 hours ago.<br/>If this isn't right, "
+"please contact Human Resources."
+msgstr ""
+"Cảnh báo! Lần check in cuối cùng đã cách đây hơn 12 tiếng.<br/>Nếu điều này "
+"không đúng, vui lòng liên hệ Bộ phận Nhân sự."
 
 #. module: hr_attendance
 #. openerp-web
@@ -672,4 +703,3 @@ msgstr ""
 #, python-format
 msgid "or"
 msgstr "hoặc"
-
