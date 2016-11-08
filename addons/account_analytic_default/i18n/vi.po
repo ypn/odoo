@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_analytic_default
-# 
+#
 # Translators:
 # Linh NGuyen <tanlinh2000@yahoo.com>, 2016
 # Tai, 2016
@@ -118,12 +118,12 @@ msgstr "Chỉ ra thứ tự trình tự khi hiển thị một danh sách phân 
 #. module: account_analytic_default
 #: model:ir.ui.view,arch_db:account_analytic_default.view_account_analytic_default_form_search
 msgid "Group By"
-msgstr "Group By"
+msgstr ""
 
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_product_product_expense_policy
@@ -131,7 +131,10 @@ msgid ""
 "If you invoice at cost, the expense will be invoiced on the sale order at "
 "the cost of the analytic line;if you invoice at sales price, the price of "
 "the product will be used instead."
-msgstr "Nếu bạn xuất hóa đơn theo giá thành, chi phí sẽ được xuất hóa đơn trên lệnh bán hàng theo chi phí của dòng thống kê; Nếu bạn xuất hóa đơn theo giá bán, giá của sản phẩm sẽ được sử dụng thay thế"
+msgstr ""
+"Nếu bạn xuất hóa đơn theo giá thành, chi phí sẽ được xuất hóa đơn trên lệnh "
+"bán hàng theo chi phí của dòng thống kê; Nếu bạn xuất hóa đơn theo giá bán, "
+"giá của sản phẩm sẽ được sử dụng thay thế"
 
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_account_invoice_line
@@ -146,7 +149,7 @@ msgstr "Sửa lần cuối"
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr ""
 
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default_write_date
@@ -182,7 +185,10 @@ msgid ""
 "Select a company which will use analytic account specified in analytic "
 "default (e.g. create new customer invoice or Sales order if we select this "
 "company, it will automatically take this as an analytic account)"
-msgstr "Chọn một công ty mà sẽ sử dụng tài khoản quản trị trong tài khoản quản trị mặc định (ví dụ: tạo mới hoá đơn khách hàng hoặc đơn hàng nếu chúng ta chọn công ty này, nó sẽ tự động thực hiện việc này như là một tài khoản quản trị)"
+msgstr ""
+"Chọn một công ty mà sẽ sử dụng tài khoản quản trị trong tài khoản quản trị "
+"mặc định (ví dụ: tạo mới hoá đơn khách hàng hoặc đơn hàng nếu chúng ta chọn "
+"công ty này, nó sẽ tự động thực hiện việc này như là một tài khoản quản trị)"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default_partner_id
@@ -190,7 +196,10 @@ msgid ""
 "Select a partner which will use analytic account specified in analytic "
 "default (e.g. create new customer invoice or Sales order if we select this "
 "partner, it will automatically take this as an analytic account)"
-msgstr "Chọn một đối tác mà sẽ sử dụng tài khoản quản trị chỉ định trong tài khoản quản trị mặc định (ví dụ: tạo mới hoá đơn khách hàng hoặc đơn hàng nếu chúng ta chọn đối tác này, nó sẽ tự động thực hiện như là một tài khoản quản trị)"
+msgstr ""
+"Chọn một đối tác mà sẽ sử dụng tài khoản quản trị chỉ định trong tài khoản "
+"quản trị mặc định (ví dụ: tạo mới hoá đơn khách hàng hoặc đơn hàng nếu chúng"
+" ta chọn đối tác này, nó sẽ tự động thực hiện như là một tài khoản quản trị)"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default_product_id
@@ -198,13 +207,19 @@ msgid ""
 "Select a product which will use analytic account specified in analytic "
 "default (e.g. create new customer invoice or Sales order if we select this "
 "product, it will automatically take this as an analytic account)"
-msgstr "Chọn một sản phẩm mà sẽ sử dụng tài khoản quản trị chỉ định trong tài khoản quản trị mặc định (ví dụ: tạo mới hoá đơn khách hàng hoặc đơn hàng nếu chúng ta chọn sản phẩm này, nó sẽ tự động thực hiện việc này như là một tài khoản quản trị)"
+msgstr ""
+"Chọn một sản phẩm mà sẽ sử dụng tài khoản quản trị chỉ định trong tài khoản "
+"quản trị mặc định (ví dụ: tạo mới hoá đơn khách hàng hoặc đơn hàng nếu chúng"
+" ta chọn sản phẩm này, nó sẽ tự động thực hiện việc này như là một tài khoản"
+" quản trị)"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default_user_id
 msgid ""
 "Select a user which will use analytic account specified in analytic default."
-msgstr "Chọn một người dùng mà sẽ sử dụng tài khoản quản trị chỉ định trong tài khoản quản trị mặc định."
+msgstr ""
+"Chọn một người dùng mà sẽ sử dụng tài khoản quản trị chỉ định trong tài "
+"khoản quản trị mặc định."
 
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default_sequence

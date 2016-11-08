@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * purchase_requisition
-# 
+#
 # Translators:
 # Thong Dong <thongdong7@gmail.com>, 2015
 msgid ""
@@ -82,8 +82,7 @@ msgid ""
 "            vendors. Once the tenders have been registered, you can review and\n"
 "            compare them and you can validate some and cancel others."
 msgstr ""
-"Một Mời thầu là một thủ tục để có các chào giá cạnh tranh từ các nhà thầu. Trong một hồ sơ mời thầu,"
-" bạn có thể ghi nhận các sản phẩm bạn cần mua và tạo hàng loại Yêu cầu Báo giá (RFQ) gửi các nhà cung cấp.\n"
+"Một Mời thầu là một thủ tục để có các chào giá cạnh tranh từ các nhà thầu. Trong một hồ sơ mời thầu, bạn có thể ghi nhận các sản phẩm bạn cần mua và tạo hàng loại Yêu cầu Báo giá (RFQ) gửi các nhà cung cấp.\n"
 "Khi các nhà cung cấp gửi chào thầu (báo giá), bạn có thể xem xét và so sánh chúng và thẩm định một số phù hợp cũng như loại bỏ một số khác không phù hợp."
 
 #. module: purchase_requisition
@@ -105,12 +104,12 @@ msgstr "Được duyệt bởi nhà cung cấp"
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_bid_line_qty
 msgid "Bid Line Qty"
-msgstr "Bid Line Qty"
+msgstr ""
 
 #. module: purchase_requisition
 #: selection:purchase.requisition,state:0
 msgid "Bid Selection"
-msgstr "Bid Selection"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.report.xml,name:purchase_requisition.action_report_purchase_requisitions
@@ -180,7 +179,7 @@ msgstr "Bị hủy bởi một cuộc mời thầu liên quan tới Yêu cầu B
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_bid_line_qty
 msgid "Change Bid line quantity"
-msgstr "Change Bid line quantity"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_tree_tender
@@ -346,7 +345,7 @@ msgstr "Nhóm theo"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_id
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_partner_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_message_unread
@@ -534,7 +533,7 @@ msgstr "Đơn hàng"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.purchase_order_search_inherit
 msgid "Purchase Orders with requisition"
-msgstr "Purchase Orders with requisition"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition
@@ -549,7 +548,7 @@ msgstr "Chi tiết yêu cầu mua hàng"
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_partner
 msgid "Purchase Requisition Partner"
-msgstr "Purchase Requisition Partner"
+msgstr ""
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:431
@@ -663,7 +662,8 @@ msgstr "Chỉ chọn một RFQ (độc quyền)"
 msgid ""
 "Select only one RFQ (exclusive):  On the confirmation of a purchase order, it cancels the remaining purchase order.\n"
 "Select multiple RFQ:  It allows to have multiple purchase orders.On confirmation of a purchase order it does not cancel the remaining orders"
-msgstr "Chỉ chọn một RFQ (độc quyền):  Khi xác nhận một đơn hàng, nó sẽ hủy bỏ các đơn hàng còn lại.\n"
+msgstr ""
+"Chỉ chọn một RFQ (độc quyền):  Khi xác nhận một đơn hàng, nó sẽ hủy bỏ các đơn hàng còn lại.\n"
 "Chọn nhiều RFQ:  Nó cho phép có nhiều đơn hàng. Khi xác nhận đơn hàng, nó sẽ không hủy các đơn hàng còn lại"
 
 #. module: purchase_requisition
@@ -783,7 +783,9 @@ msgstr "Bạn đã tạo đơn hàng."
 msgid ""
 "You have already one %s purchase order for this partner, you must cancel "
 "this purchase order to create a new quotation."
-msgstr "Bạn đã có một đơn hàng %s cho đối tác này, bạn phải hủy đơn hàng này để tạo một Yêu cầu Báo giá mới."
+msgstr ""
+"Bạn đã có một đơn hàng %s cho đối tác này, bạn phải hủy đơn hàng này để tạo "
+"một Yêu cầu Báo giá mới."
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:258

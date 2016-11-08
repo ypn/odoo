@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* hr_payroll
+# * hr_payroll
 #
 msgid ""
 msgstr ""
@@ -23,11 +23,13 @@ msgstr "%s (sao chép)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_state
-msgid "* When the payslip is created the status is 'Draft'.            \n"
+msgid ""
+"* When the payslip is created the status is 'Draft'.            \n"
 "* If the payslip is under verification, the status is 'Waiting'.             \n"
 "* If the payslip is confirmed then status is set to 'Done'.            \n"
 "* When user cancel payslip the status is 'Rejected'."
-msgstr "* Khi phiếu lương được tạo, trạng thái là 'Dự thảo'.            \n"
+msgstr ""
+"* Khi phiếu lương được tạo, trạng thái là 'Dự thảo'.            \n"
 "* Nếu phiếu lương đang thẩm định, trạng thái là 'Chờ'.             \n"
 "* Nếu phiếu lương được xác nhận, trạng thái là 'Hoàn thành'.            \n"
 "* Khi người dùng hủy phiếu lương, trạng thái là 'Bị từ chối'."
@@ -114,10 +116,12 @@ msgstr "<strong>Tổng</strong>"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
-msgid "A contribution register is a third party involved in the salary\n"
+msgid ""
+"A contribution register is a third party involved in the salary\n"
 "                payment of the employees. It can be the social security, the\n"
 "                estate or anyone that collect or inject money on payslips."
-msgstr "Một contribution register là một bên thứ ba có ảnh hưởng vào việc trả lương\n"
+msgstr ""
+"Một contribution register là một bên thứ ba có ảnh hưởng vào việc trả lương\n"
 "                cho nhân viên. Đó có thể là một cơ quan bảo hiểm xã hội, một đoàn thể\n"
 "                nhà nước hay bất cứ ai mà thu hoặc trả tiền cho một hay nhiều mục trên\n"
 "                phiếu lương"
@@ -184,8 +188,12 @@ msgstr "Xuất hiện trong Phiếu lương"
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_python
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_python
-msgid "Applied this rule for calculation if condition is true. You can specify condition like basic > 1000."
-msgstr "Quy tắc này được áp dụng cho việc tính toán nếu điều kiện là đúng. Bạn có thể chỉ ra điều kiện như 'lương cơ bản' > 10000000."
+msgid ""
+"Applied this rule for calculation if condition is true. You can specify "
+"condition like basic > 1000."
+msgstr ""
+"Quy tắc này được áp dụng cho việc tính toán nếu điều kiện là đúng. Bạn có "
+"thể chỉ ra điều kiện như 'lương cơ bản' > 10000000."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
@@ -424,8 +432,17 @@ msgstr "Đến ngày"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_struct_id
-msgid "Defines the rules that have to be applied to this payslip, accordingly to the contract chosen. If you let empty the field contract, this field isn't mandatory anymore and thus the rules applied will be all the rules set on the structure of all contracts of the employee valid for the chosen period"
-msgstr "Định nghĩa một quy tắc mà được áp dụng cho phiếu lương này, tùy theo hợp đồng lao động được chọn. Nếu bạn để trống trường hợp đồng lao động, trường này sẽ không còn bắt buộc nữa và do đó quy tắc được áp dụng  sẽ là tất cả quy tắc trên cấu trúc lương của tất cả các hợp đồng lao động của nhân viên trong kỳ được chọn"
+msgid ""
+"Defines the rules that have to be applied to this payslip, accordingly to "
+"the contract chosen. If you let empty the field contract, this field isn't "
+"mandatory anymore and thus the rules applied will be all the rules set on "
+"the structure of all contracts of the employee valid for the chosen period"
+msgstr ""
+"Định nghĩa một quy tắc mà được áp dụng cho phiếu lương này, tùy theo hợp "
+"đồng lao động được chọn. Nếu bạn để trống trường hợp đồng lao động, trường "
+"này sẽ không còn bắt buộc nữa và do đó quy tắc được áp dụng  sẽ là tất cả "
+"quy tắc trên cấu trúc lương của tất cả các hợp đồng lao động của nhân viên "
+"trong kỳ được chọn"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_note
@@ -490,8 +507,7 @@ msgid "Done Slip"
 msgstr "Phiếu lương đã hoàn thành"
 
 #. module: hr_payroll
-#: selection:hr.payslip,state:0
-#: selection:hr.payslip.run,state:0
+#: selection:hr.payslip,state:0 selection:hr.payslip.run,state:0
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Draft"
@@ -519,7 +535,7 @@ msgstr "Nhân viên"
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_list_view
 msgid "Employee Function"
-msgstr "Employee Function"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
@@ -606,18 +622,26 @@ msgstr "Nhóm theo"
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslip_id
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslipdetails_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_run_credit_note
-msgid "If its checked, indicates that all payslips generated from here are refund payslips."
-msgstr "Nếu được đánh dấu kiểm, chỉ ra rằng tất các các phiếu lương được tạo từ đây là các phiếu hoàn tiền."
+msgid ""
+"If its checked, indicates that all payslips generated from here are refund "
+"payslips."
+msgstr ""
+"Nếu được đánh dấu kiểm, chỉ ra rằng tất các các phiếu lương được tạo từ đây "
+"là các phiếu hoàn tiền."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_active
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_active
-msgid "If the active field is set to false, it will allow you to hide the salary rule without removing it."
-msgstr "Nếu bỏ chọn trường Hiệu lực, nó sẽ cho phép bạn ẩn quy tắc tính lương mà không cần xóa bỏ nó."
+msgid ""
+"If the active field is set to false, it will allow you to hide the salary "
+"rule without removing it."
+msgstr ""
+"Nếu bỏ chọn trường Hiệu lực, nó sẽ cho phép bạn ẩn quy tắc tính lương mà "
+"không cần xóa bỏ nó."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_credit_note
@@ -635,7 +659,7 @@ msgstr "Dữ liệu nhập ngoài"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_input_ids
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Inputs"
-msgstr "Inputs"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
@@ -649,13 +673,26 @@ msgstr "Ghi chú nội bộ"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_quantity
-msgid "It is used in computation for percentage and fixed amount.For e.g. A rule for Meal Voucher having fixed amount of 1€ per worked day can have its quantity defined in expression like worked_days.WORK100.number_of_days."
-msgstr "Được sử dụng trong việc tính toán số tiền theo Phần trăm và Giá trị cố định. Ví dụ, một quy tắc cho Phiếu ăn có giá trị cố định 25.000đ cho mỗi ngày làm việc có thể có số lượng của nó được định nghĩa bằng biểu thức: worked_days.WORK100.number_of_days"
+msgid ""
+"It is used in computation for percentage and fixed amount.For e.g. A rule "
+"for Meal Voucher having fixed amount of 1€ per worked day can have its "
+"quantity defined in expression like worked_days.WORK100.number_of_days."
+msgstr ""
+"Được sử dụng trong việc tính toán số tiền theo Phần trăm và Giá trị cố định."
+" Ví dụ, một quy tắc cho Phiếu ăn có giá trị cố định 25.000đ cho mỗi ngày làm"
+" việc có thể có số lượng của nó được định nghĩa bằng biểu thức: "
+"worked_days.WORK100.number_of_days"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_amount
-msgid "It is used in computation. For e.g. A rule for sales having 1% commission of basic salary for per product can defined in expression like result = inputs.SALEURO.amount * contract.wage*0.01."
-msgstr "Được sử dụng trong tính toán. Ví dụ, môt quy tắc cho nhân viên bán hàng có hoa hồng bằng 1% lương cơ bản nhân giá trị sản phẩm bán ra có thể được thể hiện bằng biểu thức result = inputs.SALEURO.amount * contract.wage*0.01."
+msgid ""
+"It is used in computation. For e.g. A rule for sales having 1% commission of"
+" basic salary for per product can defined in expression like result = "
+"inputs.SALEURO.amount * contract.wage*0.01."
+msgstr ""
+"Được sử dụng trong tính toán. Ví dụ, môt quy tắc cho nhân viên bán hàng có "
+"hoa hồng bằng 1% lương cơ bản nhân giá trị sản phẩm bán ra có thể được thể "
+"hiện bằng biểu thức result = inputs.SALEURO.amount * contract.wage*0.01."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register___last_update
@@ -718,8 +755,12 @@ msgstr "Liên kết chức năng tính lương với hệ thống kế toán"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_category_parent_id
-msgid "Linking a salary category to its parent is used only for the reporting purpose."
-msgstr "Liên kết một nhóm lương đến cấp cha của nó chỉ được sử dụng cho mục đích báo cáo"
+msgid ""
+"Linking a salary category to its parent is used only for the reporting "
+"purpose."
+msgstr ""
+"Liên kết một nhóm lương đến cấp cha của nó chỉ được sử dụng cho mục đích báo"
+" cáo"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_paid
@@ -1062,7 +1103,7 @@ msgstr "Hoàn tiền: "
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_register_line_ids
 msgid "Register Line"
-msgstr "Register Line"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
@@ -1221,8 +1262,12 @@ msgstr "Cấu trúc"
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_code
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_code
-msgid "The code of salary rules can be used as reference in computation of other rules. In that case, it is case sensitive."
-msgstr "Mã của quy tắc lương có thể được sử dụng như là tham chiếu trong việc tính toán các quy tắc khác."
+msgid ""
+"The code of salary rules can be used as reference in computation of other "
+"rules. In that case, it is case sensitive."
+msgstr ""
+"Mã của quy tắc lương có thể được sử dụng như là tham chiếu trong việc tính "
+"toán các quy tắc khác."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_code
@@ -1258,13 +1303,23 @@ msgstr "Tổng tiền tối thiểu được áp dụng trên quy tắc này."
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_range
-msgid "This will be used to compute the % fields values; in general it is on basic, but you can also use categories code fields in lowercase as a variable names (hra, ma, lta, etc.) and the variable basic."
-msgstr "Cái này sẽ được sử dụng để tính toán giá trị trường %; in general it is on basic, but you can also use categories code fields in lowercase as a variable names (hra, ma, lta, etc.) and the variable basic."
+msgid ""
+"This will be used to compute the % fields values; in general it is on basic,"
+" but you can also use categories code fields in lowercase as a variable "
+"names (hra, ma, lta, etc.) and the variable basic."
+msgstr ""
+"Cái này sẽ được sử dụng để tính toán giá trị trường %; in general it is on "
+"basic, but you can also use categories code fields in lowercase as a "
+"variable names (hra, ma, lta, etc.) and the variable basic."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
-msgid "This wizard will generate payslips for all selected employee(s) based on the dates and credit note specified on Payslips Run."
-msgstr "Đồ thuật này sẽ tạo phiếu lương cho tất cả nhân viên được chọn dựa trên ngày và báo có được chỉ đị trên thao tác 'Chạy phiếu lương'."
+msgid ""
+"This wizard will generate payslips for all selected employee(s) based on the"
+" dates and credit note specified on Payslips Run."
+msgstr ""
+"Đồ thuật này sẽ tạo phiếu lương cho tất cả nhân viên được chọn dựa trên ngày"
+" và báo có được chỉ đị trên thao tác 'Chạy phiếu lương'."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_total
@@ -1344,13 +1399,16 @@ msgstr "Sai số lượng được định nghĩa đối với quy tắc lương
 #: code:addons/hr_payroll/hr_payroll.py:905
 #, python-format
 msgid "Wrong range condition defined for salary rule %s (%s)."
-msgstr "Sai điều kiện phạm vi (range condition) được định nghĩa đối với quy tắc lương %s (%s)."
+msgstr ""
+"Sai điều kiện phạm vi (range condition) được định nghĩa đối với quy tắc "
+"lương %s (%s)."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:333
 #, python-format
 msgid "You cannot delete a payslip which is not draft or cancelled!"
-msgstr "Bạn không thể xóa một phiếu lương mà không phải là Dự thảo hoặc Hủy bỏ!"
+msgstr ""
+"Bạn không thể xóa một phiếu lương mà không phải là Dự thảo hoặc Hủy bỏ!"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/wizard/hr_payroll_payslips_by_employees.py:35
@@ -1388,4 +1446,3 @@ msgstr ""
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_amount_percentage_base
 msgid "result will be affected to a variable"
 msgstr "kết quả sẽ bị ảnh hưởng tới một biến số"
-

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_expense
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -132,7 +132,8 @@ msgstr "Bấm đây để từ chối"
 #. module: hr_expense
 #: model:web.tip,description:hr_expense.expense_tip_2
 msgid "Click on Action to submit multiple expenses to your manager."
-msgstr "Bấm vào Hành động để trình hàng loạt chi tiêu cho người quản lý của bạn."
+msgstr ""
+"Bấm vào Hành động để trình hàng loạt chi tiêu cho người quản lý của bạn."
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_product
@@ -312,8 +313,7 @@ msgstr "Các Chi tiêu phải thuộc về cùng một Nhân viên"
 msgid ""
 "Expenses must have an expense journal specified to generate accounting "
 "entries."
-msgstr ""
-"Chi tiêu phải có một sổ nhật ký chi tiêu để có thể tạo các bút toán."
+msgstr "Chi tiêu phải có một sổ nhật ký chi tiêu để có thể tạo các bút toán."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -402,7 +402,7 @@ msgstr "Đồ thuật Lý do từ cho Chi tiêu nhân viên"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_id
 #: model:ir.model.fields,field_description:hr_expense.field_report_hr_expense_report_expense_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_message_unread
@@ -497,20 +497,24 @@ msgid ""
 "No Expense account found for the product %s (or for it's category), please "
 "configure one."
 msgstr ""
-"Không thấy có tài khoản chi phí đối với sản phẩm %s (hoặc với nhóm sản phẩm chứa nó), vui lòng"
+"Không thấy có tài khoản chi phí đối với sản phẩm %s (hoặc với nhóm sản phẩm "
+"chứa nó), vui lòng"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:231
 #, python-format
 msgid "No Home Address found for the employee %s, please configure one."
 msgstr ""
-"Không tìm thấy địa chỉ nhà của nhân viên %s, hãy thiết lập địa chỉ nhà trên Hồ sơ nhân viên."
+"Không tìm thấy địa chỉ nhà của nhân viên %s, hãy thiết lập địa chỉ nhà trên "
+"Hồ sơ nhân viên."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:227
 #, python-format
 msgid "No credit account found for the %s journal, please configure one."
-msgstr "Không tìm thấy tài khoản ghi có cho sổ nhật ký %s, hãy cấu hình lại sổ nhật ký."
+msgstr ""
+"Không tìm thấy tài khoản ghi có cho sổ nhật ký %s, hãy cấu hình lại sổ nhật "
+"ký."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
@@ -544,8 +548,8 @@ msgid ""
 "Once you have created your expense, submit it to your manager who will "
 "validate it."
 msgstr ""
-"Một khi bạn đã tạo (khai báo) chi tiêu của bạn, hãy trình nó đến người "
-"quản lý của bạn để được thẩm định."
+"Một khi bạn đã tạo (khai báo) chi tiêu của bạn, hãy trình nó đến người quản "
+"lý của bạn để được thẩm định."
 
 #. module: hr_expense
 #: model:ir.actions.client,name:hr_expense.action_client_expense_menu
@@ -647,7 +651,8 @@ msgid ""
 "Selected Unit of Measure does not belong to the same category as the product"
 " Unit of Measure"
 msgstr ""
-"Đơn vị đo lường được chọn không cùng nhóm với đơn vị đo lường mặc định của sản phẩm."
+"Đơn vị đo lường được chọn không cùng nhóm với đơn vị đo lường mặc định của "
+"sản phẩm."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
@@ -657,7 +662,9 @@ msgstr "Thiết lập về dự thảo"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_template_can_be_expensed
 msgid "Specify whether the product can be selected in an HR expense."
-msgstr "Cho phép sản phẩm có thể được chọn khi kê khai chi tiêu nhân sự (ở phân hệ HR Expense)"
+msgstr ""
+"Cho phép sản phẩm có thể được chọn khi kê khai chi tiêu nhân sự (ở phân hệ "
+"HR Expense)"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_state
@@ -704,7 +711,8 @@ msgstr "Sổ nhật ký được sử dụng khi chi phí được hoàn thành"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_bank_journal_id
 msgid "The payment method used when the expense is paid by the company."
-msgstr "Phương thức thanh toán được sử dụng khi chi phí được thanh toán bởi công ty"
+msgstr ""
+"Phương thức thanh toán được sử dụng khi chi phí được thanh toán bởi công ty"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense
@@ -771,8 +779,8 @@ msgid ""
 "Use the messaging tool to log a note and attach a document to the expense. "
 "(e.g. scan of the bill)"
 msgstr ""
-"Sử dụng công cụ thông điệp để ghi lại các ghi chú và đính kèm tài liệu / chứng từ liên quan và chi phí. "
-"Ví dụ: scan hoá đơn và đính kèm vào."
+"Sử dụng công cụ thông điệp để ghi lại các ghi chú và đính kèm tài liệu / "
+"chứng từ liên quan và chi phí. Ví dụ: scan hoá đơn và đính kèm vào."
 
 #. module: hr_expense
 #: selection:hr.expense,state:0
@@ -807,7 +815,7 @@ msgid ""
 "If the manager approve it, the status is 'Approved'.\n"
 " If the accountant genrate the accounting entries for the expense request, the status is 'Waiting Payment'."
 msgstr ""
-"Khi Chi tiêu được tạo và trạng thái là "Chờ Trình.\n"
+"Khi Chi tiêu được tạo và trạng thái là 'Chờ Trình'.\n"
 " Nó được trình bởi nhân viên và yêu cầu được gửi đến người quản lý, tình trạng là 'Đã trình'.        \n"
 "Nếu người quản lý phê duyệt, tình trạng thái là 'Được chấp chuận'.\n"
 " Nếu kế toán viên tạo (các) bút toán kế toán cho chi tiêu này, trạng thái là 'Chờ thanh toán'."
@@ -822,7 +830,9 @@ msgstr "Bạn chỉ có thể xoá các chi tiêu ở trạng thái dự thảo 
 #: code:addons/hr_expense/models/hr_expense.py:203
 #, python-format
 msgid "You can only generate accounting entry for approved expense(s)."
-msgstr "Bạn chỉ có thể tạo các bút toán kế toán cho các khoản chi tiêu đã được duyệt."
+msgstr ""
+"Bạn chỉ có thể tạo các bút toán kế toán cho các khoản chi tiêu đã được "
+"duyệt."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:113

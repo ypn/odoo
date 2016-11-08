@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* mrp_byproduct
+# * mrp_byproduct
 #
 msgid ""
 msgstr ""
@@ -53,8 +53,22 @@ msgstr "Tạo vào"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,help:mrp_byproduct.field_mrp_subproduct_subproduct_type
-msgid "Define how the quantity of byproducts will be set on the production orders using this BoM.  'Fixed' depicts a situation where the quantity of created byproduct is always equal to the quantity set on the BoM, regardless of how many are created in the production order.  By opposition, 'Variable' means that the quantity will be computed as    '(quantity of byproduct set on the BoM / quantity of manufactured product set on the BoM * quantity of manufactured product in the production order.)'"
-msgstr "Xác định làm thế nào mà số lượng của phụ phẩm sẽ được thiết lập trên lệnh sản xuất sử dụng BoM này. 'Cố định' miêu tả một tình huống mà số lượng của phụ phẩm được tạo luôn luôn bằng với số lượng được thiết lập trên BoM, bất kể có bao số lượng được tạo ra trong lệnh sản xuất. Ngược lại 'Thay đổi' có nghĩa là số lượng sẽ được tính toán bằng '(số lượng của phụ phẩm được thiết lập trên BoM / số lượng của sản phẩm được sản xuất trên BoM * số lượng của sản phẩm được sản xuất trên lệnh sản xuất)'"
+msgid ""
+"Define how the quantity of byproducts will be set on the production orders "
+"using this BoM.  'Fixed' depicts a situation where the quantity of created "
+"byproduct is always equal to the quantity set on the BoM, regardless of how "
+"many are created in the production order.  By opposition, 'Variable' means "
+"that the quantity will be computed as    '(quantity of byproduct set on the "
+"BoM / quantity of manufactured product set on the BoM * quantity of "
+"manufactured product in the production order.)'"
+msgstr ""
+"Xác định làm thế nào mà số lượng của phụ phẩm sẽ được thiết lập trên lệnh "
+"sản xuất sử dụng BoM này. 'Cố định' miêu tả một tình huống mà số lượng của "
+"phụ phẩm được tạo luôn luôn bằng với số lượng được thiết lập trên BoM, bất "
+"kể có bao số lượng được tạo ra trong lệnh sản xuất. Ngược lại 'Thay đổi' có "
+"nghĩa là số lượng sẽ được tính toán bằng '(số lượng của phụ phẩm được thiết "
+"lập trên BoM / số lượng của sản phẩm được sản xuất trên BoM * số lượng của "
+"sản phẩm được sản xuất trên lệnh sản xuất)'"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_display_name
@@ -69,7 +83,7 @@ msgstr "Cố định"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct___last_update
@@ -114,8 +128,12 @@ msgstr "Kiểu số lượng"
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/mrp_byproduct.py:45
 #, python-format
-msgid "The Product Unit of Measure you chose has a different category than in the product form."
-msgstr "Đơn vị đo lường sản phẩm mà bạn chọn thuộc một nhóm khác với đơn vị trên form sản phẩm."
+msgid ""
+"The Product Unit of Measure you chose has a different category than in the "
+"product form."
+msgstr ""
+"Đơn vị đo lường sản phẩm mà bạn chọn thuộc một nhóm khác với đơn vị trên "
+"form sản phẩm."
 
 #. module: mrp_byproduct
 #: selection:mrp.subproduct,subproduct_type:0

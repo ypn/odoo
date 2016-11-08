@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * auth_signup
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -97,8 +97,8 @@ msgid ""
 "<strong>A password reset has been requested for this user. An email "
 "containing the following link has been sent:</strong>"
 msgstr ""
-"<strong>Một yêu cầu đặt lại mật khẩu cho người dùng này vừa được tạo và gửi đến người dùng qua email "
-"chứa liên kết (link) sau:</strong>"
+"<strong>Một yêu cầu đặt lại mật khẩu cho người dùng này vừa được tạo và gửi "
+"đến người dùng qua email chứa liên kết (link) sau:</strong>"
 
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.res_users_form_view
@@ -117,7 +117,9 @@ msgstr "Cho phép người dùng bên ngoài đăng ký."
 #: code:addons/auth_signup/controllers/main.py:64
 #, python-format
 msgid "An email has been sent with credentials to reset your password"
-msgstr "Một email chứa các thông tin chứng thực để đặt lại mật khẩu của bạn đã được gửi."
+msgstr ""
+"Một email chứa các thông tin chứng thực để đặt lại mật khẩu của bạn đã được "
+"gửi."
 
 #. module: auth_signup
 #: code:addons/auth_signup/controllers/main.py:40
@@ -342,13 +344,12 @@ msgstr "Tên bạn"
 #. module: auth_signup
 #: model:ir.model,name:auth_signup.model_base_config_settings
 msgid "base.config.settings"
-msgstr "base.config.settings"
+msgstr ""
 
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.fields
 msgid "e.g. John Doe"
 msgstr "vd: John Doe"
-
 
 #. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_res_users_self

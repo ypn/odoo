@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_asset
+# * account_asset
 #
 msgid ""
 msgstr ""
@@ -35,7 +35,7 @@ msgstr "Số dòng khấu hao"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_installment_nbr
 msgid "# of Installment Lines"
-msgstr "# of Installment Lines"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_depreciation_confirmation_wizard_date
@@ -169,7 +169,7 @@ msgstr "Tài sản bị bán hoặc bị tiêu huỷ. Bút toán kế toán đan
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_asset
 msgid "Asset/Revenue Recognition"
-msgstr "Asset/Revenue Recognition"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_form
@@ -234,8 +234,12 @@ msgstr "Nhóm tài sản"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_open_asset
-msgid "Check this if you want to automatically confirm the assets of this category when created by invoices."
-msgstr "Đánh dấu nếu bạn muốn tự động xác nhận các tài sản của nhóm này khi được tạo bởi hoá đơn."
+msgid ""
+"Check this if you want to automatically confirm the assets of this category "
+"when created by invoices."
+msgstr ""
+"Đánh dấu nếu bạn muốn tự động xác nhận các tài sản của nhóm này khi được tạo"
+" bởi hoá đơn."
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_method
@@ -244,7 +248,8 @@ msgid ""
 "Choose the method to use to compute the amount of depreciation lines.\n"
 "  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
 "  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
-msgstr "Lựa chọn phương thức để tính giá trị khấu hao.\n"
+msgstr ""
+"Lựa chọn phương thức để tính giá trị khấu hao.\n"
 "  * Đường thẳng: Được tính toán dựa trên: Nguyên giá / Số lần tính khấu hao\n"
 "  * Lũy kế: Được tính toán dựa trên: Giá trị còn lại * Hệ số lũy kế"
 
@@ -255,7 +260,8 @@ msgid ""
 "Choose the method to use to compute the dates and number of depreciation lines.\n"
 "  * Number of Depreciations: Fix the number of depreciation lines and the time between 2 depreciations.\n"
 "  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
-msgstr "Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
+msgstr ""
+"Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
 "  * Số lần khấu hao: Cố định số lần khấu hao và thời gian giữa 2 lần khấu hao.\n"
 "  * Ngày kết thúc: Lựa chọn thời gian giữa 2 lần khấu hao và ngày khấu hao không vượt quá Ngày kết thúc."
 
@@ -264,7 +270,9 @@ msgstr "Lựa chọn phương pháp tính ngày và số lần khấu hao.\n"
 msgid ""
 "Choose the period for which you want to automatically post the depreciation "
 "lines of running assets"
-msgstr "Lựa chọn kỳ kế toán mà bạn muốn tự động vào sổ bút toán khấu hao của các tài sản đang tính khấu hao"
+msgstr ""
+"Lựa chọn kỳ kế toán mà bạn muốn tự động vào sổ bút toán khấu hao của các tài"
+" sản đang tính khấu hao"
 
 #. module: account_asset
 #: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
@@ -520,8 +528,7 @@ msgid "Document closed."
 msgstr "Tài liệu được đóng."
 
 #. module: account_asset
-#: selection:account.asset.asset,state:0
-#: selection:asset.asset.report,state:0
+#: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
 msgid "Draft"
 msgstr "Dự thảo"
@@ -574,7 +581,8 @@ msgstr "Người dõi theo"
 msgid ""
 "From this report, you can have an overview on all depreciations. The\n"
 "            search bar can also be used to personalize your assets depreciation reporting."
-msgstr "Từ báo cáo này, bạn có thể có cái nhìn toàn cảnh về toàn bộ tình\n"
+msgstr ""
+"Từ báo cáo này, bạn có thể có cái nhìn toàn cảnh về toàn bộ tình\n"
 "            hình khấu hao. Thanh tìm kiếm cũng có thể được sử dụng để cá\n"
 "            nhân hoá báo cáo của bạn."
 
@@ -622,7 +630,7 @@ msgstr "Nhóm theo..."
 #: model:ir.model.fields,field_description:account_asset.field_asset_depreciation_confirmation_wizard_id
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_message_unread
@@ -645,14 +653,18 @@ msgid ""
 "Indicates that the first depreciation entry for this asset have to be done "
 "from the purchase date instead of the first January / Start date of fiscal "
 "year"
-msgstr "Chỉ ra rằng bút toán khấu hao lần đầu cho tài sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của tháng Một / Ngày đầu năm tài chính"
+msgstr ""
+"Chỉ ra rằng bút toán khấu hao lần đầu cho tài sản này phải được thực hiện từ"
+" ngày mua thay vì ngày đầu tiên của tháng Một / Ngày đầu năm tài chính"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_prorata
 msgid ""
 "Indicates that the first depreciation entry for this asset have to be done "
 "from the purchase date instead of the first of January"
-msgstr "Chỉ ra rằng bút toán khấu hao lần đầu cho tài sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của Tháng Một"
+msgstr ""
+"Chỉ ra rằng bút toán khấu hao lần đầu cho tài sản này phải được thực hiện từ"
+" ngày mua thay vì ngày đầu tiên của Tháng Một"
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_invoice
@@ -867,7 +879,7 @@ msgstr "Mẫu sản phẩm"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_prorata
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_prorata
 msgid "Prorata Temporis"
-msgstr "Prorata Temporis"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/account_asset.py:316
@@ -961,7 +973,7 @@ msgstr "Thiết lập về dự thảo"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_method_period
 msgid "State here the time between 2 depreciations, in months"
-msgstr "State here the time between 2 depreciations, in months"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_parent_state
@@ -987,9 +999,11 @@ msgstr "Số lần khấu hao cần thiết để khấu hao tài sản"
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_depreciation_confirmation_wizard
-msgid "This wizard will post installment/depreciation lines for the selected month.<br/>\n"
+msgid ""
+"This wizard will post installment/depreciation lines for the selected month.<br/>\n"
 "                        This will generate journal entries for all related installment lines on this period of asset/revenue recognition as well."
-msgstr "Đồ thuật này sẽ vào sổ tất cả các dòng phát sinh khấu hao tài sản cho tháng được chọn.<br/>\n"
+msgstr ""
+"Đồ thuật này sẽ vào sổ tất cả các dòng phát sinh khấu hao tài sản cho tháng được chọn.<br/>\n"
 "                        Điều này tạo hàng loạt các bút toán sổ nhật ký tự cho toàn bộ các khấu hao trong kỳ này của tất cả các tài sản."
 
 #. module: account_asset
@@ -1051,10 +1065,12 @@ msgstr "Lịch sử thông tin liên lạc website"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_state
 #: model:ir.model.fields,help:account_asset.field_account_asset_depreciation_line_parent_state
-msgid "When an asset is created, the status is 'Draft'.\n"
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
 "If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
 "You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
-msgstr "Khi một tài sản được tạo, trạng thái của nó là 'Dự thảo'.\n"
+msgstr ""
+"Khi một tài sản được tạo, trạng thái của nó là 'Dự thảo'.\n"
 "Nếu tài sản được xác nhận, trạng thái sẽ chuyển sang 'Đang tính khấu hao', và chi tiết khấu hao có thể được ghi nhận vào hệ thống kế toán.\n"
 "Bạn có thể đóng tài sản thủ công khi hết khấu hao. Nếu khấu hao cuối cùng được vào sổ, tài sản tự động chuyển thành 'Đã đóng'."
 
@@ -1107,4 +1123,3 @@ msgstr "vd. Laptop iBook"
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "months"
 msgstr "tháng"
-

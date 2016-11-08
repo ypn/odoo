@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * calendar
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -127,7 +127,8 @@ msgid ""
 "                </div>\n"
 "                \n"
 "                "
-msgstr "\n"
+msgstr ""
+"\n"
 "                <style>\n"
 "                    span.oe_mail_footer_access {\n"
 "                        display:block;    \n"
@@ -349,7 +350,8 @@ msgid ""
 "                </div>\n"
 "                \n"
 "                "
-msgstr "\n"
+msgstr ""
+"\n"
 "                <style> \n"
 "                    span.oe_mail_footer_access {\n"
 "                        display:block;    \n"
@@ -463,7 +465,8 @@ msgstr "\n"
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_changedate
-msgid " \n"
+msgid ""
+" \n"
 "                <style>\n"
 "                    span.oe_mail_footer_access {\n"
 "                        display:block;    \n"
@@ -576,7 +579,8 @@ msgid " \n"
 "                </div>\n"
 "                \n"
 "                "
-msgstr " \n"
+msgstr ""
+" \n"
 "                <style>\n"
 "                    span.oe_mail_footer_access {\n"
 "                        display:block;    \n"
@@ -715,7 +719,8 @@ msgstr "${object.event_id.name} - Nhắc nhở"
 #. module: calendar
 #: code:addons/calendar/calendar.py:776
 #, python-format
-msgid "%s at %s To\n"
+msgid ""
+"%s at %s To\n"
 " %s at %s (%s)"
 msgstr ""
 
@@ -870,7 +875,8 @@ msgstr "Lời mời Lịch"
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Click here to update only this instance and not all recurrences."
-msgstr "Bấm vào đây để cập nhật chỉ lần này mà không phải các lần recurrences khác."
+msgstr ""
+"Bấm vào đây để cập nhật chỉ lần này mà không phải các lần recurrences khác."
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -942,8 +948,7 @@ msgid "Day of month"
 msgstr "Ngày trong tháng"
 
 #. module: calendar
-#: selection:calendar.alarm,interval:0
-#: selection:calendar.event,rrule_type:0
+#: selection:calendar.alarm,interval:0 selection:calendar.event,rrule_type:0
 msgid "Day(s)"
 msgstr "Ngày"
 
@@ -1146,7 +1151,9 @@ msgstr "Nhóm theo"
 #: code:addons/calendar/calendar.py:1634
 #, python-format
 msgid "Group by date is not supported, use the calendar view instead."
-msgstr "Nhóm theo ngày không được hỗ trợ, sử dụng giao diện lịch (calendar view) để thay thế."
+msgstr ""
+"Nhóm theo ngày không được hỗ trợ, sử dụng giao diện lịch (calendar view) để "
+"thay thế."
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_http
@@ -1180,7 +1187,9 @@ msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự c
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_active
-msgid "If the active field is set to false, it will allow you to hide the event alarm information without removing it."
+msgid ""
+"If the active field is set to false, it will allow you to hide the event "
+"alarm information without removing it."
 msgstr ""
 
 #. module: calendar
@@ -1656,10 +1665,12 @@ msgstr ""
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
-msgid "The calendar is shared between employees and fully integrated with\n"
+msgid ""
+"The calendar is shared between employees and fully integrated with\n"
 "            other applications such as the employee holidays or the business\n"
 "            opportunities."
-msgstr "Lịch được chia sẻ giữa những cán bộ nhân viên trong công ty và tích hợp đầy đủ với\n"
+msgstr ""
+"Lịch được chia sẻ giữa những cán bộ nhân viên trong công ty và tích hợp đầy đủ với\n"
 "            các ứng dụng khác như ngày nghỉ của cán bộ nhân viên hay các cơ hội kinh doanh.\n"
 
 #. module: calendar
@@ -1743,8 +1754,11 @@ msgstr "Chỉ cập nhật trường hợp/sự kiện này"
 
 #. module: calendar
 #: model:mail.message.subtype,description:calendar.subtype_invitation
-msgid "Warning, a mandatory field has been modified since the creation of this event"
-msgstr "Cảnh báo, một trường bắt buộc đã được chỉnh sửa từ khi tạo sự kiện này"
+msgid ""
+"Warning, a mandatory field has been modified since the creation of this "
+"event"
+msgstr ""
+"Cảnh báo, một trường bắt buộc đã được chỉnh sửa từ khi tạo sự kiện này"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_website_message_ids
@@ -1823,7 +1837,7 @@ msgstr "kích hoạt"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm_manager
 msgid "calendar.alarm_manager"
-msgstr "calendar.alarm_manager"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_contacts

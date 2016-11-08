@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * purchase
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -168,7 +168,7 @@ msgstr "SL đơn hàng"
 #. module: purchase
 #: model:mail.template,subject:purchase.email_template_edi_purchase
 msgid "${object.company_id.name|safe} Order (Ref ${object.name or 'n/a' })"
-msgstr "${object.company_id.name|safe} Order (Ref ${object.name or 'n/a' })"
+msgstr ""
 
 #. module: purchase
 #: model:mail.template,subject:purchase.email_template_edi_purchase_done
@@ -194,7 +194,7 @@ msgstr "<strong>Ngày mong đợi</strong>"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Net Price</strong>"
-msgstr "<strong>Net Price</strong>"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -266,7 +266,9 @@ msgstr "Mời thầu nâng cao"
 #. module: purchase
 #: selection:purchase.config.settings,group_advance_purchase_requisition:0
 msgid "Advanced call for tender (choose products from different RFQ)"
-msgstr "Mời thầu nâng cao (chọn các sản phẩm khác nhau từ các Bản chào giá khác nhau)"
+msgstr ""
+"Mời thầu nâng cao (chọn các sản phẩm khác nhau từ các Bản chào giá khác "
+"nhau)"
 
 #. module: purchase
 #: selection:purchase.config.settings,module_stock_dropshipping:0
@@ -280,8 +282,12 @@ msgstr "Cho phép sử dụng và nhập bảng giá của nhà cung cấp"
 
 #. module: purchase
 #: selection:purchase.config.settings,module_purchase_requisition:0
-msgid "Allow using call for tenders to get quotes from multiple suppliers (advanced)"
-msgstr "Cho phép sử dụng Mời thầu để nhận báo giá từ nhiều nhà cung cấp khác nhau(nâng cao)"
+msgid ""
+"Allow using call for tenders to get quotes from multiple suppliers "
+"(advanced)"
+msgstr ""
+"Cho phép sử dụng Mời thầu để nhận báo giá từ nhiều nhà cung cấp khác "
+"nhau(nâng cao)"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_costing_method
@@ -290,18 +296,25 @@ msgstr "Cho phép tính giá vốn dựa trên giá trung bình."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_uom
-msgid "Allows you to select and maintain different units of measure for products."
-msgstr "Cho phép bạn lựa chọn và duy trì Đơn vị đo lường khác nhau trên sản phẩm."
+msgid ""
+"Allows you to select and maintain different units of measure for products."
+msgstr ""
+"Cho phép bạn lựa chọn và duy trì Đơn vị đo lường khác nhau trên sản phẩm."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_config_settings_group_analytic_account_for_purchases
 msgid "Allows you to specify an analytic account on purchase order lines."
-msgstr "Cho phép xác định một tài khoản kế toán quản trị trên từng dòng đơn hàng"
+msgstr ""
+"Cho phép xác định một tài khoản kế toán quản trị trên từng dòng đơn hàng"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
-msgid "An administrator can set up default Terms and conditions in your Company settings."
-msgstr "Quản trị viên có thể thiết lập Điều khoản và điều kiện trong phần thiết lập công ty."
+msgid ""
+"An administrator can set up default Terms and conditions in your Company "
+"settings."
+msgstr ""
+"Quản trị viên có thể thiết lập Điều khoản và điều kiện trong phần thiết lập "
+"công ty."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_account_analytic_id
@@ -341,8 +354,12 @@ msgstr "Cung ứng liên quan"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_invoice_line_purchase_id
-msgid "Associated Purchase Order. Filled in automatically when a PO is chosen on the vendor bill."
-msgstr "Đơn hàng liên quan. Được điền tự động khi một đơn hàng được chọn trên hoá đơn nhà cung cấp"
+msgid ""
+"Associated Purchase Order. Filled in automatically when a PO is chosen on "
+"the vendor bill."
+msgstr ""
+"Đơn hàng liên quan. Được điền tự động khi một đơn hàng được chọn trên hoá "
+"đơn nhà cung cấp"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product_available_in_pos
@@ -365,8 +382,7 @@ msgid "Billed Qty"
 msgstr "SL đã xuất hoá đơn"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:638
-#: code:addons/purchase/stock.py:56
+#: code:addons/purchase/purchase.py:638 code:addons/purchase/stock.py:56
 #: model:stock.location.route,name:purchase.route_warehouse0_buy
 #, python-format
 msgid "Buy"
@@ -389,10 +405,12 @@ msgstr "Mời thầu"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_module_purchase_requisition
-msgid "Calls for tenders are used when you want to generate requests for quotations to several vendors for a given set of products.\n"
+msgid ""
+"Calls for tenders are used when you want to generate requests for quotations to several vendors for a given set of products.\n"
 "                    You can configure per product if you directly do a Request for Quotation\n"
 "                    to one vendor or if you want a Call for Tenders to compare offers from several vendors."
-msgstr "Mời thầu được sử dụng khi bạn muốn tạo các Yêu cầu Báo giá một cách nhanh chóng và gửi cho nhiều nhà cung cấp để Yêu cầu Báo giá cho một hay nhiêu sản phẩm\n"
+msgstr ""
+"Mời thầu được sử dụng khi bạn muốn tạo các Yêu cầu Báo giá một cách nhanh chóng và gửi cho nhiều nhà cung cấp để Yêu cầu Báo giá cho một hay nhiêu sản phẩm\n"
 "Bạn có thể cấu hình cho từng sản phẩm nếu bạn muốn tạo Yêu cầu Báo giá trực tiếp cho một nhà cung cấp\n"
 "Hoặc bạn có thể sẽ muốn tạo một Mời thầu để tạo Yêu cầu Báo giá hàng loạt và so sánh các báo giá từ các nhà cung cấp khác nhau"
 
@@ -406,8 +424,12 @@ msgstr "Có thể mua"
 #. module: purchase
 #: code:addons/purchase/purchase.py:654
 #, python-format
-msgid "Can not cancel a procurement related to a purchase order. Please cancel the purchase order first."
-msgstr "Không thể hủy một cung ứng liên quan đến một đơn hàng mua. Vui lòng hủy đơn hàng đó thì mới có thể hủy cung ứng"
+msgid ""
+"Can not cancel a procurement related to a purchase order. Please cancel the "
+"purchase order first."
+msgstr ""
+"Không thể hủy một cung ứng liên quan đến một đơn hàng mua. Vui lòng hủy đơn "
+"hàng đó thì mới có thể hủy cung ứng"
 
 #. module: purchase
 #: code:addons/purchase/stock.py:59
@@ -422,8 +444,7 @@ msgid "Cancel"
 msgstr "Hủy"
 
 #. module: purchase
-#: selection:purchase.order,state:0
-#: selection:purchase.report,state:0
+#: selection:purchase.order,state:0 selection:purchase.report,state:0
 msgid "Cancelled"
 msgstr "Đã hủy"
 
@@ -435,13 +456,14 @@ msgstr "Không thể xóa một chi tiết đơn hàng đang trong trạng thái
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_to_weight
-msgid "Check if the product should be weighted using the hardware scale integration"
+msgid ""
+"Check if the product should be weighted using the hardware scale integration"
 msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_available_in_pos
 msgid "Check if you want this product to appear in the Point of Sale"
-msgstr "Check if you want this product to appear in the Point of Sale"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
@@ -455,8 +477,11 @@ msgstr "Bấm vào đây để tạo một hoá đơn dự thảo."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
-msgid "Click to create a quotation that will be converted into a purchase order."
-msgstr "Bấm để tạo một Yêu cầu báo giá mà sau này có thể chuyển thành một đơn hàng mua"
+msgid ""
+"Click to create a quotation that will be converted into a purchase order."
+msgstr ""
+"Bấm để tạo một Yêu cầu báo giá mà sau này có thể chuyển thành một đơn hàng "
+"mua"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
@@ -597,8 +622,12 @@ msgstr "Giao hàng & Hoá đơn"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_date_order
 #: model:ir.model.fields,help:purchase.field_purchase_order_line_date_order
-msgid "Depicts the date where the Quotation should be validated and converted into a purchase order."
-msgstr "Mô tả cái ngày mà Báo giá sẽ được thẩm định và chuyển thành một đơn hàng mua (PO)."
+msgid ""
+"Depicts the date where the Quotation should be validated and converted into "
+"a purchase order."
+msgstr ""
+"Mô tả cái ngày mà Báo giá sẽ được thẩm định và chuyển thành một đơn hàng mua"
+" (PO)."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_name
@@ -624,8 +653,7 @@ msgid "Display Name"
 msgstr "Tên hiển thị"
 
 #. module: purchase
-#: selection:purchase.order,state:0
-#: selection:purchase.report,state:0
+#: selection:purchase.order,state:0 selection:purchase.report,state:0
 msgid "Done"
 msgstr "Hoàn thành"
 
@@ -661,7 +689,9 @@ msgstr "Đồ thuật soạn thảo email"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_invoice_purchase_id
-msgid "Encoding help. When selected, the associated purchase order lines are added to the vendor bill. Several PO can be selected."
+msgid ""
+"Encoding help. When selected, the associated purchase order lines are added "
+"to the vendor bill. Several PO can be selected."
 msgstr ""
 
 #. module: purchase
@@ -724,12 +754,16 @@ msgstr "Ẩn các dòng đã hủy"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
-msgid "If a purchase order is done, you cannot modify it manually anymore. You will not be able to receive invoices anymore for this purchase order."
-msgstr "Nếu một đơn hàng đã hoàn thành, bạn không thể sửa nó một cách thủ công nữa. Bạn sẽ không thể nhận hoá đơn cho đơn hàng này nữa."
+msgid ""
+"If a purchase order is done, you cannot modify it manually anymore. You will"
+" not be able to receive invoices anymore for this purchase order."
+msgstr ""
+"Nếu một đơn hàng đã hoàn thành, bạn không thể sửa nó một cách thủ công nữa. "
+"Bạn sẽ không thể nhận hoá đơn cho đơn hàng này nữa."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_message_unread
@@ -749,8 +783,13 @@ msgstr "để xóa một đơn hàng, bạn phải hủy nó trước tiên."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_advance_purchase_requisition
-msgid "In the process of a public tendering, you can compare the tender lines and choose for each requested product which quantity you will buy from each bid."
-msgstr "Trong quy trình đấu thầu công khai, bạn có thể so sánh chi tiết (từng line) của hồ sơ chào thầu và chọn từng sản phẩm với số lượng mà bạn muốn mua từ một nhà cung cấp."
+msgid ""
+"In the process of a public tendering, you can compare the tender lines and "
+"choose for each requested product which quantity you will buy from each bid."
+msgstr ""
+"Trong quy trình đấu thầu công khai, bạn có thể so sánh chi tiết (từng line) "
+"của hồ sơ chào thầu và chọn từng sản phẩm với số lượng mà bạn muốn mua từ "
+"một nhà cung cấp."
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_in_move
@@ -774,8 +813,12 @@ msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_incoterm_id
-msgid "International Commercial Terms are a series of predefined commercial terms used in international transactions."
-msgstr "Bộ Điều khoản Thương mại Quốc tế (Incoterms) là một chuỗi các điều khoản thương mại được định nghĩa trước để sử dụng trong các giao dịch quốc tế."
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms "
+"used in international transactions."
+msgstr ""
+"Bộ Điều khoản Thương mại Quốc tế (Incoterms) là một chuỗi các điều khoản "
+"thương mại được định nghĩa trước để sử dụng trong các giao dịch quốc tế."
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
@@ -882,8 +925,14 @@ msgstr "Hoá đơn thủ công"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company_po_lead
-msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for procuring products, they will be scheduled that many days earlier to cope with unexpected vendor delays."
-msgstr "Biên độ sai lệch đối với thời gian mua hàng. Khi hệ thống tự tạo các đơn hàng mua để cung ứng sản phẩm, nó sẽ ấn định thêm số ngày này vào thời gian phải mua hàng để ngăn ngừa sự trễ hẹn không mong muốn từ phía nhà cung cấp."
+msgid ""
+"Margin of error for vendor lead times. When the system generates Purchase "
+"Orders for procuring products, they will be scheduled that many days earlier"
+" to cope with unexpected vendor delays."
+msgstr ""
+"Biên độ sai lệch đối với thời gian mua hàng. Khi hệ thống tự tạo các đơn "
+"hàng mua để cung ứng sản phẩm, nó sẽ ấn định thêm số ngày này vào thời gian "
+"phải mua hàng để ngăn ngừa sự trễ hẹn không mong muốn từ phía nhà cung cấp."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_mail_mail_description
@@ -912,14 +961,17 @@ msgstr "Mua hàng tháng"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
-msgid "Most propositions of purchase orders are created automatically\n"
+msgid ""
+"Most propositions of purchase orders are created automatically\n"
 "                by Odoo based on inventory needs."
-msgstr "Hầu hết các đề xuất cho các đơn hàng mua đều được tạo tự động bởi Odoo dựa trên nhu cầu về lượng dự trữ được tính toán tự động"
+msgstr ""
+"Hầu hết các đề xuất cho các đơn hàng mua đều được tạo tự động bởi Odoo dựa "
+"trên nhu cầu về lượng dự trữ được tính toán tự động"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "New Mail"
-msgstr "New Mail"
+msgstr ""
 
 #. module: purchase
 #: selection:purchase.config.settings,group_product_variant:0
@@ -929,8 +981,11 @@ msgstr "Không sử dụng biến thể sản phẩm"
 #. module: purchase
 #: code:addons/purchase/purchase.py:811
 #, python-format
-msgid "No vendor associated to product %s. Please set one to fix this procurement."
-msgstr "Không có nhà cung cấp nào được thiết lập để cung cấp sản phẩm %s. Hãy thiết lập một nhà cung cấp để xử lý cho cung ứng này."
+msgid ""
+"No vendor associated to product %s. Please set one to fix this procurement."
+msgstr ""
+"Không có nhà cung cấp nào được thiết lập để cung cấp sản phẩm %s. Hãy thiết "
+"lập một nhà cung cấp để xử lý cho cung ứng này."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -1147,8 +1202,12 @@ msgstr "Giá trị sản phẩm"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_product_variant:0
-msgid "Products can have several attributes, defining variants (Example: size, color,...)"
-msgstr "Sản phẩm có thể có nhiều thuộc tính, cho phép định nghĩa biến thể (vd: cỡ, màu sắc, v.v.)"
+msgid ""
+"Products can have several attributes, defining variants (Example: size, "
+"color,...)"
+msgstr ""
+"Sản phẩm có thể có nhiều thuộc tính, cho phép định nghĩa biến thể (vd: cỡ, "
+"màu sắc, v.v.)"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_uom:0
@@ -1163,7 +1222,7 @@ msgstr "Cung cấp cơ chế thẩm định hai lần khi mua"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_mail_mail_website_published
 msgid "Published"
-msgstr "Published"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management
@@ -1177,8 +1236,14 @@ msgstr "Phân tích Mua"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_purchase_order_report_all
-msgid "Purchase Analysis allows you to easily check and analyse your company purchase history and performance. From this menu you can track your negotiation performance, the delivery performance of your vendors, etc."
-msgstr "Phân tích Mua cho phép bạn dễ dàng kiểm tra và phân tích lịch sử và hiệu suất mua sắm của công ty bạn. Từ trình đơn này, bạn có thể truy xuất hiệu suất đàm phán, hiệu suất bàn giao của các nhà cung cấp của bạn, v.v."
+msgid ""
+"Purchase Analysis allows you to easily check and analyse your company "
+"purchase history and performance. From this menu you can track your "
+"negotiation performance, the delivery performance of your vendors, etc."
+msgstr ""
+"Phân tích Mua cho phép bạn dễ dàng kiểm tra và phân tích lịch sử và hiệu "
+"suất mua sắm của công ty bạn. Từ trình đơn này, bạn có thể truy xuất hiệu "
+"suất đàm phán, hiệu suất bàn giao của các nhà cung cấp của bạn, v.v."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_lead
@@ -1254,7 +1319,8 @@ msgstr "Đơn hàng bao gồm hạng mục chưa xuất hoá đơn"
 
 #. module: purchase
 #: selection:purchase.config.settings,module_purchase_requisition:0
-msgid "Purchase propositions trigger draft purchase orders to a single supplier"
+msgid ""
+"Purchase propositions trigger draft purchase orders to a single supplier"
 msgstr "Đề xuất mua sắm được tạo cho một nhà cung cấp duy nhất"
 
 #. module: purchase
@@ -1281,8 +1347,12 @@ msgstr "Đơn hàng"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_dest_address_id
-msgid "Put an address if you want to deliver directly from the vendor to the customer. Otherwise, keep empty to deliver to your own company."
-msgstr "Nhập một địa chỉ nếu bạn muốn giao hàng trực tiếp từ nhà cung cấp đến khách hàng. Ngược lại, hãy để trống để giao hàng về công ty bạn."
+msgid ""
+"Put an address if you want to deliver directly from the vendor to the "
+"customer. Otherwise, keep empty to deliver to your own company."
+msgstr ""
+"Nhập một địa chỉ nếu bạn muốn giao hàng trực tiếp từ nhà cung cấp đến khách "
+"hàng. Ngược lại, hãy để trống để giao hàng về công ty bạn."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_qty
@@ -1311,20 +1381,19 @@ msgid "RFQ Done"
 msgstr "RFQ Hoàn thành"
 
 #. module: purchase
-#: selection:purchase.order,state:0
-#: selection:purchase.report,state:0
+#: selection:purchase.order,state:0 selection:purchase.report,state:0
 msgid "RFQ Sent"
 msgstr "RFQ đã được gửi"
 
 #. module: purchase
 #: model:mail.template,report_name:purchase.email_template_edi_purchase
 msgid "RFQ_${(object.name or '').replace('/','_')}"
-msgstr "RFQ_${(object.name or '').replace('/','_')}"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_purchase_order
 msgid "RFQs and Purchases"
-msgstr "RFQs and Purchases"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1389,7 +1458,7 @@ msgstr "Yêu cầu Báo giá"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Request for Quotation #"
-msgstr "Request for Quotation #"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.purchase_rfq
@@ -1463,8 +1532,11 @@ msgstr "Mời thầu đơn giản (chỉ được chọn từ một RFQ)"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_uom:0
-msgid "Some products may be sold/puchased in different unit of measures (advanced)"
-msgstr "Một vài sản phẩm có thể được bán/mua theo các đơn vị đo lường khác nhau (cao cấp)"
+msgid ""
+"Some products may be sold/puchased in different unit of measures (advanced)"
+msgstr ""
+"Một vài sản phẩm có thể được bán/mua theo các đơn vị đo lường khác nhau (cao"
+" cấp)"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_origin
@@ -1537,46 +1609,65 @@ msgid ""
 "The product form contains detailed information to improve the\n"
 "            purchase process: prices, procurement logistics, accounting data,\n"
 "            available vendors, etc."
-msgstr "Form sản phẩm chứa các thông tin chi tiết để cải thiện quy trình\n"
+msgstr ""
+"Form sản phẩm chứa các thông tin chi tiết để cải thiện quy trình\n"
 "            mua hàng: giá, logistcs & cung ứng, dữ liệu kế toán, các nhà cung\n"
 "            cấp tương ứng, v.v."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
-msgid "The quotation contains the history of the discussion/negotiation\n"
+msgid ""
+"The quotation contains the history of the discussion/negotiation\n"
 "                you had with your vendor. Once confirmed, a request for\n"
 "                quotation is converted into a purchase order."
-msgstr "Yêu cầu Báo giá lưu trữ lịch sử các thảo luận/đàm phán giữa bạn và nhà cung cấp.\n"
+msgstr ""
+"Yêu cầu Báo giá lưu trữ lịch sử các thảo luận/đàm phán giữa bạn và nhà cung cấp.\n"
 "Khi một Yêu cầu Báo giá được xác nhận, nó sẽ được chuyển đổi thành một đơn hàng"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
-msgid "The request for quotation is the first step of the purchases flow. Once\n"
+msgid ""
+"The request for quotation is the first step of the purchases flow. Once\n"
 "                    converted into a purchase order, you will be able to control the receipt\n"
 "                    of the products and the vendor bill."
-msgstr "Yêu cầu Báo giá lưu trữ lịch sử các thảo luận/đàm phán giữa bạn và nhà cung cấp.\n"
+msgstr ""
+"Yêu cầu Báo giá lưu trữ lịch sử các thảo luận/đàm phán giữa bạn và nhà cung cấp.\n"
 "Khi một Yêu cầu Báo giá được xác nhận, nó sẽ được chuyển đổi thành một đơn hàng"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_category_property_account_creditor_price_difference_categ
-msgid "This account will be used to value price difference between purchase price and accounting cost."
-msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá vốn theo kế toán."
+msgid ""
+"This account will be used to value price difference between purchase price "
+"and accounting cost."
+msgstr ""
+"Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá"
+" vốn theo kế toán."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_property_account_creditor_price_difference
 #: model:ir.model.fields,help:purchase.field_product_template_property_account_creditor_price_difference
-msgid "This account will be used to value price difference between purchase price and cost price."
-msgstr "Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá vốn theo kế toán."
+msgid ""
+"This account will be used to value price difference between purchase price "
+"and cost price."
+msgstr ""
+"Tài khoản này được sử dụng để đánh giá sự chênh lệch giá giữa giá mua và giá"
+" vốn theo kế toán."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_partner_property_purchase_currency_id
-msgid "This currency will be used, instead of the default one, for purchases from the current partner"
-msgstr "Tiền tệ này sẽ được This currency will be used, instead of the default one, for purchases from the current partner"
+msgid ""
+"This currency will be used, instead of the default one, for purchases from "
+"the current partner"
+msgstr ""
+"Tiền tệ này sẽ được This currency will be used, instead of the default one, "
+"for purchases from the current partner"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
 msgid "This vendor has no purchase order. Click to create a new RfQ."
-msgstr "Nhà cung cấp này chưa có đơn hàng nào với chúng ta. Bấm để tạo mới một RFQ (Yêu cầu Báo giá)."
+msgstr ""
+"Nhà cung cấp này chưa có đơn hàng nào với chúng ta. Bấm để tạo mới một RFQ "
+"(Yêu cầu Báo giá)."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_picking_type_id
@@ -1584,8 +1675,7 @@ msgid "This will determine picking type of incoming shipment"
 msgstr "Điều này sẽ xác định kiểu hoạt động giao nhận của lô hàng về"
 
 #. module: purchase
-#: selection:purchase.order,state:0
-#: selection:purchase.report,state:0
+#: selection:purchase.order,state:0 selection:purchase.report,state:0
 msgid "To Approve"
 msgstr "Chờ duyệt"
 
@@ -1618,7 +1708,9 @@ msgstr "Dịch chuyển"
 #. module: purchase
 #: code:addons/purchase/purchase.py:290
 #, python-format
-msgid "Unable to cancel purchase order %s as some receptions have already been done."
+msgid ""
+"Unable to cancel purchase order %s as some receptions have already been "
+"done."
 msgstr "Không thể huỷ đơn hàng mua %s khi đã nhận hàng (dủ ít nhiều)"
 
 #. module: purchase
@@ -1627,7 +1719,9 @@ msgstr "Không thể huỷ đơn hàng mua %s khi đã nhận hàng (dủ ít nh
 msgid ""
 "Unable to cancel this purchase order.i You must first cancel related vendor "
 "bills."
-msgstr "Không thể huỷ đơn hàng mua này. Trước tiên, bạn phải huỷ các hoá đơn nhà cung cấp liên quan đến đơn hàng mua này."
+msgstr ""
+"Không thể huỷ đơn hàng mua này. Trước tiên, bạn phải huỷ các hoá đơn nhà "
+"cung cấp liên quan đến đơn hàng mua này."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_unit
@@ -1673,7 +1767,8 @@ msgstr "Giá trị trước thuế"
 #. module: purchase
 #: selection:purchase.config.settings,group_costing_method:0
 msgid "Use a 'Fixed', 'Real' or 'Average' price costing method"
-msgstr "Sử dụng phương pháp tính giá vốn 'Cố định', 'Thực tế' hoặc 'Bình quân'"
+msgstr ""
+"Sử dụng phương pháp tính giá vốn 'Cố định', 'Thực tế' hoặc 'Bình quân'"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
@@ -1753,7 +1848,8 @@ msgid ""
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
 "                    document in Odoo."
-msgstr "Hoá đơn nhà cung cấp có thể được tạo trước dựa trên đơn hàng mua\n"
+msgstr ""
+"Hoá đơn nhà cung cấp có thể được tạo trước dựa trên đơn hàng mua\n"
 "                    hay phiếu mua hàng. Điều này cho phép bạn kiểm soát hóa\n"
 "                    bạn nhận được từ nhà cung cấp\n"
 
@@ -1790,25 +1886,32 @@ msgstr "Khi sản phẩm được mua, chúng có thể được giao tới kho 
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_product_variant
-msgid "Work with product variant allows you to define some variant of the same products, an ease the product management in the ecommerce for example"
-msgstr "Làm việc với biến thể sản phẩm cho phép bạn định nghĩa một vài biến thể của cùng một sản phẩm, giúp đơn giản hoá việc quản lý sản phẩm, ví dụ: trong thương mại điện tử."
+msgid ""
+"Work with product variant allows you to define some variant of the same "
+"products, an ease the product management in the ecommerce for example"
+msgstr ""
+"Làm việc với biến thể sản phẩm cho phép bạn định nghĩa một vài biến thể của "
+"cùng một sản phẩm, giúp đơn giản hoá việc quản lý sản phẩm, ví dụ: trong "
+"thương mại điện tử."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_open_invoice
 msgid ""
 "You can control the invoice from your vendor according to\n"
 "            what you purchased (services) or received (products)."
-msgstr "Bạn có thể kiểm soát hoá đơn từ nhà cung cấp của bạn theo\n"
+msgstr ""
+"Bạn có thể kiểm soát hoá đơn từ nhà cung cấp của bạn theo\n"
 "             những sản phẩm / dịch vụ mà bạn mua hoặc nhận từ nhà cung cấp."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased
-msgid "You must define a product for everything you purchase, whether\n"
+msgid ""
+"You must define a product for everything you purchase, whether\n"
 "            it's a physical product, a consumable or services you buy to\n"
 "            subcontractants."
-msgstr "Bạn phải định nghĩa một sản phẩm cho mọi thứ mà bạn mua, cho dù\n"
+msgstr ""
+"Bạn phải định nghĩa một sản phẩm cho mọi thứ mà bạn mua, cho dù\n"
 "            đó là một sản phẩm hữu hình, một dạng có thể tiêu thụ hay dịch vụ mà bạn mua từ các nhà thầu phụ.\n"
-""
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:335

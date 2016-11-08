@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mass_mailing
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -22,7 +22,9 @@ msgstr ""
 msgid ""
 "% <br/>\n"
 "                                            <strong>Clicks</strong>"
-msgstr "%<br/>\n<strong>Lượt click</strong>"
+msgstr ""
+"%<br/>\n"
+"<strong>Lượt click</strong>"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
@@ -342,7 +344,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mass_mailing_test_email_to
 msgid "Comma-separated list of email addresses."
-msgstr "Comma-separated list of email addresses."
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.mass_mailing_configuration
@@ -385,7 +387,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_create_date
 msgid "Create Date"
-msgstr "Create Date"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_campaigns
@@ -722,7 +724,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_statistics_report_id
 #: model:ir.model.fields,field_description:mass_mailing.field_mass_mailing_config_settings_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mail_statistics_mail_mail_id_int
@@ -730,7 +732,11 @@ msgid ""
 "ID of the related mail_mail. This field is an integer field becausethe "
 "related mail_mail can be deleted separately from its statistics.However the "
 "ID is needed for several action and controllers."
-msgstr "ID của đối tượng mail_mail liên quan. Trường này là một trường kiểu integer bởi vì mail_mail liên quan có thể bị xóa riêng rẽ từ chính bảng thống kê của nó. Tuy nhiên, ID của nó thì vẫn cần thiết cho một số action và controllers."
+msgstr ""
+"ID của đối tượng mail_mail liên quan. Trường này là một trường kiểu integer "
+"bởi vì mail_mail liên quan có thể bị xóa riêng rẽ từ chính bảng thống kê của"
+" nó. Tuy nhiên, ID của nó thì vẫn cần thiết cho một số action và "
+"controllers."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mass_mailing_contact_message_unread
@@ -747,7 +753,9 @@ msgstr ""
 msgid ""
 "If checked, recipients will be mailed only once, allowing to sendvarious "
 "mailings in a single campaign to test the effectivenessof the mailings."
-msgstr "Nếu đánh dấu, người nhận sẽ chỉ được gửi mail một lần, cho phép gửi một số mailings trong một chiến dịch để kiểm thử hiệu của của mailings."
+msgstr ""
+"Nếu đánh dấu, người nhận sẽ chỉ được gửi mail một lần, cho phép gửi một số "
+"mailings trong một chiến dịch để kiểm thử hiệu của của mailings."
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:638
@@ -845,7 +853,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_mail_mail_id
 msgid "Mail"
-msgstr "Mail"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -855,7 +863,7 @@ msgstr "Thân mail"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_mail_mail_id_int
 msgid "Mail ID (tech)"
-msgstr "Mail ID (tech)"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.action_view_mail_mail_statistics
@@ -940,7 +948,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 msgid "Mailings"
-msgstr "Mailings"
+msgstr ""
 
 #. module: mass_mailing
 #: model:res.groups,name:mass_mailing.group_mass_mailing_campaign
@@ -1032,7 +1040,12 @@ msgid ""
 "information like number of bounced mails, opened mails, replied mails. You "
 "can sort out your analysis by different groups to get accurate grained "
 "analysis."
-msgstr "Thống kê gửi email hàng loạt cho phép bạn kiểm tra các thông tin khác nhau liên quan đến việc gửi email (vd: số email bị trả lại, số email được mở, số email được trả lời, v.v.). Bạn có thể sắp xếp các phân tích của bạn theo các nhóm tiêu chí khác nhau để có cái nhìn phân tích chính xác giúp bạn ra quyết định thông minh nhất."
+msgstr ""
+"Thống kê gửi email hàng loạt cho phép bạn kiểm tra các thông tin khác nhau "
+"liên quan đến việc gửi email (vd: số email bị trả lại, số email được mở, số "
+"email được trả lời, v.v.). Bạn có thể sắp xếp các phân tích của bạn theo các"
+" nhóm tiêu chí khác nhau để có cái nhìn phân tích chính xác giúp bạn ra "
+"quyết định thông minh nhất."
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mass_mailing_tag
@@ -1077,7 +1090,7 @@ msgstr "Kiểu"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_message_id
 msgid "Message-ID"
-msgstr "Message-ID"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_message_ids
@@ -1207,7 +1220,7 @@ msgstr "Thanh toán"
 msgid ""
 "Percentage of the contacts that will be mailed. Recipients will be taken "
 "randomly."
-msgstr "Percentage of the contacts that will be mailed. Recipients will be taken randomly."
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing,body_html:mass_mailing.mass_mail_1
@@ -1228,7 +1241,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mass_mailing_reply_to
 msgid "Preferred Reply-To Address"
-msgstr "Preferred Reply-To Address"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_template_form_minimal
@@ -1269,7 +1282,7 @@ msgstr "Model Người nhận"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_form
 msgid "Related Mailing(s)"
-msgstr "Related Mailing(s)"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_form
@@ -1481,7 +1494,7 @@ msgstr "Nguồn"
 #. module: mass_mailing
 #: selection:mail.mass_mailing,reply_to_mode:0
 msgid "Specified Email Address"
-msgstr "Specified Email Address"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_stage_id
@@ -1567,7 +1580,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_tag_ids
 msgid "Tags"
-msgstr "Tags"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.action_email_template_marketing
@@ -1580,7 +1593,7 @@ msgstr "Các mẫu"
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 #, python-format
 msgid "Test Mailing"
-msgstr "Test Mailing"
+msgstr ""
 
 #. module: mass_mailing
 #: selection:mail.statistics.report,state:0

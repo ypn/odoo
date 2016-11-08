@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_landed_costs
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -214,7 +214,7 @@ msgstr "Nhóm theo"
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines_id
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost_message_unread
@@ -436,8 +436,9 @@ msgid ""
 msgstr ""
 "Lô hàng bạn chọn không chứa bất kỳ dịch chuyển nào mà có thể được tương tác "
 "bởi landed cost. Landed cost chỉ khả dụng với các sản phẩm mà được cấu hình "
-"định giá tồn kho theo thời gian thực với giá vốn tính bằng phương pháp thực tế. "
-"Hãy chắc chắn rằng ít nhất một sản phẩm trong lô hàng được cấu hình như vậy."
+"định giá tồn kho theo thời gian thực với giá vốn tính bằng phương pháp thực "
+"tế. Hãy chắc chắn rằng ít nhất một sản phẩm trong lô hàng được cấu hình như "
+"vậy."
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_amount_total
@@ -466,8 +467,8 @@ msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
 "landed costs to reverse them"
 msgstr ""
-"Các landed cost đã xác nhận thì không thể huỷ được. Nhưng bạn vẫn có thể "
-"tạo landed cost khác ngược lại với nó để xử lý tình huống như vậy."
+"Các landed cost đã xác nhận thì không thể huỷ được. Nhưng bạn vẫn có thể tạo"
+" landed cost khác ngược lại với nó để xử lý tình huống như vậy."
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_valuation_adjustment_lines
@@ -508,8 +509,8 @@ msgid ""
 "You cannot validate a landed cost which has no valid valuation adjustments "
 "lines. Did you click on Compute?"
 msgstr ""
-"Bạn không thể xác nhận một landed cost mà chưa có dòng nào điều chỉnh / phân bố "
-"giá trị. Bạn đã bấm vào nút Tính toán chưa?"
+"Bạn không thể xác nhận một landed cost mà chưa có dòng nào điều chỉnh / phân"
+" bố giá trị. Bạn đã bấm vào nút Tính toán chưa?"
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_type_form

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -65,7 +65,8 @@ msgstr ""
 msgid ""
 "<span class=\"o_unfollow\">Unfollow</span>\n"
 "                                    <span class=\"o_following\">Following</span>"
-msgstr "<span class=\"o_unfollow\">Ngừng theo dõi</span>\n"
+msgstr ""
+"<span class=\"o_unfollow\">Ngừng theo dõi</span>\n"
 "                                    <span class=\"o_following\">Đang theo dõi</span>"
 
 #. module: hr
@@ -434,15 +435,13 @@ msgid "Employees Tags"
 msgstr "Tag nhân viên"
 
 #. module: hr
-#: code:addons/hr/hr.py:294
-#: constraint:hr.department:0
+#: code:addons/hr/hr.py:294 constraint:hr.department:0
 #, python-format
 msgid "Error! You cannot create recursive departments."
 msgstr "Lỗi! Bạn không thể tạo cấu trúc Phòng ban lặp đi lặp lại."
 
 #. module: hr
-#: code:addons/hr/hr.py:264
-#: constraint:hr.employee:0
+#: code:addons/hr/hr.py:264 constraint:hr.employee:0
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Employee(s)."
 msgstr "Lỗi! Bạn không thể tạo cấu trúc nhân viên lặp đi lặp lại."
@@ -454,8 +453,10 @@ msgstr "Nhân viên mới dự kiến"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_expected_employees
-msgid "Expected number of employees for this job position after new recruitment."
-msgstr "Số lượng nhân viên dự kiến cho vị trí công việc này sau khi tuyển dụng."
+msgid ""
+"Expected number of employees for this job position after new recruitment."
+msgstr ""
+"Số lượng nhân viên dự kiến cho vị trí công việc này sau khi tuyển dụng."
 
 #. module: hr
 #: model:hr.job,name:hr.job_developer
@@ -611,7 +612,7 @@ msgstr "Quản lý Nguồn Nhân lực"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_id
 #: model:ir.model.fields,field_description:hr.field_hr_job_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_identification_id
@@ -719,7 +720,8 @@ msgstr "Vị trí công việc"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
-msgid "Job Positions are used to define jobs and their requirements.\n"
+msgid ""
+"Job Positions are used to define jobs and their requirements.\n"
 "                You can keep track of the number of employees you have per job\n"
 "                position and follow the evolution according to what you planned\n"
 "                for the future."
@@ -822,8 +824,13 @@ msgstr "Ảnh cỡ trung bình"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_image_medium
-msgid "Medium-sized photo of the employee. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
-msgstr "Ảnh cỡ trung bình của nhân viên. Nó sẽ tự động thay đổi kích thước thành 128x128 mà không thay đổi tỷ lệ."
+msgid ""
+"Medium-sized photo of the employee. It is automatically resized as a "
+"128x128px image, with aspect ratio preserved. Use this field in form views "
+"or some kanban views."
+msgstr ""
+"Ảnh cỡ trung bình của nhân viên. Nó sẽ tự động thay đổi kích thước thành "
+"128x128 mà không thay đổi tỷ lệ."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_member_ids
@@ -910,8 +917,11 @@ msgstr "Số lượng nhân viên hiện tại trên công việc này."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_no_of_hired_employee
-msgid "Number of hired employees for this job position during recruitment phase."
-msgstr "Số lượng nhân viên đã thuê cho vị trí công việc này trong suốt giai đoạn tuyển dụng."
+msgid ""
+"Number of hired employees for this job position during recruitment phase."
+msgstr ""
+"Số lượng nhân viên đã thuê cho vị trí công việc này trong suốt giai đoạn "
+"tuyển dụng."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department_message_needaction_counter
@@ -1093,12 +1103,20 @@ msgstr "Đơn hàng"
 #: model:ir.model.fields,help:hr.field_res_users_picking_warn
 #: model:ir.model.fields,help:hr.field_res_users_purchase_warn
 #: model:ir.model.fields,help:hr.field_res_users_sale_warn
-msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
-msgstr "Chọn tùy chọn \"Cảnh báo\" sẽ hiển thị thông điệp cảnh báo người dùng, Chọn tùy chọn \"Khóa & Kèm thông điệp\" sẽ cho không phép mua/bán với sản phẩm này và đồng thời 'ném' ra một thông điệp. Thông điệp phải được nhập vào trường dưới đây."
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+"Chọn tùy chọn \"Cảnh báo\" sẽ hiển thị thông điệp cảnh báo người dùng, Chọn "
+"tùy chọn \"Khóa & Kèm thông điệp\" sẽ cho không phép mua/bán với sản phẩm "
+"này và đồng thời 'ném' ra một thông điệp. Thông điệp phải được nhập vào "
+"trường dưới đây."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_state
-msgid "Set whether the recruitment process is open or closed for this job position."
+msgid ""
+"Set whether the recruitment process is open or closed for this job position."
 msgstr ""
 
 #. module: hr
@@ -1129,8 +1147,13 @@ msgstr "Ảnh cỡ nhỏ"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_image_small
-msgid "Small-sized photo of the employee. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
-msgstr "Ảnh cỡ nhỏ của nhân viên. Nó tự động thay đổi kích thước thành 64x64 mà vẫn giữ nguyên tỷ lệ"
+msgid ""
+"Small-sized photo of the employee. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is"
+" required."
+msgstr ""
+"Ảnh cỡ nhỏ của nhân viên. Nó tự động thay đổi kích thước thành 64x64 mà vẫn "
+"giữ nguyên tỷ lệ"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_sinid
@@ -1197,17 +1220,29 @@ msgstr ""
 #. module: hr
 #: sql_constraint:hr.job:0
 msgid "The name of the job position must be unique per department in company!"
-msgstr "Tên của vị trí công việc phải là duy nhất đối với mỗi phòng ban trong công ty!"
+msgstr ""
+"Tên của vị trí công việc phải là duy nhất đối với mỗi phòng ban trong công "
+"ty!"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_time_efficiency
-msgid "This field depict the efficiency of the resource to complete tasks. e.g  resource put alone on a phase of 5 days with 5 tasks assigned to him, will show a load of 100% for this phase by default, but if we put a efficiency of 200%, then his load will only be 50%."
-msgstr "Trường này mô tả hiệu quả của nguồn lực khi thực hiện các nhiệm vụ. Ví dụ: nguồn lực được đặt một mình trong một giai đoạn 5 ngày với 5 nhiệm vụ được giao, sẽ hiển thị mức tải / áp lực 100%, nhưng nếu chúng ta thiết lập Hiệu quả là 200%, thì mức chịu tải/áp lực của nguồn lực này sẽ chỉ là 50%."
+msgid ""
+"This field depict the efficiency of the resource to complete tasks. e.g  "
+"resource put alone on a phase of 5 days with 5 tasks assigned to him, will "
+"show a load of 100% for this phase by default, but if we put a efficiency of"
+" 200%, then his load will only be 50%."
+msgstr ""
+"Trường này mô tả hiệu quả của nguồn lực khi thực hiện các nhiệm vụ. Ví dụ: "
+"nguồn lực được đặt một mình trong một giai đoạn 5 ngày với 5 nhiệm vụ được "
+"giao, sẽ hiển thị mức tải / áp lực 100%, nhưng nếu chúng ta thiết lập Hiệu "
+"quả là 200%, thì mức chịu tải/áp lực của nguồn lực này sẽ chỉ là 50%."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_image
-msgid "This field holds the image used as photo for the employee, limited to 1024x1024px."
-msgstr "This field holds the image used as photo for the employee, limited to 1024x1024px."
+msgid ""
+"This field holds the image used as photo for the employee, limited to "
+"1024x1024px."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_expected_employees
@@ -1317,7 +1352,8 @@ msgstr "Goá"
 #. module: hr
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
-msgid "With just a quick glance on the Odoo employee screen, you\n"
+msgid ""
+"With just a quick glance on the Odoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
@@ -1354,7 +1390,8 @@ msgstr "Giờ làm việc"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
-msgid "You can attach a survey to a job position. It will be used in\n"
+msgid ""
+"You can attach a survey to a job position. It will be used in\n"
 "                the recruitment process to evaluate the applicants for this job\n"
 "                position."
 msgstr ""
@@ -1473,10 +1510,12 @@ msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.view_department_form_installer
-msgid "Your departments structure is used to manage all documents\n"
+msgid ""
+"Your departments structure is used to manage all documents\n"
 "                related to employees by departments: expenses and timesheets,\n"
 "                leaves and holidays, recruitments, etc."
-msgstr "Cấu trúc phòng ban của bạn được sử dụng để quản lý các tài liệu\n"
+msgstr ""
+"Cấu trúc phòng ban của bạn được sử dụng để quản lý các tài liệu\n"
 "                liên quan đến nhân viên theo phòng ban: chi phí và chấm công,\n"
 "                vắng mặt, nghỉ phép, tuyển dụng, v.v."
 

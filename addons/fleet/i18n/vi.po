@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * fleet
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -32,12 +32,12 @@ msgstr "%s hợp đồng cần phải được gia hoặc hoặc/và đóng!"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 msgid "<span>g/km</span>"
-msgstr "<span>g/km</span>"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 msgid "<span>kW</span>"
-msgstr "<span>kW</span>"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_1
@@ -232,7 +232,9 @@ msgstr "Chọn xem hợp đồng này còn hợp lệ hay không"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type_category
 msgid "Choose wheter the service refer to contracts, vehicle services or both"
-msgstr "Chọn xem dịch vụ này có tham chiếu đến các hợp đồng hay các dịch vụ khác hay cả hai"
+msgstr ""
+"Chọn xem dịch vụ này có tham chiếu đến các hợp đồng hay các dịch vụ khác hay"
+" cả hai"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_act
@@ -444,13 +446,22 @@ msgstr "Chi phí hàng tháng"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_cost_generated
-msgid "Costs paid at regular intervals, depending on the cost frequency. If the cost frequency is set to unique, the cost will be logged at the start date"
-msgstr "Các chi phí được thanh toán theo các khoảng thời gian nhất định, phụ thuộc vào tần suất của chi phí. Nếu tần suất của chi phí được thiết lập mang tính duy nhất, chi phí sẽ được ghi nhật ký vào ngày bắt đầu"
+msgid ""
+"Costs paid at regular intervals, depending on the cost frequency. If the "
+"cost frequency is set to unique, the cost will be logged at the start date"
+msgstr ""
+"Các chi phí được thanh toán theo các khoảng thời gian nhất định, phụ thuộc "
+"vào tần suất của chi phí. Nếu tần suất của chi phí được thiết lập mang tính "
+"duy nhất, chi phí sẽ được ghi nhật ký vào ngày bắt đầu"
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_form
-msgid "Create a new contract automatically with all the same informations except for the date that will start at the end of current contract"
-msgstr "Tạo hợp đồng mới một cách tự động với toàn bộ các thông tin y hệt, ngoại trừ ngày mà bắt đầu hợp đông sẽ được lấy là ngày cuối của hợp đồng hiện hành."
+msgid ""
+"Create a new contract automatically with all the same informations except "
+"for the date that will start at the end of current contract"
+msgstr ""
+"Tạo hợp đồng mới một cách tự động với toàn bộ các thông tin y hệt, ngoại trừ"
+" ngày mà bắt đầu hợp đông sẽ được lấy là ngày cuối của hợp đồng hiện hành."
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_contract_state_create_uid
@@ -523,8 +534,12 @@ msgstr "Ngày mà phạm vi bao quát của hợp đồng bắt đầu"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_expiration_date
-msgid "Date when the coverage of the contract expirates (by default, one year after begin date)"
-msgstr "Ngày mà phạm vi bao quát của hợp đồng kết thúc (mặc định, một năm sau ngày bắt đầu)"
+msgid ""
+"Date when the coverage of the contract expirates (by default, one year after"
+" begin date)"
+msgstr ""
+"Ngày mà phạm vi bao quát của hợp đồng kết thúc (mặc định, một năm sau ngày "
+"bắt đầu)"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_acquisition_date
@@ -539,7 +554,7 @@ msgstr "Khấu hao & Lợi nhuận"
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Diesel"
-msgstr "Diesel"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_contract_state_display_name
@@ -585,15 +600,15 @@ msgstr "Lái xe: từ '%s' đến '%s'"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_act
-msgid "Each contract (e.g.: leasing) may include several services\n"
+msgid ""
+"Each contract (e.g.: leasing) may include several services\n"
 "                (reparation, insurances, periodic maintenance)."
-msgstr "Each contract (e.g.: leasing) may include several services\n"
-"                (reparation, insurances, periodic maintenance)."
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_act
 msgid "Each service can used in contracts, as a standalone service or both."
-msgstr "Each service can used in contracts, as a standalone service or both."
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_search
@@ -639,12 +654,12 @@ msgstr "Thay thế Dây curoa máy"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_13
 msgid "Entry into service tax"
-msgstr "Entry into service tax"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_21
 msgid "Exhaust Manifold Replacement"
-msgstr "Exhaust Manifold Replacement"
+msgstr ""
 
 #. module: fleet
 #: model:ir.module.category,name:fleet.module_fleet_category
@@ -751,7 +766,7 @@ msgstr "Các chi phí phát sinh thường xuyên"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_search
 msgid "Group By"
-msgstr "Group By"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_search
@@ -761,7 +776,7 @@ msgstr "Có Báo động"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_contract_renewal_overdue
 msgid "Has Contracts Overdue"
-msgstr "Has Contracts Overdue"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_contract_renewal_due_soon
@@ -795,21 +810,19 @@ msgstr "Thay ống dẫn khí nóng"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_fuel_act
-msgid "Here you can add refuelling entries for all vehicles.  You can\n"
+msgid ""
+"Here you can add refuelling entries for all vehicles.  You can\n"
 "                also filter logs of a particular vehicle using the search\n"
 "                field."
-msgstr "Here you can add refuelling entries for all vehicles.  You can\n"
-"                also filter logs of a particular vehicle using the search\n"
-"                field."
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_odometer_act
-msgid "Here you can add various odometer entries for all vehicles.\n"
+msgid ""
+"Here you can add various odometer entries for all vehicles.\n"
 "                You can also show odometer value for a particular vehicle using\n"
 "                the search field."
-msgstr "Here you can add various odometer entries for all vehicles.\n"
-"                You can also show odometer value for a particular vehicle using\n"
-"                the search field."
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_horsepower
@@ -824,7 +837,7 @@ msgstr "Thuế theo Sức ngựa"
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Hybrid"
-msgstr "Hybrid"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_contract_state_id
@@ -840,7 +853,7 @@ msgstr "Hybrid"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_message_unread
@@ -966,7 +979,7 @@ msgstr "Chỉ số Công tơ mét cuối"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_write_uid
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_contract_state_write_date
@@ -1044,7 +1057,7 @@ msgstr "Logo (nhỏ)"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_name
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_search
 msgid "Make"
-msgstr "Make"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_id
@@ -1207,7 +1220,7 @@ msgstr "Số cửa của phương tiện"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "Number of messages which requires an action"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_seats
@@ -1285,14 +1298,16 @@ msgstr "Chỉ số củacông tơ mét của phương tiện tại thời điể
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_act
-msgid "Odoo helps you keeping track of all the services done\n"
+msgid ""
+"Odoo helps you keeping track of all the services done\n"
 "                on your vehicle. Services can be of many type: occasional\n"
 "                repair, fixed maintenance, etc."
 msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
-msgid "Odoo helps you managing the costs for your different\n"
+msgid ""
+"Odoo helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
 msgstr ""
@@ -1300,13 +1315,15 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
-msgid "Odoo helps you managing the costs for your different vehicles\n"
+msgid ""
+"Odoo helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_act
-msgid "Odoo will warn you when services or contract have to be\n"
+msgid ""
+"Odoo will warn you when services or contract have to be\n"
 "                renewed."
 msgstr ""
 
@@ -1569,7 +1586,10 @@ msgstr "Ảnh cỡ nhỏ"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image_small
-msgid "Small-sized logo of the brand. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgid ""
+"Small-sized logo of the brand. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is"
+" required."
 msgstr ""
 
 #. module: fleet
@@ -1624,7 +1644,7 @@ msgstr "Tên Tag đã tồn tại!"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_ids
 msgid "Tags"
-msgstr "Tags"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_3
@@ -1650,10 +1670,10 @@ msgstr "Điều khoản và Điều kiện"
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
-msgid "Thanks to the different filters, Odoo can only print the effective\n"
+msgid ""
+"Thanks to the different filters, Odoo can only print the effective\n"
 "          costs, sort them by type and by vehicle."
-msgstr "Thanks to the different filters, Odoo can only print the effective\n"
-"          costs, sort them by type and by vehicle."
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_43
@@ -1662,8 +1682,10 @@ msgstr "Thay thế bộ ổn nhiệt"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image
-msgid "This field holds the image used as logo for the brand, limited to 1024x1024px."
-msgstr "This field holds the image used as logo for the brand, limited to 1024x1024px."
+msgid ""
+"This field holds the image used as logo for the brand, limited to "
+"1024x1024px."
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_44
@@ -1783,7 +1805,7 @@ msgstr "Bộ đếm Thông điệp chưa đọc"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_sequence
 msgid "Used to order the note stages"
-msgstr "Used to order the note stages"
+msgstr ""
 
 #. module: fleet
 #: model:res.groups,name:fleet.group_fleet_user
@@ -1984,7 +2006,8 @@ msgstr "Hàng năm"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_state_act
-msgid "You can customize available status to track the evolution of\n"
+msgid ""
+"You can customize available status to track the evolution of\n"
 "                each vehicle. Example: Active, Being Repaired, Sold."
 msgstr ""
 
@@ -1995,7 +2018,8 @@ msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_act
-msgid "You will be able to manage your fleet by keeping track of the\n"
+msgid ""
+"You will be able to manage your fleet by keeping track of the\n"
 "                contracts, services, fixed and recurring costs, odometers and\n"
 "                fuel logs associated to each vehicle."
 msgstr ""
@@ -2065,4 +2089,3 @@ msgstr "Hiển thị nhật ký công cơ mét đối với phương tiện này
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 msgid "show the services logs for this vehicle"
 msgstr "Hiển thị nhật ký dịch vụ đối với phương tiện này"
-

@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* mrp_operations
+# * mrp_operations
 #
 msgid ""
 msgstr ""
@@ -22,12 +22,14 @@ msgstr "Số lượng dòng"
 
 #. module: mrp_operations
 #: model:ir.model.fields,help:mrp_operations.field_mrp_production_workcenter_line_state
-msgid "* When a work order is created it is set in 'Draft' status.\n"
+msgid ""
+"* When a work order is created it is set in 'Draft' status.\n"
 "* When user sets work order in start mode that time it will be set in 'In Progress' status.\n"
 "* When work order is in running mode, during that time if user wants to stop or to make changes in order then can set in 'Pending' status.\n"
 "* When the user cancels the work order it will be set in 'Canceled' status.\n"
 "* When order is completely processed that time it is set in 'Finished' status."
-msgstr "* Khi một hoạt động sản xuất (work order)  được tạo, nó được thiết lập là 'Dự thảo'.\n"
+msgstr ""
+"* Khi một hoạt động sản xuất (work order)  được tạo, nó được thiết lập là 'Dự thảo'.\n"
 "* Khi người dùng thiết lập hoat động sản xuất với chế độ bắt đầu, nó sẽ được thiết lập là 'Đang thực hiện'.\n"
 "* Khi hoạt động sản xuất đang trong chế độ chạy, trong suốt thời gian đó, nếu người dùng dừng hoặc thay đổi thứ tự thì nó sẽ được thiết lập là 'Đang chờ'.\n"
 "* Khi người dùng hủy một hoạt động sản xuất, nó sẽ được thiết lập là 'Hủy bỏ'.\n"
@@ -72,8 +74,12 @@ msgstr "Đã hủy"
 
 #. module: mrp_operations
 #: model:ir.model.fields,help:mrp_operations.field_mrp_production_allow_reorder
-msgid "Check this to be able to move independently all production orders, without moving dependent ones."
-msgstr "Đánh dấu để có thể dịch chuyển một cách độc lập tất cả lệnh sản xuất mà không dịch chuyển lệnh sản xuất phụ thuộc."
+msgid ""
+"Check this to be able to move independently all production orders, without "
+"moving dependent ones."
+msgstr ""
+"Đánh dấu để có thể dịch chuyển một cách độc lập tất cả lệnh sản xuất mà "
+"không dịch chuyển lệnh sản xuất phụ thuộc."
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_stock_move_move_dest_id_lines
@@ -203,7 +209,7 @@ msgstr "Giờ theo Năng lực sản xuất"
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_id
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
@@ -220,14 +226,19 @@ msgstr "Đang thực hiện"
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:473
 #, python-format
-msgid "In order to Finish the operation, it must be in the Start or Resume state!"
-msgstr "Để Kết thúc một hoạt động, nó phải trong trạng thái Bắt đầu hoặc Bắt đầu lại"
+msgid ""
+"In order to Finish the operation, it must be in the Start or Resume state!"
+msgstr ""
+"Để Kết thúc một hoạt động, nó phải trong trạng thái Bắt đầu hoặc Bắt đầu lại"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:464
 #, python-format
-msgid "In order to Pause the operation, it must be in the Start or Resume state!"
-msgstr "Để Tạm dừng một hoạt động, nó phải trong trạng thái Bắt đầu hoặc Bắt đầu lại!"
+msgid ""
+"In order to Pause the operation, it must be in the Start or Resume state!"
+msgstr ""
+"Để Tạm dừng một hoạt động, nó phải trong trạng thái Bắt đầu hoặc Bắt đầu "
+"lại!"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:468
@@ -294,8 +305,11 @@ msgstr "Tên Hoạt động"
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:460
 #, python-format
-msgid "Operation has already started! You can either Pause/Finish/Cancel the operation."
-msgstr "Hoạt động đã được bắt đầu! Bạn có thể Tạm dừng/Kết thúc/Hủy bỏ hoạt động."
+msgid ""
+"Operation has already started! You can either Pause/Finish/Cancel the "
+"operation."
+msgstr ""
+"Hoạt động đã được bắt đầu! Bạn có thể Tạm dừng/Kết thúc/Hủy bỏ hoạt động."
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:476
@@ -539,16 +553,19 @@ msgstr "Dịch chuyển kho"
 #. module: mrp_operations
 #: model:ir.model.fields,help:mrp_operations.field_mrp_production_workcenter_line_delay
 msgid "The elapsed time between operation start and stop in this Work Center"
-msgstr "Thời gian trôi qua giữa thời điểm bắt đầu và kết thúc hoạt động sản xuất"
+msgstr ""
+"Thời gian trôi qua giữa thời điểm bắt đầu và kết thúc hoạt động sản xuất"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_planning
-msgid "To manufacture or assemble products, and use raw materials and\n"
+msgid ""
+"To manufacture or assemble products, and use raw materials and\n"
 "            finished products you must also handle manufacturing operations.\n"
 "            Manufacturing operations are often called Work Orders. The various\n"
 "            operations will have different impacts on the costs of\n"
 "            manufacturing and planning depending on the available workload."
-msgstr "Để sản xuất hoặc lắp ráp các sản phẩm, và sử dụng các nguyên liệu thô và\n"
+msgstr ""
+"Để sản xuất hoặc lắp ráp các sản phẩm, và sử dụng các nguyên liệu thô và\n"
 "            các thành phẩm, bạn phải vận hành các hoạt động sản xuất.\n"
 "            Các hoạt động sản xuất thường được gọi là các Work Orders. Các hoạt động\n"
 "            khác nhau sẽ có ảnh hưởng khác nhau lên chi phí sản xuất và việc lập kế\n"
@@ -626,13 +643,15 @@ msgstr "Kế hoạch Hoạt động sản xuất"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_form
-msgid "Work Orders is the list of operations to be performed for each\n"
+msgid ""
+"Work Orders is the list of operations to be performed for each\n"
 "            manufacturing order. Once you start the first work order of a\n"
 "            manufacturing order, the manufacturing order is automatically\n"
 "            marked as started. Once you finish the latest operation of a\n"
 "            manufacturing order, the MO is automatically done and the related\n"
 "            products are produced."
-msgstr "Hoạt động sản xuất là danh mục các hoạt động được thực hiện cho từng\n"
+msgstr ""
+"Hoạt động sản xuất là danh mục các hoạt động được thực hiện cho từng\n"
 "            lệnh sản xuất. Một khi bạn khởi động hoạt động đầu tiên của một\n"
 "            lệnh sản xuất, lệnh sản xuất đó sẽ tự động được đánh dấu là đã\n"
 "            bắt đầu. Một khi bạn kết thúc hoạt động cuối cùng của một lệnh\n"
@@ -658,4 +677,3 @@ msgstr ""
 #: model:ir.model,name:mrp_operations.model_mrp_operations_operation_code
 msgid "mrp_operations.operation.code"
 msgstr ""
-
