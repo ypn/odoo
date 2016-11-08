@@ -2241,7 +2241,7 @@ msgstr "Thông điệp Khoá/Phong toả"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_type_include_initial_balance
 msgid "Bring Accounts Balance Forward"
-msgstr ""
+msgstr "Không Kết chuyển Số dư"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
@@ -2287,7 +2287,7 @@ msgstr "Theo Hoàn tiền"
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_salespersons
 msgid "By Salespersons"
-msgstr "Theo Nhân viên bán hàng"
+msgstr "Theo Nhân viên Bán hàng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_active
@@ -3890,7 +3890,7 @@ msgstr "Đồ thuật soạn thảo email cho Khảo sát"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_accounting_report_enable_filter
 msgid "Enable Comparison"
-msgstr "Kích hoạt tính năng so sánh"
+msgstr "Kích hoạt So sánh"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_module_account_reports_followup
@@ -4128,7 +4128,7 @@ msgstr "Báo cáo tài chính"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_style_overwrite
 msgid "Financial Report Style"
-msgstr ""
+msgstr "Định dạng Báo cáo TC"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_financial_report_tree
@@ -8112,7 +8112,7 @@ msgstr "Trung bình chưa đến 5 giây để đối soát một giao dịch."
 #: model:ir.model.fields,field_description:account.field_account_report_partner_ledger_target_move
 #: model:ir.model.fields,field_description:account.field_accounting_report_target_move
 msgid "Target Moves"
-msgstr ""
+msgstr "Lọc Bút toán"
 
 #. module: account
 #. openerp-web
@@ -9293,7 +9293,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_type_include_initial_balance
 msgid "Used in reports to know if we should consider journal items from the beginning of time instead of from the fiscal year only. Account types that should be reset to zero at each new fiscal year (like expenses, revenue..) should not have this option set."
-msgstr ""
+msgstr "Được sử dụng trong các báo cáo để biết nếu chúng ta xem xét các bút toán sổ nhật kỳ từ thời điểm ban đầu thay vì chỉ từ đầu năm tài chính. Các kiểu tài khoản cần được đặt lại số dư về không (thông qua nghiệp vụ kết chuyển) tại mỗi khi kết thúc kỳ tài chính (như chi phí, doanh thu, v.v.) thì không được đánh dấu chọn vào tuỳ chọn này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_reference

@@ -104,7 +104,7 @@ msgstr ""
 #: model:ir.model,name:sale_timesheet.model_sale_order
 #: model:ir.ui.view,arch_db:sale_timesheet.view_sale_service_inherit_form2
 msgid "Sales Order"
-msgstr "Đơn hàng"
+msgstr "Đơn hàng Bán"
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_sale_order_line
@@ -134,7 +134,7 @@ msgstr "Nhiệm vụ"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_tasks_ids
 msgid "Tasks associated to this sale"
-msgstr ""
+msgstr "Các nhiệm vụ gắn với đơn hàng này"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/procurement.py:84
@@ -143,6 +143,8 @@ msgid ""
 "This task has been created from: <a href=# data-oe-model=sale.order data-oe-"
 "id=%d>%s</a> (%s)"
 msgstr ""
+"Nhiệm vụ này đã được tạo từ: <a href=# data-oe-model=sale.order data-oe-"
+"id=%d>%s</a> (%s)"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.project_time_mode_id_duplicate_xmlid
@@ -150,11 +152,13 @@ msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
+"Việc này sẽ thiết lập đơn vị đo lường được sử dụng trong các dự án và nhiệm vụ.\n"
+"Nếu bạn sử dụng bảng chấm công link đến các dự án, đừng quên thiết lập đơn vị đo lường phù hợp ở hồ sơ nhân viên."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_hr_employee_timesheet_cost
 msgid "Timesheet Cost"
-msgstr ""
+msgstr "Chi phí cho Bảng chấm công"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.project_time_mode_id_duplicate_xmlid

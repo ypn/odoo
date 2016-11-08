@@ -239,7 +239,7 @@ msgstr "<strong>Tham chiếu đơn hàng của bạn</strong>"
 #. module: purchase
 #: model:res.groups,name:purchase.group_warning_purchase
 msgid "A warning can be set on a product or a customer (Purchase)"
-msgstr ""
+msgstr "Một cảnh báo có thể được thiết lập đối với một sản phẩm hoặc đối tác (Mua)"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_invoice_purchase_id
@@ -249,7 +249,7 @@ msgstr "Thêm Đơn hàng mua"
 #. module: purchase
 #: selection:purchase.config.settings,group_warning_purchase:0
 msgid "All the products and the customers can be used in purchase orders"
-msgstr ""
+msgstr "Toàn bộ sản phẩm và đối tác đều có thể được sử dụng ở đơn hàng mua"
 
 #. module: purchase
 #: selection:purchase.config.settings,module_stock_dropshipping:0
@@ -294,7 +294,7 @@ msgstr "Quản trị viên có thể thiết lập Điều khoản và điều k
 #. module: purchase
 #: selection:purchase.config.settings,group_warning_purchase:0
 msgid "An informative or blocking warning can be set on a product or a customer"
-msgstr ""
+msgstr "Một cảnh báo mang tính chất thông tin hoặc phong toả có thể được thiết lập đối với sản phẩm và đối tác"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_account_analytic_id
@@ -310,7 +310,7 @@ msgstr "Kế toán quản trị cho Mua hàng"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_analytic_tag_ids
 msgid "Analytic Tags"
-msgstr ""
+msgstr "Tag KT Quản trị"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_config_settings_group_analytic_account_for_purchases
@@ -355,7 +355,7 @@ msgstr "Giá trung bình"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_invoice_lines
 msgid "Bill Lines"
-msgstr ""
+msgstr "Chi tiết Hoá đơn"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_qty_invoiced
@@ -734,7 +734,7 @@ msgstr "Lô hàng săp về"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_incoterm_id
 msgid "Incoterm"
-msgstr "Incoterm"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_incoterm_id
@@ -961,7 +961,7 @@ msgstr "Số lượng đặt hàng bị giảm!"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Orders"
-msgstr "Đơn hàng"
+msgstr "Đơn hàng Mua"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_mail
@@ -1149,12 +1149,12 @@ msgstr "Ngày An toàn Mua *"
 #: selection:purchase.report,state:0
 #: model:res.request.link,name:purchase.req_link_purchase_order
 msgid "Purchase Order"
-msgstr "Đơn hàng"
+msgstr "Đơn hàng Mua"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Purchase Order Confirmation #"
-msgstr "Xác nhận Đơn hàng #"
+msgstr "Xác nhận Đơn hàng Mua #"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
@@ -1203,7 +1203,7 @@ msgstr "Điều chỉnh Đơn hàng mua được sử dụng khi bạn muốn s�
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Purchase Orders"
-msgstr "Đơn hàng"
+msgstr "Đơn hàng Mua"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_graph
@@ -1254,7 +1254,7 @@ msgstr "Mua sắm"
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_report
 msgid "Purchases Orders"
-msgstr "Đơn hàng"
+msgstr "Đơn hàng Mua"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_dest_address_id
@@ -1339,17 +1339,17 @@ msgstr "Tham chiếu"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_product_uom
 msgid "Reference Unit of Measure"
-msgstr "Tham chiếu Đơn vị tính"
+msgstr "Đơn vị Đo lường Tham chiếu"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_origin
 msgid "Reference of the document that generated this purchase order request (e.g. a sale order or an internal procurement request)"
-msgstr ""
+msgstr "Dẫn chiếu đến tài liệu mà sinh ra đơn hàng mua này (vd: một đơn hàng bán hay một đề nghị mua sắm nội bộ)"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_partner_ref
 msgid "Reference of the sales order or bid sent by the vendor. It's used to do the matching when you receive the products as this reference is usually written on the delivery order sent by your vendor."
-msgstr ""
+msgstr "Dẫn chiếu đến đơn hàng bán hoặc bản chào thầu gửi bởi nhà cung cấp. Nó được sử dụng để thực hiện việc khớp lúc bạn nhận hàng khi dẫn chiếu này thường được viết ở lệnh giao hàng gửi từ nhà cung cấp của bạn."
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.purchase_report
