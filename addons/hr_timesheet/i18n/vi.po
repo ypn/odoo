@@ -4,6 +4,7 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2016
+# David Tran <david.tran@ma.tvtmarine.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
 # Linh NGuyen <tanlinh2000@yahoo.com>, 2016
@@ -57,17 +58,12 @@ msgstr "Cho phép Chấm công"
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr ""
+msgstr "Dòng KT Quản trị"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user_hours_delay
 msgid "Avg. Plan.-Eff."
 msgstr "Hiệu quả Kế hoạch Trung bình"
-
-#. module: hr_timesheet
-#: model:ir.model.fields,field_description:hr_timesheet.field_project_project_crossovered_budget_line
-msgid "Budget Lines"
-msgstr ""
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_project_project_subtask_project_id
@@ -133,6 +129,16 @@ msgid "Delay Hours"
 msgstr "Số giờ Trễ"
 
 #. module: hr_timesheet
+#: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line_department_id
+msgid "Department"
+msgstr "Phòng ban"
+
+#. module: hr_timesheet
+#: model:ir.ui.view,arch_db:hr_timesheet.report_timesheet
+msgid "Description"
+msgstr "Miêu tả"
+
+#. module: hr_timesheet
 #: model:ir.ui.menu,name:hr_timesheet.menu_hr_working_hours
 msgid "Detailed Activities"
 msgstr "Các Hoạt động Chi tiết"
@@ -151,12 +157,7 @@ msgstr "Số giờ Hiệu quả"
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "Group By"
-msgstr "Nhóm Theo"
-
-#. module: hr_timesheet
-#: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
-msgid "Group by month of date"
-msgstr "Nhóm theo tháng"
+msgstr "Nhóm theo"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task_effective_hours
@@ -209,7 +210,7 @@ msgstr "Dự án -"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user_remaining_hours
 #: model:ir.ui.view,arch_db:hr_timesheet.view_task_tree2_inherited
 msgid "Remaining Hours"
-msgstr "Số giờ Còn lại"
+msgstr "Số giờ còn lại"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.view_task_kanban_inherited_progress
@@ -278,7 +279,7 @@ msgid "Tasks by user and project"
 msgstr "Nhiệm vụ theo người dùng và dự án"
 
 #. module: hr_timesheet
-#: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_quantity
+#: model:ir.ui.view,arch_db:hr_timesheet.report_timesheet
 msgid "Time"
 msgstr "Thời gian"
 
