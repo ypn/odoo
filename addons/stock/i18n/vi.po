@@ -449,7 +449,7 @@ msgid ""
 "<strong>Consumable products</strong> are always assumed to be in sufficient "
 "quantity in your stock, therefore their available quantities are not tracked"
 msgstr ""
-"<strong>Sản phẩm có thể tiêu thụ</strong> luôn được giả định có số lượng "
+"<strong>Sản phẩm tiêu dùng</strong> luôn được giả định có số lượng "
 "thích đáng trong kho của bạn. Do đó, số lượng khả dụng sẽ không được tính "
 "toán"
 
@@ -2753,7 +2753,7 @@ msgid ""
 "a single product / lot /... "
 msgstr ""
 "Nếu bạn thực hiện kiểm kê toàn bộ, bạn có thể lựa chọn 'Tất cả sản phẩm' và "
-"phần mềm sẽ tự điền toàn bộ các các sản phẩm có trong kho. Nếu bạn chỉ muốn "
+"phần mềm sẽ tự điền toàn bộ các sản phẩm có trong kho. Nếu bạn chỉ muốn "
 "kiểm kê một phần (vd: Kiểm kê cuốn chiếu - Cycle Counting), bạn có thể chọn "
 "'Chọn sản phẩm thủ công' và phần mềm sẽ không đề xuất gì cả. Bạn có thể để "
 "cho hệ thống đề xuất một sản phẩm / lô /... đơn lẻ"
@@ -2775,18 +2775,18 @@ msgstr "Nếu bạn muốn tự làm:"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_immediate_transfer
 msgid "Immediate Transfer"
-msgstr "Dịch chuyển Ngay lập tức"
+msgstr "Dịch chuyển Ngay"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:792
 #, python-format
 msgid "Immediate Transfer?"
-msgstr "Dịch chuyển Ngay lập tức?"
+msgstr "Dịch chuyển Ngay?"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid "Immediate transfer?"
-msgstr "Dịch chuyển Ngay lập tức?"
+msgstr "Dịch chuyển Ngay?"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
