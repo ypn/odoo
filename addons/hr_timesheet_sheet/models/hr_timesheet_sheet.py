@@ -87,13 +87,11 @@ class HrTimesheetSheet(models.Model):
                 if any(self.env.cr.fetchall()):
                     raise ValidationError('You cannot have 2 timesheets that overlap!\nPlease use the menu \'My Current Timesheet\' to avoid this problem.')
 
-    @api.multi
     @api.onchange('employee_id')
     def onchange_employee_id(self):
-        for sheet in self:
-            if sheet.employee_id:
-                sheet.department_id = sheet.employee_id.department_id
-                sheet.user_id = sheet.employee_id.user_id
+            if self.employee_id:
+                self.department_id = self.employee_id.department_id
+                self.user_id = self.employee_id.user_id
 
     def copy(self, *args, **argv):
         raise UserError(_('You cannot duplicate a timesheet.'))
