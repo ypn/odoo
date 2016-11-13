@@ -698,7 +698,7 @@ msgstr ""
 #. module: stock
 #: model:res.groups,name:stock.group_warning_stock
 msgid "A warning can be set on a partner (Stock)"
-msgstr "Một cảnh báo có thể được thiết lập ở một đối tác (Stock)"
+msgstr "Có thể đặt cảnh báo vào đối tác (Quản lý Kho)"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -867,26 +867,28 @@ msgstr "Cho phép bạn lựa chọn và duy trì đơn vị tính khác nhau tr
 #: selection:stock.config.settings,group_warning_stock:0
 msgid "An informative or blocking warning can be set on a partner"
 msgstr ""
+"Một cảnh báo hoặc một thông báo phong toả/ngăn chặn có thể được thiết lập "
+"cho từng đối tác"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_package_ancestor_ids
 msgid "Ancestors"
-msgstr ""
+msgstr "Nguyên thuỷ"
 
 #. module: stock
 #: model:stock.inventory.line,product_name:stock.stock_inventory_line_2
 msgid "Apple In-Ear Headphones"
-msgstr ""
+msgstr "Headphone cắm Tai của Apple"
 
 #. module: stock
 #: model:stock.inventory.line,product_name:stock.stock_inventory_line_4
 msgid "Apple Wireless Keyboard"
-msgstr ""
+msgstr "Bàn phím Không dây Apple"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_location_route_form_view
 msgid "Applicable On"
-msgstr "Có thể áp dụng trên"
+msgstr "Có thể áp dụng vào"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_route_product_selectable
@@ -922,7 +924,7 @@ msgstr "Áp dụng"
 #: model:ir.ui.view,arch_db:stock.view_pickingtype_filter
 #: model:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Archived"
-msgstr "Đã lưu "
+msgstr "Đã lưu trữ"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_config_settings_decimal_precision
@@ -941,7 +943,7 @@ msgstr "Yêu cầu Sản phẩm mới"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Assign Owner"
-msgstr "Gắn chủ sở hữu"
+msgstr "Gắn Chủ sở hữu"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -992,7 +994,7 @@ msgstr "Sản phẩm Khả dụng"
 #: model:ir.model.fields,field_description:stock.field_stock_move_backorder_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking_backorder_id
 msgid "Back Order of"
-msgstr "Phần dở dang của"
+msgstr "Phần Dở dang của"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
@@ -1009,7 +1011,7 @@ msgstr "Phần dở dang <em>%s</em> <b>bị hủy</b>."
 #: code:addons/stock/models/stock_picking.py:975
 #, python-format
 msgid "Back order <em>%s</em> <b>created</b>."
-msgstr "BPhần dở dang <em>%s</em> <b>được tạo</b>."
+msgstr "Phần dở dang <em>%s</em> <b>được tạo</b>."
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_backorder_confirmation
