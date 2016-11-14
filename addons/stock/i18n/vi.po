@@ -645,7 +645,7 @@ msgid ""
 "management system: minimum stock rules, automatic procurement, etc."
 msgstr ""
 "<strong>Sản phẩm có thể lưu trữ</strong> là đối tượng cho hệ thống quản lý "
-"kho đầy đủ tính năng: Quy tắc tái cung ứng, tự động hóa cung ứng, v.v."
+"kho đầy đủ tính năng: Quy tắc tái cung ứng, tự động hoá cung ứng, v.v."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
@@ -691,8 +691,8 @@ msgid ""
 "                        you may find yourself out of stock) and not too high (your products occupy\n"
 "                        space and may lose value)."
 msgstr ""
-"Một hệ thống quản lý kho tốt sẽ có thể tối ưu hóa mức tồn kho: không quá thấp (nếu không\n"
-"                        bạn sẽ không có đủ hàng cung cấp cho khách hàng) và không quá cao (hàng hóa sẽ chiếm\n"
+"Một hệ thống quản lý kho tốt sẽ có thể tối ưu hoá mức tồn kho: không quá thấp (nếu không\n"
+"                        bạn sẽ không có đủ hàng cung cấp cho khách hàng) và không quá cao (hàng hoá sẽ chiếm\n"
 "                        hết không gian kho, làm tăng chi phí lưu/quản lý kho cũng như tăng tông đọng vốn)."
 
 #. module: stock
@@ -1088,7 +1088,7 @@ msgstr "Loa Bose Mini Bluetooth"
 #: selection:stock.warehouse,delivery_steps:0
 msgid "Bring goods to output location before shipping (Pick + Ship)"
 msgstr ""
-"Mang hàng hóa ra địa điểm xuất (output) trước khi bàn giao (Lấy hàng + Bàn "
+"Mang hàng hoá ra địa điểm xuất (output) trước khi bàn giao (Lấy hàng + Bàn "
 "giao)"
 
 #. module: stock
@@ -1680,10 +1680,10 @@ msgid ""
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
 "Số lượng hiện tại của sản phẩm.\n"
-"Trong ngữ cảnh với một Địa điểm Kho, nó bao gồm hàng hóa được lưu trữ tại địa điểm này, hoặc bất kỳ địa điểm con nào của nó.\n"
-"Trong ngữ cảnh với một Nhà kho, nó bao gồm hàng hóa được lưu trữ trong Địa điểm Kho của Nhà kho này, hoặc bất kỳ địa điểm con nào của nó.\n"
+"Trong ngữ cảnh với một Địa điểm Kho, nó bao gồm hàng hoá được lưu trữ tại địa điểm này, hoặc bất kỳ địa điểm con nào của nó.\n"
+"Trong ngữ cảnh với một Nhà kho, nó bao gồm hàng hoá được lưu trữ trong Địa điểm Kho của Nhà kho này, hoặc bất kỳ địa điểm con nào của nó.\n"
 "được lưu trữ trong Địa điểm Kho của Nhà kho của Của hàng này, hoặc bất kỳ địa điểm con nào của nó.\n"
-"Nếu không, nó bao gồm hàng hóa được lưu trữ trong bất kỳ Địa điểm Kho nào có kiểu là 'Nội bộ'."
+"Nếu không, nó bao gồm hàng hoá được lưu trữ trong bất kỳ Địa điểm Kho nào có kiểu là 'Nội bộ'."
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:103
@@ -2422,7 +2422,7 @@ msgstr "Quy tắc Push Toàn cục"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_default_resupply_wh_id
 msgid "Goods will always be resupplied from this warehouse"
-msgstr "Hàng hóa luôn được tái cung cấp từ kho này"
+msgstr "Hàng hoá luôn được tái cung cấp từ kho này"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_stock_level_forecast_filter
@@ -2802,7 +2802,7 @@ msgid ""
 "                        Odoo will automatically propose a procurement to buy new products if you are\n"
 "                        running out of stock."
 msgstr ""
-"Trong Odoo, <strong>Các quy tắc Tái cung ứng</strong> được sử dụng để bổ sung hàng hóa.\n"
+"Trong Odoo, <strong>Các quy tắc Tái cung ứng</strong> được sử dụng để bổ sung hàng hoá.\n"
 "                        Odoo sẽ tự động để xuất một Yêu cầu cung ứng để mua thêm khi hàng trong kho của bạn hết\n"
 "                        hoặc xuống dưới mức tối thiểu."
 
@@ -3192,7 +3192,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_move_type
 msgid "It specifies goods to be deliver partially or all at once"
-msgstr "Nó chỉ ra hàng hóa được giao nhiều lần hoặc một lần"
+msgstr "Nó chỉ ra hàng hoá được giao nhiều lần hoặc một lần"
 
 #. module: stock
 #: model:stock.inventory.line,product_name:stock.stock_inventory_line_13
@@ -4214,7 +4214,7 @@ msgid ""
 "Optional address where goods are to be delivered, specifically used for "
 "allotment"
 msgstr ""
-"Tùy chọn địa chỉ mà hàng hóa được giao đến, đặc biệt được sử dụng cho giao "
+"Tùy chọn địa chỉ mà hàng hoá được giao đến, đặc biệt được sử dụng cho giao "
 "hàng"
 
 #. module: stock
@@ -4606,7 +4606,7 @@ msgstr "Bảng kê hàng hoá"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Picking Lists"
-msgstr "Bảng kê hàng hóa"
+msgstr "Bảng kê hàng hoá"
 
 #. module: stock
 #: model:ir.actions.report.xml,name:stock.action_report_picking
@@ -6543,7 +6543,7 @@ msgid ""
 "destination location for goods you send to this partner"
 msgstr ""
 "Địa điểm kho này sẽ được sử dụng thay cho địa điểm mặc định, như là địa điểm"
-" đích của hàng hóa mà bạn gửi cho đối tác này"
+" đích của hàng hoá mà bạn gửi cho đối tác này"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_partner_property_stock_supplier
@@ -6552,7 +6552,7 @@ msgid ""
 "location for goods you receive from the current partner"
 msgstr ""
 "Địa điểm kho này sẽ được sử dụng, thay cho địa điểm kho mặc định, như là địa"
-" điểm nguồn của hàng hóa mà bạn nhận được từ đối tác hiện tại"
+" điểm nguồn của hàng hoá mà bạn nhận được từ đối tác hiện tại"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product_property_stock_production

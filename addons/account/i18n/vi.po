@@ -2781,7 +2781,7 @@ msgid ""
 "this journal or of the invoice related to this journal"
 msgstr ""
 "Đánh dấu nếu bạn muốn cho phép hủy bỏ bút toán liên quan đến sổ nhật ký này "
-"hoặc hóa đơn cho sổ nhật ký này"
+"hoặc hoá đơn cho sổ nhật ký này"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_price_include
@@ -3969,7 +3969,7 @@ msgid ""
 "Display this bank account on the footer of printed documents like invoices "
 "and sales orders."
 msgstr ""
-"Hiển thị tài khoản ngân hàng này trên phần dưới của tài liệu được in như hóa"
+"Hiển thị tài khoản ngân hàng này trên phần dưới của tài liệu được in như hoá"
 " đơn, hợp đồng bán hàng,..."
 
 #. module: account
@@ -4739,7 +4739,7 @@ msgstr "Nhóm theo"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_group_invoice_lines
 msgid "Group Invoice Lines"
-msgstr "Nhóm theo hạng mục trên hóa đơn"
+msgstr "Nhóm theo hạng mục trên hoá đơn"
 
 #. module: account
 #: selection:account.tax,amount_type:0
@@ -4914,7 +4914,7 @@ msgid ""
 "when generating them from invoices."
 msgstr ""
 "Nếu đánh dấu vào ô này, hệ thống sẽ thử nhóm các định khoản khi nó được tạo "
-"ra từ hóa đơn."
+"ra từ hoá đơn."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_module_account_sepa
@@ -4992,7 +4992,7 @@ msgid ""
 msgstr ""
 "Nếu bạn bỏ đối soát các giao dịch, bạn cũng phải xác nhận tất cả các hành "
 "động được liên kết đến các giao dịch này bởi vì chúng sẽ không bị vô hiệu "
-"hóa"
+"hoá"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_payment_term_id
@@ -5301,7 +5301,7 @@ msgstr "Chi tiết hoá đơn"
 #: model:ir.model.fields,field_description:account.field_account_invoice_invoice_line_ids
 #: model:ir.ui.view,arch_db:account.invoice_form
 msgid "Invoice Lines"
-msgstr "Chi tiết hóa đơn"
+msgstr "Chi tiết hoá đơn"
 
 #. module: account
 #: sql_constraint:account.invoice:0
@@ -5311,7 +5311,7 @@ msgstr "Số hoá đơn phải là duy nhất trên một công ty!"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_invoice_id
 msgid "Invoice Reference"
-msgstr "Tham chiếu Hóa đơn"
+msgstr "Tham chiếu hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_refund
@@ -5321,7 +5321,7 @@ msgstr "Hoàn tiền"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_state
 msgid "Invoice Status"
-msgstr "Tình trạng hóa đơn"
+msgstr "Tình trạng hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_tax
@@ -5411,7 +5411,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Invoiced"
-msgstr "Đã xuất hóa đơn"
+msgstr "Đã xuất hoá đơn"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_invoice_refund_out_tree
@@ -5445,7 +5445,7 @@ msgstr "Đối chiếu Hoá đơn & Thanh toán"
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_pivot
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Invoices Analysis"
-msgstr "Phân tích hóa đơn"
+msgstr "Phân tích hoá đơn"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_report
@@ -5466,7 +5466,7 @@ msgstr "Hoá đơn chờ Xác nhận"
 #. module: account
 #: model:ir.ui.view,arch_db:account.product_template_form_view
 msgid "Invoicing"
-msgstr "Xuất hóa đơn"
+msgstr "Kế toán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
@@ -9623,7 +9623,7 @@ msgid ""
 "and customer invoices"
 msgstr ""
 "Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên "
-"đơn hàng bán và hóa đơn khách hàng"
+"đơn hàng bán và hoá đơn khách hàng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_config_settings_default_purchase_tax_id
@@ -9688,7 +9688,7 @@ msgstr "Tiều đề 3 (bold, smaller)"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "To Invoice"
-msgstr "Chờ hóa đơn"
+msgstr "Chờ hoá đơn"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_tree
@@ -9750,7 +9750,7 @@ msgstr "Tổng nợ"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_total_invoiced
 msgid "Total Invoiced"
-msgstr "Tổng tiền hóa đơn đã xuất"
+msgstr "Tổng tiền hoá đơn đã xuất"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_debit
