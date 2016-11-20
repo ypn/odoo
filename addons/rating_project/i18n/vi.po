@@ -1,11 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * rating_project
-#
+# 
 # Translators:
+# Martin Trigaux <mat@odoo.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2015-09-08 07:43+0000\n"
@@ -60,48 +62,126 @@ msgstr ""
 
 #. module: rating_project
 #: model:mail.template,subject:rating_project.rating_project_request_email_template
-msgid "${object.res_name}"
+msgid "${object.project_id.company_id.name}: Service Rating Request"
 msgstr ""
 
 #. module: rating_project
-#: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_project
-#: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_task
-msgid "% Happy"
+#: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_form
+msgid "% On tasks"
 msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_auto_validation_kanban_state
-msgid "Auto Kanban state validation"
+msgid "Automatic kanban status"
 msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_auto_validation_kanban_state
 msgid ""
 "Automatically modify the kanban state when the customer reply to the feedback for this stage.\n"
-" * A great feedback from the customer will update the kanban state to 'ready for the new stage' (green bullet).\n"
+" * A good feedback from the customer will update the kanban state to 'ready for the new stage' (green bullet).\n"
 " * A medium or a bad feedback will set the kanban state to 'blocked' (red bullet).\n"
 msgstr ""
 
 #. module: rating_project
-#: model:ir.model.fields,field_description:rating_project.field_project_project_is_visible_happy_customer
-msgid "Customer Satisfaction"
+#: model:ir.actions.act_window,name:rating_project.rating_rating_action_project
+#: model:ir.actions.act_window,name:rating_project.rating_rating_action_task
+#: model:ir.ui.menu,name:rating_project.rating_rating_menu_project
+#: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
+msgid "Customer Ratings"
 msgstr ""
 
 #. module: rating_project
-#: model:ir.model.fields,help:rating_project.field_project_project_is_visible_happy_customer
+#: model:ir.actions.act_window,help:rating_project.rating_rating_action_task
 msgid ""
-"Display information about rating of the project on kanban and form view. "
-"This buttons will only be displayed if at least a rating exists."
+"Customer ratings on tasks. If you have no rating, change your project "
+"Settings to activate it."
+msgstr ""
+
+#. module: rating_project
+#: model:ir.actions.act_window,help:rating_project.rating_rating_action_project
+msgid ""
+"Customer ratings on tasks/issues. If you have no rating, change your project"
+" Settings to activate it."
+msgstr ""
+
+#. module: rating_project
+#: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status
+msgid "Customer(s) Ratings"
+msgstr ""
+
+#. module: rating_project
+#: selection:project.project,rating_status_period:0
+msgid "Daily"
 msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_form
-msgid "On tasks"
+msgid ""
+"Edit project's stages and set an email template\n"
+"                            on the stages on which you want to activate the rating."
+msgstr ""
+
+#. module: rating_project
+#: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_project
+msgid "Happy % on Project"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_task
+msgid "Happy % on Task"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.model.fields,help:rating_project.field_project_project_rating_status
+msgid ""
+"How to get the customer's feedbacks?\n"
+"- Rating when changing stage: Email will be sent when a task/issue is pulled in another stage\n"
+"- Periodical Rating: Email will be sent periodically\n"
+"\n"
+"Don't forget to set up the mail templates on the stages for which you want to get the customer's feedbacks."
+msgstr ""
+
+#. module: rating_project
+#: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
+msgid "Latest Rating: Higly Dissatisfied"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
+msgid "Latest Rating: Not Satisfied"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
+msgid "Latest Rating: Satisfied"
+msgstr ""
+
+#. module: rating_project
+#: selection:project.project,rating_status:0
+msgid "No rating"
 msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
-msgid "Percentage of happy people about this project"
+msgid "No rating yet"
+msgstr ""
+
+#. module: rating_project
+#: selection:project.project,rating_status_period:0
+msgid "Once a Month"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
+msgid ""
+"Percentage of happy ratings over the past 30 days. Get rating details from "
+"the More menu."
+msgstr ""
+
+#. module: rating_project
+#: selection:project.project,rating_status:0
+msgid "Periodical Rating"
 msgstr ""
 
 #. module: rating_project
@@ -110,13 +190,38 @@ msgid "Project"
 msgstr "Dự án"
 
 #. module: rating_project
-#: model:ir.model,name:rating_project.model_rating_rating
+#: selection:project.project,rating_status_period:0
+msgid "Quarterly"
+msgstr "Hàng Quý"
+
+#. module: rating_project
+#: model:ir.ui.view,arch_db:rating_project.project_task_view_form_inherit_rating
 msgid "Rating"
 msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_rating_template_id
 msgid "Rating Email Template"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status_period
+msgid "Rating Frequency"
+msgstr ""
+
+#. module: rating_project
+#: model:ir.model.fields,field_description:rating_project.field_project_project_rating_request_deadline
+msgid "Rating request deadline"
+msgstr ""
+
+#. module: rating_project
+#: selection:project.project,rating_status:0
+msgid "Rating when changing stage"
+msgstr ""
+
+#. module: rating_project
+#: model:mail.message.subtype,description:rating_project.mt_task_rating
+msgid "Ratings"
 msgstr ""
 
 #. module: rating_project
@@ -132,6 +237,27 @@ msgid "Task"
 msgstr "Nhiệm vụ"
 
 #. module: rating_project
+#: model:mail.message.subtype,name:rating_project.mt_project_task_rating
+#: model:mail.message.subtype,name:rating_project.mt_task_rating
+msgid "Task Rating"
+msgstr ""
+
+#. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task_type
 msgid "Task Stage"
-msgstr "Trạng thái của Nhiệm vụ"
+msgstr "Giai đoạn của Nhiệm vụ"
+
+#. module: rating_project
+#: selection:project.project,rating_status_period:0
+msgid "Twice a Month"
+msgstr "Hai lần một Tháng"
+
+#. module: rating_project
+#: selection:project.project,rating_status_period:0
+msgid "Weekly"
+msgstr "Hàng tuần"
+
+#. module: rating_project
+#: selection:project.project,rating_status_period:0
+msgid "Yearly"
+msgstr "Hàng năm"
