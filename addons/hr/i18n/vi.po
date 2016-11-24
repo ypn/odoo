@@ -458,7 +458,7 @@ msgstr "Tag nhân viên"
 #: code:addons/hr/models/hr.py:254
 #, python-format
 msgid "Error! You cannot create recursive departments."
-msgstr ""
+msgstr "Lỗi! Bạn không thể tạo các phòng/ban đệ quy lẫn nhau."
 
 #. module: hr
 #: code:addons/hr/models/hr.py:167
@@ -486,7 +486,7 @@ msgstr ""
 #. module: hr
 #: model:hr.job,name:hr.job_developer
 msgid "Experienced Developer"
-msgstr ""
+msgstr "Nhà phát triển có Kinh nghiệm"
 
 #. module: hr
 #: selection:hr.employee,gender:0
@@ -511,12 +511,12 @@ msgstr "Người theo dõi"
 #. module: hr
 #: model:ir.model,name:hr.model_gamification_badge
 msgid "Gamification badge"
-msgstr ""
+msgstr "Huy chương Gamification"
 
 #. module: hr
 #: model:ir.model,name:hr.model_gamification_challenge
 msgid "Gamification challenge"
-msgstr ""
+msgstr "Thử thách Gamification"
 
 #. module: hr
 #: model:ir.model,name:hr.model_gamification_badge
@@ -536,7 +536,7 @@ msgstr "Giới tính"
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Good knowledge of HTML and Javascript"
-msgstr ""
+msgstr "Có hiểu biết sâu sắc về HTML và Javascript"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -1566,27 +1566,27 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will report to the head of R&amp;D"
-msgstr ""
+msgstr "Bạn sẽ báo cáo cho trường bộ phận R&amp;D"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "You will work closely with all developers"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với tất cả các nhà phát triển"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
 msgid "You will work closely with all technical officer"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với các cán bộ kỹ thuật"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will work closely with all trainees"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với tất cả các thực tập sinh"
 
 #. module: hr
 #: model:mail.template,subject:hr.mail_template_data_unknown_employee_email_address
 msgid "Your document has not been created"
-msgstr ""
+msgstr "Tài liệu của bạn đã được tạo"
 
 #. module: hr
 #: model:mail.template,body_html:hr.mail_template_data_unknown_employee_email_address
@@ -1595,12 +1595,16 @@ msgid ""
 "recognized. Please send emails with the email address recorded on your "
 "employee information, or contact your HR manager."
 msgstr ""
+"Tài liệu của bạn vẫn chưa thể được tạo bởi vì địa chỉ email của bạn "
+"không được nhận diện bởi hệ thống. Vui lòng gửi email bằng địa chỉ "
+"được khai báo trên hồ sơ nhân viên của bạn, hoặc liên hệ với người "
+"quản lý Nhân sự."
 
 #. module: hr
 #: code:addons/hr/models/mail_thread.py:41
 #, python-format
 msgid "alias %s does not accept unknown employees"
-msgstr ""
+msgstr "bí danh %s không chấp thuận nhân viên không xác định"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_department_form

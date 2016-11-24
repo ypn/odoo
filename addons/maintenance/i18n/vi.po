@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 # * maintenance
 #
+# David Tran <david.tran@ma.tvtmarine.com>, 2016
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # trieu le <trieu.lth@gmail.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -68,12 +69,6 @@ msgstr ""
 "mặc định khi tạo mới các bản ghi cho bí danh này."
 
 #. module: maintenance
-#: model:maintenance.equipment,name:maintenance.equipment_computer3
-#: model:maintenance.equipment,name:maintenance.equipment_computer5
-msgid "Acer Laptop"
-msgstr "Laptop Acer"
-
-#. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_active
 msgid "Active"
 msgstr "Hiệu lực"
@@ -86,7 +81,7 @@ msgstr "Bí danh"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_contact
 msgid "Alias Contact Security"
-msgstr "An ninh về Bí danh Liên hệ"
+msgstr "An ninh về Bí danh liên hệ"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_name
@@ -121,7 +116,7 @@ msgstr "Lưu trữ"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "Archived"
-msgstr "Đã lưu "
+msgstr "Vô hiệu"
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_equipment_category
@@ -167,7 +162,7 @@ msgstr "Hủy"
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Category"
-msgstr "Nhóm ĐV"
+msgstr "Nhóm"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_name
@@ -232,11 +227,6 @@ msgid "Comments"
 msgstr "Bình luận"
 
 #. module: maintenance
-#: model:maintenance.equipment.category,name:maintenance.equipment_computer
-msgid "Computers"
-msgstr "Máy vi tính"
-
-#. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_configuration
 msgid "Configuration"
 msgstr "Cấu hình"
@@ -249,7 +239,7 @@ msgstr "Hiệu chỉnh"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_cost
 msgid "Cost"
-msgstr "Giá vốn"
+msgstr "Chi phí"
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -298,7 +288,7 @@ msgstr "Số ngày giữa hai lần bảo trì phòng ngừa"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_defaults
 msgid "Default Values"
-msgstr "Giá trị Mặc định"
+msgstr "Giá trị mặc định"
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
@@ -379,7 +369,7 @@ msgid "Equipment Categories"
 msgstr "Nhóm Thiết bị"
 
 #. module: maintenance
-#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_id_2144
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_id_2778
 msgid "Equipment Category"
 msgstr "Nhóm Thiết bị"
 
@@ -430,17 +420,6 @@ msgid "Group by..."
 msgstr "Nhóm theo..."
 
 #. module: maintenance
-#: model:maintenance.equipment,name:maintenance.equipment_printer1
-msgid "HP Inkjet printer"
-msgstr "Máy in HP Inkjet"
-
-#. module: maintenance
-#: model:maintenance.equipment,name:maintenance.equipment_computer11
-#: model:maintenance.equipment,name:maintenance.equipment_computer9
-msgid "HP Laptop"
-msgstr "Laptop HP"
-
-#. module: maintenance
 #: selection:maintenance.request,priority:0
 msgid "High"
 msgstr "Cao"
@@ -460,6 +439,8 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+"ID của bản ghi cha mà chứa bí danh (ví dụ: dự án chứa bí danh để tạo nhiệm "
+"vụ)"
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -467,7 +448,7 @@ msgstr ""
 #: selection:maintenance.request,kanban_state:0
 #: model:maintenance.stage,name:maintenance.stage_1
 msgid "In Progress"
-msgstr "Đang xử lý"
+msgstr "Đang Thực hiện"
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -630,12 +611,7 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_model
 msgid "Model"
-msgstr "Mô hình"
-
-#. module: maintenance
-#: model:maintenance.equipment.category,name:maintenance.equipment_monitor
-msgid "Monitors"
-msgstr "Màn hình"
+msgstr "Model"
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
@@ -694,7 +670,7 @@ msgstr ""
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_reports_oee
 msgid "Overall Equipment Effectiveness (OEE)"
-msgstr "Tổng mức Hiệu quả Thiết bị (OEE)"
+msgstr "Hiệu suất Thiết bị Toàn phần (OEE)"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_user_id
@@ -723,11 +699,6 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-
-#. module: maintenance
-#: model:maintenance.equipment.category,name:maintenance.equipment_phone
-msgid "Phones"
-msgstr "Điện thoại"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_contact
@@ -759,14 +730,9 @@ msgid "Preventive Maintenance Frequency"
 msgstr "Tần suất Bảo trì Phòng ngừa"
 
 #. module: maintenance
-#: model:maintenance.equipment.category,name:maintenance.equipment_printer
-msgid "Printers"
-msgstr "Máy in"
-
-#. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_priority
 msgid "Priority"
-msgstr "Mức độ ưu tiên"
+msgstr "Mức ưu tiên"
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
@@ -836,13 +802,6 @@ msgid "Responsible"
 msgstr "Người phụ trách"
 
 #. module: maintenance
-#: model:maintenance.equipment,name:maintenance.equipment_monitor1
-#: model:maintenance.equipment,name:maintenance.equipment_monitor4
-#: model:maintenance.equipment,name:maintenance.equipment_monitor6
-msgid "Samsung Monitor 15\""
-msgstr "Màn hình Samsung 15\""
-
-#. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Scheduled"
 msgstr "Đã ấn định"
@@ -888,11 +847,6 @@ msgstr "Thiết lập thành lưu trữ để ẩn đề nghị bảo trì mà k
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Settings"
 msgstr "Thiết lập"
-
-#. module: maintenance
-#: model:maintenance.equipment.category,name:maintenance.equipment_software
-msgid "Software"
-msgstr "Phần mềm"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_stage_id
