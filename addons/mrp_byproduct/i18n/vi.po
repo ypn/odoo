@@ -25,7 +25,7 @@ msgstr ""
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_bom
 msgid "Bill of Material"
-msgstr "Định mức nguyên liệu"
+msgstr "Định mức Nguyên liệu"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_bom_id
@@ -56,14 +56,7 @@ msgstr "Được tạo bởi"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_create_date
 msgid "Created on"
-msgstr ""
-"Được tạo vàoXác định cách thức mà số lượng phụ phẩm sẽ được thiết lập ở lệnh"
-" sản xuất sử dụng BoM. 'Có định' mô tả một tình huống mà số lượng phụ phẩm "
-"tạo ra bằng số lượng được thiết lập ở BoM, mà không quan tâm thực tế được "
-"tạo ra bao nhiêu trong quá trình sản xuất. Ngược lại, 'Biến thiên' có nghĩa "
-"là số lượng sẽ được tính toán bằng '(số lương phụ phẩm thiết lập ở BoM / số "
-"lượng thành phẩm thiết lập ở BoM * số lượng thành phẩm được sản xuất thực "
-"tế)'"
+msgstr "Được tạo vào"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_display_name
@@ -98,7 +91,7 @@ msgstr "Cập nhật lần cuối"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_operation_id
 msgid "Produced at Operation"
-msgstr ""
+msgstr "Được tạo ra từ Hoạt động"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_id
@@ -118,12 +111,12 @@ msgstr "Đơn vị đo lường sản phẩm"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_stock_move_subproduct_id
 msgid "Subproduct"
-msgstr ""
+msgstr "Phụ phẩm"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,help:mrp_byproduct.field_stock_move_subproduct_id
 msgid "Subproduct line that generated the move in a manufacturing order"
-msgstr "Kiểu Số lượng"
+msgstr "Dòng phụ phẩm mà đã sinh ra biến đổi/dịch chuyển trong một lệnh sản xuất"
 
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/models/mrp_subproduct.py:32
@@ -136,12 +129,13 @@ msgstr ""
 "sản phẩm."
 
 #. module: mrp_byproduct
-#: selection:mrp.subproduct,subproduct_type:0
-msgid "Variable"
-msgstr "Biến thiên"
+#: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_uom_id
+msgid "Unit of Measure"
+msgstr "Đơn vị Đo lường"
 
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/models/mrp_subproduct.py:31
 #, python-format
 msgid "Warning"
 msgstr "Cảnh báo"
+
