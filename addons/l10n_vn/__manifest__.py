@@ -21,8 +21,6 @@ with Chart of account under Circular No. 200/2014/TT-BTC
 """,
     "depends": [
         "account",
-        "base_vat",
-        "base_iban"
     ],
     "data": [
          'data/l10n_vn_chart_data.xml',
