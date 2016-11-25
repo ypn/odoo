@@ -236,6 +236,7 @@ msgstr "Tháng kết thúc"
 msgid ""
 "Example of purchase agreements include call for tenders and blanket orders."
 msgstr ""
+"Một số ví dụ về thoả ước mua hàng chính là các hồ sơ mời thầu hoặc các đơn hàng theo lô (blanket orders)"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
@@ -244,6 +245,9 @@ msgid ""
 "            (e.g. a year) and you order products within this agreement, benefiting\n"
 "            from the negociated prices."
 msgstr ""
+"Đối với một đơn hàng theo lô (blanket order), bạn có thể ghi nhận một thoả ước cho một\n"
+"            chu kỳ cụ thể (vd: 1 năm) và bạn đặt hàng theo khuôn khổ thoả ước này, để\n"
+"            hưởng lợi từ chính sách giá đã đàm phán."
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -265,6 +269,10 @@ msgid ""
 "            been registered, you can review and compare them and you can\n"
 "            validate some and cancel others."
 msgstr ""
+"Trong các hồ sơ mời thầu, bạn có thể ghi nhận các sản phẩm bạn cần mua\n"
+"            và tạo ra các RFQ gửi đến các nhà cung cấp. Một khi bản chào thầu đã được\n"
+"            đăng ký, bạn có thể xem xét và so sách chúng cũng như có thể xác nhận\n"
+"            một vài hạng mục và huỷ bỏ/từ chối các hạng mục còn lại."
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -320,7 +328,7 @@ msgstr "Báo giá Mới"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_order_count
 msgid "Number of Orders"
-msgstr ""
+msgstr "Số lượng Đơn hàng"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_qty_ordered
