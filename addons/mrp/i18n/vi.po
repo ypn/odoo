@@ -61,6 +61,18 @@ msgid "# Work Orders"
 msgstr "SL Hoạt động Sản xuất"
 
 #. module: mrp
+#: model:product.product,description:mrp.product_product_computer_desk_leg
+#: model:product.template,description:mrp.product_product_computer_desk_leg_product_template
+msgid "18″ x 2½″ Square Leg"
+msgstr ""
+
+#. module: mrp
+#: model:product.product,description:mrp.product_product_laptop_charger
+#: model:product.template,description:mrp.product_product_laptop_charger_product_template
+msgid "19v,5.5 x 2.5 mm Pin Type Adapter (Power Cord Included)"
+msgstr ""
+
+#. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:266
 #, python-format
 msgid ""
@@ -319,6 +331,12 @@ msgid "Archived"
 msgstr "Đã lưu "
 
 #. module: mrp
+#: model:product.product,name:mrp.product_assembly
+#: model:product.template,name:mrp.product_assembly_product_template
+msgid "Assembly Service Cost"
+msgstr ""
+
+#. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:258
 #, python-format
 msgid "Attachments"
@@ -520,6 +538,12 @@ msgstr ""
 "BoM (sản phẩm tạo ra theo BoM)"
 
 #. module: mrp
+#: model:product.product,name:mrp.product_product_computer_desk_bolt
+#: model:product.template,name:mrp.product_product_computer_desk_bolt_product_template
+msgid "Bolt"
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_module_mrp_byproduct
 msgid "By-Products"
 msgstr "Phụ phẩm"
@@ -527,7 +551,7 @@ msgstr "Phụ phẩm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product_can_be_expensed
 msgid "Can be Expensed"
-msgstr "Có thể là Chi tiêu"
+msgstr "Có thể là Chi tiêu/Chi phí"
 
 #. module: mrp
 #: code:addons/mrp/models/stock_warehouse.py:36
@@ -679,6 +703,12 @@ msgid "Compute based on real time"
 msgstr "Tính toán dựa trên thời gian thực"
 
 #. module: mrp
+#: model:product.product,name:mrp.product_product_computer_desk
+#: model:product.template,name:mrp.product_product_computer_desk_product_template
+msgid "Computer Desk"
+msgstr ""
+
+#. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_configuration
 msgid "Configuration"
 msgstr "Cấu hình"
@@ -757,25 +787,39 @@ msgstr "Tạo Hoạt động Sản xuất"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_create_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_create_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_create_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_create_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_create_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_create_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder_create_uid
+#: model:ir.model.fields,field_description:mrp.field_stock_move_lots_create_uid
 msgid "Created by"
 msgstr "Được tạo bởi"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_create_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_create_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_create_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_create_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_create_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_create_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder_create_date
+#: model:ir.model.fields,field_description:mrp.field_stock_move_lots_create_date
 msgid "Created on"
 msgstr "Được tạo vào"
 
@@ -1080,6 +1124,12 @@ msgid "Group by..."
 msgstr "Nhóm theo..."
 
 #. module: mrp
+#: model:product.product,name:mrp.product_product_19
+#: model:product.template,name:mrp.product_product_19_product_template
+msgid "HDD on Demand"
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_has_attachments
 msgid "Has Attachments"
 msgstr "Có Đính kèm"
@@ -1096,15 +1146,22 @@ msgstr "Cao"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_id
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_id
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_id
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_id
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_id
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_id
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder_id
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_bom_cost_id
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_report_mrpbomstructure_id
+#: model:ir.model.fields,field_description:mrp.field_stock_move_lots_id
 msgid "ID"
 msgstr ""
 
@@ -1241,6 +1298,26 @@ msgstr ""
 "nguyên liệu thô/thành phần, thay cho thành phẩm."
 
 #. module: mrp
+#: model:product.product,name:mrp.product_product_laptop_charger
+#: model:product.template,name:mrp.product_product_laptop_charger_product_template
+#: model:stock.inventory.line,product_name:mrp.stock_inventory_line_product_laptop_charger
+msgid "Laptop Charger"
+msgstr ""
+
+#. module: mrp
+#: model:stock.inventory.line,product_name:mrp.stock_inventory_product_27_lot0
+#: model:stock.inventory.line,product_name:mrp.stock_inventory_product_27_lot1
+msgid "Laptop Customized"
+msgstr ""
+
+#. module: mrp
+#: model:product.product,name:mrp.product_product_laptop_keypad
+#: model:product.template,name:mrp.product_product_laptop_keypad_product_template
+#: model:stock.inventory.line,product_name:mrp.stock_inventory_line_product_laptop_keypad
+msgid "Laptop Keypad"
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty___last_update
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom___last_update
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line___last_update
@@ -1259,29 +1336,43 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_report_mrpbomstructure___last_update
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots___last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối"
+msgstr "Sửa lần cuối vào"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_write_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_write_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_write_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_write_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_write_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_write_uid
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_write_uid
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder_write_uid
+#: model:ir.model.fields,field_description:mrp.field_stock_move_lots_write_uid
 msgid "Last Updated by"
 msgstr "Cập nhật lần cuối bởi"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_write_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_write_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_write_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_write_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_write_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_write_date
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_write_date
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder_write_date
+#: model:ir.model.fields,field_description:mrp.field_stock_move_lots_write_date
 msgid "Last Updated on"
 msgstr "Cập nhật lần cuối"
 
@@ -1323,7 +1414,7 @@ msgid "Logistics"
 msgstr ""
 
 #. module: mrp
-#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_id_9849
+#: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_id_7318
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 msgid "Loss Reason"
 msgstr ""
@@ -1380,7 +1471,7 @@ msgstr "Quản lý các điểm kiểm soát chất lượng, kiểm tra và đo
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_manager
 msgid "Manager"
-msgstr "Quản trị dự án"
+msgstr "Quản lý"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_time_cycle_manual
@@ -1599,6 +1690,12 @@ msgid "New"
 msgstr "Mới"
 
 #. module: mrp
+#: model:product.product,description:mrp.product_product_laptop_keypad
+#: model:product.template,description:mrp.product_product_laptop_keypad_product_template
+msgid "New Original Laptop Keyboard Part No 9GT99"
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_batch
 msgid "Next Operation"
 msgstr "Hoạt động Tiếp theo"
@@ -1742,6 +1839,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_oee
 msgid "Oee"
+msgstr ""
+
+#. module: mrp
+#: model:product.product,description:mrp.product_product_19
+#: model:product.template,description:mrp.product_product_19_product_template
+msgid "On demand hard-disk having capacity based on requirement."
 msgstr ""
 
 #. module: mrp
@@ -1910,7 +2013,7 @@ msgstr "Quản lý bảo trì Khắc phục và Phòng ngừa"
 #: model:ir.model.fields,field_description:mrp.field_ir_attachment_priority
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_priority
 msgid "Priority"
-msgstr "Mức ưu tiên"
+msgstr "Mức độ ưu tiên"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_order
@@ -1970,21 +2073,21 @@ msgstr "Sản phẩm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_product_qty
 msgid "Product Quantity"
-msgstr "Số lượng Sản phẩm"
+msgstr "Số lượng sản phẩm"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_product_template
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_product_tmpl_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_product_tmpl_id
 msgid "Product Template"
-msgstr "Mẫu sản phẩm"
+msgstr "Mẫu Sản phẩm"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_product_uom_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_product_uom_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_product_uom_id
 msgid "Product Unit of Measure"
-msgstr "Đơn vị tính của sản phẩm"
+msgstr "Đơn vị Đo lường SP"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_product_id
@@ -1994,7 +2097,7 @@ msgstr "Biến thể Sản phẩm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_group_product_variant
 msgid "Product Variants"
-msgstr "Biến thể sản phẩm"
+msgstr "Biến thể Sản phẩm"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_consume_line_ids
@@ -2272,9 +2375,7 @@ msgstr "Nhu cầu Cung ứng Liên quan"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr ""
-"Người dung liên quan sử dụng nguồn lực để quản lý quyền truy cập đến nguồn "
-"lực."
+msgstr "Người dùng liên quan đến nguồn lực để quản lý sự truy cập"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_reporting
@@ -2467,6 +2568,18 @@ msgid "Select"
 msgstr "Chọn"
 
 #. module: mrp
+#: model:product.product,name:mrp.product_product_build_kit
+#: model:product.template,name:mrp.product_product_build_kit_product_template
+msgid "Self Build Kit"
+msgstr ""
+
+#. module: mrp
+#: model:product.product,description:mrp.product_product_build_kit
+#: model:product.template,description:mrp.product_product_build_kit_product_template
+msgid "Self Build kit."
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_sequence
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_sequence
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_sequence
@@ -2499,6 +2612,18 @@ msgid "Should have a lot for the finished product"
 msgstr ""
 
 #. module: mrp
+#: model:product.product,description:mrp.product_product_computer_desk
+#: model:product.template,description:mrp.product_product_computer_desk_product_template
+msgid "Solid wood computer desk."
+msgstr ""
+
+#. module: mrp
+#: model:product.product,description:mrp.product_product_computer_desk_head
+#: model:product.template,description:mrp.product_product_computer_desk_head_product_template
+msgid "Solid wood is a durable natural material."
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_origin
 msgid "Source"
 msgstr "Nguồn"
@@ -2509,6 +2634,12 @@ msgid "Specify whether the product can be selected in an HR expense."
 msgstr ""
 "Cho phép sản phẩm có thể được chọn khi kê khai chi tiêu nhân sự (ở phân hệ "
 "HR Expense)"
+
+#. module: mrp
+#: model:product.product,description:mrp.product_product_computer_desk_bolt
+#: model:product.template,description:mrp.product_product_computer_desk_bolt_product_template
+msgid "Stainless steel screw full (dia - 5mm, Length - 10mm)"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_start
@@ -2525,7 +2656,7 @@ msgstr "Bắt đầu Làm việc"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_state
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_production_state
 msgid "State"
-msgstr "Trạng thái"
+msgstr "Bang / Tỉnh thành TƯ"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_state
@@ -2562,6 +2693,18 @@ msgstr ""
 #: model:ir.model,name:mrp.model_mrp_workcenter_productivity_loss
 msgid "TPM Big Losses"
 msgstr ""
+
+#. module: mrp
+#: model:product.product,name:mrp.product_product_computer_desk_head
+#: model:product.template,name:mrp.product_product_computer_desk_head_product_template
+msgid "Table Head"
+msgstr "Mặt Bàn"
+
+#. module: mrp
+#: model:product.product,name:mrp.product_product_computer_desk_leg
+#: model:product.template,name:mrp.product_product_computer_desk_leg_product_template
+msgid "Table Leg"
+msgstr "Chân Bàn"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move_is_done
@@ -2895,7 +3038,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_product_uom_id
 #: model:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 msgid "Unit of Measure"
-msgstr "Đơn vị Đo lường"
+msgstr "Đơn vị đo lường"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_product_uom_id
@@ -2908,7 +3051,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unreserve"
-msgstr "Thôi xí"
+msgstr "Thôi Xí"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
