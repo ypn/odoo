@@ -102,7 +102,7 @@ class Project(models.Model):
     @api.model
     def _get_alias_models(self):
         """ Overriden in project_issue to offer more options """
-        return [('project.task', "Tasks")]
+        return [('project.task', _("Tasks"))]
 
     @api.multi
     def attachment_tree_view(self):

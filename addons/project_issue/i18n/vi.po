@@ -47,11 +47,6 @@ msgstr "%s (bản sao)"
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
-msgid "<b>Category:</b>"
-msgstr "<b>Nhóm:</b>"
-
-#. module: project_issue
-#: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "<b>Project:</b>"
 msgstr "<b>Dự án:</b>"
 
@@ -86,6 +81,13 @@ msgid ""
 "\n"
 "                                           * Ready for next stage indicates the issue is ready to be pulled to the next stage"
 msgstr ""
+"Một trạng thái kanban của Phát sinh chỉ báo các tình huống đặc biết ảnh hưởng đến nó:\n"
+"\n"
+"                                           * Bình thường là tình huống mặc định\n"
+"\n"
+"                                           * Bị phong toả chỉ báo điều gì đó đang cản trở tiến trình của Phát sinh\n"
+"\n"
+"                                           * Sẵn sàng cho giai đoạn kế tiếp để được kéo sang giai đoạn kế tiếp"
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_account_analytic_account
@@ -100,7 +102,7 @@ msgstr "Đã lưu "
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_open
 msgid "Assigned"
-msgstr "Đã phân công"
+msgstr "Đã giao"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_user_id
@@ -113,7 +115,7 @@ msgstr "Phân công cho"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_delay_close
 msgid "Avg. Delay to Close"
-msgstr "Độ trễ TBình đến khi Đóng"
+msgstr "Độ trễ trung bình đến khi Đóng"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_delay_open
@@ -145,7 +147,7 @@ msgstr "Bị phong tỏa"
 #: model:project.issue,legend_done:project_issue.crm_case_patcheserrorinprogram0
 #: model:project.issue,legend_done:project_issue.crm_case_programnotgivingproperoutput0
 msgid "Buzz or set as done"
-msgstr ""
+msgstr "Buzz hoặc đặt về hoàn thành"
 
 #. module: project_issue
 #: model:ir.filters,name:project_issue.filter_issue_report_responsible
@@ -161,7 +163,9 @@ msgstr "Kênh"
 #: model:ir.model.fields,help:project_issue.field_account_analytic_account_use_issues
 #: model:ir.model.fields,help:project_issue.field_project_project_use_issues
 msgid "Check this box to manage customer activities through this project"
-msgstr "Đánh dấu kiểm hộp này để quản lý các hoạt động khách hàng thông qua dự án này"
+msgstr ""
+"Đánh dấu kiểm hộp này để quản lý các hoạt động khách hàng thông qua dự án "
+"này"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_closed
@@ -270,7 +274,7 @@ msgstr "Số ngày đến lúc Phân công"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_day_close
 msgid "Days to Close"
-msgstr "Số ngày đến lúc Đóng"
+msgstr "Số Ngày đến lúc đóng"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_deadline
@@ -285,7 +289,7 @@ msgstr "Chậm trễ"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "Delete"
-msgstr "Xóa"
+msgstr "Xoá"
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_form_view
@@ -383,7 +387,7 @@ msgstr "Phát sinh"
 #: model:mail.message.subtype,name:project_issue.mt_issue_blocked
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_blocked
 msgid "Issue Blocked"
-msgstr "Phát sinh bị phong tỏa"
+msgstr "Phát sinh bị Phong tỏa"
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_new
@@ -395,12 +399,12 @@ msgstr "Phát sinh được Mở"
 #: model:mail.message.subtype,name:project_issue.mt_issue_ready
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_ready
 msgid "Issue Ready"
-msgstr ""
+msgstr "Phát sinh đã Sẵn sàng"
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_stage
 msgid "Issue Stage Changed"
-msgstr "Giai đoạn phát sinh được thay đổi"
+msgstr "Giai đoạn Phát sinh đã Thay đổi"
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_form_view
@@ -425,7 +429,7 @@ msgstr "Phát sinh bị phong tỏa"
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_new
 msgid "Issue opened"
-msgstr ""
+msgstr "Phát sinh được mở"
 
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_ready
@@ -433,6 +437,7 @@ msgid "Issue ready for next stage"
 msgstr "Sẵn sàng cho giai đoạn tiếp theo"
 
 #. module: project_issue
+#: code:addons/project_issue/models/project_project.py:19
 #: model:ir.actions.act_window,name:project_issue.act_project_project_2_project_issue_all
 #: model:ir.actions.act_window,name:project_issue.action_view_issues
 #: model:ir.actions.act_window,name:project_issue.project_issue_categ_act0
@@ -444,6 +449,7 @@ msgstr "Sẵn sàng cho giai đoạn tiếp theo"
 #: model:ir.ui.view,arch_db:project_issue.res_partner_issues_button_view
 #: model:ir.ui.view,arch_db:project_issue.view_project_form_inherited
 #: model:ir.ui.view,arch_db:project_issue.view_project_kanban_inherited
+#, python-format
 msgid "Issues"
 msgstr "Phát sinh"
 
@@ -452,7 +458,7 @@ msgstr "Phát sinh"
 #: model:ir.actions.act_window,name:project_issue.action_project_issue_report_filtered
 #: model:ir.ui.menu,name:project_issue.menu_project_issue_report_tree
 msgid "Issues Analysis"
-msgstr "Phân tích phát sinh"
+msgstr "Phân tích Phát sinh"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_blocked
@@ -462,17 +468,17 @@ msgstr "Giải thích về Phong toả ở Kanban"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_normal
 msgid "Kanban Ongoing Explanation"
-msgstr ""
+msgstr "Giải thích về Phong toả ở Kanban"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_kanban_state
 msgid "Kanban State"
-msgstr "Giai đoạn Kanban"
+msgstr "Trạng thái Kanban"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_done
 msgid "Kanban Valid Explanation"
-msgstr ""
+msgstr "Giải thích về Hợp lệ ở Kanban"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_action_last
@@ -573,7 +579,7 @@ msgstr "Chưa thẩm định"
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_report_delay_close
 msgid "Number of Days to close the project issue"
-msgstr "Số ngày để đóng một phát sinh dự án"
+msgstr "Số ngày để đóng một phát sinh"
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_report_delay_open
@@ -586,8 +592,8 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ghi đè giá trị mặc định được hiển thị cho trạng thái phong toả trên menu "
-"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn đó."
+"Ghi đè giá trị mặc định được hiển thị cho trạng thái phong toả trên menu lựa"
+" chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn đó."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_done
@@ -596,7 +602,8 @@ msgid ""
 "selection, when the task or issue is in that stage."
 msgstr ""
 "Ghi đè giá trị mặc định được hiển thị cho trạng thái hoàn thành trên menu "
-"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn đó."
+"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn "
+"đó."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_normal
@@ -605,7 +612,8 @@ msgid ""
 "selection, when the task or issue is in that stage."
 msgstr ""
 "Ghi đè giá trị mặc định được hiển thị cho trạng thái bình thường trên menu "
-"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn đó."
+"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn "
+"đó."
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_res_partner
@@ -630,7 +638,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_filter
 msgid "Priority"
-msgstr "Mức ưu tiên"
+msgstr "Mức độ ưu tiên"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_description
@@ -665,11 +673,13 @@ msgid ""
 "Provides timesheet support for the issues/bugs management in project.\n"
 "-This installs the module project_issue_sheet."
 msgstr ""
+"Cung cấp khả năng hỗ trợ bảng chấm công đối với việc quản lý sự cố/phát sinh trong dự án.\n"
+"-Cái này sẽ cài phân hệ project_issue_sheet."
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_config_settings_module_rating_project_issue
 msgid "Rating on issue"
-msgstr ""
+msgstr "Xếp hạng các phát sinh"
 
 #. module: project_issue
 #: selection:project.issue,kanban_state:0
@@ -719,7 +729,7 @@ msgstr "Nhiệm vụ"
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_project_task_type
 msgid "Task Stage"
-msgstr "Trạng thái của Nhiệm vụ"
+msgstr "Giai đoạn của Nhiệm vụ"
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.act_project_project_2_project_issue_all
