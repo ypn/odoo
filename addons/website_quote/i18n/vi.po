@@ -76,6 +76,54 @@ msgid ""
 "    </table>\n"
 "</div>"
 msgstr ""
+"\n"
+"<div summary=\"o_mail_template\" style=\"padding:0px; width:600px; margin:0 auto; background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"        <tbody><tr>\n"
+"            <td valign=\"center\" width=\"200\" style=\"padding:0px 10px 5px 5px;font-size: 12px\">\n"
+"                <img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${user.company_id.name}\">\n"
+"            </td>\n"
+"        </tr></tbody>\n"
+"    </table>\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"        <tbody><tr>\n"
+"            <td valign=\"top\" style=\"width:600px; padding:0px 10px 5px 5px;\">\n"
+"                <div>\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0;margin:15px auto;padding:0\">\n"
+"                </div>\n"
+"            </td>\n"
+"        </tr></tbody>\n"
+"    </table>\n"
+"</div>\n"
+"<div style=\"padding:0px; width:600px; max-width:600px; margin:0 auto; background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px ;text-align:justify; margin:0 auto; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"        <tbody><tr>\n"
+"            <td style=\"padding:0px 10px 5px 5px;font-size: 14px;\">\n"
+"                <p>Dear ${object.partner_id.name},</p><br/>\n"
+"                <p>Đơn hàng <a href=\"/quote/${object.id}/${object.access_token}\">${object.name}</a> của bạn đã được xác nhận!</p><br/>\n"
+"                \n"
+"                % if object.partner_id.user_ids\n"
+"                <p>Bạn có thể xem các báo giá, đơn hàng, hoá đơn một cách trực tuyến bằng cách truy cập vào <a style=\"text-decoration:none; color: #875A7B;\" href=\"/my/home\">Portal Trực tuyến</a>.</p><br/>\n"
+"                % endif\n"
+"\n"
+"                <p>Nếu bạn có bất kỳ câu hỏi, đừng ngần ngại liên hệ với chúng tôi.</p><br/>\n"
+"                <p>Cám ơn bạn đã tin tưởng ${object.company_id.name or \"chúng tôi\"}!</p>\n"
+"            </td>\n"
+"        </tr><tr>\n"
+"            <td style=\"padding:0px 10px 5px 5px;font-size: 14px;\">\n"
+"                % if user.signature\n"
+"                <p style=\"font-size: 14px;\">${user.signature | safe}\n"
+"                </p>\n"
+"                % endif\n"
+"                <p style=\"font-size: 11px;\"><strong>Sent by\n"
+"                <a href=\"${user.company_id.website}\" style=\"text-decoration:none; color: #875A7B;\">\n"
+"                    <strong>${user.company_id.name}</strong>\n"
+"                </a> sử dụng <a href=\"https://www.erponline.vn\" style=\"text-decoration:none; color: #875A7B;\"><strong>Odoo ERPOnline</strong></a>\n"
+"                </strong></p>\n"
+"            </td>\n"
+"        </tr></tbody>\n"
+"    </table>\n"
+"</div>"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -124,22 +172,22 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<i class=\"fa fa-check\"/> Accept"
-msgstr ""
+msgstr "<i class=\"fa fa-check\"/> Chấp thuận"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<i class=\"fa fa-check\"/> Accept &amp; Pay"
-msgstr ""
+msgstr "<i class=\"fa fa-check\"/> Chấp thuận &amp; Thanh toán"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<i class=\"fa fa-check\"/> Accept Order"
-msgstr ""
+msgstr "<i class=\"fa fa-check\"/> Chấp thuận Đơn hàng"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<i class=\"fa fa-check\"/> Pay Now"
-msgstr ""
+msgstr "<i class=\"fa fa-check\"/> Thanh toán Ngay"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.chatter
@@ -149,7 +197,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<i class=\"fa fa-times\"/> Reject"
-msgstr ""
+msgstr "<i class=\"fa fa-times\"/> Bác bỏ"
 
 #. module: website_quote
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
@@ -176,6 +224,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Expired</span>"
 msgstr ""
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
+"Hết hạn</span>"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.quotations
@@ -183,6 +233,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
 msgstr ""
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
+"Bị Huỷ</span>"
 
 #. module: website_quote
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
