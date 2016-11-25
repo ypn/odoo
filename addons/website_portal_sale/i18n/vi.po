@@ -3,6 +3,7 @@
 # * website_portal_sale
 #
 # Translators:
+# David Tran <david.tran@ma.tvtmarine.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
 # Duy Pham <phamduy1812@gmail.com>, 2016
@@ -38,6 +39,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Done</span>"
 msgstr ""
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
+"Hoàn thành</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -45,6 +48,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Paid</span>"
 msgstr ""
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
+"Đã thanh toán</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations
@@ -52,6 +57,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Expired</span>"
 msgstr ""
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
+"Hết hạn</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -60,6 +67,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
 msgstr ""
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
+"Đã huỷ</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -67,6 +76,8 @@ msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
 msgstr ""
+"<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
+" fa-clock-o\"/> Đang đợi</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -74,6 +85,8 @@ msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Invoiced</span>"
 msgstr ""
+"<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
+"Đã xuất Hoá đơn</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -81,6 +94,8 @@ msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Waiting "
 "for Payment</span>"
 msgstr ""
+"<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Đang đợi "
+"Thanh toán</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -88,6 +103,8 @@ msgid ""
 "<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
 "fa-fw fa-check\"/> Paid</span>"
 msgstr ""
+"<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
+"fa-fw fa-check\"/> Đã Thanh toán</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -142,7 +159,7 @@ msgstr "<strong>Đơn giá</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Amount Due"
-msgstr ""
+msgstr "Giá trị Đến hạn"
 
 #. module: website_portal_sale
 #: code:addons/website_portal_sale/controllers/main.py:181
@@ -151,6 +168,8 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
+"Thay đổi Mã số thuế thì không được phép khi mà đã có hoá đơn được xuất cho "
+"tài khoản của bạn. Vui lòng liên hệ trực tiếp với chúng tôi để thực hiện việc này."
 
 #. module: website_portal_sale
 #: code:addons/website_portal_sale/controllers/main.py:184
@@ -159,11 +178,13 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
+"Thay đổi Tên của bạn thì không được phép khi mà đã có hoá đơn được xuất cho "
+"tài khoản của bạn. Vui lòng liên hệ trực tiếp với chúng tôi để thực hiện việc này."
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Due Date"
-msgstr "Ngày đến hạn"
+msgstr "Ngày đến Hạn"
 
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_account_invoice
@@ -183,7 +204,7 @@ msgstr "Ngày hoá đơn"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_menu_sale
 msgid "Invoices"
-msgstr "Các hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -193,7 +214,7 @@ msgstr "Đơn hàng của Tôi"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "My Quotes"
-msgstr "Tài khoản của Tôi"
+msgstr "Báo giá của Tôi"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -233,7 +254,7 @@ msgstr "Báo giá #"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_menu_sale
 msgid "Quotes"
-msgstr ""
+msgstr "Báo giá"
 
 #. module: website_portal_sale
 #: model:ir.model.fields,field_description:website_portal_sale.field_payment_transaction_sale_order_id
