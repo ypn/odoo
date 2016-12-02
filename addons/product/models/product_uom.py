@@ -61,7 +61,7 @@ class ProductUoM(models.Model):
             values['factor'] = factor_inv and (1.0 / factor_inv) or 0.0
         return super(ProductUoM, self).create(values)
     
-    @api.one
+    @api.multi
     def write(self, values):
         if 'factor_inv' in values:
             factor_inv = values.pop('factor_inv')
