@@ -579,11 +579,14 @@ msgid ""
 "leaves than the available ones for this type and will not take them into "
 "account for the \"Remaining Legal Leaves\" defined on the employee form."
 msgstr ""
+"Nếu bạn đánh dấu vào ô này, hệ thống sẽ cho phép người lao động nghỉ nhiều "
+"hơn số ngày nghỉ khả dụng đối với kiểu nghỉ này và sẽ không quan tâm đến số "
+"\"Ngày nghỉ Còn lại\" được thiết lập trên Hồ sơ Nhân viên"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Ivory"
-msgstr ""
+msgstr "Ngà"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays___last_update
@@ -1052,7 +1055,7 @@ msgstr "Số ngày nghỉ còn lại"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_remaining_leaves
 #: model:ir.ui.view,arch_db:hr_holidays.hr_holidays_leaves_assign_tree_view
 msgid "Remaining Legal Leaves"
-msgstr ""
+msgstr "Ngày nghỉ Còn lại"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_remaining_leaves_user_no_of_leaves
@@ -1174,7 +1177,7 @@ msgstr ""
 #. module: hr_holidays
 #: sql_constraint:hr.holidays:0
 msgid "The number of days must be greater than 0."
-msgstr ""
+msgstr "Số ngày phải lớn hơn 0"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:253
@@ -1350,7 +1353,7 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_holidays.py:244
 #, python-format
 msgid "You can not have 2 leaves that overlaps on same day!"
-msgstr ""
+msgstr "Bạn không thể có 2 lần nghỉ chồng chéo vào cùng ngày!"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:371
