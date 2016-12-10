@@ -1068,7 +1068,7 @@ msgstr "Địa điểm thành phẩm"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 msgid "Fully Productive"
-msgstr ""
+msgstr "Năng suất đầy đủ"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -1096,7 +1096,7 @@ msgstr "Chỉ ra thứ tự sắp xếp khi hiển thị danh sách nhiệm vụ
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_sequence
 msgid "Gives the sequence order when displaying a list of work centers."
-msgstr ""
+msgstr "Cung cấp trình tự sắp xếp khi hienr thị một danh sách các năng lực sản xuất."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_sequence
@@ -1127,7 +1127,7 @@ msgstr "Nhóm theo..."
 #: model:product.product,name:mrp.product_product_19
 #: model:product.template,name:mrp.product_product_19_product_template
 msgid "HDD on Demand"
-msgstr ""
+msgstr "HDD theo Nhu cầu"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_has_attachments
@@ -1137,7 +1137,7 @@ msgstr "Có Đính kèm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_has_moves
 msgid "Has moves"
-msgstr ""
+msgstr "Có Dịch chuyển"
 
 #. module: mrp
 #: selection:ir.attachment,priority:0
@@ -1225,14 +1225,14 @@ msgstr "Đang Thực hiện"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move_lots_lot_produced_qty
 msgid "Informative, not used in matching"
-msgstr ""
+msgstr "Mang tính chất thông tin, không dùng trong đối chiếu"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_bom
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_product
 msgid "Inventory Message"
-msgstr ""
+msgstr "Thông điệp Kho"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -1302,20 +1302,20 @@ msgstr ""
 #: model:product.template,name:mrp.product_product_laptop_charger_product_template
 #: model:stock.inventory.line,product_name:mrp.stock_inventory_line_product_laptop_charger
 msgid "Laptop Charger"
-msgstr ""
+msgstr "Xạc Laptop"
 
 #. module: mrp
 #: model:stock.inventory.line,product_name:mrp.stock_inventory_product_27_lot0
 #: model:stock.inventory.line,product_name:mrp.stock_inventory_product_27_lot1
 msgid "Laptop Customized"
-msgstr ""
+msgstr "Laptop Tuỳ biến"
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_laptop_keypad
 #: model:product.template,name:mrp.product_product_laptop_keypad_product_template
 #: model:stock.inventory.line,product_name:mrp.stock_inventory_line_product_laptop_keypad
 msgid "Laptop Keypad"
-msgstr ""
+msgstr "Bàn phím Laptop"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty___last_update
@@ -1417,7 +1417,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_id_7318
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 msgid "Loss Reason"
-msgstr ""
+msgstr "Lý do Mất năng suất"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_lot_id
@@ -1647,7 +1647,7 @@ msgstr "Dịch chuyển"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_lots_done_move
 msgid "Move Done"
-msgstr ""
+msgstr "Dịch chuyển Hoàn thành"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_move_raw_ids
@@ -1658,7 +1658,7 @@ msgstr "Dịch chuyển"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_move_lot_ids
 msgid "Moves to Track"
-msgstr ""
+msgstr "Dịch chuyển để Truy vết"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
@@ -1758,7 +1758,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_workcenter_productivity_report_blocked
 msgid "No productivity loss for this equipment."
-msgstr ""
+msgstr "Không có số liệu mất năng suất đối với thiết bị này"
 
 #. module: mrp
 #: selection:mrp.config.settings,module_quality_mrp:0
@@ -2018,17 +2018,17 @@ msgstr "Mức độ ưu tiên"
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_order
 msgid "Procurement"
-msgstr "Mua sắm"
+msgstr "Mua sắm/Cung ứng"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_procurement_group_id
 msgid "Procurement Group"
-msgstr "Nhóm Thu mua"
+msgstr "Nhóm Cung ứng"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "Quy tắc mua sắm"
+msgstr "Quy tắc Cung ứng"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_mrp_product_produce
@@ -2073,7 +2073,7 @@ msgstr "Sản phẩm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_product_qty
 msgid "Product Quantity"
-msgstr "Số lượng sản phẩm"
+msgstr "Số lượng Sản phẩm"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_product_template
@@ -2158,7 +2158,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_active
 msgid "Production Ready"
-msgstr ""
+msgstr "Sản xuất Sẵn sàng"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
