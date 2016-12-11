@@ -325,7 +325,7 @@ msgstr ""
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_margin_left
 msgid "Left Margin (mm)"
-msgstr ""
+msgstr "Lề trái (mm)"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -345,7 +345,7 @@ msgstr "Tên"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_orientation
 msgid "Orientation"
-msgstr ""
+msgstr "Hướng in"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_dpi
@@ -355,17 +355,17 @@ msgstr ""
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_page_height
 msgid "Page height (mm)"
-msgstr ""
+msgstr "Chiều cao Trang (mm)"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_page_width
 msgid "Page width (mm)"
-msgstr ""
+msgstr "Chiều rộng Trang (mm)"
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
 msgid "Page:"
-msgstr ""
+msgstr "Trang:"
 
 #. module: report
 #: model:ir.ui.menu,name:report.paper_format_menuitem
@@ -381,12 +381,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:report.field_ir_act_report_xml_paperformat_id
 #: model:ir.model.fields,field_description:report.field_res_company_paperformat_id
 msgid "Paper format"
-msgstr ""
+msgstr "Định trạng trang"
 
 #. module: report
 #: model:ir.model.fields,field_description:report.field_base_config_settings_paperformat_id
 msgid "Paper format *"
-msgstr ""
+msgstr "Định trạng trang *"
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.paperformat_view_form
@@ -397,12 +397,12 @@ msgstr ""
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_format
 msgid "Paper size"
-msgstr ""
+msgstr "Cỡ giấy"
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
 msgid "Phone:"
-msgstr "Điện thoại"
+msgstr "Điện thoại:"
 
 #. module: report
 #: selection:report.paperformat,orientation:0
@@ -456,7 +456,7 @@ msgstr "Báo cáo"
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_margin_right
 msgid "Right Margin (mm)"
-msgstr ""
+msgstr "Lề Phải (mm)"
 
 #. module: report
 #. openerp-web
@@ -473,7 +473,7 @@ msgstr ""
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
 msgid "TIN:"
-msgstr ""
+msgstr "MST:"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -507,7 +507,7 @@ msgstr ""
 #. module: report
 #: model:ir.model.fields,field_description:report.field_report_paperformat_margin_top
 msgid "Top Margin (mm)"
-msgstr ""
+msgstr "Lề Trên (mm)"
 
 #. module: report
 #. openerp-web
@@ -518,6 +518,12 @@ msgid ""
 "system. The report will be shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank\">\n"
 "wkhtmltopdf.org</a>"
 msgstr ""
+
+#. module: report
+#: code:addons/report/models/report.py:164
+#, python-format
+msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
+msgstr "Không tìm thấy Wkhtmltopdf trên hệ thống này. PDF không thể được tạo."
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
@@ -556,16 +562,15 @@ msgid "base.config.settings"
 msgstr ""
 
 #. module: report
-#: model:ir.model,name:report.model_ir_actions_report_xml
-msgid "ir.actions.report.xml"
+#. openerp-web
+#: code:addons/report/static/src/js/qwebactionmanager.js:96
+#, python-format
+msgid ""
+"Your installation of Wkhtmltopdf seems to be broken. The \n"
+"report will be shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank\">wkhtmltopdf.org</a>"
 msgstr ""
 
 #. module: report
 #: model:ir.model,name:report.model_ir_qweb_field_barcode
 msgid "ir.qweb.field.barcode"
-msgstr ""
-
-#. module: report
-#: model:ir.model,name:report.model_report_abstract_report
-msgid "report.abstract_report"
 msgstr ""
