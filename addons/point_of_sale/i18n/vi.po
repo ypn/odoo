@@ -29,7 +29,7 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_order.py:679
 #, python-format
 msgid " REFUND"
-msgstr ""
+msgstr " HOÀN TRẢ"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_nbr_lines
@@ -329,7 +329,7 @@ msgstr "Cho phép thu ngân in lại biên lai"
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_discount:0
 msgid "Allow discounts on order lines only"
-msgstr "Chỉ ho phép chiết khấu trên từng dòng"
+msgstr "Chỉ cho phép chiết khấu trên từng dòng"
 
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_discount:0
@@ -394,7 +394,7 @@ msgstr "Áp dụng chiết khấu"
 #: code:addons/point_of_sale/static/src/js/screens.js:1901
 #, python-format
 msgid "Are you sure that the customer wants to  pay"
-msgstr ""
+msgstr "Bạn có chắc rằng khách hàng muốn thanh toán"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_print_auto
@@ -476,13 +476,13 @@ msgstr "Mã vạch"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_sale_config_settings_form_pos
 msgid "Beverages"
-msgstr ""
+msgstr "Đồ uống"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.raisins_noir
 #: model:product.template,name:point_of_sale.raisins_noir_product_template
 msgid "Black Grapes"
-msgstr ""
+msgstr "Nho Đen"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.boni_orange
@@ -500,7 +500,7 @@ msgstr "Nút"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_iface_print_via_proxy
 msgid "Bypass browser printing and prints via the hardware proxy"
-msgstr ""
+msgstr "Bỏ qua in ấn trên trình duyệt và in thông qua hardware proxy"
 
 #. module: point_of_sale
 #. openerp-web
@@ -566,7 +566,7 @@ msgstr "Két tiền mặt"
 #: code:addons/point_of_sale/models/pos_session.py:121
 #, python-format
 msgid "Cash control can only be applied to cash journals."
-msgstr ""
+msgstr "Kiểm soát tiền mặt chỉ có thể được áp dụng với số nhật ký tiền mặt."
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_cashbox_line
@@ -603,7 +603,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:511
 #, python-format
 msgid "Change"
-msgstr "Thay đổi"
+msgstr "Tiền thừa"
 
 #. module: point_of_sale
 #. openerp-web
@@ -643,7 +643,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_product_template_available_in_pos
 msgid "Check if you want this product to appear in the Point of Sale"
-msgstr ""
+msgstr "Đánh dấu nếu bạn muốn sản phẩm này xuất hiện ở điểm bán lẻ (PoS)"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_cash_control
@@ -656,6 +656,8 @@ msgid ""
 "Check this box if this journal define a payment method that can be used in a"
 " point of sale."
 msgstr ""
+"Đánh dấu nếu sổ nhật ký này xác định một phương thức thanh toán mà có thể được "
+"sử dụng ở điểm bán lẻ (PoS)."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_by
@@ -663,6 +665,8 @@ msgid ""
 "Check this if you want to group the Journal Items by Product while closing a"
 " Session"
 msgstr ""
+"Đánh dấu nếu bạn muốn nhóm các Phát sinh Kế toán theo Sản phẩm khi đóng một"
+" Phiên"
 
 #. module: point_of_sale
 #. openerp-web
@@ -687,17 +691,17 @@ msgstr "Thành phố"
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.product_product_action
 msgid "Click to add a new product."
-msgstr ""
+msgstr "Bấm để thêm một sản phẩm mới."
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_account_journal_form
 msgid "Click to add a payment method."
-msgstr ""
+msgstr "Bấm để thêm một phương thức thanh toán."
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_config_kanban
 msgid "Click to create a new PoS config."
-msgstr ""
+msgstr "Bấm để tạo mới một cấu hình PoS."
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_pos_form
@@ -1392,7 +1396,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_pos_data_drinks
 msgid "Import common drinks data"
-msgstr ""
+msgstr "Nhập các đồ uống phổ thông"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_sale_config_settings_form_pos
@@ -2313,7 +2317,7 @@ msgstr "Nhóm Người dùng PoS"
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_restaurant:0
 msgid "Point of sale for shops"
-msgstr ""
+msgstr "Điểm bán lẻ cho Cửa hàng"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.product_pos_category_form_view
@@ -2387,7 +2391,7 @@ msgstr "Đơn Giá"
 #: code:addons/point_of_sale/models/barcode_rule.py:13
 #, python-format
 msgid "Priced Product"
-msgstr ""
+msgstr "Sản phẩm có Giá"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_pricelist_id
