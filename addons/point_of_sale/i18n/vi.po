@@ -1098,7 +1098,7 @@ msgstr "Hoàn thành"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:509
 #, python-format
 msgid "Due"
-msgstr "Đến hạn"
+msgstr "Phải trả"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.partner_product_9
@@ -3022,13 +3022,13 @@ msgstr "Số ĐT:"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:510
 #, python-format
 msgid "Tendered"
-msgstr ""
+msgstr "Khach đưa"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:254
 #, python-format
 msgid "The POS order must have lines when calling this method"
-msgstr ""
+msgstr "Đơn hàng PoS phải có các dòng (line) khi gọi phương thức này"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3038,6 +3038,9 @@ msgid ""
 "The Point of Sale could not find any product, client, employee\n"
 "                    or action associated with the scanned barcode."
 msgstr ""
+"Điểm bán lẻ (PoS) đã không thể tìm thấy bất kỳ sản phẩm, khách hàng\n"
+"                    nhân viên hay bất cứ hành động nào liên quan đến"
+"                    máy quét mã vạch."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:182
@@ -3052,6 +3055,8 @@ msgstr "Công ty ứng với phương thức thanh toán khác với công ty �
 msgid ""
 "The company of the sale journal is different than the one of point of sale"
 msgstr ""
+"Công ty tương ứng với sổ nhật ký bán hàng không khớp với công ty ứng với "
+"điểm bán lẻ"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:167
@@ -3059,6 +3064,7 @@ msgstr ""
 msgid ""
 "The company of the stock location is different than the one of point of sale"
 msgstr ""
+"Công ty ứng với địa điểm kho khác với công ty ứng với điểm bán lẻ"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:187
@@ -3074,6 +3080,8 @@ msgid ""
 "The displayed prices will always include all taxes, even if the taxes have "
 "been setup differently"
 msgstr ""
+"Giá hiển thị luôn luôn bao gồm tất cả các loại thuế, thâm chí các thuế được "
+"thiết lập khác nhau"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_proxy_ip
@@ -3088,19 +3096,20 @@ msgstr ""
 msgid ""
 "The invoice journal and the point of sale must belong to the same company"
 msgstr ""
+"Sổ nhật ký hoá đơn và điểm bán lẻ phải thuộc về cùng một công ty"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:93
 #: sql_constraint:pos.session:0
 #, python-format
 msgid "The name of this POS Session must be unique !"
-msgstr ""
+msgstr "Tên của Phiên PoS này phải là duy nhất!"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_partner_pos_order_count
 #: model:ir.model.fields,help:point_of_sale.field_res_users_pos_order_count
 msgid "The number of point of sale orders related to this customer"
-msgstr ""
+msgstr "Số đơn hàng PoS liên quan đến khách hàng này"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3139,7 +3148,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_iface_display_categ_images
 msgid "The product categories will be displayed with pictures."
-msgstr ""
+msgstr "Nhóm sản phẩm sẽ được hiển thị với các hình này."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_tip_product_id
@@ -3193,11 +3202,12 @@ msgstr ""
 msgid ""
 "The type of the journal for your payment method should be bank or cash "
 msgstr ""
+"Kiểu của sổ nhật ký cho phương thức thanh toán của bạn phải là ngân hàng hoặc tiền mặt"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session_cash_register_balance_end
 msgid "Theoretical Closing Balance"
-msgstr "Số dư đóng lý thuyết"
+msgstr "Số dư Đóng theo Lý thuyết"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3233,12 +3243,14 @@ msgid ""
 "There is no receivable account defined to make payment for the partner: "
 "\"%s\" (id:%d)."
 msgstr ""
+"Chưa có tài khoản phải thu được xác định để thực hiện thanh toán cho đối tác: "
+"\"%s\" (id:%d)."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:642
 #, python-format
 msgid "There is no receivable account defined to make payment."
-msgstr ""
+msgstr "Không có tài khoản phải thu được xác định để thực hiện thanh toán."
 
 #. module: point_of_sale
 #. openerp-web
@@ -3247,6 +3259,7 @@ msgstr ""
 msgid ""
 "There must be at least one product in your order before it can be validated"
 msgstr ""
+"Phải có ít nhất một sản phẩm trong đơn hàng trước khi có thể được thẩm định"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_account_cashbox_line_default_pos_id
@@ -3311,6 +3324,13 @@ msgid ""
 "\n"
 "- Kitchen Order Printing: allows you to print orders updates to kitchen or bar printers"
 msgstr ""
+"Module này bổ sung một vài tính năng đặc thù về nhà hàng cho Điểm bán lẻ: \n"
+"\n"
+"- In Bill: Cho phép bạn in Bill trước khi thanh toán \n"
+"\n"
+"- Tách Bill: Cho phép bạn tách một đơn hàng (một bàn) thành nhiều đơn hàng (nhiều bàn) - Tách bàn \n"
+"\n"
+"- In Lệnh Nhà bếp: cho phép bạn in các cập nhật đơn hàng đến máy in ở Nhà bếp hoặc Quầy Bar"
 
 #. module: point_of_sale
 #. openerp-web
