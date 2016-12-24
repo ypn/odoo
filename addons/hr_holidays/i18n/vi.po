@@ -479,7 +479,7 @@ msgstr "Người lao động"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_category_id
 msgid "Employee Tag"
-msgstr ""
+msgstr "Tag Nhân viên"
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_employee
@@ -506,7 +506,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_manager_id
 msgid "First Approval"
-msgstr ""
+msgstr "Duyệt Lần đầu"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_dept_date_from
@@ -548,12 +548,12 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_resource_calendar_uom_id
 msgid "Hours per Day"
-msgstr ""
+msgstr "Số giờ mỗi Ngày"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_department
 msgid "Hr Department"
-msgstr ""
+msgstr "Phòng HR"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_id
@@ -622,7 +622,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays
 msgid "Leave"
-msgstr ""
+msgstr "Nghỉ"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_resource_calendar_leaves
@@ -633,7 +633,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_holidays.open_employee_leaves
 #: model:ir.ui.menu,name:hr_holidays.menu_open_employee_leave
 msgid "Leave Details"
-msgstr ""
+msgstr "Chi tiết Nghỉ"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_leave_request_to_meeting
@@ -651,7 +651,7 @@ msgstr "Yêu cầu Nghỉ"
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.hr_holidays_action_request_from_department
 msgid "Leave Request to Approve"
-msgstr ""
+msgstr "Xin nghỉ Chờ duyệt"
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.hr_department_view_kanban
@@ -671,14 +671,14 @@ msgstr "Các yêu cầu Nghỉ"
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_status_tree
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_status_search
 msgid "Leave Type"
-msgstr "Loại nghỉ"
+msgstr "Kiểu nghỉ"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.open_view_holiday_status
 #: model:ir.ui.view,arch_db:hr_holidays.view_holidays_status_filter
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_status_search
 msgid "Leave Types"
-msgstr ""
+msgstr "Kiểu Nghỉ"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:445
@@ -690,13 +690,13 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_holidays.py:460
 #, python-format
 msgid "Leave request must be confirmed in order to approve it."
-msgstr ""
+msgstr "Xin nghỉ phải được xác nhận để có thể duyệt"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:519
 #, python-format
 msgid "Leave request must be confirmed or validated in order to refuse it."
-msgstr ""
+msgstr "Xin nghỉ phải ở trạng thái xác nhận hoặc thẩm định để thì mới có thể từ chối"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:432
@@ -716,7 +716,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department_leave_to_approve_count
 msgid "Leave to Approve"
-msgstr ""
+msgstr "Nghỉ chờ Duyệt"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_employee_holiday_request
@@ -732,7 +732,7 @@ msgstr "Ngày nghỉ"
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_open_department_leave_allocation_approve
 msgid "Leaves Allocation"
-msgstr ""
+msgstr "Cấp phát Nghỉ"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_status_leaves_taken
@@ -744,18 +744,18 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_leaves_analysis
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_leaves_analysis_filtered
 msgid "Leaves Analysis"
-msgstr ""
+msgstr "Phân tích Nghỉ"
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_employee_form_leave_inherit
 msgid "Leaves Left"
-msgstr ""
+msgstr "Nghỉ Còn lại"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.open_ask_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_open_ask_holidays_new
 msgid "Leaves Request"
-msgstr ""
+msgstr "Xin Nghỉ"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_summary_employee
@@ -1359,7 +1359,7 @@ msgstr "Bạn không thể có 2 lần nghỉ chồng chéo vào cùng ngày!"
 #: code:addons/hr_holidays/models/hr_holidays.py:371
 #, python-format
 msgid "You cannot delete a leave which is in %s state."
-msgstr ""
+msgstr "Bạn không thể xoá Nghỉ mà ở trong trạng thái %s."
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr.py:140
@@ -1379,7 +1379,7 @@ msgstr ""
 #: code:addons/hr_holidays/wizard/hr_holidays_summary_department.py:27
 #, python-format
 msgid "You have to select at least one Department. And try again."
-msgstr ""
+msgstr "Bạn phải chọn ít nhất một Phòng ban và thử lại."
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
