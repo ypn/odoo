@@ -464,7 +464,7 @@ msgstr "Lỗi! Bạn không thể tạo các phòng/ban đệ quy lẫn nhau."
 #: code:addons/hr/models/hr.py:167
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Employee(s)."
-msgstr ""
+msgstr "Lỗi! Bạn không thể tạo cấu trúc phả hệ đệ quy cho cùng một nhân viên."
 
 #. module: hr
 #: model:ir.model,name:hr.model_event_event
@@ -701,12 +701,12 @@ msgstr "Mô tả công việc"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_job
 msgid "Job Position"
-msgstr "Vị trí công việc"
+msgstr "Vị trí Công việc"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
 msgid "Job Positions"
-msgstr "đương chức"
+msgstr "Vị trí Công việc"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
