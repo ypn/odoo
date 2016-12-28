@@ -266,6 +266,9 @@ msgid ""
 "                to buy an extra pack of hours, because he used all his support\n"
 "                hours.</i>"
 msgstr ""
+"<i>Ví dụ: các đơn hàng cung cấp các dịch vụ trả trước mà khách hàng phải mua thêm\n"
+"                một gói giờ bổ sung bởi vì khách hàng đã dùng hết số giờ trong phạm vi của"
+"                gói dịch vụ"
 
 #. module: sale
 #. openerp-web
@@ -308,7 +311,7 @@ msgstr "<strong>Địa chỉ giao hàng</strong>"
 #: model:ir.ui.view,arch_db:sale.report_invoice_layouted
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Subtotal: </strong>"
-msgstr ""
+msgstr "<strong>Tổng phụ: </strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -447,7 +450,7 @@ msgstr "Dòng KT Quản trị"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_analytic_tag_ids
 msgid "Analytic Tags"
-msgstr ""
+msgstr "Thẻ Phân tích"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_config_settings_group_analytic_account_for_sales
@@ -503,7 +506,7 @@ msgstr "Theo Đội bán hàng"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_qty_delivered_updateable
 msgid "Can Edit Delivered"
-msgstr ""
+msgstr "Có thể Sửa SL Đã giao"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1451,6 +1454,9 @@ msgid ""
 "                policy based on <i>ordered quantities</i> for which you have\n"
 "                delivered more than what have been ordered."
 msgstr ""
+"Các đơn hàng bán gia tăng là các đơn hàng có các sản phẩm mà\n"
+" chính sách xuất hoá đơn dựa trên <i>số lượng bàn giao</i>, trong đó số lượng\n"
+" bạn đã bàn giao lớn hơn số lượng đã được đặt hàng."
 
 #. module: sale
 #. openerp-web

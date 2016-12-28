@@ -1192,6 +1192,8 @@ msgid ""
 "The number of remaining leaves is not sufficient for this leave type.\n"
 "Please verify also the leaves waiting for validation."
 msgstr ""
+"Số ngày nghỉ còn lại không đủ đối với kiểu nghỉ này. Vui lòng không nghỉ\n"
+" kiểu này nữa. Hoặc xem lại những Xin nghỉ có kiểu này mà đang chờ thẩm định."
 
 #. module: hr_holidays
 #: sql_constraint:hr.holidays:0
@@ -1210,7 +1212,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_manager_id
 msgid "This area is automatically filled by the user who validate the leave"
-msgstr ""
+msgstr "Khu vực này được điền tự động bởi người dùng mà thẩm định/duyệt nghỉ"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_manager_id2
@@ -1218,6 +1220,8 @@ msgid ""
 "This area is automaticly filled by the user who validate the leave with "
 "second level (If Leave type need second validation)"
 msgstr ""
+"Khu vực này được điền tự động bởi người dùng mà thẩm định/duyệt nghỉ ở "
+"cấp độ 2 (Nếu kiểu nghỉ buộc phải có 2 lần phê duyệt)"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_color_name
@@ -1225,6 +1229,8 @@ msgid ""
 "This color will be used in the leaves summary located in Reporting > Leaves "
 "by Department."
 msgstr ""
+"Mà sắc ở đây sẽ được sử dụng ở báo cáo nghỉ tổng hợp ở trình đơn Báo cáo > "
+"Nghỉ theo Phòng ban"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_leaves_taken
@@ -1264,7 +1270,7 @@ msgstr "Để báo cáo ở Phiếu lương"
 #. module: hr_holidays
 #: selection:hr.holidays,state:0
 msgid "To Submit"
-msgstr "Đề Trình"
+msgstr "Để Trình"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department_total_employee
@@ -1274,7 +1280,7 @@ msgstr "Tổng số Nhân viên"
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays_remaining_leaves_user
 msgid "Total holidays by type"
-msgstr "Tổng số ngày nghỉ theo loại"
+msgstr "Tổng số nghỉ theo kiểu"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_employee_remaining_leaves
@@ -1283,6 +1289,8 @@ msgid ""
 "to create allocation/leave request. Total based on all the leave types "
 "without overriding limit."
 msgstr ""
+"Tổng số ngày nghỉ hợp lệ được cấp phát cho người lao động này. Thay đổi giá "
+"trị này để tạo một đề nghị cấp phát/xin nghỉ"
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
@@ -1398,7 +1406,7 @@ msgstr "ngày"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
 msgid "e.g. Report to the next month..."
-msgstr ""
+msgstr "vd: Báo cáo sang tháng sau..."
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
