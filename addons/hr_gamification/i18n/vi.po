@@ -4,18 +4,20 @@
 #
 # Translators:
 # David Tran <david.tran@ma.tvtmarine.com>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-07 08:56+0000\n"
-"PO-Revision-Date: 2016-09-07 08:56+0000\n"
+"POT-Creation-Date: 2016-09-07 08:57+0000\n"
+"PO-Revision-Date: 2016-09-07 08:57+0000\n"
 "Last-Translator: fanha99 <fanha99@hotmail.com>, 2016\n"
-"Language-Team: ERPOnline (https://www.erponline.vn)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_gamification
@@ -29,16 +31,6 @@ msgstr ""
 "thử thách."
 
 #. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_property_account_payable_id
-msgid "Account Payable"
-msgstr "Khoản phải trả"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_property_account_receivable_id
-msgid "Account Receivable"
-msgstr "Khoản phải thu"
-
-#. module: hr_gamification
 #: model:ir.model.fields,help:hr_gamification.field_hr_employee_badge_ids
 msgid ""
 "All employee badges, linked to the employee either directly or through the "
@@ -49,8 +41,10 @@ msgstr ""
 #: model:ir.actions.act_window,help:hr_gamification.challenge_list_action2
 msgid ""
 "Assign a list of goals to chosen users to evaluate them.\n"
-"                    The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
-"                    The goals are created for the specified users or member of the group."
+"                    The challenge can use a period (weekly, monthly...) for "
+"automatic creation of goals.\n"
+"                    The goals are created for the specified users or member "
+"of the group."
 msgstr ""
 "Gán một danh mục các Mục tiêu đến những người dùng được chọn để đánh giá họ.\n"
 "                    Thử thách có thể sử dụng một chu kỳ (hàng tuần, hàng tháng...) để tự động tạo các Mục tiêu.\n"
@@ -74,11 +68,6 @@ msgstr ""
 #: model:ir.model.fields,help:hr_gamification.field_hr_employee_direct_badge_ids
 msgid "Badges directly linked to the employee"
 msgstr ""
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_bank_account_count
-msgid "Bank"
-msgstr "Ngân hàng"
 
 #. module: hr_gamification
 #: model:ir.ui.view,arch_db:hr_gamification.view_badge_wizard_reward
@@ -108,32 +97,6 @@ msgid "Click to grant this employee his first badge"
 msgstr "Bấm để trao huy chương đầu tiên cho nhân viên này"
 
 #. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_ref_company_ids
-msgid "Companies that refers to partner"
-msgstr "Các công ty mà dẫn chiếu đến đối tác"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_contract_ids
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_contracts_count
-msgid "Contracts"
-msgstr "Các hợp đồng"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_currency_id
-msgid "Currency"
-msgstr "Tiền tệ"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_property_payment_term_id
-msgid "Customer Payment Terms"
-msgstr "Điều khoản Thanh toán cho Khách hàng"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_trust
-msgid "Degree of trust you have in this debtor"
-msgstr "Mức độ tin cậy của bạn với con nợ này"
-
-#. module: hr_gamification
 #: model:ir.ui.view,arch_db:hr_gamification.view_badge_wizard_reward
 msgid "Describe what they did and why it matters (will be public)"
 msgstr "Mô tả cái chúng làm và tại sao nó quan trọng (sẽ mang tính công cộng)"
@@ -159,11 +122,6 @@ msgstr "Huy chương nhân viên"
 #: model:ir.model.fields,field_description:hr_gamification.field_hr_employee_goal_ids
 msgid "Employee HR Goals"
 msgstr "Mục tiêu Nhân viên"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_property_account_position_id
-msgid "Fiscal Position"
-msgstr "Vị thế Tài khoá"
 
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge
@@ -207,56 +165,10 @@ msgid "Has badges"
 msgstr "Có huy chương"
 
 #. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_has_unreconciled_entries
-msgid "Has unreconciled entries"
-msgstr "Có bút toán chưa đối soát"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_invoice_warn
-msgid "Invoice"
-msgstr "Hoá đơn"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_invoice_ids
-msgid "Invoices"
-msgstr "Các Hoá đơn"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_issued_total
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_journal_item_count
-msgid "Journal Items"
-msgstr "Phát sinh Kế toán"
-
-#. module: hr_gamification
 #: model:ir.model.fields,field_description:hr_gamification.field_res_users_calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
 msgstr "Thông báo gần nhất được đánh dấu là đã đọc từ Lịch cơ sở"
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_last_time_entries_checked
-msgid ""
-"Last time the invoices & payments matching was performed for this partner. "
-"It is set either if there's not at least an unreconciled debit and an "
-"unreconciled credit or if you click the \"Done\" button."
 msgstr ""
-"Lần cuối cùng khớp hoá đơn và thanh toán đối với đối tác này. Nó được thiết "
-"lập khi, hoặc có ít nhất một phát sinh nợ và một phát sinh có, hoặc khi bạn "
-"bấm vào nút \"Hoàn thành\"."
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_last_time_entries_checked
-msgid "Latest Invoices & Payments Matching Date"
-msgstr "Ngày đối chiếu Hoá đơn & Thanh toán gần nhất"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_invoice_warn_msg
-msgid "Message for Invoice"
-msgstr "Thông điệp cho Hoá đơn"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_debit_limit
-msgid "Payable Limit"
-msgstr "Hạn mức Phải trả"
 
 #. module: hr_gamification
 #: model:ir.ui.view,arch_db:hr_gamification.hr_hr_employee_view_form
@@ -272,31 +184,7 @@ msgstr "Tặng thưởng nhân viên"
 #. module: hr_gamification
 #: model:ir.ui.view,arch_db:hr_gamification.view_badge_wizard_reward
 msgid "Reward Employee with"
-msgstr "Tăng thưởng Nhân viên bằng"
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_invoice_warn
-msgid ""
-"Selecting the \"Warning\" option will notify user with the message, "
-"Selecting \"Blocking Message\" will throw an exception with the message and "
-"block the flow. The Message has to be written in the next field."
-msgstr ""
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_property_account_position_id
-msgid ""
-"The fiscal position will determine taxes and accounts used for the partner."
-msgstr ""
-"Vị thế tài chính sẽ xác định thuế và tài khoản kế toán được sử dụng cho đối tác này."
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_has_unreconciled_entries
-msgid ""
-"The partner has at least one unreconciled debit and credit since last time "
-"the invoices & payments matching was performed."
-msgstr ""
-"Đối tác có ít nhất một khoản ghi nợ và ghi có chưa đối soát kết từ lần đối "
-"chiếu hoá đơn & thánh toán được thực hiện lần gàn đây nhất."
+msgstr "Tặng thưởng Nhân viên bằng"
 
 #. module: hr_gamification
 #: code:addons/hr_gamification/models/gamification.py:18
@@ -305,81 +193,14 @@ msgid "The selected employee does not correspond to the selected user."
 msgstr "Nhân viên được chọn không tương ứng với người dùng được chọn."
 
 #. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_property_account_payable_id
-msgid ""
-"This account will be used instead of the default one as the payable account "
-"for the current partner"
-msgstr "Tài khoản được sử dụng mặc định như là tài khoản phải trả của đối tác"
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_property_account_receivable_id
-msgid ""
-"This account will be used instead of the default one as the receivable "
-"account for the current partner"
-msgstr "Tài khoản được sử dụng mặc định như là tài khoản phải thu của đối tác"
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_property_supplier_payment_term_id
-msgid ""
-"This payment term will be used instead of the default one for purchase "
-"orders and vendor bills"
-msgstr ""
-"Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định với "
-"đơn hàng mua và hoá đơn nhà cung cấp"
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_property_payment_term_id
-msgid ""
-"This payment term will be used instead of the default one for sale orders "
-"and customer invoices"
-msgstr ""
-"Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên "
-"đơn hàng bán và hoá đơn khách hàng"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_total_invoiced
-msgid "Total Invoiced"
-msgstr "Tổng đã xuất Hoá đơn"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_debit
-msgid "Total Payable"
-msgstr "Tổng Phải trả"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_credit
-msgid "Total Receivable"
-msgstr "Tổng Phải thu"
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_credit
-msgid "Total amount this customer owes you."
-msgstr "Tổng số tiền khách hàng này nợ bạn."
-
-#. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_debit
-msgid "Total amount you have to pay to this vendor."
-msgstr "Tổng số tiền bạn phải trả cho đối tác này."
-
-#. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_res_users
 msgid "Users"
 msgstr "Người dùng"
 
 #. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_res_users_currency_id
-msgid "Utility field to express amount currency"
-msgstr "Trường tiện ích để thể hiện giá trị nguyên tệ"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_res_users_property_supplier_payment_term_id
-msgid "Vendor Payment Terms"
-msgstr "Điều khoản Thanh toán Nhà cung cấp"
-
-#. module: hr_gamification
 #: model:ir.ui.view,arch_db:hr_gamification.view_badge_wizard_reward
 msgid "What are you thankful for?"
-msgstr ""
+msgstr "Bạn cám ơn vì điều gì?"
 
 #. module: hr_gamification
 #: code:addons/hr_gamification/wizard/gamification_badge_user_wizard.py:21
