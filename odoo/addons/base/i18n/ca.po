@@ -8287,11 +8287,15 @@ msgid ""
 "the bounds of global ones. The first group rules restrict further than "
 "global rules, but any additional group rule will add more permissions"
 msgstr ""
+"Les regles globals (no especifiques d'un grup) són restriccions generals, i "
+"no poden ser sobrepassades. Les regles de grup concedeixen permisos "
+"addicionals, però estan restringides als límits de les globals, per "
+"qualsevol regla addicionals d'un grup, afegirà més permisos."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_mail
 msgid "Glue module holding mail improvements for website."
-msgstr ""
+msgstr "Mòdul pega que manté les millores del mòdul mail per als llocs web."
 
 #. module: base
 #: code:addons/base/res/res_config.py:663
@@ -8462,7 +8466,7 @@ msgstr "Guaiana"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_maintenance
 msgid "HR - Equipments"
-msgstr ""
+msgstr "RRHH - Equipaments"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_gamification
@@ -8482,6 +8486,10 @@ msgid ""
 "allows you to define the url of a custom controller outputting any kind of "
 "report."
 msgstr ""
+"Amb l'opció HTML, l'informe s'obrirà directament al seu navegador. L'opció "
+"PDF utilitzarà wkhtmltopdf per convertir el HTML en un arxiu PDF i el "
+"deixarà descarregar-lo. La variable Controller permetrà definir l'URL d'un "
+"controlador específic que generi qualsevol tipus d'informe."
 
 #. module: base
 #: model:ir.model,name:base.model_ir_http
@@ -8511,7 +8519,7 @@ msgstr "Controladors per a impresores i calaixos ESC/POS"
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_scale
 msgid "Hardware Driver for Weighing Scales"
-msgstr ""
+msgstr "Driver per a bàscules"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_proxy
@@ -8547,6 +8555,9 @@ msgid ""
 "simplified payment mode encoding, automatic picking lists generation and "
 "more."
 msgstr ""
+"Ajuda a treure el millor dels seus punts de venda amb la codificació rapida "
+"de la venda, codificació simplificada de mètodes de pagament, generació "
+"automàtica d'albarans i més."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_accounting_and_finance
@@ -8561,26 +8572,28 @@ msgstr ""
 #: model:ir.module.category,description:base.module_category_sales_management
 msgid "Helps you handle your quotations, sale orders and invoicing."
 msgstr ""
+"L'ajuda a gestionar els seus pressupostos, comandes de venda i facturació."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_lead_automation
 msgid "Helps you manage lead of your marketing campaigns step by step."
 msgstr ""
+"L'ajuda a gestionar la direcció de les campanyes de màrqueting pas per pas."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_attendance
 msgid "Helps you manage the attendances."
-msgstr ""
+msgstr "L'ajuda a gestionar les assistències."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_gamification
 msgid "Helps you manage the gamification process."
-msgstr ""
+msgstr "L'ajuda a gestionar el procés de gamificació."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_timesheet
 msgid "Helps you manage the timesheets."
-msgstr ""
+msgstr "L'ajuda a gestionar les parts d'hores."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_event_management
@@ -8590,22 +8603,22 @@ msgstr "Us ajuda a gestionar els vostres Esdeveniments."
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_appraisal
 msgid "Helps you manage your appraisals."
-msgstr ""
+msgstr "L'ajuda a gestionar les seves avaluacions."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_human_resources
 msgid "Helps you manage your employees."
-msgstr ""
+msgstr "L'ajuda a gestionar els seus treballadors."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_expense
 msgid "Helps you manage your expenses."
-msgstr ""
+msgstr "L'ajuda a gestionar els seus despeses."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_holidays
 msgid "Helps you manage your holidays."
-msgstr ""
+msgstr "L'ajuda a gestionar les seves vacances."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_warehouse_management
@@ -8613,6 +8626,8 @@ msgid ""
 "Helps you manage your inventory and main stock operations: delivery orders, "
 "receptions, etc."
 msgstr ""
+"L'ajuda a gestionar el seu inventari i les operacions principals d'estoc: "
+"les ordres d'entrega, recepcions, ..."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_manufacturing
@@ -8620,6 +8635,8 @@ msgid ""
 "Helps you manage your manufacturing processes and generate reports on those "
 "processes."
 msgstr ""
+"L'ajuda a gestionar els seus processos de fabricació i generar informes "
+"sobre aquests processos."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_mass_mailing
@@ -8627,11 +8644,13 @@ msgid ""
 "Helps you manage your mass mailing for design\n"
 "                professional emails and reuse templates."
 msgstr ""
+"L'ajuda a gestionar els correus massius per dissenyar emails professionals i"
+" reutilitzar plantilles."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_payroll
 msgid "Helps you manage your payrolls."
-msgstr ""
+msgstr "Us ajuda a gestionar les vostres nòmines."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_project_management
@@ -8648,21 +8667,24 @@ msgid ""
 "Helps you manage your purchase-related processes such as requests for "
 "quotations, supplier bills, etc..."
 msgstr ""
+"L'ajuda a gestionar els seus processos relacionats amb les compres com "
+"peticions de pressupostos, factures de proveïdor, etc"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_recruitment
 msgid "Helps you manage your recruitments."
-msgstr ""
+msgstr "Us ajuda a gestionar les vostres contractacions."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_survey
 msgid "Helps you manage your survey for review of different-different users."
 msgstr ""
+"Us ajuda a gestionar les enquestes per la revisió de diferents usuaris."
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "Here is the exported translation file:"
-msgstr ""
+msgstr "Aquí està l'arxiu de traducció exportat:"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_theme_hidden
@@ -8678,7 +8700,7 @@ msgstr "Historial"
 #. module: base
 #: model:ir.module.category,name:base.module_category_hr_holidays
 msgid "Holidays"
-msgstr ""
+msgstr "Vacances"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_holidays
@@ -8736,22 +8758,24 @@ msgid ""
 "How many times the method is called,\n"
 "a negative number indicates no limit."
 msgstr ""
+"Quantes vegades es crida amb aquest mètode,\n"
+"un nombre negatiu indica sense límit."
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_model_fields_form
 #: model:ir.ui.view,arch_db:base.view_model_form
 msgid "How to define a computed field"
-msgstr ""
+msgstr "Com definir un camp computat"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment_survey
 msgid "Hr Recruitment Interview Forms"
-msgstr ""
+msgstr "Formularis d'entrevista de reclutament de recursos humans"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_survey
 msgid "Human Resources Survey"
-msgstr ""
+msgstr "Enquesta de recursos humans"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_hu
@@ -8875,7 +8899,7 @@ msgstr "ID de l'acció si està definida a l'arxiu XML"
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_data_res_id
 msgid "ID of the target record in the database"
-msgstr ""
+msgstr "ID del registre objectiu en la base de dades"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_view_xml_id
@@ -8885,7 +8909,7 @@ msgstr "L'ID de la vista definit a l'arxiu xml."
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bus
 msgid "IM Bus"
-msgstr ""
+msgstr "Bus IM"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_import_code
@@ -8928,6 +8952,8 @@ msgid ""
 "If checked and the action is bound to a model, it will only appear in the "
 "More menu on list views"
 msgstr ""
+"Si està marcat i l'acció està enllaçat a un model, només apareixerà al menú."
+" Més enllà de les vistes de llistat."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_mail_server_smtp_debug
@@ -8935,6 +8961,9 @@ msgid ""
 "If enabled, the full output of SMTP sessions will be written to the server "
 "log at DEBUG level(this is very verbose and may include confidential info!)"
 msgstr ""
+"Si està habilitat, la sortida completa de les sessions SMTP seran escrites "
+"al registre del servidor al nivell DEBUG (això és molt detallat i pot "
+"incloure informació confidencial!)"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_rule_global
@@ -8961,12 +8990,12 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_values_company_id
 msgid "If set, action binding only applies for this company"
-msgstr ""
+msgstr "Si s'estableix, l'acció enllaçada s'aplica aquesta companyia."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_values_user_id
 msgid "If set, action binding only applies for this user."
-msgstr ""
+msgstr "Si s'estableix, l'acció enllaçada només s'aplica a aquest usuari."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields_serialization_field_id
@@ -8975,6 +9004,8 @@ msgid ""
 "serialization field, instead of having its own database column. This cannot "
 "be changed after creation."
 msgstr ""
+"Si està establert, aquest camp s'emmagatzemarà en l'estructura del camp "
+"serialitzat, en lloc de tenir la teva columna"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
@@ -8982,6 +9013,8 @@ msgid ""
 "If several child actions return an action, only the last one will be executed.\n"
 "                                    This may happen when having server actions executing code that returns an action, or server actions returning a client action."
 msgstr ""
+"Si diverses accions filles retornen una acció, només s'executara l'última.\n"
+"Això pot passar quan es tinguin accions de servidor executant codi que retorna una acció, o accions de servidor que retornin una acció de client."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users_action_id
@@ -8989,6 +9022,8 @@ msgid ""
 "If specified, this action will be opened at log on for this user, in "
 "addition to the standard menu."
 msgstr ""
+"Si s'especifica, aquesta acció s'obrirà als registres per aquest usuari, en "
+"afegit al menú estàndard."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_lang
@@ -8997,6 +9032,9 @@ msgid ""
 "If the selected language is loaded in the system, all documents related to "
 "this contact will be printed in this language. If not, it will be English."
 msgstr ""
+"Si l'idioma seleccionat està carregat al sistema, tots els documents "
+"relacionats amb el contacte s'imprimiran en aquest idioma. Si no, "
+"s'imprimiran en anglès."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_view_groups_id
@@ -9004,6 +9042,8 @@ msgid ""
 "If this field is empty, the view applies to all users. Otherwise, the view "
 "applies to the users of those groups only."
 msgstr ""
+"Si aquest camp està buit, la vista s'aplica a tots els usuaris. En cas "
+"contrari, la vista s'aplica només als usuaris d'aquests grups."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_view_active
@@ -9013,6 +9053,9 @@ msgid ""
 "* if False, the view currently does not extend its parent but can be enabled\n"
 "         "
 msgstr ""
+"Si aquesta vista és heretada,\n"
+"* si és cert, la vista sempre estén el seu pare\n"
+"* si és falç, la vista actualment no estén el seu pare, però es pot activar"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_country_state
@@ -9048,6 +9091,8 @@ msgid ""
 "If you enable this option, existing translations (including custom ones) "
 "will be overwritten and replaced by those in this file"
 msgstr ""
+"Si habilita aquesta opció, les traduccions existents (incloses les "
+"personalitzades) seran sobreescrites i reemplaçades per les d'aquest arxiu."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_menu_groups_id
@@ -9056,6 +9101,9 @@ msgid ""
 "groups. If this field is empty, Odoo will compute visibility based on the "
 "related object's read access."
 msgstr ""
+"Si tens grups definits, la visibilitat d'aquest menú es basarà en aquests "
+"grups. Si el camp està buit, Odoo calcularà la visibilitat basada en els "
+"permisos de lectura de l'objecte relacionat."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_access_active
@@ -9076,7 +9124,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade
 msgid "If you wish to cancel the process, press the cancel button below"
-msgstr ""
+msgstr "Si vol cancel·lar el procés, pressioni el botó cancel·lar."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_logo
@@ -9135,13 +9183,13 @@ msgstr "Transicions entrants"
 #: code:addons/base/ir/ir_actions.py:607
 #, python-format
 msgid "Incorrect Write Record Expression"
-msgstr ""
+msgstr "Expressió d'escriptura de registre incorrecte"
 
 #. module: base
 #: code:addons/base/ir/ir_actions.py:714
 #, python-format
 msgid "Incorrect expression"
-msgstr ""
+msgstr "Expressió incorrecta"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_index
@@ -9288,6 +9336,8 @@ msgstr "Instàncies "
 #: model:ir.module.module,description:base.module_bus
 msgid "Instant Messaging Bus allow you to send messages to users, in live."
 msgstr ""
+"El canal de missatgeria instantània li permet enviar missatges en viu als "
+"usuaris."
 
 #. module: base
 #: code:addons/models.py:1292
@@ -9302,6 +9352,8 @@ msgid ""
 "Insufficient fields to generate a Calendar View for %s, missing a date_stop "
 "or a date_delay"
 msgstr ""
+"Camps insuficients per generar una vista de calendari per %s. Falta un camp "
+"data_stop o date_delay."
 
 #. module: base
 #: selection:ir.property,type:0
@@ -9311,7 +9363,7 @@ msgstr "Enter"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_rule_form
 msgid "Interaction between rules"
-msgstr ""
+msgstr "Interacció entre regles"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_groups_search
@@ -9352,7 +9404,7 @@ msgstr "Unitat d'interval"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_interval_number
 msgid "Interval number"
-msgstr ""
+msgstr "Nombre d'intervals"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_report_intrastat
@@ -9726,7 +9778,7 @@ msgstr "Paquet d'idioma"
 #: code:addons/base/res/res_lang.py:217
 #, python-format
 msgid "Language code cannot be modified."
-msgstr ""
+msgstr "El codi d'idioma no pot ser modificat"
 
 #. module: base
 #: sql_constraint:ir.translation:0
@@ -10346,12 +10398,12 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_bank_form
 msgid "Manage bank records you want to be used in the system."
-msgstr ""
+msgstr "Gestioni registres bancaris que vol utilitzar en el seu sistema."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_attendance
 msgid "Manage employee attendances"
-msgstr ""
+msgstr "Gestiona assistència d'empleat"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_category_form
@@ -10359,6 +10411,8 @@ msgid ""
 "Manage partner tags to better classify them for tracking and analysis purposes.\n"
 "                    A partner may have several categories and categories have a hierarchical structure: a partner with a category has also the parent category."
 msgstr ""
+"Gestioni etiquetes d'empresa per classificar-les millor per seguiment i anàlisis.\n"
+"Una empresa pot tenir diverses categories i aquestes poden tenir estructura jeràrquica: una empresa amb una categoria també té una categoria pare."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_title_contact
@@ -10367,11 +10421,16 @@ msgid ""
 "way you want to print them in letters and other documents. Some example: "
 "Mr., Mrs."
 msgstr ""
+"Gestioneu els títols de contacte que voleu tenir disponibles en el vostre "
+"sistema i la forma en que voleu que apareguin impresos en cartes i altres "
+"documents. Per exemple: Sr, Sra "
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_voucher
 msgid "Manage your debts and credits thanks to simple sale/purchase receipts"
 msgstr ""
+"Gestiona els teus deutes i crèdits gràcies als simples rebuts de "
+"compra/venda"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_todo_type
@@ -10380,6 +10439,9 @@ msgid ""
 "                                    Automatic: Runs whenever the system is reconfigured.\n"
 "                                    Launch Manually Once: after having been launched manually, it sets automatically to Done."
 msgstr ""
+"Manual: Llençat manualment.\n"
+"Automàtic: S'executa sempre que es reconfigura el sistema.\n"
+"Llençat manualment un cop: després que es llenci manualment, s'estableix automàticament a 'Realitzat'."
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_14
@@ -10406,13 +10468,13 @@ msgstr "Many2One"
 #: code:addons/fields.py:2294
 #, python-format
 msgid "Many2many comodel does not exist: %r"
-msgstr ""
+msgstr "Comodel many2many no existeix: %r"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:491
 #, python-format
 msgid "Many2one %s on model %s does not exist!"
-msgstr ""
+msgstr "Many2one %s al model %s no existeix!"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_model_relation
@@ -11172,13 +11234,13 @@ msgstr "No actualitzable"
 #: code:addons/base/ir/ir_model.py:340
 #, python-format
 msgid "Non-relational field %r in dependency %r"
-msgstr ""
+msgstr "Camp no relacional %r en dependència %r"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:297
 #, python-format
 msgid "Non-relational field name '%s' in related field '%s'"
-msgstr ""
+msgstr "El nom del camp '%s' és no relacional en el camp relacionat '%s'"
 
 #. module: base
 #: selection:ir.mail_server,smtp_encryption:0
@@ -11299,7 +11361,7 @@ msgstr "Llicència Odoo Edició Enterprise v1.0"
 #. module: base
 #: selection:ir.module.module,license:0
 msgid "Odoo Proprietary License v1.0"
-msgstr ""
+msgstr "Llicència Propietari Odoo v1.0"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_settings_dashboard
@@ -11309,7 +11371,7 @@ msgstr "Taulell de Configuració Odoo"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_diagram
 msgid "Odoo Web Diagram"
-msgstr ""
+msgstr "Diagrama web d'Odoo"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_customer_form
@@ -11319,6 +11381,8 @@ msgid ""
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc."
 msgstr ""
+"Odoo l'ajuda a rastrejar fàcilment tota l'activitat relacionada a un client:"
+" discussions, històries de les oportunitats de negoci, documents, etc."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -11327,6 +11391,8 @@ msgid ""
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc."
 msgstr ""
+"Odoo l'ajuda a rastrejar fàcilment tota l'activitat relacionada a un "
+"proveïdor: discussions, històries de les compres, documents, etc."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence_padding
@@ -11449,6 +11515,9 @@ msgid ""
 "(<xpath/>) are applied, and the result is used as if it were this view's\n"
 "actual arch.\n"
 msgstr ""
+"Només s'aplica si aquesta vista heretada d'una altra (inherit_id no es False/Null).\n"
+"* Si té extensió (per defecte), quan aquesta vista és sol·licitada, es busca cap amunt la vista primària més propera (via inherit_id), llavors totes les vistes heretant d'elles amb el model d'aquesta vista, aplicarà aquests canvis.\n"
+"* Si la vista primària més propera és totalment resolta (inclús si utilitza un model diferent de la d'aquesta), llavors s'apliquen les especificacions d'herència (<xpath/>), i el resultat s'utilitza com si fos de la vista actual.\n"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:885
@@ -11578,6 +11647,8 @@ msgid ""
 "Other features are accessible through <code>self</code>, like\n"
 "                                                <code>self.env</code>, etc."
 msgstr ""
+"Altres característiques són accessibles a través de <code>self</code>, com\n"
+"<code>self.env</code>, etc."
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_model_fields_form
@@ -11585,6 +11656,8 @@ msgid ""
 "Other features are accessible through <code>self</code>, like\n"
 "                                    <code>self.env</code>, etc."
 msgstr ""
+"Altres característiques són accessibles a través de <code>self</code>, com\n"
+"<code>self.env</code>, etc."
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_ir_mail_server_search
@@ -14715,7 +14788,7 @@ msgstr "Part d'hores per a les incidències"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project_issue_sheet
 msgid "Timesheet on Website Project Issue"
-msgstr ""
+msgstr "Part d'hores en incidències de projecte del lloc web"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hr_timesheet
@@ -15394,7 +15467,7 @@ msgstr "Utilitzat per connectar-se al sistema."
 #. module: base
 #: model:ir.model.fields,help:base.field_res_company_sequence
 msgid "Used to order Companies in the company switcher"
-msgstr ""
+msgstr "Utilitzat per ordenar les Companyies al menú de canvi de companyia"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_type
@@ -16269,7 +16342,7 @@ msgstr ""
 #: code:addons/base/res/res_partner.py:320
 #, python-format
 msgid "You cannot create recursive Partner hierarchies."
-msgstr ""
+msgstr "No pot crear jerarquies d'empreses recursives."
 
 #. module: base
 #: code:addons/base/res/res_users.py:340
