@@ -13,6 +13,7 @@
         'security/maintenance.xml',
         'security/ir.model.access.csv',
         'data/maintenance_data.xml',
+        'data/maintenance_cron.xml',
         'views/maintenance_views.xml',
         'views/maintenance_templates.xml',
     ],
