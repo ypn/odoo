@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<data>
+		<!-- Records Rules -->
+		<record model="ir.rule" id="property_rule_employee_view_own_contract">
+			<field name="name">Employee view his own contracts</field>
+			<field name="model_id" ref="model_hr_contract"></field>
+			<field name="groups" eval="[(4,ref('base.group_user'))]"></field>
+			<field name="domain_force">[('employee_id.user_id', '=', user.id)]</field>
+			<field eval="1" name="perm_read"></field>
+			<field eval="0" name="perm_write"></field>
+			<field eval="0" name="perm_unlink"></field>
+			<field eval="0" name="perm_create"></field>
+		</record>
+		<record model="ir.rule" id="property_rule_hr_user_view_contract">
+			<field name="name">HR Officers view contracts</field>
+			<field name="model_id" ref="model_hr_contract"></field>
+			<field name="groups" eval="[(4,ref('hr.group_hr_user'))]"></field>
+			<field name="domain_force">[(1, '=', 1)]</field>
+			<field eval="1" name="perm_read"></field>
+			<field eval="0" name="perm_write"></field>
+			<field eval="0" name="perm_unlink"></field>
+			<field eval="0" name="perm_create"></field>
+		</record>
+	</data>
+</odoo>
