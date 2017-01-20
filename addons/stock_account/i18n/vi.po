@@ -607,7 +607,8 @@ msgstr ""
 "tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ"
 " khi có một tài khoản định giá được thiết lập trên địa điểm nguồn. Đây là "
 "giá trị mặc định cho tất cả sản phẩm trong nhóm sản phẩm này. Nó cũng có thể"
-" được thiết lập trực tiếp trên từng sản phẩm. "
+" được thiết lập trực tiếp trên từng sản phẩm."
+"\nTips: Giá trị sẽ được ghi vào bên Có của tài khoản này."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_product_property_stock_account_input
@@ -621,7 +622,8 @@ msgstr ""
 "Khi thực hiện định giá tồn kho theo thời gian thực, phát sinh đối ứng cho "
 "tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ"
 " khi có một tài khoản định giá được thiết lập trên địa điểm nguồn. Khi không"
-" thiết lập trên sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm. "
+" thiết lập trên sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản phẩm."
+"\nTips: Giá trị sẽ được ghi vào bên Có của tài khoản này."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_stock_account_output_categ_id
@@ -636,7 +638,8 @@ msgstr ""
 "tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ"
 " khi có một tài khoản định giá được thiết lập trên địa điểm đích. Đây là giá"
 " trị mặc định cho tất cả sản phẩm trong nhóm sản phẩm này. Nó cũng có thể "
-"được thiết lập trực tiếp trên từng sản phẩm. "
+"được thiết lập trực tiếp trên từng sản phẩm."
+"\nTips: Giá trị sẽ được ghi vào bên Nợ của tài khoản này."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_product_property_stock_account_output
@@ -651,7 +654,8 @@ msgstr ""
 "tất cả các dịch chuyển nhập kho sẽ được ghi nhận vào hệ thống tài khoản, trừ"
 " khi có một tài khoản định giá được thiết lập trên địa điểm đích. Khi không "
 "thiết lập trên một sản phẩm, hệ thống sẽ sử dụng thiết lập trên nhóm sản "
-"phẩm. "
+"phẩm."
+"\nTips: Giá trị sẽ được ghi vào bên Nợ của tài khoản này."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_stock_journal
@@ -670,7 +674,7 @@ msgid ""
 "will hold the current value of the products."
 msgstr ""
 "Khi việc định giá tồn kho theo thời gian thực được kích hoạt trên một sản "
-"phẩm, tài khoản này sẽ giữ giá trị hiện tài của sản phẩm."
+"phẩm, tài khoản này sẽ lưu giữ giá trị hiện tại của sản phẩm/hàng hoá."
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_wizard_valuation_history

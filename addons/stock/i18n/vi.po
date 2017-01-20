@@ -119,7 +119,7 @@ msgstr ""
 "* Chỉ xem: Địa điểm ảo được sử dụng để xây dựng cấu trúc phả hệ cho hệ thống kho của bạn, kết hợp các địa điểm con; không thể trực tiếp lưu trữ hàng hoá\n"
 "* Địa điểm nội bộ: Các địa điểm vật lý bên trong hệ thống kho của bạn,\n"
 "* Địa điểm khách hàng: Địa điểm ảo đại diện cho địa điểm đích đối với các sản phẩm / hàng hoá mà bạn giao cho các khách hàng của bạn\n"
-"* Mất mát: Địa điểm ảo được sử dụng làm địa điểm đối ứng cho các hoạt động kiểm kê được sử dụng để hiệu chỉnh mức tồn kho (Kiểm kho vật lý)\n"
+"* Mất mát/Kiểm kê: Địa điểm ảo được sử dụng làm địa điểm đối ứng cho các hoạt động kiểm kê được sử dụng để hiệu chỉnh mức tồn kho (Kiểm kho vật lý)\n"
 "* Cung ứng: Địa điểm ảo được sử dụng như một địa điểm đối ứng tạm thời cho các hoạt động cung ứng (procurement) khi mà địa điểm nguồn chưa được (nhà cung cấp hoặc sản xuất) biết. Địa điểm ảo này sẽ trống rống sau khi Trình lập lịch cung ứng chạy xong.\n"
 "* Sản xuất: Địa điểm ảo đối ứng dùng trong các hoạt động sản xuất: nguyên vật liệu được tiêu thụ trong quá trình sản xuất sẽ được đưa vào đây và các thành phẩm sẽ từ đây ra.\n"
 "* Địa điểm chuyển tiếp: Địa điểm đối ứng mà được sử dụng trong các hoạt động dịch chuyển hàng hoá liên kho hoặc liên công ty\n"
@@ -3106,7 +3106,7 @@ msgstr "Địa điểm Tồn kho"
 #. module: stock
 #: selection:stock.location,usage:0
 msgid "Inventory Loss"
-msgstr "Mất mát"
+msgstr "Mất mát/Kiểm kê"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_scrap_form_view
