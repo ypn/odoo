@@ -151,9 +151,19 @@ msgid "You are not subscribed to any of our mailing list."
 msgstr "Bạn chưa đăng ký nhận tin từ bất kỳ mailing list nào của chúng tôi."
 
 #. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:155
 #: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribed
+#, python-format
 msgid "Your changes have been saved."
 msgstr "Các thay đổi của bạn đã được lưu."
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:158
+#, python-format
+msgid "Your changes have not been saved, try again later."
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.model,name:website_mass_mailing.model_mass_mailing_config_settings
