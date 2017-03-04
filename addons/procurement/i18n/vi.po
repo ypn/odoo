@@ -98,7 +98,8 @@ msgid ""
 "Chosen rule for the procurement resolution. Usually chosen by the system but"
 " can be manually set by the procurement manager to force an unusual "
 "behavior."
-msgstr ""
+msgstr "Cung tắc cung ứng được chọn để giải quyết nhu cầu cung ứng. Thường được chọn tự động bởi hệ thống"
+" nhưng cũng có thể được thiết lập bởi người quản lý cung ứng để cưỡng bức một cách cung ứng khác trong các tình huống bất thường."
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_action
@@ -286,7 +287,7 @@ msgstr "Tên"
 #: code:addons/procurement/models/procurement.py:189
 #, python-format
 msgid "No rule matching this procurement"
-msgstr ""
+msgstr "Không tìm thấy quy tắc cung ứng nào khớp với yêu cầu cung ứng này"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -392,17 +393,17 @@ msgstr "Đơn vị Đo lường SP"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Propagate"
-msgstr ""
+msgstr "Loan báo / Xâu chuỗi"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "Propagation Options"
-msgstr "Tuỳ chọn Propagation"
+msgstr "Tuỳ chọn Loan báo"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_propagation_option
 msgid "Propagation of Procurement Group"
-msgstr ""
+msgstr "Loan báo theo Nhóm Cung ứng"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_product_qty
@@ -425,11 +426,13 @@ msgid ""
 "Reference of the document that created this Procurement. This is "
 "automatically completed by Odoo."
 msgstr ""
+"Dẫn chiếu đến tài liệu mà đã tạo ra Nhu cầu cung ứng này. Cái này "
+"hoàn toàn được tạo tự động bởi Odoo."
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_rule_id
 msgid "Rule"
-msgstr "Quy tắc"
+msgstr "Quy tắc Cung ứng"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
@@ -455,7 +458,7 @@ msgstr "Đang chạy"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_date_planned
 msgid "Scheduled Date"
-msgstr "Ngày theo kế hoạch"
+msgstr "Ngày theo Kế hoạch"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
@@ -523,12 +526,15 @@ msgid ""
 "                creates the necessary operations to fulfill the need: purchase\n"
 "                order proposition, manufacturing order, etc."
 msgstr ""
+"Khi một nhu cầu cung ứng được xác nhận, nó sẽ tự động tạo\n"
+"                các hoạt động cần thiết để đáp ứng nhu cầu: đề xuất mua hàng, lấy\n"
+"                nguyên vật liệu từ kho, tạo các lệnh sản xuất, v.v."
 
 #. module: procurement
 #: code:addons/procurement/models/procurement.py:144
 #, python-format
 msgid "You cannot delete procurements that are in cancel state."
-msgstr ""
+msgstr "Bạn không được xoá các nhu cầu cung ứng mà ở trạng thái huỷ."
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
