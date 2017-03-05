@@ -2709,6 +2709,7 @@ msgid ""
 "If this is a negative quant, this will be the move that caused this negative"
 " quant."
 msgstr ""
+"Nếu đây là một quant âm, cái này sẽ là dịch chuyển mà gây ra quant âm này."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_use_create_lots
@@ -2716,6 +2717,8 @@ msgid ""
 "If this is checked only, it will suppose you want to create new Lots/Serial "
 "Numbers, so you can provide them in a text field. "
 msgstr ""
+"Nếu chỉ trường này được đánh dấu, Odoo sẽ tin rằng bạn muốn tạo mới Số Lô/Sê-ri, "
+"để bạn có thể cung cấp số trong một trường kiểu text."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_use_existing_lots
@@ -2724,6 +2727,9 @@ msgid ""
 "can also decide to not put lots in this picking type.  This means it will "
 "create stock with no lot or not put a restriction on the lot taken. "
 msgstr ""
+"Nếu trường này được đánh dấu, bạn sẽ có thể chọn một Số Lô/Sê-ri. Bạn cũng có "
+"thể quyết định không chọn lô với kiểu giao nhận này. Điều này có nghĩa là Odoo "
+"sẽ dịch chuyển hàng hoá mà không gắn với lô/sê-ri hay ràng buộc phải sử dụng số lô/sê-ri"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_backorder_id
@@ -6402,6 +6408,8 @@ msgid ""
 "different of the warehouse this rule is for (e.g for resupplying rules from "
 "another warehouse)"
 msgstr ""
+"Nhà kho để loan báo vào lúc tạo dịch chuyển (lấy từ kho) hoặc nhu cầu cung ứng, mà có thể "
+"khác với nhà kho mà quy tắc cung ứng này thuộc về. VD: cho các quy tắc tái cung ứng từ một nhà kho khác."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line_theoretical_qty
@@ -7130,7 +7138,7 @@ msgstr "Tên Kho hàng"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_propagate_warehouse_id
 msgid "Warehouse to Propagate"
-msgstr ""
+msgstr "Nhà kho để Loan báo"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_procurement_order_warehouse_id
