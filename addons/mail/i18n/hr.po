@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2017-01-26 10:33+0000\n"
+"PO-Revision-Date: 2017-03-10 14:09+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -235,7 +235,7 @@ msgid ""
 "                                <span attrs=\"{'invisible': [('use_active_domain', '=', False)]}\">the current search filter</span>.\n"
 "                            </span>\n"
 "                            <span attrs=\"{'invisible':['|', ('model', '=', False), ('composition_mode', '=', 'mass_mail')]}\">Followers of the document and</span>"
-msgstr ""
+msgstr "<span attrs=\"{'invisible': [('composition_mode', '!=', 'mass_mail')]}\">\n<strong>E-mail masovna pošta</strong> na\n<span attrs=\"{'invisible': [('use_active_domain', '=', True)]}\">odabranim zapisima</span>\n<span attrs=\"{'invisible': [('use_active_domain', '=', False)]}\">trenutni filter pretrage</span>.\n</span>\n<span attrs=\"{'invisible':['|', ('model', '=', False), ('composition_mode', '=', 'mass_mail')]}\">Pratitelji dokumenta i</span>"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -270,7 +270,7 @@ msgstr ""
 msgid ""
 "<strong>Moreover, if you want to send a lot of emails, we recommend you to use the mass mailing module</strong>. <br/>\n"
 "                                Confirming this wizard will probably take a few minutes blocking your browser."
-msgstr ""
+msgstr "<strong>Osim toga, ako želite puno e-mailova, savjetujemo Vam korištenje modula masovne pošte</strong>. <br/>\nPotvrda ovog čarobnjaka vjerojatno će trajati nekoliko minuta i blokirati Vaš preglednik."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_defaults
@@ -286,7 +286,7 @@ msgstr "Python rječnik koji će se provjeravati za zadane postave kada se kreir
 msgid ""
 "A shortcode is a keyboard shortcut. For instance, you type #gm and it will "
 "be transformed into \"Good Morning\"."
-msgstr ""
+msgstr "Kratki kod je prečac na tipkovnici. Npr. utipkate #gm i to će se transformirati u \"Good Morning\"."
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_groups
@@ -619,7 +619,7 @@ msgstr "Gotovi odgovor"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_shortcode
 msgid "Canned Response / Shortcode"
-msgstr ""
+msgstr "Gotovi odgovor / Kratki kod"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail_email_cc
@@ -704,7 +704,7 @@ msgstr "Chat rasprava"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_shortcode_action
 msgid "Chat Shortcode"
-msgstr ""
+msgstr "Kratki kod Čavrljanja"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_child_ids
@@ -743,7 +743,7 @@ msgstr "Klikni da bi dodao kontakt u svoj adresar."
 #. module: mail
 #: model:ir.actions.act_window,help:mail.mail_shortcode_action
 msgid "Click to define a new chat shortcode."
-msgstr ""
+msgstr "Kliknite za definiranje novog kratkog koda."
 
 #. module: mail
 #: selection:mail.channel.partner,fold_state:0
@@ -810,7 +810,7 @@ msgstr "Mod sastavljanja"
 #: code:addons/mail/static/src/xml/thread.xml:24
 #, python-format
 msgid "Congratulations, your inbox is empty"
-msgstr ""
+msgstr "Čestitamo! Vaš inbox je prazan"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_contacts
@@ -1549,7 +1549,7 @@ msgstr "Pozovi osobe"
 #: code:addons/mail/static/src/js/client_action.js:626
 #, python-format
 msgid "Invite people to #%s"
-msgstr ""
+msgstr "Pozovite ljude na #%s"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_wizard_invite
@@ -1702,7 +1702,7 @@ msgstr "Slušatelji"
 #. module: mail
 #: selection:mail.channel,channel_type:0
 msgid "Livechat Conversation"
-msgstr ""
+msgstr "Livechat razgovor"
 
 #. module: mail
 #. openerp-web
@@ -1770,14 +1770,14 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:125
 #, python-format
 msgid "Mark all as read"
-msgstr ""
+msgstr "Označi sve kao pročitano"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:125
 #, python-format
 msgid "Mark all read"
-msgstr ""
+msgstr "Označi sve pročitane"
 
 #. module: mail
 #. openerp-web
@@ -1859,7 +1859,7 @@ msgstr "Reference poruke, poput identifikatora prethodnih poruka"
 #: code:addons/mail/static/src/xml/client_action.xml:122
 #, python-format
 msgid "Message sent in \""
-msgstr ""
+msgstr "Poruka poslana u \""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_name
@@ -2043,14 +2043,14 @@ msgstr "Nova poruka"
 #: code:addons/mail/static/src/xml/thread.xml:140
 #, python-format
 msgid "New messages"
-msgstr ""
+msgstr "Nove poruke"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/thread.xml:25
 #, python-format
 msgid "New messages appear here."
-msgstr ""
+msgstr "Nove poruke se pojavljuju ovdje."
 
 #. module: mail
 #. openerp-web
@@ -2071,21 +2071,21 @@ msgstr "Nije sljedbenik"
 #: code:addons/mail/static/src/xml/thread.xml:16
 #, python-format
 msgid "No matches found"
-msgstr ""
+msgstr "Nema pronađenih rezultata"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/thread.xml:17
 #, python-format
 msgid "No message matches your search. Try to change your search filters."
-msgstr ""
+msgstr "Nijedna poruka ne odgovara Vašem pretraživanju. Pokušajte promijeniti Vaše filtere pretraživanja."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/thread.xml:28
 #, python-format
 msgid "No starred message"
-msgstr ""
+msgstr "Nema poruka označenih zvjezdicom"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_no_auto_thread
@@ -2119,7 +2119,7 @@ msgstr "Obavijesti sljedbenike"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_notify
 msgid "Notify followers of the document (mass post only)"
-msgstr ""
+msgstr "Obavijesti pratitelje dokumenta (samo masovna pošta)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_message_needaction_counter
@@ -2158,7 +2158,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
 msgid "Odoo needs your permission to"
-msgstr ""
+msgstr "Odoo treba Vašu dozvolu za"
 
 #. module: mail
 #. openerp-web
@@ -2718,7 +2718,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_email_send
 msgid "Send messages by email"
-msgstr ""
+msgstr "Pošalji poruke e-mailom"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_from
@@ -2734,7 +2734,7 @@ msgstr "Adresa pošiljatelja. Ako nije podešena, koristiti će se e-mail alias 
 #: code:addons/mail/static/src/xml/client_action.xml:94
 #, python-format
 msgid "Sends messages by email"
-msgstr ""
+msgstr "Šalje poruke e-mailom"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search selection:mail.mail,state:0
@@ -2756,13 +2756,13 @@ msgstr "Postavke"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_shortcode_shortcode_type
 msgid "Shortcode type"
-msgstr ""
+msgstr "Tip kratkog koda"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_shortcode_view_form
 #: model:ir.ui.view,arch_db:mail.mail_shortcode_view_tree
 msgid "Shortcodes"
-msgstr ""
+msgstr "Kratki kodovi"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_shortcode_source
@@ -3047,7 +3047,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/chatter.xml:30
 #, python-format
 msgid "To: Followers of"
-msgstr ""
+msgstr "Za: Pratitelji od"
 
 #. module: mail
 #. openerp-web
@@ -3162,21 +3162,21 @@ msgstr "Brojač nepročitanih poruka"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
 msgid "Unread messages"
-msgstr ""
+msgstr "Nepročitane poruke"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:126
 #, python-format
 msgid "Unstar all"
-msgstr ""
+msgstr "Ukloni zvjezdicu sa svih"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:126
 #, python-format
 msgid "Unstar all messages"
-msgstr ""
+msgstr "Ukloni zvjezdicu sa svih poruka"
 
 #. module: mail
 #. openerp-web
@@ -3190,7 +3190,7 @@ msgstr "Odjava"
 #: code:addons/mail/static/src/xml/client_action.xml:127
 #, python-format
 msgid "Unsubscribe from channel"
-msgstr ""
+msgstr "Odjavi pretplatu s kanala"
 
 #. module: mail
 #. openerp-web
@@ -3309,7 +3309,7 @@ msgstr "Dodali ste <b>%s</b> u razgovor."
 #, python-format
 msgid ""
 "You can mark any message as 'starred', and it shows up in this channel."
-msgstr ""
+msgstr "Možete označiti bilo koju poruku zvjezdicom i one će se pojaviti u ovom kanalu."
 
 #. module: mail
 #: code:addons/mail/models/res_users.py:47
@@ -3355,7 +3355,7 @@ msgstr "Možete priložiti datoteke ovom predlošku, one će biti dodate svim e-
 #: code:addons/mail/static/src/js/client_action.js:401
 #, python-format
 msgid "You unsubscribed from <b>%s</b>."
-msgstr ""
+msgstr "Otkazali ste pretplatu na <b>%s</b>."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_server_action_form_template
@@ -3378,7 +3378,7 @@ msgstr "base.config.settings"
 #. module: mail
 #: model:mail.channel,name:mail.channel_2
 msgid "board-meetings"
-msgstr ""
+msgstr "sastanci članova uprave"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_form
@@ -3408,7 +3408,7 @@ msgstr "Sljedbenici"
 #. module: mail
 #: model:mail.channel,name:mail.channel_all_employees
 msgid "general"
-msgstr ""
+msgstr "općenito"
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_actions_server

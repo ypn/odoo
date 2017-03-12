@@ -1,7 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account
-#
+# 
+# Translators:
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
+# PHAM QUOC MY <mypham2802@gmail.com>, 2015
+# son dang <son.dang@doda100.com>, 2016
+# Tuan Tran <tmtuan.projects@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
@@ -860,7 +865,7 @@ msgstr ""
 #: code:addons/account/models/account_invoice.py:1329
 #, python-format
 msgid "A Payment Term should have its last line of type Balance."
-msgstr ""
+msgstr "Dòng cuối trong Quy định thanh toán phải lả Balance."
 "Một Điều khoản thanh toán phải có đợt thanh toán cuối cùng là số dư còn lại "
 "(kiểu balance)."
 
@@ -868,7 +873,7 @@ msgstr ""
 #: code:addons/account/models/account_invoice.py:1332
 #, python-format
 msgid "A Payment Term should have only one line of type Balance."
-msgstr ""
+msgstr "Dòng cuối trong Quy định thanh toán chỉ được có 1 dòng Balance."
 "Một Điều khoản thanh toán chỉ được có một dòng là số dư còn lại (kiểu "
 "balance)."
 
@@ -884,7 +889,7 @@ msgid ""
 "A bank statement is a summary of all financial transactions\n"
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank."
-msgstr ""
+msgstr "Sao kê ngân hàng là bản tóm tắt các giao dịch tài chính được thực hiện trong một khoản thời gian trên tài khoản ngân hàng tương ứng. Bạn có thể nhận sao kê này định kỳ từ ngân hàng nơi bạn mở tài khoản."
 "Một sao kê ngân hàng là một bản tóm tắt tất cả các giao dịch tài chính\n"
 "                xảy ra trong một khoảng thời gian trên tài khoản ngân hàng của bạn.\n"
 "                Bạn có thể cần yêu cầu ngân hàng gửi thứ này cho bạn định kỳ."
@@ -892,7 +897,7 @@ msgstr ""
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid "A bank statement line is a financial transaction on a bank account."
-msgstr ""
+msgstr "Một dòng trong bản sao kê ngân hàng là một giao dịch tài chính trên tài khoản ngân hàng."
 "Một dòng sao kê ngân hàng là một giao dịch tài chính trên một tài khoản ngân"
 " hàng."
 
@@ -901,7 +906,7 @@ msgstr ""
 msgid ""
 "A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction."
-msgstr ""
+msgstr "Một bút toán nhật ký ghi nhận số liệu lên nhiều sổ nhật ký, mỗi số liệu có thể là một giao dịch nợ debit hoặc một giao dịch có credit."
 "Một bút toán sổ nhật ký chứa một vài các phát sinh kế toán, mỗi phát sinh\n"
 "                có thể là một giao dịch với phát sinh nợ hoặc phát sinh có."
 
@@ -910,7 +915,7 @@ msgstr ""
 msgid ""
 "A journal is used to record transactions of all accounting data\n"
 "                related to the day-to-day business."
-msgstr ""
+msgstr "Sổ nhật ký được sử dụng để ghi nhận các tất cả các giao dịch kinh tế phát sinh hàng ngày."
 "Một sổ nhật ký được sử dụng để ghi nhận toàn bộ biến động của các các dữ liệu\n"
 "                kế toán liên quan trên cơ sở hàng ngày."
 
@@ -952,7 +957,7 @@ msgstr "Một phát sinh được chọn đã được đối soát."
 #: code:addons/account/models/account_bank_statement.py:225
 #, python-format
 msgid "A statement cannot be canceled when its lines are reconciled."
-msgstr ""
+msgstr "Không thể huỷ một báo cáo khi các dòng giao dịch có liên quan đã được đối chiếu."
 "Không thể huỷ bỏ sao kê nếu một hay nhiều dòng chi tiết của nó đã được đối "
 "soát"
 
@@ -1019,7 +1024,7 @@ msgstr ""
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_closebalance
 msgid "Account Bank Statement closing balance"
-msgstr ""
+msgstr "Số dư cuối kỳ trên sao kê tài khoản ngân hàng"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_account_report
