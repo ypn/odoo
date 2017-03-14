@@ -10,6 +10,7 @@
 # Phạm Lân <phamquanglan@gmail.com>, 2016
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
+# David Tran <david.tran@ma.tvtmarine.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
@@ -375,6 +376,34 @@ msgstr "<i class=\"text-muted\"> thành viên được trao thưởng</i>"
 #: model:ir.ui.view,arch_db:website_forum.user_badges
 msgid "<i class=\"text-muted\">awarded users</i>"
 msgstr "<i class=\"text-muted\">thành viên được trao thưởng</i>"
+
+#. module: website_forum
+#: code:addons/website_forum/models/forum.py:57
+#, python-format
+msgid ""
+"<section class=\"bg-info\" style=\"height: 168px;\"><div class=\"container\">\n"
+"                        <div class=\"row\">\n"
+"                            <div class=\"col-md-12\">\n"
+"                                <h1 class=\"text-center\" style=\"text-align: left;\">Welcome!</h1>\n"
+"                                <p class=\"text-muted text-center\" style=\"text-align: left;\">This community is for professionals and enthusiasts of our products and services. Share and discuss the best content and new marketing ideas, build your professional profile and become a better marketer together.</p>\n"
+"                            </div>\n"
+"                            <div class=\"col-md-12\">\n"
+"                                <a href=\"#\" class=\"js_close_intro\">Hide Intro</a>    <a class=\"btn btn-primary forum_register_url\" href=\"/web/login\">Register</a> </div>\n"
+"                            </div>\n"
+"                        </div>\n"
+"                    </section>"
+msgstr ""
+"<section class=\"bg-info\" style=\"height: 168px;\"><div class=\"container\">\n"
+"                        <div class=\"row\">\n"
+"                            <div class=\"col-md-12\">\n"
+"                                <h1 class=\"text-center\" style=\"text-align: left;\">Chào mừng!</h1>\n"
+"                                <p class=\"text-muted text-center\" style=\"text-align: left;\">Cộng đồng này là một cộng đồng các chuyên gia và những người có đam mê và đầy nhiệt huyết với các sản phẩm và dịch vụ của chúng tôi. Chia sẻ và thảo luận những nội dung tốt nhất và các ý tưởng marketing mới, xây dựng hồ sơ chuyên nghiệp cho chính bạn thông qua sự đóng góp cho cộng đồng này.</p>\n"
+"                            </div>\n"
+"                            <div class=\"col-md-12\">\n"
+"                                <a href=\"#\" class=\"js_close_intro\">Ẩn Giới thiệu</a>    <a class=\"btn btn-primary forum_register_url\" href=\"/web/login\">Đăng ký</a> </div>\n"
+"                            </div>\n"
+"                        </div>\n"
+"                    </section>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.moderation_display_post_answer
@@ -1258,7 +1287,7 @@ msgstr ""
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.edit_profile
 msgid "Email"
-msgstr ""
+msgstr "Thư điện tử"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_5
@@ -1691,7 +1720,7 @@ msgstr "Giữ Liên lạc"
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_vote___last_update
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag___last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "Sửa lần cuối"
 
 #. module: website_forum
 #: selection:forum.forum,default_order:0
@@ -1854,14 +1883,14 @@ msgid "Nofollow links"
 msgstr "Liên kết Nofollow"
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:871
-#: code:addons/website_forum/models/forum.py:891
+#: code:addons/website_forum/models/forum.py:872
+#: code:addons/website_forum/models/forum.py:892
 #, python-format
 msgid "Not allowed to vote for its own post"
 msgstr "Không được phép bầu chọn bài của chính mình"
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:935
+#: code:addons/website_forum/models/forum.py:936
 #, python-format
 msgid "Not enough karma to create a new Tag"
 msgstr "Không đủ karma để tạo một Tag mới"
@@ -2472,7 +2501,7 @@ msgstr "Tag đã tồn tại!"
 #: model:ir.ui.view,arch_db:website_forum.new_question
 #: model:ir.ui.view,arch_db:website_forum.tag
 msgid "Tags"
-msgstr ""
+msgstr "Thẻ"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_res_users_task_ids
@@ -2602,6 +2631,15 @@ msgid "This post is already flagged"
 msgstr "Bài này đã bị gắn cờ rồi"
 
 #. module: website_forum
+#: model:ir.ui.view,arch_db:website_forum.post_description_full
+msgid ""
+"This post is currently awaiting moderation and not yet published... Do you "
+"want <i>Accept</i> or <i>Reject</i> this post ?"
+msgstr ""
+"Bài này đang đợi điều chỉnh và chưa được xuất bạn... Bạn có muốn "
+"<i>Chấp thuận</i> hoặc <i>Từ chối</i> bài này?"
+
+#. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.private_profile
 msgid "This profile is private!"
 msgstr "Hồ sơ này mang tính riêng tư!"
@@ -2609,7 +2647,7 @@ msgstr "Hồ sơ này mang tính riêng tư!"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "Threads"
-msgstr ""
+msgstr "Luồng"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_name
