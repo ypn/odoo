@@ -14,13 +14,14 @@
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 # Duy Pham <phamduy1812@gmail.com>, 2016
 # PHAM QUOC MY <mypham2802@gmail.com>, 2016
+# Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-22 14:03+0000\n"
 "PO-Revision-Date: 2016-11-22 14:03+0000\n"
-"Last-Translator: PHAM QUOC MY <mypham2802@gmail.com>, 2016\n"
+"Last-Translator: Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +47,7 @@ msgid " (%s reserved)"
 msgstr " (%s được xí)"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:217
+#: code:addons/stock/models/stock_move.py:220
 #, python-format
 msgid " (reserved)"
 msgstr " (được xí)"
@@ -77,7 +78,7 @@ msgid "#Products"
 msgstr "SL Sản phẩm"
 
 #. module: stock
-#: code:addons/stock/models/stock_warehouse.py:453
+#: code:addons/stock/models/stock_warehouse.py:449
 #, python-format
 msgid "%s: Supply Product from %s"
 msgstr "%s: Cung cấp sản phẩm từ %s"
@@ -86,7 +87,7 @@ msgstr "%s: Cung cấp sản phẩm từ %s"
 #: code:addons/stock/models/res_company.py:24
 #, python-format
 msgid "%s: Transit Location"
-msgstr "%s: Địa điểm chuyển tiếp"
+msgstr "%s: Địa điểm Chuyển tiếp"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_state
@@ -3112,18 +3113,18 @@ msgstr "Địa điểm Kiểm kê"
 #. module: stock
 #: selection:stock.location,usage:0
 msgid "Inventory Loss"
-msgstr "Mất mát/Kiểm kê"
+msgstr "Thất Thoát/Kiểm kê"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_scrap_form_view
 msgid "Inventory Move"
-msgstr ""
+msgstr "Dịch chuyển Kiểm kê"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_name
 #: model:ir.ui.view,arch_db:stock.view_inventory_filter
 msgid "Inventory Reference"
-msgstr "Tham chiếu"
+msgstr "Tham chiếu Kiểm kê"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_location_route
@@ -5621,7 +5622,7 @@ msgstr "Thời gian dự kiến cho phần cuối cùng của lô hàng được
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_sched
 msgid "Schedulers"
-msgstr ""
+msgstr "Lập kế hoạch"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:1031
