@@ -8,10 +8,10 @@
 # Ly The Thanh <lythanh24@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-14 12:26+0000\n"
-"PO-Revision-Date: 2017-03-29 16:37+0000\n"
+"PO-Revision-Date: 2017-05-17 03:28+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-8/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,8 @@ msgstr ""
 
 #. module: stock
 #: help:stock.picking,state:0
-msgid "\n"
+msgid ""
+"\n"
 "                * Draft: not confirmed yet and will not be scheduled until confirmed\n"
 "\n"
 "                * Waiting Another Operation: waiting for another move to proceed before it becomes automatically available (e.g. in Make-To-Order flows)\n"
@@ -73,7 +74,11 @@ msgstr " (xí trước)"
 #. module: stock
 #: code:addons/stock/stock.py:3298
 #, python-format
-msgid " MTO"
+msgid ""
+"You cannot have two inventory adjustements in state 'in Progess' with the "
+"same product(%s), same location(%s), same package, same owner and same lot. "
+"Please first validate the first inventory adjustement with this product "
+"before creating another one."
 msgstr ""
 
 #. module: stock
@@ -5300,13 +5305,7 @@ msgid "You cannot cancel a stock move that has been set to 'Done'."
 msgstr "Bạn không thể xóa một dịch chuyển kho mà đã được thiết lập là 'Hoàn thành'."
 
 #. module: stock
-#: code:addons/stock/stock.py:2958
-#, python-format
-msgid "You cannot have two inventory adjustements in state 'in Progess' with the same product(%s), same location(%s), same package, same owner and same lot. Please first validate the first inventory adjustement with this product before creating another one."
-msgstr ""
-
-#. module: stock
-#: code:addons/stock/stock.py:657
+#: code:addons/stock/stock.py:638
 #, python-format
 msgid "You cannot move to a location of type view %s."
 msgstr "Bạn không thể đưa hàng hóa vào địa điểm kho có kiểu chỉ xem (view) %s."
@@ -5329,12 +5328,6 @@ msgstr "Bạn không thể tách một dịch chuyển dự thảo. Nó cần ph
 #, python-format
 msgid "You cannot split a move done"
 msgstr "Bạn không thể tách một dịch chuyển đã hoàn thành"
-
-#. module: stock
-#: code:addons/stock/wizard/stock_transfer_details.py:79
-#, python-format
-msgid "You cannot transfer a picking in state '%s'."
-msgstr ""
 
 #. module: stock
 #: code:addons/stock/wizard/stock_return_picking.py:135
