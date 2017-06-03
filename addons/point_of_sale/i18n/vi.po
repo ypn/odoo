@@ -3,12 +3,14 @@
 # * point_of_sale
 # 
 # Translators:
+# Minh Nguyen <minh@kiuasia.com>, 2016
+# trieu le <trieu.lth@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
-"PO-Revision-Date: 2017-03-29 15:52+0000\n"
+"PO-Revision-Date: 2017-05-27 08:21+0000\n"
 "Last-Translator: trieu le <trieu.lth@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +52,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1451
 #, python-format
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
@@ -67,7 +69,19 @@ msgstr "+ Giao dịch"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:277
 #, python-format
 msgid "123.14 €"
-msgstr "3.100.000 đ"
+msgstr "123.14 €"
+
+#. module: point_of_sale
+#: model:product.product,name:point_of_sale.evian_2l
+#: model:product.template,name:point_of_sale.evian_2l_product_template
+msgid "2L Evian"
+msgstr ""
+
+#. module: point_of_sale
+#: model:product.product,name:point_of_sale.perrier_50cl
+#: model:product.template,name:point_of_sale.perrier_50cl_product_template
+msgid "50cl Perrier"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_receipt
