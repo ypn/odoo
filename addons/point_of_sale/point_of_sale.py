@@ -1042,10 +1042,10 @@ class pos_order(osv.osv):
                     'location_id': location_id,
                     'location_dest_id': destination_id,
                 }
-                pos_qty = any([x.qty > 0 for x in order.lines])
+                pos_qty = any([x.qty > 0 for x in order.lines if x.product_id.type in ['product', 'consu']])
                 if pos_qty:
                     order_picking_id = picking_obj.create(cr, uid, picking_vals.copy(), context=context)
-                neg_qty = any([x.qty < 0 for x in order.lines])
+                neg_qty = any([x.qty < 0 for x in order.lines if x.product_id.type in ['product', 'consu']])
                 if neg_qty:
                     return_vals = picking_vals.copy()
                     return_vals.update({
@@ -1602,7 +1602,8 @@ class pos_order_line(osv.osv):
             fiscal_position_id = line.order_id.fiscal_position_id
             if fiscal_position_id:
                 taxes = fiscal_position_id.map_tax(taxes)
-            price = line.price_unit * (1 - (line.discount or 0.0) / 100.0)
+            price = self.env['account.tax']._fix_tax_included_price(
+                line.price_unit * (1 - (line.discount or 0.0) / 100.0), line.product_id.taxes_id, taxes)
             line.price_subtotal = line.price_subtotal_incl = price * line.qty
             if taxes:
                 taxes = taxes.compute_all(price, currency, line.qty, product=line.product_id, partner=line.order_id.partner_id or False)
