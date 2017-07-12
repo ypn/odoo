@@ -754,12 +754,12 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_orders_abandonned_orders
 msgid "Abandonned Orders"
-msgstr ""
+msgstr "Đơn hàng bị Huỷ"
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.action_abandonned_orders_ecommerce
 msgid "Abandonned eCommerce Orders"
-msgstr ""
+msgstr "Đơn hàng Thương mại Điện tử bị Huỷ"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product_accessory_product_ids
@@ -769,11 +769,14 @@ msgid ""
 "sell strategy, e.g. for computers: mouse, keyboard, etc.). An algorithm "
 "figures out a list of accessories based on all the products added to cart."
 msgstr ""
+"Các phụ kiện sẽ được hiển thị khi khách hàng xem lại giỏ hàng trước khi thanh toán "
+"(chiến lược bán chéo, vd: đối với máy tính: chuột, bàn phims, v.v.). Một thuật toán "
+"tính toán ra danh mục phụ kiện dựa trên tất cả các sản phẩm được thêm vào giỏ hàng."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Accessories: screen, mouse"
-msgstr ""
+msgstr "Phụ kiện: màn hình, chuột"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_accessory_product_ids
@@ -796,6 +799,7 @@ msgstr "Thêm Phí giao hàng vào Đơn hàng Trực tuyến"
 msgid ""
 "Add a step to request some extra customer data (picking preferences, etc.)"
 msgstr ""
+"Thêm một bước để đề nghị một số dữ liệu bổ sung từ khách hàng (chú dẫn giao hàng, v.v.)"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -816,12 +820,12 @@ msgstr "Địa chỉ"
 #: model:ir.model.fields,help:website_sale.field_product_product_availability
 #: model:ir.model.fields,help:website_sale.field_product_template_availability
 msgid "Adds an availability status on the web product page."
-msgstr ""
+msgstr "Thêm một trạng thái khả dụng trên trang sản phẩm ở web."
 
 #. module: website_sale
 #: selection:website.config.settings,sale_pricelist_setting_split_2:0
 msgid "Advanced pricing based on formulas (discounts, margins, rounding)"
-msgstr ""
+msgstr "Chính sách giá nâng cao dựa trên các công thức (chiết khấu, lợi nhuận biên, làm tròn, v.v.)"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.option_collapse_products_categories
@@ -898,7 +902,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:21
 #, python-format
 msgid "Best Sellers"
-msgstr ""
+msgstr "Bạn chạy Nhất"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.bill_to
@@ -2817,17 +2821,17 @@ msgstr ""
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_abandonned_orders_ecommerce
 msgid "You don't have any cancelled order from the website."
-msgstr ""
+msgstr "Bạn không có bất kỳ đơn hàng nào đặt từ website bị huỷ."
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_orders_ecommerce
 msgid "You don't have any confirmed order from the website."
-msgstr ""
+msgstr "Bạn không có bất kỳ đơn hàng nào đặt từ website đã được xác nhận."
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_unpaid_orders_ecommerce
 msgid "You don't have any unpaid order from the website."
-msgstr ""
+msgstr "Bạn không có bất kỳ đơn hàng nào đặt từ website mà chưa thanh toán."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
