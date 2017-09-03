@@ -1108,6 +1108,7 @@ exports.Orderline = Backbone.Model.extend({
         orderline.quantity = this.quantity;
         orderline.quantityStr = this.quantityStr;
         orderline.discount = this.discount;
+        orderline.price = this.price;
         orderline.type = this.type;
         orderline.selected = false;
         return orderline;
@@ -1358,6 +1359,9 @@ exports.Orderline = Backbone.Model.extend({
         _(taxes).each(function(tax) {
             if (!no_map_tax){
                 tax = self._map_tax_fiscal_position(tax);
+            }
+            if (!tax){
+                return;
             }
             if (tax.amount_type === 'group'){
                 var ret = self.compute_all(tax.children_tax_ids, price_unit, quantity, currency_rounding);

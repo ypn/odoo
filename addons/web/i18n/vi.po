@@ -4,14 +4,16 @@
 # 
 # Translators:
 # Hồng Quân Nguyễn <ng.hong.quan@gmail.com>, 2016
+# Hồng Quân Nguyễn <ng.hong.quan@gmail.com>, 2016
+# Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-18 04:43+0000\n"
-"PO-Revision-Date: 2017-02-15 07:06+0000\n"
-"Last-Translator: Tuan Tran <tmtuan.projects@gmail.com>\n"
+"PO-Revision-Date: 2017-08-17 08:22+0000\n"
+"Last-Translator: Thang Duong Bao <nothingctrl@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -167,21 +169,21 @@ msgstr "'%s' không phải kiểu float hợp lệ"
 #: code:addons/web/static/src/js/framework/formats.js:134
 #, python-format
 msgid "'%s' is not a correct integer"
-msgstr ""
+msgstr "'%s' không phải kiểu số nguyên hợp lệ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/formats.js:176
 #, python-format
 msgid "'%s' is not a correct time"
-msgstr ""
+msgstr "'%s' không phải kiểu thời gian hợp lệ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/time.js:205
 #, python-format
 msgid "'%s' is not convertible to date, datetime nor time"
-msgstr ""
+msgstr "'%s' không chuyển đổi được thành ngày, ngày giờ hoặc giờ"
 
 #. module: web
 #. openerp-web
@@ -296,63 +298,70 @@ msgstr "Hiệu lực"
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:663
 #, python-format
+msgid "Activate the developer mode"
+msgstr "Kích hoạt chế độ cho nhà phát triển"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/form_widgets.js:657
+#, python-format
 msgid "Active"
 msgstr "Hiệu lực"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/form_relational_widgets.js:1357
-#: code:addons/web/static/src/xml/base.xml:1059
-#: code:addons/web/static/src/xml/base.xml:1299
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1367
+#: code:addons/web/static/src/xml/base.xml:1110
+#: code:addons/web/static/src/xml/base.xml:1343
 #, python-format
 msgid "Add"
 msgstr "Thêm"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1172
+#: code:addons/web/static/src/xml/base.xml:1216
 #, python-format
 msgid "Add Custom Filter"
 msgstr "Thêm bộ lọc tùy chỉnh"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1173
+#: code:addons/web/static/src/xml/base.xml:1217
 #, python-format
 msgid "Add a condition"
 msgstr "Thêm một điều kiện"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/form_relational_widgets.js:1006
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1016
 #, python-format
 msgid "Add an item"
 msgstr "Thêm một hạng mục"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1183
+#: code:addons/web/static/src/xml/base.xml:1227
 #, python-format
 msgid "Add custom group"
 msgstr "Thêm nhóm tùy chỉnh"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:272
+#: code:addons/web/static/src/xml/base.xml:323
 #, python-format
 msgid "Add..."
 msgstr "Thêm..."
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/form_relational_widgets.js:1298
+#: code:addons/web/static/src/js/views/form_relational_widgets.js:1308
 #, python-format
 msgid "Add: "
 msgstr "Thêm: "
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1079
+#: code:addons/web/static/src/xml/base.xml:1123
 #, python-format
 msgid "Advanced Search..."
 msgstr "Tìm kiếm nâng cao..."
@@ -366,7 +375,7 @@ msgstr "Báo động"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:513
+#: code:addons/web/static/src/xml/base.xml:564
 #, python-format
 msgid "All users"
 msgstr "Tất cả người dùng"
