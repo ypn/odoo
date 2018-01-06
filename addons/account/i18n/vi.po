@@ -166,7 +166,7 @@ msgstr "${object.company_id.name} Hoá đơn (Ref ${object.number or 'n/a'})"
 #. module: account
 #: model:mail.template,subject:account.mail_template_data_notification_email_account_invoice
 msgid "${object.subject}"
-msgstr "${object.subject}"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:467
@@ -5453,8 +5453,7 @@ msgstr ""
 #: code:addons/account/models/account_invoice.py:573
 #, python-format
 msgid "Invoice must be validated in order to set it to register payment."
-msgstr ""
-"Hoá đơn phải được xác nhận để có thể ghi nhận thanh toán cho nó."
+msgstr "Hoá đơn phải được xác nhận để có thể ghi nhận thanh toán cho nó."
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_paid
