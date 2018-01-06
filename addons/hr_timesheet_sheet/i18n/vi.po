@@ -176,7 +176,7 @@ msgstr ""
 #. module: hr_timesheet_sheet
 #: model:ir.ui.view,arch_db:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "In Draft"
-msgstr ""
+msgstr "Dự thảo"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:106
@@ -186,6 +186,8 @@ msgid ""
 "In order to create a timesheet for this employee, you must link him/her to a"
 " user."
 msgstr ""
+"Để tạo một bảng chấm công cho nhân viên này, bạn phải liên kết nhân viên này"
+" với một tài khoản người dùng."
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_current_open___last_update
@@ -269,7 +271,7 @@ msgstr "Mở"
 #: code:addons/hr_timesheet_sheet/wizard/hr_timesheet_current.py:26
 #, python-format
 msgid "Open Timesheet"
-msgstr ""
+msgstr "Mở bảng chấm công"
 
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,help:hr_timesheet_sheet.field_project_config_settings_timesheet_range
@@ -474,13 +476,13 @@ msgstr "Tuần"
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:153
 #, python-format
 msgid "You cannot delete a timesheet which is already confirmed."
-msgstr ""
+msgstr "Bạn không thể xóa một bảng chấm công mà đã được xác nhận."
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:99
 #, python-format
 msgid "You cannot duplicate a timesheet."
-msgstr ""
+msgstr "Bạn không thể sao chép một bảng chấm công."
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/models/hr_timesheet_sheet.py:85
@@ -489,12 +491,14 @@ msgid ""
 "You cannot have 2 timesheets that overlap!\n"
 "Please use the menu 'My Current Timesheet' to avoid this problem."
 msgstr ""
+"Bạn không thể có 2 bảng chấm công chồng chéo!\n"
+"Vui lòng sử dụng trình đơn 'Bảng chấm công hiện tại của bạn' để tránh vấn đề này."
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/models/account_analytic_line.py:60
 #, python-format
 msgid "You cannot modify an entry in a confirmed timesheet."
-msgstr ""
+msgstr "Bạn không thể sửa một hạng mục trong một bảng thời gian đã xác nhận."
 
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,help:hr_timesheet_sheet.act_hr_timesheet_sheet_form

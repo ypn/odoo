@@ -861,7 +861,7 @@ msgstr "Người nhận bản sao (placeholders có thể dùng được ở đ�
 #: model:ir.model.fields,field_description:mail.field_mail_mail_email_cc
 #: model:ir.model.fields,field_description:mail.field_mail_template_email_cc
 msgid "Cc"
-msgstr ""
+msgstr "CC"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
@@ -3023,7 +3023,7 @@ msgstr "Ghi chú bởi"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search
 msgid "Notification"
-msgstr ""
+msgstr "Thông báo"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_notification_ids
@@ -3031,7 +3031,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message_notification_ids
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_notification_ids
 msgid "Notifications"
-msgstr ""
+msgstr "Thông báo"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_notify
@@ -4013,6 +4013,9 @@ msgid ""
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
 msgstr ""
+"Hình cỡ nhỏ đại diện cho nhóm. Hình sẽ tự động được đưa về kích thước "
+"64x64px và giữ nguyên tỷ lệ. Sử dụng trường này bất cứ đâu có yêu cầu hình "
+"nhỏ."
 
 #. module: mail
 #: selection:mail.shortcode,shortcode_type:0
@@ -4219,6 +4222,8 @@ msgid ""
 "This field holds the image used as photo for the group, limited to "
 "1024x1024px."
 msgstr ""
+"Trường này chứa hình được sử dụng đại diện cho nhóm, giới hạn tối đa "
+"1024x1024px."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_channel_public

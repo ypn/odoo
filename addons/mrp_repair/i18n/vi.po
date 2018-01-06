@@ -195,6 +195,8 @@ msgid ""
 "Couldn't find a pricelist line matching this product and quantity.\n"
 "You have to change either the product, the quantity or the pricelist."
 msgstr ""
+"Không thể tìn thấy một quy tắc tính giá phù hợp với số lượng và sản phẩm này.\n"
+"Bạn phải thay đổi hoặc sản phẩm, số lượng hoặc bảng giá."
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,name:mrp_repair.act_mrp_repair_invoice
@@ -490,7 +492,7 @@ msgstr ""
 #: code:addons/mrp_repair/models/mrp_repair.py:568
 #, python-format
 msgid "No valid pricelist line found !"
-msgstr ""
+msgstr "Không tìm thấy quy tắc tính giá hợp lệ !"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -677,13 +679,13 @@ msgstr ""
 #: code:addons/mrp_repair/models/mrp_repair.py:223
 #, python-format
 msgid "Repair order is already invoiced."
-msgstr ""
+msgstr "Lệnh sửa chữa đã được xuất hoá đơn."
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/wizard/mrp_repair_cancel.py:20
 #, python-format
 msgid "Repair order is not invoiced."
-msgstr ""
+msgstr "Lệnh sửa chữa không được xuất hoá đơn."
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_repaired

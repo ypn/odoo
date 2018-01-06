@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # trieu le <trieu.lth@gmail.com>, 2016
@@ -1055,17 +1055,17 @@ msgstr ""
 #: code:addons/account/models/account_invoice.py:1399
 #, python-format
 msgid "A Payment Term should have its last line of type Balance."
-msgstr "Dòng cuối trong Quy định thanh toán phải lả Balance."
-"Một Điều khoản thanh toán phải có đợt thanh toán cuối cùng là số dư còn lại "
-"(kiểu balance)."
+msgstr ""
+"Dòng cuối trong Quy định thanh toán phải lả Balance.Một Điều khoản thanh "
+"toán phải có đợt thanh toán cuối cùng là số dư còn lại (kiểu balance)."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1402
 #, python-format
 msgid "A Payment Term should have only one line of type Balance."
-msgstr "Dòng cuối trong Quy định thanh toán chỉ được có 1 dòng Balance."
-"Một Điều khoản thanh toán chỉ được có một dòng là số dư còn lại (kiểu "
-"balance)."
+msgstr ""
+"Dòng cuối trong Quy định thanh toán chỉ được có 1 dòng Balance.Một Điều "
+"khoản thanh toán chỉ được có một dòng là số dư còn lại (kiểu balance)."
 
 #. module: account
 #: code:addons/account/models/account.py:535
@@ -1135,8 +1135,9 @@ msgstr ""
 #: code:addons/account/models/account_move.py:731
 #, python-format
 msgid "A reconciliation must involve at least 2 move lines."
-msgstr "Một đối soát phải có ít nhất 2 dòng (2 phát sinh kế toán)."
-"Một phép đối chiếu tài khoản phải liên hệ ít nhất đến 2 dòng giao dịch."
+msgstr ""
+"Một đối soát phải có ít nhất 2 dòng (2 phát sinh kế toán).Một phép đối chiếu"
+" tài khoản phải liên hệ ít nhất đến 2 dòng giao dịch."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:867
@@ -5452,7 +5453,8 @@ msgstr ""
 #: code:addons/account/models/account_invoice.py:573
 #, python-format
 msgid "Invoice must be validated in order to set it to register payment."
-msgstr "Hoá đơn phải được xác nhận để thiết lập để ghi nhận thanh toán cho nó."
+msgstr ""
+"Hoá đơn phải được xác nhận để có thể ghi nhận thanh toán cho nó."
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_paid
@@ -5618,9 +5620,9 @@ msgid ""
 "since it would create a gap in the numbering. You should create the journal "
 "entry again and cancel it thanks to a regular revert."
 msgstr ""
-"Không được phép xoá một khoản thanh toán mà đã tạo bút toán sổ nhật ký bởi vì"
-" việc này sẽ tạo một khoảng trống trong số / trình tự. Bạn nên tạo lại một "
-"bút toán sổ nhật ký và huỷ nó thanks to a regular revert."
+"Không được phép xoá một khoản thanh toán mà đã tạo bút toán sổ nhật ký bởi "
+"vì việc này sẽ tạo một khoảng trống trong số / trình tự. Bạn nên tạo lại một"
+" bút toán sổ nhật ký và huỷ nó thanks to a regular revert."
 
 #. module: account
 #. openerp-web
@@ -7128,7 +7130,7 @@ msgstr "Đã Thanh toán / Đối soát"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_parent_id
 msgid "Parent"
-msgstr ""
+msgstr "Tài khoản cha"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_parent_id
@@ -7664,6 +7666,7 @@ msgid ""
 "Print Report with the currency column if the currency differs from the "
 "company currency."
 msgstr ""
+"In báo cáo với cột tiền tệ nếu tiền tệ này khác với tiền tệ của công ty."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
@@ -9396,8 +9399,8 @@ msgid ""
 "The selected account of your Journal Entry forces to provide a secondary "
 "currency. You should remove the secondary currency on the account."
 msgstr ""
-"Tài khoản được chọn của sổ nhật ký buộc bạn phải cung cấp tiền tệ thứ 2. "
-"Bạn nên gỡ bỏ tiền tệ thứ 2 đó ra khỏi khai báo trên tài khoản."
+"Tài khoản được chọn của sổ nhật ký buộc bạn phải cung cấp tiền tệ thứ 2. Bạn"
+" nên gỡ bỏ tiền tệ thứ 2 đó ra khỏi khai báo trên tài khoản."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1325

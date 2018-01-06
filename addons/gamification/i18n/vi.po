@@ -285,6 +285,8 @@ msgid ""
 "A goal is considered as completed when the current value is compared to the "
 "value to reach"
 msgstr ""
+"Một tiêu chí được coi là hoàn thành khi giá trị hiện tại của tiêu chí bằng "
+"giá trị cần phải đạt được (value to reach)"
 
 #. module: gamification
 #: model:ir.actions.act_window,help:gamification.goal_list_action
@@ -642,7 +644,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition_description_4553
 msgid "Definition Description"
-msgstr ""
+msgstr "Mô tả Định nghĩa"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -660,7 +662,7 @@ msgstr "Mô tả thử thách: nó làm gì, hướng đến ai, tại sao nó q
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Describe what they did and why it matters (will be public)"
-msgstr ""
+msgstr "Mô tả cái chúng làm và tại sao nó quan trọng (sẽ mang tính công cộng)"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_description
@@ -1591,7 +1593,7 @@ msgstr "Thử thách %s được kết thúc."
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition_full_suffix
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition_suffix_4549
 msgid "The currency and suffix field"
-msgstr ""
+msgstr "Trường tiền tệ và hậu tố"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition_field_date_id
@@ -1740,12 +1742,14 @@ msgstr "Số lần nhận huy chương này được nhận."
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition_monetary
 msgid "The target and current value are defined in the company currency."
 msgstr ""
+"Giá trị mục tiêu và giá trị hiện hành được xác định bằng tiền tệ của công "
+"ty."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge_line_definition_suffix
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition_suffix
 msgid "The unit of the target and current values"
-msgstr ""
+msgstr "Đơn vị của giá trị mục tiêu và giá trị hiện hành"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge_manager_id

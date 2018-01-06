@@ -245,7 +245,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_order_sequence_number
 msgid "A session-unique sequence number for the order"
-msgstr ""
+msgstr "Một số thứ tự duy nhất theo phiên cho đơn hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_receipt_footer
@@ -666,8 +666,8 @@ msgid ""
 "Check this box if this journal define a payment method that can be used in a"
 " point of sale."
 msgstr ""
-"Đánh dấu nếu sổ nhật ký này xác định một phương thức thanh toán mà có thể được "
-"sử dụng ở điểm bán lẻ (PoS)."
+"Đánh dấu nếu sổ nhật ký này xác định một phương thức thanh toán mà có thể "
+"được sử dụng ở điểm bán lẻ (PoS)."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_by
@@ -675,8 +675,8 @@ msgid ""
 "Check this if you want to group the Journal Items by Product while closing a"
 " Session"
 msgstr ""
-"Đánh dấu nếu bạn muốn nhóm các Phát sinh Kế toán theo Sản phẩm khi đóng một"
-" Phiên"
+"Đánh dấu nếu bạn muốn nhóm các Phát sinh Kế toán theo Sản phẩm khi đóng một "
+"Phiên"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2238,7 +2238,7 @@ msgstr "Vui lòng xác định tài khoản doanh thu cho sản phẩm này: \"%
 #: code:addons/point_of_sale/models/pos_order.py:446
 #, python-format
 msgid "Please provide a partner for the sale."
-msgstr ""
+msgstr "Vui lòng chỉ ra một đối tác"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3064,8 +3064,7 @@ msgid ""
 "                    or action associated with the scanned barcode."
 msgstr ""
 "Điểm bán lẻ (PoS) đã không thể tìm thấy bất kỳ sản phẩm, khách hàng\n"
-"                    nhân viên hay bất cứ hành động nào liên quan đến"
-"                    máy quét mã vạch."
+"                    nhân viên hay bất cứ hành động nào liên quan đến                    máy quét mã vạch."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:182
@@ -3088,8 +3087,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The company of the stock location is different than the one of point of sale"
-msgstr ""
-"Công ty ứng với địa điểm kho khác với công ty ứng với điểm bán lẻ"
+msgstr "Công ty ứng với địa điểm kho khác với công ty ứng với điểm bán lẻ"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:187
@@ -3120,8 +3118,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The invoice journal and the point of sale must belong to the same company"
-msgstr ""
-"Sổ nhật ký hoá đơn và điểm bán lẻ phải thuộc về cùng một công ty"
+msgstr "Sổ nhật ký hoá đơn và điểm bán lẻ phải thuộc về cùng một công ty"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:93
@@ -3227,7 +3224,8 @@ msgstr ""
 msgid ""
 "The type of the journal for your payment method should be bank or cash "
 msgstr ""
-"Kiểu của sổ nhật ký cho phương thức thanh toán của bạn phải là ngân hàng hoặc tiền mặt"
+"Kiểu của sổ nhật ký cho phương thức thanh toán của bạn phải là ngân hàng "
+"hoặc tiền mặt"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session_cash_register_balance_end
@@ -3268,8 +3266,8 @@ msgid ""
 "There is no receivable account defined to make payment for the partner: "
 "\"%s\" (id:%d)."
 msgstr ""
-"Chưa có tài khoản phải thu được xác định để thực hiện thanh toán cho đối tác: "
-"\"%s\" (id:%d)."
+"Chưa có tài khoản phải thu được xác định để thực hiện thanh toán cho đối "
+"tác: \"%s\" (id:%d)."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:642
@@ -3493,7 +3491,7 @@ msgstr "Tổng:"
 #: code:addons/point_of_sale/models/pos_order.py:306
 #, python-format
 msgid "Trade Receivables"
-msgstr ""
+msgstr "Khoản phải thu"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:150
@@ -3692,6 +3690,8 @@ msgid ""
 "You cannot use the session of another users. This session is owned by %s. "
 "Please first close this one to use this point of sale."
 msgstr ""
+"Bạn không thể sử dụng phiên của các Người dùng khác. Phiên này là của %s. "
+"Vui lòng đóng phiên này trước khi bạn có thể bắt đầu bằng phiên của bạn"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_open_statement.py:18
@@ -3773,6 +3773,9 @@ msgid ""
 "(%.2f), the maximum allowed is: %.2f. You can contact your manager to force "
 "it."
 msgstr ""
+"Số dư cuối của bạn quá khác biệt số với số dư đóng theo lý thuyết (%.2f), "
+"tối đa cho phép là: %.2f. Bạn có thể liên hệ với người quản lý của bạn để  "
+"có thể cưỡng bức chấp chấp sự khác biệt này."
 
 #. module: point_of_sale
 #. openerp-web

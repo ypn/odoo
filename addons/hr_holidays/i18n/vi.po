@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
-# 
+#
 # Translators:
 # David Tran <david.tran@ma.tvtmarine.com>, 2016
 # lam nguyen <lamev.inc@gmail.com>, 2016
@@ -256,7 +256,7 @@ msgstr "Nghỉ được Duyệt"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.hr_holidays_leaves_assign_tree_view
 msgid "Assign Leaves"
-msgstr ""
+msgstr "Gán ngày nghỉ"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_resource_calendar_uom_id
@@ -309,6 +309,8 @@ msgid ""
 "By Employee: Allocation/Request for individual Employee, By Employee Tag: "
 "Allocation/Request for group of employees in category"
 msgstr ""
+"Theo nhân viên: Phân bổ/Yêu cầu cho một Nhân viên, theo Nhóm nhân viên "
+"(tags): Phân bổ/Yêu cầu các Nhân viên có cùng Nhóm (tags)"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_can_reset
@@ -342,6 +344,8 @@ msgid ""
 "Choose 'Leave Request' if someone wants to take an off-day. \n"
 "Choose 'Allocation Request' if you want to increase the number of leaves available for someone"
 msgstr ""
+"Chọn 'Yêu cầu nghỉ' nếu ai đó muốn thực hiện việc xin nghỉ. \n"
+"Chọn 'Phân bổ Yêu cầu' nếu bạn muốn tăng số ngày nghỉ cho một ai đó"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.open_allocation_holidays
@@ -519,6 +523,8 @@ msgid ""
 "Filters only on allocations and requests that belong to an holiday type that"
 " is 'active' (active field is True)"
 msgstr ""
+"Chi lọc các phân bổ và yêu cầu mà thuộc về một loại nghỉ phép có hiệu lực "
+"(trường Hiệu lực được đánh dấu)"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_manager_id
@@ -588,6 +594,8 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the leave "
 "type without removing it."
 msgstr ""
+"Nếu bỏ đánh dấu trường 'Hiệu lực', nó sẽ cho phép bạn ẩn loại nghỉ mà không "
+"cần xóa bỏ nó."
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_limit
@@ -985,6 +993,8 @@ msgid ""
 "Once a leave is validated, Odoo will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
+"Khi một ngày nghỉ được thẩm định, hệ thống sẽ tạo một  meeting tương ứng của"
+" loại này trên lịch."
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.open_ask_holidays
@@ -1191,6 +1201,8 @@ msgid ""
 "The employee or employee category of this request is missing. Please make "
 "sure that your user login is linked to an employee."
 msgstr ""
+"Nhân viên hoặc Nhóm nhân viên của yêu cầu này không được tìm thấy. Xin hãy "
+"chắc chắn rằng tài khoản đăng nhập của bạn được liên kết tới một Nhân viên."
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr.py:117
@@ -1346,7 +1358,7 @@ msgstr "Tím sẫm"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_status_virtual_remaining_leaves
 msgid "Virtual Remaining Leaves"
-msgstr ""
+msgstr "Nghỉ còn lại"
 
 #. module: hr_holidays
 #: selection:hr.employee,current_leave_state:0

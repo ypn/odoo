@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock
-# 
+#
 # Translators:
 # David Tran <david.tran@ma.tvtmarine.com>, 2016
 # lam nguyen <lamev.inc@gmail.com>, 2016
@@ -1677,7 +1677,7 @@ msgstr "Ngày tạo, thường là ngày đặt hàng"
 #: code:addons/stock/models/stock_warehouse.py:405
 #, python-format
 msgid "Cross-Dock"
-msgstr ""
+msgstr "Điểm trung chuyển"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_crossdock_route_id
@@ -2797,8 +2797,8 @@ msgid ""
 "If this is checked only, it will suppose you want to create new Lots/Serial "
 "Numbers, so you can provide them in a text field. "
 msgstr ""
-"Nếu chỉ trường này được đánh dấu, Odoo sẽ tin rằng bạn muốn tạo mới Số Lô/Sê-ri, "
-"để bạn có thể cung cấp số trong một trường kiểu text."
+"Nếu chỉ trường này được đánh dấu, Odoo sẽ tin rằng bạn muốn tạo mới Số Lô"
+"/Sê-ri, để bạn có thể cung cấp số trong một trường kiểu text."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_use_existing_lots
@@ -2807,9 +2807,10 @@ msgid ""
 "can also decide to not put lots in this picking type.  This means it will "
 "create stock with no lot or not put a restriction on the lot taken. "
 msgstr ""
-"Nếu trường này được đánh dấu, bạn sẽ có thể chọn một Số Lô/Sê-ri. Bạn cũng có "
-"thể quyết định không chọn lô với kiểu giao nhận này. Điều này có nghĩa là Odoo "
-"sẽ dịch chuyển hàng hoá mà không gắn với lô/sê-ri hay ràng buộc phải sử dụng số lô/sê-ri"
+"Nếu trường này được đánh dấu, bạn sẽ có thể chọn một Số Lô/Sê-ri. Bạn cũng "
+"có thể quyết định không chọn lô với kiểu giao nhận này. Điều này có nghĩa là"
+" Odoo sẽ dịch chuyển hàng hoá mà không gắn với lô/sê-ri hay ràng buộc phải "
+"sử dụng số lô/sê-ri"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_backorder_id
@@ -4780,7 +4781,7 @@ msgstr "Bảng kế hàng giao nhận"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.procurement_group_form_view_herited
 msgid "Pickings"
-msgstr ""
+msgstr "Giao nhận"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -5855,8 +5856,7 @@ msgid ""
 "Set the <i>Real Quantity</i> for each Product and <i>Validate the "
 "Inventory</i>"
 msgstr ""
-"Thiết lập <i>Số lượng Thực</i> cho từng Sản phẩm và <i>Xác nhận kiểm "
-"kho</i>"
+"Thiết lập <i>Số lượng Thực</i> cho từng Sản phẩm và <i>Xác nhận kiểm kho</i>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -6451,8 +6451,8 @@ msgid ""
 "The requested operation cannot be processed because of a programming error "
 "setting the `product_qty` field instead of the `product_uom_qty`."
 msgstr ""
-"Hoạt động được yêu cầu không thể thực hiện được bởi vì một lỗi lập trình được "
-"thiết lập trường `product_qty` thay vì `product_uom_qty`."
+"Hoạt động được yêu cầu không thể thực hiện được bởi vì một lỗi lập trình "
+"được thiết lập trường `product_qty` thay vì `product_uom_qty`."
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:810
@@ -6462,9 +6462,10 @@ msgid ""
 "don't allow to do these operations or you are not transferring the picking "
 "at once. "
 msgstr ""
-"Tỷ lệ làm tròn của đơn vị đo lường %s so với %s ở dịch chuyển kho khác với tỷ "
-"lệ làm tròn của hai đơn vị này trên sản phẩm. Có lẽ bạn mới đổi lại tỷ lệ làm tròn? "
-"Hãy thử đặt lô hàng này về dự thảo rồi xác nhận lại (để quy đổi lại đơn vị đo)."
+"Tỷ lệ làm tròn của đơn vị đo lường %s so với %s ở dịch chuyển kho khác với "
+"tỷ lệ làm tròn của hai đơn vị này trên sản phẩm. Có lẽ bạn mới đổi lại tỷ lệ"
+" làm tròn? Hãy thử đặt lô hàng này về dự thảo rồi xác nhận lại (để quy đổi "
+"lại đơn vị đo)."
 
 #. module: stock
 #: code:addons/stock/models/stock_inventory.py:124
@@ -6506,8 +6507,9 @@ msgid ""
 "different of the warehouse this rule is for (e.g for resupplying rules from "
 "another warehouse)"
 msgstr ""
-"Nhà kho để loan báo vào lúc tạo dịch chuyển (lấy từ kho) hoặc nhu cầu cung ứng, mà có thể "
-"khác với nhà kho mà quy tắc cung ứng này thuộc về. VD: cho các quy tắc tái cung ứng từ một nhà kho khác."
+"Nhà kho để loan báo vào lúc tạo dịch chuyển (lấy từ kho) hoặc nhu cầu cung "
+"ứng, mà có thể khác với nhà kho mà quy tắc cung ứng này thuộc về. VD: cho "
+"các quy tắc tái cung ứng từ một nhà kho khác."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line_theoretical_qty
@@ -6678,6 +6680,7 @@ msgstr ""
 msgid ""
 "This quantity is expressed in the Default Unit of Measure of the product."
 msgstr ""
+"Số lượng này được thể hiện theo Đơn vị đo lường mặc định của sản phẩm."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location_path_location_from_id
@@ -7418,7 +7421,6 @@ msgid ""
 "                    routes can be assigned to a product, a product category or be fixed\n"
 "                    on procurement or sales order."
 msgstr ""
-""
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
@@ -7508,7 +7510,8 @@ msgstr ""
 #: code:addons/stock/models/stock_scrap.py:72
 #, python-format
 msgid "You cannot delete a scrap which is done."
-msgstr "Bạn không được xoá một dịch chuyển phế liệu mà ở trạng thái hoàn thành."
+msgstr ""
+"Bạn không được xoá một dịch chuyển phế liệu mà ở trạng thái hoàn thành."
 
 #. module: stock
 #: code:addons/stock/models/stock_inventory.py:374
@@ -7520,9 +7523,9 @@ msgid ""
 "before creating another one."
 msgstr ""
 "Bạn không thể có hai điều chỉnh tồn kho có cùng trạng thái 'Đang xử lý' cho "
-"cùng sản phẩm (%s), cùng địa điểm kho (%s), cùng gói, cùng chủ sơ hữu và cùng lô. Vui "
-"lòng xác nhận điều chỉnh tồn kho đầu tiên của sản phẩm trước khi tạo mới một"
-" điều chỉnh tồn kho khác cho cùng sản phẩm đó."
+"cùng sản phẩm (%s), cùng địa điểm kho (%s), cùng gói, cùng chủ sơ hữu và "
+"cùng lô. Vui lòng xác nhận điều chỉnh tồn kho đầu tiên của sản phẩm trước "
+"khi tạo mới một điều chỉnh tồn kho khác cho cùng sản phẩm đó."
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:176
@@ -7602,7 +7605,9 @@ msgstr "Bạn đã sử dụng tên lô này ở một dòng khác rồi"
 #: code:addons/stock/wizard/stock_picking_return.py:114
 #, python-format
 msgid "You have manually created product lines, please delete them to proceed"
-msgstr "Bạn đã tạo các dòng hàng trả lại một cách thủ công. Vui lòng xoá chúng để đi tiếp"
+msgstr ""
+"Bạn đã tạo các dòng hàng trả lại một cách thủ công. Vui lòng xoá chúng để đi"
+" tiếp"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_backorder_confirmation
@@ -7661,7 +7666,8 @@ msgstr "Bạn chỉ nên nhận các đơn vị sản phẩm có cùng số sê-
 #: code:addons/stock/models/stock_pack_operation.py:239
 #, python-format
 msgid "You should provide a different serial number for each piece"
-msgstr "Bạn nên cung cấp một số sê-ri khác nhau cho từng đơn vị sản phẩm / đơn chiếc"
+msgstr ""
+"Bạn nên cung cấp một số sê-ri khác nhau cho từng đơn vị sản phẩm / đơn chiếc"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:223
@@ -7670,9 +7676,9 @@ msgid ""
 "You try to move a product using a UoM that is not compatible with the UoM of"
 " the product moved. Please use an UoM in the same UoM category."
 msgstr ""
-"Bạn cố dịch chuyển một sản phẩm sử dụng một đơn vị đo lường không tương thích"
-" với đơn vị đo lường của sản phẩm được dịch chuyển. Vui long sử dụng một đơn"
-" vị đo lường thuộc cùng nhóm."
+"Bạn cố dịch chuyển một sản phẩm sử dụng một đơn vị đo lường không tương "
+"thích với đơn vị đo lường của sản phẩm được dịch chuyển. Vui long sử dụng "
+"một đơn vị đo lường thuộc cùng nhóm."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

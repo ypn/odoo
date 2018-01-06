@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mrp
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # trieu le <trieu.lth@gmail.com>, 2016
@@ -400,7 +400,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_structure_report
 msgid "BOM Ref"
-msgstr ""
+msgstr "Tham chiếu BOM"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_bom_structure
@@ -1102,7 +1102,8 @@ msgstr "Chỉ ra thứ tự sắp xếp khi hiển thị danh sách nhiệm vụ
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_sequence
 msgid "Gives the sequence order when displaying a list of work centers."
-msgstr "Cung cấp trình tự sắp xếp khi hienr thị một danh sách các năng lực sản xuất."
+msgstr ""
+"Cung cấp trình tự sắp xếp khi hienr thị một danh sách các năng lực sản xuất."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_sequence
@@ -2875,10 +2876,11 @@ msgid ""
 "show a load of 100% for this phase by default, but if we put a efficiency of"
 " 200%, then his load will only be 50%."
 msgstr ""
-"Trường này được sử dụng để tính toán thời gian dự kiến để thực hiện một hoạt "
-"động sản xuất với năng lực sản xuất này. Ví dụ, nếu một hoạt động sản xuất (vd: lắp ráp) "
-"cần một giờ với hệ số hiệu suất là 100%, thì thời gian dự kiến sẽ là 1 giờ. "
-"Nếu hiệu suất là 200% thì thời gian dự kiến để hoàn thành sẽ là 30 phút."
+"Trường này được sử dụng để tính toán thời gian dự kiến để thực hiện một hoạt"
+" động sản xuất với năng lực sản xuất này. Ví dụ, nếu một hoạt động sản xuất "
+"(vd: lắp ráp) cần một giờ với hệ số hiệu suất là 100%, thì thời gian dự kiến"
+" sẽ là 1 giờ. Nếu hiệu suất là 200% thì thời gian dự kiến để hoàn thành sẽ "
+"là 30 phút."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_time_ids
@@ -3499,7 +3501,8 @@ msgstr ""
 #: code:addons/mrp/models/stock_move.py:135
 #, python-format
 msgid "You cannot cancel a move move having already consumed material"
-msgstr "Bạn không thể huỷ một dịch chuyển kho mà đã có tiêu thụ nguyên vật liệu thô."
+msgstr ""
+"Bạn không thể huỷ một dịch chuyển kho mà đã có tiêu thụ nguyên vật liệu thô."
 
 #. module: mrp
 #: code:addons/mrp/models/stock_move.py:40
