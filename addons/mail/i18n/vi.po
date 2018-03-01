@@ -6,7 +6,7 @@
 # David Tran <david.tran@ma.tvtmarine.com>, 2016
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux, 2016
 # son dang <son.dang@doda100.com>, 2016
 # Phạm Lân <phamquanglan@gmail.com>, 2016
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2016
@@ -279,6 +279,15 @@ msgstr ""
 "            Bạn có thể đề cập/gọi đến một kênh bằng cách gõ <b>#ten_kenh</b>.<br>\n"
 "            Bạn có thể thực thi một lệnh bằng cách gõ <b>/lenh</b>.<br>\n"
 "            Bạn có thể chèn một phản hồi khác (đóng gói) vào trong thông điệp của bạn bằng cách gõ <b>:shortcut</b>.<br>"
+
+#. module: mail
+#: code:addons/mail/models/mail_channel.py:475
+#, python-format
+msgid ""
+"<div class=\"o_mail_notification\">%(author)s invited %(new_partner)s to <a "
+"href=\"#\" class=\"o_channel_redirect\" data-oe-"
+"id=\"%(channel_id)s\">#%(channel_name)s</a></div>"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:550
