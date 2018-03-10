@@ -211,6 +211,15 @@ class AccountMove(models.Model):
             raise UserError(_("Cannot create unbalanced journal entry."))
         return True
 
+    # Do not forward port in >= saas-14
+    def _reconcile_reversed_pair(self, move, reversed_move):
+        amls_to_reconcile = move.line_ids + reversed_move.line_ids
+        accounts_reconcilable = amls_to_reconcile.mapped('account_id').filtered(lambda a: a.reconcile)
+        for account in accounts_reconcilable:
+            amls_for_account = amls_to_reconcile.filtered(lambda l: l.account_id.id == account.id)
+            amls_for_account.reconcile()
+            amls_to_reconcile = amls_to_reconcile - amls_for_account
+
     @api.multi
     def reverse_moves(self, date=None, journal_id=None):
         date = date or fields.Date.today()
@@ -225,6 +234,7 @@ class AccountMove(models.Model):
                     'credit': acm_line.debit,
                     'amount_currency': -acm_line.amount_currency
                     })
+            self._reconcile_reversed_pair(ac_move, reversed_move)
             reversed_moves |= reversed_move
         if reversed_moves:
             reversed_moves._post_validate()
@@ -252,7 +262,7 @@ class AccountMoveLine(models.Model):
         if not cr.fetchone():
             cr.execute('CREATE INDEX account_move_line_partner_id_ref_idx ON account_move_line (partner_id, ref)')
 
-    @api.depends('debit', 'credit', 'amount_currency', 'currency_id', 'matched_debit_ids', 'matched_credit_ids', 'matched_debit_ids.amount', 'matched_credit_ids.amount', 'account_id.currency_id', 'move_id.state')
+    @api.depends('debit', 'credit', 'amount_currency', 'currency_id', 'matched_debit_ids', 'matched_credit_ids', 'matched_debit_ids.amount', 'matched_credit_ids.amount', 'move_id.state')
     def _amount_residual(self):
         """ Computes the residual amount of a move line from a reconciliable account in the company currency and the line's currency.
             This amount will be 0 for fully reconciled lines or lines from a non-reconciliable account, the original line amount
