@@ -350,6 +350,11 @@ class Partner(models.Model, FormatAddress):
                 result['value'] = {key: convert(self.parent_id[key]) for key in address_fields}
         return result
 
+    @api.onchange('state_id')
+    def onchange_state(self):
+        if self.state_id:
+            self.country_id = self.state_id.country_id
+ 
     @api.onchange('country_id')
     def _onchange_country_id(self):
         if self.country_id:

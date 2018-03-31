@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -37,21 +37,21 @@ msgstr " & Đóng"
 #: code:addons/web/static/src/js/views/search_view.js:206
 #, python-format
 msgid " or "
-msgstr ""
+msgstr " hoặc "
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:431
 #, python-format
 msgid " selected records"
-msgstr " các bản ghi đã chọn"
+msgstr " bản ghi được chọn"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_manager.js:222
 #, python-format
 msgid " view couldn't be loaded"
-msgstr ""
+msgstr " giao diện không thể được nạp"
 
 #. module: web
 #. openerp-web
@@ -66,14 +66,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search_filters.js:108
 #, python-format
 msgid "%(field)s %(operator)s \"%(value)s\""
-msgstr "%(field)s %(operator)s \"%(value)s\""
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_manager.js:65
 #, python-format
 msgid "%(view_type)s view"
-msgstr "%(view_type)s view"
+msgstr "giao diện %(view_type)s"
 
 #. module: web
 #. openerp-web
@@ -137,14 +137,14 @@ msgstr "'%s' không phải là ngày tháng hợp lệ"
 #: code:addons/web/static/src/js/framework/time.js:193
 #, python-format
 msgid "'%s' is not a correct date, datetime nor time"
-msgstr "'%s' không phải ngày tháng hợp lệ"
+msgstr "'%s' không phải ngày tháng, ngày giờ hoặc giờ hợp lệ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/formats.js:169
 #, python-format
 msgid "'%s' is not a correct datetime"
-msgstr "'%s' không phải ngày tháng hợp lệ"
+msgstr "'%s' không phải ngày giờ hợp lệ"
 
 #. module: web
 #. openerp-web
@@ -158,14 +158,14 @@ msgstr "'%s' không phải kiểu float hợp lệ"
 #: code:addons/web/static/src/js/framework/formats.js:134
 #, python-format
 msgid "'%s' is not a correct integer"
-msgstr "'%s' không phải kiểu số nguyên hợp lệ"
+msgstr "'%s' không phải là kiểu integer hợp lệ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/formats.js:182
 #, python-format
 msgid "'%s' is not a correct time"
-msgstr "'%s' không phải kiểu thời gian hợp lệ"
+msgstr "'%s' không phải là thời gian đúng"
 
 #. module: web
 #. openerp-web
@@ -179,21 +179,21 @@ msgstr "'%s' không chuyển đổi được thành ngày, ngày giờ hoặc gi
 #: code:addons/web/static/src/js/framework/formats.js:77
 #, python-format
 msgid "(%d records)"
-msgstr "(%d records)"
+msgstr "(%d bản ghi)"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:100
 #, python-format
 msgid "(no string)"
-msgstr "(no string)"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:34
 #, python-format
 msgid "(nolabel)"
-msgstr "(nolabel)"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -205,12 +205,12 @@ msgstr "...Đang tải lên..."
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
 msgid "<span class=\"oe_logo_edit\">Edit Company data</span>"
-msgstr "<span class=\"oe_logo_edit\">Sửa thông tin Công ty</span>"
+msgstr "<span class=\"oe_logo_edit\">Sửa dữ liệu công ty</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
 msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -224,14 +224,14 @@ msgstr "Truy cập bị từ chối"
 #: code:addons/web/static/src/js/framework/crash_manager.js:15
 #, python-format
 msgid "Access Error"
-msgstr "Truy cập bị lỗi"
+msgstr "Lỗi Truy cập"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1283
 #, python-format
 msgid "Access to all Enterprise Apps"
-msgstr "Truy cập tất cả các ứng dụng Doanh nghiệp"
+msgstr "Truy cấp đến tất cả các Ứng dụng Enterprise"
 
 #. module: web
 #. openerp-web
@@ -245,28 +245,28 @@ msgstr "Hành động"
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1116
 #, python-format
 msgid "Action Button"
-msgstr "Action Button"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:120
 #, python-format
 msgid "Action ID:"
-msgstr "Action ID:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:636
 #, python-format
 msgid "Activate"
-msgstr "Kích hoạt"
+msgstr "Hiệu lực"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:112
 #, python-format
 msgid "Activate Assets Debugging"
-msgstr ""
+msgstr "Kích hoạt Gỡ lỗi Assets"
 
 #. module: web
 #. openerp-web
@@ -274,7 +274,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:639
 #, python-format
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: web
 #. openerp-web
@@ -289,7 +289,7 @@ msgstr "Thêm"
 #: code:addons/web/static/src/xml/base.xml:932
 #, python-format
 msgid "Add Custom Filter"
-msgstr "Thêm Bộ lọc tuỳ chỉnh"
+msgstr "Thêm Bộ lọc Tùy chỉnh"
 
 #. module: web
 #. openerp-web
@@ -310,7 +310,7 @@ msgstr "Thêm một hạng mục"
 #: code:addons/web/static/src/xml/base.xml:1042
 #, python-format
 msgid "Add custom group"
-msgstr "Thêm nhóm tuỳ chỉnh"
+msgstr "Thêm nhóm tùy chỉnh"
 
 #. module: web
 #. openerp-web
@@ -331,14 +331,14 @@ msgstr "Thêm: "
 #: code:addons/web/static/src/xml/base.xml:908
 #, python-format
 msgid "Advanced Search..."
-msgstr "Tìm kiếm nâng cao..."
+msgstr "Tìm kiếm Nâng cao..."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/dialog.js:169
 #, python-format
 msgid "Alert"
-msgstr "Cảnh báo"
+msgstr "Báo động"
 
 #. module: web
 #. openerp-web
@@ -352,7 +352,7 @@ msgstr "Tất cả người dùng"
 #: code:addons/web/static/src/xml/base.xml:1288
 #, python-format
 msgid "And more"
-msgstr "và nhiều hơn nữa"
+msgstr "Và thêm nữa"
 
 #. module: web
 #. openerp-web
@@ -375,35 +375,35 @@ msgstr "Lưu trữ"
 #: code:addons/web/static/src/js/views/form_widgets.js:641
 #, python-format
 msgid "Archived"
-msgstr "Đã lưu "
+msgstr "Đã lưu trữ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_menus.js:245
 #, python-format
 msgid "Are you sure that you want to remove this filter?"
-msgstr "Bạn có chắc muốn loại bỏ bộ lọc này?"
+msgstr "Bạn có chắc rằng bạn muốn gỡ bỏ bộ lọc này"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:224
 #, python-format
 msgid "Attachment :"
-msgstr "Đính kèm :"
+msgstr "Đính kèm:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1103
 #, python-format
 msgid "Available fields"
-msgstr "Trường khả dụng"
+msgstr "Các trường khả dụng"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:546
 #, python-format
 msgid "Bar Chart"
-msgstr "Biểu đồ Thanh"
+msgstr "Đồ thị Cột"
 
 #. module: web
 #. openerp-web
@@ -431,21 +431,21 @@ msgstr "Nút"
 #: code:addons/web/static/src/xml/base_common.xml:112
 #, python-format
 msgid "Button Type:"
-msgstr "Kiểu nút:"
+msgstr "Kiểu Nút:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/utils.js:285
 #, python-format
 msgid "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
-msgstr "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_common.js:134
 #, python-format
 msgid "Can't convert value %s to context"
-msgstr "Không thể chuyển đổi giá trị %s thành nội dung"
+msgstr "Không thể chuyển đổi giá trị %s thành ngữ cảnh"
 
 #. module: web
 #. openerp-web
@@ -483,7 +483,7 @@ msgstr "Thay đổi mặc định:"
 #: code:addons/web/static/src/js/views/form_widgets.js:436
 #, python-format
 msgid "Change selection "
-msgstr "Thay đổi lựa chọn"
+msgstr "Thay đổi lựa chọn "
 
 #. module: web
 #. openerp-web
@@ -529,7 +529,7 @@ msgstr "Điều kiện:"
 #: code:addons/web/static/src/xml/base.xml:50
 #, python-format
 msgid "Confirm New Password"
-msgstr ""
+msgstr "Xác nhận Mật khẩu mới"
 
 #. module: web
 #. openerp-web
@@ -540,24 +540,24 @@ msgstr "Xác nhận"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/abstract_web_client.js:207
+#: code:addons/web/static/src/js/abstract_web_client.js:220
 #, python-format
 msgid "Connection lost"
-msgstr ""
+msgstr "Mất kết nối"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/abstract_web_client.js:216
+#: code:addons/web/static/src/js/abstract_web_client.js:229
 #, python-format
 msgid "Connection restored"
-msgstr ""
+msgstr "Kết nối được khôi phục"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:59
 #, python-format
 msgid "Context:"
-msgstr "Nội dung:"
+msgstr "Ngữ cảnh:"
 
 #. module: web
 #. openerp-web
@@ -589,7 +589,7 @@ msgstr "Không thể serialize XML"
 #: code:addons/web/static/src/xml/base.xml:571
 #, python-format
 msgid "Count"
-msgstr ""
+msgstr "Số Bản ghi"
 
 #. module: web
 #. openerp-web
@@ -684,7 +684,7 @@ msgstr "Ngày"
 #: code:addons/web/static/src/js/views/form_widgets.js:634
 #, python-format
 msgid "Deactivate"
-msgstr "Huỷ kích hoạt"
+msgstr "Vô hiệu"
 
 #. module: web
 #. openerp-web
@@ -721,7 +721,7 @@ msgstr "Xóa file này"
 #: code:addons/web/static/src/xml/base.xml:105
 #, python-format
 msgid "Disable Technical Features"
-msgstr ""
+msgstr "Vô hiệu Tính năng Kỹ thuật"
 
 #. module: web
 #. openerp-web
@@ -800,7 +800,7 @@ msgstr "Tải xuống xls"
 #: code:addons/web/static/src/js/views/form_view.js:164
 #, python-format
 msgid "Duplicate"
-msgstr "Sao chép"
+msgstr "Nhân bản"
 
 #. module: web
 #. openerp-web
@@ -816,22 +816,22 @@ msgstr "Sửa"
 #: code:addons/web/static/src/xml/base.xml:127
 #, python-format
 msgid "Edit Action"
-msgstr "Chỉnh sửa Action"
+msgstr "Sửa Hành động"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:160
 #, python-format
 msgid "Edit SearchView"
-msgstr "Chỉnh sửa SearchView"
+msgstr "Sửa SearchView"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/widgets/debug_manager.js:265
+#: code:addons/web/static/src/js/widgets/debug_manager.js:264
 #: code:addons/web/static/src/xml/base.xml:131
 #, python-format
 msgid "Edit Workflow"
-msgstr "Chỉnh sửa Quy trình (Workflow)"
+msgstr "Sửa Workflow"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -843,7 +843,7 @@ msgstr "Tên đăng nhập / Email"
 #: code:addons/web/static/src/xml/base.xml:108
 #, python-format
 msgid "Enable Technical Features"
-msgstr ""
+msgstr "Kích hoạt Tính năng Kỹ thuật"
 
 #. module: web
 #. openerp-web
@@ -855,7 +855,7 @@ msgid "Error"
 msgstr "Lỗi"
 
 #. module: web
-#: code:addons/web/controllers/main.py:724
+#: code:addons/web/controllers/main.py:734
 #, python-format
 msgid "Error, password not changed !"
 msgstr "Lỗi, mật khẩu không được thay đổi !"
@@ -865,7 +865,7 @@ msgstr "Lỗi, mật khẩu không được thay đổi !"
 #: code:addons/web/static/src/js/views/form_widgets.js:426
 #, python-format
 msgid "Error: Bad domain"
-msgstr ""
+msgstr "Lỗi: Bad domain"
 
 #. module: web
 #. openerp-web
@@ -893,14 +893,14 @@ msgstr "Xuất"
 #: code:addons/web/static/src/js/widgets/data_export.js:200
 #, python-format
 msgid "Export Data"
-msgstr "Xuất Dữ liệu"
+msgstr "Xuất dữ liệu"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1096
 #, python-format
 msgid "Export Formats :"
-msgstr ""
+msgstr "Định dạng Xuất:"
 
 #. module: web
 #. openerp-web
@@ -914,7 +914,7 @@ msgstr "Xuất ra tập tin"
 #: code:addons/web/static/src/xml/base.xml:1089
 #, python-format
 msgid "Export Type :"
-msgstr ""
+msgstr "Kiểu Xuất:"
 
 #. module: web
 #. openerp-web
@@ -925,7 +925,7 @@ msgstr "Xuất tất cả Dữ liệu"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_manager.js:435
+#: code:addons/web/static/src/js/view_manager.js:436
 #, python-format
 msgid "Failed to evaluate search criterions"
 msgstr "Tiêu chí tìm kiếm không hợp lệ"
@@ -935,14 +935,14 @@ msgstr "Tiêu chí tìm kiếm không hợp lệ"
 #: code:addons/web/static/src/xml/base.xml:1059
 #, python-format
 msgid "Favorites"
-msgstr "Yêu thích"
+msgstr "Ưa thích"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:1270
 #, python-format
 msgid "Field '%s' specified in view could not be found."
-msgstr "Trường '%s' xác định trong view không thể tìm thấy."
+msgstr "Không tìm thấy trường '%s' được thiết lập trong giao diện (view)."
 
 #. module: web
 #. openerp-web
@@ -953,18 +953,18 @@ msgstr "Trường:"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/widgets/debug_manager.js:346
+#: code:addons/web/static/src/js/widgets/debug_manager.js:345
 #: code:addons/web/static/src/xml/base.xml:157
 #, python-format
 msgid "Fields View Get"
-msgstr "Fields View Get"
+msgstr "Xem các trường trên Giao diện"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/widgets/debug_manager.js:243
+#: code:addons/web/static/src/js/widgets/debug_manager.js:242
 #, python-format
 msgid "Fields of %s"
-msgstr ""
+msgstr "Các trường của %s"
 
 #. module: web
 #. openerp-web
@@ -985,7 +985,7 @@ msgstr "Tập tin tải lên"
 #: code:addons/web/static/src/js/views/form_widgets.js:1091
 #, python-format
 msgid "File upload"
-msgstr "Tải file"
+msgstr "Tải tập tin lên"
 
 #. module: web
 #. openerp-web
@@ -1006,14 +1006,14 @@ msgstr "Tên bộ lọc là bắt buộc."
 #: code:addons/web/static/src/js/views/search_inputs.js:496
 #, python-format
 msgid "Filter on: %s"
-msgstr "Lọc trên: %s"
+msgstr "Lọc với đk: %s"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_menus.js:92
 #, python-format
 msgid "Filter with same name already exists."
-msgstr "Bộ lọc có cùng tên đã tồn tại."
+msgstr "Lọc theo tên trùng đã tồn tại"
 
 #. module: web
 #. openerp-web
@@ -1027,7 +1027,7 @@ msgstr "Các Bộ lọc"
 #: code:addons/web/static/src/xml/base.xml:575
 #, python-format
 msgid "Flip axis"
-msgstr "Xoay trục"
+msgstr "Đổi trục"
 
 #. module: web
 #. openerp-web
@@ -1038,6 +1038,9 @@ msgid ""
 "\n"
 "Tip: try to flip axis, filter further or reduce the number of measures."
 msgstr ""
+"Để tương thích với Excel, dữ liệu xuất ra không được phép có nhiều hơn 256 cột.\n"
+"\n"
+"Tư vấn: hãy thử đổi trục, lọc thêm nữa để giảm số liệu đo lường."
 
 #. module: web
 #. openerp-web
@@ -1053,15 +1056,14 @@ msgstr "Mẫu"
 #, python-format
 msgid "Get this feature and much more with Odoo Enterprise!"
 msgstr ""
-"Nhận được tính năng này và nhiều hơn nữa với phiên bản Odoo cho Doanh "
-"nghiệp!"
+"Nhận được tính năng này và nhiều hơn nữa với phiên bản Odoo Enterprise!"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:18
 #, python-format
 msgid "Global Business Error"
-msgstr "Global Business Error"
+msgstr "Lỗi Nghiệp vụ Toàn cục"
 
 #. module: web
 #. openerp-web
@@ -1083,12 +1085,12 @@ msgstr "Nhóm theo"
 #: code:addons/web/static/src/js/views/search_inputs.js:674
 #, python-format
 msgid "Group by: %s"
-msgstr "Nhóm bởi: %s"
+msgstr "Nhóm theo: %s"
 
 #. module: web
 #: model:ir.model,name:web.model_ir_http
 msgid "HTTP routing"
-msgstr "HTTP routing"
+msgstr "Định tuyến HTTP"
 
 #. module: web
 #. openerp-web
@@ -1102,7 +1104,7 @@ msgstr "Cao"
 #: code:addons/web/static/src/xml/base.xml:167
 #, python-format
 msgid "ID:"
-msgstr "ID:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1116,14 +1118,14 @@ msgstr "Hình ảnh"
 #: code:addons/web/static/src/xml/base.xml:1093
 #, python-format
 msgid "Import-Compatible Export"
-msgstr "Nhập-Tương thích Xuất"
+msgstr "Export mà tương thích Import"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:637
 #, python-format
 msgid "Inactive"
-msgstr "Không hiệu lực"
+msgstr "Vô hiệu"
 
 #. module: web
 #. openerp-web
@@ -1131,7 +1133,7 @@ msgstr "Không hiệu lực"
 #: code:addons/web/static/src/js/views/graph_widget.js:217
 #, python-format
 msgid "Invalid data"
-msgstr "Dữ liệu không phù hợp"
+msgstr "Dữ liệu bất hợp lệ"
 
 #. module: web
 #: code:addons/web/controllers/main.py:653
@@ -1144,13 +1146,13 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/widgets/debug_manager.js:185
+#: code:addons/web/static/src/js/widgets/debug_manager.js:184
 #, python-format
 msgid "JS Tests"
-msgstr "JS Tests"
+msgstr "Kiểm thử JS"
 
 #. module: web
-#: code:addons/web/controllers/main.py:731
+#: code:addons/web/controllers/main.py:741
 #, python-format
 msgid "Languages"
 msgstr "Ngôn ngữ"
@@ -1174,14 +1176,14 @@ msgstr "Chỉnh sửa gần nhất bởi:"
 #: code:addons/web/static/src/xml/base.xml:122
 #, python-format
 msgid "Leave the Developer Tools"
-msgstr ""
+msgstr "Rời Công cụ Nhà phát triển"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:547
 #, python-format
 msgid "Line Chart"
-msgstr "Biểu đồ đường kẻ"
+msgstr "Đồ thị Đường"
 
 #. module: web
 #. openerp-web
@@ -1221,6 +1223,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Đánh giá cục bộ thất bại\n"
+"%s\n"
+"\n"
+"%s"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -1232,7 +1238,7 @@ msgstr "Đăng nhập"
 #: code:addons/web/static/src/xml/base.xml:1273
 #, python-format
 msgid "Log out"
-msgstr "Thoát"
+msgstr "Đăng xuất"
 
 #. module: web
 #. openerp-web
@@ -1274,14 +1280,14 @@ msgstr "Có thể bạn nên nạp lại ứng dụng bằng cách nhấn phím 
 #: code:addons/web/static/src/xml/base.xml:563
 #, python-format
 msgid "Measures"
-msgstr "Đo lường"
+msgstr "Thước đo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/debug_manager.js:333
 #, python-format
 msgid "Metadata (%s)"
-msgstr "Metadata (%s)"
+msgstr "Siêu dữ liệu (%s)"
 
 #. module: web
 #. openerp-web
@@ -1295,14 +1301,14 @@ msgstr "Phương thức:"
 #: code:addons/web/static/src/js/framework/crash_manager.js:16
 #, python-format
 msgid "Missing Record"
-msgstr "Thiếu bản ghi (Record)"
+msgstr "Bản ghi thiếu"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1285
 #, python-format
 msgid "Mobile support"
-msgstr "Hỗ trợ thiết bị di động"
+msgstr "Tương thích Mobile"
 
 #. module: web
 #. openerp-web
@@ -1330,26 +1336,26 @@ msgstr "Tháng"
 #: code:addons/web/static/src/xml/base.xml:792
 #, python-format
 msgid "More"
-msgstr "Xem thêm"
+msgstr "Thêm"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu
 msgid "More <b class=\"caret\"/>"
-msgstr "Xem thêm <b class=\"caret\"/>"
+msgstr "Thêm <b class=\"caret\"/>"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1111
 #, python-format
 msgid "Move Down"
-msgstr "Chuyển xuống"
+msgstr "Di chuyển xuống"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1110
 #, python-format
 msgid "Move Up"
-msgstr "Chuyển lên"
+msgstr "Di chuyển lên"
 
 #. module: web
 #. openerp-web
@@ -1377,28 +1383,28 @@ msgstr "Mới"
 #: code:addons/web/static/src/xml/base.xml:46
 #, python-format
 msgid "New Password"
-msgstr "Mật khẩu mới"
+msgstr "Mật khẩu Mới"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1284
 #, python-format
 msgid "New design"
-msgstr "Thiết kế mới"
+msgstr "Thiết kế Mới"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_inputs.js:332
 #, python-format
 msgid "No"
-msgstr "No"
+msgstr "Không"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:175
 #, python-format
 msgid "No Update:"
-msgstr "No Update: "
+msgstr "Không Cập nhật:"
 
 #. module: web
 #. openerp-web
@@ -1408,8 +1414,8 @@ msgid ""
 "No data available for this chart. Try to add some records, or make sure that"
 " there is no active filter in the search bar."
 msgstr ""
-"Không có dữ liệu cho biểu đồ này. Hãy thử thêm một số bản ghi, hoặc chắc "
-"chắn rằng không có bộ lọc đang hoạt động trong thanh tìm kiếm."
+"Không có dữ liệu cho đồ thị này. Hãy thử thêm vài bản ghi và đảm bảo không "
+"có bộ lọc nào được kích hoạt trên ô tìm kiếm."
 
 #. module: web
 #. openerp-web
@@ -1419,6 +1425,8 @@ msgid ""
 "No data available for this pivot table.  Try to add some records, or make sure\n"
 "        that there is at least one measure and no active filter in the search bar."
 msgstr ""
+"Không có dữ liệu cho pivot table này. Hãy thử thêm vào bản ghi, hoặc chắc chắn\n"
+"        rằng bạn đã chọn ít nhất một thước đo và không có bộ lọc nào được kích hoạt ở ô tìm kiếm."
 
 #. module: web
 #. openerp-web
@@ -1436,7 +1444,7 @@ msgstr "Không có dữ liệu để hiển thị"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/widgets/debug_manager.js:328
+#: code:addons/web/static/src/js/widgets/debug_manager.js:327
 #, python-format
 msgid "No metadata available"
 msgstr ""
@@ -1453,14 +1461,14 @@ msgstr "Không có kết quả để hiển thị..."
 #: code:addons/web/static/src/js/views/form_widgets.js:446
 #, python-format
 msgid "No selected record"
-msgstr "Không có bản ghi được chọn"
+msgstr "Chưa chọn bản ghi nào"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:328
 #, python-format
 msgid "No value found for the field %s for value %s"
-msgstr ""
+msgstr "Không tìm thấy giá trị của trường %s đối với giá trị %s"
 
 #. module: web
 #. openerp-web
@@ -1474,14 +1482,14 @@ msgstr "Thông thường"
 #: code:addons/web/static/src/js/views/graph_widget.js:239
 #, python-format
 msgid "Not enough data points"
-msgstr "Không có đủ điểm dữ liệu"
+msgstr "Không đủ các điểm dữ liệu để hiển thị"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:744
 #, python-format
 msgid "Not shown in kanban"
-msgstr "Không hiển thị trong kanban"
+msgstr "Không hiển thị trên Kanban"
 
 #. module: web
 #. openerp-web
@@ -1495,26 +1503,26 @@ msgstr "Đối tượng:"
 #: code:addons/web/static/src/js/framework/dialog.js:37
 #, python-format
 msgid "Odoo"
-msgstr "Odoo"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:195
 #, python-format
 msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps sẽ có mặt sớm"
+msgstr "Odoo Apps sẽ sớm khả dụng"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_upgrade_widgets.js:53
 #, python-format
 msgid "Odoo Enterprise"
-msgstr "Odoo cho Doanh nghiệp"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_suite
 msgid "Odoo Web Tests"
-msgstr "Odoo Web Tests"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1538,21 +1546,21 @@ msgstr "Đồng ý"
 #: code:addons/web/static/src/xml/base.xml:42
 #, python-format
 msgid "Old Password"
-msgstr ""
+msgstr "Mật khẩu Cũ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:646
 #, python-format
 msgid "On"
-msgstr "Mở"
+msgstr "Bật"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:75
 #, python-format
 msgid "On change:"
-msgstr "On change:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1573,14 +1581,14 @@ msgstr "Chỉ mình bạn"
 #: code:addons/web/static/src/xml/base.xml:95
 #, python-format
 msgid "Open Developer Tools"
-msgstr ""
+msgstr "Mở Công cụ Nhà phát triển"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:115
 #, python-format
 msgid "Open View"
-msgstr ""
+msgstr "Mở Giao diện"
 
 #. module: web
 #. openerp-web
@@ -1590,7 +1598,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1312
 #, python-format
 msgid "Open: "
-msgstr "Mở: "
+msgstr "Mở"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -1612,8 +1620,8 @@ msgid ""
 "Pie chart cannot display all zero numbers.. Try to change your domain to "
 "display positive results"
 msgstr ""
-"Biểu đồ hình bánh không thể hiển thị tất cả số không.. Hãy thử thay đổi điều"
-" kiện của bạn thành hiển thị kết quả dương"
+"Biểu đồ hình bánh không thể hiển thị các số không. Hãy thử thay đổi điều "
+"kiện của bạn thành hiển thị kết quả dương"
 
 #. module: web
 #. openerp-web
@@ -1623,15 +1631,15 @@ msgid ""
 "Pie chart cannot mix positive and negative numbers. Try to change your "
 "domain to only display positive results"
 msgstr ""
-"Biểu đồ hình bánh không thể trộn số dương và số âm. Hãy thử thay đổi điều "
-"kiện chỉ hiển thị kết quả dương"
+"Biểu đồ bánh không thể chứa cả số dương và số âm. Hãy thay đổi miền để chỉ "
+"hiển thị kết quả dương"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/pivot_view.js:30
 #, python-format
 msgid "Pivot"
-msgstr "Pivot"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1670,7 +1678,7 @@ msgstr "Xin hãy chọn trường để xuất..."
 #: code:addons/web/static/src/js/widgets/data_export.js:415
 #, python-format
 msgid "Please select fields to save export list..."
-msgstr "Vui lòng chọn các trường để lưu danh sách xuất..."
+msgstr "Hãy chọn các trường để lưu danh mục xuất"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
@@ -1687,7 +1695,7 @@ msgstr "Được hỗ trợ bởi <span>Odoo</span>"
 #: code:addons/web/static/src/xml/base.xml:1271
 #, python-format
 msgid "Preferences"
-msgstr "Tùy chọn cá nhân"
+msgstr "Tùy chọn"
 
 #. module: web
 #. openerp-web
@@ -1701,7 +1709,7 @@ msgstr "In"
 #: code:addons/web/static/src/xml/base.xml:154
 #, python-format
 msgid "Print Workflow"
-msgstr "In quy trình làm việc"
+msgstr "In Workflow"
 
 #. module: web
 #. openerp-web
@@ -1736,7 +1744,7 @@ msgstr "Gỡ bỏ tất cả"
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:323
 #, python-format
 msgid "Render"
-msgstr "Render"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1781,7 +1789,7 @@ msgstr "Lưu thành:"
 #: code:addons/web/static/src/xml/base.xml:1064
 #, python-format
 msgid "Save current search"
-msgstr "Lưu tìm kiếm hiện tại"
+msgstr "Lưu bộ lọc hiện tại"
 
 #. module: web
 #. openerp-web
@@ -1795,14 +1803,14 @@ msgstr "Lưu mặc định"
 #: code:addons/web/static/src/xml/base.xml:1115
 #, python-format
 msgid "Save fields list"
-msgstr "Lưu danh sách trường"
+msgstr "Lưu danh mục trường"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1141
 #, python-format
 msgid "Saved exports:"
-msgstr "Lưu dữ liệu xuất:"
+msgstr "Danh sách Trích xuất đã lưu:"
 
 #. module: web
 #. openerp-web
@@ -1832,7 +1840,7 @@ msgstr "Tìm kiếm thêm..."
 #: code:addons/web/static/src/xml/base.xml:910
 #, python-format
 msgid "Search..."
-msgstr ""
+msgstr "Tìm kiếm..."
 
 #. module: web
 #. openerp-web
@@ -1846,7 +1854,7 @@ msgstr "Tìm kiếm: "
 #: code:addons/web/static/src/js/views/form_widgets.js:433
 #, python-format
 msgid "See selection "
-msgstr "Xem các lựa chọn "
+msgstr "Xem lựa chọn "
 
 #. module: web
 #. openerp-web
@@ -1860,42 +1868,42 @@ msgstr "Lựa chọn"
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
 msgid "Select <i class=\"fa fa-database\"/>"
-msgstr "Lựa chọn <i class=\"fa fa-database\"/>"
+msgstr "Chọn <i class=\"fa fa-database\"/>"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/widgets/debug_manager.js:165
+#: code:addons/web/static/src/js/widgets/debug_manager.js:164
 #, python-format
 msgid "Select a view"
-msgstr ""
+msgstr "Chọn một giao diện (view)"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:448
 #, python-format
 msgid "Select records "
-msgstr ""
+msgstr "Chọn các bản ghi "
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:458
 #, python-format
 msgid "Select records..."
-msgstr "Lựa chọn các bản ghi..."
+msgstr "Chọn các bản ghi..."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_common.js:1103
 #, python-format
 msgid "Selected domain"
-msgstr "Miền đã chọn"
+msgstr "Miền được chọn"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:458
 #, python-format
 msgid "Selected records"
-msgstr "Bản ghi đã chọn"
+msgstr "Các bản ghi được chọn"
 
 #. module: web
 #. openerp-web
@@ -1923,7 +1931,7 @@ msgstr "Thiết lập mặc định"
 #: code:addons/web/static/src/js/views/list_view.js:928
 #, python-format
 msgid "Setting 'id' attribute on existing record %s"
-msgstr "Cài đặt thuộc tính 'id' trên bản ghi đã tồn tại %s"
+msgstr "Thiệt lập thuộc tính 'id' vào bản ghi đã tồn tại %s"
 
 #. module: web
 #. openerp-web
@@ -1937,7 +1945,7 @@ msgstr "Chia sẻ với tất cả người dùng"
 #: code:addons/web/static/src/js/apps.js:195
 #, python-format
 msgid "Showing locally available modules"
-msgstr "Hiển thị các mô-đun có sẵn tại cục bộ (local)"
+msgstr "Hiển thị các module cục bộ khả dụng"
 
 #. module: web
 #. openerp-web
@@ -1947,10 +1955,10 @@ msgid "Size:"
 msgstr "Kích thước:"
 
 #. module: web
-#: code:addons/web/controllers/main.py:1038
+#: code:addons/web/controllers/main.py:1048
 #, python-format
 msgid "Something horrible happened"
-msgstr "Một cái gì đó khủng khiếp đã xảy ra"
+msgstr "Có gì đó khủng khiếp đã xảy ra"
 
 #. module: web
 #. openerp-web
@@ -1992,7 +2000,7 @@ msgstr "Tắt"
 #: code:addons/web/static/src/js/views/form_widgets.js:649
 #, python-format
 msgid "Switch On"
-msgstr "Bặt"
+msgstr "Bật"
 
 #. module: web
 #. openerp-web
@@ -2006,7 +2014,7 @@ msgstr "Hãy thư giãn với một cốc cà phê,<br />Bởi vì ứng dụng 
 #: code:addons/web/static/src/xml/base.xml:132
 #, python-format
 msgid "Technical Translation"
-msgstr "Dịch thuật kỹ thuật"
+msgstr "Dịch Kỹ thuật"
 
 #. module: web
 #. openerp-web
@@ -2020,14 +2028,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:1128
 #, python-format
 msgid "The field is empty, there's nothing to save !"
-msgstr "Trường này trống, không có gì để lưu !"
+msgstr "Trường rỗng, không có gì để lưu"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:857
 #, python-format
 msgid "The following fields are invalid:"
-msgstr "Các trường sau không tồn tại:"
+msgstr "Những trường sau đây không hợp lệ"
 
 #. module: web
 #. openerp-web
@@ -2037,11 +2045,11 @@ msgid ""
 "The line has been modified, your changes will be discarded. Are you sure you"
 " want to discard the changes ?"
 msgstr ""
-"Dòng đã được sửa đổi, thay đổi của bạn sẽ bị loại bỏ. Bạn có chắc bạn muốn "
-"hủy bỏ những thay đổi ?"
+"Chi tiết/Dòng đã bị thay đổi. Các thay đổi sẽ bị mất. Bạn có chắc không muốn"
+" lưu các thay đổi chứ?"
 
 #. module: web
-#: code:addons/web/controllers/main.py:718
+#: code:addons/web/controllers/main.py:728
 #, python-format
 msgid "The new password and its confirmation must be identical."
 msgstr "Mật khẩu mới và xác nhận mật khẩu phải giống hệt nhau."
@@ -2077,15 +2085,15 @@ msgid ""
 "The record has been modified, your changes will be discarded. Are you sure "
 "you want to leave this page ?"
 msgstr ""
-"Bản ghi đã được sửa đổi, những thay đổi của bạn sẽ bị loại bỏ. Bạn có chắc "
-"muốn rời khỏi trang này ?"
+"Bản ghi đã bị sửa đổi, mọi thay đổi bạn làm sẽ bị huỷ bỏ và không được lưu. "
+"Bạn có chắc muốn rời khỏi trang này chứ?"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1090
 #, python-format
 msgid "The selected file exceed the maximum file size of %s."
-msgstr "Tập tin đã chọn vượt quá kích thước tập tin tối đa của %s."
+msgstr "Tập tin được chọn chạm giới hạn dung lượng tối đa %s."
 
 #. module: web
 #. openerp-web
@@ -2122,6 +2130,9 @@ msgid ""
 "This wizard will export all data that matches the current search criteria to a CSV file.\n"
 "        You can export all data or only the fields that can be reimported after modification."
 msgstr ""
+"Đồ thuật này sẽ xuất toàn bộ dữ liệu mà khớp với các tiêu chí lọc/tìm kiếm hiện tại vào một\n"
+"        tập tin CSV. Bạn có thể xuất toàn bộ dữ liệu hoặc chỉ dữ liệu của một số trường mà có thể tái import\n"
+"        sau khi chỉnh sửa."
 
 #. module: web
 #. openerp-web
@@ -2131,9 +2142,9 @@ msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
 "one. The time in Odoo is displayed according to your field timezone."
 msgstr ""
-"Múi giờ không phù hợp : Múi giờ của trình duyệt của bạn không khớp với lựa "
-"chọn. Thời gian trong Odoo được hiển thị theo trường timezone của bạn cài "
-"đặt."
+"Múi giờ không khớp: Múi giờ ở trình duyệt của bạn không khớp với múi giờ bạn"
+" chọn trong Odoo. Thời gian trong Odoo được hiển thị theo thiết lập múi giờ "
+"của bạn."
 
 #. module: web
 #. openerp-web
@@ -2155,7 +2166,7 @@ msgstr "Tổng"
 #: code:addons/web/static/src/js/abstract_web_client.js:114
 #, python-format
 msgid "Traceback:"
-msgstr "Traceback:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2169,7 +2180,7 @@ msgstr "Cấu trúc cây"
 #: code:addons/web/static/src/js/abstract_web_client.js:208
 #, python-format
 msgid "Trying to reconnect..."
-msgstr ""
+msgstr "Đang cố tái kết nối..."
 
 #. module: web
 #. openerp-web
@@ -2184,7 +2195,7 @@ msgstr "Kiểu:"
 #: code:addons/web/static/src/js/views/list_view.js:290
 #, python-format
 msgid "Unarchive"
-msgstr "Không lưu trữ"
+msgstr "Thôi lưu trữ"
 
 #. module: web
 #. openerp-web
@@ -2202,7 +2213,7 @@ msgstr "Không xác định"
 #: code:addons/web/static/src/xml/base.xml:614
 #, python-format
 msgid "Unhandled widget"
-msgstr "Widget không được kiểm soát"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2216,28 +2227,28 @@ msgstr "Không xác định"
 #: code:addons/web/static/src/js/framework/data.js:1076
 #, python-format
 msgid "Unknown field %s in domain %s"
-msgstr "Không biết trường %s trong miền %s"
+msgstr "Trường %s không xác định trong miền %s"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view.js:1081
 #, python-format
 msgid "Unknown m2m command %s"
-msgstr "Không biết lệnh m2m %s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/pyeval.js:961
 #, python-format
 msgid "Unknown nonliteral type "
-msgstr "Không biết kiểu nonliteral"
+msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/framework/data.js:1068
+#: code:addons/web/static/src/js/framework/data.js:1075
 #, python-format
 msgid "Unknown operator %s in domain %s"
-msgstr "Không biết toán tử %s trong miền %s"
+msgstr "Toán tử %s không xác định trong miền %s"
 
 #. module: web
 #. openerp-web
@@ -2258,7 +2269,7 @@ msgstr "Toán tử %s không dược hỗ trợ trong miền %s"
 #: code:addons/web/static/src/xml/base.xml:1256
 #, python-format
 msgid "Update translations"
-msgstr ""
+msgstr "Cập nhật bản dịch"
 
 #. module: web
 #. openerp-web
@@ -2272,14 +2283,14 @@ msgstr "Nâng cấp ngay"
 #: code:addons/web/static/src/xml/base.xml:1286
 #, python-format
 msgid "Upgrade to future versions"
-msgstr "Nâng cấp lên các phiên bản mới trong tương lai"
+msgstr "Nâng cấp đến các phiên bản tương lai"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:840
 #, python-format
 msgid "Upload your file"
-msgstr ""
+msgstr "Tải lên tập tin của bạn"
 
 #. module: web
 #. openerp-web
@@ -2296,7 +2307,7 @@ msgstr "Lỗi tải lên"
 #: code:addons/web/static/src/xml/base.xml:844
 #, python-format
 msgid "Uploading..."
-msgstr "Đang tải..."
+msgstr "Đang tải lên..."
 
 #. module: web
 #. openerp-web
@@ -2310,7 +2321,7 @@ msgstr "Sử dụng mặc định"
 #: code:addons/web/static/src/js/framework/crash_manager.js:17
 #, python-format
 msgid "Validation Error"
-msgstr "Validation Error"
+msgstr "Lỗi thẩm định"
 
 #. module: web
 #. openerp-web
@@ -2325,28 +2336,28 @@ msgstr "Rất cao"
 #: code:addons/web/static/src/xml/base.xml:159
 #, python-format
 msgid "View"
-msgstr "View"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:129
 #, python-format
 msgid "View Fields"
-msgstr "View Fields"
+msgstr "Xem các Trường của model"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:153
 #, python-format
 msgid "View Metadata"
-msgstr "View Metadata"
+msgstr "Xem Metadata"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:737
 #, python-format
 msgid "View type '%s' is not supported in X2Many."
-msgstr "Kiểu view '%s' không được hỗ trợ trong X2Many."
+msgstr "Kiểu giao diện '%s' không được hỗ trợ trong X2Many"
 
 #. module: web
 #. openerp-web
@@ -2372,34 +2383,34 @@ msgstr "Tuần"
 #: code:addons/web/static/src/js/views/form_view.js:1274
 #, python-format
 msgid "Widget type '%s' is not implemented"
-msgstr "Widget loại '%s' chưa được triển khai"
+msgstr "Kiểu Widget '%s' chưa được cài đặt/triển khai"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:51
 #, python-format
 msgid "Widget:"
-msgstr "Widget:"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:474
 #, python-format
 msgid "Wrong login/password"
-msgstr ""
+msgstr "Sai tên đăng nhập/mật khẩu"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/progress_bar.js:79
 #, python-format
 msgid "Wrong value entered!"
-msgstr "Nhập giá trị sai!"
+msgstr "Giá trị nhập liệu không hợp lệ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:171
 #, python-format
 msgid "XML ID:"
-msgstr "XML ID:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2421,7 +2432,7 @@ msgstr "Có"
 #: code:addons/web/static/src/js/abstract_web_client.js:217
 #, python-format
 msgid "You are back online"
-msgstr "Bạn đã online lại"
+msgstr "Bạn đã online trở lại"
 
 #. module: web
 #. openerp-web
@@ -2441,7 +2452,7 @@ msgstr "Bạn không thể để trống mật khẩu."
 #: code:addons/web/static/src/xml/base.xml:1254
 #, python-format
 msgid "You have updated"
-msgstr ""
+msgstr "Bạn đã cập nhật"
 
 #. module: web
 #. openerp-web
@@ -2471,14 +2482,16 @@ msgstr "Bạn phải chọn ít nhất một bản ghi."
 #: code:addons/web/static/src/js/framework/crash_manager.js:58
 #, python-format
 msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Phiên làm việc của bạn đã hết hạn. Xin hãy nạp lại trang hiện tại."
+msgstr ""
+"Phiên làm việc của bạn đã hết hạn. Xin hãy nạp lại trang hiện tại (F5 hoặc "
+"Ctrl+F5)."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/translation.js:104
 #, python-format
 msgid "a day ago"
-msgstr "Một ngày trước"
+msgstr "một ngày trước"
 
 #. module: web
 #. openerp-web
@@ -2513,14 +2526,14 @@ msgstr "khoảng một giờ trước"
 #: code:addons/web/static/src/js/views/search_filters.js:162
 #, python-format
 msgid "contains"
-msgstr "bao gồm"
+msgstr "chứa"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:163
 #, python-format
 msgid "doesn't contain"
-msgstr "không bao gồm"
+msgstr "không chứa"
 
 #. module: web
 #. openerp-web
@@ -2553,7 +2566,7 @@ msgstr "là"
 #: code:addons/web/static/src/js/views/search_filters.js:186
 #, python-format
 msgid "is between"
-msgstr ""
+msgstr "trong khoảng"
 
 #. module: web
 #. openerp-web
@@ -2570,14 +2583,14 @@ msgstr "bằng"
 #: code:addons/web/static/src/js/views/search_filters.js:329
 #, python-format
 msgid "is false"
-msgstr "là false"
+msgstr "bằng false"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:311
 #, python-format
 msgid "is not"
-msgstr "không"
+msgstr "không là"
 
 #. module: web
 #. openerp-web
@@ -2616,7 +2629,7 @@ msgstr "được thiết lập"
 #: code:addons/web/static/src/js/views/search_filters.js:328
 #, python-format
 msgid "is true"
-msgstr "là true"
+msgstr "bằng true"
 
 #. module: web
 #. openerp-web
@@ -2648,21 +2661,21 @@ msgstr "ít hơn một phút trước"
 #: code:addons/web/static/src/js/views/search_filters.js:286
 #, python-format
 msgid "less than or equal to"
-msgstr "ít hơn hoặc bằng"
+msgstr "nhỏ hơn hoặc bằng"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_inputs.js:231
 #, python-format
 msgid "not a valid integer"
-msgstr "không phải là kiểu số nguyên"
+msgstr "không phải là một integer hợp lệ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_inputs.js:246
 #, python-format
 msgid "not a valid number"
-msgstr "không phải là kiểu số"
+msgstr "không phải là một số hợp lệ"
 
 #. module: web
 #. openerp-web

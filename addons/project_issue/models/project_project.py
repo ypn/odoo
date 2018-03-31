@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
+from odoo import api, fields, models, _
 
 
 class Project(models.Model):
@@ -16,7 +16,7 @@ class Project(models.Model):
     @api.model
     def _get_alias_models(self):
         res = super(Project, self)._get_alias_models()
-        res.append(("project.issue", "Issues"))
+        res.append(("project.issue", _("Issues")))
         return res
 
     @api.multi

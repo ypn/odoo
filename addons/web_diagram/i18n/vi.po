@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web_diagram
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -34,7 +34,7 @@ msgstr "Hoạt động"
 #: code:addons/web_diagram/static/src/js/diagram.js:314
 #, python-format
 msgid "Create:"
-msgstr ""
+msgstr "Tạo:"
 
 #. module: web_diagram
 #. openerp-web
@@ -46,6 +46,8 @@ msgid ""
 "\n"
 "Are you sure ?"
 msgstr ""
+"Xoá node này là việc không thể quay lại.\\Việc này đồng thời cũng xoá toàn bộ các trasitions được nối với nó\n"
+"Bạn chắc chắn chứ?"
 
 #. module: web_diagram
 #. openerp-web
@@ -56,13 +58,16 @@ msgid ""
 "\n"
 "Are you sure ?"
 msgstr ""
+"Xoá transition này là việc không thể quay lại.\n"
+"\n"
+"Bạn chắc chắn chứ?"
 
 #. module: web_diagram
 #. openerp-web
 #: code:addons/web_diagram/static/src/js/diagram.js:19
 #, python-format
 msgid "Diagram"
-msgstr "Diagram"
+msgstr "Biểu đồ"
 
 #. module: web_diagram
 #. openerp-web
@@ -76,7 +81,7 @@ msgstr "Mới"
 #: code:addons/web_diagram/static/src/xml/base_diagram.xml:5
 #, python-format
 msgid "New Node"
-msgstr ""
+msgstr "Node Mới"
 
 #. module: web_diagram
 #. openerp-web
@@ -92,4 +97,4 @@ msgstr "Mở: "
 #: code:addons/web_diagram/static/src/js/diagram.js:309
 #, python-format
 msgid "Transition"
-msgstr "Transition"
+msgstr ""

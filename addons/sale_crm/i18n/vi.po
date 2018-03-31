@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_crm
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -25,7 +25,12 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_issue_count
 msgid "# Issues"
-msgstr "Số lượng phát sinh"
+msgstr "SL Phát sinh"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_res_users_task_count
+msgid "# Tasks"
+msgstr "SL Nhiệm vụ"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_sale_order_count
@@ -35,12 +40,12 @@ msgstr "# Đơn hàng"
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Orders</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> Đơn hàng</span>"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
-msgid "<span class=\"o_stat_text\"> Quote(s) </span>"
-msgstr ""
+msgid "<span class=\"o_stat_text\"> Quotation(s) </span>"
+msgstr "<span class=\"o_stat_text\"> Báo giá </span>"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_associate_member
@@ -50,9 +55,15 @@ msgid ""
 msgstr ""
 
 #. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_res_users_activation
+#, fuzzy
+msgid "Activation"
+msgstr "Kích hoạt"
+
+#. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_associate_member
 msgid "Associate Member"
-msgstr "Thành viên liên kết"
+msgstr "Thành viên Liên kết"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_cancel
@@ -64,7 +75,7 @@ msgstr ""
 #: code:addons/sale_crm/static/src/js/tour.js:16
 #, python-format
 msgid "Click here to see more options."
-msgstr ""
+msgstr "Bấm để xem thêm các tuỳ chọn."
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_payment_token_count
@@ -74,7 +85,7 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_state
 msgid "Current Membership Status"
-msgstr ""
+msgstr "Tình trạng Hội viên Hiện hành"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_property_stock_customer
@@ -99,17 +110,34 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_free_member
 msgid "Free Member"
+msgstr "Thành viên Miễn phí"
+
+#. module: sale_crm
+#: model:ir.model.fields,help:sale_crm.field_res_users_partner_weight
+msgid ""
+"Gives the probability to assign a lead to this partner. (0 means no "
+"assignation.)"
 msgstr ""
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_res_users_implemented_partner_ids
+msgid "Implementation References"
+msgstr ""
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_res_users_assigned_partner_id
+msgid "Implemented by"
+msgstr "Triển khai bởi"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_account_invoice
 msgid "Invoice"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_target_sales_invoiced
 msgid "Invoiced in Sale Orders Target"
-msgstr ""
+msgstr "Hoá đơn đã xuất được theo Mục tiêu Bán hàng"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_state
@@ -126,14 +154,14 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Đầu mối/Cơ hội"
+msgstr "Tiềm năng/Cơ hội"
 
 #. module: sale_crm
 #. openerp-web
 #: code:addons/sale_crm/static/src/js/tour.js:20
 #, python-format
 msgid "Let's have a look at the quotations of this sales team."
-msgstr ""
+msgstr "Hãy cùng xem xét các báo giá của đội bán hàng này"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
@@ -168,17 +196,17 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_picking_warn_msg
 msgid "Message for Stock Picking"
-msgstr ""
+msgstr "Thông điệp cho Lô hàng"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "New Quotation"
-msgstr "Báo giá mới"
+msgstr "Báo giá Mới"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_number
 msgid "Number of Quotations"
-msgstr ""
+msgstr "SL Báo giá"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_opportunity_id
@@ -193,7 +221,7 @@ msgstr "Đơn hàng"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_payment_token_ids
 msgid "Payment Tokens"
-msgstr ""
+msgstr "Token Thanh toán"
 
 #. module: sale_crm
 #: model:ir.actions.act_window,name:sale_crm.sale_action_quotations_new
@@ -210,7 +238,7 @@ msgstr "Báo giá"
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_sale_order_ids
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_sale_warn
 msgid "Sales Order"
-msgstr "Đơn hàng"
+msgstr "Đơn hàng Bán"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_free_member
@@ -229,22 +257,27 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_picking_warn
 msgid "Stock Picking"
-msgstr ""
+msgstr "Lô hàng"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_amount_total
 msgid "Sum of Orders"
-msgstr ""
+msgstr "Tổng các Đơn hàng"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_tag_ids
 msgid "Tags"
-msgstr "Tags"
+msgstr "Thẻ"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_res_users_task_ids
+msgid "Tasks"
+msgstr "Nhiệm vụ"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_amount
 msgid "The price negotiated by the partner"
-msgstr ""
+msgstr "Giá được đàm phán bởi đối tác"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_property_stock_customer
@@ -253,7 +286,7 @@ msgid ""
 "destination location for goods you send to this partner"
 msgstr ""
 "Địa điểm kho này sẽ được sử dụng thay cho địa điểm mặc định, như là địa điểm"
-" đích của hàng hóa mà bạn gửi cho đối tác này"
+" đích của hàng hoá mà bạn gửi cho đối tác này"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_property_stock_supplier
@@ -262,7 +295,7 @@ msgid ""
 "location for goods you receive from the current partner"
 msgstr ""
 "Địa điểm kho này sẽ được sử dụng, thay cho địa điểm kho mặc định, như là địa"
-" điểm nguồn của hàng hóa mà bạn nhận được từ đối tác hiện tại"
+" điểm nguồn của hàng hoá mà bạn nhận được từ đối tác hiện tại"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_res_users

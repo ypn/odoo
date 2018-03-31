@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * subscription
-# 
+#
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -28,7 +28,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:subscription.field_subscription_document_active
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: subscription
 #: model:ir.model.fields,field_description:subscription.field_subscription_document_create_uid
@@ -54,7 +54,7 @@ msgstr ""
 #. module: subscription
 #: selection:subscription.document.fields,value:0
 msgid "Current Date"
-msgstr ""
+msgstr "Ngày hiện hành"
 
 #. module: subscription
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_history_date
@@ -123,7 +123,7 @@ msgstr "Trường"
 #. module: subscription
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_date_init
 msgid "First Date"
-msgstr ""
+msgstr "Ngày đầu"
 
 #. module: subscription
 #: model:ir.ui.view,arch_db:subscription.view_subscription_filter
@@ -136,7 +136,7 @@ msgstr "Nhóm theo"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_history_id
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: subscription
 #: model:ir.model.fields,help:subscription.field_subscription_document_active
@@ -190,7 +190,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_history_write_date
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: subscription
 #: selection:subscription.subscription,interval_type:0
@@ -248,7 +248,7 @@ msgstr "Tài liệu định kỳ"
 #: model:ir.actions.act_window,name:subscription.action_document_form
 #: model:ir.ui.menu,name:subscription.menu_action_document_form
 msgid "Recurring Types"
-msgstr ""
+msgstr "Kiểu định kỳ"
 
 #. module: subscription
 #: model:ir.ui.view,arch_db:subscription.view_subscription_filter
@@ -281,7 +281,7 @@ msgstr "Tài liệu nguồn"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_state
 #: model:ir.ui.view,arch_db:subscription.view_subscription_filter
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: subscription
 #: model:ir.ui.view,arch_db:subscription.view_subscription_form
@@ -293,7 +293,7 @@ msgstr "Dừng"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_history_subscription_id
 #: model:ir.ui.view,arch_db:subscription.view_subscription_filter
 msgid "Subscription"
-msgstr "Subscription"
+msgstr ""
 
 #. module: subscription
 #: model:ir.ui.view,arch_db:subscription.view_subscription_form
@@ -344,6 +344,7 @@ msgstr "Người dùng"
 msgid ""
 "User can choose the source document on which he wants to create documents"
 msgstr ""
+"Người dùng có thể chọn lựa tài liệu nguồn để từ đó tạo ra một tài liệu mới"
 
 #. module: subscription
 #: selection:subscription.subscription,interval_type:0

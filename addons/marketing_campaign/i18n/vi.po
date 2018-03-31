@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
@@ -30,6 +30,8 @@ msgid ""
 "<p>We are delighted to let you know that you have entered the select circle of our Gold Partners!</p>\n"
 "<p>Thank you,</p>\n"
 msgstr ""
+"Chào bạn, chúng tôi vui mừng báo để bạn biết rằng bạn đã gia nhập vào nhóm "
+"đối tác vàng của chúng tôi."
 
 #. module: marketing_campaign
 #: model:mail.template,body_html:marketing_campaign.email_template_2
@@ -39,6 +41,8 @@ msgid ""
 "<p>We are delighted to welcome you among our Silver Partners as of today!</p>\n"
 "<p>Thank you,</p>\n"
 msgstr ""
+"Xin chào, chúng tôi vui mừng chào đón bạn là đối tác bạc của chúng tôi ngày "
+"hôm nay!"
 
 #. module: marketing_campaign
 #: model:mail.template,body_html:marketing_campaign.email_template_1
@@ -48,11 +52,15 @@ msgid ""
 "<p>You will receive your welcome pack via email shortly.</p>\n"
 "<p>Thank you,</p>\n"
 msgstr ""
+"\n"
+"<p>Xin chào,</p>\n"
+"<p>Bạn sẽ nhận gói chào mừng thông qua email sớm thôi.</p>\n"
+"<p>Cám ơn bạn,</p>\n"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_campaign_analysis_count
 msgid "# of Actions"
-msgstr "số lượng hành động"
+msgstr "SL hành động"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_form
@@ -225,7 +233,7 @@ msgstr "Hủy bỏ Chiến dịch"
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Cancel Segment"
-msgstr "Hủy bỏ phần khúc"
+msgstr "Hủy bỏ Phân khúc"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_form
@@ -245,12 +253,12 @@ msgstr "Đã hủy"
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_segment_object_id
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_workitem_object_id
 msgid "Choose the resource on which you want this campaign to be run"
-msgstr "Lựa chọn tài nguyên mà bạn muốn chiến dịch này chạy trên đó"
+msgstr "Lựa chọn Nguồn lực mà bạn muốn chiến dịch này chạy trên đó"
 
 #. module: marketing_campaign
 #: model:ir.actions.act_window,help:marketing_campaign.action_marketing_campaign_form
 msgid "Click to create a marketing campaign."
-msgstr "Click để tạo một chiến dịch marketing"
+msgstr "Bấm để tạo một chiến dịch marketing"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_form
@@ -306,12 +314,12 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_transition_create_date
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.activity,action_type:0
 msgid "Custom Action"
-msgstr "Hành động tùy ý"
+msgstr "Hành động Tuỷ chỉnh"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_segment_sync_last_date
@@ -380,7 +388,7 @@ msgstr "Hoàn thành"
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_search
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_search
 msgid "Draft"
-msgstr "Bản thảo"
+msgstr "Dự thảo"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/models/marketing_campaign.py:127
@@ -391,7 +399,7 @@ msgstr "Không hỗ trợ trùng lặp chiến dịch"
 #. module: marketing_campaign
 #: selection:marketing.campaign.activity,action_type:0
 msgid "Email"
-msgstr "Tên đăng nhập / Email"
+msgstr ""
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/models/marketing_campaign.py:586
@@ -407,7 +415,7 @@ msgstr "Mẫu Email"
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_email_template_preview
 msgid "Email Template Preview"
-msgstr ""
+msgstr "Mẫu Email"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_mail_template
@@ -498,7 +506,7 @@ msgid ""
 msgstr ""
 "Kinh phí cố định để thực thi chiến dịch này. Bạn có thể xác định cụ thể biến"
 " phí và thu nhập trên mỗi hoạt động chiến dịch. Thống kê về Chi phí và Thu "
-"nhập được baio gồm trong Báo cáo Chiến dịch."
+"nhập được bao gồm trong Báo cáo Chiến dịch."
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_form
@@ -537,7 +545,7 @@ msgstr "Cách thức workitem đích được tri-gơ"
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_transition_id
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: marketing_campaign
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_workitem_date
@@ -624,7 +632,7 @@ msgstr "Lần đồng bộ cuối"
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_write_uid
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_write_uid
 msgid "Last Updated by"
-msgstr "Cập nhật lần cuối bởi"
+msgstr "Cập nhật Lần cuối bởi"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_write_date
@@ -633,7 +641,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_write_date
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_segment_date_run
@@ -643,22 +651,22 @@ msgstr "Ngày khởi động"
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_search
 msgid "Launch Month"
-msgstr "Tháng khởi động"
+msgstr "Tháng Khởi động"
 
 #. module: marketing_campaign
 #: model:ir.ui.menu,name:marketing_campaign.menu_marketing_campaign_root
 msgid "Lead Automation"
-msgstr "Tự động hóa Lead"
+msgstr "Tự động hoá Tiềm năng"
 
 #. module: marketing_campaign
 #: model:res.groups,name:marketing_campaign.group_lead_automation_manager
 msgid "Manager"
-msgstr "Quản trị dự án"
+msgstr "Quản lý"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_search
 msgid "Manual Mode"
-msgstr "Chế độ thủ công"
+msgstr "Chế độ Thủ công"
 
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
@@ -681,17 +689,17 @@ msgstr "Hoạt động chiến dịch marketing"
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Marketing Campaign Activity"
-msgstr "Hoạt động chiến dịch marketing"
+msgstr "Hoạt động Chiến dịch Marketing"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Marketing Campaign Segment"
-msgstr "Phân khúc chiến dịch marketing"
+msgstr "Phân khúc Chiến dịch Marketing"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_form
 msgid "Marketing Campaign Statistics"
-msgstr "Thông kê chiến dịch marketing"
+msgstr "Thông kê Chiến dịch Marketing"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_campaign_analysis_tree
@@ -716,6 +724,7 @@ msgstr "Chế độ"
 #, python-format
 msgid "Model of filter must be same as resource model of Campaign"
 msgstr ""
+"Mô hình (model) của bộ lọc phải giống với mô hình Nguồn lực của chiến dịch "
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -750,12 +759,12 @@ msgstr "Mới được sửa"
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_to_ids
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_activity_form
 msgid "Next Activities"
-msgstr "Các Hoạt động tiếp theo"
+msgstr "Các Hoạt động Tiếp theo"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_transition_activity_to_id
 msgid "Next Activity"
-msgstr "Hoạt động tiếp theo"
+msgstr "Hoạt động Tiếp theo"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_segment_date_next_sync
@@ -794,6 +803,9 @@ msgid ""
 "            to your prospects. You can define a segment (set of conditions) on\n"
 "            your leads and partners to fulfill the campaign."
 msgstr ""
+"Chiến dịch quảng cáo của Odoo cho phép bạn tự động giao tiếp đến những khách"
+" hàng tiềm năng của bạn. Bạn có thể định nghĩa một phân vùng (thiết lập các "
+"điều kiện) cho những manh mối và những đối tác để hoàn thành chiến dịch này."
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.segment,sync_mode:0
@@ -836,12 +848,12 @@ msgstr "Xem trước"
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_from_ids
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_activity_form
 msgid "Previous Activities"
-msgstr "Các Hoạt động trước"
+msgstr "Hoạt động Trước"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_transition_activity_from_id
 msgid "Previous Activity"
-msgstr "Hoạt động trước"
+msgstr "Hoạt động Trước"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_form
@@ -862,7 +874,7 @@ msgstr ""
 "Biểu thức Python để quyết định hoạt động có được thực thi hay không, người lại nó sẽ bị xóa hoặc hủy bỏ. Biểu thức có thể sử dụng các biến (có thể duyệt được) dưới đây:\n"
 "   - activity: hoạt động của chiến dịch\n"
 "   - workitem: workitem của chiến dịch\n"
-"   - resource: đối tượng tài nguyên mà hạng mục chiến dịch này đại diện\n"
+"   - resource: đối tượng Nguồn lực mà hạng mục chiến dịch này đại diện\n"
 "   - transitions: danh mục các chuyển tiếp chiến dịch ra ngoài từ hoạt động này\n"
 "...- re: Python regular expression module"
 
@@ -890,18 +902,18 @@ msgstr "Đặt lại"
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_search
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Resource"
-msgstr "Tài nguyên"
+msgstr "Nguồn lực"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_res_id
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Resource ID"
-msgstr "ID Tài nguyên"
+msgstr "ID Nguồn lực"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_workitem_res_name
 msgid "Resource Name"
-msgstr "Tên Tài nguyên"
+msgstr "Tên Nguồn lực"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_campaign_analysis_revenue
@@ -976,7 +988,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_form
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Set to Draft"
-msgstr "Thiết lập về dự thảo"
+msgstr "Đặt về dự thảo"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_signal
@@ -998,7 +1010,7 @@ msgstr "Khởi động"
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_search
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_search
@@ -1026,7 +1038,7 @@ msgstr "Chế độ đồng bộ"
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Synchronize Manually"
-msgstr "Đồng bộ thủ công"
+msgstr "Đồng bộ Thủ công"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_mode
@@ -1037,27 +1049,32 @@ msgid ""
 " validate all workitem manually.\n"
 "Normal - the campaign runs normally and automatically sends all emails and reports (be very careful with this mode, you're live!)"
 msgstr ""
+"Kiểm thử - Kiểm thử sẽ tạo và xử lý tất cả các hoạt động một cách trực tiếp (mà không đợi sự trễ lúc chuyển tiếp) nhưng sẽ không gửi email hay tạo ra các báo cáo.\n"
+"Kiểm thử theo thời gian thực - Kiểm thử theo thời gian thực sẽ tạo và xử lý tất cả các hoạt động một cách trực tiếp nhưng sẽ không gửi email hay tạo ra các báo cáo.\n"
+"Với sự xác nhận thủ công - các chiến dịch chạy bình thường, nhưng người dùng phải thẩm định tất cả các workitem một cách thủ công.\n"
+"Bình thường - các chiến dịch chạy bình thường và tự động gửi tất cả email và báo cáo (hãy thận trọng, đây là chế độ hoạt động thực sự/live, không phải là kiểm thử nữa!)"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
 msgid "Test Directly"
-msgstr "Kiểm thử trực tiếp"
+msgstr "Kiểm thử Trực tiếp"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_search
 msgid "Test Mode"
-msgstr "Chế độ kiểm thử"
+msgstr "Chế độ Kiểm thử"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
 msgid "Test in Realtime"
-msgstr "Kiểm thử theo thời gian thực"
+msgstr "Kiểm thử theo Thời gian thực"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/models/marketing_campaign.py:401
 #, python-format
 msgid "The To/From Activity of transition must be of the same Campaign"
 msgstr ""
+"Hoạt động Tới/Từ của việc chuyển tiếp phải thuộc về cùng một Chiến dịch "
 
 #. module: marketing_campaign
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_activity_server_action_id
@@ -1134,6 +1151,11 @@ msgid ""
 "- Report: print an existing Report defined on the resource item and save it into a specific directory \n"
 "- Custom Action: execute a predefined action, e.g. to modify the fields of the resource record"
 msgstr ""
+"Loại hành động để thực thi khi một hạng mục nhập vào hoạt động này, ví như:\n"
+"   - Email: gửi email sử dụng một mẫu email được định nghĩa trước\n"
+"   - Báo cáo: in một Báo cáo có sẵn được định nghĩa theo hạng mục Nguồn lực và lưu nó trong một thư mục cụ thể\n"
+"   - Hành động tự do: thực thi một hành động được định nghĩa trước, ví dụ: sửa các trường của một bản ghi Nguồn lực\n"
+"  "
 
 #. module: marketing_campaign
 #: model:ir.model.fields,help:marketing_campaign.field_marketing_campaign_activity_start
@@ -1161,17 +1183,17 @@ msgstr "Tri-gơ"
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_action_type
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_unique_field_id
 msgid "Unique Field"
-msgstr "Trường giá trị duy nhất"
+msgstr "Trường giá trị Duy nhất"
 
 #. module: marketing_campaign
 #: model:res.groups,name:marketing_campaign.group_lead_automation_user
 msgid "User"
-msgstr "Người dùng"
+msgstr ""
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_variable_cost
@@ -1191,7 +1213,7 @@ msgstr "Với sự xác nhận thủ công"
 #. module: marketing_campaign
 #: model:ir.actions.act_window,name:marketing_campaign.act_marketing_campaing_followup
 msgid "Workitems"
-msgstr "Workitems"
+msgstr ""
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -1201,4 +1223,4 @@ msgstr "Năm"
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_ir_actions_report_xml
 msgid "ir.actions.report.xml"
-msgstr "ir.actions.report.xml"
+msgstr ""
