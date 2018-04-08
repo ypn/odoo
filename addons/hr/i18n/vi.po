@@ -3,10 +3,9 @@
 # * hr
 #
 # Translators:
-# lam nguyen <lamev.inc@gmail.com>, 2016
-# trieu le <trieu.lth@gmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2016
+# trieu le <trieu.lth@gmail.com>, 2016
+# Martin Trigaux, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
@@ -107,6 +106,10 @@ msgid ""
 "training. If you are passionate, motivate and flexible apply for this job, "
 "you will certainly join the best company ever."
 msgstr ""
+"Một công việc toàn thời gian, với một mức lương thu hút trong một nhóm nhỏ "
+"và những người thông minh. Bạn sẽ đào tạo đầy đủ về kĩ thuật và hướng dẫn về"
+" nghiệp vụ . Nếu bạn đam mê, năng động và có sự linh hoạt trong công việc "
+"này, bạn chắc chắn sẽ tham gia vào công ty tốt nhất từ trước tới nay."
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -139,7 +142,7 @@ msgstr "Tài khoản quản trị"
 #: model:ir.ui.view,arch_db:hr.view_department_filter
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Archived"
-msgstr "Đã lưu "
+msgstr "Đã lưu"
 
 #. module: hr
 #: model:ir.model,name:hr.model_event_registration
@@ -305,7 +308,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_create_date
 #: model:ir.model.fields,field_description:hr.field_hr_job_create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_no_of_employee
@@ -377,11 +380,6 @@ msgstr "Ly hôn"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_time_efficiency
 msgid "Efficiency Factor"
 msgstr "Hệ số Hiệu suất"
-
-#. module: hr
-#: model:ir.model,name:hr.model_mail_alias
-msgid "Email Aliases"
-msgstr "Bí danh Email"
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_thread
@@ -589,7 +587,7 @@ msgstr "Thiết lập Nhân lực"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Help with the configuration of the software"
-msgstr ""
+msgstr "Giúp đỡ cấu hình phần mềm"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_hrm
@@ -673,14 +671,14 @@ msgstr "Đang tuyển dụng"
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "Increase opportunities"
-msgstr ""
+msgstr "Gia tăng cơ hội"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "Increase the visibility of the product"
-msgstr ""
+msgstr "Gia tăng độ nhận diện của sản phẩm"
 
 #. module: hr
 #: model:ir.model,name:hr.model_fleet_vehicle
@@ -768,12 +766,12 @@ msgstr "Khởi động tuyển dụng"
 #. module: hr
 #: model:hr.job,website_description:hr.job_marketing
 msgid "Launch new marketing campaigns and offers"
-msgstr ""
+msgstr "Triển khai chiến dịch maketing mới"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_hrm
 msgid "Launch new products, Human Resources campaigns and offers"
-msgstr ""
+msgstr "Triển khai sản phẩm mới, chiến dịch nhân sự"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -816,7 +814,7 @@ msgstr "Tình trạng hôn nhân"
 #. module: hr
 #: model:hr.job,name:hr.job_marketing
 msgid "Marketing and Community Manager"
-msgstr ""
+msgstr "Quản lý Marketing và Cộng đồng"
 
 #. module: hr
 #: selection:hr.employee,marital:0
@@ -828,7 +826,7 @@ msgstr "Đã kết hôn"
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Master or engineer in computer science"
-msgstr ""
+msgstr "Thạc sĩ hoặc kĩ sư khoa học máy tính"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_image_medium
@@ -842,8 +840,8 @@ msgid ""
 "128x128px image, with aspect ratio preserved. Use this field in form views "
 "or some kanban views."
 msgstr ""
-"Ảnh cỡ trung bình của nhân viên. Nó sẽ tự động thay đổi kích thước thành "
-"128x128 mà không thay đổi tỷ lệ."
+"Ảnh cỡ trung bình của nhân viên. Kích thước sẽ tự động thay đổi thành "
+"128x128 mà không thay đổi tỷ lệ. Hình này xuất hiện khi xem ở dạng form hoặc kanban"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_member_ids
@@ -895,12 +893,7 @@ msgstr "Có là 1 lợi thế"
 #. module: hr
 #: selection:hr.job,state:0
 msgid "Not Recruiting"
-msgstr ""
-
-#. module: hr
-#: selection:hr.job,state:0
-msgid "Not Recruiting"
-msgstr ""
+msgstr "Không phải Đang tuyển"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_note
@@ -937,6 +930,9 @@ msgid ""
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc."
 msgstr ""
+"Cấu trúc phòng ban được sử dụng trong tất cả tài \n"
+"                liên quan tới các nhân viên theo từng bộ phận: chi phí, thời gian làm việc,\n"
+"                nghỉ phép và các ngày lễ, tuyển dụng, vv."
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
@@ -962,7 +958,7 @@ msgstr "Thông tin khác ..."
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Our staff at work"
-msgstr ""
+msgstr "Nhân viên của chúng tôi khi làm việc"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_parent_id
@@ -977,7 +973,7 @@ msgstr "Đối tác"
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Passion for the Internet and its culture"
-msgstr ""
+msgstr "Đam mê Internet và văn hoá của nó"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_passport_id
@@ -1015,7 +1011,7 @@ msgstr "Vị trí"
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Preferably 1 year of experience"
-msgstr ""
+msgstr "Ít nhất 1 năm kinh nghiệm"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -1025,12 +1021,12 @@ msgstr "Thông tin công khai"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Quantify and negotiate the resources required"
-msgstr ""
+msgstr "Xác định và thỏa thuận các nội dung cần thiết"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Quick and autonomous learner"
-msgstr ""
+msgstr "Có khả năng tự học nhanh"
 
 #. module: hr
 #: selection:hr.job,state:0
@@ -1075,7 +1071,7 @@ msgstr "Tên Nguồn lực"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_name_related
 msgid "Resource Name"
-msgstr "Tên Tài nguyên"
+msgstr "Tên Nguồn lực"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_resource_type
@@ -1101,7 +1097,7 @@ msgstr "Số bảo hiểm xã hội"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_ssnid
 msgid "SSN No"
-msgstr "Số an sinh xã hội"
+msgstr "Số An sinh Xã hội"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1202,7 +1198,7 @@ msgstr "Tham gia vào các dịch vụ tư vấn"
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Team spirit and good communication"
-msgstr ""
+msgstr "Là linh hồn của nhóm và có khả năng giao tiếp tốt"
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_test
@@ -1252,6 +1248,8 @@ msgid ""
 "This field holds the image used as photo for the employee, limited to "
 "1024x1024px."
 msgstr ""
+"Trường này lưu hình dùng cho ảnh đại diện của nhân viên, giới hạn là "
+"1024x1024px"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_expected_employees
@@ -1279,7 +1277,7 @@ msgstr "Thông điệp chưa đọc"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_login
 msgid "Used to log into the system"
-msgstr ""
+msgstr "Được sử dụng để đăng nhập hệ thống"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_user_id
