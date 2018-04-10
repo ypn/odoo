@@ -1947,7 +1947,7 @@ msgstr "Mặc định: Lấy từ Kho"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_route_ids
 msgid "Defaults routes through the warehouse"
-msgstr "Tuyến đường mặc định thông qua nhà kho"
+msgstr "Tuyến Cung ứng mặc định thông qua nhà kho"
 
 #. module: stock
 #: selection:stock.config.settings,module_product_expiry:0
@@ -4333,7 +4333,7 @@ msgstr "Tên hoạt động"
 #: model:ir.ui.view,arch_db:stock.view_picking_type_tree
 #: model:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Operation Types"
-msgstr "Kiểu Hoạt động"
+msgstr "Kiểu Giao Nhận"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_pack_operation_lot_operation_id
@@ -4344,12 +4344,12 @@ msgstr ""
 #: model:ir.ui.menu,name:stock.menu_stock_warehouse_mgmt
 #: model:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Operations"
-msgstr "Hoạt động"
+msgstr "Giao Nhận"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_pickingtype
 msgid "Operations Types"
-msgstr "Kiểu Hoạt động"
+msgstr "Kiểu Giao Nhận"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_linked_move_operation_ids
@@ -5647,12 +5647,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.stock_location_route_form_view
 #: model:ir.ui.view,arch_db:stock.stock_location_route_view_search
 msgid "Route"
-msgstr "Tuyến đường"
+msgstr "Tuyến Cung ứng"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_route_name
 msgid "Route Name"
-msgstr "Tên Tuyến đường"
+msgstr "Tên Tuyến Cung ứng"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_route_sequence
@@ -5674,7 +5674,7 @@ msgstr "Trình tự tuyến đường"
 #: model:ir.ui.view,arch_db:stock.stock_location_route_tree
 #: model:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Routes"
-msgstr "Tuyến đường"
+msgstr "Tuyến Cung ứng"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -5687,7 +5687,7 @@ msgid ""
 "Routes will be created for these resupply warehouses and you can select them"
 " on products and product categories"
 msgstr ""
-"Tuyến đường sẽ được tạo cho các kho tái cung cấp này và bạn có thể chọn nó "
+"Tuyến Cung ứng sẽ được tạo cho các kho tái cung cấp này và bạn có thể chọn nó "
 "trên sản phẩm và nhóm sản phẩm"
 
 #. module: stock
@@ -7291,7 +7291,7 @@ msgstr "Hệ thống Nhà kho để xem xét chọn tuyến"
 #: code:addons/stock/models/stock_warehouse.py:718
 #, python-format
 msgid "Warehouse's Routes"
-msgstr "Tuyến đường của kho hàng"
+msgstr "Tuyến Cung ứng của kho hàng"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_warehouse_form
