@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2018-01-15 10:12+0000\n"
+"PO-Revision-Date: 2018-06-01 00:11+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -8582,7 +8582,44 @@ msgid "The sequence of journal %s is deactivated."
 msgstr "Trình tự của sổ nhật ký %s thì đang bị vô hoạt."
 
 #. module: account
-#: code:addons/account/models/account_bank_statement.py:171
+#: code:addons/account/models/company.py:91
+#, python-format
+msgid ""
+"There are still unposted entries in the period you want to lock. You should "
+"either post or delete them."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:81
+#, python-format
+msgid "The lock date for advisors is irreversible and can't be removed."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:85
+#, python-format
+msgid ""
+"The new lock date for advisors must be set after the previous lock date."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:96
+#, python-format
+msgid ""
+"You cannot lock a period that is not finished yet. Please make sure that the"
+" lock date for advisors is not set after the last day of the previous month."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:107
+#, python-format
+msgid ""
+"You cannot define stricter conditions on advisors than on users. Please make"
+" sure that the lock date on advisor is set before the lock date for users."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/account_bank_statement.py:170
 #, python-format
 msgid ""
 "There is no account defined on the journal %s for %s involved in a cash "
@@ -8643,7 +8680,7 @@ msgstr "Năm nay"
 msgid ""
 "This account will be used for invoices instead of the default one to value "
 "expenses for the current product."
-msgstr ""
+msgstr "Tài khoản này sẽ được dùng lên hóa đơn thay cho tài khoản chi phí mặc định của sản phẩm này."
 "Tài khoản sẽ được sử dụng cho hoá đơn mua hàng.\n"
 "Cụ thể: khi xác nhận hoá đơn mua hàng, tự động ghi giá trị hoá đơn vào bên NỢ của tài khoản được thiết lập ở đây."
 
@@ -8652,7 +8689,7 @@ msgstr ""
 msgid ""
 "This account will be used for invoices instead of the default one to value "
 "sales for the current product."
-msgstr ""
+msgstr "Tài khoản này sẽ được dùng lên hóa đơn thay cho tài khoản ghi nhận giá trị bán hàng mặc định của sản phẩm này."
 "Tài khoản sẽ được sử dụng cho hoá đơn bán hàng.\n"
 "Cụ thể: khi xác nhận hoá đơn bán hàng, tự động ghi giá trị hoá đơn vào bên CÓ của tài khoản được thiết lập ở đây."
 
@@ -9694,6 +9731,14 @@ msgstr ""
 "cần hủy đối soát các bút toán thanh toán liên quan."
 
 #. module: account
+#: code:addons/account/models/company.py:118
+#, python-format
+msgid ""
+"You cannot change the currency of the company since some journal items "
+"already exist"
+msgstr ""
+
+#. module: account
 #: code:addons/account/models/account.py:162
 #, python-format
 msgid ""
@@ -9974,7 +10019,7 @@ msgstr ""
 #. module: account
 #: model:ir.model,name:account.model_account_config_settings
 msgid "account.config.settings"
-msgstr ""
+msgstr "account.config.settings"
 
 #. module: account
 #: model:ir.model,name:account.model_account_tax_group
