@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * crm
-#
+# 
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -315,7 +315,7 @@ msgstr "<i class=\"fa fa-envelope-o\"/> Hỏi các Chuyên gia của chúng tôi
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "<i class=\"fa fa-envelope-o\"/>&amp;nbsp;"
-msgstr ""
+msgstr "<i class=\"fa fa-envelope-o\"/>&amp;nbsp;"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -334,6 +334,17 @@ msgstr ""
 "<p><b>Gửi thông điệp</b> đến các triển vọng và nhận phản hồi được tự động "
 "gắn với cơ hội này.</p><p class=\"mb0\">Gõ <i>'@'</i> để đề cập ai đó - "
 "tương tự như tính năng CC trong email.</p>"
+
+#. module: crm
+#: model:ir.actions.server,body_html:crm.action_email_reminder_lead
+msgid ""
+"<p>Hello ${object.user_id and object.user_id.name or ''},</p>\n"
+"<p>The opportunity <strong>${object.name}</strong> did not have any activity since at least 5 days.</p>\n"
+"%if object.description:\n"
+"<p>Here is the description about the opportunity : </p><p><i>${object.description}</i>\n"
+"%endif\n"
+"</p><p>Thank you!</p>\n"
+msgstr ""
 
 #. module: crm
 #. openerp-web
