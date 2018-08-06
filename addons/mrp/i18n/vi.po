@@ -72,7 +72,7 @@ msgstr "SL Hoạt động Sản xuất"
 #: model:product.product,description:mrp.product_product_computer_desk_leg
 #: model:product.template,description:mrp.product_product_computer_desk_leg_product_template
 msgid "18″ x 2½″ Square Leg"
-msgstr ""
+msgstr "Chân bàn 18″ x 2½″"
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_laptop_charger
@@ -136,7 +136,7 @@ msgstr "<span class=\"o_stat_text\">Phân tích<br/> Thời gian</span>"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "<span class=\"o_stat_text\">Work Center Load</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Số Giờ dự kiến</span>"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -342,7 +342,7 @@ msgstr "Đã lưu "
 #: model:product.product,name:mrp.product_assembly
 #: model:product.template,name:mrp.product_assembly_product_template
 msgid "Assembly Service Cost"
-msgstr ""
+msgstr "Chi phí Dịch vụ Lắp ráp"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:258
@@ -397,7 +397,7 @@ msgstr "Tên BOM"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_attribute_value_ids
 msgid "BOM Product Variants needed form apply this line."
-msgstr ""
+msgstr "Định mức biến thể sản phẩm cần áp dụng từ đây"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_structure_report
@@ -2754,12 +2754,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production_post_visible
 msgid "Technical field to check when we can post"
-msgstr ""
+msgstr "Trường kỹ thuật để kiểm tra khi nào chúng ta có thể vào sổ"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production_unreserve_visible
 msgid "Technical field to check when we can unreserve"
-msgstr ""
+msgstr "Trường kỹ thuật để kiểm tra khi nào chúng ta có thể thôi xí trước"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_production_availability
@@ -2769,7 +2769,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_working_state
 msgid "Technical: used in views only"
-msgstr ""
+msgstr "Kỹ thuật: chỉ được dùng trong các giao diện"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_product_id
@@ -2777,7 +2777,7 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_product_uom_id
 #: model:ir.model.fields,help:mrp.field_mrp_workorder_production_state
 msgid "Technical: used in views only."
-msgstr ""
+msgstr "Kỹ thuật: chỉ được dùng trong các giao diện"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:76 code:addons/mrp/models/mrp_bom.py:227
@@ -2852,7 +2852,7 @@ msgstr "Kiểu giao nhận xác định giao diện giao nhận"
 #. module: mrp
 #: sql_constraint:mrp.production:0
 msgid "The quantity to produce must be positive!"
-msgstr ""
+msgstr "Số lượng để sản xuất phải là số dương!"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter_routing_id
@@ -2899,7 +2899,7 @@ msgid "Time Tracking"
 msgstr "Theo dõi Thời gian"
 
 #. module: mrp
-#: code:addons/mrp/models/mrp_workorder.py:363
+#: code:addons/mrp/models/mrp_workorder.py:360
 #, python-format
 msgid "Time Tracking: "
 msgstr "Theo dõi Thời gian"
@@ -2922,7 +2922,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_time_stop
 msgid "Time in minutes for the cleaning."
-msgstr ""
+msgstr "Thời gian tính bằng phút để làm sạch/vệ sinh."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_time_start
@@ -2962,11 +2962,7 @@ msgstr "Chờ Bắt đầu"
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 msgid "To Produce"
-<<<<<<< HEAD
-msgstr "Để Sản xuất"
-=======
 msgstr "Đã sản xuất"
->>>>>>> refs/remotes/upstream/10.0
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_workcenter_kanban_action
@@ -3084,7 +3080,7 @@ msgstr "Đơn vị đo lường"
 msgid ""
 "Unit of Measure (Unit of Measure) is the unit of measurement for the "
 "inventory control"
-msgstr ""
+msgstr "Đơn vị đo lường là đơn vị dùng để kiểm soát và kiểm kê kho"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -3184,7 +3180,7 @@ msgstr "Chờ khả dụng"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_production_action_waiting
 msgid "Waiting Availability MO"
-msgstr ""
+msgstr "Lệnh sản xuất chờ nguyên liệu"
 
 #. module: mrp
 #. openerp-web
@@ -3598,7 +3594,7 @@ msgstr "Bạn phải cung cấp một số lô cho một thành phần"
 #: code:addons/mrp/models/mrp_workorder.py:272
 #, python-format
 msgid "You should provide a lot for the final product"
-msgstr "Bạn phải cung cấp một số lô cho một thành phẩm"
+msgstr "Bạn phải cung cấp một số lô cho thành phẩm"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_product_template_form_inherited

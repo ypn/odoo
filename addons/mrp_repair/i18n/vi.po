@@ -9,13 +9,14 @@
 # son dang <son.dang@doda100.com>, 2016
 # Phạm Lân <phamquanglan@gmail.com>, 2016
 # file aio <fileaio@gmail.com>, 2017
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 15:55+0000\n"
 "PO-Revision-Date: 2016-11-14 15:55+0000\n"
-"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +79,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Printing Date:</strong>"
-msgstr ""
+msgstr "<strong>Ngày In:</strong>"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -232,11 +233,6 @@ msgstr "Được tạo vào"
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_location_id
 msgid "Current Location"
 msgstr "Địa điểm hiện tại"
-
-#. module: mrp_repair
-#: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_default_address_id
-msgid "Default address id"
-msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_default_address_id
@@ -444,7 +440,7 @@ msgstr "Lô"
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_make_invoice
 msgid "Make Invoice"
-msgstr "Tao hoá đơn"
+msgstr "Tạo hoá đơn"
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_move_id
@@ -459,7 +455,7 @@ msgstr "Dịch chuyển được tạo bởi lệnh sửa chữa"
 #. module: mrp_repair
 #: selection:mrp.repair,invoice_method:0
 msgid "No Invoice"
-msgstr "Không có hoá đơn"
+msgstr "Không xuất hoá đơn"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:499
@@ -485,7 +481,7 @@ msgstr "Không có tài khoản được xác định cho sản phẩm \"%s\"."
 #: code:addons/mrp_repair/models/mrp_repair.py:306
 #, python-format
 msgid "No product defined on Fees!"
-msgstr ""
+msgstr "Không có sản phẩm được xác định cho các Phí"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:506
@@ -655,25 +651,30 @@ msgstr "Tham chiếu sửa chữa"
 #: code:addons/mrp_repair/models/mrp_repair.py:194
 #, python-format
 msgid "Repair must be canceled in order to reset it to draft."
-msgstr ""
+msgstr "Sửa chữa phải được huỷ trước khi có thể thiết lập về dự thảo."
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:343
 #, python-format
 msgid "Repair must be confirmed before starting reparation."
 msgstr ""
+"Lệnh Sửa chữa phải được xác nhận trước khi có thể khởi động việc sửa chữa."
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:371
 #, python-format
 msgid "Repair must be repaired in order to make the product moves."
 msgstr ""
+"Lệnh Sửa chữa phải ở trạng thái đã sửa chữa trước khi có thể tạo các dịch "
+"chuyển kho"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:354
 #, python-format
 msgid "Repair must be under repair in order to end reparation."
 msgstr ""
+"Lệnh sửa chữa phải ở trạng thái 'Đang sửa chữa' trước khi có thể kết thúc "
+"việc sửa chữa"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:223
@@ -712,7 +713,7 @@ msgstr "Lệnh sửa chữa"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Search Repair Orders"
-msgstr ""
+msgstr "Tìm Lệnh Sửa chữa"
 
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_invoice_method
@@ -803,6 +804,8 @@ msgid ""
 "The status of a repair line is set automatically to the one of the linked "
 "repair order."
 msgstr ""
+"Tình trạng của một dòng sửa chữa (thành phần) được thiết lập tự động giống "
+"như tình trạng của lệnh sửa chữa tương ứng"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_cancel_repair

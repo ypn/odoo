@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
-#
+# 
 # Translators:
 # Martin Trigaux, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
@@ -11,13 +11,14 @@
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
 # Tri Bui <tribd@trobz.com>, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 15:53+0000\n"
 "PO-Revision-Date: 2016-11-14 15:53+0000\n"
-"Last-Translator: Tri Bui <tribd@trobz.com>, 2018\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,14 +49,14 @@ msgstr "%(empl_name)s từ %(check_in)s đến %(check_out)s"
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:117
 #, python-format
 msgid "An apple a day keeps the doctor away"
-msgstr ""
+msgstr "Mỗi ngày một trái táo để tránh xa bác sỹ"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:106
 #, python-format
 msgid "Another good day's work! See you soon!"
-msgstr ""
+msgstr "Hoàn thành một ngày làm việc tốt nữa! Hẹn gặp lại bạn!"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_config
@@ -113,8 +114,8 @@ msgid ""
 "Cannot create new attendance record for %(empl_name)s, the employee hasn't "
 "checked out since %(datetime)s"
 msgstr ""
-"Không thể tạo ghi nhận có mặt cho nhân viên %(empl_name)s. Nhân viên này vẫn "
-"chưa checkout kể từ %(datetime)s"
+"Không thể tạo ghi nhận có mặt cho nhân viên %(empl_name)s. Nhân viên này vẫn"
+" chưa checkout kể từ %(datetime)s"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:72
@@ -124,14 +125,15 @@ msgid ""
 "Cannot create new attendance record for %(empl_name)s, the employee was "
 "already checked in on %(datetime)s"
 msgstr ""
-"Không thể tạo mới bản ghi vào/ra cho %(empl_name)s, người mà đẵ đăng nhập vào"
-" %(datetime)s"
+"Không thể tạo mới bản ghi vào/ra cho %(empl_name)s, người mà đẵ đăng nhập "
+"vào %(datetime)s"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:111
 #, python-format
 msgid "Cannot perform check in or check out on multiple employees."
 msgstr ""
+"Không thể thực hiện đăng nhập hay đăng xuất cho nhiều nhân viên cùng lúc."
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:125
@@ -141,6 +143,9 @@ msgid ""
 "check in. Your attendances have probably been modified manually by human "
 "resources."
 msgstr ""
+"Không thể thực hiện việc đăng xuất cho nhân viên %(empl_name)s, do không tìm"
+" thấy lần đăng nhập tương ứng. Số liệu vào/ra của bạn chắc là đã được điều "
+"chỉnh bởi bộ phận nhân sự."
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_check_in
@@ -224,6 +229,8 @@ msgid ""
 "Create a few employees to be able to select an employee here and perform his"
 " check in / check out."
 msgstr ""
+"Hãy tạo một vài nhân viên để có thể chọn một nhân viên ở đây và thực hiện "
+"việc đănh nhập / đăng xuất (vào/ra)"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_create_uid
@@ -256,13 +263,14 @@ msgstr "Tên hiển thị"
 #, python-format
 msgid "Early to bed and early to rise, makes a man healthy, wealthy and wise"
 msgstr ""
+"Ngủ sớm và dậy sớm sẽ khiến con người khỏe mạnh, giàu có và khôn ngoan"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:115
 #, python-format
 msgid "Eat breakfast as a king, lunch as a merchant and supper as a beggar"
-msgstr ""
+msgstr "Sáng ăn cho ta, trưa ăn cho bạn, tối ăn cho kẻ thù"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_employee
@@ -433,7 +441,7 @@ msgstr "Ăn trưa ngon miệng!"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Hr Attendance Search"
-msgstr ""
+msgstr "Tìm kiếm Vào/Ra"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_id
@@ -443,21 +451,21 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_employee_barcode
 msgid "ID used for employee identification."
-msgstr ""
+msgstr "ID được sử dụng để xác định nhân viên."
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:88
 #, python-format
 msgid "If a job is worth doing, it is worth doing well!"
-msgstr ""
+msgstr "Làm gì thì phải làm đến nơi đến chốn! "
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:120
 #, python-format
 msgid "Invalid request, please return to the main menu."
-msgstr ""
+msgstr "Yêu cầu không hợp lệ, vui lòng quay về trình đơn chính."
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_kiosk_mode
@@ -518,13 +526,13 @@ msgstr "Vào/Ra của tôi"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "No Check Out"
-msgstr ""
+msgstr "Không đăng xuất"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:72
 #, python-format
 msgid "No employee corresponding to barcode %(barcode)s"
-msgstr ""
+msgstr "Không có nhân viên ứng với mã vạch %(barcode)s"
 
 #. module: hr_attendance
 #: model:res.groups,name:hr_attendance.group_hr_attendance_user
@@ -561,7 +569,7 @@ msgstr "Vui lòng nhập mã PIN của bạn để check out"
 #: model:ir.actions.act_window,help:hr_attendance.hr_attendance_action
 msgid ""
 "Please make sure you're using the correct filter if you expected to see any."
-msgstr ""
+msgstr "Hãy chắc rằng bạn sử dụng bộ lọc đúng nếu bạn muốn thấy dữ liệu."
 
 #. module: hr_attendance
 #. openerp-web
@@ -605,8 +613,8 @@ msgid ""
 "The Badge ID must be unique, this one is already assigned to another "
 "employee."
 msgstr ""
-"Mã thẻ phải là duy nhất trong khi mã này đã được đăng ký cho một nhân "
-"viên khác rồi."
+"Mã số thẻ phải là duy nhất, mã này đã được cấp phát cho một nhân viên khác "
+"rồi."
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:63
@@ -617,14 +625,14 @@ msgstr "Mã PIN phải là một dãy số."
 #. module: hr_attendance
 #: model:ir.actions.act_window,help:hr_attendance.hr_attendance_action
 msgid "The attendance records of your employees will be displayed here."
-msgstr ""
+msgstr "Các bản ghi vào/ra của nhân viên sẽ được hiển thị ở đây."
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:68
 #, python-format
 msgid "The early bird catches the worm"
-msgstr ""
+msgstr "Thành công sẽ đến với ai biết nắm bắt cơ hội trước tiên"
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_employee_manual_attendance
@@ -632,6 +640,8 @@ msgid ""
 "The employee will have access to the \"My Attendances\" menu to check in and"
 " out from his session"
 msgstr ""
+"Nhân viên sẽ có quyền truy cập vào trình đơn \"Vào/Ra của Tôi\" để đăng nhập"
+" và đăng xuất khỏi ca của mình"
 
 #. module: hr_attendance
 #: model:res.groups,comment:hr_attendance.group_hr_attendance_use_pin
@@ -645,7 +655,7 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.actions.act_window,help:hr_attendance.hr_employee_attendance_action_kanban
 msgid "To create employees go to the Employees menu."
-msgstr ""
+msgstr "Để tạo nhân viên, hãy đến trình đơn Nhân viên."
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -682,13 +692,13 @@ msgstr "Chào mừng đến"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_worked_hours
 msgid "Worked Hours"
-msgstr "Giờ đã làm việc"
+msgstr "Số giờ đã làm"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:79
 #, python-format
 msgid "Wrong PIN"
-msgstr "Sai PIN"
+msgstr "Mã PIN không đúng"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:105

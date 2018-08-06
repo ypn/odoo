@@ -1,23 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_blog
-#
+# 
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux, 2016
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
 # sao sang <saosangmo@yahoo.com>, 2016
 # Phạm Lân <phamquanglan@gmail.com>, 2016
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:28+0000\n"
 "PO-Revision-Date: 2017-06-23 13:28+0000\n"
-"Last-Translator: Tuan Tran <tmtuan.projects@gmail.com>, 2017\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,6 +132,14 @@ msgstr ""
 " thả các khối để làm cho trang sinh động hơn."
 
 #. module: website_blog
+#: model:blog.post,content:website_blog.blog_post_1
+msgid ""
+"A mix of push &amp; pull: Today, people\n"
+"                        are victims of what others decide to push to them.\n"
+"                        Odoo differentiates:"
+msgstr ""
+
+#. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "A new post"
 msgstr "Một bài mới"
@@ -150,6 +159,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_active
 msgid "Active"
 msgstr "Hiệu lực"
+
+#. module: website_blog
+#: model:blog.post,content:website_blog.blog_post_2
+msgid "Adding to industry leading technology"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_blog_view_search
@@ -275,6 +289,11 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Blue"
 msgstr "Xanh dương"
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_2
+msgid "Building your company's website and selling your products online easy."
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
