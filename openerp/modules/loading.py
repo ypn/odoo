@@ -125,7 +125,16 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
         if skip_modules and module_name in skip_modules:
             continue
 
-        migrations.migrate_module(package, 'pre')
+        needs_update = (
+            hasattr(package, "init")
+            or hasattr(package, "update")
+            or package.state in ("to install", "to upgrade")
+        )
+        if needs_update:
+            if package.name != 'base':
+                registry.setup_models(cr, partial=True)
+            migrations.migrate_module(package, 'pre')
+
         load_openerp_module(package.name)
 
         new_install = package.state == 'to install'
@@ -139,8 +148,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
         model_names = [m._name for m in models]
 
         loaded_modules.append(package.name)
-        if (hasattr(package, 'init') or hasattr(package, 'update')
-                or package.state in ('to install', 'to upgrade')):
+        if needs_update:
             models_updated |= set(model_names)
             models_to_check -= set(model_names)
             registry.setup_models(cr, partial=True)
@@ -159,7 +167,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
         if hasattr(package, 'init') or package.state == 'to install':
             mode = 'init'
 
-        if hasattr(package, 'init') or hasattr(package, 'update') or package.state in ('to install', 'to upgrade'):
+        if needs_update:
             # Can't put this line out of the loop: ir.module.module will be
             # registered by init_module_models() above.
             modobj = registry['ir.module.module']
@@ -381,7 +389,7 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
             cr.execute("""select model,name from ir_model where id NOT IN (select distinct model_id from ir_model_access)""")
             for (model, name) in cr.fetchall():
                 if model in registry and not registry[model].is_transient() and not isinstance(registry[model], openerp.osv.orm.AbstractModel):
-                    _logger.warning('The model %s has no access rules, consider adding one. E.g. access_%s,access_%s,model_%s,,1,0,0,0',
+                    _logger.warning('The model %s has no access rules, consider adding one. E.g. access_%s,access_%s,model_%s,base.group_user,1,0,0,0',
                         model, model.replace('.', '_'), model.replace('.', '_'), model.replace('.', '_'))
 
             # Temporary warning while we remove access rights on osv_memory objects, as they have

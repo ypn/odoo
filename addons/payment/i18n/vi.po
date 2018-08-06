@@ -1,15 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * payment
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2018-04-20 06:38+0000\n"
-"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>\n"
+"PO-Revision-Date: 2018-07-20 08:35+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -241,7 +241,7 @@ msgstr "Tên đăng nhập / Email"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_environment
 msgid "Environment"
-msgstr ""
+msgstr "Môi trường"
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -529,7 +529,7 @@ msgstr "Sản xuất"
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_provider
 #: model:ir.ui.view,arch_db:payment.acquirer_search
 msgid "Provider"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_reference
@@ -604,12 +604,12 @@ msgstr "Kiểm thử"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_post_msg
 msgid "Thanks Message"
-msgstr ""
+msgstr "Thông điệp Cám ơn"
 
 #. module: payment
 #: constraint:payment.transaction:0
 msgid "The payment transaction reference must be unique!"
-msgstr ""
+msgstr "Dẫn chiếu giao dịch thanh toán phải mang tính duy nhất!"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_image

@@ -1,15 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * fetchmail
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2015-12-29 08:18+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2018-07-20 08:50+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,12 +20,12 @@ msgstr ""
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_tree
 msgid "# of emails"
-msgstr "Số lượng email"
+msgstr "SL Email"
 
 #. module: fetchmail
 #: model:ir.ui.view,arch_db:fetchmail.view_email_server_form
 msgid "Actions to Perform on Incoming Mails"
-msgstr "Hành động được thực hiện khi nhận email"
+msgstr "Hành động cần Thực hiện khi có Email gửi đến"
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_active
@@ -62,16 +62,14 @@ msgstr "Đã được xác nhận"
 #: code:addons/fetchmail/fetchmail.py:150
 #, python-format
 msgid "Connection test failed: %s"
-msgstr "Kiêm tra kết nối không thành công"
+msgstr "Kiểm thử kết nối thất bại: %s"
 
 #. module: fetchmail
 #: model:ir.model.fields,help:fetchmail.field_fetchmail_server_is_ssl
 msgid ""
 "Connections are encrypted with SSL/TLS through a dedicated port (default: "
 "IMAPS=993, POP3S=995)"
-msgstr ""
-"Kết nối được mã hóa với SSL/TLS thông qua một cổng chuyên biệt (mặc định: "
-"IMAPS=993, POP3S=995)"
+msgstr "Kết nối được mã hoá với SSL/TLS thông qua một cổng chuyên dụng (mặc định: IMAPS=993, POP3S=995)"
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_object_id
@@ -93,7 +91,7 @@ msgstr "Được tạo vào"
 #. module: fetchmail
 #: model:ir.model.fields,help:fetchmail.field_fetchmail_server_priority
 msgid "Defines the order of processing, lower values mean higher priority"
-msgstr "Định nghĩa trình tự xử lý. Giá trị thấp hơn có mức ưu tiên cao hơn"
+msgstr "Xác định trình tự xử lý, giá trị thấp hơn nghĩa là mức ưu tiên cao hơn"
 
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_config_settings_display_name

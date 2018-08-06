@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2018-06-29 09:07+0000\n"
+"PO-Revision-Date: 2018-07-20 06:52+0000\n"
 "Last-Translator: Duy BQ <duybq86@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -299,7 +299,7 @@ msgid ""
 "Applicants and their attached CV are created automatically when an email is sent.\n"
 "                If you install the document management modules, all resumes are indexed automatically,\n"
 "                so that you can easily search through their content."
-msgstr ""
+msgstr "Ứng viên và CV đính kèm của họ sẽ được tạo tự động khi một email được gửi đến.\n                Nếu bạn cài đặt phân hệ quản lý tài liệu, tất cả các hồ sẽ sẽ được đánh chỉ mục tự động\n                để bạn có thể dễ dàng tìm kiếm nội dung của các tài liệu này."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
@@ -474,7 +474,7 @@ msgstr "Bấm để tạo mới một nhân viên."
 #: model:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
 #: model:ir.actions.act_window,help:hr_recruitment.hr_recruitment_stage_act
 msgid "Click to add a new stage in the recruitment process."
-msgstr ""
+msgstr "Bấm để tạo mới một giai đoạn trong quy trình tuyển dụng."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_date_closed
@@ -511,14 +511,14 @@ msgid "Configure Recruitment"
 msgstr "Cấu hình Tuyển dụng"
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:384
+#: code:addons/hr_recruitment/models/hr_recruitment.py:382
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_id
 #, python-format
 msgid "Contact"
 msgstr "Liên hệ"
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:386
+#: code:addons/hr_recruitment/models/hr_recruitment.py:384
 #, python-format
 msgid "Contact Email"
 msgstr "Email Liên hệ"
@@ -599,7 +599,7 @@ msgstr "Ngày tạo"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_report_search
 msgid "Creation Week"
-msgstr ""
+msgstr "Tuần Tạo"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_message_last_post
@@ -609,7 +609,7 @@ msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_day_close
 msgid "Days to Close"
-msgstr "Ngày đóng"
+msgstr "Ngày để đóng"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_day_open
@@ -637,7 +637,7 @@ msgid ""
 "Define here your stages of the recruitment process, for example:\n"
 "            qualification call, first interview, second interview, refused,\n"
 "            hired."
-msgstr ""
+msgstr "Định nghĩa các giai đoạn của quy trình phỏng vấn ở đây, ví dụ:\n            gọi để thẩm định, phỏng vấn lần đầu, phỏng vấn lần hai, từ chối,\n            đã tuyển."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job
@@ -1932,7 +1932,7 @@ msgstr ""
 #: code:addons/hr_recruitment/models/hr_recruitment.py:432
 #, python-format
 msgid "You must define an Applied Job and a Contact Name for this applicant."
-msgstr ""
+msgstr "Bạn phải nhập Vị trí Ứng tuyển và Tên liên hệ cho hồ sơ ứng viên này"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job

@@ -1,15 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_contract
-#
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2017-02-15 06:55+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2018-07-20 06:48+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +84,7 @@ msgstr "Hợp đồng sắp hết hạn"
 #. module: hr_contract
 #: model:mail.message.subtype,description:hr_contract.mt_contract_close
 msgid "Contract expired"
-msgstr "Hợp đồng hết hạn"
+msgstr "Hợp động Hết hạn"
 
 #. module: hr_contract
 #: model:mail.message.subtype,name:hr_contract.mt_department_contract_pending
@@ -120,12 +120,12 @@ msgstr "Được tạo vào"
 #: model:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 #: model:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid "Current Contract"
-msgstr "Hợp đồng hiện tại"
+msgstr "Hợp đồng Hiện hành"
 
 #. module: hr_contract
 #: model:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Current Employee"
-msgstr "Nhân viên hiện tại"
+msgstr "Nhân viên Hiện hành"
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract_message_last_post
@@ -228,11 +228,6 @@ msgid "If checked, new messages require your attention."
 msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: hr_contract
-#: model:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
-msgid "Important Messages"
-msgstr "Thông điệp Quan trọng"
-
-#. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_employee_vehicle_distance
 msgid "In kilometers"
 msgstr "Tính bằng Kilomet"
@@ -260,7 +255,7 @@ msgstr "Công việc"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_job_id
 msgid "Job Title"
-msgstr "Vị trí Công việc"
+msgstr "Chức danh Công việc"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_last_post
@@ -293,12 +288,12 @@ msgstr "Hợp đồng gần nhất của Nhân viên"
 #. module: hr_contract
 #: model:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid "Medical Exam"
-msgstr "Kiểm tra Y tế"
+msgstr "Khám sức khoẻ"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee_medic_exam
 msgid "Medical Examination Date"
-msgstr "Ngày Kiểm tra Y tế"
+msgstr "Ngày Kiểm tra Sức khỏe"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_ids
@@ -354,7 +349,7 @@ msgstr "Nơi sinh"
 #. module: hr_contract
 #: selection:hr.contract,state:0
 msgid "Running"
-msgstr "Đang thực hiện"
+msgstr "Đang chạy"
 
 #. module: hr_contract
 #: model:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
@@ -397,7 +392,7 @@ msgstr "Tình trạng của hợp đồng"
 #: model:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 #: model:mail.message.subtype,name:hr_contract.mt_contract_pending
 msgid "To Renew"
-msgstr "Chờ gia hạn"
+msgstr "Chờ Gia hạn"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_trial_date_end
