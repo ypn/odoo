@@ -11,6 +11,7 @@
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
@@ -67,6 +68,11 @@ msgstr "Phát sinh KT Quản trị"
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user_hours_delay
 msgid "Avg. Plan.-Eff."
 msgstr "Hiệu quả Kế hoạch Trung bình"
+
+#. module: hr_timesheet
+#: model:ir.model.fields,field_description:hr_timesheet.field_project_project_crossovered_budget_line
+msgid "Budget Lines"
+msgstr "Chi tiết Ngân sách"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_project_project_subtask_project_id
@@ -247,7 +253,7 @@ msgstr "Dự án Nhiệm vụ con"
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_project_task_subtask_count
 msgid "Sub-task count"
-msgstr ""
+msgstr "Số nhiệm vụ con"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.act_project_task_sub_task
