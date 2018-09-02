@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:15+0000\n"
-"PO-Revision-Date: 2018-07-20 06:49+0000\n"
+"PO-Revision-Date: 2018-08-23 15:41+0000\n"
 "Last-Translator: Duy BQ <duybq86@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -57,6 +57,7 @@ msgid "<i class=\"fa fa-question-circle\"> view examples</i>"
 msgstr "<i class=\"fa fa-question-circle\"> xem ví dụ</i>"
 
 #. module: crm
+#: model:ir.actions.server,body_html:crm.action_email_reminder_lead
 #: model:mail.template,body_html:crm.email_template_opportunity_reminder_mail
 msgid ""
 "<p>This opportunity did not have any activity since at least 5 days. Here are some details:</p>\n"
