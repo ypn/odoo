@@ -516,7 +516,7 @@ msgid ""
 "                                        </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
-"                                            <span class=\"fa fa-sitemap\"/>\n"
+"                                            <span class=\"fa fa-sitemap\"/></span>\n"
 "                                            <strong> Tuỳ chỉnh quy trình</strong>\n"
 "                                        </span>"
 
@@ -860,7 +860,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Slides</strong>"
-msgstr ""
+msgstr "<strong>Thuyết trình</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -919,7 +919,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Website Live Chat</strong>"
-msgstr ""
+msgstr "<strong>Chat trực tuyến cho Website</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -991,16 +991,6 @@ msgstr "Tài liệu API"
 #: model:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Accept Emails From"
 msgstr "Chấp nhận email đến"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_property_account_payable_id
-msgid "Account Payable"
-msgstr "Khoản phải trả"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_property_account_receivable_id
-msgid "Account Receivable"
-msgstr "Khoản phải thu"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_view_search
@@ -1320,6 +1310,18 @@ msgid "Call"
 msgstr "Gọi"
 
 #. module: crm
+#: model:crm.activity,name:crm.crm_activity_demo_call_demo
+#: model:mail.message.subtype,name:crm.crm_activity_demo_call_demo_mail_message_subtype
+msgid "Call for Demo"
+msgstr "Yêu cầu Demo"
+
+#. module: crm
+#: model:crm.activity,description:crm.crm_activity_demo_call_demo
+#: model:mail.message.subtype,description:crm.crm_activity_demo_call_demo_mail_message_subtype
+msgid "Call for a demo"
+msgstr "Gọi để demo"
+
+#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_campaign_id
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
@@ -1479,11 +1481,6 @@ msgid "Community &amp; Enterprise users:"
 msgstr "Người dùng On-Premise:"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_ref_company_ids
-msgid "Companies that refers to partner"
-msgstr "Các công ty mà dẫn chiếu đến đối tác"
-
-#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_company_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead_company_id
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_company_id
@@ -1554,12 +1551,6 @@ msgstr "Liên hệ với chúng tôi"
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_partner_ids
 msgid "Contacts"
 msgstr "Liên hệ"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_contract_ids
-#: model:ir.model.fields,field_description:crm.field_res_users_contracts_count
-msgid "Contracts"
-msgstr "Các hợp đồng"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass_name
@@ -1658,13 +1649,6 @@ msgstr "Tạo Nhà cung cấp"
 #, python-format
 msgid "Create a Proof of Concept with consultants"
 msgstr "Tạo các Minh chứng Khái niệm (Proof of Concept) với các nhà tư vấn"
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:31
-#, python-format
-msgid "Create a Proof of Concept with consultants"
-msgstr ""
 
 #. module: crm
 #: selection:crm.lead2opportunity.partner,action:0
@@ -1773,7 +1757,6 @@ msgstr "Tháng tạo"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_company_currency
-#: model:ir.model.fields,field_description:crm.field_res_users_currency_id
 msgid "Currency"
 msgstr "Tiền tệ"
 
@@ -1813,11 +1796,6 @@ msgstr "Email khách hàng"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_partner_name
 msgid "Customer Name"
 msgstr "Tên Khách hàng"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_property_payment_term_id
-msgid "Customer Payment Terms"
-msgstr "Điều khoản Thanh toán cho Khách hàng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1870,11 +1848,6 @@ msgstr "Tên bí danh mặc định cho Tiềm năng"
 #: model:ir.model.fields,field_description:crm.field_crm_team_alias_defaults
 msgid "Default Values"
 msgstr "Giá trị mặc định"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_trust
-msgid "Degree of trust you have in this debtor"
-msgstr "Mức độ tin cậy của bạn với con nợ này"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_delay_open
@@ -2004,6 +1977,11 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Download the"
 msgstr "Tải về"
+
+#. module: crm
+#: model:ir.filters,name:crm.filter_draft_lead
+msgid "Draft Leads"
+msgstr "Tiềm năng Dự thảo"
 
 #. module: crm
 #: selection:sale.config.settings,group_use_lead:0
@@ -2205,29 +2183,29 @@ msgstr ""
 #: code:addons/crm/static/src/js/web_planner_crm.js:32
 #, python-format
 msgid "Final Proposal sent"
-msgstr "Báo giá cuối cùng được gửi"
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:32
-#, python-format
-msgid "Final Proposal sent"
-msgstr ""
+msgstr "Đề xuất cuối cùng đã được gửi"
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
 msgid "Finished"
-msgstr "Đã kết thúc"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_property_account_position_id
-msgid "Fiscal Position"
-msgstr "Vị thế tài chính"
+msgstr "Hoàn thành"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_fold
 msgid "Folded in Pipeline"
 msgstr "Đóng ở trong Pipeline"
+
+#. module: crm
+#: model:crm.activity,name:crm.crm_activity_demo_followup_quote
+#: model:mail.message.subtype,name:crm.crm_activity_demo_followup_quote_mail_message_subtype
+msgid "Follow-up Quote"
+msgstr "Theo sát Báo giá"
+
+#. module: crm
+#: model:crm.activity,description:crm.crm_activity_demo_followup_quote
+#: model:mail.message.subtype,description:crm.crm_activity_demo_followup_quote_mail_message_subtype
+msgid "Follow-up quote"
+msgstr "Theo sát Báo giá"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2344,17 +2322,12 @@ msgstr "Tăng trưởng thu nhập"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_partner_binding
 msgid "Handle partner binding or generation in CRM wizards."
-msgstr ""
+msgstr "Xử lý ràng buộc hoặc tạo đối tác trong trình hướng dẫn CRM."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Happy Selling!<br/>- The Odoo Team"
 msgstr "Chúc Bán hàng vui vẻ!<br/>- Đội Odoo ERPOnline"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_has_unreconciled_entries
-msgid "Has unreconciled entries"
-msgstr "Có bút toán chưa đối soát"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2397,7 +2370,7 @@ msgstr "Ẩn"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_hidden
 msgid "Hide the subtype in the follower options"
-msgstr ""
+msgstr "Ẩn các kiểu phụ trong tùy chọn người theo dõi"
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.opportunity.report,priority:0
@@ -2517,13 +2490,6 @@ msgid "Incoming Emails"
 msgstr "Email gửi đến"
 
 #. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:23
-#, python-format
-msgid "Initial Contact"
-msgstr "Liên lạc Ban đầu"
-
-#. module: crm
 #: model:crm.lead.tag,name:crm.categ_oppor4
 msgid "Information"
 msgstr "Thông tin"
@@ -2533,7 +2499,7 @@ msgstr "Thông tin"
 #: code:addons/crm/static/src/js/web_planner_crm.js:23
 #, python-format
 msgid "Initial Contact"
-msgstr ""
+msgstr "Liên hệ ban đầu"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_sale_config_settings_module_crm_voip
@@ -2552,19 +2518,9 @@ msgid "Internal Only"
 msgstr "Chỉ nội bộ"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_invoice_warn
-msgid "Invoice"
-msgstr "Hoá đơn"
-
-#. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Invoice Analysis"
 msgstr "Phân tích Hoá đơn"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_invoice_ids
-msgid "Invoices"
-msgstr "Các hoá đơn"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_group_by_is_company
@@ -2575,12 +2531,6 @@ msgstr "Là công ty"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_function
 msgid "Job Position"
 msgstr "Chức vụ"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_issued_total
-#: model:ir.model.fields,field_description:crm.field_res_users_journal_item_count
-msgid "Journal Items"
-msgstr "Phát sinh Kế toán"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_exclude_journal_item
@@ -2654,27 +2604,6 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:crm.field_crm_stage_write_date
 msgid "Last Updated on"
 msgstr "Cập nhật lần cuối"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_calendar_last_notif_ack
-msgid "Last notification marked as read from base Calendar"
-msgstr "Thông báo gần nhất được đánh dấu là đã đọc từ Lịch cơ sở"
-
-#. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_last_time_entries_checked
-msgid ""
-"Last time the invoices & payments matching was performed for this partner. "
-"It is set either if there's not at least an unreconciled debit and an "
-"unreconciled credit or if you click the \"Done\" button."
-msgstr ""
-"Lần cuối cùng khớp hoá đơn và thanh toán đối với đối tác này. Nó được thiết "
-"lập khi, hoặc có ít nhất một phát sinh nợ và một phát sinh có, hoặc khi bạn "
-"bấm vào nút \"Hoàn thành\"."
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_last_time_entries_checked
-msgid "Latest Invoices & Payments Matching Date"
-msgstr "Ngày đối chiếu Hoá đơn & Thanh toán gần nhất"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:837
@@ -2797,6 +2726,11 @@ msgstr "Tạo tiềm năng"
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Leads by Source"
 msgstr "Tiềm năng theo Nguồn"
+
+#. module: crm
+#: model:ir.filters,name:crm.filter_usa_lead
+msgid "Leads from USA"
+msgstr "Tiềm năng từ Mỹ"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -2924,6 +2858,12 @@ msgid "Low"
 msgstr "Thấp"
 
 #. module: crm
+#: model:crm.activity,name:crm.crm_activity_demo_make_quote
+#: model:mail.message.subtype,name:crm.crm_activity_demo_make_quote_mail_message_subtype
+msgid "Make Quote"
+msgstr "Tạo Báo giá"
+
+#. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
 msgid "Mark Lost"
 msgstr "Đánh dấu Thất bại"
@@ -2958,7 +2898,7 @@ msgstr "Số lượng Nhóm Liên hệ tối đa"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Medium"
-msgstr "Kênh / Medium"
+msgstr "Phương thức"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:883
@@ -3088,11 +3028,6 @@ msgid "Message Type"
 msgstr "Kiểu thông điệp"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_invoice_warn_msg
-msgid "Message for Invoice"
-msgstr "Thông điệp cho Hoá đơn"
-
-#. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_name
 msgid ""
 "Message subtype gives a more precise type on the message, especially for "
@@ -3205,13 +3140,6 @@ msgstr "Mới"
 #: model:ir.actions.act_window,name:crm.action_opportunity_form
 msgid "New Opportunity"
 msgstr "Cơ hội Mới"
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:17
-#, python-format
-msgid "New propspect assigned to the right salesperson"
-msgstr "Triển vọng mới được phân công cho NV bán hàng phù hợp"
 
 #. module: crm
 #. openerp-web
@@ -3665,11 +3593,6 @@ msgid "Partners"
 msgstr "Đối tác"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_debit_limit
-msgid "Payable Limit"
-msgstr "Hạn mức Phải trả"
-
-#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_phone
 msgid "Phone"
 msgstr "Điện thoại"
@@ -3800,13 +3723,6 @@ msgid "Probable Turnover"
 msgstr "Doanh số Khả thi"
 
 #. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:23
-#, python-format
-msgid "Product Demonstration"
-msgstr "Mô phỏng, minh hoạ Sản phẩm"
-
-#. module: crm
 #: model:crm.lead.tag,name:crm.categ_oppor1
 msgid "Product"
 msgstr "Sản phẩm"
@@ -3816,7 +3732,7 @@ msgstr "Sản phẩm"
 #: code:addons/crm/static/src/js/web_planner_crm.js:23
 #, python-format
 msgid "Product Demonstration"
-msgstr ""
+msgstr "Mô phỏng, minh hoạ Sản phẩm"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3862,7 +3778,7 @@ msgstr "Được thẩm định"
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #, python-format
 msgid "Qualified Sponsor"
-msgstr "Được Ủng hộ"
+msgstr "Nhà tài trợ đủ điều kiện"
 
 #. module: crm
 #. openerp-web
@@ -3876,7 +3792,7 @@ msgstr "Báo giá đã gửi"
 #: code:addons/crm/static/src/js/web_planner_crm.js:20
 #, python-format
 msgid "Quotation sent to customer"
-msgstr "Báo giá đã gửi cho khách hàng"
+msgstr "Báo giá được gửi đến khách hàng"
 
 #. module: crm
 #. openerp-web
@@ -3884,34 +3800,6 @@ msgstr "Báo giá đã gửi cho khách hàng"
 #, python-format
 msgid "Quotation signed by the customer"
 msgstr "Báo giá được ký bởi khách hàng"
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:15
-#, python-format
-msgid "Qualified Sponsor"
-msgstr ""
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:26
-#, python-format
-msgid "Quotation sent"
-msgstr "Báo giá đã gửi"
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:20
-#, python-format
-msgid "Quotation sent to customer"
-msgstr ""
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:21
-#, python-format
-msgid "Quotation signed by the customer"
-msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_priority
@@ -3973,6 +3861,12 @@ msgid "Relation field"
 msgstr "Trường quan hệ"
 
 #. module: crm
+#: model:ir.actions.server,name:crm.action_email_reminder_lead
+msgid "Reminder to User"
+msgstr "Nhắc nhở đến Người dùng"
+
+#. module: crm
+#: model:ir.actions.server,subject:crm.action_email_reminder_lead
 #: model:mail.template,subject:crm.email_template_opportunity_reminder_mail
 msgid ""
 "Reminder: Lead ${object.name} from ${object.partner_id != False and "
@@ -4133,17 +4027,15 @@ msgstr ""
 "                                để tránh việc trộn chúng."
 
 #. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_invoice_warn
-msgid ""
-"Selecting the \"Warning\" option will notify user with the message, "
-"Selecting \"Blocking Message\" will throw an exception with the message and "
-"block the flow. The Message has to be written in the next field."
-msgstr ""
-
-#. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
 msgid "Selection"
 msgstr "Lựa chọn"
+
+#. module: crm
+#: model:crm.activity,description:crm.crm_activity_demo_make_quote
+#: model:mail.message.subtype,description:crm.crm_activity_demo_make_quote_mail_message_subtype
+msgid "Send a quotation"
+msgstr "Gửi báo giá"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4172,16 +4064,13 @@ msgstr "Các dịch vụ"
 #, python-format
 msgid "Set fields: Expected Revenue, Expected Closing Date, Next Action"
 msgstr ""
-
-#. module: crm
-#. openerp-web
-#: code:addons/crm/static/src/js/web_planner_crm.js:18
-#: code:addons/crm/static/src/js/web_planner_crm.js:29
-#, python-format
-msgid "Set fields: Expected Revenue, Expected Closing Date, Next Action"
-msgstr ""
 "Thiết lập các trường: Doanh thu mong đợi, Ngày đóng Dự kiến, Hành động kế "
 "tiếp"
+
+#. module: crm
+#: model:ir.actions.server,name:crm.action_set_team_sales_department
+msgid "Set team to Sales Department"
+msgstr "Thiết lập đội cho Bộ phận Bán hàng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4242,6 +4131,8 @@ msgid ""
 "Show all opportunities with a deadline for which the next action date is "
 "before today"
 msgstr ""
+"Hiển thị tất cả các cơ hội có hạn chót mà ngày hành động kế tiếp của chúng "
+"trước ngày hôm nay"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -4263,7 +4154,7 @@ msgstr "Bỏ qua các liên hệ này"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Slides"
-msgstr ""
+msgstr "Thuyết trình"
 
 #. module: crm
 #: model:crm.lead.tag,name:crm.categ_oppor2
@@ -4297,6 +4188,8 @@ msgid ""
 "Specific team that uses this stage. Other teams will not be able to see or "
 "use this stage."
 msgstr ""
+"Các đội/kênh cụ thể mà sử dụng giai đoạn này. Các đội/kênh khác sẽ không thể"
+" thấy hoặc sử dụng giai đoạn này"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_stage_id
@@ -4348,6 +4241,8 @@ msgid ""
 "Stages allow salespersons to easily track how a specific opportunity\n"
 "            is positioned in the sales cycle."
 msgstr ""
+"Các Giai đoạn cho phép người bán hàng dễ dàng theo dõi vị trí và định vị một"
+" cơ hội            đang ở đâu trong chu kỳ bán hàng"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_state
@@ -4430,14 +4325,9 @@ msgid "Task"
 msgstr "Nhiệm vụ"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_task_ids
-msgid "Tasks"
-msgstr "Nhiệm vụ"
-
-#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_team_id
 msgid "Team"
-msgstr "Đội"
+msgstr "Thành viên"
 
 #. module: crm
 #: model:ir.filters,name:crm.ir_filters_crm_opportunity_report_next_action
@@ -4497,19 +4387,16 @@ msgstr ""
 "\"Thắng\""
 
 #. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_property_account_position_id
-msgid ""
-"The fiscal position will determine taxes and accounts used for the partner."
-msgstr ""
-"Vị thế tài chính sẽ xác nhận thuế và tài khoản được sử dụng cho đối tác này."
-
-#. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_model_id
 msgid ""
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+"Model (Kiểu Tài liệu Hệ thống) mà bí danh này ứng với nó. Bất kỳ thông điệp "
+"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Hệ thống tự "
+"động tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu "
+"model là project.task)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
@@ -4536,13 +4423,6 @@ msgid ""
 "field is not set the system will attempt to find the right owner based on "
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
-msgstr ""
-
-#. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_has_unreconciled_entries
-msgid ""
-"The partner has at least one unreconciled debit and credit since last time "
-"the invoices & payments matching was performed."
 msgstr ""
 
 #. module: crm
@@ -4609,21 +4489,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "This Week Activities"
-msgstr "Các Hoạt động Tuần này"
-
-#. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_property_account_payable_id
-msgid ""
-"This account will be used instead of the default one as the payable account "
-"for the current partner"
-msgstr "Tài khoản được sử dụng mặc định như là tài khoản phải trả của đối tác"
-
-#. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_property_account_receivable_id
-msgid ""
-"This account will be used instead of the default one as the receivable "
-"account for the current partner"
-msgstr "Tài khoản được sử dụng mặc định như là tài khoản phải thu của đối tác"
+msgstr "Hoạt động Tuần này"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4723,11 +4589,14 @@ msgid ""
 "applied to it. This is settable in the pricelist configuration if you allow "
 "discounts."
 msgstr ""
+"Để khuyến khích khách hàng của bạn, hãy cho họ xem giá công bố và chiết khấu"
+" áp dụng cho nó. Việc này có thể thiết lập được ở bảng giá nếu bạn cho phép "
+"chiết khấu."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Today Activities"
-msgstr "Các Hoạt động Hôm nay"
+msgstr "Hoạt động hôm nay"
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_1
@@ -4735,34 +4604,9 @@ msgid "Too expensive"
 msgstr "Quá đắt"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_total_invoiced
-msgid "Total Invoiced"
-msgstr "Tổng tiền hoá đơn đã xuất"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_debit
-msgid "Total Payable"
-msgstr "Tổng số tiền phải trả"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_credit
-msgid "Total Receivable"
-msgstr "Tổng phải thu"
-
-#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_total_revenue
 msgid "Total Revenue"
 msgstr "Doanh thu tổng"
-
-#. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_credit
-msgid "Total amount this customer owes you."
-msgstr "Tổng số tiền khách hàng này nợ bạn."
-
-#. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_debit
-msgid "Total amount you have to pay to this vendor."
-msgstr "Tổng số tiền bạn phải trả cho đối tác này."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -4898,13 +4742,14 @@ msgstr ""
 #, python-format
 msgid "Use the <b>implementation guide</b> to setup the CRM in your company."
 msgstr ""
+"Sử dụng <b>hướng dẫn triển khai</b> để thiết lập CRM trong công ty của bạn."
 
 #. module: crm
 #. openerp-web
 #: code:addons/crm/static/src/js/tour.js:66
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your sales pipeline</b>."
-msgstr ""
+msgstr "Sử dụng đường dẫn để <b>quay lại kênh bán hàng của bạn</b>."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_resource_calendar_id
@@ -4942,11 +4787,6 @@ msgid "Users"
 msgstr "Người dùng"
 
 #. module: crm
-#: model:ir.model.fields,help:crm.field_res_users_currency_id
-msgid "Utility field to express amount currency"
-msgstr "Trường tiện ích để thể hiện giá trị nguyên tệ"
-
-#. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_group_by_vat
 msgid "VAT"
 msgstr "Thuế GTGT"
@@ -4955,11 +4795,6 @@ msgstr "Thuế GTGT"
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "VIP letter to potential sponsors"
 msgstr "Thư VIP đến các nhà tài trợ tiềm năng"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_users_property_supplier_payment_term_id
-msgid "Vendor Payment Terms"
-msgstr "Điều khoản Thanh toán Nhà cung cấp"
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.opportunity.report,priority:0
@@ -5203,12 +5038,12 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your Expectations"
-msgstr "Mong đợi của bạn"
+msgstr "Các kỳ vọng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your KPIs"
-msgstr "KPIs của bạn"
+msgstr "Chỉ số KPIs"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -5383,7 +5218,7 @@ msgstr "không xác định"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "use Odoo API to import through scripts"
-msgstr "sử dụng Odoo API để import thông qua các script"
+msgstr "sử dụng Odoo API để nhập bằng các kịch bản mã lệnh (script)"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

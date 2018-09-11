@@ -139,6 +139,10 @@ msgid ""
 "A service is a non-material product you provide.\n"
 "A digital content is a non-material product you sell online. The files attached to the products are the one that are sold on the e-commerce such as e-books, music, pictures,... The \"Digital Product\" module has to be installed."
 msgstr ""
+"Một sản phẩm kiểu Lưu kho (stockable) là một sản phẩm mà được quản lý bởi Ứng dụng Kho (Inventory). Ứng dụng \"Kho\" phải được cài đặt.\n"
+"Một sản phẩm kiểu Tiêu dùng, hay nói cách khác, là một sản phẩm không được quản lý bởi Ưng dụng Kho.\n"
+"Một sản phẩm kiểu dịch vụ là một dịch vụ và không phải là một sản phẩm vật thể.\n"
+"Một sản phẩm kiểu Nội dung Số là một sản phẩm phi vật thể mà bạn bán trực tuyến. Các tập tin được đính kèm với sản phẩm chính là thứ mà bạn bán trực tuyến như sách điện tử, nhạc, hình, v.v. Phân hệ \"Sản phẩm Số\" phải được cài đặt."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_message_needaction
@@ -587,12 +591,12 @@ msgstr "Vé Sự kiện"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_expected_margin
 msgid "Expected Margin"
-msgstr ""
+msgstr "Biên độ Kỳ vọng"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_expected_margin_rate
 msgid "Expected Margin (%)"
-msgstr ""
+msgstr "Biên độ Kỳ vọng (%)"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_sale_expected
@@ -602,7 +606,7 @@ msgstr "Doanh số Mong đợi"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_expected_margin
 msgid "Expected Sale - Normal Cost"
-msgstr ""
+msgstr "Bán dự kiến - Chi phí thông thường"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_sales_gap
@@ -612,7 +616,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_expected_margin_rate
 msgid "Expected margin * 100 / Expected Sale"
-msgstr ""
+msgstr "Biên độ Kỳ vọng * 100 / Doanh số bán dự kiến"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_property_account_expense_id
@@ -674,6 +678,7 @@ msgstr ""
 #. module: delivery
 #: model:delivery.carrier,name:delivery.free_delivery_carrier
 #: model:product.product,name:delivery.free_delivery_carrier_product_product
+#: model:product.template,name:delivery.free_delivery_carrier_product_template
 msgid "Free delivery charges"
 msgstr "Miễn phí giao hàng"
 
@@ -931,6 +936,9 @@ msgid ""
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sale order validation and track the work hours."
 msgstr ""
+"Thực hiện thủ công việc nhập số lượng trên đơn: Lập hóa đơn thủ công dựa trên số lượng đưa vào, không cần tạo tài khoản phân tích.\n"
+"Thời gian theo hợp đồng: Lập hóa đơn dựa trên số giờ được ghi nhậntrên bảng công việc.\n"
+"Tạo công việc và ghi nhận giờ: Tạo ra công việc sau khi đơn hàng được xác nhận và ghi lại số giờ thực hiện công việc."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_produce_delay
@@ -1054,6 +1062,7 @@ msgstr ""
 #. module: delivery
 #: model:delivery.carrier,name:delivery.normal_delivery_carrier
 #: model:product.product,name:delivery.normal_delivery_carrier_product_product
+#: model:product.template,name:delivery.normal_delivery_carrier_product_template
 msgid "Normal Delivery Charges"
 msgstr "Thu Phí Giao Hàng Thông thường"
 
@@ -1083,6 +1092,8 @@ msgid ""
 "On ordered quantities: control bills based on ordered quantities.\n"
 "On received quantities: control bills based on received quantity."
 msgstr ""
+"Theo số lượng mua: kiểm soát hoá đơn dựa trên số lượng mua.\n"
+"Theo số lượng nhận: kiểm soát hoá đơn dựa trên số lượng nhận (theo lô hàng nhận)."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule_operator
@@ -1095,6 +1106,8 @@ msgid ""
 "Ordered Quantity: Invoice based on the quantity the customer ordered.\n"
 "Delivered Quantity: Invoiced based on the quantity the vendor delivered (time or deliveries)."
 msgstr ""
+"Số lượng đặt: Hóa đơn dựa trên số lượng khách hàng đặt.\n"
+"Số lượng đã giao: Hóa đơn được lập dựa trên số lượng nhà cung cấp đã giao (thời gian hoặc giao hàng)."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_outgoing_qty
@@ -1377,7 +1390,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model,name:delivery.model_sale_order
 msgid "Sales Order"
-msgstr "Đơn hàng bán"
+msgstr "Đơn bán"
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_sale_order_line
@@ -1411,6 +1424,9 @@ msgid ""
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
+"Chọn tùy chọn \"Cảnh báo\" sẽ hiển thị thông điệp cho người dùng, Chọn "
+"\"Cảnh báo đóng\" sẽ thoát ra ngoài kèm cảnh báo và chặn luồng. Cảnh báo sẽ "
+"được điền ở phần thông tin dưới đây."
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -1562,6 +1578,7 @@ msgstr "Kỹ thuật: được sử dụng để tính toán số lượng."
 #. module: delivery
 #: model:delivery.carrier,name:delivery.delivery_carrier
 #: model:product.product,name:delivery.delivery_carrier_product_product
+#: model:product.template,name:delivery.delivery_carrier_product_template
 msgid "The Poste"
 msgstr ""
 
@@ -1705,12 +1722,12 @@ msgstr "Toàn bộ chi phí"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_total_margin
 msgid "Total Margin"
-msgstr ""
+msgstr "Tổng biên lợi nhuận"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_total_margin_rate
 msgid "Total Margin Rate(%)"
-msgstr ""
+msgstr "Tổng tỷ lệ biên lợi nhuận(%)"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_total_margin_rate

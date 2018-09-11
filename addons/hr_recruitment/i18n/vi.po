@@ -434,7 +434,7 @@ msgid "Configure Recruitment"
 msgstr "Cấu hình Tuyển dụng"
 
 #. module: hr_recruitment
-#: code:addons/hr_recruitment/models/hr_recruitment.py:352
+#: code:addons/hr_recruitment/models/hr_recruitment.py:366
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_id
 #, python-format
 msgid "Contact"
@@ -852,7 +852,7 @@ msgstr "Công việc"
 #. module: hr_recruitment
 #: model:utm.campaign,name:hr_recruitment.utm_campaign_job
 msgid "Job Campaign"
-msgstr ""
+msgstr "Chiến dịch Việc làm"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_job_simple_form
@@ -976,7 +976,7 @@ msgstr "Trình độ Thạc sĩ"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_medium_id
 msgid "Medium"
-msgstr "Kênh"
+msgstr "Phương thức"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_mobile
@@ -1103,6 +1103,8 @@ msgid ""
 "Odoo helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
+"Hệ thống giúp bạn theo dõi người nộp đơn trong tuyển dụng\n"
+"                 xử lý và theo dõi tất cả các hoạt động: cuộc họp, phỏng vấn, v.v."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
@@ -1110,6 +1112,8 @@ msgid ""
 "Odoo helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
+"Hệ thống giúp bạn theo dõi người nộp đơn trong tuyển dụng\n"
+"             xử lý và theo dõi tất cả các hoạt động: cuộc họp, phỏng vấn, v.v."
 
 #. module: hr_recruitment
 #: model:res.groups,name:hr_recruitment.group_hr_recruitment_user
@@ -1130,6 +1134,9 @@ msgid ""
 "                  and manage the recruitment process related to the job\n"
 "                  position."
 msgstr ""
+"Khi vị trí công việc được tạo, bạn có thể theo dõi người đăng ký\n"
+"                   và quản lý quá trình tuyển dụng liên quan đến công việc\n"
+"                   Chức vụ."
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_report_search
@@ -1393,6 +1400,8 @@ msgstr "Địa chỉ email cụ thể"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_stage_job_id
 msgid "Specific job that uses this stage. Other jobs will not use this stage."
 msgstr ""
+"Công việc cụ thể sử dụng giai đoạn này. Các công việc khác sẽ không sử dụng "
+"giai đoạn này."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_stage_id
@@ -1434,6 +1443,8 @@ msgid ""
 "Stage of the applicant before being in the current stage. Used for lost "
 "cases analysis."
 msgstr ""
+"Giai đoạn của người nộp đơn trước khi ở giai đoạn hiện tại. Được sử dụng cho"
+" phân tích trường hợp bị mất."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_recruitment_stage_act
@@ -1516,6 +1527,8 @@ msgid ""
 "These aliases can be emails or urls for every source. When the applicant "
 "arrives here through one of these you'll know where he came from."
 msgstr ""
+"Những bí danh này có thể là email hoặc url cho mọi nguồn. Khi người nộp đơn "
+"đến đây thông qua một trong những điều này bạn sẽ biết anh ta đến từ đâu."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_email_cc
