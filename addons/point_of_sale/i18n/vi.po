@@ -120,17 +120,17 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "<span class=\"o_form_label\">Journal Entries</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Bút toán Sổ nhật ký</span>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "<span class=\"o_form_label\">Order Reference</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Tham chiếu Đơn hàng</span>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "<span class=\"o_form_label\">Payment Methods</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Phương thức Thanh toán</span>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_open_statement
@@ -348,7 +348,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Accept payments with a credit card reader"
-msgstr ""
+msgstr "Nhận Thanh toán bằng đầu đọc thẻ tín dụng"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1083,7 +1083,7 @@ msgstr "Thẻ tín dụng"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Credit Card Reader"
-msgstr ""
+msgstr "Đầu đọc Thẻ Tín dụng"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -2079,7 +2079,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_sales_price
 msgid "Multiple Product Prices"
-msgstr ""
+msgstr "Nhiều Giá cho Sản phẩm"
 
 #. module: point_of_sale
 #: selection:res.config.settings,pos_pricelist_setting:0
@@ -3248,7 +3248,7 @@ msgstr "Sổ nhật ký Bán hàng"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "Sales Orders"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__user_id
@@ -3755,12 +3755,12 @@ msgstr ""
 #. module: point_of_sale
 #: selection:pos.config,iface_tax_included:0
 msgid "Tax-Excluded Price"
-msgstr ""
+msgstr "Giá KHÔNG bao gồm Thuế"
 
 #. module: point_of_sale
 #: selection:pos.config,iface_tax_included:0
 msgid "Tax-Included Price"
-msgstr ""
+msgstr "Giá Bao gồm Thuế"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__amount_tax
@@ -4274,7 +4274,7 @@ msgstr "Khoản phải thu"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_barcode_rule__type
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:179

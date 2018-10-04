@@ -218,13 +218,13 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Down Payments</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Thanh toán Ứng trước</span>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
 msgid "<span class=\"o_stat_text\">Sold</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Đã bán</span>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
@@ -500,12 +500,12 @@ msgstr "Thêm một ghi chú"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add a product"
-msgstr ""
+msgstr "Thêm Sản phẩm"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add a section"
-msgstr ""
+msgstr "Thêm một Vùng"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_invoice__comment
@@ -515,7 +515,7 @@ msgstr "Thông tin thêm"
 #. module: sale
 #: model:res.groups,name:sale.group_delivery_invoice_address
 msgid "Addresses in Sales Orders"
-msgstr "Địa chỉ trên Đơn hàng bán"
+msgstr "Địa chỉ trên Đơn Bán"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:165
@@ -991,18 +991,18 @@ msgstr "Ngày:"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Default Limit:"
-msgstr ""
+msgstr "Giới hạn Mặc định:"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__use_quotation_validity_days
 msgid "Default Quotation Validity"
-msgstr ""
+msgstr "Thời hạn Báo giá Mặc định"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__quotation_validity_days
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__quotation_validity_days
 msgid "Default Quotation Validity (Days)"
-msgstr ""
+msgstr "Thời hạn Báo giá Mặc định (Ngày)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__use_sale_note
@@ -1022,7 +1022,7 @@ msgstr "Sản phẩm mặc định để ghi nhận các khoản ứng trước"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Deliver Content by Email"
-msgstr ""
+msgstr "Chuyển phát Nội dung bằng Email"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_delivered_manual
@@ -1146,7 +1146,7 @@ msgstr "Tên hiển thị"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__display_type
 msgid "Display Type"
-msgstr "Loại hiển thị"
+msgstr "Kiểu Hiển thị"
 
 #. module: sale
 #: selection:res.company,sale_onboarding_order_confirmation_state:0
@@ -1193,8 +1193,8 @@ msgid ""
 "Down payments are made when creating invoices from a sales order. They are "
 "not copied when duplicating a sales order."
 msgstr ""
-"Down payments được thực hiện khi tạo hóa đơn từ đơn đặt hàng. Chúng không "
-"được sao chép khi sao chép một đơn đặt hàng."
+"Ứng trước được thực hiện khi tạo hóa đơn từ đơn bán. Chúng không "
+"được sao chép khi sao chép một đơn bán."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -1299,11 +1299,12 @@ msgstr "Các Hành động Tương lai"
 msgid ""
 "Generate the invoice automatically when the online payment is confirmed"
 msgstr ""
+"Tự động sinh hoá đơn khi thanh toán trực tuyến được xác nhận"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Get warnings in orders for products or customers"
-msgstr "Nhận cảnh báo ở đơn hàng bán đối với sản phẩm hoặc khách hàng"
+msgstr "Nhận cảnh báo ở đơn bán đối với sản phẩm hoặc khách hàng"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -1720,7 +1721,7 @@ msgstr "Khoá"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__auto_done_setting
 msgid "Lock Confirmed Sales"
-msgstr ""
+msgstr "Khoá Đơn Bán đã Xác nhận"
 
 #. module: sale
 #: selection:sale.order,state:0
@@ -1777,7 +1778,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_margin
 msgid "Margins"
-msgstr "Lợi nhuân biên"
+msgstr "Biên Lợi nhuận"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_has_error
@@ -1788,13 +1789,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_res_partner__sale_warn_msg
 #: model:ir.model.fields,field_description:sale.field_res_users__sale_warn_msg
 msgid "Message for Sales Order"
-msgstr "Thông điệp cho Đơn hàng bán"
+msgstr "Thông điệp cho Đơn Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_product__sale_line_warn_msg
 #: model:ir.model.fields,field_description:sale.field_product_template__sale_line_warn_msg
 msgid "Message for Sales Order Line"
-msgstr "Thông điệp cho Dòng Đơn hàng bán"
+msgstr "Thông điệp cho Dòng Đơn Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_ids
@@ -2030,7 +2031,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report__order_id
@@ -2147,7 +2148,7 @@ msgstr "Chờ xuất Hoá đơn"
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
 #: model:ir.ui.menu,name:sale.menu_sale_order_upselling
 msgid "Orders to Upsell"
-msgstr "Đơn hàng Bán gia tăng"
+msgstr "Đơn Bán gia tăng"
 
 #. module: sale
 #. openerp-web
@@ -2481,7 +2482,7 @@ msgstr "Sản phẩm"
 #. module: sale
 #: model:ir.model,name:sale.model_report_sale_report_saleproforma
 msgid "Proforma Report"
-msgstr ""
+msgstr "Báo cáo Proforma"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_line_tree
@@ -2511,7 +2512,7 @@ msgstr "SL chờ Xuất Hoá đơn"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Quantities to invoice from sales orders"
-msgstr "Số lượng để xuất hoá đơn từ đơn hàng bán"
+msgstr "Số lượng để xuất hoá đơn từ đơn bán"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -2663,7 +2664,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Request an online payment to confirm orders"
-msgstr ""
+msgstr "Yêu cầu thanh toán trực tuyến để xác nhận đơn"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__require_payment
@@ -2675,7 +2676,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Request an online signature to confirm orders"
-msgstr ""
+msgstr "Yêu cầu ký trực tuyến để xác nhận đơn"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:359
@@ -2691,7 +2692,7 @@ msgstr "Người chịu trách nhiệm"
 #. module: sale
 #: model:ir.model,name:sale.model_sale_order
 msgid "Sale Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_partner__sale_order_count
@@ -2712,7 +2713,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sale Warnings"
-msgstr ""
+msgstr "Cảnh báo khi Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_onboarding_payment_method
@@ -2772,7 +2773,7 @@ msgstr "Các thông tin Bán hàng"
 #: selection:sale.order,state:0 selection:sale.report,state:0
 #, python-format
 msgid "Sales Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:mail.message.subtype,name:sale.mt_order_confirmed
@@ -2791,7 +2792,7 @@ msgstr "Dòng trên Đơn Bán"
 #: model:ir.model.fields,field_description:sale.field_product_product__sale_line_warn
 #: model:ir.model.fields,field_description:sale.field_product_template__sale_line_warn
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_invoice_line__sale_line_ids
@@ -2836,7 +2837,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_order_pivot
 #, python-format
 msgid "Sales Orders"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_invoice__team_id
@@ -2933,7 +2934,7 @@ msgstr "Khu vực"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Section Name (eg. Products, Services)"
-msgstr ""
+msgstr "Tên vùng (vd: Các Sản phẩm, Các Dịch vụ, v.v.)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__access_token
@@ -2945,7 +2946,7 @@ msgstr "Token An ninh"
 #: code:addons/sale/static/src/js/tour.js:46
 #, python-format
 msgid "Select a product, or create a new one on the fly."
-msgstr ""
+msgstr "Chọn một sản phẩm, hoặc tạo mới một sản phẩm tốc hành."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_product__sale_line_warn
@@ -3025,7 +3026,7 @@ msgstr "Đặt mục tiêu hoá đơn"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Set a default validity on your quotations"
-msgstr ""
+msgstr "Thiết lập giá trị mặc định cho thời hạn các báo giá của bạn"
 
 #. module: sale
 #. openerp-web
@@ -3095,7 +3096,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Show margins on orders"
-msgstr "Hiện thị biên lợi nhuận trên đơn hàng bán"
+msgstr "Hiện thị biên lợi nhuận trên đơn bán"
 
 #. module: sale
 #: selection:product.pricelist,discount_policy:0
@@ -3286,6 +3287,7 @@ msgid ""
 "Terms and conditions... (note: you can setup default ones in the "
 "Configuration menu)"
 msgstr ""
+"Điều khoản và điểu kiện... (chú ý: bạn có thể thiết lập điều khoản và điều kiện mặc định ở trình đơn Cấu hình)"
 
 #. module: sale
 #: code:addons/sale/models/analytic.py:116
@@ -3294,6 +3296,8 @@ msgid ""
 "The Sales Order %s linked to the Analytic Account %s is cancelled. You "
 "cannot register an expense on a cancelled Sales Order."
 msgstr ""
+"Đơn Bán %s liên kết với Tài khoản Quản trị %s bị huỷ. Bạn không thể "
+"ghi nhận một chi phí cho một Đơn Bán bị Huỷ."
 
 #. module: sale
 #: code:addons/sale/models/analytic.py:115
@@ -3767,7 +3771,7 @@ msgstr "Cảnh báo cho %s"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
 msgid "Warning on the Sales Order"
-msgstr "Cảnh báo trên Đơn hàng bán"
+msgstr "Cảnh báo trên Đơn Bán"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button

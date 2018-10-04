@@ -1711,7 +1711,7 @@ msgstr "Sản phẩm được Chiết khấu"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_lot_on_delivery_slip
 msgid "Display Lots & Serial Numbers"
-msgstr ""
+msgstr "Hiểu thị Số Lô & Sê-ri"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_group__display_name
@@ -2334,7 +2334,7 @@ msgstr "Dịch chuyển Ngay?"
 #. module: stock
 #: selection:res.config.settings,module_procurement_jit:0
 msgid "Immediately after sales order confirmation"
-msgstr "Ngay khi xác nhận đơn hàng bán"
+msgstr "Ngay khi xác nhận đơn bán"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_filter
@@ -2836,7 +2836,7 @@ msgstr "Thời gian cần"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__lead_type
 msgid "Lead Type"
-msgstr "Loại cần"
+msgstr "Kiểu Tiềm năng"
 
 #. module: stock
 #: selection:stock.rule,group_propagation_option:0
@@ -3006,7 +3006,7 @@ msgstr "Số Lô & Serial"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Lots &amp; Serial numbers will appear on the delivery slip"
-msgstr ""
+msgstr "Số Lô &amp; Sê-ri sẽ được hiển thị trên phiếu giao hàng"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__lots_visible
@@ -3016,7 +3016,7 @@ msgstr "Hiển thị số Lô"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
 msgid "Lots or serial numbers were not provided to tracked products"
-msgstr ""
+msgstr "Số Lô / Sê-ri không được cung cấp để theo vết các sản phẩm"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_production_lot_form
@@ -3076,7 +3076,7 @@ msgstr "Quản lý các chu trình kho Push và Pull"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Manage product packagings (e.g. pack of 6 bottles, box of 10 pieces)"
-msgstr ""
+msgstr "Quản lý cách thức đóng gói (vd: Thùng 6 Chái, Hộp 10 Chiếc, v.v.)"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -3091,7 +3091,7 @@ msgstr "Người quản lý"
 #. module: stock
 #: selection:stock.rule,auto:0
 msgid "Manual Operation"
-msgstr "Vận hành thủ công"
+msgstr "Vận hành Thủ công"
 
 #. module: stock
 #: selection:res.config.settings,module_procurement_jit:0
@@ -4186,12 +4186,12 @@ msgstr ""
 #: model:ir.ui.menu,name:stock.menu_product_packagings
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Product Packagings"
-msgstr ""
+msgstr "Đóng gói Sản phẩm"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_replenish
 msgid "Product Replenish"
-msgstr ""
+msgstr "Tái Bổ sung Sản phẩm"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_stock_rule
@@ -4217,7 +4217,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_product_template__type
 #: model:ir.model.fields,field_description:stock.field_stock_move__product_type
 msgid "Product Type"
-msgstr "Loại sản phẩm"
+msgstr "Kiểu Sản phẩm"
 
 #. module: stock
 #: model:ir.model,name:stock.model_uom_uom
@@ -6150,7 +6150,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_barcode_rule__type
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__picking_code
