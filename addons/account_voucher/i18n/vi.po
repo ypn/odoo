@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_voucher
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # Martin Trigaux, 2018
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_voucher
@@ -50,7 +50,7 @@ msgstr "Ngày Kế toán"
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__account_date
 msgid "Accounting Date"
-msgstr "Ngày kế toán"
+msgstr "Ngày Kế toán"
 
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_account_voucher
@@ -80,7 +80,7 @@ msgstr "Tài khoản quản trị"
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line__analytic_tag_ids
 msgid "Analytic Tags"
-msgstr "Từ khóa phân tích"
+msgstr "Từ khoá phân tích"
 
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
@@ -98,7 +98,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter_vendor
 msgid "Bill Date"
-msgstr "Ngày hóa đơn"
+msgstr "Ngày hoá đơn"
 
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
@@ -108,7 +108,7 @@ msgstr "Thông tin hoá đơn"
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__reference
 msgid "Bill Reference"
-msgstr "Dẫn chiếu Hoá đơn"
+msgstr "Tham chiếu Hoá đơn"
 
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
@@ -159,7 +159,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__create_date
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__currency_id
@@ -177,7 +177,7 @@ msgstr "Khách hàng"
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter
 msgid "Date"
-msgstr "Ngày"
+msgstr "Ngày tháng"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line__name
@@ -196,7 +196,7 @@ msgstr "Tên hiển thị"
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter_sale
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter_vendor
 msgid "Draft"
-msgstr "Nháp"
+msgstr "Dự thảo"
 
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter
@@ -299,13 +299,13 @@ msgstr "Bút toán sổ nhật ký"
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_sale_receipt_form
 msgid "Journal Items"
-msgstr "Phát sinh"
+msgstr "Phát sinh Kế toán"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher____last_update
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line____last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "Sửa lần cuối"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__write_uid
@@ -317,7 +317,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__write_date
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__message_main_attachment_id
@@ -500,7 +500,7 @@ msgstr "Bán"
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_sale_receipt_form
 msgid "Sales Information"
-msgstr "Các thông tin Kinh doanh"
+msgstr "Các thông tin bán hàng"
 
 #. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_sale_receipt_form
@@ -531,7 +531,7 @@ msgstr "Thiết lập về dự thảo"
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter_sale
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_voucher_filter_vendor
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: account_voucher
 #: model:mail.message.subtype,name:account_voucher.mt_voucher_state_change
@@ -566,7 +566,7 @@ msgstr "Biên lai đã được thanh toán hết."
 #. module: account_voucher
 #: model:ir.model.fields,help:account_voucher.field_account_voucher_line__account_id
 msgid "The income or expense account related to the selected product."
-msgstr "Tài khoản doanh thu hoặc chi phí liên quan tới sản phẩm đã chọn."
+msgstr "Tài khoản Doanh thu hoặc chi phí liên quan tới sản phẩm đã chọn."
 
 #. module: account_voucher
 #: model:ir.model.fields,help:account_voucher.field_account_voucher__reference
@@ -592,7 +592,7 @@ msgstr "Tổng số tiền"
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher__voucher_type
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line__price_unit

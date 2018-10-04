@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_holidays
@@ -475,7 +475,7 @@ msgstr "Cần có Hành động"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
@@ -543,7 +543,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_dashboard
 msgid "All Leaves"
-msgstr "Tất cả ngày nghỉ"
+msgstr "Tất cả người nghỉ"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_tree
@@ -581,13 +581,13 @@ msgstr ""
 #: selection:hr.leave.report,type:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 msgid "Allocation Request"
-msgstr "Đề nghị nghỉ phép"
+msgstr "Đề nghị Cấp phát"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_department_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_tree
 msgid "Allocation Requests"
-msgstr "Đề nghị nghỉ phép"
+msgstr "Đề nghị Cấp phát"
 
 #. module: hr_holidays
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval
@@ -724,7 +724,7 @@ msgstr "Theo Phòng/Ban"
 #: selection:hr.leave.allocation,holiday_type:0
 #: selection:hr.leave.report,holiday_type:0
 msgid "By Employee"
-msgstr "Bởi nhân viên"
+msgstr "Theo Người lao động"
 
 #. module: hr_holidays
 #: selection:hr.leave,holiday_type:0
@@ -776,7 +776,7 @@ msgstr "Đã hủy"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Category"
-msgstr "Danh mục"
+msgstr "Chuyên mục"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__category_id
@@ -825,7 +825,7 @@ msgstr "Xác nhận"
 #: selection:hr.holidays.summary.dept,holiday_type:0
 #: selection:hr.holidays.summary.employee,holiday_type:0
 msgid "Confirmed"
-msgstr "Đã được xác nhận"
+msgstr "Được Xác nhận"
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department
@@ -864,7 +864,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__create_date
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee__current_leave_state
@@ -929,7 +929,7 @@ msgstr "Xoá"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__department_id
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report__department_id
 msgid "Department"
-msgstr "Phòng/Ban"
+msgstr "Phòng ban"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_allocation_action_approve_department
@@ -982,7 +982,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "Duration"
-msgstr "Thời lượng"
+msgstr "Khoảng thời gian"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__number_of_days
@@ -1029,7 +1029,7 @@ msgstr "Sửa Nhiệm vụ"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Employee"
-msgstr "Người lao động"
+msgstr "Nhân viên"
 
 #. module: hr_holidays
 #: selection:hr.leave.type,validation_type:0
@@ -1161,7 +1161,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_department
 msgid "HR Department"
-msgstr "Bộ phận Nhân sự"
+msgstr "Phòng nhân sự"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays_summary_dept
@@ -1310,7 +1310,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__write_date
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
@@ -1341,7 +1341,7 @@ msgstr "Yêu cầu Nghỉ"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_department_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_tree
 msgid "Leave Requests"
-msgstr "Xin nghỉ phép"
+msgstr "Các Xin Nghỉ"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_leave_report
@@ -1440,7 +1440,7 @@ msgstr "Cấp phát Nghỉ"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leaves_taken
 msgid "Leaves Already Taken"
-msgstr "Ngày nghĩ đã dùng"
+msgstr "Ngày nghỉ đã dùng"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_available_holidays_report
@@ -1583,7 +1583,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 #: model:res.groups,name:hr_holidays.group_hr_holidays_manager
 msgid "Manager"
-msgstr "Quản lý"
+msgstr "Người quản lý"
 
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_approvals
@@ -1624,7 +1624,7 @@ msgstr "Cuộc họp"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__categ_id
 msgid "Meeting Type"
-msgstr "Kiểu Sự kiện"
+msgstr "Kiểu Họp/Gặp gỡ"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__message_has_error
@@ -1875,7 +1875,7 @@ msgstr "Tổng quan"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__parent_id
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__parent_id
 msgid "Parent"
-msgstr "Dự án cha"
+msgstr "Cấp cha"
 
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.hr_holidays_menu_manager_payroll
@@ -1929,7 +1929,7 @@ msgstr "Bị từ chối"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "Người dùng liên quan đến nguồn lực để quản lý sự truy cập"
+msgstr "Người sử dụng nguồn lực để quản lý quyền truy cập đến nguồn lực."
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_tree
@@ -2081,7 +2081,7 @@ msgstr "Ngày bắt đầu"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__state
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report__state
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__activity_state
@@ -2280,14 +2280,14 @@ msgid ""
 "without overriding limit."
 msgstr ""
 "Tổng số ngày nghỉ hợp lệ được cấp phát cho người lao động này. Thay đổi giá "
-"trị này để tạo một Đề nghị nghỉ phép"
+"trị này để tạo một đề nghị cấp phát/xin nghỉ"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__number_of_days_display
@@ -2324,7 +2324,7 @@ msgstr "Không thanh toán"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Unread Messages"
-msgstr "Tin chưa đọc"
+msgstr "Thông điệp chưa đọc"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__message_unread_counter

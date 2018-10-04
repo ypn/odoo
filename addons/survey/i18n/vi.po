@@ -252,7 +252,7 @@ msgstr "Cần có Hành động"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__active_domain
@@ -344,7 +344,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Archived"
-msgstr "Lưu trữ"
+msgstr "Đã lưu "
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_attachment_count
@@ -521,7 +521,7 @@ msgstr "Bản quyền &amp;copy;"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__date_create
 msgid "Create Date"
-msgstr "Ngày tạo"
+msgstr "Ngày Tạo"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.layout
@@ -550,7 +550,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__create_date
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__date_create
@@ -569,7 +569,7 @@ msgstr ""
 #: selection:survey.question,type:0
 #: selection:survey.user_input_line,answer_type:0
 msgid "Date"
-msgstr "Ngày"
+msgstr "Ngày tháng"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_date
@@ -602,7 +602,7 @@ msgstr "Hạn chót mà lời mời trả lời khảo sát có giá trị"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_kanban
 msgid "Delete"
-msgstr "Xoá"
+msgstr "Xóa"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__auto_delete
@@ -670,7 +670,7 @@ msgstr ""
 #. module: survey
 #: model:survey.stage,name:survey.stage_draft
 msgid "Draft"
-msgstr "Nháp"
+msgstr "Bản thảo"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_kanban
@@ -715,7 +715,7 @@ msgstr ""
 #. module: survey
 #: model:ir.model,name:survey.model_survey_mail_compose_message
 msgid "Email composition wizard for Survey"
-msgstr "Đồ thuật soạn Email cho Khảo sát"
+msgstr "Đồ thuật soạn email cho Khảo sát"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__constr_error_msg
@@ -907,7 +907,7 @@ msgstr "Nhãn"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input____last_update
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line____last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "Sửa lần cuối"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_label__write_uid
@@ -931,7 +931,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__write_date
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__last_displayed_page_id
@@ -941,7 +941,7 @@ msgstr "Trang được hiển thị lần cuối"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Late Activities"
-msgstr "Các hoạt động gần nhất"
+msgstr "Hoạt động bị Trễ"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__layout
@@ -1719,7 +1719,7 @@ msgstr "Hiển thị Trường Bình luận"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Show all records which has next action date is before today"
-msgstr "Hiển thị tất cả dữ liệu có ngày xử lý tiếp theo trước ngày hôm nay"
+msgstr "Hiển thị tất cả bản ghi mà có ngày xử lý tiếp theo trước ngày hôm nay"
 
 #. module: survey
 #: selection:survey.question,type:0
@@ -1782,7 +1782,7 @@ msgstr "Đã Bắt đầu"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input__state
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__activity_state
@@ -2068,7 +2068,7 @@ msgstr "Khảo sát này chỉ mở đối với những người đã đăng k�
 #: model:ir.model.fields,field_description:survey.field_survey_survey__title
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Title"
-msgstr "Xưng hô"
+msgstr "Tiêu đề"
 
 #. module: survey
 #: selection:survey.survey,activity_state:0
@@ -2098,7 +2098,7 @@ msgstr "Giá trị Truy vết"
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__message_type
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_search
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__type

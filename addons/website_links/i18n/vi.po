@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_links
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # sao sang <saosangmo@yahoo.com>, 2018
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-18 09:49+0000\n"
 "Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_links
@@ -26,26 +26,26 @@ msgstr ""
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
-msgstr "bấm chuột"
+msgstr " bấm"
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
-msgstr "quốc gia"
+msgstr " quốc gia"
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:57
 #, python-format
 msgid "# of clicks"
-msgstr "Số lần bấm chuột"
+msgstr "SL bấm"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.share_page_menu
 msgid "<span title=\"Track this page to count clicks\">Track this Page</span>"
-msgstr "<span title=\"Track this page to count clicks\">Theo dõi trang này</span>"
+msgstr "<span title=\"Track this page to count clicks\">Theo vết trang này</span>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
@@ -55,12 +55,12 @@ msgstr "<strong>Chiến dịch</strong>"
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Medium</strong>"
-msgstr "<strong>Trung bình</strong>"
+msgstr "<strong>Phương thức</strong>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Original URL</strong>"
-msgstr "<strong>Liên kết ban đầu</strong>"
+msgstr "<strong>URL Gốc</strong>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
@@ -75,7 +75,7 @@ msgstr "<strong>Nguồn</strong>"
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Tracked Link</strong>"
-msgstr "<strong>Liên kết theo dõi</strong>"
+msgstr "<strong>Link được theo vết</strong>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
@@ -116,7 +116,7 @@ msgstr "Tạo liên kết..."
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Get tracked link"
-msgstr "Lấy liên kết theo dõi"
+msgstr "Lấy liên kết theo vết"
 
 #. module: website_links
 #. openerp-web
@@ -128,18 +128,18 @@ msgstr "Biểu tượng"
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 msgid "Last Month"
-msgstr "Tháng gần nhất"
+msgstr "Tháng trước"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 msgid "Last Week"
-msgstr "Tuần Trước"
+msgstr "Tuần trước"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 msgid "Link Tracker"
-msgstr "Kiểm soát đường dẫn"
+msgstr "Theo dõi Link"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -153,7 +153,7 @@ msgstr ""
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Most Clicked"
-msgstr "Được bấm chuột nhiều nhất"
+msgstr "Click nhiều nhất"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -171,8 +171,8 @@ msgid ""
 "Share this page with a <strong>short link</strong> that includes "
 "<strong>analytics trackers</strong>."
 msgstr ""
-"Chia sẽ trang này với một <strong>liên kết rút gọn</strong> bao gồm "
-"<strong>trình theo dõi phân tích</strong>."
+"Chia sẻ trang này bằng <strong>short link</strong> mà có chứa "
+"<strong>analytics trackers</strong>."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -251,7 +251,7 @@ msgstr "Liên kêt theo dõi của bạn"
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 #, python-format
 msgid "cancel"
-msgstr "hủy bỏ"
+msgstr "huỷ"
 
 #. module: website_links
 #. openerp-web
@@ -270,26 +270,26 @@ msgstr "sao chép"
 #: code:addons/website_links/static/src/js/website_links.js:266
 #, python-format
 msgid "e.g. Newsletter, Social Network, .."
-msgstr "ví dụ: gửi thư, mạng xã hội,..."
+msgstr "vd: Newsletter, Mạng xã hội, v.v."
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:263
 #, python-format
 msgid "e.g. Promotion of June, Winter Newsletter, .."
-msgstr "ví dụ: Khuyến mãi bản tin tháng 6, lễ giáng sinh, .."
+msgstr "vd: Chương trình khuyến mại Tháng Sáu, Newsletter Mùa đông, ..."
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:269
 #, python-format
 msgid "e.g. Search Engine, Website page, .."
-msgstr "ví dụ: máy tìm kiếm, trang Web,.."
+msgstr "vd: Máy tìm kiếm, Trang web, v.v."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "e.g. https://www.odoo.com/page/contactus"
-msgstr "ví dụ: https://www.tencongty.com/contactus"
+msgstr "vd: https://www.odoo.com/page/contactus"
 
 #. module: website_links
 #. openerp-web

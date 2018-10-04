@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * event_sale
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: fanha99 <fanha99@hotmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: event_sale
@@ -70,7 +70,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__create_date
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_event_event_ticket__seats_max
@@ -108,7 +108,7 @@ msgstr ""
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__email
 msgid "Email"
-msgstr "Email"
+msgstr "Thư điện tử"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_event
@@ -170,7 +170,7 @@ msgstr "Các sự kiện"
 #: code:addons/event_sale/models/event.py:254
 #, python-format
 msgid "Free"
-msgstr "Rảnh"
+msgstr "Miễn phí"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__id
@@ -191,7 +191,7 @@ msgstr ""
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_account_invoice
 msgid "Invoice"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__is_expired
@@ -224,7 +224,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__write_date
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: event_sale
 #: selection:event.event.ticket,seats_availability:0
@@ -265,7 +265,7 @@ msgstr "Không có"
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_ticket_form
 msgid "Origin"
-msgstr "Ban đầu"
+msgstr "Nguồn gốc"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__registration_id
@@ -302,7 +302,7 @@ msgstr "Giảm Giá"
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price_reduce_taxinc
 msgid "Price Reduce Tax inc"
-msgstr "Giảm Giá gồm Thuế"
+msgstr "Giảm giá gồm cả Thuế"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_product_product
@@ -348,7 +348,7 @@ msgstr "Số Chỗ đã Xí"
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order
 msgid "Sale Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn hàng"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__deadline
@@ -358,14 +358,14 @@ msgstr "Hết mở bán"
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__sale_order_id
 msgid "Sales Order"
-msgstr "Đơn bán hàng"
+msgstr "Đơn Bán"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_line
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__sale_order_line_id
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__sale_order_line_id
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn Bán"
+msgstr "Chi tiết Đơn hàng Bán"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__seats_used

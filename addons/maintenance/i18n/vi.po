@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * maintenance
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
@@ -18,10 +18,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:18+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: maintenance
@@ -94,7 +94,7 @@ msgstr "Cần có Hành động"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__active
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__activity_ids
@@ -159,7 +159,7 @@ msgstr "An ninh về Bí danh liên hệ"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_name
 msgid "Alias Name"
-msgstr "Tên Bí danh"
+msgstr "Tên bí danh"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_domain
@@ -169,7 +169,7 @@ msgstr "Miền bí danh"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_model_id
 msgid "Aliased Model"
-msgstr "Aliased Model"
+msgstr "Bí danh Model"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
@@ -191,7 +191,7 @@ msgstr "Lưu trữ"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_view_search
 msgid "Archived"
-msgstr "Lưu trữ"
+msgstr "Vô hiệu"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_tree
@@ -203,7 +203,7 @@ msgstr "Giao cho Người dùng"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Assigned"
-msgstr "Đã phân công"
+msgstr "Đã giao"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__assign_date
@@ -227,7 +227,7 @@ msgstr "Khả dụng"
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 #: selection:maintenance.request,kanban_state:0
 msgid "Blocked"
-msgstr "Bị Phong toả"
+msgstr "Bị phong tỏa"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -239,7 +239,7 @@ msgstr "Hủy"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Category"
-msgstr "Danh mục"
+msgstr "Nhóm"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__name
@@ -287,7 +287,7 @@ msgstr "Khắc phục"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__cost
 msgid "Cost"
-msgstr "Giá vốn"
+msgstr "Chi phí"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -315,7 +315,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage__create_date
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__maintenance_open_count
@@ -423,7 +423,7 @@ msgstr "Ngày hiệu lực"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "Email Alias"
-msgstr "Bí danh Email"
+msgstr "Email bí danh"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_id
@@ -439,7 +439,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__equipment_id
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__equipment_ids
 msgid "Equipment"
-msgstr "Trang thiết bị"
+msgstr "Thiết bị"
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_mat_assign
@@ -479,7 +479,7 @@ msgstr "Tên Thiết bị"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Equipments"
-msgstr "Trang thiết bị"
+msgstr "Thiết bị"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__fold
@@ -523,7 +523,7 @@ msgstr "Người theo dõi (Các đối tác)"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Future Activities"
-msgstr "Hoạt động tương lai"
+msgstr "Hoạt động Tương lai"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_search
@@ -582,12 +582,12 @@ msgstr ""
 #: selection:maintenance.request,kanban_state:0
 #: model:maintenance.stage,name:maintenance.stage_1
 msgid "In Progress"
-msgstr "Đang thực hiện"
+msgstr "Đang Thực hiện"
 
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_maintenance
 msgid "Internal Maintenance"
-msgstr "Đội bảo trì nội bộ"
+msgstr "Đội bảo trì Nội bộ"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -631,13 +631,13 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage__write_date
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Late Activities"
-msgstr "Các hoạt động gần nhất"
+msgstr "Hoạt động bị trễ"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__location
@@ -708,7 +708,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 #: model:mail.activity.type,name:maintenance.mail_act_maintenance_request
 msgid "Maintenance Request"
-msgstr "Yêu cầu bảo trì"
+msgstr "Yêu cầu Bảo trì"
 
 #. module: maintenance
 #: model:mail.message.subtype,name:maintenance.mt_cat_req_created
@@ -741,7 +741,7 @@ msgstr "Đề nghị Bảo trì được tạo"
 #: model:ir.ui.menu,name:maintenance.menu_m_request_form
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Maintenance Requests"
-msgstr "Đề nghị Bảo trì"
+msgstr "Yêu cầu Bảo trì"
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_stage
@@ -777,7 +777,7 @@ msgstr "Kiểu Bảo trì"
 #: model:ir.cron,cron_name:maintenance.maintenance_requests_cron
 #: model:ir.cron,name:maintenance.maintenance_requests_cron
 msgid "Maintenance: generate preventive maintenance requests"
-msgstr "Bảo trì: tạo yêu cầu bảo trì dự phòng"
+msgstr "Bảo trì: sinh các yêu cầu bảo trì phòng ngừa"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__message_has_error
@@ -796,7 +796,7 @@ msgstr "Thông điệp"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__model
 msgid "Model"
-msgstr "Đối tượng"
+msgstr "Mô hình"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -812,7 +812,7 @@ msgstr "Thiết bị của Tôi"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "My Requests"
-msgstr "Xin nghỉ của tôi"
+msgstr "Đề nghị của Tôi"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage__name
@@ -854,7 +854,7 @@ msgstr "Bảo trì Phòng ngừa Tiếp theo"
 #. module: maintenance
 #: selection:maintenance.request,priority:0
 msgid "Normal"
-msgstr "Bình thường"
+msgstr "Thông thường"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__note
@@ -876,7 +876,7 @@ msgstr "Số lượng yêu cầu"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_block
 msgid "Number of Requests Blocked"
-msgstr "Số lượng yêu cầu bị Khóa"
+msgstr "Số lượng yêu cầu bị Chặn"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_date
@@ -891,7 +891,7 @@ msgstr "Số lượng yêu cầu chưa có Kế hoạch"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_count_high_priority
 msgid "Number of Requests in High Priority"
-msgstr "Số lượng yêu cầu phải Ưu tiên"
+msgstr "Số lượng yêu cầu có Ưu tiên Cao"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__message_has_error_counter
@@ -955,7 +955,7 @@ msgstr "Chủ sở hữu"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_parent_model_id
 msgid "Parent Model"
-msgstr "Parent Model"
+msgstr "Model cha"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_parent_thread_id
@@ -1011,7 +1011,7 @@ msgstr "Tần suất Bảo trì Phòng ngừa"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__priority
 msgid "Priority"
-msgstr "Độ ưu tiên"
+msgstr "Mức ưu tiên"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
@@ -1021,7 +1021,7 @@ msgstr "Thông tin sản phẩm"
 #. module: maintenance
 #: selection:maintenance.request,kanban_state:0
 msgid "Ready for next stage"
-msgstr "Sẵn sàng cho giai đoạn kế tiếp"
+msgstr "Sẵn sàng cho giai đoạn tiếp theo"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
@@ -1041,7 +1041,7 @@ msgstr "Mở lại Đề nghị"
 #. module: maintenance
 #: model:maintenance.stage,name:maintenance.stage_3
 msgid "Repaired"
-msgstr "Đã sửa"
+msgstr "Đã sửa chữa"
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.maintenance_reporting
@@ -1089,7 +1089,7 @@ msgstr "Yêu cầu bởi:"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__todo_request_ids
 msgid "Requests"
-msgstr "Các yêu cầu"
+msgstr "Yêu cầu"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__technician_user_id
@@ -1129,7 +1129,7 @@ msgstr "Ngày chuyển thành Phế liệu"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_view_search
 msgid "Search"
-msgstr "Tìm"
+msgstr "Tìm kiếm"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage__sequence
@@ -1156,7 +1156,8 @@ msgstr "Thiết lập"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Show all records which has next action date is before today"
-msgstr "Hiển thị tất cả dữ liệu có ngày xử lý tiếp theo trước ngày hôm nay"
+msgstr ""
+"Hiển thị tất cả bản ghi mà có ngày hành động kế tiếp trước ngày hôm nay"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__stage_id
@@ -1191,7 +1192,7 @@ msgstr ""
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_req_status
 msgid "Status changed"
-msgstr "Trạng thái bị thay đổi"
+msgstr "Giai đoạn đã thay đổi"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__name
@@ -1206,7 +1207,7 @@ msgstr "Đội"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__member_ids
 msgid "Team Members"
-msgstr "Các thành viên trong đội"
+msgstr "Các thành viên trong nhóm"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_view_form
@@ -1236,10 +1237,10 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Kiểu Tài liệu Odoo) mà bí danh này ứng với nó. Bất kỳ thông điệp "
-"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Odoo tự động "
-"tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu model "
-"là project.task)"
+"Model (Kiểu Tài liệu Hệ thống) mà bí danh này ứng với nó. Bất kỳ thông điệp "
+"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Hệ thống tự "
+"động tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu "
+"model là project.task)"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_name
@@ -1317,7 +1318,7 @@ msgstr "Đang Bảo trì"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Unread Messages"
-msgstr "Tin chưa đọc"
+msgstr "Thông điệp chưa đọc"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__message_unread_counter
@@ -1350,7 +1351,7 @@ msgstr "Nhà cung cấp"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__partner_ref
 msgid "Vendor Reference"
-msgstr "Tham chiếu NCC"
+msgstr "Tham chiếu Nhà cung cấp"
 
 #. module: maintenance
 #: selection:maintenance.request,priority:0

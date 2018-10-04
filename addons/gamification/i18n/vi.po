@@ -152,7 +152,7 @@ msgid ""
 "<br/>Nobody has succeeded to reach every goal, no badge is rewarded for this"
 " challenge."
 msgstr ""
-"<br/>Không ai thành công trong việc đạt được mọi Mục tiêu đề ra, không có "
+"<br/>Không ai thành công trong việc đạt được mọi Tiêu chí đề ra, không có "
 "huy chương nào được trao tặng cho thử thách này."
 
 #. module: gamification
@@ -420,7 +420,7 @@ msgid ""
 "A goal is considered as completed when the current value is compared to the "
 "value to reach"
 msgstr ""
-"Một Mục tiêu được coi là hoàn thành khi giá trị hiện tại của Mục tiêu bằng "
+"Một tiêu chí được coi là hoàn thành khi giá trị hiện tại của tiêu chí bằng "
 "giá trị cần phải đạt được (value to reach)"
 
 #. module: gamification
@@ -449,17 +449,17 @@ msgstr "Cần có Hành động"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Advanced Options"
-msgstr "Tùy chọn nâng cao"
+msgstr "Tuỳ chọn Nâng cao"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth
 msgid "Allowance to Grant"
-msgstr "Phần thưởng để trao"
+msgstr "Cho phép trao"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__user_domain
@@ -595,7 +595,7 @@ msgstr "Đã huỷ"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Category"
-msgstr "Danh mục"
+msgstr "Chuyên mục"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__challenge_id
@@ -715,7 +715,7 @@ msgstr ""
 "Tạo và quản lý người dùng mà sẽ kết nối với hệ thống. Người dùng bị ngừng "
 "hoạt động có thể có một khoảng thời gian mà họ sẽ không kết nối tới hệ "
 "thống. Bạn có thể gán họ các nhóm để chỉ ra quyền truy cập cho họ tới ứng "
-"dụng mà họ cần sử dụng trong hệ thống."
+"dụng mà họ cần sử dụng trong hệ thống"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__create_uid
@@ -739,7 +739,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__create_date
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__current
@@ -833,7 +833,7 @@ msgstr "Tên hiển thị"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_display
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__display_mode
 msgid "Displayed as"
-msgstr "Hiển thị như"
+msgstr "Hiển thị là"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_distinctive_field
@@ -862,7 +862,7 @@ msgstr "Hoàn thành"
 #: selection:gamification.goal,state:0
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Draft"
-msgstr "Nháp"
+msgstr "Dự thảo"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__end_date
@@ -884,7 +884,7 @@ msgstr ""
 #. module: gamification
 #: selection:gamification.badge,rule_auth:0
 msgid "Everyone"
-msgstr "Mọi người"
+msgstr "Tất cả mọi người"
 
 #. module: gamification
 #: selection:gamification.goal.definition,display_mode:0
@@ -899,12 +899,12 @@ msgstr "Thất bại"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__field_id
 msgid "Field to Sum"
-msgstr "Trường để cộng thành Tổng"
+msgstr "Trường để cộng Tổng"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__domain
 msgid "Filter Domain"
-msgstr "Lọc tên miền"
+msgstr "Miền Lọc"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_follower_ids
@@ -957,7 +957,7 @@ msgstr "Từ"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__full_suffix
 msgid "Full Suffix"
-msgstr "Hậu tố đầy đủ"
+msgstr "Hậu tố Đầy đủ"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge
@@ -1024,14 +1024,14 @@ msgstr "Mục tiêu"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__name
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Goal Definition"
-msgstr "Định nghĩa Mục tiêu"
+msgstr "Tiêu chí"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goal_definition_list_action
 #: model:ir.ui.menu,name:gamification.gamification_definition_menu
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_list_view
 msgid "Goal Definitions"
-msgstr "Định nghĩa Mục tiêu"
+msgstr "Tiêu chí"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__description
@@ -1053,7 +1053,7 @@ msgstr "Danh mục Mục tiêu"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_condition
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__condition
 msgid "Goal Performance"
-msgstr "Sự thực hiện Mục tiêu"
+msgstr "Năng suất"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
@@ -1065,7 +1065,7 @@ msgstr "Mục tiêu Đã đạt"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_list_view
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Goal definitions"
-msgstr "Định nghĩa Mục tiêu"
+msgstr "Tiêu chí"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.goal_list_action
@@ -1197,7 +1197,7 @@ msgstr "Hình ảnh"
 #. module: gamification
 #: selection:gamification.challenge,state:0
 msgid "In Progress"
-msgstr "Đang thực hiện"
+msgstr "Đang Thực hiện"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
@@ -1291,7 +1291,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__write_date
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: gamification
 #: selection:gamification.challenge,visibility_mode:0
@@ -1311,7 +1311,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__line_ids
 msgid "Lines"
-msgstr "Chi tiết"
+msgstr "Các dòng"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__line_ids
@@ -1355,7 +1355,7 @@ msgstr "Thông điệp"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__model_id
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_search_view
 msgid "Model"
-msgstr "Đối tượng"
+msgstr "Mô hình"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__definition_monetary
@@ -1524,7 +1524,7 @@ msgstr "Chỉ những người này mới có quyền cho/tặng huy chương n�
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Optimisation"
-msgstr "Tối ưu hóa"
+msgstr "Tối ưu hoá"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
@@ -1696,7 +1696,7 @@ msgstr "Trao tặng đối với các thử thách"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Running"
-msgstr "Đang tính khấu hao"
+msgstr "Đang hoạt động"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
@@ -1706,7 +1706,7 @@ msgstr "Các thử thách đang chạy"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Schedule"
-msgstr "Ấn định (thời gian)"
+msgstr "Ấn định"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
@@ -1730,7 +1730,7 @@ msgid ""
 "enforced for administrator."
 msgstr ""
 "Các quy tắc an ninh để định nghĩa ai thì được phép trao huy chương một cách "
-"thủ công. Thiết lập này không ảnh hưởng tới tài khoản quản trị tối cao."
+"thủ công. Thiết lập này không ảnh hưởng tới tài khoản quản trị."
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1812,7 +1812,7 @@ msgstr "Khởi động Mục tiêu"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "State"
-msgstr "Giai đoạn"
+msgstr "Trạng thái"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
@@ -1822,7 +1822,7 @@ msgstr "Thống kê"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Subscriptions"
-msgstr "Hợp đồng"
+msgstr "Thuê bao"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__definition_full_suffix
@@ -2083,7 +2083,7 @@ msgstr "Đến"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__target_goal
 msgid "To Reach"
-msgstr "Chờ đạt"
+msgstr "Mục tiêu cần Đạt"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__to_update

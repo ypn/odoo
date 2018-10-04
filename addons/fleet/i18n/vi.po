@@ -48,7 +48,7 @@ msgstr "Phí Kích hoạt"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__active
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_ids
@@ -100,7 +100,7 @@ msgstr "Tổng tiền"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Archived"
-msgstr "Lưu trữ"
+msgstr "Đã lưu "
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__log_drivers
@@ -160,7 +160,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type__category
 msgid "Category"
-msgstr "Danh mục"
+msgstr "Loại"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost__cost_type
@@ -255,7 +255,7 @@ msgstr "Ngày hết hạn Hợp đồng"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__ins_ref
 msgid "Contract Reference"
-msgstr "Tham chiếu Hợp đồng"
+msgstr "Tham chiếu HĐ"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__start_date
@@ -266,7 +266,7 @@ msgstr "Ngày bắt đầu hợp đồng"
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_contract_types_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_contract_types_menu
 msgid "Contract Types"
-msgstr "Kiểu Hợp đồng"
+msgstr "Các loại HĐ"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost__contract_id
@@ -313,7 +313,7 @@ msgstr "Các hợp đồng"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel__cost_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__cost_id
 msgid "Cost"
-msgstr "Giá vốn"
+msgstr "Chi phí"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost__description
@@ -477,7 +477,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__create_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__state_id
@@ -497,7 +497,7 @@ msgstr "Hàng ngày"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__date
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Date"
-msgstr "Ngày"
+msgstr "Ngày tháng"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost__date
@@ -620,7 +620,7 @@ msgstr "Các tùy chọn Động cơ"
 #: selection:fleet.vehicle.log.contract,state:0
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Expired"
-msgstr "Đã hết hạn"
+msgstr "Hết hạn"
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
@@ -849,7 +849,7 @@ msgstr "Các dịch vụ bao gồm"
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
 msgid "Incoming"
-msgstr "Sắp về"
+msgstr "Doanh thu"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -877,13 +877,13 @@ msgstr "Tổng Chi phí Phát sinh"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Invoice Date"
-msgstr "Ngày hóa đơn"
+msgstr "Ngày Hoá đơn"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel__inv_ref
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__inv_ref
 msgid "Invoice Reference"
-msgstr "Tham chiếu Hóa đơn"
+msgstr "Tham chiếu hoá đơn"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_is_follower
@@ -952,7 +952,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__write_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
@@ -1050,17 +1050,17 @@ msgstr ""
 #. module: fleet
 #: model:res.groups,name:fleet.fleet_group_manager
 msgid "Manager"
-msgstr "Quản lý"
+msgstr "Người quản lý"
 
 #. module: fleet
 #: selection:fleet.vehicle,transmission:0
 msgid "Manual"
-msgstr "Thủ công"
+msgstr "Số tay"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__image_medium
 msgid "Medium-sized image"
-msgstr "Hình ảnh kích thước chuẩn"
+msgstr "Hình ảnh với kích thước vừa phải"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__image_medium
@@ -1094,7 +1094,7 @@ msgstr "Dặm"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Model"
-msgstr "Đối tượng"
+msgstr "Mô hình"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_form
@@ -1131,7 +1131,7 @@ msgstr "Model của phương tiện"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_tree
 msgid "Models"
-msgstr "Đối tượng"
+msgstr "Các Model"
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
@@ -1341,7 +1341,7 @@ msgstr "Quá hạn"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__parent_id
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Parent"
-msgstr "Dự án cha"
+msgstr "Cấp cha"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost__parent_id
@@ -1530,7 +1530,7 @@ msgstr "Ngày bắt đầu"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__state_id
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_state_view_tree
 msgid "State"
-msgstr "Giai đoạn"
+msgstr "Trạng thái"
 
 #. module: fleet
 #: sql_constraint:fleet.vehicle.state:0
@@ -1541,7 +1541,7 @@ msgstr "Tên tình trạng đã tồn tại"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__state
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__activity_state
@@ -1643,7 +1643,7 @@ msgstr "Kiểu hệ dẫn động (Transmission) được sử dụng bởi phư
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel__cost_subtype_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__cost_subtype_id
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__vin_sn

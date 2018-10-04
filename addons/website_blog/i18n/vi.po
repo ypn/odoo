@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_blog
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # sao sang <saosangmo@yahoo.com>, 2018
@@ -18,10 +18,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-18 09:50+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_blog
@@ -149,7 +149,7 @@ msgstr "Một bài mới"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
 msgid "About us"
-msgstr "Về Chúng tôi"
+msgstr "Về chúng tôi"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -166,7 +166,7 @@ msgstr "Cần có Hành động"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__active
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.s_latest_posts_options
@@ -186,7 +186,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_blog_view_search
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Archived"
-msgstr "Lưu trữ"
+msgstr "Đã lưu "
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_history
@@ -389,7 +389,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__create_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__display_name
@@ -402,7 +402,7 @@ msgstr "Tên hiển thị"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_edit_options
 msgid "Duplicate"
-msgstr "Nhân bản"
+msgstr "Sao chép"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
@@ -442,7 +442,7 @@ msgstr "Người theo dõi (Các đối tác)"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Full Screen"
-msgstr "Toàn màn hình"
+msgstr "Toàn Màn hình"
 
 #. module: website_blog
 #: model:blog.blog,subtitle:website_blog.blog_blog_1
@@ -545,7 +545,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__write_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -575,7 +575,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Medium"
-msgstr "Kênh / Medium"
+msgstr "Trung bình"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error
@@ -804,7 +804,7 @@ msgstr "Đặt <b>cover</b> cho bài blog."
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Size"
-msgstr "Kích thước"
+msgstr "Kích cỡ"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post__author_avatar
@@ -827,7 +827,7 @@ msgstr "Bắt đầu viết ở đây..."
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_status
 msgid "Status"
-msgstr "Trạng thái"
+msgstr "Tình trạng"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
@@ -879,7 +879,7 @@ msgstr ""
 #. module: website_blog
 #: sql_constraint:blog.tag:0
 msgid "Tag name already exists !"
-msgstr "Tên Tag đã tồn tại!"
+msgstr "Tên tag đã tồn tại rồi!"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__tag_ids
@@ -887,7 +887,7 @@ msgstr "Tên Tag đã tồn tại!"
 #: model:ir.ui.menu,name:website_blog.menu_blog_tag_global
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_tags
 msgid "Tags"
-msgstr "Từ khóa"
+msgstr "Các từ khóa"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__teaser
@@ -926,7 +926,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__name
 msgid "Title"
-msgstr "Xưng hô"
+msgstr "Tiêu đề"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
@@ -1022,7 +1022,7 @@ msgstr "Website dữ liệu mô tả"
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_keywords
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Website dữ liệu từ khóa"
+msgstr "Website dữ liệu từ khoá"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_title

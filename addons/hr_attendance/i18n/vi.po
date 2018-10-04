@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # Martin Trigaux, 2018
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_attendance
@@ -87,7 +87,7 @@ msgstr "Hoàn thành một ngày làm việc tốt nữa! Hẹn gặp lại bạ
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_pivot
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_employee_form_inherit_hr_attendance
 msgid "Attendance"
-msgstr "Chấm công"
+msgstr "Vào/Ra"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_action_graph
@@ -109,7 +109,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_department_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Attendances"
-msgstr "Chấm công"
+msgstr "Quản lý Vào/Ra"
 
 #. module: hr_attendance
 #. openerp-web
@@ -257,12 +257,12 @@ msgstr "Được tạo bởi"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
 msgid "Department"
-msgstr "Phòng/Ban"
+msgstr "Phòng ban"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__display_name
@@ -290,7 +290,7 @@ msgstr "Sáng ăn cho ta, trưa ăn cho bạn, tối ăn cho kẻ thù"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
 msgid "Employee"
-msgstr "Người lao động"
+msgstr "Nhân viên"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.print_employee_badge
@@ -466,7 +466,7 @@ msgstr "Có mặt lần cuối"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance____last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "Sửa lần cuối"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__write_uid
@@ -476,7 +476,7 @@ msgstr "Cập nhật lần cuối bởi"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_manage_attendances
@@ -731,13 +731,13 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__worked_hours
 msgid "Worked Hours"
-msgstr "Giờ đã làm việc"
+msgstr "Số giờ đã làm"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:80
 #, python-format
 msgid "Wrong PIN"
-msgstr "Sai PIN"
+msgstr "Mã PIN không đúng"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:103

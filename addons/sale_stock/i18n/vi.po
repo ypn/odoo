@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_stock
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # Martin Trigaux, 2018
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_stock
@@ -161,7 +161,7 @@ msgstr "Giao hàng"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__delivery_count
 msgid "Delivery Orders"
-msgstr "Giao hàng"
+msgstr "Phiếu giao hàng"
 
 #. module: sale_stock
 #: model:res.groups,name:sale_stock.group_display_incoterm
@@ -253,12 +253,12 @@ msgstr "Hóa đơn"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Chi tiết hóa đơn"
+msgstr "Chi tiết hoá đơn"
 
 #. module: sale_stock
 #: model:ir.ui.menu,name:sale_stock.menu_invoiced
 msgid "Invoicing"
-msgstr "Lên hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_production_lot
@@ -330,7 +330,7 @@ msgstr "Số lượng đặt hàng bị giảm"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__product_packaging
 msgid "Package"
-msgstr "Gói"
+msgstr "Đóng gói"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_config_settings__default_picking_policy
@@ -340,13 +340,13 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__picking_ids
 msgid "Pickings"
-msgstr "Lô hàng"
+msgstr "Phiếu Giao hàng"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_procurement_group
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__procurement_group_id
 msgid "Procurement Group"
-msgstr "Nhóm Cung ứng"
+msgstr "Nhóm Thu mua"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_product_template
@@ -369,7 +369,7 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__route_id
 msgid "Route"
-msgstr "Tuyến cung ứng"
+msgstr "Tuyến Cung ứng"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_sale
@@ -405,12 +405,12 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_picking__sale_id
 msgid "Sales Order"
-msgstr "Đơn bán hàng"
+msgstr "Đơn hàng Bán"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn Bán"
+msgstr "Chi tiết Đơn hàng Bán"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.stock_location_route_view_form_inherit_sale_stock
@@ -520,7 +520,7 @@ msgstr "Thời gian biểu"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_picking
 msgid "Transfer"
-msgstr "Dịch chuyển"
+msgstr "Chuyển hàng"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__warehouse_id

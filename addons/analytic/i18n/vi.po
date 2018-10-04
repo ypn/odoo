@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * analytic
-# 
+#
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # Martin Trigaux, 2018
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: analytic
@@ -32,7 +32,7 @@ msgstr "Cần có Hành động"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__active
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__active
 msgid "Active"
-msgstr "Có hiệu lực"
+msgstr "Hiệu lực"
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.action_account_analytic_account_form
@@ -77,7 +77,7 @@ msgstr ""
 #. module: analytic
 #: model:res.groups,name:analytic.group_analytic_accounting
 msgid "Analytic Accounting"
-msgstr "Tài khoản phân tích"
+msgstr "Kế toán quản trị"
 
 #. module: analytic
 #: model:res.groups,name:analytic.group_analytic_tags
@@ -122,12 +122,12 @@ msgstr "Phát sinh kế toán quản trị"
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytic Line"
+msgstr "Phát sinh KT Quản trị"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__line_ids
 msgid "Analytic Lines"
-msgstr "Analytic Lines"
+msgstr "Phát sinh KT Quản trị"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__name
@@ -140,12 +140,12 @@ msgstr "Tag KT Quản trị"
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_tag_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_tag_tree_view
 msgid "Analytic Tags"
-msgstr "Từ khóa phân tích"
+msgstr "Thẻ KT Quản trị"
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
 msgid "Archived"
-msgstr "Lưu trữ"
+msgstr "Vô hiệu"
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
@@ -237,7 +237,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__create_date
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__create_date
 msgid "Created on"
-msgstr "Thời điểm tạo"
+msgstr "Được tạo vào"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__credit
@@ -259,7 +259,7 @@ msgstr "Khách hàng"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__date
 msgid "Date"
-msgstr "Ngày"
+msgstr "Ngày tháng"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__debit
@@ -339,8 +339,8 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the account "
 "without removing it."
 msgstr ""
-"Nếu trường này không được thiết lập, nó sẽ cho phép bạn ẩn các tài khoản mà "
-"không cần loại bỏ nó."
+"Nếu lĩnh vực hoạt động được thiết lập để sai, nó sẽ cho phép bạn ẩn các tài "
+"khoản mà không cần loại bỏ nó."
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
@@ -363,7 +363,7 @@ msgstr "Trở thành người theo dõi"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line____last_update
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag____last_update
 msgid "Last Modified on"
-msgstr "Sửa lần cuối vào"
+msgstr "Sửa lần cuối"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__write_uid
@@ -381,7 +381,7 @@ msgstr "Cập nhật lần cuối bởi"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__write_date
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__write_date
 msgid "Last Updated on"
-msgstr "Cập nhật lần cuối vào"
+msgstr "Cập nhật lần cuối"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_main_attachment_id
