@@ -418,17 +418,17 @@ msgstr "<span>Đĩa.(%)</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Import Bills</span>"
-msgstr ""
+msgstr "<span>Nhập Hoá đơn</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Invoice Date</span>"
-msgstr ""
+msgstr "<span>Ngày Hoá đơn</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Invoice Number</span>"
-msgstr ""
+msgstr "<span>Số Hoá đơn</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -647,7 +647,7 @@ msgstr ""
 #: code:addons/account/models/account.py:854
 #, python-format
 msgid "A bank account can belong to only one journal."
-msgstr "Một tài khoản ngân hàng chỉ có thể thuộc về một tạp chí duy nhất."
+msgstr "Một tài khoản ngân hàng chỉ có thể thuộc về một sổ nhật ký duy nhất."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -1222,7 +1222,7 @@ msgstr "Thêm một ngân hàng"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_form
 msgid "Add a journal"
-msgstr "Thêm một tạp chí"
+msgstr "Thêm một sổ nhật ký"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_form
@@ -2168,7 +2168,7 @@ msgstr "Chi tiết Sao kê ngân hàng"
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
 #: model_terms:ir.ui.view,arch_db:account.view_account_bank_journal_form
 msgid "Bank Statements"
-msgstr "Sao kê ngân hàng"
+msgstr "Sao kê Ngân hàng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__bank_account_id
@@ -2310,7 +2310,7 @@ msgstr "Hoá đơn để thanh toán"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills to Validate"
-msgstr ""
+msgstr "Hoá đơn chờ Xác nhận"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:178
@@ -3316,7 +3316,7 @@ msgstr "Tạo mô hình"
 #. module: account
 #: selection:account.setup.bank.manual.config,create_or_link_option:0
 msgid "Create new journal"
-msgstr "Tạo mới tạp chí"
+msgstr "Tạo mới sổ nhật ký"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.rounding_list_action
@@ -5682,12 +5682,12 @@ msgstr "Hóa đơn mà bạn còn nợ"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Invoices to Validate"
-msgstr ""
+msgstr "Hoá đơn chờ Xác nhận"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__reconciled_invoice_ids
 msgid "Invoices whose journal items have been reconciled with this payment's."
-msgstr ""
+msgstr "Các hoá đơn mà phát sinh kế toán của chúng đã được đối soát với các phát sinh của khoản thanh toán này."
 
 #. module: account
 #: model:ir.actions.report,name:account.account_invoices_without_payment
@@ -6349,7 +6349,7 @@ msgstr ""
 #. module: account
 #: selection:account.setup.bank.manual.config,create_or_link_option:0
 msgid "Link to an existing journal"
-msgstr ""
+msgstr "Liên kết đến sổ nhật ký đã có"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice__move_id
@@ -8292,7 +8292,7 @@ msgstr "Đối soát trên Sao kê ngân hàng"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_vendor_bill_template
 msgid "Record a new vendor bill"
-msgstr ""
+msgstr "Ghi nhận một hoá đơn nhà cung cấp mới"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -8303,7 +8303,7 @@ msgstr "Ghi nhận các giao dịch bằng ngoại tệ"
 #: code:addons/account/models/account.py:930
 #, python-format
 msgid "Recursion found for tax '%s'."
-msgstr ""
+msgstr "Tìm thấy đệ quy đối với thuế '%s'."
 
 #. module: account
 #. openerp-web
