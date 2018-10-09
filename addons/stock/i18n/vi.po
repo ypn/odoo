@@ -378,6 +378,9 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+"Một sản phẩm có thể lưu kho là một sản phẩm mà bạn có thể quản lý dự trữ của nó (với các tính năng quản lý kho). Ứng dụng Tồn kho phải được cài đặt.\n"
+"Một sản phẩm tiêu thụ là một sản phẩm mà không có tính năng quản lý kho / dự trữ.\n"
+"Một dịch vụ là một sản phẩm phi vật thể (hay nói cách khác, là một dịch vụ) mà bạn cung cấp."
 
 #. module: stock
 #: model:res.groups,name:stock.group_warning_stock
@@ -1809,7 +1812,7 @@ msgstr "Ngày hiệu lực"
 #: model:ir.model.fields,help:stock.field_stock_move_line__tracking
 #: model:ir.model.fields,help:stock.field_stock_scrap__tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
-msgstr ""
+msgstr "Đảm bảo khả năng truy vết (truy xuất nguồn gốc) của một sản phẩm có thể lưu kho trong hệ thống kho của bạn."
 
 #. module: stock
 #. openerp-web
@@ -5505,7 +5508,7 @@ msgstr ""
 #. module: stock
 #: selection:product.template,type:0
 msgid "Storable Product"
-msgstr ""
+msgstr "Sản phẩm Có thể Lưu kho"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_multi_locations
@@ -6717,7 +6720,7 @@ msgstr ""
 #: code:addons/stock/models/stock_inventory.py:426
 #, python-format
 msgid "You can only adjust storable products."
-msgstr ""
+msgstr "Bạn chỉ có thể điều chính các sản phẩm Có thể Lưu kho"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:1149
