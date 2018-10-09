@@ -853,7 +853,7 @@ msgstr "Thu ngân"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_replenish__product_uom_category_id
 msgid "Category"
-msgstr "Danh mục"
+msgstr "Nhóm"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_template__route_from_categ_ids
@@ -5084,7 +5084,7 @@ msgid ""
 "Set a specific removal strategy that will be used regardless of the source "
 "location for this product category"
 msgstr ""
-"Đặt chiến lược xuất cụ thể sẽ được sử dụng bất kể vị trí nguồn cho danh mục "
+"Đặt chiến lược xuất cụ thể sẽ được sử dụng bất kể vị trí nguồn cho Nhóm "
 "sản phẩm này"
 
 #. module: stock
@@ -5299,7 +5299,7 @@ msgstr "Chỉ định Gói để tập trung kho của bạn vào một Gói c�
 msgid ""
 "Specify Product Category to focus your inventory on a particular Category."
 msgstr ""
-"Chỉ định Danh mục sản phẩm để tập trung kho của bạn vào một Danh mục cụ thể."
+"Chỉ định Nhóm sản phẩm để tập trung kho của bạn vào một Nhóm cụ thể."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_inventory__product_id
@@ -6547,7 +6547,7 @@ msgid ""
 msgstr ""
 "Khi một nhà kho được chọn cho tuyến đường này, tuyến đường này sẽ được xem "
 "là tuyến đường mặc định khi các sản phẩm đi qua nhà kho này. Hành vi này có "
-"thể bị ghi đè bởi các tuyến đường trên Danh mục sản phẩm / sản phẩm hoặc "
+"thể bị ghi đè bởi các tuyến đường trên Nhóm sản phẩm / sản phẩm hoặc "
 "bằng các Tuyến đường ưa thích trên Mua sắm"
 
 #. module: stock
@@ -6570,7 +6570,7 @@ msgid ""
 "When checked, the route will be selectable on the Product Category.  It will"
 " take priority over the Warehouse route. "
 msgstr ""
-"Khi được chọn, tuyến đường sẽ chọn được trên Danh mục sản phẩm. Nó sẽ được "
+"Khi được chọn, tuyến đường sẽ chọn được trên Nhóm sản phẩm. Nó sẽ được "
 "ưu tiên hơn các tuyến đường của Kho."
 
 #. module: stock
