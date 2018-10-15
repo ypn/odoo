@@ -174,7 +174,7 @@ msgstr "Đơn vị gốc của nhóm này"
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_uom__rounding
 msgid "Rounding Precision"
-msgstr "Làm tròn chính xác"
+msgstr "Độ chính xác Làm tròn"
 
 #. module: uom
 #: selection:uom.uom,uom_type:0
@@ -199,12 +199,12 @@ msgstr "Tỷ lệ chuyển đổi cho một đơn vị đo lương không thể 
 #. module: uom
 #: sql_constraint:uom.uom:0
 msgid "The reference unit must have a conversion factor equal to 1."
-msgstr ""
+msgstr "Đơn vị đo lường gốc phải có tỷ lệ chuyển đổi bằng 1."
 
 #. module: uom
 #: sql_constraint:uom.uom:0
 msgid "The rounding precision must be strictly positive."
-msgstr ""
+msgstr "Độ chính xác làm tròn phải luôn luôn dương."
 
 #. module: uom
 #: code:addons/uom/models/uom_uom.py:152
@@ -250,7 +250,7 @@ msgstr "Đơn vị"
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_uom__name
 msgid "Unit of Measure"
-msgstr "Đơn vị tính"
+msgstr "Đơn vị Đo lường"
 
 #. module: uom
 #: model:ir.actions.act_window,name:uom.product_uom_categ_form_action
