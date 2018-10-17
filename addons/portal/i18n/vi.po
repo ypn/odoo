@@ -13,7 +13,7 @@
 # Minh Nguyen <ndminh210994@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~11.5\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:18+0000\n"
 "PO-Revision-Date: 2018-09-21 13:18+0000\n"
@@ -35,42 +35,41 @@ msgstr "Quá hạn %d ngày"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_show_sign_in
 msgid "<b>Sign in</b>"
-msgstr "Đăng kí"
+msgstr "<b>Đăng ký/Đăng nhập</b>"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "<i class=\"fa fa-arrow-right\"/> Back to edit mode"
-msgstr ""
+msgstr "<i class=\"fa fa-arrow-right\"/> Về chế độ soạn thảo"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
 msgid "<i class=\"fa fa-pencil\"/> Edit"
-msgstr ""
+msgstr "<i class=\"fa fa-pencil\"/> Sửa"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small mr-1 navbar-text\">Filter By:</span>"
-msgstr ""
+msgstr "<span class=\"small mr-1 navbar-text\">Lọc theo:</span>"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small mr-1 navbar-text\">Group By:</span>"
-msgstr ""
+msgstr "<span class=\"small mr-1 navbar-text\">Nhóm theo:</span>"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small mr-1 navbar-text\">Sort By:</span>"
-msgstr ""
+msgstr "<span class=\"small mr-1 navbar-text\">Sắp xếp theo:</span>"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "<strong>Open </strong>"
-msgstr ""
+msgstr "<strong>Mở </strong>"
 
 #. module: portal
 #: model:mail.template,body_html:portal.mail_template_data_portal_welcome
-msgid ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+msgid "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 "<tbody>\n"
 "    <!-- HEADER -->\n"
@@ -152,13 +151,94 @@ msgid ""
 "</td></tr>\n"
 "</table>\n"
 "            "
-msgstr ""
+msgstr "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Tài khoản của bạn</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
+"                        ${object.user_id.name}\n"
+"                    </span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <img src=\"/logo.png?company=${object.user_id.company_id.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.user_id.company_id.name}\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    <div>\n"
+"                        Dear ${object.user_id.name or ''},<br/> <br/>\n"
+"                        Bạn đã được cấp quyền truy cập vào công thông tin khách hàng của ${object.user_id.company_id.name}.<br/>\n"
+"                        Thông tin đăng nhập của bạn là:\n"
+"                        <ul>\n"
+"                            <li>Tên đăng nhập: ${object.user_id.login or ''}</li>\n"
+"                            <li>Địa chỉ: <a href=\"${'portal_url' in ctx and ctx['portal_url'] or ''}\">${'portal_url' in ctx and ctx['portal_url'] or ''}</a></li>\n"
+"                            <li>Cơ sở dữ liệu: ${'dbname' in ctx and ctx['dbname'] or ''}</li>\n"
+"                        </ul>\n"
+"                        Bạn có thể đặt mật khẩu mới hoặc thay đổi mật khẩu thông qua URL sau:\n"
+"                        <ul>\n"
+"                            <li><a href=\"${object.user_id.signup_url}\">${object.user_id.signup_url}</a></li>\n"
+"                        </ul>\n"
+"                        ${object.wizard_id.welcome_message or ''}\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\" align=\"left\">\n"
+"                    ${object.user_id.company_id.name}\n"
+"                </td></tr>\n"
+"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                    ${object.user_id.company_id.phone}\n"
+"                    % if object.user_id.company_id.email\n"
+"                        | <a href=\"'mailto:%s' % ${object.user_id.company_id.email}\" style=\"text-decoration:none; color: #454748;\">${object.user_id.company_id.email}</a>\n"
+"                    % endif\n"
+"                    % if object.user_id.company_id.website\n"
+"                        | <a href=\"'%s' % ${object.user_id.company_id.website}\" style=\"text-decoration:none; color: #454748;\">\n"
+"                        ${object.user_id.company_id.website}\n"
+"                    </a>\n"
+"                    % endif\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- POWERED BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>\n"
+"            "
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_warning
 #: model:ir.model.fields,field_description:portal.field_portal_share__access_warning
 msgid "Access warning"
-msgstr ""
+msgstr "Cảnh báo truy cập"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
@@ -168,12 +248,12 @@ msgstr "Thêm một ghi chú"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Add contacts to share the document..."
-msgstr ""
+msgstr "Thêm liên hệ để chia sẻ tài liệu..."
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_share__note
 msgid "Add extra content to display in the email"
-msgstr ""
+msgstr "Thêm nội dung bổ sung để hiển thị trong email"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
@@ -201,10 +281,8 @@ msgstr "Hủy"
 #. module: portal
 #: code:addons/portal/controllers/portal.py:220
 #, python-format
-msgid ""
-"Changing VAT number is not allowed once document(s) have been issued for "
-"your account. Please contact us directly for this operation."
-msgstr ""
+msgid "Changing VAT number is not allowed once document(s) have been issued for your account. Please contact us directly for this operation."
+msgstr "Thay đổi mã số thuế GTGT thì không được phép khi mà đã có tài liệu liên quan được phát hành cho tài khoản của bạn. Vui lòng liên hệ trực tiếp với chúng tôi để điều chỉnh."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -216,7 +294,7 @@ msgstr "Thành phố"
 #: code:addons/portal/static/src/xml/portal_signature.xml:12
 #, python-format
 msgid "Clear"
-msgstr "Làm sạch"
+msgstr "Xoá"
 
 #. module: portal
 #. openerp-web
@@ -238,11 +316,9 @@ msgstr "Tên Công ty"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
-msgid ""
-"Confirm\n"
+msgid "Confirm\n"
 "                                <span class=\"fa fa-long-arrow-right\"/>"
-msgstr ""
-"Xác nhận\n"
+msgstr "Xác nhận\n"
 "                                <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: portal
@@ -310,20 +386,20 @@ msgstr "Vẽ chữ ký của bạn"
 #: code:addons/portal/static/src/js/portal_sidebar.js:41
 #, python-format
 msgid "Due in %d days"
-msgstr "Hạn trong %d ngày tới"
+msgstr "Đến hạn trong %d ngày tới"
 
 #. module: portal
 #. openerp-web
 #: code:addons/portal/static/src/js/portal_sidebar.js:39
 #, python-format
 msgid "Due today"
-msgstr ""
+msgstr "Đến hạn hôm nay"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__email
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "Email"
-msgstr "Thư điện tử"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_mail_thread
@@ -335,7 +411,7 @@ msgstr "Luồng Email"
 #: model:ir.model,name:portal.model_portal_wizard
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Grant Portal Access"
-msgstr ""
+msgstr "Cấp quyền truy cập Portal"
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_http
@@ -353,7 +429,7 @@ msgstr "Trang chủ"
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__id
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__in_portal
@@ -441,7 +517,7 @@ msgstr "Ghi chú"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.frontend_layout
 msgid "Odoo"
-msgstr "Odoo"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
@@ -496,7 +572,7 @@ msgstr "Trước"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:84
 #, python-format
 msgid "Previous"
-msgstr "Trước đó"
+msgstr "Trước"
 
 #. module: portal
 #. openerp-web
@@ -532,12 +608,10 @@ msgstr "Mã bảo mật"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
-msgid ""
-"Select which contacts should belong to the portal in the list below.\n"
+msgid "Select which contacts should belong to the portal in the list below.\n"
 "                        The email address of each selected contact must be valid and unique.\n"
 "                        If necessary, you can fix any contact's email address directly in the list."
-msgstr ""
-"Hãy chọn các liên hệ mà sẽ thuộc về nhóm Portal trong danh sách dưới đây.\n"
+msgstr "Hãy chọn các liên hệ mà sẽ thuộc về nhóm Portal trong danh sách dưới đây.\n"
 "                        Địa chỉ email của từng liên hệ phải là địa chỉ email hợp lệ và duy nhất.\n"
 "                        Nếu cần thiết, bạn có thể sửa bất cứ địa chỉ email của liên hệ nào trực tiếp\n"
 "                        ngay trong danh sách."
@@ -560,7 +634,7 @@ msgstr "Một số liên hệ có email bị trùng: "
 #: model:ir.actions.act_window,name:portal.portal_share_action
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Share Document"
-msgstr ""
+msgstr "Chia sẻ Tài liệu"
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:97
@@ -572,9 +646,7 @@ msgstr "Một số liên hệ không có email hợp lệ: "
 #: code:addons/portal/wizard/portal_wizard.py:103
 #, python-format
 msgid "Some contacts have the same email as an existing portal user:"
-msgstr ""
-"Một số liên hệ có email trùng với email của một tài khoản người dùng portal "
-"trong hệ thống:"
+msgstr "Một số liên hệ có email trùng với email của một tài khoản người dùng portal trong hệ thống:"
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:224
@@ -609,36 +681,32 @@ msgstr "Chưa có bình luận nào cho đến giờ."
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "This is a preview of the customer portal."
-msgstr ""
+msgstr "Đây là trang xem trước của công thông tin khách hàng."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "This text is included in the email sent to new portal users."
-msgstr ""
-"Nội dung này sẽ được bao gồm trong email gửi cho người dùng portal mới."
+msgstr "Nội dung này sẽ được bao gồm trong email gửi cho người dùng portal mới."
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_wizard__welcome_message
 msgid "This text is included in the email sent to new users of the portal."
-msgstr ""
-"Nội dung này sẽ được bao gồm trong email gửi cho người dùng portal mới."
+msgstr "Nội dung này sẽ được bao gồm trong email gửi cho người dùng portal mới."
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:106
 #, python-format
-msgid ""
-"To resolve this error, you can: \n"
+msgid "To resolve this error, you can: \n"
 "- Correct the emails of the relevant contacts\n"
 "- Grant access only to contacts with unique emails"
-msgstr ""
-"Để xử lý lỗi này, bạn có thể: \n"
+msgstr "Để xử lý lỗi này, bạn có thể: \n"
 "- Hiệu đính lại địa chỉ email của các liên hệ tương ứng\n"
 "- Cấp quyền truy cập chỉ đối với các liên hệ có email duy nhất"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "Toggle filters"
-msgstr ""
+msgstr "Bật/Tắt bộ lọc"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__user_ids
@@ -648,27 +716,23 @@ msgstr "Người dùng"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "VAT Number"
-msgstr "MS Thuế"
+msgstr "MS Thuế GTGT"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_account_analytic_account__website_message_ids
-#: model:ir.model.fields,field_description:portal.field_calendar_event__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_blacklist__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_channel__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_thread__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_res_partner__website_message_ids
-#: model:ir.model.fields,field_description:portal.field_res_users__website_message_ids
 msgid "Website Messages"
 msgstr "Thông điệp Website"
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_account_analytic_account__website_message_ids
-#: model:ir.model.fields,help:portal.field_calendar_event__website_message_ids
 #: model:ir.model.fields,help:portal.field_mail_blacklist__website_message_ids
 #: model:ir.model.fields,help:portal.field_mail_channel__website_message_ids
 #: model:ir.model.fields,help:portal.field_mail_thread__website_message_ids
 #: model:ir.model.fields,help:portal.field_res_partner__website_message_ids
-#: model:ir.model.fields,help:portal.field_res_users__website_message_ids
 msgid "Website communication history"
 msgstr "Lịch sử thông tin liên lạc website"
 
@@ -689,12 +753,12 @@ msgstr "Viết một thông điệp..."
 #: code:addons/portal/wizard/portal_share.py:71
 #, python-format
 msgid "You are invited to access %s"
-msgstr ""
+msgstr "Bạn được mời truy cập %s"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "You have been invited to access the following document:"
-msgstr ""
+msgstr "Bạn đã được mời truy cập vào tài liệu sau:"
 
 #. module: portal
 #. openerp-web
@@ -706,11 +770,8 @@ msgstr "Bạn phải là"
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:175
 #, python-format
-msgid ""
-"You must have an email address in your User Preferences to send emails."
-msgstr ""
-"Bạn phải có một địa chỉ email được thiết lập ở Tuỳ chọn để có thể gửi email "
-"đi."
+msgid "You must have an email address in your User Preferences to send emails."
+msgstr "Bạn phải có một địa chỉ email được thiết lập ở Tuỳ chọn để có thể gửi email đi."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -740,12 +801,12 @@ msgstr "Họ và tên"
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
 msgid "Your Odoo account at ${object.user_id.company_id.name}"
-msgstr ""
+msgstr "Tài khoản của bạn tại ${object.user_id.company_id.name}"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_contact
 msgid "Your contact"
-msgstr ""
+msgstr "Liên hệ của bạn"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -796,3 +857,4 @@ msgstr "chọn..."
 #, python-format
 msgid "to post a comment."
 msgstr "để đăng một bình luận."
+
