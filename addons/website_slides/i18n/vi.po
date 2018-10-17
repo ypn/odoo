@@ -108,6 +108,21 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Hello<br/><br/>\n"
+"        ${user.name} đã chia sẻ ${object.slide_type} <strong>${object.name}</strong> với bạn!\n"
+"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
+"            <a href=\"${object.website_url}\">\n"
+"                <img alt=\"${object.name}\" src=\"${ctx['base_url']}/web/image/slide.slide/${object.id}/image\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
+"            </a>\n"
+"        </div>\n"
+"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
+"            <a href=\"${object.website_url}\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">View <strong>${object.name}</strong></a>\n"
+"        </div>\n"
+"    </p>\n"
+"</div>\n"
+"            "
 
 #. module: website_slides
 #: model:mail.template,body_html:website_slides.slide_template_published
@@ -128,6 +143,21 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Hello<br/><br/>\n"
+"        Một ${object.slide_type} <strong>${object.name}</strong> đã được xuất bản ở ${object.channel_id.name} vào ${format_tz(object.write_date, tz=user.tz)}\n"
+"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
+"            <a href=\"${object.website_url}\">\n"
+"                <img alt=\"${object.name}\" src=\"${ctx['base_url']}/web/image/slide.slide/${object.id}/image\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
+"            </a>\n"
+"        </div>\n"
+"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
+"            <a href=\"${object.website_url}\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">Xem <strong>${object.name}</strong></a>\n"
+"        </div>\n"
+"    </p>\n"
+"</div>\n"
+"            "
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -147,7 +177,7 @@ msgstr "<i class=\"fa fa-bar-chart\"/> Thống kê"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "<i class=\"fa fa-circle-o\"/> Website Views"
-msgstr ""
+msgstr "<i class=\"fa fa-circle-o\"/> Lượt xem Website"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.home
@@ -158,7 +188,7 @@ msgstr "<i class=\"fa fa-cloud-upload\"/> Tải lên"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "<i class=\"fa fa-code\"/> Embedded Views"
-msgstr ""
+msgstr "<i class=\"fa fa-code\"/> Lượt xem Nhúng"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -168,7 +198,7 @@ msgstr "<i class=\"fa fa-comments-o\"/> Bình luận"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 msgid "<i class=\"fa fa-envelope-o\"/> Send Email"
-msgstr ""
+msgstr "<i class=\"fa fa-envelope-o\"/> Gửi Email"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
@@ -227,6 +257,7 @@ msgstr "<i class=\"fa fa-thumbs-up\"/> Thích"
 msgid ""
 "<p>This channel is private and its content is restricted to some users.</p>"
 msgstr ""
+"<p>Đây là kênh riêng tư và nội dung của nó được hạn chế cho một số người dùng.</p>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -269,17 +300,20 @@ msgid ""
 "<span class=\"fa fa-arrow-right\"/>\n"
 "                                    Create a Google Project and Get a Key"
 msgstr ""
+"<span class=\"fa fa-arrow-right\"/>\n"
+"                                    Tạo Dự án Google và lấy Key"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
 msgid "<span class=\"form-text\">Send presentation through email</span>"
-msgstr ""
+msgstr "<span class=\"form-text\">Gửi trình chiếu qua email</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_media
 msgid ""
 "<span class=\"form-text\">Use permanent link to share in social media</span>"
 msgstr ""
+"<span class=\"form-text\">Sử dụng liên kết vĩnh viễn để chia sẻ sang mạng xã hội</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
@@ -287,6 +321,8 @@ msgid ""
 "<span class=\"o_form_label\">Slides</span>\n"
 "                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
+"<span class=\"o_form_label\">Trình chiếu</span>\n"
+"                        <span class=\"fa fa-lg fa-globe\" title=\"Các giá trị thiết lập ở đang mang tính chất đặc thù website.\" groups=\"website.group_multi_website\"/>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -328,7 +364,7 @@ msgstr "Hiệu lực"
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.action_slides_slides
 msgid "Add a new slide"
-msgstr ""
+msgstr "Thêm một trình chiếu mới"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_search
@@ -345,12 +381,12 @@ msgstr "Số đính kèm"
 #. module: website_slides
 #: selection:slide.slide,download_security:0
 msgid "Authenticated Users Only"
-msgstr ""
+msgstr "Chỉ Người dùng đã Xác thực"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
 msgid "Awesome Timesheet by Odoo"
-msgstr ""
+msgstr "Bảng chấm công Hoàn hảo bởi Odoo"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -409,7 +445,7 @@ msgstr "Kênh"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Channel #{slide.channel_id.name}"
-msgstr ""
+msgstr "Kênh #{slide.channel_id.name}"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__group_ids
@@ -428,6 +464,7 @@ msgstr "Thiết lập Kênh"
 msgid ""
 "Channel contains the given title, please change before Save or Publish."
 msgstr ""
+"Kênh chưa tiêu đề được cho, vui lòng thay đổi trước khi Lưu hoặc Xuất bản."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -437,7 +474,7 @@ msgstr "Tính riêng tư của Kênh"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.channels
 msgid "Channel without promoted slide"
-msgstr ""
+msgstr "Kênh không có trình chiếu được đẩy mạnh"
 
 #. module: website_slides
 #: model:ir.actions.act_url,name:website_slides.action_open_channels
@@ -450,7 +487,7 @@ msgstr "Kênh"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_10
 msgid "Company Culture"
-msgstr ""
+msgstr "Văn hoá Doanh nghiệp"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_res_config_settings
@@ -476,6 +513,8 @@ msgid ""
 "Could not fetch data from url. Document or access right not available.\n"
 "Here is the received response: %s"
 msgstr ""
+"Không thể lấy được nội dung từ url. Tài liệu hoặc quyền truy cập phù hợp không khả dụng.\n"
+"Đây là thông điệp phản hồi đã nhận được: %s"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slides.py:330
@@ -484,16 +523,18 @@ msgid ""
 "Could not fetch data from url. Document or access right not available:\n"
 "%s"
 msgstr ""
+"Không thể lấy được nội dung từ url. Tài liệu hoặc quyền truy cập phù hợp không khả dụng.\n"
+"%s"
 
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.action_slide_channels
 msgid "Create a channel"
-msgstr ""
+msgstr "Tạo một kênh"
 
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.action_ir_slide_category
 msgid "Create a new category"
-msgstr ""
+msgstr "Tạo một nhóm mới"
 
 #. module: website_slides
 #. openerp-web
@@ -526,7 +567,7 @@ msgid ""
 "Default channel for slides, all public users can access content of this "
 "channel."
 msgstr ""
-"Kênh mặc định cho các slide, tất cả người dùng công cộng đều có thể truy cập"
+"Kênh mặc định cho các trình chiếu, tất cả người dùng công cộng đều có thể truy cập"
 " kênh này."
 
 #. module: website_slides
@@ -561,11 +602,16 @@ msgid ""
 "\n"
 "Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
 msgstr ""
+"Khám phá cách mà bạn có thể tích hợp MRP, PLM, Chất lượng, Bảo trì trong một ứng dụng duy nhất để tối đa hoá hiệu quả của các hoạt động sản xuất.\n"
+"\n"
+"RRocj thêm về các tính năng tại: https://www.odoo.com/page/manufacturing-features\n"
+"\n"
+"Khám phá tính năng MRP của Odoo: https://www.odoo.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
 msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
-msgstr ""
+msgstr "Khám phá tính năng CRM mà mọi người bán hàng đều yêu thích https://www.odoo.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
@@ -609,7 +655,7 @@ msgstr "ID Tài liệu"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__url
 msgid "Document URL"
-msgstr ""
+msgstr "URL Tài liệu"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
@@ -663,12 +709,12 @@ msgstr "Nhúng vào website của bạn"
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_embed
 msgid "Embedded Slides View Counter"
-msgstr ""
+msgstr "Bộ đếm Lượt xem các Trình chiếu được Nhúng"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Embeds"
-msgstr ""
+msgstr "Nhúng"
 
 #. module: website_slides
 #: model:slide.channel,name:website_slides.channel_private
@@ -694,12 +740,12 @@ msgstr "Thuyết trình được Đề cao"
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_1
 msgid "Featured Presentations"
-msgstr ""
+msgstr "Thuyết trình được Đề cao"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__promoted_slide_id
 msgid "Featured Slide"
-msgstr "Slide được Đề cao"
+msgstr "Trình chiếu được Đề cao"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__promote_strategy
@@ -766,7 +812,7 @@ msgstr "Nhóm theo"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__group_ids
 msgid "Groups allowed to see presentations in this channel"
-msgstr "Các nhóm được phép xem các bài thuyết trình trong kênh này"
+msgstr "Các nhóm được phép xem các bài trình chiếu trong kênh này"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__upload_group_ids
@@ -774,7 +820,7 @@ msgid ""
 "Groups allowed to upload presentations in this channel. If void, every user "
 "can upload."
 msgstr ""
-"Các nhóm được phép tải lên các bài thuyết trình vào kênh này. Nếu để trống, "
+"Các nhóm được phép tải lên các bài trình chiếu vào kênh này. Nếu để trống, "
 "mọi  người dùng đều có thể tài lên."
 
 #. module: website_slides
@@ -846,7 +892,7 @@ msgstr "Trở thành người theo dõi"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__is_published
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__is_published
 msgid "Is published"
-msgstr ""
+msgstr "Được xuất bản"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category____last_update
@@ -888,7 +934,7 @@ msgstr "Xuất bản Mới nhất"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
 msgid "Learn more at https://www.odoo.com/page/sales"
-msgstr ""
+msgstr "Xem thêm tại https://www.odoo.com/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -966,7 +1012,7 @@ msgstr "${object.slide_type} mới được xuất bản ở ${object.channel_id
 #: code:addons/website_slides/static/src/js/website_slides.editor.js:39
 #, python-format
 msgid "New slide"
-msgstr ""
+msgstr "Trình chiếu mới"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
@@ -976,12 +1022,12 @@ msgstr "Mới nhất"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid "Next slide"
-msgstr ""
+msgstr "Trình chiếu tiếp theo"
 
 #. module: website_slides
 #: selection:slide.channel,promote_strategy:0
 msgid "No Featured Presentation"
-msgstr "Không có Thuyết trình được đề cao"
+msgstr "Không có Trình chiếu được đề cao"
 
 #. module: website_slides
 #: selection:slide.slide,download_security:0
@@ -996,12 +1042,12 @@ msgstr "Chưa có kênh nào được tạo hay xuất bản."
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "No presentation available."
-msgstr "Không có thuyết trình nào khả dụng"
+msgstr "Không có trình chiếu nào khả dụng"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.home
 msgid "No presentation published yet."
-msgstr "Chưa có thuyết trình nào được xuất bản"
+msgstr "Chưa có trình chiếu nào được xuất bản"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_needaction_counter
@@ -1025,7 +1071,7 @@ msgstr "Số lượng Infographics"
 #: model:ir.model.fields,field_description:website_slides.field_slide_category__nbr_presentations
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__nbr_presentations
 msgid "Number of Presentations"
-msgstr "Số lượng Thuyết trình"
+msgstr "Số lượng Trình chiếu"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category__nbr_videos
@@ -1103,7 +1149,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/website_slides.editor.js:40
 #, python-format
 msgid "On which channel do you want to add a slide?"
-msgstr ""
+msgstr "Bạn muốn thêm vào kênh nào?"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1156,24 +1202,24 @@ msgstr "Vui lòng nhập URL hợp lệ của Youtube hoặc Google Doc"
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__slide_id
 #: selection:slide.slide,slide_type:0
 msgid "Presentation"
-msgstr "Thuyết trình"
+msgstr "Trình chiếu"
 
 #. module: website_slides
 #: model:mail.message.subtype,description:website_slides.mt_channel_slide_published
 #: model:mail.message.subtype,name:website_slides.mt_channel_slide_published
 msgid "Presentation Published"
-msgstr "Thuyết trình được Xuất bản"
+msgstr "Trình chiếu được Xuất bản"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
 #: model:website.menu,name:website_slides.website_menu_slides
 msgid "Presentations"
-msgstr "Thuyết trình"
+msgstr "Trình chiếu"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid "Previous slide"
-msgstr ""
+msgstr "Trình chiếu trước"
 
 #. module: website_slides
 #: selection:slide.channel,visibility:0
@@ -1188,13 +1234,13 @@ msgstr "Kênh Riêng tư"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_grid_view
 msgid "Promote this #{slide.slide_type}"
-msgstr ""
+msgstr "Thúc đẩy #{slide.slide_type} này"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.channels
 #: model_terms:ir.ui.view,arch_db:website_slides.home
 msgid "Promoted slide"
-msgstr ""
+msgstr "Trình chiếu được thúc đẩy"
 
 #. module: website_slides
 #: selection:slide.channel,visibility:0
@@ -1230,7 +1276,7 @@ msgstr ""
 #: model:ir.model.fields,help:website_slides.field_slide_channel__website_id
 #: model:ir.model.fields,help:website_slides.field_slide_slide__website_id
 msgid "Restrict publishing to this website."
-msgstr ""
+msgstr "Hạn chế xuất bản đến website này."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.home
@@ -1243,14 +1289,14 @@ msgid ""
 "Review your channel settings to promote your most viewed or recent published"
 " presentation"
 msgstr ""
-"Xem xét lại thiết lập về kênh của bạn để thúc đẩy thuyết trình được xuất gần"
+"Xem xét lại thiết lập về kênh của bạn để thúc đẩy trình chiếu được xuất gần"
 " đây hoặc được xem nhiều nhất"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__is_seo_optimized
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__is_seo_optimized
 msgid "SEO optimized"
-msgstr ""
+msgstr "SEO được tối ưu hoá"
 
 #. module: website_slides
 #. openerp-web
@@ -1279,7 +1325,7 @@ msgstr "Tìm kiếm Slide"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
 msgid "Search in #{channel.name}"
-msgstr ""
+msgstr "Tìm trong #{channel.name}"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -1301,7 +1347,7 @@ msgstr "Chọn một Kênh"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_embed
 msgid "Select page to start with"
-msgstr ""
+msgstr "Chọn trang để bắt đầu"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category__sequence
@@ -1322,17 +1368,17 @@ msgstr "Lượt chia sẻ"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_share
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Chia sẻ lên Facebook"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_share
 msgid "Share on Google Plus"
-msgstr ""
+msgstr "Chia sẻ lên  Google Plus"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_share
 msgid "Share on LinkedIn"
-msgstr ""
+msgstr "Chia sẻ lên LinkedIn"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_media
@@ -1342,7 +1388,7 @@ msgstr "Chia sẻ lên các Mạng xã hội"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_share
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Chia sẻ lên Twitter"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_email
@@ -1357,33 +1403,33 @@ msgstr "Mẫu được chia sẻ"
 #. module: website_slides
 #: selection:slide.channel,visibility:0
 msgid "Show channel but restrict presentations"
-msgstr "Hiển thi kênh nhưng hạn chế các thuyết trình"
+msgstr "Hiển thi kênh nhưng hạn chế các trình chiếu"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Slide"
-msgstr ""
+msgstr "Trình chiếu"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_channel
 msgid "Slide Channel"
-msgstr ""
+msgstr "Kênh Trình chiếu"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_tag
 msgid "Slide Tag"
-msgstr "Thẻ Slide"
+msgstr "Thẻ Trình chiếu"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Slide image"
-msgstr ""
+msgstr "Hình Trình chiếu"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__custom_slide_id
 msgid "Slide to Promote"
-msgstr "Slide để Thúc đẩy"
+msgstr "Trình chiếu chờ Thúc đẩy"
 
 #. module: website_slides
 #: model:ir.actions.act_window,name:website_slides.action_slides_slides
@@ -1394,17 +1440,17 @@ msgstr "Slide để Thúc đẩy"
 #: model:ir.ui.menu,name:website_slides.menu_website_slides_root_global
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_tree
 msgid "Slides"
-msgstr "Thuyết trình"
+msgstr "Trình chiếu"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_category
 msgid "Slides Category"
-msgstr "Nhóm Slide"
+msgstr "Nhóm Trình chiếu"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_search
 msgid "Sorry, but nothing matches your search criteria"
-msgstr "Rất tiếc, không có gì khớp với tiêu chí tìm kiếm của bạn"
+msgstr "Rất tiếc, không tìm thấy gì khớp với tiêu chí tìm kiếm của bạn"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
@@ -1462,7 +1508,7 @@ msgstr "Tên Slide phải là duy nhất trong một kênh"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__url
 msgid "Third Party Website URL"
-msgstr ""
+msgstr "URL website của Bên thứ Ba"
 
 #. module: website_slides
 #: model_terms:slide.channel,access_error_msg:website_slides.channel_partial
@@ -1486,7 +1532,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_thumb
 msgid "Thumbnail"
-msgstr ""
+msgstr "Hình thu nhỏ"
 
 #. module: website_slides
 #. openerp-web
@@ -1528,7 +1574,7 @@ msgstr "Chưa được phân loại"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.home
 msgid "Uncategorized presentation"
-msgstr "Thuyết trình chưa được phân loại"
+msgstr "Trình chiếu chưa được phân loại"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slides.py:551
@@ -1564,7 +1610,7 @@ msgid ""
 "Upload PDF presentations, documents, videos or infographic using the button "
 "below."
 msgstr ""
-"Tải lên các thuyết trình bằng PDF, tài liệu, video hoặc infographic sử dụng "
+"Tải lên các trình chiếu bằng PDF, tài liệu, video hoặc infographic sử dụng "
 "nút dưới đây."
 
 #. module: website_slides
@@ -1574,19 +1620,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
 #, python-format
 msgid "Upload Presentation"
-msgstr "Tải lên Thuyết trình"
+msgstr "Tải lên Trình chiếu"
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:12
 #, python-format
 msgid "Uploading presentation..."
-msgstr "Đang tải thuyết trình lên..."
+msgstr "Đang tải trình chiếu lên..."
 
 #. module: website_slides
 #: model_terms:slide.channel,description:website_slides.channel_private
 msgid "Used to publish internal slides of company."
-msgstr "Được sử dụng để xuất bản các slide nội bộ của công ty"
+msgstr "Được sử dụng để xuất bản các trình chiếu nội bộ của công ty"
 
 #. module: website_slides
 #: model_terms:slide.channel,description:website_slides.channel_partial
@@ -1623,7 +1669,7 @@ msgstr "Có thể thấy được"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_published
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_published
 msgid "Visible on current website"
-msgstr ""
+msgstr "Có thể thấy trên website hiện hành"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
@@ -1668,19 +1714,19 @@ msgstr "Lịch sử thông tin liên lạc website"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_description
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_description
 msgid "Website meta description"
-msgstr "Website dữ liệu mô tả"
+msgstr "Dữ liệu mô tả Website"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_keywords
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Website dữ liệu từ khoá"
+msgstr "Dữ liệu từ khoá Website"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_title
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_title
 msgid "Website meta title"
-msgstr "Website dữ liệu Tiêu đề"
+msgstr "Dữ liệu Tiêu đề Website"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_og_img
