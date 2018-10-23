@@ -470,6 +470,7 @@ msgstr "<i class=\"fa fa-indent\"/> Nội dung bên trong"
 msgid ""
 "<i class=\"fa fa-info-circle mr-1\"/> <small>Additional information</small>"
 msgstr ""
+"<i class=\"fa fa-info-circle mr-1\"/> <small>Thông tin bổ sung</small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -598,11 +599,13 @@ msgid ""
 "<small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share "
 "your email with anyone else.</small>"
 msgstr ""
+"<small id=\"emailHelp\" class=\"form-text text-muted\">Chúng tôi không bao giờ "
+"chia sẻ email của bạn với bất cứ ai.</small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
 msgid "<small>/ month</small>"
-msgstr ""
+msgstr "<small>/ tháng</small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -611,6 +614,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "            <span class=\"sr-only\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"            <span class=\"sr-only\">Tiếp</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -619,6 +624,8 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "            <span class=\"sr-only\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"            <span class=\"sr-only\">Trước</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
@@ -637,6 +644,9 @@ msgid ""
 "                <i class=\"fa fa-plus-circle\"/> Add Facebook Page\n"
 "            </span>"
 msgstr ""
+"<span class=\"o_add_facebook_page\">\n"
+"                <i class=\"fa fa-plus-circle\"/> Thêm Trang Facebook\n"
+"            </span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_gallery
@@ -683,6 +693,9 @@ msgid ""
 "                            <span class=\"css_publish\">Unpublished</span>\n"
 "                            <span class=\"css_unpublish\">Published</span>"
 msgstr ""
+"<span/>\n"
+"                            <span class=\"css_publish\">Chưa Xuất bản</span>\n"
+"                            <span class=\"css_unpublish\">Đã Xuất bản</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
@@ -830,7 +843,7 @@ msgstr "Thêm một Trình đơn"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
 msgid "Add a great slogan."
-msgstr ""
+msgstr "Thêm một khẩu hiệu (slogan)."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1443,7 +1456,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_website__social_default_image
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Social Share Image"
-msgstr ""
+msgstr "Hình chia sẻ Mặc định"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__website_default_lang_id
@@ -2274,7 +2287,7 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_website__social_default_image
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "If set, replaces the company logo as the default social share image."
-msgstr ""
+msgstr "Nếu được thiết lập, logo công ty sẽ được thay thế bởi hình này khi chia sẻ lên mạng xã hội."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.500
@@ -2305,7 +2318,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.one_page_line
 msgid "In main menu"
-msgstr ""
+msgstr "Ở trình đơn chính"
 
 #. module: website
 #: code:addons/website/controllers/backend.py:53
@@ -2320,7 +2333,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.one_page_line
 #, python-format
 msgid "Indexed"
-msgstr "Cho tìm theo"
+msgstr "Được lập chỉ mục"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
@@ -2330,7 +2343,7 @@ msgstr "Thông tin về"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__inherit_id
 msgid "Inherited View"
-msgstr "Kế thừa giao diện"
+msgstr "Giao diện được kế thừa"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -2341,7 +2354,7 @@ msgstr "Instagram"
 #: model:ir.model.fields,field_description:website.field_res_config_settings__social_instagram
 #: model:ir.model.fields,field_description:website.field_website__social_instagram
 msgid "Instagram Account"
-msgstr ""
+msgstr "Tài khoản Instagram"
 
 #. module: website
 #. openerp-web
@@ -2358,7 +2371,7 @@ msgstr "Cài đặt Ngôn ngữ"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Install new language"
-msgstr ""
+msgstr "Cài thêm ngôn ngữ mới"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
@@ -2373,7 +2386,7 @@ msgstr "Các Modun đã cài"
 #. module: website
 #: model:ir.model.fields,help:website.field_website__theme_id
 msgid "Installed theme"
-msgstr ""
+msgstr "Theme đã cài"
 
 #. module: website
 #. openerp-web
@@ -2387,7 +2400,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.facebook_page.xml:62
 #, python-format
 msgid "Invalid Facebook Page Url"
-msgstr ""
+msgstr "URL của Trang Facebook không hợp lệ"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_company_team
@@ -2413,7 +2426,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_website_published_mixin__is_published
 #: model:ir.model.fields,field_description:website.field_website_published_multi_mixin__is_published
 msgid "Is published"
-msgstr ""
+msgstr "Được xuất bản"
 
 #. module: website
 #. openerp-web
@@ -2460,14 +2473,14 @@ msgstr "Khóa"
 #: code:addons/website/static/src/xml/website.seo.xml:105
 #, python-format
 msgid "Keyword"
-msgstr ""
+msgstr "Từ khoá"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:87
 #, python-format
 msgid "Keywords"
-msgstr ""
+msgstr "Từ khoá"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__language_ids
@@ -2478,7 +2491,7 @@ msgstr "Các ngôn ngữ"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Languages available on your website"
-msgstr ""
+msgstr "Ngôn ngữ khả dụng trên website của bạn"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -2545,7 +2558,7 @@ msgstr "Bố cục"
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
 msgid "Learn more"
-msgstr ""
+msgstr "Nghiên cứu thêm"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -2618,7 +2631,7 @@ msgstr "Tài khoản LinkedIn"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
 msgid "Links to other Websites"
-msgstr ""
+msgstr "Liên kết đến Website khác"
 
 #. module: website
 #. openerp-web
@@ -2642,7 +2655,7 @@ msgstr "Trình đơn chính"
 #: code:addons/website/static/src/xml/website.editor.xml:31
 #, python-format
 msgid "Main colors"
-msgstr ""
+msgstr "Màu sắc chính"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
@@ -3310,7 +3323,7 @@ msgstr "Xuất bản trang của bạn bằng cách bấm vào nút <b>Lưu</b>.
 #: model_terms:ir.ui.view,arch_db:website.publish_short
 #, python-format
 msgid "Published"
-msgstr "Đã xuất bản"
+msgstr "Đã Xuất bản"
 
 #. module: website
 #. openerp-web
@@ -3536,7 +3549,7 @@ msgstr "Chọn một Trình đơn"
 #: code:addons/website/static/src/xml/website.seo.xml:125
 #, python-format
 msgid "Select an image for social share"
-msgstr ""
+msgstr "Chọn một hình để phục vụ cho việc chia sẻ lên mạng xã hội"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
@@ -3546,7 +3559,7 @@ msgstr "Chọn và xóa khối để gỡ bỏ một số tính năng"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Select the Website to Configure"
-msgstr ""
+msgstr "Chọn một Website để Cấu hình"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -4676,14 +4689,14 @@ msgstr "Các thay đổi hiện tại của bạn sẽ được lưu tự độn
 #: code:addons/website/static/src/js/menu/seo.js:393
 #, python-format
 msgid "Your description looks too long."
-msgstr ""
+msgstr "Mô tả của bạn trông có vẻ quá dài."
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/menu/seo.js:395
 #, python-format
 msgid "Your description looks too short."
-msgstr ""
+msgstr "Mô tả của bạn trông có vẻ quá ngắn."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.list_website_pages
