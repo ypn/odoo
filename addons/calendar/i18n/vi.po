@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * calendar
-#
+# 
 # Translators:
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:18+0000\n"
 "Last-Translator: khoibv Mr <kendev2009@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: calendar
@@ -42,12 +42,14 @@ msgid ""
 "%s at %s To\n"
 " %s at %s (%s)"
 msgstr ""
+"%s lúc %s Đến\n"
+"%s lúc %s (%s)"
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:732
 #, python-format
 msgid "%s at (%s To %s) (%s)"
-msgstr ""
+msgstr "%s lúc (%s Đến %s) (%s)"
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:229
@@ -375,7 +377,7 @@ msgstr "Cả ngày , %s"
 #. module: calendar
 #: sql_constraint:calendar.contacts:0
 msgid "An user cannot have twice the same contact."
-msgstr ""
+msgstr "Một Người dùng không thể có hai liên hệ."
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_attachment
@@ -455,7 +457,7 @@ msgstr "Mời tham dự"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity__calendar_event_id
 msgid "Calendar Meeting"
-msgstr ""
+msgstr "Họp theo Lịch"
 
 #. module: calendar
 #: model:ir.actions.server,name:calendar.ir_cron_scheduler_alarm_ir_actions_server
@@ -519,7 +521,7 @@ msgstr "Được tạo vào"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_start
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Date"
-msgstr "Ngày tháng"
+msgstr "Ngày"
 
 #. module: calendar
 #: selection:calendar.event,month_by:0
@@ -589,12 +591,12 @@ msgstr "ID Tài liệu"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__res_model_id
 msgid "Document Model"
-msgstr ""
+msgstr "Model tài liệu"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__res_model
 msgid "Document Model Name"
-msgstr ""
+msgstr "Tên Model tài liệu"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__duration
@@ -685,7 +687,7 @@ msgstr "Mọi người"
 #: code:addons/calendar/models/mail_activity.py:38
 #, python-format
 msgid "Feedback: "
-msgstr ""
+msgstr "Phản hồi:"
 
 #. module: calendar
 #: selection:calendar.event,byday:0
@@ -843,7 +845,7 @@ msgstr "Trở thành người theo dõi"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__is_highlighted
 msgid "Is the Event Highlighted"
-msgstr ""
+msgstr "Là một sự kiện Nổi bật"
 
 #. module: calendar
 #: selection:calendar.event,byday:0
@@ -948,7 +950,7 @@ msgstr "Kiểu Cuộc gặp"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__event_id
 msgid "Meeting linked"
-msgstr ""
+msgstr "Cuộc họp được liên kết"
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.action_calendar_event
@@ -1354,6 +1356,9 @@ msgid ""
 "            other applications such as the employee leaves or the business\n"
 "            opportunities."
 msgstr ""
+"Lịch được chia sẻ giữa các nhân viên và được tích hợp đầy đủ với\n"
+"             các ứng dụng khác như Nghỉ của Nhân viên hoặc\n"
+"             cơ hội kinh doanh."
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:941

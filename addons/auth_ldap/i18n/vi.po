@@ -40,6 +40,11 @@ msgid "Company"
 msgstr "Công ty"
 
 #. module: auth_ldap
+#: model:ir.model,name:auth_ldap.model_res_company_ldap
+msgid "Company LDAP configuration"
+msgstr ""
+
+#. module: auth_ldap
 #: model:ir.model,name:auth_ldap.model_res_config_settings
 msgid "Config Settings"
 msgstr "Cấu hình thiết lập"
@@ -208,8 +213,3 @@ msgstr "Người dùng mẫu để sao chép khi tạo tài khoản người dù
 #: model:ir.model,name:auth_ldap.model_res_users
 msgid "Users"
 msgstr "Người dùng"
-
-#. module: auth_ldap
-#: model:ir.model,name:auth_ldap.model_res_company_ldap
-msgid "res.company.ldap"
-msgstr ""
