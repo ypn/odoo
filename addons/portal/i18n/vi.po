@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2018-09-21 13:18+0000\n"
 "Last-Translator: Minh Nguyen <ndminh210994@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: portal
@@ -320,6 +320,9 @@ msgid "Confirm\n"
 "                                <span class=\"fa fa-long-arrow-right\"/>"
 msgstr "Xác nhận\n"
 "                                <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"Xác nhận\n"
+"                                <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: portal
 #: model:ir.model,name:portal.model_res_partner
@@ -386,7 +389,7 @@ msgstr "Vẽ chữ ký của bạn"
 #: code:addons/portal/static/src/js/portal_sidebar.js:41
 #, python-format
 msgid "Due in %d days"
-msgstr "Đến hạn trong %d ngày tới"
+msgstr "Hạn trong %d ngày tới"
 
 #. module: portal
 #. openerp-web
@@ -699,7 +702,8 @@ msgstr "Nội dung này sẽ được bao gồm trong email gửi cho người d
 msgid "To resolve this error, you can: \n"
 "- Correct the emails of the relevant contacts\n"
 "- Grant access only to contacts with unique emails"
-msgstr "Để xử lý lỗi này, bạn có thể: \n"
+msgstr ""
+"Để xử lý lỗi này, bạn có thể: \n"
 "- Hiệu đính lại địa chỉ email của các liên hệ tương ứng\n"
 "- Cấp quyền truy cập chỉ đối với các liên hệ có email duy nhất"
 
@@ -720,19 +724,23 @@ msgstr "MS Thuế GTGT"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_account_analytic_account__website_message_ids
+#: model:ir.model.fields,field_description:portal.field_calendar_event__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_blacklist__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_channel__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_thread__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_res_partner__website_message_ids
+#: model:ir.model.fields,field_description:portal.field_res_users__website_message_ids
 msgid "Website Messages"
 msgstr "Thông điệp Website"
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_account_analytic_account__website_message_ids
+#: model:ir.model.fields,help:portal.field_calendar_event__website_message_ids
 #: model:ir.model.fields,help:portal.field_mail_blacklist__website_message_ids
 #: model:ir.model.fields,help:portal.field_mail_channel__website_message_ids
 #: model:ir.model.fields,help:portal.field_mail_thread__website_message_ids
 #: model:ir.model.fields,help:portal.field_res_partner__website_message_ids
+#: model:ir.model.fields,help:portal.field_res_users__website_message_ids
 msgid "Website communication history"
 msgstr "Lịch sử thông tin liên lạc website"
 
@@ -770,8 +778,11 @@ msgstr "Bạn phải là"
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:175
 #, python-format
-msgid "You must have an email address in your User Preferences to send emails."
-msgstr "Bạn phải có một địa chỉ email được thiết lập ở Tuỳ chọn để có thể gửi email đi."
+msgid ""
+"You must have an email address in your User Preferences to send emails."
+msgstr ""
+"Bạn phải có một địa chỉ email được thiết lập ở Tuỳ chọn để có thể gửi email "
+"đi."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -818,7 +829,7 @@ msgstr "Mã Zip/Bưu chính"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
-msgstr ""
+msgstr "ảnh đại diện"
 
 #. module: portal
 #. openerp-web
@@ -839,7 +850,7 @@ msgstr "bình luận"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:22
 #, python-format
 msgid "logged in"
-msgstr ""
+msgstr "đã đăng nhập"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
