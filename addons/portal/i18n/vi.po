@@ -1,28 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * portal
-#
+# 
 # Translators:
-# Martin Trigaux, 2017
-# fanha99 <fanha99@hotmail.com>, 2017
 # Hoa Thi <giaphoa196@gmail.com>, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2017
-# Phạm Lân <phamquanglan@gmail.com>, 2017
 # sao sang <saosangmo@yahoo.com>, 2017
+# Phạm Lân <phamquanglan@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
+# fanha99 <fanha99@hotmail.com>, 2017
+# Martin Trigaux, 2017
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:56+0000\n"
-"PO-Revision-Date: 2018-07-27 11:56+0000\n"
-"Last-Translator: son dang <son.dang@doda100.com>, 2017\n"
+"PO-Revision-Date: 2017-09-20 10:21+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: portal
@@ -93,7 +94,7 @@ msgstr ""
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
-msgstr "<span id=\"search_label\">Tìm kiếm</span> <span class=\"caret\"/>"
+msgstr "<span id=\"search_label\">Tìm</span> <span class=\"caret\"/>"
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.wizard_view
@@ -218,7 +219,7 @@ msgstr ""
 #: code:addons/portal/wizard/portal_wizard.py:130
 #, python-format
 msgid "Group %s is not a portal"
-msgstr "Nhóm %s không phải là một portal"
+msgstr "Nhóm %s không phải là một nhóm portal"
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_http
@@ -646,7 +647,7 @@ msgstr "Mã Zip/Bưu chính"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
-msgstr ""
+msgstr "ảnh đại diện"
 
 #. module: portal
 #. openerp-web
@@ -667,7 +668,7 @@ msgstr "bình luận"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
-msgstr ""
+msgstr "đã đăng nhập"
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_mixin
