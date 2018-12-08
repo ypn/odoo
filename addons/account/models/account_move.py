@@ -631,12 +631,19 @@ class AccountMoveLine(models.Model):
             allowed_ids = set(self.env['res.partner'].browse(ids).ids)
             rows = [row for row in rows if row['partner_id'] in allowed_ids]
 
+        # Keep mode for future use in JS
+        if res_type == 'account':
+            mode = 'accounts'
+        else:
+            mode = 'customers' if account_type == 'receivable' else 'suppliers'
+
         # Fetch other data
         for row in rows:
             account = self.env['account.account'].browse(row['account_id'])
             row['currency_id'] = account.currency_id.id or account.company_id.currency_id.id
             partner_id = is_partner and row['partner_id'] or None
             row['reconciliation_proposition'] = self.get_reconciliation_proposition(account.id, partner_id)
+            row['mode'] = mode
 
         # Return the partners with a reconciliation proposition first, since they are most likely to
         # be reconciled.
@@ -1694,6 +1701,9 @@ class AccountPartialReconcile(models.Model):
         '''
         return line.account_id
 
+    def _get_amount_tax_cash_basis(self, amount, line):
+        return line.company_id.currency_id.round(amount)
+
     def create_tax_cash_basis_entry(self, percentage_before_rec):
         self.ensure_one()
         move_date = self.debit_move_id.date
@@ -1710,7 +1720,7 @@ class AccountPartialReconcile(models.Model):
                     percentage_after = line._get_matched_percentage()[move.id]
                     #amount is the current cash_basis amount minus the one before the reconciliation
                     amount = line.balance * percentage_after - line.balance * percentage_before
-                    rounded_amt = line.company_id.currency_id.round(amount)
+                    rounded_amt = self._get_amount_tax_cash_basis(amount, line)
                     if float_is_zero(rounded_amt, precision_rounding=line.company_id.currency_id.rounding):
                         continue
                     if line.tax_line_id and line.tax_line_id.tax_exigibility == 'on_payment':
