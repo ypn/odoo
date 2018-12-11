@@ -211,7 +211,7 @@ msgstr ""
 #. module: mail
 #: model:mail.template,subject:mail.mail_template_data_notification_email_default
 msgid "${object.subject or (object.record_name and 'Re: %s' % object.record_name) or (object.parent_id and object.parent_id.subject and 'Re: %s' % object.parent_id.subject) or (object.parent_id and object.parent_id.record_name and 'Re: %s' % object.parent_id.record_name)}"
-msgstr "{object.subject or (object.record_name and 'Trả lời: %s' % object.record_name) or (object.parent_id and object.parent_id.subject and 'Trả lời: %s' % object.parent_id.subject) or (object.parent_id and object.parent_id.record_name and 'Trả lời: %s' % object.parent_id.record_name)"
+msgstr "${object.subject or (object.record_name and 'Trả lời: %s' % object.record_name) or (object.parent_id and object.parent_id.subject and 'Trả lời: %s' % object.parent_id.subject) or (object.parent_id and object.parent_id.record_name and 'Trả lời: %s' % object.parent_id.record_name)}"
 
 #. module: mail
 #. openerp-web
