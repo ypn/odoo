@@ -6044,7 +6044,7 @@ msgstr "Cần làm"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "To Process"
-msgstr ""
+msgstr "Chờ Xử lý"
 
 #. module: stock
 #: selection:stock.picking,activity_state:0
@@ -6100,6 +6100,9 @@ msgid ""
 " life, alert. Such dates are set automatically at lot/serial number creation"
 " based on values set on the product (in days)."
 msgstr ""
+"Theo dõi các hạn tiếp theo dựa trên số lô / sê-ri: tốt nhất trước, ngày tiêu huỷ,"
+" kết thúc vòng đời, cảnh báo. Nhưng ngày này được thiết lập tự động ở lô/sê-ri"
+" ngay khi tạo lô/sê-ri dựa trên các giá trị được thiết lập trước trên sản phẩm (tính theo số ngày)"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -6115,12 +6118,12 @@ msgstr ""
 #. module: stock
 #: selection:stock.track.line,tracking:0
 msgid "Tracked by lot"
-msgstr ""
+msgstr "Theo vết bằng số Lô"
 
 #. module: stock
 #: selection:stock.track.line,tracking:0
 msgid "Tracked by serial number"
-msgstr ""
+msgstr "Theo vết bằng số Sê-ri"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_template__tracking
