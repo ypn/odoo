@@ -355,6 +355,11 @@ msgstr "Một mệnh đề <b>Giới hạn Cái mà Người dùng có thể là
 #: model_terms:ir.ui.view,arch_db:website_sale.terms
 msgid "A <b>Links To Other Web Sites</b> clause will inform users that you are not responsible for any third party web sites that you link to. This kind of clause will generally inform users that they are responsible for reading and agreeing (or disagreeing) with the Terms and Conditions or Privacy Policies of these third parties."
 msgstr ""
+"<b>Điều khoản Liên kết đến các trang web khác</b> sẽ thông báo cho người "
+"dùng rằng bạn không chịu trách nhiệm cho bất kỳ trang web bên thứ ba nào mà "
+"bạn liên kết đến. Loại điều khoản này thường sẽ thông báo cho người dùng "
+"rằng họ có trách nhiệm đọc và đồng ý (hoặc không đồng ý) với các Điều khoản "
+"và Điều kiện hoặc Chính sách quyền riêng tư của các bên thứ ba này."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.terms
@@ -458,7 +463,8 @@ msgstr "Tất cả Sản phẩm"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Allow shoppers to compare products based on their attributes"
-msgstr "Cho phép người mua sắm so sánh các sản phẩm dựa trên các thuộc tính của họ"
+msgstr ""
+"Cho phép người mua sắm so sánh các sản phẩm dựa trên các thuộc tính của họ"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_pricelist__selectable
@@ -487,7 +493,9 @@ msgstr "Giá trị các Giỏ bị bỏ rơi"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
-msgid "An error occured while processing your payment. Please try again or contact your administrator."
+msgid ""
+"An error occured while processing your payment. Please try again or contact "
+"your administrator."
 msgstr ""
 
 #. module: website_sale
@@ -497,7 +505,9 @@ msgstr "Áp dụng"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Apply manual discounts on sales order lines or display discounts computed from pricelists (option to activate in the pricelist configuration)."
+msgid ""
+"Apply manual discounts on sales order lines or display discounts computed "
+"from pricelists (option to activate in the pricelist configuration)."
 msgstr ""
 
 #. module: website_sale
@@ -535,6 +545,21 @@ msgid "Bank Name"
 msgstr "Tên ngân hàng"
 
 #. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "Be aware!"
+msgstr "Hãy cẩn trọng!"
+
+#. module: website_sale
+#: model:res.country.group,name:website_sale.benelux
+msgid "BeNeLux"
+msgstr ""
+
+#. module: website_sale
+#: model:product.pricelist,name:website_sale.list_benelux
+msgid "Benelux"
+msgstr ""
+
+#. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:115
 #, python-format
@@ -553,9 +578,31 @@ msgid "Billing Address"
 msgstr "Địa chỉ Xuất Hoá đơn"
 
 #. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_bins
+msgid "Bins"
+msgstr ""
+
+#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Boost your sales with two kinds of discount programs: promotions and coupon codes. Specific conditions can be set (products, customers, minimum purchase amount, period). Rewards can be discounts (% or amount) or free products."
-msgstr "Tăng doanh số bán hàng của bạn với hai loại chương trình giảm giá: khuyến mãi và mã giảm giá. Điều kiện cụ thể có thể được thiết lập (sản phẩm, khách hàng, số tiền mua tối thiểu, thời gian). Phần thưởng có thể là giảm giá (% số tiền) hoặc các sản phẩm miễn phí."
+msgid ""
+"Boost your sales with two kinds of discount programs: promotions and coupon "
+"codes. Specific conditions can be set (products, customers, minimum purchase"
+" amount, period). Rewards can be discounts (% or amount) or free products."
+msgstr ""
+"Tăng doanh số bán hàng của bạn với hai loại chương trình giảm giá: khuyến "
+"mãi và mã giảm giá. Điều kiện cụ thể có thể được thiết lập (sản phẩm, khách "
+"hàng, số tiền mua tối thiểu, thời gian). Phần thưởng có thể là giảm giá (% "
+"số tiền) hoặc các sản phẩm miễn phí."
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes
+msgid "Boxes"
+msgstr "Hộp"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_cabinets
+msgid "Cabinets"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -573,7 +620,7 @@ msgstr "Số lượng trong Giỏ"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__cart_recovery_mail_template
 #: model:ir.model.fields,field_description:website_sale.field_website__cart_recovery_mail_template_id
 msgid "Cart Recovery Email"
-msgstr ""
+msgstr "Email khôi phục giỏ hàng"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -583,7 +630,7 @@ msgstr "Giỏ hàng bị bỏ rơi sau"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__cart_recovery_email_sent
 msgid "Cart recovery email already sent"
-msgstr "Email khôi phục giỏ hàng đã được gửi"
+msgstr "Email khôi phục giỏ hàng đã được gửi rồi"
 
 #. module: website_sale
 #. openerp-web
@@ -615,10 +662,17 @@ msgstr "Phân loại"
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_public_category_action
-msgid "Categories are used to browse your products through the\n"
+msgid ""
+"Categories are used to browse your products through the\n"
 "            touchscreen interface."
-msgstr "Các nhóm được sử dụng để duyệt qua các sản phẩm của bạn\n"
+msgstr ""
+"Các nhóm được sử dụng để duyệt qua các sản phẩm của bạn\n"
 "            qua giao diện cảm ứng."
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_chairs
+msgid "Chairs"
+msgstr "Ghế"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__child_id
@@ -629,6 +683,11 @@ msgstr "Nhóm con"
 #: model:ir.actions.act_window,name:website_sale.action_open_website_sale_onboarding_payment_acquirer_wizard
 msgid "Choose a payment method"
 msgstr "Chọn một phương thức thanh toán"
+
+#. module: website_sale
+#: model:product.pricelist,name:website_sale.list_christmas
+msgid "Christmas"
+msgstr "Giáng sinh"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -848,6 +907,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_description
 msgid "Description for the website"
 msgstr "Mô tả cho Website"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks
+msgid "Desks"
+msgstr "Bàn"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_template__website_sequence

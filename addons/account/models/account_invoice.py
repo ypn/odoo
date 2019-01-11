@@ -1712,17 +1712,17 @@ class AccountInvoiceLine(models.Model):
                 self.price_unit = 0.0
             domain['uom_id'] = []
         else:
+            self_lang = self
             if part.lang:
-                product = self.product_id.with_context(lang=part.lang)
-            else:
-                product = self.product_id
-
+                self_lang = self.with_context(lang=part.lang)
+   
+            product = self_lang.product_id
             account = self.get_invoice_line_account(type, product, fpos, company)
             if account:
                 self.account_id = account.id
             self._set_taxes()
 
-            product_name = self._get_invoice_line_name_from_product()
+            product_name = self_lang._get_invoice_line_name_from_product()
             if product_name != None:
                 self.name = product_name
 
@@ -1779,6 +1779,7 @@ class AccountInvoiceLine(models.Model):
             else:
                 price_unit = self.product_id.lst_price
             self.price_unit = self.product_id.uom_id._compute_price(price_unit, self.uom_id)
+            self._set_currency()
 
             if self.product_id.uom_id.category_id.id != self.uom_id.category_id.id:
                 warning = {
