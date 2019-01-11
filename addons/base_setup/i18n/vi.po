@@ -3,23 +3,31 @@
 # * base_setup
 # 
 # Translators:
-# fanha99 <fanha99@hotmail.com>, 2017
 # Martin Trigaux, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
+# fanha99 <fanha99@hotmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 08:08+0000\n"
-"PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
+"PO-Revision-Date: 2017-09-20 10:15+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: base_setup
+#: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -75,7 +83,8 @@ msgstr "Tài liệu Sản xuất Kinh doanh"
 msgid ""
 "By default, new users get highest access rights for all installed apps."
 msgstr ""
-"Mặc định, người dùng mới sẽ có quyền truy cập cao nhất cho tất cả các ứng dụng."
+"Mặc định, người dùng mới sẽ có quyền truy cập cao nhất cho tất cả các ứng "
+"dụng."
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -119,8 +128,8 @@ msgid ""
 "Configure company rules to automatically create SO/PO when one of your "
 "company sells/buys to another of your company."
 msgstr ""
-"Cấu hình các quy tắc công ty để tự động tạo các SO/PO khi một trong số "
-"các công ty bán/mua với một công ty khác của bạn."
+"Cấu hình các quy tắc công ty để tự động tạo các SO/PO khi một trong số các "
+"công ty bán/mua với một công ty khác của bạn."
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
