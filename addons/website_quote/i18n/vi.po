@@ -1,31 +1,32 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_quote
-#
+# 
 # Translators:
-# fanha99 <fanha99@hotmail.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2017
-# son dang <son.dang@doda100.com>, 2017
-# Martin Trigaux, 2017
 # Minh Nguyen <minh@kiuasia.com>, 2017
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# son dang <son.dang@doda100.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # PHAM QUOC MY <mypham2802@gmail.com>, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
 # Jean-Charles Drubay <jcdrubay@gmail.com>, 2017
+# fanha99 <fanha99@hotmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
+# Martin Trigaux, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
+"PO-Revision-Date: 2017-09-20 10:27+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_quote
@@ -107,7 +108,7 @@ msgstr ""
 "                <p>Đơn hàng <a href=\"/quote/${object.id}/${object.access_token}\">${object.name}</a> của bạn đã được xác nhận!</p><br/>\n"
 "                \n"
 "                % if object.partner_id.user_ids\n"
-"                <p>Bạn có thể xem các báo giá, đơn hàng, hoá đơn một cách trực tuyến bằng cách truy cập vào <a style=\"text-decoration:none; color: #875A7B;\" href=\"/my/home\">Portal Trực tuyến</a>.</p><br/>\n"
+"                <p>Bạn có thể xem các báo giá, đơn hàng, hoá đơn một cách trực tuyến bằng cách truy cập vào <a style=\"text-decoration:none; color: #875A7B;\" href=\"/my/home\">Cổng trực tuyến</a>.</p><br/>\n"
 "                % endif\n"
 "\n"
 "                <p>Nếu bạn có bất kỳ câu hỏi, đừng ngần ngại liên hệ với chúng tôi.</p><br/>\n"
@@ -128,11 +129,6 @@ msgstr ""
 "        </tr></tbody>\n"
 "    </table>\n"
 "</div>"
-
-#. module: website_quote
-#: model:ir.ui.view,arch_db:website_quote.so_quotation
-msgid "! You can"
-msgstr "! Bạn có thể"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.optional_products
@@ -1099,18 +1095,6 @@ msgstr "Sản phẩm tùy chọn:"
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_options
 msgid "Optional Products Lines"
 msgstr "Chi tiết Sản phẩm tuỳ chọn"
-
-#. module: website_quote
-#: code:addons/website_quote/models/order.py:294
-#, python-format
-msgid "Order paid by %s. Transaction: %s. Amount: %s."
-msgstr "Đơn bán được thanh toán bởi %s. Giao dịch: %s. Tổng tiền: %s."
-
-#. module: website_quote
-#: code:addons/website_quote/controllers/main.py:94
-#, python-format
-msgid "Order signed by %s"
-msgstr "Đơn đặt hàng được ký bởi %s"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
