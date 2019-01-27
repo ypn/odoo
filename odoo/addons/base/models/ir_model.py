@@ -403,6 +403,11 @@ class IrModelFields(models.Model):
             raise UserError(_("The Selection Options expression is not a valid Pythonic expression. "
                               "Please provide an expression in the [('key','Label'), ...] format."))
 
+    @api.constrains('domain')
+    def _check_domain(self):
+        for field in self:
+            safe_eval(field.domain or '[]')
+
     @api.constrains('name', 'state')
     def _check_name(self):
         for field in self:
@@ -1539,7 +1544,8 @@ class IrModelData(models.Model):
             raise AccessError(_('Administrator access is required to uninstall a module'))
 
         # enable model/field deletion
-        self = self.with_context(**{MODULE_UNINSTALL_FLAG: True})
+        # we deactivate prefetching to not try to read a column that has been deleted
+        self = self.with_context(**{MODULE_UNINSTALL_FLAG: True, 'prefetch_fields': False})
 
         datas = self.search([('module', 'in', modules_to_remove)])
         to_unlink = tools.OrderedSet()

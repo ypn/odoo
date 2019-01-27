@@ -3,19 +3,20 @@
 # * sale_management
 # 
 # Translators:
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
-# Duy BQ <duybq86@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Minh Nguyen <minh@kiuasia.com>, 2018
 # Minh Nguyen <ndminh210994@gmail.com>, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 06:48+0000\n"
-"PO-Revision-Date: 2018-10-08 06:48+0000\n"
-"Last-Translator: fanha99 <fanha99@hotmail.com>, 2018\n"
+"POT-Creation-Date: 2019-01-09 10:31+0000\n"
+"PO-Revision-Date: 2018-08-24 09:24+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,25 +33,17 @@ msgstr "% chiết khấu"
 #. module: sale_management
 #: model:sale.order.template.line,name:sale_management.sale_order_template_line_1
 msgid "4 Person Desk"
-msgstr ""
-
-#. module: sale_management
-#: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
-msgid ""
-"<em attrs=\"{'invisible': "
-"[('module_sale_quotation_builder','=',False)]}\">Warning: this option will "
-"install the Website app.</em>"
-msgstr ""
+msgstr "Bàn 4 Người"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
 msgid "<span>Discount</span>"
-msgstr ""
+msgstr "<span>Chiết khấu</span>"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
 msgid "<span>Optional Products</span>"
-msgstr ""
+msgstr "<span>Sản phẩm Tuỳ chọn</span>"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template__active
@@ -91,7 +84,7 @@ msgstr "Thêm vào dòng đơn hàng"
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_digest_digest__kpi_all_sale_total
 msgid "All Sales"
-msgstr ""
+msgstr "Tất cả Doanh thu"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_search
@@ -131,12 +124,12 @@ msgstr "Tạo Hoá đơn"
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
 msgid "Create standardized offers with default products"
-msgstr ""
+msgstr "Tạo các báo giá chuẩn hoá với các sản phẩm mặc định"
 
 #. module: sale_management
 #: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
 msgid "Create your quotation template"
-msgstr ""
+msgstr "Tạo mẫu báo giá của bạn"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__create_uid
@@ -170,8 +163,11 @@ msgstr "Miêu tả"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
-msgid "Design your quotation templates using building blocks<br/>"
-msgstr "Thiết kế mẫu báo giá trực tuyến sử dụng các khối dựng web<br/>"
+msgid ""
+"Design your quotation templates using building blocks<br/>\n"
+"                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Warning: this option will install the Website app.</em>"
+msgstr "Thiết kế mẫu báo giá trực tuyến sử dụng các khối dựng web<br/>\n"
+"                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Cảnh báo: tuỳ chọn này sẽ cài đặt thêm ứng dụng Website.</em>"
 
 #. module: sale_management
 #: model:ir.model,name:sale_management.model_digest_digest
@@ -214,12 +210,12 @@ msgstr ""
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_option__sequence
 msgid "Gives the sequence order when displaying a list of optional products."
-msgstr ""
+msgstr ""Cung cấp trình tự hiển thị khi hiển thị một danh mục sản phẩm tuỳ chọn."
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template_line__sequence
 msgid "Gives the sequence order when displaying a list of sale quote lines."
-msgstr "Cung cấp thứ tự khi hiển thị một danh mục các dòng báo giá bán hàng."
+msgstr "Cung cấp trình tự hiển thị khi hiển thị một danh mục các dòng báo giá."
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__id
@@ -295,7 +291,7 @@ msgstr "Số ngày để tính toán ngày thẩm định của báo giá"
 #. module: sale_management
 #: model:sale.order.template.option,name:sale_management.sale_order_template_option_1
 msgid "Office Chair"
-msgstr ""
+msgstr "Ghế Văn phòng"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template__require_payment
@@ -408,7 +404,7 @@ msgstr "Gỡ"
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
 msgid "Remove one"
-msgstr ""
+msgstr "Gỡ bỏ một"
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template__require_signature
