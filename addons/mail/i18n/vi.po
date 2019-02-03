@@ -5,24 +5,25 @@
 # Translators:
 # David Tran <david.tran@ma.tvtmarine.com>, 2016
 # lam nguyen <lamev.inc@gmail.com>, 2016
-# fanha99 <fanha99@hotmail.com>, 2016
-# Martin Trigaux, 2016
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
 # Phạm Lân <phamquanglan@gmail.com>, 2016
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2016
+# fanha99 <fanha99@hotmail.com>, 2016
 # W360S CORP <contact@w360s.com>, 2016
 # Support W360s <support@w360s.com>, 2016
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
+# Martin Trigaux, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-14 15:53+0000\n"
-"PO-Revision-Date: 2016-11-14 15:53+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"PO-Revision-Date: 2016-09-07 09:22+0000\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,8 +33,8 @@ msgstr ""
 
 #. module: mail
 #: model:mail.template,body_html:mail.mail_template_data_notification_email_default
-msgid "\n"
-"% set company = ctx.get('company', user.company_id)\n"
+msgid ""
+"\n"
 "<div>\n"
 "% if ctx.get('has_button_access'):\n"
 "<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n"
@@ -73,7 +74,7 @@ msgid "\n"
 "        % endif\n"
 "    </td>\n"
 "    <td valign=\"center\" align=\"right\">\n"
-"        <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\">\n"
+"        <img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${user.company_id.name}\">\n"
 "    </td>\n"
 "</tr>\n"
 "<tr>\n"
@@ -116,8 +117,8 @@ msgid "\n"
 "    <a href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
 "</p>\n"
 "</div>"
-msgstr "\n"
-"% set company = ctx.get('company', user.company_id)\n"
+msgstr ""
+"\n"
 "<div>\n"
 "% if ctx.get('has_button_access'):\n"
 "<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n"
@@ -157,7 +158,7 @@ msgstr "\n"
 "        % endif\n"
 "    </td>\n"
 "    <td valign=\"center\" align=\"right\">\n"
-"        <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\">\n"
+"        <img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${user.company_id.name}\">\n"
 "    </td>\n"
 "</tr>\n"
 "<tr>\n"

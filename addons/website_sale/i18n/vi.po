@@ -9,9 +9,9 @@
 # sao sang <saosangmo@yahoo.com>, 2016
 # Martin Trigaux, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 14:34+0000\n"
 "PO-Revision-Date: 2016-09-07 09:34+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -206,6 +206,8 @@ msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                                Offering free delivery with a minimum amount or minimum number of items should drive up your average order value and help to compensate for the delivery costs."
 msgstr ""
+"<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
+"                                Offering free delivery with a minimum amount or minimum number of items should drive up your average order value and help to compensate for the delivery costs."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -213,6 +215,8 @@ msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                                You can create different rates based on order amount ranges (e.g. $10 up to a $50 order, then $5 beyond)."
 msgstr ""
+"<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
+"                                You can create different rates based on order amount ranges (e.g. $10 up to a $50 order, then $5 beyond)."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.continue_shopping
@@ -308,6 +312,10 @@ msgid ""
 "                                            <span class=\"small\"/>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"panel-title\">\n"
+"                                        <strong>Average baskets are &gt; 5 items?</strong><br/>\n"
+"                                            <span class=\"small\"/>\n"
+"                                    </span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -477,6 +485,9 @@ msgid ""
 "                            <span class=\"small\">Advised if your packs vary in size/weight and/or if you ship worldwide</span>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"panel-title\"><span class=\"fa fa-shopping-cart\"/><strong> At cost price</strong> (customer pays what you pay)<br/>\n"
+"                            <span class=\"small\">Advised if your packs vary in size/weight and/or if you ship worldwide</span>\n"
+"                            </span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -494,6 +505,9 @@ msgid ""
 "                            <span class=\"small\">Advised if you target a local audience</span>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"panel-title\"><span class=\"fa fa-table\"/><strong> Flat rates</strong> (everybody pays the same)<br/>\n"
+"                            <span class=\"small\">Advised if you target a local audience</span>\n"
+"                            </span>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -588,6 +602,8 @@ msgid ""
 "<strong>Key features, emotional and commercial content</strong><br/>\n"
 "                            Recommended for at least your top products, because it may have a big impact on your sales and conversion rates."
 msgstr ""
+"<strong>Key features, emotional and commercial content</strong><br/>\n"
+"                            Recommended for at least your top products, because it may have a big impact on your sales and conversion rates."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -756,6 +772,10 @@ msgid ""
 "have an account with you) can be terminated in case of abuses or at your "
 "sole discretion."
 msgstr ""
+"A <b>Termination</b> clause will inform that users’ accounts on your website"
+" and mobile app or users’ access to your website and mobile (if users can’t "
+"have an account with you) can be terminated in case of abuses or at your "
+"sole discretion."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
@@ -768,6 +788,8 @@ msgid ""
 "A few % discount can bring you twice more customers! Here are a few kinds of"
 " discounts to boost your sales:"
 msgstr ""
+"A few % discount can bring you twice more customers! Here are a few kinds of"
+" discounts to boost your sales:"
 
 #. module: website_sale
 #: selection:website.config.settings,sale_pricelist_setting_split_1:0
@@ -927,7 +949,7 @@ msgstr "Cảnh báo Tính khả dụng"
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_benelux
 msgid "Benelux"
-msgstr ""
+msgstr "Benelux"
 
 #. module: website_sale
 #. openerp-web
@@ -1315,7 +1337,7 @@ msgstr "Mã khuyến mãi cho E-Commerce"
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_europe
 msgid "EUR"
-msgstr ""
+msgstr "EUR"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1429,11 +1451,13 @@ msgid ""
 "Go through the checkout process and make sure every single step is tailored "
 "to your activity:"
 msgstr ""
+"Go through the checkout process and make sure every single step is tailored "
+"to your activity:"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_style_html_class
 msgid "HTML Classes"
-msgstr ""
+msgstr "HTML Classes"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute_value_html_color
@@ -1453,12 +1477,14 @@ msgstr "Có mã giảm giá? Hãy điền vào trường này và nhấn áp d�
 #. module: website_sale
 #: model:product.public.category,name:website_sale.Headset
 msgid "Headset"
-msgstr ""
+msgstr "Tai nghe"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Here are <strong>some pros and cons</strong> to help you decide:<br/>"
 msgstr ""
+"Đây là <strong>một số đề xuất và điều khoản</strong> để giúp bạn quyết "
+"định:<br/>"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_attribute_value_html_color
@@ -1492,6 +1518,8 @@ msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
 "related connector in Odoo to compute accurate costs and print labels."
 msgstr ""
+"If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
+"related connector in Odoo to compute accurate costs and print labels."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.terms
@@ -1508,6 +1536,17 @@ msgid ""
 "will respond to any DMCA take down notices received and you will take down "
 "the content."
 msgstr ""
+"If your website or mobile apps allows users to create content and make that "
+"content public to other users, a <b>Content</b> section will inform users "
+"that they own the rights to the content they have created.<br/>The “Content”"
+" clause usually mentions that users must give you (the website or mobile app"
+" developer) a license so that you can share this content on your "
+"website/mobile app and to make it available to other users.<br/>Because the "
+"content created by users is public to other users, a DMCA notice clause (or "
+"Copyright Infringement ) section is helpful to inform users and copyright "
+"authors that, if any content is found to be a copyright infringement, you "
+"will respond to any DMCA take down notices received and you will take down "
+"the content."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_image
@@ -1536,6 +1575,10 @@ msgid ""
 " You don't want to cut into your margins, but you want to remain price-"
 "competitive."
 msgstr ""
+"Imagine a new customer adds a product to cart and leaves your website "
+"because of shipping costs... Defining a good delivery strategy is difficult."
+" You don't want to cut into your margins, but you want to remain price-"
+"competitive."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1558,7 +1601,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Install Optional Products (cross-selling)"
-msgstr ""
+msgstr "Install Optional Products (cross-selling)"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1605,7 +1648,7 @@ msgstr "Bàn phím / Chuột"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.laptops
 msgid "Laptops"
-msgstr ""
+msgstr "Máy tính xách tay"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image___last_update
@@ -1671,6 +1714,10 @@ msgid ""
 " time, otherwise they will leave your website. Here are some actions to "
 "tailor the process to your business."
 msgstr ""
+"Hãy chắc chắn rằng khách hàng của bạn có thể trải qua quá trình mua sắm "
+"trong một thời gian rất ngắn, nếu không họ sẽ rời khỏi trang web của bạn. "
+"Dưới đây là một số hành động để điều chỉnh quy trình cho doanh nghiệp của "
+"bạn."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_config_settings_module_delivery
@@ -1700,7 +1747,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Min. qty or period"
-msgstr ""
+msgstr "SL tối thiểu hoặc khoảng"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_config_settings_view_form
@@ -1718,6 +1765,8 @@ msgid ""
 "Multi-buy offers (2 products sold together for less than their individual "
 "price)"
 msgstr ""
+"Multi-buy offers (2 products sold together for less than their individual "
+"price)"
 
 #. module: website_sale
 #. openerp-web
@@ -1737,7 +1786,7 @@ msgstr "Tên"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.network
 msgid "Network"
-msgstr ""
+msgstr "Network"
 
 #. module: website_sale
 #. openerp-web
@@ -1931,7 +1980,7 @@ msgstr "Thanh toán<span class=\"chevron\"/>"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.Pen_Drive
 msgid "Pen Drive"
-msgstr ""
+msgstr "Pen Drive"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -2136,7 +2185,7 @@ msgstr "Số lượng"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Quantity-based discounts (B2B)"
-msgstr ""
+msgstr "Quantity-based discounts (B2B)"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2146,7 +2195,7 @@ msgstr "Nhanh và dễ dàng cài đặt"
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Radio"
-msgstr ""
+msgstr "Ô chọn"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_rating_rating
@@ -2159,18 +2208,18 @@ msgstr "Đánh giá"
 #: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_rating_last_value
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_value
 msgid "Rating Last Value"
-msgstr ""
+msgstr "Rating Last Value"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_rating_count
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_count
 msgid "Rating count"
-msgstr ""
+msgstr "Rating count"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_product_tmpl_id
 msgid "Related Product"
-msgstr ""
+msgstr "Sản phẩm liên quan"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.404
@@ -2185,7 +2234,7 @@ msgstr "Xem lại Đơn hàng<span class=\"chevron\"/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Review your catalog"
-msgstr ""
+msgstr "Review your catalog"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.products_item
@@ -2246,7 +2295,7 @@ msgstr "Thanh toán An toàn"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "See how to configure delivery methods and shipping connectors"
-msgstr ""
+msgstr "See how to configure delivery methods and shipping connectors"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2256,7 +2305,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "See how to configure pricing &amp; discounts"
-msgstr ""
+msgstr "See how to configure pricing &amp; discounts"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2345,6 +2394,8 @@ msgid ""
 "Set alternatives, accessories and options in product detail form (in Sales "
 "tab)"
 msgstr ""
+"Set alternatives, accessories and options in product detail form (in Sales "
+"tab)"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2405,7 +2456,7 @@ msgstr "Sản phẩm & Dịch vụ"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
 msgid "Shop - Checkout"
-msgstr ""
+msgstr "Cửa hàng - Thanh toán"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment_token_form_confirm
@@ -2585,6 +2636,8 @@ msgid ""
 "Suggest more expensive alternatives to your customers (upsell strategy). "
 "Those products show up on the product page."
 msgstr ""
+"Suggest more expensive alternatives to your customers (upsell strategy). "
+"Those products show up on the product page."
 
 #. module: website_sale
 #: selection:website.config.settings,module_website_sale_options:0
@@ -2662,6 +2715,9 @@ msgid ""
 "contents, logo and other visual media you created is your property and is "
 "protected by copyright laws."
 msgstr ""
+"The <b>Intellectual Property</b> disclosure will inform users that the "
+"contents, logo and other visual media you created is your property and is "
+"protected by copyright laws."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2731,12 +2787,15 @@ msgid ""
 "To collect payments, you can either request your customers to process it manually (wire transfer, etc.) or redirect them to payment acquirers.<br/>\n"
 "                        Using payment acquirers costs you money, so take some time to compare them."
 msgstr ""
+"To collect payments, you can either request your customers to process it manually (wire transfer, etc.) or redirect them to payment acquirers.<br/>\n"
+"                        Using payment acquirers costs you money, so take some time to compare them."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
 msgstr ""
+"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -2866,7 +2925,7 @@ msgstr "Trình tự trên Website"
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website
 msgid "Website Shop"
-msgstr ""
+msgstr "Cửa hàng Website"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_url
