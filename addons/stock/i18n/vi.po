@@ -167,6 +167,8 @@ msgid ""
 "<br>A need is created in <b>%s</b> and a rule will be triggered to fulfill "
 "it."
 msgstr ""
+"<br>Một nhu cầu được tạo ở <b>%s</b> và một quy tắc kho sẽ được khởi chạy để đáp ứng "
+"nhu cầu đó."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_move_view_kanban
@@ -226,7 +228,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">On Hand</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Trong kho</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_mrp_line
@@ -272,6 +274,8 @@ msgid ""
 "<strong>\n"
 "                                            Product Barcode</strong>"
 msgstr ""
+"<strong>\n"
+"                                            Mã vạch Sản phẩm</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_head
@@ -6685,6 +6689,8 @@ msgid ""
 "When products are needed in <b>%s</b>, <br/> <b>%s</b> are created from "
 "<b>%s</b> to fulfill the need."
 msgstr ""
+"Khi có nhu cầu về hàng hoá ở <b>%s</b>, <br/> <b>%s</b> được tạo từ "
+"<b>%s</b> để đáp ứng nhu cầu."
 
 #. module: stock
 #: code:addons/stock/models/stock_rule.py:114
@@ -6693,6 +6699,8 @@ msgid ""
 "When products arrive in <b>%s</b>, <br/> <b>%s</b> are created to send them "
 "in <b>%s</b>."
 msgstr ""
+"Khi hàng hoá được nhập vào <b>%s</b>, <br/> <b>%s</b> được tạo để chuyển chúng "
+"vào <b>%s</b>."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__is_locked
