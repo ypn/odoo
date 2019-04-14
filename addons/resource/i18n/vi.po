@@ -35,18 +35,19 @@ msgstr "Hiệu lực"
 #. module: resource
 #: selection:resource.calendar.attendance,day_period:0
 msgid "Afternoon"
-msgstr ""
+msgstr "Chiều"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__hours_per_day
 msgid "Average hour per day"
-msgstr ""
+msgstr "Giờ làm việc trung bình mỗi ngày"
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__hours_per_day
 msgid ""
 "Average hours per day a resource is supposed to work with this calendar."
 msgstr ""
+"Số giờ trung bình mỗi ngày mà một nguồn lực được giả định làm việc theo lịch làm việc này."
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.resource_calendar_closing_days
@@ -90,7 +91,7 @@ msgstr "Được tạo vào"
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__day_period
 msgid "Day Period"
-msgstr ""
+msgstr "Chu kỳ trong Ngày"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__dayofweek
@@ -101,7 +102,7 @@ msgstr "Ngày trong tuần"
 #: model:ir.model.fields,field_description:resource.field_res_company__resource_calendar_id
 #: model:ir.model.fields,field_description:resource.field_res_users__resource_calendar_id
 msgid "Default Working Hours"
-msgstr "Khung Giờ làm việc Mặc định"
+msgstr "Lịch làm việc Mặc định"
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_res_users__resource_calendar_id
@@ -117,7 +118,7 @@ msgid ""
 "Define working hours and time table that could be scheduled to your project "
 "members"
 msgstr ""
-"Định nghĩa các giờ làm việc và thời gian biểu mà có thể được ấn định cho các"
+"Định nghĩa các Lịch làm việc và thời gian biểu mà có thể được ấn định cho các"
 " thành viên dự án của bạn"
 
 #. module: resource
@@ -598,13 +599,13 @@ msgstr "Làm việc đến"
 #: model:ir.model.fields,field_description:resource.field_resource_test__resource_calendar_id
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Working Hours"
-msgstr "Giờ làm việc"
+msgstr "Lịch làm việc"
 
 #. module: resource
 #: code:addons/resource/models/resource.py:152
 #, python-format
 msgid "Working Hours of %s"
-msgstr "Khung Giờ làm việc của %s"
+msgstr "Lịch làm việc của %s"
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
@@ -620,10 +621,10 @@ msgstr "Chu kỳ làm việc"
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_search
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_tree
 msgid "Working Time"
-msgstr "Giờ làm việc"
+msgstr "Lịch làm việc"
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.action_resource_calendar_form
 #: model:ir.ui.menu,name:resource.menu_resource_calendar
 msgid "Working Times"
-msgstr ""
+msgstr "Lịch làm việc"
