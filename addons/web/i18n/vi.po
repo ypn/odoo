@@ -219,7 +219,7 @@ msgstr "1 bản ghi"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
 msgid "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
@@ -234,7 +234,7 @@ msgstr ""
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
 msgid "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Điện thoại\"/>"
 
 #. module: web
 #. openerp-web
@@ -669,7 +669,7 @@ msgid ""
 "base64-encoded. That does not seem to be the case for %s."
 msgstr ""
 "Trường Nhị phân không thể xuất ra Excel trừ phi nội dung của nó được mã hoá "
-"base64 (base64-encoded). Đó dường như không phải tình huống %s "
+"base64 (base64-encoded). Đó dường như không phải tình huống cho %s."
 
 #. module: web
 #. openerp-web
@@ -1662,7 +1662,7 @@ msgstr "HTTP Routing"
 #: code:addons/web/static/src/xml/base.xml:877
 #, python-format
 msgid "Hide in Kanban"
-msgstr " trong Kanban"
+msgstr "Thu gọn trong Kanban"
 
 #. module: web
 #. openerp-web
@@ -2635,6 +2635,7 @@ msgstr ""
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:741
+#: code:addons/web/static/src/xml/base.xml:1505
 #: code:addons/web/static/src/xml/web_calendar.xml:75
 #, python-format
 msgid "Previous"
@@ -3084,7 +3085,7 @@ msgstr "Đặc biệt:"
 #: code:addons/web/static/src/js/views/graph/graph_renderer.js:215
 #, python-format
 msgid "Stacked"
-msgstr ""
+msgstr "Xếp Chồng"
 
 #. module: web
 #. openerp-web
@@ -3946,7 +3947,7 @@ msgstr "sau"
 #: code:addons/web/static/src/js/views/search/search_filters.js:190
 #, python-format
 msgid "is after or equal to"
-msgstr ""
+msgstr "sau hoặc bằng"
 
 #. module: web
 #. openerp-web
@@ -3960,7 +3961,7 @@ msgstr "trước"
 #: code:addons/web/static/src/js/views/search/search_filters.js:191
 #, python-format
 msgid "is before or equal to"
-msgstr ""
+msgstr "trước hoặc bằng"
 
 #. module: web
 #. openerp-web

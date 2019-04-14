@@ -9,15 +9,15 @@
 # fanha99 <fanha99@hotmail.com>, 2018
 # Minh Nguyen <ndminh210994@gmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019
+# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 10:31+0000\n"
+"POT-Creation-Date: 2019-03-29 10:08+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,6 +81,11 @@ msgid "' did not match any pages."
 msgstr "' không khớp với bất kỳ trang nào."
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.500
+msgid "(!!! This view will be removed )"
+msgstr ""
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:33
 #, python-format
@@ -99,7 +104,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid ", author:"
-msgstr ", tác giả"
+msgstr ", tác giả:"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
@@ -151,7 +156,7 @@ msgstr "1s"
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "2 <span class=\"sr-only\">(current)</span>"
-msgstr ""
+msgstr "2 <span class=\"sr-only\">(hiện tại)</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -196,7 +201,7 @@ msgstr "403: Bị cấm"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.404
 msgid "404: Page not found!"
-msgstr "404: Không tìm thấy trang"
+msgstr "404: Không tìm thấy trang!"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -221,7 +226,9 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
 msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr "<b>50,000+ công ty</b> chạy Odoo để tăng trưởng sản xuất kinh doanh."
+msgstr ""
+"<b>Hơn 50,000 công ty</b> đang sử dụng Odoo để phát triển việc kinh doanh "
+"của họ."
 
 #. module: website
 #. openerp-web
@@ -305,7 +312,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_banner
 msgid "<font style=\"font-size: 62px;\"><b>Sell Online.</b> Easily.</font>"
-msgstr "<font style=\"font-size: 62px;\"><b>Bán Trực tuyến.</b> Easily.</font>"
+msgstr "<font style=\"font-size: 62px;\"><b>Bán Online.</b> Thật dễ dàng.</font>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
@@ -506,7 +513,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-paint-brush\"/>Styling"
-msgstr "<i class=\"fa fa-paint-brush\"/>Phong cách"
+msgstr "<i class=\"fa fa-paint-brush\"/>Tạo phong cách"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -4877,7 +4884,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_res_config_settings__website_id
 #: model_terms:ir.ui.view,arch_db:website.menu_search
 msgid "website"
-msgstr "Trang web"
+msgstr "website"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.brand_promotion

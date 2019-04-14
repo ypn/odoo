@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mrp
-#
+# 
 # Translators:
 # Thang Duong Bao <nothingctrl@gmail.com>, 2018
 # son dang <son.dang@doda100.com>, 2018
@@ -10,21 +10,21 @@
 # fanha99 <fanha99@hotmail.com>, 2018
 # Tien Nguyen <tienkt05@gmail.com>, 2018
 # khoibv Mr <kendev2009@gmail.com>, 2018
-# Duy BQ <duybq86@gmail.com>, 2018
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# Duy BQ <duybq86@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 10:31+0000\n"
+"POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:21+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mrp
@@ -441,7 +441,7 @@ msgstr "Số đính kèm"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__local_url
 msgid "Attachment URL"
-msgstr "Đường dẫn tệp đính kèm"
+msgstr "URL Đính kèm"
 
 #. module: mrp
 #. openerp-web
@@ -475,6 +475,7 @@ msgid "Avatar"
 msgstr "Ảnh đại diện"
 
 #. module: mrp
+#: model:ir.model.fields,help:mrp.field_product_product__produce_delay
 #: model:ir.model.fields,help:mrp.field_product_template__produce_delay
 msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
@@ -502,6 +503,7 @@ msgid "BOM lines of the referred bom"
 msgstr "Chi tiết các dòng BoM của BoM được tham chiếu"
 
 #. module: mrp
+#: model_terms:ir.ui.view,arch_db:mrp.label_production_view_pdf
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Barcode"
 msgstr "Mã vạch"
@@ -517,7 +519,7 @@ msgstr "Dựa trên"
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__bom_id
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "Bill of Material"
-msgstr "Định mức nguyên liệu"
+msgstr "Định mức Nguyên liệu"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_bom_line
@@ -532,6 +534,7 @@ msgstr "Dòng Định mức Nguyên liệu"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.product_open_bom
 #: model:ir.actions.act_window,name:mrp.template_open_bom
+#: model:ir.model.fields,field_description:mrp.field_product_product__bom_ids
 #: model:ir.model.fields,field_description:mrp.field_product_template__bom_ids
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_tree_view
 #: model_terms:ir.ui.view,arch_db:mrp.product_product_form_view_bom_button
@@ -1169,7 +1172,9 @@ msgstr "Ngày kết thúc"
 #: model:ir.model.fields,help:mrp.field_mrp_product_produce_line__product_tracking
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__has_tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
-msgstr "Đảm bảo khả năng truy vết (truy xuất nguồn gốc) của một sản phẩm có thể lưu kho trong hệ thống kho của bạn."
+msgstr ""
+"Đảm bảo truy xuất nguồn gốc của một sản phẩm có thể lưu trữ trong kho của "
+"bạn."
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -1199,7 +1204,7 @@ msgstr "Nội dung tập tin"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__file_size
 msgid "File Size"
-msgstr "Dung lượng file"
+msgstr "Dung lượng tập tin"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__datas_fname
@@ -1242,6 +1247,11 @@ msgstr "Số Lô Hoàn thiện đã tồn tại"
 #: model_terms:ir.ui.view,arch_db:mrp.view_finisehd_move_line
 msgid "Finished Product"
 msgstr "Sản phẩm Hoàn thiện"
+
+#. module: mrp
+#: model:ir.actions.report,name:mrp.action_report_finished_product
+msgid "Finished Product Label (PDF)"
+msgstr "Nhãn Thành phẩm (PDF)"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_finished_ids
@@ -1522,7 +1532,7 @@ msgstr "Mang tính chất thông tin, không dùng trong đối chiếu"
 #: code:addons/mrp/models/mrp_unbuild.py:219
 #, python-format
 msgid "Insufficient Quantity"
-msgstr "Số lượng Không đủ"
+msgstr "Số lượng không Đầy đủ"
 
 #. module: mrp
 #: selection:stock.picking.type,code:0
@@ -1720,7 +1730,7 @@ msgstr "Địa điểm lưu trữ thành phẩm."
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Lock"
-msgstr "Khóa"
+msgstr "Khoá"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity__loss_id
@@ -1871,6 +1881,7 @@ msgid "Manufacturing"
 msgstr "Sản xuất"
 
 #. module: mrp
+#: model:ir.model.fields,field_description:mrp.field_product_product__produce_delay
 #: model:ir.model.fields,field_description:mrp.field_product_template__produce_delay
 #: model:ir.model.fields,field_description:mrp.field_res_company__manufacturing_lead
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__manufacturing_lead
@@ -2267,7 +2278,7 @@ msgstr "Hoạt động Tiêu thụ"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__picking_type_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__picking_type_id
 msgid "Operation Type"
-msgstr "Kiểu hoạt động"
+msgstr "Kiểu Hoạt động"
 
 #. module: mrp
 #: code:addons/mrp/report/mrp_report_bom_structure.py:221
@@ -2531,7 +2542,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__priority
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__priority
 msgid "Priority"
-msgstr "Mức độ ưu tiên"
+msgstr "Độ ưu tiên"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -2604,7 +2615,7 @@ msgstr "Quản lý Vòng đời Sản phẩm (PLM)"
 #: model:ir.actions.act_window,name:mrp.action_mrp_unbuild_move_line
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view
 msgid "Product Moves"
-msgstr "Dịch chuyển sản phẩm"
+msgstr "Truy vết"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_move_line
@@ -2712,12 +2723,12 @@ msgstr "Công suất đầy đủ"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__productive_time
 msgid "Productive Time"
-msgstr "Thời gian Hữu ích"
+msgstr "Thời gian sản xuất"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__productive_time
 msgid "Productive hour(s) over the last month"
-msgstr "Số giờ hữu ích (productive) của tháng trước"
+msgstr "Số giờ sản xuất của tháng trước"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
@@ -2824,6 +2835,7 @@ msgstr "Số lượng chờ Xử lý"
 #. module: mrp
 #. openerp-web
 #: code:addons/mrp/static/src/xml/mrp.xml:10
+#: model_terms:ir.ui.view,arch_db:mrp.label_production_view_pdf
 #, python-format
 msgid "Quantity:"
 msgstr "Số lượng:"
@@ -3071,7 +3083,7 @@ msgstr "Dịch chuyển phế liệu"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_scrap
 msgid "Scrap Orders"
-msgstr "Lệnh phế liệu"
+msgstr "Lệnh Phế liệu"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__scrap_ids
@@ -3087,7 +3099,7 @@ msgstr "Screw"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 msgid "Search"
-msgstr "Tìm kiếm"
+msgstr "Tìm"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
@@ -3252,7 +3264,7 @@ msgstr "Bắt đầu Làm việc"
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_workorder_workcenter
 #: model_terms:ir.actions.act_window,help:mrp.mrp_workorder_todo
 msgid "Start a new work order"
-msgstr ""
+msgstr "Bắt đầu một hoạt động sản xuất mới"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__state
@@ -3541,9 +3553,9 @@ msgid ""
 "create work orders afterwards which alters the execution of the "
 "manufacturing order."
 msgstr ""
-"Định tuyến chứa tất cả các Năng lực sản xuất sẽ sử dụng. Điều này sẽ tạo ra "
-"các đơn đặt hàng làm việc sau đó làm thay đổi việc thực hiện theo thứ tự sản"
-" xuất."
+"Quy trình định tuyến chứa tất cả các Năng lực sản xuất sẽ sử dụng và thời gian sử dụng. Điều này sẽ tạo ra "
+"các hoạt động sản xuất sau đó mà sẽ thay đổi việc thực thi các lệnh sản "
+"xuất."
 
 #. module: mrp
 #: code:addons/mrp/models/stock_rule.py:38
@@ -3615,7 +3627,7 @@ msgstr "Thời gian"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__time_efficiency
 msgid "Time Efficiency"
-msgstr "Hiệu suất Thời gian"
+msgstr "Thời gian hữu ích"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__time_ids
@@ -3678,7 +3690,7 @@ msgstr "Múi giờ"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "To Consume"
-msgstr "Để tiêu thụ"
+msgstr "Cần tiêu thụ"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
