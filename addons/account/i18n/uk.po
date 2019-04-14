@@ -5,24 +5,24 @@
 # Translators:
 # Kateryna Onyshchenko <Katrona17@gmail.com>, 2017
 # Евгений Жердев <e.v.zherdev@gmail.com>, 2017
-# Martin Trigaux, 2017
 # Анатолій Пономаренко <Ponomarenkoa@minfin.gov.ua>, 2017
 # Анатолій Пономаренко <aponomarenko020@gmail.com>, 2017
 # ТАрас <tratatuta@i.ua>, 2017
 # Olha Koshelieva <olha.koshelieva@gmail.com>, 2017
 # Dmytro Kriesovich <dimscoffer@bigmir.net>, 2017
 # Артём Инжиянц <artem.inzhyyants@gmail.com>, 2018
-# iraqez <vladimir.gumenyuk@gmail.com>, 2018
+# Vladimir Gumenyuk <vladimir.gumenyuk@gmail.com>, 2018
 # Zoriana Zaiats, 2018
-# Bohdan Lisnenko, 2018
 # Olga Lugova <trolka.olug@gmail.com>, 2018
+# Bohdan Lisnenko, 2018
+# Martin Trigaux, 2019
 # Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:06+0000\n"
+"POT-Creation-Date: 2019-03-29 09:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:13+0000\n"
 "Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019\n"
 "Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
@@ -3144,7 +3144,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Checks"
-msgstr "Перевірки"
+msgstr "Чеки"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_children_tax_ids
@@ -3999,7 +3999,7 @@ msgstr "Сторно клієнта"
 #: model:ir.actions.act_window,name:account.action_invoice_out_refund
 #: model:ir.ui.menu,name:account.menu_action_invoice_out_refund
 msgid "Customer Credit Notes"
-msgstr "Кредитні примітки клієнта"
+msgstr "Сторно клієнта"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -4611,7 +4611,12 @@ msgid "Due date"
 msgstr "Установлений термін"
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:1176
+#: model:ir.ui.view,arch_db:account.view_move_form
+msgid "Duplicate"
+msgstr "Дублювати"
+
+#. module: account
+#: code:addons/account/models/account_invoice.py:1194
 #, python-format
 msgid ""
 "Duplicated vendor reference detected. You probably encoded twice the same "
@@ -6963,7 +6968,7 @@ msgstr "Співставлення"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_full_reconcile_id
 msgid "Matching Number"
-msgstr "Номер співставленя"
+msgstr "Номер співставлення"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_max_date
