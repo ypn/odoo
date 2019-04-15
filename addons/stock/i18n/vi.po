@@ -2598,11 +2598,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__inventory_id
 #: model:ir.model.fields,field_description:stock.field_stock_move__inventory_id
 #: model:ir.model.fields,field_description:stock.field_stock_track_confirmation__inventory_id
-#: model:ir.ui.menu,name:stock.menu_stock_root
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_pivot
 msgid "Inventory"
 msgstr "Tồn kho"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_stock_root
+msgid "Inventory"
+msgstr "Kho vận"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
