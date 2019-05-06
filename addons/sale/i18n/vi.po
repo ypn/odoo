@@ -3795,12 +3795,12 @@ msgstr "Xác nhận báo giá"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__validity_date
 msgid "Validity"
-msgstr "Hợp lệ"
+msgstr "Ngày hết hạn"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__validity_date
 msgid "Validity date of the quotation, after this date, the customer won't be able to validate the quotation online."
-msgstr ""
+msgstr "Ngày mà báo giá còn hiệu lực đến đó. Sau ngày này, khách hàng sẽ không thể tự xác nhận đơn hàng trực tuyến."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -3822,7 +3822,7 @@ msgstr "Cảnh báo"
 #: code:addons/sale/models/sale.py:1467
 #, python-format
 msgid "Warning for %s"
-msgstr ""
+msgstr "Cảnh báo cho %s"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
@@ -3867,7 +3867,7 @@ msgstr "Điền tên khách hàng của bạn để tạo nhanh, hoặc chọn 1
 #: code:addons/sale/static/src/js/sale.js:49
 #, python-format
 msgid "Wrong value entered!"
-msgstr ""
+msgstr "Đã nhập sai giá trị!"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__partner_id
