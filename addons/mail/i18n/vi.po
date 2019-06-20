@@ -226,10 +226,10 @@ msgid ""
 "object.parent_id.subject) or (object.parent_id and "
 "object.parent_id.record_name and 'Re: %s' % object.parent_id.record_name)}"
 msgstr ""
-"${object.subject or (object.record_name and 'Trả lời: %s' % object.record_name) "
-"or (object.parent_id and object.parent_id.subject and 'Trả lời: %s' % "
+"${object.subject or (object.record_name and 'V/v: %s' % object.record_name) "
+"or (object.parent_id and object.parent_id.subject and 'V/v: %s' % "
 "object.parent_id.subject) or (object.parent_id and "
-"object.parent_id.record_name and 'Trả lời: %s' % object.parent_id.record_name)}"
+"object.parent_id.record_name and 'V/v: %s' % object.parent_id.record_name)}"
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:29
