@@ -8093,6 +8093,12 @@ msgid "Cannot aggregate field %r."
 msgstr "Nelze agregovat pole %r."
 
 #. module: base
+#: code:addons/base/models/ir_translation.py:256
+#, python-format
+msgid "Cannot be translated; record not accessible."
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/res_lang.py:228
 #, python-format
 msgid "Cannot deactivate a language that is currently used by users."
@@ -22626,6 +22632,8 @@ msgid ""
 "Used by Sales and Purchase Apps to select the relevant address depending on "
 "the context."
 msgstr ""
+"Aplikace Prodej a Nákup používají k výběru příslušné adresy v závislosti na "
+"kontextu."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__relation_table

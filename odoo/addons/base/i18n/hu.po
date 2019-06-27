@@ -9034,6 +9034,12 @@ msgid "Cannot aggregate field %r."
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/ir_translation.py:256
+#, python-format
+msgid "Cannot be translated; record not accessible."
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/res_lang.py:228
 #, python-format
 msgid "Cannot deactivate a language that is currently used by users."
@@ -20710,7 +20716,7 @@ msgstr "Sierra Leone"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sign
 msgid "Sign"
-msgstr ""
+msgstr "Aláírás"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__signature
