@@ -45,6 +45,8 @@ msgid ""
 "* At Project Rate: All timesheets on the project will be billed at the same rate\n"
 "* At Employee Rate: Timesheets will be billed at a rate defined at employee level"
 msgstr ""
+"* Giá theo Dự án: Toàn bộ giờ công liên quan đến dự án đều được xuất hoá đơn với cùng một giá như nhau\n"
+"* Giá theo Nhân viên: Giờ công sẽ được tính theo chi phí được xác định theo từng nhân viên\n"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_plan
@@ -68,6 +70,8 @@ msgid ""
 "A billable project should be linked to a Sales Order Item having a Service "
 "product."
 msgstr ""
+"Một dự án có thể xuất hoá đơn cần phải được liên kết đến một dòng đơn bán mà có "
+"sản phẩm kiểu Dịch vụ."
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project.py:55
@@ -76,6 +80,8 @@ msgid ""
 "A billable project should be linked to a Sales Order Item that does not come"
 " from an expense or a vendor bill."
 msgstr ""
+"Một dự án có thể xuất hoá đơn cần phải được liên kết đến một dòng đơn bán mà không "
+"đến từ chi tiêu hay từ một hoá đơn nhà cung cấp."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_sale_order_line__qty_delivered_method
@@ -133,41 +139,41 @@ msgstr "Phân công"
 #. module: sale_timesheet
 #: model:ir.actions.act_window,name:sale_timesheet.project_task_action_multi_assign_so_line
 msgid "Assign Sale Order Item"
-msgstr ""
+msgstr "Gán Dòng Đơn Bán"
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_task_assign_sale
 msgid "Assign Sale Order line to tasks"
-msgstr ""
+msgstr "Gán Dòng Đơn Bán cho nhiệm vụ"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_task_assign_so_line_view_form
 msgid "Assign sale line to Tasks"
-msgstr ""
+msgstr "Gán dòng đơn bán cho Nhiệm vụ"
 
 #. module: sale_timesheet
 #: selection:project.create.sale.order,billable_type:0
 #: selection:project.project,billable_type:0
 #: selection:project.task,billable_type:0
 msgid "At Employee Rate"
-msgstr ""
+msgstr "Giá theo Nhân viên"
 
 #. module: sale_timesheet
 #: selection:project.create.sale.order,billable_type:0
 msgid "At Project Rate"
-msgstr ""
+msgstr "Giá theo Dự án"
 
 #. module: sale_timesheet
 #: selection:project.project,billable_type:0
 #: selection:project.task,billable_type:0
 msgid "At Task Rate"
-msgstr ""
+msgstr "Giá theo Nhiệm vụ"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:60
 #, python-format
 msgid "At least one line should be filled."
-msgstr ""
+msgstr "Ít nhất phải có một dòng được điền"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/controllers/main.py:249
@@ -1201,7 +1207,7 @@ msgstr "Chi phí Giờ công"
 #: selection:sale.order.line,qty_delivered_method:0
 #, python-format
 msgid "Timesheets"
-msgstr "Thời gian biểu"
+msgstr "Chấm công"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project.py:64
