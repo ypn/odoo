@@ -2766,7 +2766,7 @@ msgstr "Kiểm tra"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:29
 #, python-format
 msgid "Tests"
-msgstr "Tests"
+msgstr "Kiểm thử"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
@@ -2797,10 +2797,6 @@ msgid ""
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
 msgstr ""
-"The owner of records created upon receiving emails on this alias. If this "
-"field is not set the system will attempt to find the right owner based on "
-"the sender (From) address, or will use the Administrator account if no "
-"system user is found for that address."
 
 #. module: project
 #: code:addons/project/models/project.py:253
@@ -2810,6 +2806,10 @@ msgid ""
 "the project is too restricted. Set the privacy to 'Visible by following "
 "customers' in order to make it accessible by the recipient(s)."
 msgstr ""
+"Dự án này không thể được chia sẻ với người nhận được chọn dưới đây do Tính riêng tư"
+"  của dự án quá chặt chẽ. Thiết lập Tính riêng tư thành 'Thấy được bởi Khách"
+" hàng dưới đây' để cho phép những người nhận này có thể truy cập.\nLưu ý: Liên kết dưới đây"
+" được sử dụng để chia sẻ Dự án mà không cần đăng nhập."
 
 #. module: project
 #: code:addons/project/models/project.py:571
@@ -2819,6 +2819,10 @@ msgid ""
 "project is too restricted. Set the privacy of the project to 'Visible by "
 "following customers' in order to make it accessible by the recipient(s)."
 msgstr ""
+"Nhiệm vụ này không thể được thấy bởi người nhận được chọn dưới đây do Tính riêng tư"
+"  của dự án quá chặt chẽ. Thiết lập Tính riêng tư của dự án thành 'Thấy được bởi Khách"
+" hàng dưới đây' để cho phép những người nhận này có thể truy cập.\nLưu ý: Liên kết dưới đây"
+" được sử dụng để chia sẻ nhiệm vụ mà không cần đăng nhập."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_projects
