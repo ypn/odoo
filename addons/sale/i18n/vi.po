@@ -132,7 +132,7 @@ msgstr ""
 "        có giá trị <strong>${format_amount(object.amount_total, object.pricelist_id.currency_id)}</strong>\n"
 "        được gửi từ ${object.company_id.name}.\n"
 "        <br/><br/>\n"
-"        Đừng ngần ngại liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi hay cần thêm trợ giúp.\n"
+"        Đừng ngần ngại liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi hay cần trợ giúp thêm.\n"
 "    </p>\n"
 "</div>\n"
 "            "
@@ -145,7 +145,7 @@ msgstr "<i class=\"fa fa-check\"/> Đồng ý &amp; Ký"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<i class=\"fa fa-clock-o\" aria-title=\"Dates\" title=\"Dates\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-clock-o\" aria-title=\"Dates\" title=\"Ngày\"/>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -173,6 +173,8 @@ msgid ""
 "<i class=\"fa fa-download mr-1\" role=\"img\" aria-label=\"Download\" "
 "title=\"Download\"/>"
 msgstr ""
+"<i class=\"fa fa-download mr-1\" role=\"img\" aria-label=\"Tải xuống\" "
+"title=\"Tải xuống\"/>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -464,7 +466,9 @@ msgstr ""
 msgid "A typical example is the pre-paid hours of service,\n"
 "                where you want to sell extra hours to the customer\n"
 "                because the initial hours have already been used."
-msgstr ""
+msgstr "Một ví dụ điển hình là dịch vụ với số giờ trả trước,\n"
+"                mà bạn muốn bán thêm một số giờ nữa cho khách hàng\n"
+"                bởi vì số giờ ban đầu đã được sử dụng hết."
 
 #. module: sale
 #: model:res.groups,name:sale.group_warning_sale
@@ -650,7 +654,7 @@ msgstr "Áp dụng giảm giá thủ công cho các dòng đơn bán hoặc hi�
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Are you sure you want to void the authorized transaction? This action can't be undone."
-msgstr ""
+msgstr "Bạn có chắc muốn làm rỗng giao dịch đã được xác thực? Hàng động này không thể quay lại được."
 
 #. module: sale
 #: selection:product.template,expense_policy:0
@@ -3899,7 +3903,7 @@ msgstr "Bạn có thể tìm khách hàng bằng Tên, Mã số thuế, Email ho
 #: code:addons/sale/models/sale.py:277
 #, python-format
 msgid "You can not delete a sent quotation or a confirmed sales order. You must first cancel it."
-msgstr ""
+msgstr "Bạn không thể xoá một báo giá mà đã được gửi đi hoặc một đơn bán mà đã được xác nhận. Bạn phải huỷ nó trước."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:1516
@@ -3914,38 +3918,40 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_orders_to_invoice
 msgid "You can select all orders and invoice them in batch,<br>\n"
 "                or check every order and invoice them one by one."
-msgstr ""
+msgstr "Bạn có thể chọn toàn bộ các đơn hàng và xuất hoá đơn cho chúng cùng một lượt,<br>\n"
+"                hoặc kiểm tra từng đơn và xuất hoá đơn lần lượt cho từng đơn."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_payment_acquirer__so_reference_type
 msgid "You can set here the communication type that will appear on sales orders.The communication will be given to the customer when they choose the payment method."
-msgstr ""
+msgstr "Tại đây Bạn có thể thiết lập kiểu thông tin liên lạc mà sẽ xuất hiện ở các đơn bán. Thông tin này sẽ được cung cấp cho khách hàng khi họ chọn phương thức thanh toán."
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.product_template_action
 msgid "You must define a product for everything you purchase,\n"
 "                    whether it's a physical product, a consumable or services."
-msgstr ""
+msgstr "Bạn phải định nghĩa một sản phẩm cho mọi thứ mà bạn mua,\n"
+"                    dù cho đó là một hàng hoá vật thể, hàng tiêu dùng hay một dịch vụ."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your feedback..."
-msgstr ""
+msgstr "Phản hồi của bạn..."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order has been confirmed."
-msgstr ""
+msgstr "Đơn đặt hàng của bạn đã được xác nhận."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order has been signed but still needs to be paid to be confirmed."
-msgstr ""
+msgstr "Đơn đặt hàng của bạn đã được ký những vẫn còn cần phải thanh toán để chuyển sang trạng thái xác nhận."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order has been signed."
-msgstr ""
+msgstr "Đơn đặt hàng của bạn đã được ký."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -3988,7 +3994,7 @@ msgstr ""
 #: code:addons/sale/models/sale.py:115
 #, python-format
 msgid "sale order"
-msgstr ""
+msgstr "đơn bán"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__amount_by_group
