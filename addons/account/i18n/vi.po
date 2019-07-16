@@ -6046,7 +6046,7 @@ msgstr "Phát sinh Kế toán"
 #: model:ir.actions.client,name:account.action_manual_reconcile
 #, python-format
 msgid "Journal Items to Reconcile"
-msgstr "Phát sinh để đối soát"
+msgstr "Các Phát sinh chờ đối soát"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__name
@@ -6064,16 +6064,18 @@ msgid ""
 "Journal where the opening entry of this company's accounting has been "
 "posted."
 msgstr ""
+"Sổ nhật ký mà các bút toán kế toán đầu kỳ của công ty này sẽ được "
+"vào sổ."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_import_wizard__journal_id
 msgid "Journal where to generate the bills"
-msgstr ""
+msgstr "Sổ nhật ký mà sinh ra hoá các hoá đơn này"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__journal_currency_id
 msgid "Journal's Currency"
-msgstr ""
+msgstr "Tiền tệ của Sổ nhật ký"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_journal_form
