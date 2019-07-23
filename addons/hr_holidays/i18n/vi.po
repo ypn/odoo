@@ -35,18 +35,22 @@ msgid ""
 "request leaves and allocations;\tNo allocation: no allocation by default, "
 "users can freely request leaves;"
 msgstr ""
+"\tẤn định bởi Bộ phận Nhân sự: được cấp phát bởi Bộ phận Nhân sự và không thể vượt ngưỡng; người dùng có thể tạo các đơn "
+"xin nghỉ;\tẤn định bởi Bộ phận Nhân sự + Đề nghị Cấp phát: cấp phát bởi Bộ phận Nhân sự và người dùng có thể "
+"tạo đề nghị cấp phát và xin nghỉ;\tKhông cấp phát: không cấp phát mặc dịnh, "
+"người dùng có thể xin nghỉ tự do;"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave_type.py:265
 #, python-format
 msgid " days"
-msgstr ""
+msgstr " ngày"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave_type.py:265
 #, python-format
 msgid " hours"
-msgstr ""
+msgstr " giờ"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
@@ -89,7 +93,7 @@ msgstr "%s : %.2f ngày"
 #: code:addons/hr_holidays/models/hr_leave.py:466
 #, python-format
 msgid "%s : %.2f hour(s)"
-msgstr ""
+msgstr "%s : %.2f giờ"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave.py:440
@@ -101,7 +105,7 @@ msgstr "%s vào %s : %.2f ngày"
 #: code:addons/hr_holidays/models/hr_leave.py:481
 #, python-format
 msgid "%s on %s : %.2f hour(s)"
-msgstr ""
+msgstr "%s vài %s : %.2f giờ"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
@@ -135,202 +139,202 @@ msgstr "&lt;th class=\"text-center\" colspan="
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "0:30 AM"
-msgstr ""
+msgstr "0:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "0:30 PM"
-msgstr ""
+msgstr "0:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "10:00 AM"
-msgstr ""
+msgstr "10:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "10:00 PM"
-msgstr ""
+msgstr "10:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "10:30 AM"
-msgstr ""
+msgstr "10:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "10:30 PM"
-msgstr ""
+msgstr "10:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "11:00 AM"
-msgstr ""
+msgstr "11:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "11:00 PM"
-msgstr ""
+msgstr "11:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "11:30 AM"
-msgstr ""
+msgstr "11:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "11:30 PM"
-msgstr ""
+msgstr "11:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "12:00 AM"
-msgstr ""
+msgstr "12:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "12:00 PM"
-msgstr ""
+msgstr "12:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "1:00 AM"
-msgstr ""
+msgstr "1:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "1:00 PM"
-msgstr ""
+msgstr "1:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "1:30 AM"
-msgstr ""
+msgstr "1:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "1:30 PM"
-msgstr ""
+msgstr "1:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "2:00 AM"
-msgstr ""
+msgstr "2:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "2:00 PM"
-msgstr ""
+msgstr "2:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "2:30 AM"
-msgstr ""
+msgstr "2:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "2:30 PM"
-msgstr ""
+msgstr "2:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "3:00 AM"
-msgstr ""
+msgstr "3:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "3:00 PM"
-msgstr ""
+msgstr "3:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "3:30 AM"
-msgstr ""
+msgstr "3:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "3:30 PM"
-msgstr ""
+msgstr "3:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "4:00 AM"
-msgstr ""
+msgstr "4:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "4:00 PM"
-msgstr ""
+msgstr "4:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "4:30 AM"
-msgstr ""
+msgstr "4:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "4:30 PM"
-msgstr ""
+msgstr "4:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "5:00 AM"
-msgstr ""
+msgstr "5:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "5:00 PM"
-msgstr ""
+msgstr "5:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "5:30 AM"
-msgstr ""
+msgstr "5:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "5:30 PM"
-msgstr ""
+msgstr "5:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "6:00 AM"
-msgstr ""
+msgstr "6:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "6:00 PM"
-msgstr ""
+msgstr "6:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "6:30 AM"
-msgstr ""
+msgstr "6:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "6:30 PM"
-msgstr ""
+msgstr "6:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "7:00 AM"
-msgstr ""
+msgstr "7:00 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "7:00 PM"
-msgstr ""
+msgstr "7:00 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "7:30 AM"
-msgstr ""
+msgstr "7:30 SA"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
 msgid "7:30 PM"
-msgstr ""
+msgstr "7:30 CH"
 
 #. module: hr_holidays
 #: selection:hr.leave,request_hour_from:0 selection:hr.leave,request_hour_to:0
@@ -392,12 +396,12 @@ msgstr ""
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "<span class=\"ml8\">Days</span>"
-msgstr ""
+msgstr "<span class=\"ml8\">Ngày</span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
 msgid "<span class=\"ml8\">Hours</span>"
-msgstr ""
+msgstr "<span class=\"ml8\">Giờ</span>"
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager
@@ -1143,12 +1147,12 @@ msgstr "Duyệt Lần đầu"
 #. module: hr_holidays
 #: selection:hr.leave.type,allocation_type:0
 msgid "Fixed by HR"
-msgstr ""
+msgstr "Ấn định bởi Bộ phận Nhân sự"
 
 #. module: hr_holidays
 #: selection:hr.leave.type,allocation_type:0
 msgid "Fixed by HR + allocation request"
-msgstr ""
+msgstr "Ấn định bởi Bộ phận Nhân sự + Đề nghị Cấp phát"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__message_follower_ids
@@ -1783,7 +1787,7 @@ msgstr "Kiểu hành động kế tiếp"
 #. module: hr_holidays
 #: selection:hr.leave.type,allocation_type:0
 msgid "No allocation"
-msgstr ""
+msgstr "Không cấp phát"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__message_needaction_counter
