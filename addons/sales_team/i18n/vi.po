@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sales_team
-#
+# 
 # Translators:
 # Martin Trigaux, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
 "Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sales_team
@@ -68,7 +68,7 @@ msgstr "Nước Mỹ"
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
 msgid "Archived"
-msgstr "Đã lưu "
+msgstr "Đã lưu"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_attachment_count
@@ -83,7 +83,7 @@ msgstr "Ảnh đại diện"
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_type:0
 msgid "Bar"
-msgstr "Bar"
+msgstr "Cột"
 
 #. module: sales_team
 #: code:addons/sales_team/models/crm_team.py:274
@@ -160,7 +160,7 @@ msgstr "Ngày"
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_salesteams_act
 #: model_terms:ir.actions.act_window,help:sales_team.sales_team_config_action
 msgid "Define a new Sales Team"
-msgstr ""
+msgstr "Định nghĩa một đội bán hàng mới"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__display_name
@@ -255,6 +255,8 @@ msgid ""
 "If set, this Sales Team will be used for sales and assignations related to "
 "this partner"
 msgstr ""
+"Nếu chọn, nhóm bán hàng này sẽ được dùng để kinh doanh và giao các vấn đề "
+"liên quan của đối tác này"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__active
@@ -262,11 +264,13 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Sales "
 "Team without removing it."
 msgstr ""
+"Nếu chọn là không, nó sẽ không phép bạn ẩn thông tin nhóm bán hàng mà không "
+"cần xóa nó."
 
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_model:0
 msgid "Invoices"
-msgstr "Các hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_is_follower
@@ -296,12 +300,12 @@ msgstr "Cập nhật lần cuối"
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_period:0
 msgid "Last Week"
-msgstr "Tuần gần nhất"
+msgstr "Tuần Trước"
 
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_period:0
 msgid "Last Year"
-msgstr "Năm gần nhất"
+msgstr "Năm ngoái"
 
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_type:0
@@ -372,12 +376,12 @@ msgstr "Số thông điệp chưa đọc"
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_model:0
 msgid "Pipeline"
-msgstr "Đường dẫn Pipeline"
+msgstr "Cơ hội"
 
 #. module: sales_team
 #: selection:crm.team,team_type:0
 msgid "Point of Sale"
-msgstr "Điểm bán hàng"
+msgstr "Điểm bán lẻ"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__reply_to
@@ -408,6 +412,8 @@ msgid ""
 "Sales Team the user is member of. Used to compute the members of a Sales "
 "Team through the inverse one2many"
 msgstr ""
+"Người dùng nếu là 1 thành viên của nhóm bán hàng. Sẽ được dùng để tính toán "
+"thông tin của các thành viên trong nhóm bán hàng"
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.sales_team_config_action
@@ -463,7 +469,7 @@ msgstr "Cơ hôi theo nhóm bán hàng"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__team_type
 msgid "Team Type"
-msgstr ""
+msgstr "Kiểu nhóm"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__color
@@ -476,6 +482,8 @@ msgid ""
 "The email address put in the 'Reply-To' of all emails sent by Odoo about "
 "cases in this Sales Team"
 msgstr ""
+"Địa chỉ email phải được đưa vào 'Reply-To' của tất cả email gửi từ hệ thống "
+"trong tất cả các trường hợp của nhóm bán hàng này"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__dashboard_graph_model
@@ -508,7 +516,7 @@ msgstr "Kiểu"
 #: code:addons/sales_team/models/crm_team.py:178
 #, python-format
 msgid "Undefined graph model for Sales Team: %s"
-msgstr ""
+msgstr "Không thể quy định đối tượng biểu đồ cho Đội bán hàng: %s"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_unread
@@ -527,11 +535,13 @@ msgid ""
 "Use Sales Teams to organize your sales departments.\n"
 "                    Each channel will work with a separate pipeline."
 msgstr ""
+"Sử dụng đội bán hàng để tổ chức các bộ phận bán hàng của bạn.\n"
+"                    Mỗi kênh sẽ hoạt động với một luồng riêng biệt."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_res_users__sale_team_id
 msgid "User's Sales Team"
-msgstr ""
+msgstr "Đội bán hàng của người dùng"
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman_all_leads
