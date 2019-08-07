@@ -3877,7 +3877,7 @@ msgstr "Ngày"
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__day_of_the_month
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_tree
 msgid "Day of the month"
-msgstr ""
+msgstr "Ngày trong tháng"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line__day_of_the_month
@@ -3887,6 +3887,11 @@ msgid ""
 "greater than the last day of a month, this number will instead select the "
 "last day of this month."
 msgstr ""
+"Ngày trong tháng mà tại đó hoá đơn đến hạn. Nếu bằng 0 hoặc số âm, giá trị "
+"sẽ được bỏ qua và sẽ không có ngày cụ thể nào được thiết lập. Nếu lớn hơn ngày "
+"cuối cùng của tháng, Odoo sẽ tự động chọn ngày cuối của tháng này thay vì ngày "
+"nhập vào."
+
 
 #. module: account
 #: code:addons/account/models/company.py:51
@@ -3949,7 +3954,7 @@ msgstr "Trình tự Hoá đơn Hoàn tiền Riêng biệt"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__invoice_reference_type
 msgid "Default Communication Type"
-msgstr ""
+msgstr "Kiểu Thông tin Mặc định"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__default_credit_account_id
