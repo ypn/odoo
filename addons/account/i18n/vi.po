@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-10 09:57+0000\n"
+"POT-Creation-Date: 2019-08-08 13:35+0000\n"
 "PO-Revision-Date: 2018-08-24 09:14+0000\n"
 "Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
@@ -86,7 +86,7 @@ msgstr "%s (bản sao)"
 #: code:addons/account/models/account.py:688
 #, python-format
 msgid "%s Sequence"
-msgstr ""
+msgstr "Trình tự %s"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -263,7 +263,7 @@ msgstr "<i class=\"fa fa-download\"/> Tải xuống"
 msgid ""
 "<i class=\"fa fa-ellipsis-v\" aria-label=\"Selection\" role=\"img\" "
 "title=\"Selection\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-ellipsis-v\" aria-label=\"Selection\" role=\"img\" title=\"Chọn\"/>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
@@ -3358,7 +3358,7 @@ msgstr "Tạo nhóm tài khoản mới"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
 msgid "Create a new cash log"
-msgstr ""
+msgstr "Bấm để tạo mới một nhật ký tiền mặt"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_fiscal_position_form
@@ -4294,7 +4294,7 @@ msgstr ""
 #: selection:res.company,account_setup_coa_state:0
 #: selection:res.company,account_setup_fy_data_state:0
 msgid "Done"
-msgstr "Hoàn tất"
+msgstr "Hoàn thành"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
@@ -4378,12 +4378,19 @@ msgid "Due the"
 msgstr "Đến hạn vào ngày"
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:1271
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#. module: account
+#: code:addons/account/models/account_invoice.py:1303
 #, python-format
 msgid ""
 "Duplicated vendor reference detected. You probably encoded twice the same "
 "vendor bill/credit note."
 msgstr ""
+"Phát hiện có tham chiếu từ nhà cung cấp bị lặp lại. Chắc bạn đã ghi nhận 2 "
+"lần cho cùng một hóa đơn nhà cung cấp / hóa đơn hoàn trả."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_reports
@@ -6179,12 +6186,16 @@ msgstr ""
 "Để trống trường này để dùng giá trị mặc định thiết lập trong nhóm sản phẩm."
 
 #. module: account
+#: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
 #: model:ir.model.fields,help:account.field_product_template__property_account_expense_id
 msgid ""
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
 msgstr ""
+"Giữ trường này trống để sử dụng giá trị mặc định từ danh mục sản phẩm. Nếu "
+"kế toán anglo-saxon với phương pháp định giá tự động được định cấu hình, tài"
+" khoản chi phí trên danh mục sản phẩm sẽ được sử dụng."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue_value
@@ -6211,7 +6222,7 @@ msgstr "Nhãn"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_label_param
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_label_param
 msgid "Label Parameter"
-msgstr ""
+msgstr "Tham số nhãn"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__description
@@ -6404,6 +6415,7 @@ msgstr "Cập nhật lần cuối"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner__last_time_entries_checked
+#: model:ir.model.fields,help:account.field_res_users__last_time_entries_checked
 msgid ""
 "Last time the invoices & payments matching was performed for this partner. "
 "It is set either if there's not at least an unreconciled debit and an "
@@ -6432,6 +6444,7 @@ msgstr "Hoạt động bị Muộn"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__last_time_entries_checked
 #: model:ir.model.fields,field_description:account.field_res_partner__last_time_entries_checked
+#: model:ir.model.fields,field_description:account.field_res_users__last_time_entries_checked
 msgid "Latest Invoices & Payments Matching Date"
 msgstr "Ngày đối chiếu Hoá đơn & Thanh toán gần nhất"
 
@@ -6521,7 +6534,7 @@ msgstr "Nạp thêm"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:154
 #, python-format
 msgid "Load more... ("
-msgstr ""
+msgstr "Nhiều hơn... ("
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__fiscalyear_lock_date
@@ -7107,7 +7120,7 @@ msgstr "Không chứa"
 #: selection:res.company,account_setup_coa_state:0
 #: selection:res.company,account_setup_fy_data_state:0
 msgid "Not done"
-msgstr ""
+msgstr "Chưa hoàn thành"
 
 #. module: account
 #. openerp-web
@@ -7194,7 +7207,7 @@ msgstr "Số lượng Hành động"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cashbox_line__number
 msgid "Number of Coins/Bills"
-msgstr "Số lượng Coins/Bills"
+msgstr "Số lượng đồng tiền"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__days
@@ -7220,7 +7233,7 @@ msgstr "Số thông điệp cần có hành động"
 #: model:ir.model.fields,help:account.field_account_invoice__message_has_error_counter
 #: model:ir.model.fields,help:account.field_account_payment__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Số tin gửi đi bị lỗi"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement__message_unread_counter
@@ -9768,7 +9781,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice__amount_by_group
 msgid "Tax amount by group"
-msgstr ""
+msgstr "Số tiền thuế theo nhóm"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__tax_calculation_rounding_method
@@ -9831,14 +9844,20 @@ msgid "Taxes"
 msgstr "Các loại Thuế"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_move_line__tax_ids
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Taxes Applied"
-msgstr ""
+msgstr "Thuế được áp dụng"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_template_form
 msgid "Taxes Mapping"
 msgstr "Ánh xạ các Thuế"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__tax_ids
+msgid "Taxes that apply on the base amount"
+msgstr "Các thuế mà áp dụng đối với giá trị cơ sở"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_search
@@ -11756,9 +11775,11 @@ msgid ""
 "You cannot create journal items with a secondary currency without filling "
 "both 'currency' and 'amount currency' fields."
 msgstr ""
+"Bạn không thể tạo các bút toán sổ nhật ký với tiền tệ thứ hai mà không khai "
+"báo trường 'tiền tệ' và 'giá trị nguyên tệ'."
 
 #. module: account
-#: code:addons/account/models/company.py:171
+#: code:addons/account/models/company.py:187
 #, python-format
 msgid ""
 "You cannot define stricter conditions on advisors than on users. Please make"
@@ -11769,13 +11790,13 @@ msgstr ""
 " chính được đặt trước ngày khóa cho người dùng."
 
 #. module: account
-#: code:addons/account/models/account_payment.py:583
+#: code:addons/account/models/account_payment.py:611
 #, python-format
 msgid "You cannot delete a payment that is already posted."
-msgstr ""
+msgstr "Bạn không thể xóa một khoản thanh toán mà đã vào sổ rồi."
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:729
+#: code:addons/account/models/account_invoice.py:786
 #, python-format
 msgid ""
 "You cannot delete an invoice after it has been validated (and received a "
@@ -11787,12 +11808,14 @@ msgstr ""
 "\"Dự thảo\" để sửa lại nội dung của nó rồi xác nhận lại."
 
 #. module: account
-#: code:addons/account/models/account_invoice.py:727
+#: code:addons/account/models/account_invoice.py:784
 #, python-format
 msgid ""
 "You cannot delete an invoice which is not draft or cancelled. You should "
 "create a credit note instead."
 msgstr ""
+"Bạn không thể xóa một hóa đơn không ở trạng thái dự thảo hoặc hủy bỏ. Bạn nên "
+"tạo một hóa đơn điều chỉnh giảm thay thế."
 
 #. module: account
 #: code:addons/account/models/res_config_settings.py:146
@@ -11801,6 +11824,8 @@ msgid ""
 "You cannot disable this setting because some of your taxes are cash basis. "
 "Modify your taxes first before disabling this setting."
 msgstr ""
+"Bạn không thể tắt cài đặt này vì một số thuế của bạn là tiền mặt. Sửa đổi "
+"thuế của bạn trước khi vô hiệu hóa cài đặt này."
 
 #. module: account
 #: code:addons/account/models/account_move.py:1146
@@ -11839,6 +11864,8 @@ msgid ""
 "You cannot have more than one account with \"Current Year Earnings\" as "
 "type. (accounts: %s)"
 msgstr ""
+"Bạn không thể có nhiều hơn một tài khoản loại \"Doanh thu năm hiện tại\". "
+"(tài khoản: %s)"
 
 #. module: account
 #: code:addons/account/models/company.py:160
@@ -11865,6 +11892,8 @@ msgstr ""
 #, python-format
 msgid "You cannot modify a journal entry linked to a posted payment."
 msgstr ""
+"Bạn không thể sửa đổi một bút toán được liên kết với một thanh toán đã đưa "
+"vào sổ."
 
 #. module: account
 #: code:addons/account/models/account_move.py:331
@@ -11892,6 +11921,7 @@ msgstr ""
 msgid ""
 "You cannot perform this action on an account that contains journal items."
 msgstr ""
+"Bạn không thể làm điều đó trên một tài khoản đã có phát sinh bút toán."
 
 #. module: account
 #: code:addons/account/wizard/pos_box.py:36

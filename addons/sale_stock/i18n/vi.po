@@ -5,10 +5,10 @@
 # Translators:
 # Martin Trigaux, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
-# Duy Pham <phamduy1812@gmail.com>, 2018
-# Minh Nguyen <ndminh210994@gmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
+# Minh Nguyen <ndminh210994@gmail.com>, 2018
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# Christine Nguyen <dungnt@trobz.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:32+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Christine Nguyen <dungnt@trobz.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,9 @@ msgid ""
 "There are %s %s available across all warehouses.\n"
 "\n"
 msgstr ""
+"\n"
+"Có %s %s khả dụng trong tất cả các kho.\n"
+"\n"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -39,6 +42,8 @@ msgid ""
 ".\n"
 "                Manual actions may be needed."
 msgstr ""
+".\n"
+"                Có thể cần xử lý thủ công."
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
@@ -46,6 +51,8 @@ msgid ""
 "<span class=\"badge badge-danger label-text-align\"><i class=\"fa fa-fw fa-"
 "times\"/> Cancelled</span>"
 msgstr ""
+"<span class=\"badge badge-danger label-text-align\"><i class=\"fa fa-fw fa-"
+"times\"/> Đã hủy</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
@@ -53,6 +60,8 @@ msgid ""
 "<span class=\"badge badge-info label-text-align\"><i class=\"fa fa-fw fa-"
 "clock-o\"/> Preparation</span>"
 msgstr ""
+"<span class=\"badge badge-info label-text-align\"><i class=\"fa fa-fw fa-"
+"clock-o\"/> Chuẩn bị</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
@@ -60,6 +69,8 @@ msgid ""
 "<span class=\"badge badge-success label-text-align\"><i class=\"fa fa-fw fa-"
 "truck\"/> Shipped</span>"
 msgstr ""
+"<span class=\"badge badge-success label-text-align\"><i class=\"fa fa-fw fa-"
+"truck\"/> Đã giao</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
@@ -67,6 +78,8 @@ msgid ""
 "<span class=\"badge badge-warning label-text-align\"><i class=\"fa fa-fw fa-"
 "clock-o\"/> Partially Available</span>"
 msgstr ""
+"<span class=\"badge badge-warning label-text-align\"><i class=\"fa fa-fw fa-"
+"clock-o\"/> Khả dụng một phần</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
@@ -74,6 +87,8 @@ msgid ""
 "<span class=\"fa fa-download\" role=\"img\" aria-label=\"Download\" "
 "title=\"Download\"/>"
 msgstr ""
+"<span class=\"fa fa-download\" role=\"img\" aria-label=\"Download\" "
+"title=\"Tải xuống\"/"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
@@ -86,12 +101,12 @@ msgstr ""
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Sale Orders</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Đơn bán</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.product_template_view_form_inherit_stock
 msgid "<span class=\"o_stat_text\">Sold</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Đã bán</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.report_delivery_document_inherit_sale_stock
@@ -101,7 +116,7 @@ msgstr "<strong>Tham chiếu Khách hàng:</strong>"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
 msgid "<strong>Delivery Orders</strong>"
-msgstr "<strong>Lệnh Giao hàng</strong>"
+msgstr "<strong>Phiếu giao hàng</strong>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.report_invoice_document_inherit_sale_stock
@@ -142,12 +157,12 @@ msgstr "Áp dụng các tuyến đặc biệt trên đơn hàng (vd: dropshippin
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_rules_report__so_route_ids
 msgid "Apply specific rotues"
-msgstr ""
+msgstr "Áp dụng tuyến cụ thể"
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_stock_rules_report__so_route_ids
 msgid "Choose to apply SO lines specific routes."
-msgstr ""
+msgstr "Chọn để áp dụng các tuyến cụ thể cho từng dòng đơn bán."
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_res_company
@@ -199,7 +214,7 @@ msgstr "Hiển thị Incoterms trên đơn hàng &amp; hoá đơn"
 #, python-format
 msgid ""
 "Do not forget to change the partner on the following delivery orders: %s"
-msgstr ""
+msgstr "Đừng quên cập nhật đối tác trên phiếu xuất giao hàng sau đây: %s"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__effective_date
@@ -234,11 +249,14 @@ msgid ""
 "based on the greatest product lead time. Otherwise, it will be based on the "
 "shortest."
 msgstr ""
+"Nếu bạn giao toàn bộ hàng trong một lần, phiếu giao hàng sẽ được lên lịch "
+"dựa trên sản phẩm cần thời gian giao hàng lâu nhất. Ngược lại, hệ thống sẽ "
+"dựa vào thời gian ngắn nhất."
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "Impacted Transfer(s):"
-msgstr ""
+msgstr "Điều chuyển bị ảnh hưởng"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_account_invoice__incoterms_id
@@ -246,7 +264,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__incoterm
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_sale
 msgid "Incoterms"
-msgstr ""
+msgstr "Incoterms"
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_account_invoice__incoterms_id
@@ -276,7 +294,7 @@ msgstr "Định tuyến Kho"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_invoice
 msgid "Invoice"
-msgstr "Hóa đơn"
+msgstr "Hoá đơn"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_invoice_line
@@ -297,7 +315,7 @@ msgstr "Lô/Số sê-ri"
 #: code:addons/sale_stock/models/sale_order.py:418
 #, python-format
 msgid "Make To Order"
-msgstr "Cung ứng theo đơn hàng (MTO)"
+msgstr "Cung ứng theo đơn (MTO)"
 
 #. module: sale_stock
 #: selection:sale.order.line,qty_delivered_method:0
@@ -515,17 +533,17 @@ msgstr "Dịch chuyển kho"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_rule
 msgid "Stock Rule"
-msgstr "Quy tắc Kho"
+msgstr "Quy tắc Dự trữ"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_rules_report
 msgid "Stock Rules report"
-msgstr "Báo cáo Quy tắc Kho"
+msgstr "Báo cáo Quy tắc Dự trữ"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_report_stock_report_stock_rule
 msgid "Stock rule report"
-msgstr "Báo cáo Quy tắc Kho"
+msgstr "Báo cáo Quy tắc Dự trữ"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_sale
@@ -554,7 +572,7 @@ msgstr "Thời gian biểu"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_picking
 msgid "Transfer"
-msgstr "Dịch chuyển"
+msgstr "Điều chuyển"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__warehouse_id
@@ -577,7 +595,7 @@ msgstr "Cảnh báo!"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "When to reserve sold products"
-msgstr "Khi nào thì xí phần cho các sản phẩm được bán"
+msgstr "Khi nào thì giữ phần cho các sản phẩm được bán"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
@@ -616,7 +634,7 @@ msgstr ""
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "cancelled"
-msgstr ""
+msgstr "đã hủy"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock

@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:24+0000\n"
-"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Christine Nguyen <dungnt@trobz.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr ""
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Purchase Orders</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Đơn Mua</span>"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_rule__action
@@ -58,7 +58,7 @@ msgstr "Quy tắc mua"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse__buy_to_resupply
 msgid "Buy to Resupply"
-msgstr ""
+msgstr "Mua để tái cung ứng"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_res_config_settings
@@ -73,7 +73,7 @@ msgstr "Chi tiết đơn hàng đã tạo"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__picking_type_id
 msgid "Deliver To"
-msgstr "Giao tới"
+msgstr "Giao đến"
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_product_template__route_ids
@@ -81,6 +81,8 @@ msgid ""
 "Depending on the modules installed, this will allow you to define the route "
 "of the product: whether it will be bought, manufactured, MTO, etc."
 msgstr ""
+"Tùy thuộc vào phân hệ được cài đặt, cấu hình này sẽ cho phép bạn xác định "
+"phương pháp cung ứng sản phẩm: sản phẩm có thể được mua, sản xuất, MTO, v.v.. "
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__default_location_dest_id_usage
@@ -100,12 +102,12 @@ msgstr "Vận chuyển giao hàng"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Exception(s) occurred on the purchase order(s):"
-msgstr ""
+msgstr "(Các) ngoại lệ xảy ra trên (các) đơn mua:"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Exception(s):"
-msgstr "Các ngoại lệ:"
+msgstr "(Các) ngoại lệ:"
 
 #. module: purchase_stock
 #: model:ir.ui.menu,name:purchase_stock.menu_action_picking_tree_in_move
@@ -144,12 +146,12 @@ msgstr "Đã giao"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_res_config_settings__is_installed_sale
 msgid "Is the Sale Module Installed"
-msgstr "Module Kinh doanh đã cài đặt"
+msgstr "Module Bán đã cài đặt chưa"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
 msgid "Logistics"
-msgstr "Tuyến hậu cần"
+msgstr "Logistics"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_production_lot
@@ -159,7 +161,7 @@ msgstr "Lô/Số sê-ri"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Manual actions may be needed."
-msgstr ""
+msgstr "Có thể cần xử lý thủ công."
 
 #. module: purchase_stock
 #: selection:stock.rule,action:0
@@ -173,9 +175,9 @@ msgid ""
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
-"Biên độ lỗi cho thời gian chờ của nhà cung cấp. Khi hệ thống tạo Đơn đặt "
-"hàng để cung ứng lại các sản phẩm, chúng sẽ được lên lịch trước đó nhiều "
-"ngày để đối phó với sự chậm trễ của nhà cung cấp không mong muốn."
+"Biên độ lỗi cho thời gian chờ của nhà cung cấp. Khi hệ thống tạo Đơn Mua "
+"để tái cung ứng các sản phẩm, chúng sẽ được lên lịch trước đó nhiều "
+"ngày để đối phó với sự chậm trễ không mong muốn từ phía nhà cung cấp."
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_warehouse_orderpoint
@@ -190,7 +192,7 @@ msgstr "Ngày dự kiến giao hàng theo"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Next transfer(s) impacted:"
-msgstr ""
+msgstr "Dịch chuyển tiếp theo bị ảnh hưởng:"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__orderpoint_id
@@ -200,7 +202,7 @@ msgstr "Điểm đặt hàng"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__picking_count
 msgid "Picking count"
-msgstr ""
+msgstr "Số đơn điều chuyển"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__group_id
@@ -248,7 +250,7 @@ msgstr "Báo cáo Mua"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_production_lot__purchase_order_count
 msgid "Purchase order count"
-msgstr ""
+msgstr "Số lượng đơn mua"
 
 #. module: purchase_stock
 #: selection:stock.rule,action:0
@@ -309,12 +311,12 @@ msgstr "Dịch chuyển kho"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_rule
 msgid "Stock Rule"
-msgstr "Quy tắc tồn kho"
+msgstr "Quy tắc dự trữ"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_report_stock_report_stock_rule
 msgid "Stock rule report"
-msgstr ""
+msgstr "Báo cáo quy tắc kho"
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__default_location_dest_id_usage
@@ -405,6 +407,8 @@ msgid ""
 "You cannot decrease the ordered quantity below the received quantity.\n"
 "Create a return first."
 msgstr ""
+"Bạn không thể giảm số lượng đặt hàng xuống dưới số lượng đã nhận được.\n"
+" Bạn cần phải trả bớt hàng trước."
 
 #. module: purchase_stock
 #: code:addons/purchase_stock/models/purchase.py:186
@@ -425,4 +429,4 @@ msgstr "của"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "ordered instead of"
-msgstr ""
+msgstr "được đặt mua thay vì"

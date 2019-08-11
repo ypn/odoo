@@ -10,6 +10,7 @@
 # fanha99 <fanha99@hotmail.com>, 2019
 # Duy BQ <duybq86@gmail.com>, 2019
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# Chinh Chinh <trinhttp@trobz.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -17,12 +18,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Chinh Chinh <trinhttp@trobz.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: analytic
@@ -84,7 +85,7 @@ msgstr "Kế toán quản trị"
 #. module: analytic
 #: model:res.groups,name:analytic.group_analytic_tags
 msgid "Analytic Accounting Tags"
-msgstr ""
+msgstr "Thẻ Tài khoản Quản trị"
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.action_account_analytic_account_form
@@ -96,7 +97,7 @@ msgstr "Tài khoản quản trị"
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_group
 msgid "Analytic Categories"
-msgstr ""
+msgstr "Nhóm Tài khoản Quản trị"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__active_analytic_distribution
@@ -134,7 +135,7 @@ msgstr "Phát sinh KT Quản trị"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__name
 msgid "Analytic Tag"
-msgstr "Tag KT Quản trị"
+msgstr "Thẻ TK Quản trị"
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_tag_action
@@ -142,7 +143,7 @@ msgstr "Tag KT Quản trị"
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_tag_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_tag_tree_view
 msgid "Analytic Tags"
-msgstr "Thẻ KT Quản trị"
+msgstr "Thẻ TK Quản trị"
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
@@ -173,17 +174,17 @@ msgstr "Số dư:"
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.action_analytic_account_form
 msgid "Chart of Analytic Accounts"
-msgstr "Hệ thống Tài khoản phân tích"
+msgstr "Hệ thống Tài khoản Quản trị"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_group__children_ids
 msgid "Childrens"
-msgstr ""
+msgstr "Tài khoản con"
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_group_action
 msgid "Click to add a new analytic account group."
-msgstr ""
+msgstr "Chọn để thêm mới một nhóm tài khoản quản trị."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__color
@@ -261,7 +262,7 @@ msgstr "Khách hàng"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__date
 msgid "Date"
-msgstr "Ngày tháng"
+msgstr "Ngày"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__debit
@@ -413,12 +414,12 @@ msgstr "Tên"
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid "No activity yet"
-msgstr ""
+msgstr "Chưa có hoạt động nào"
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 msgid "No activity yet on this account"
-msgstr ""
+msgstr "Chưa có hoạt động nào ở tài khoản này"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction_counter
@@ -458,7 +459,7 @@ msgstr "Parent Path"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution__tag_id
 msgid "Parent tag"
-msgstr ""
+msgstr "Thẻ cha"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__partner_id
@@ -513,13 +514,14 @@ msgstr "Từ khóa"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
 msgid "Tasks Date"
-msgstr ""
+msgstr "Ngày nhiệm vụ"
 
 #. module: analytic
 #: sql_constraint:account.analytic.distribution:0
 msgid ""
 "The percentage of an analytic distribution should be between 0 and 100."
 msgstr ""
+"Tỷ lệ phần trăm của phân bổ quản trị phải nằm trong khoảng 0 và 100."
 
 #. module: analytic
 #: code:addons/analytic/models/analytic_account.py:195
@@ -528,11 +530,12 @@ msgid ""
 "The selected account belongs to another company that the one you're trying "
 "to create an analytic item for"
 msgstr ""
+"Bạn đang tạo một phát sinh kế toán quản trị cho một tài khoản thuộc về công ty khác"
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_group_action
 msgid "This allows to classify your analytic accounts."
-msgstr ""
+msgstr "Điều này cho phép phân loại các tài khoản quản trị của bạn. "
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_tree
