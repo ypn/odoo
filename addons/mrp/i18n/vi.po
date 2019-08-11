@@ -397,8 +397,8 @@ msgid ""
 "All components could not be reserved. Click on the \"Check Availability "
 "button\" to try to reserve components."
 msgstr ""
-"Tất cả nguyên vật liệu đều không thể được xí trước. Bấm vào nút \"Kiểm tra khả dụng"
-"để thử xí trước nguyên vật liệu."
+"Tất cả nguyên vật liệu đều không thể được giữ trước. Bấm vào nút \"Kiểm tra khả dụng"
+"để thử giữ phần nguyên vật liệu."
 
 #. module: mrp
 #: sql_constraint:mrp.bom.line:0
@@ -419,7 +419,7 @@ msgstr "Cho phép nhập kho"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__unreserve_visible
 msgid "Allowed to Unreserve Inventory"
-msgstr "Cho phép Bỏ xí trước"
+msgstr "Cho phép Bỏ giữ phần"
 
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.mrp_unbuild
@@ -2979,7 +2979,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.view_stock_move_lots
 msgid "Reserved"
-msgstr "Đã xí"
+msgstr "Đã giữ phần"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__resource_id
@@ -3441,7 +3441,7 @@ msgstr "Trường kỹ thuật để kiểm tra khi chúng ta có thể vào s�
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__unreserve_visible
 msgid "Technical field to check when we can unreserve"
-msgstr "Trường kỹ thuật để kiểm tra khi chúng ta có thể thôi xí phần"
+msgstr "Trường kỹ thuật để kiểm tra khi chúng ta có thể thôi giữ phần"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_document__key
@@ -3947,7 +3947,7 @@ msgstr "Bộ đếm Thông điệp chưa đọc"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unreserve"
-msgstr "Thôi Xí"
+msgstr "Thôi giữ phần"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
