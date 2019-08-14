@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * analytic
+#	* analytic
 #
 # Translators:
 # Martin Trigaux, 2018
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
-"PO-Revision-Date: 2018-08-24 09:15+0000\n"
+"PO-Revision-Date: 2019-08-14 03:23+0000\n"
 "Last-Translator: Chinh Chinh <trinhttp@trobz.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +148,7 @@ msgstr "Thẻ TK Quản trị"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
 msgid "Archived"
-msgstr "Vô hiệu"
+msgstr "Lưu trữ"
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
@@ -205,6 +205,11 @@ msgid "Complete Name"
 msgstr "Tên đầy đủ"
 
 #. module: analytic
+#: model:account.analytic.tag,name:analytic.tag_contract
+msgid "Contracts"
+msgstr "Hợp đồng"
+
+#. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "Cost/Revenue"
 msgstr "Chi phí/Doanh thu"
@@ -217,12 +222,10 @@ msgstr "Chi phí & Doanh thu"
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
-msgid ""
-"Costs will be created automatically when you register supplier\n"
+msgid "Costs will be created automatically when you register supplier\n"
 "                invoices, expenses or timesheets."
-msgstr ""
-"Chi phí sẽ được tạo tự động khi bạn ghi nhận mọt Hoá đơn nhà cung cấp,\n"
-"                chi tiêu nhân viên, bảng chấm công (timesheet)."
+msgstr "Chi phí sẽ được tạo tự động khi bạn ghi nhận Hoá đơn nhà cung cấp,\n"
+"                Chi tiêu nhân viên hoặc Chấm công (timesheet)."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__create_uid
@@ -288,7 +291,7 @@ msgstr "Tên hiển thị"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_follower_ids
 msgid "Followers"
-msgstr "Theo dõi"
+msgstr "Người dõi theo"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_channel_ids
@@ -319,43 +322,37 @@ msgstr "Nhóm theo..."
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__id
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_unread
 msgid "If checked new messages require your attention."
-msgstr "Nếu đánh dấu chọn, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Nếu đánh dấu chọn, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Nếu chọn, sẽ hiển thị thông báo lỗi."
+msgstr "Nếu có đánh dấu, một số thông điệp có lỗi về gửi tin."
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__active
-msgid ""
-"If the active field is set to False, it will allow you to hide the account "
-"without removing it."
-msgstr ""
-"Nếu lĩnh vực hoạt động được thiết lập để sai, nó sẽ cho phép bạn ẩn các tài "
-"khoản mà không cần loại bỏ nó."
+msgid "If the active field is set to False, it will allow you to hide the account without removing it."
+msgstr "Nếu lĩnh vực hoạt động được thiết lập để sai, nó sẽ cho phép bạn ẩn các tài khoản mà không cần loại bỏ nó."
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
-msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+msgid "In Odoo, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
-msgstr ""
-"Ở Hệ thống, các đơn đặt hàng và dự án bán hàng được thực hiện bằng cách sử dụng\n"
-"                 tài khoản phân tích. Bạn có thể theo dõi chi phí và doanh thu để phân tích\n"
-"                 lợi nhuận của bạn dễ dàng."
+msgstr "Trong Odoo, các đơn bán và dự án được thực hiện bằng cách sử dụng\n"
+"                 tài khoản kế toán quản trị. Bạn có thể theo dõi chi phí và doanh thu để phân tích\n"
+"                 biên lợi nhuận một cách dễ dàng."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_is_follower
@@ -397,7 +394,7 @@ msgstr "Đính kèm chính"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error
 msgid "Message Delivery error"
-msgstr "Thông báo gửi đi gặp lỗi"
+msgstr "Có Lỗi Gửi Thông điệp"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_ids
@@ -439,7 +436,7 @@ msgstr "Số thông điệp cần có hành động"
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Số tin gửi đi bị lỗi"
+msgstr "Số lượng các thông điệp có lỗi về gửi tin"
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_unread_counter
@@ -449,12 +446,12 @@ msgstr "Số thông điệp chưa đọc"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_group__parent_id
 msgid "Parent"
-msgstr "Cha"
+msgstr "Cấp cha"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_group__parent_path
 msgid "Parent Path"
-msgstr "Parent Path"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution__tag_id
@@ -485,16 +482,14 @@ msgstr "Tham chiếu"
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
-msgid ""
-"Revenues will be created automatically when you create customer\n"
+msgid "Revenues will be created automatically when you create customer\n"
 "                invoices. Customer invoices can be created based on sales orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
-msgstr ""
-"Doanh thu sẽ được tạo tự động khi bạn tạo khách hàng\n"
-"                 hóa đơn. Hóa đơn khách hàng có thể được tạo dựa trên đơn đặt hàng\n"
-"                 (hóa đơn giá cố định), trên bảng chấm công (dựa trên công việc đã hoàn thành) hoặc\n"
-"                 về chi phí (ví dụ: tái phát minh chi phí đi lại)."
+msgstr "Doanh thu sẽ được tạo tự động khi bạn tạo hoá đơn\n"
+"                 khách hàng. Hóa đơn khách hàng có thể được tạo dựa trên đơn đặt hàng\n"
+"                 (hoá đơn giá cố định), bảng chấm công (theo công việc đã thực hiện) hoặc\n"
+"                 theo chi tiêu (ví dụ: xuất lại hoá dơn chi phí đi lại)."
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
@@ -509,7 +504,7 @@ msgstr "Thiết đặt hành động là sai để ẩn Thẻ phân tích mà kh
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__tag_ids
 msgid "Tags"
-msgstr "Từ khóa"
+msgstr "Thẻ"
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
@@ -518,19 +513,14 @@ msgstr "Ngày nhiệm vụ"
 
 #. module: analytic
 #: sql_constraint:account.analytic.distribution:0
-msgid ""
-"The percentage of an analytic distribution should be between 0 and 100."
-msgstr ""
-"Tỷ lệ phần trăm của phân bổ quản trị phải nằm trong khoảng 0 và 100."
+msgid "The percentage of an analytic distribution should be between 0 and 100."
+msgstr "Tỷ lệ phần trăm của phân bổ quản trị phải nằm trong khoảng 0 và 100."
 
 #. module: analytic
-#: code:addons/analytic/models/analytic_account.py:195
+#: code:addons/analytic/models/analytic_account.py:198
 #, python-format
-msgid ""
-"The selected account belongs to another company that the one you're trying "
-"to create an analytic item for"
-msgstr ""
-"Bạn đang tạo một phát sinh kế toán quản trị cho một tài khoản thuộc về công ty khác"
+msgid "The selected account belongs to another company that the one you're trying to create an analytic item for"
+msgstr "Bạn đang tạo một phát sinh kế toán quản trị cho một tài khoản thuộc về công ty khác"
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_group_action
@@ -545,12 +535,12 @@ msgstr "Tổng"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_id
 msgid "Unit of Measure"
-msgstr "Đơn vị Đo lường"
+msgstr "Đơn vị đo lường"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_unread
 msgid "Unread Messages"
-msgstr "Tin chưa đọc"
+msgstr "Thông điệp chưa đọc"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_unread_counter
@@ -563,16 +553,7 @@ msgid "User"
 msgstr "Người dùng"
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account__website_message_ids
-msgid "Website Messages"
-msgstr "Thông điệp Website"
-
-#. module: analytic
-#: model:ir.model.fields,help:analytic.field_account_analytic_account__website_message_ids
-msgid "Website communication history"
-msgstr "Lịch sử thông tin liên lạc website"
-
-#. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
 msgstr "vd. Dự án XYZ"
+
