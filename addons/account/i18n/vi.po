@@ -8090,7 +8090,7 @@ msgstr "Vào sổ Tất cả Bút toán"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__post_at_bank_rec
 msgid "Post At Bank Reconciliation"
-msgstr "Đưa vào sổ khi đối soát"
+msgstr "Vào sổ khi Đối soát Sao kê"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_from_invoices
@@ -11623,6 +11623,9 @@ msgid ""
 "draft state, so that the related journal entries are only posted when "
 "performing bank reconciliation."
 msgstr ""
+"Nếu chọn, các khoản thanh toán liên quan đến sổ nhật ký này sẽ được thiết "
+"lập ở trạng thái dự thảo. Sau khi đối soát với sao kê ngân hnagf thì mới "
+"vào sổ các khoản thanh toán này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_send__is_log

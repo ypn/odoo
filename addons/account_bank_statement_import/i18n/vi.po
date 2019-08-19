@@ -478,7 +478,7 @@ msgstr "Đồng ý"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__post_at_bank_rec
 msgid "Post At Bank Reconciliation"
-msgstr "Đưa vào sổ khi đối soát"
+msgstr "Vào sổ khi Đối soát Sao kê"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
@@ -636,9 +636,9 @@ msgid ""
 "draft state, so that the related journal entries are only posted when "
 "performing bank reconciliation."
 msgstr ""
-"Có hay không các khoản thanh toán được thực hiện trong sổ nhật ký này nên "
-"được tạo trong trạng thái dự thảo, để các mục nhật ký liên quan chỉ được "
-"đăng khi thực hiện đối soát sao kê."
+"Nếu chọn, các khoản thanh toán liên quan đến sổ nhật ký này sẽ được thiết "
+"lập ở trạng thái dự thảo. Sau khi đối soát với sao kê ngân hnagf thì mới "
+"vào sổ các khoản thanh toán này."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
@@ -649,12 +649,12 @@ msgstr "Sổ nhật ký này có nên hiển thị ở bảng thông tin hay kh�
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:228
 #, python-format
 msgid "You already have imported that file."
-msgstr ""
+msgstr "Bạn đã import tập tin đó rồi."
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "You can install more file formats by"
-msgstr ""
+msgstr "Bạn có thể cài thêm các định dạng tập tin bằng cách"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:47
