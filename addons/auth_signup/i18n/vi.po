@@ -53,7 +53,8 @@ msgid ""
 "<strong>An invitation email containing the following subscription link has "
 "been sent:</strong>"
 msgstr ""
-"<strong>Một thư mời chứa link đăng ký nhận tin sau đây đã được gửi</strong>"
+"<strong>Một thư mời chứa liên kết đăng ký nhận tin sau đây đã được "
+"gửi</strong>"
 
 #. module: auth_signup
 #: model:mail.template,body_html:auth_signup.set_password_email
@@ -222,7 +223,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Vận hành bởi <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=auth\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Bởi Nền tảng <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=auth\" style=\"color: #875A7B;\">Odoo</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -824,6 +825,9 @@ msgid ""
 "list view and click on 'Portal Access Management' option in the dropdown "
 "menu *Action*."
 msgstr ""
+"Để gửi lời mời trong chế độ B2B, hãy mở liên hệ hoặc chọn một số "
+"người trong giao diện danh sách và nhấp vào tùy chọn 'Cấp quyền Truy cập"
+" Portal' trong menu thả xuống * Hành động *."
 
 #. module: auth_signup
 #: model:ir.model,name:auth_signup.model_res_users
@@ -839,7 +843,7 @@ msgstr "Chào mừng tới ${object.company_id.name}!"
 #: model_terms:ir.ui.view,arch_db:auth_signup.fields
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
 msgid "Your Email"
-msgstr "Email của Bạn"
+msgstr "Email của bạn"
 
 #. module: auth_signup
 #: model_terms:ir.ui.view,arch_db:auth_signup.fields
