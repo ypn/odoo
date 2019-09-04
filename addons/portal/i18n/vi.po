@@ -199,7 +199,7 @@ msgstr "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
 "                        Dear ${object.user_id.name or ''},<br/> <br/>\n"
-"                        Bạn đã được cấp quyền truy cập vào công thông tin khách hàng của ${object.user_id.company_id.name}.<br/>\n"
+"                        Bạn đã được cấp quyền truy cập vào cổng thông tin khách hàng của ${object.user_id.company_id.name}.<br/>\n"
 "                        Thông tin đăng nhập của bạn là:\n"
 "                        <ul>\n"
 "                            <li>Tên đăng nhập: ${object.user_id.login or ''}</li>\n"
@@ -733,7 +733,7 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "This is a preview of the customer portal."
-msgstr "Đây là trang xem trước của công thông tin khách hàng."
+msgstr "Đây là trang xem trước của cổng thông tin khách hàng."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
