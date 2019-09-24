@@ -11,9 +11,9 @@
 # fanha99 <fanha99@hotmail.com>, 2018
 # khoibv Mr <kendev2009@gmail.com>, 2018
 # Nguyen Quang Toan <nqtoan@dqn.vn>, 2019
-# Duy BQ <duybq86@gmail.com>, 2019
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
 # Dung Nguyen Thi <dungnt@trobz.com>, 2019
+# Duy BQ <duybq86@gmail.com>, 2019
 # Chinh Chinh <trinhttp@trobz.com>, 2019
 # 
 msgid ""
@@ -216,6 +216,8 @@ msgstr "<i class=\"fa fa-fw fa-remove\"/> Bị Huỷ"
 #: model_terms:ir.ui.view,arch_db:sale.crm_lead_partner_kanban_view
 msgid "<i class=\"fa fa-fw fa-usd\" role=\"img\" aria-label=\"Sale orders\" title=\"Sales orders\"/>"
 msgstr ""
+"<i class=\"fa fa-fw fa-usd\" role=\"img\" aria-label=\"Đơn bán\" "
+"title=\"Đơn bán\"/>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -246,8 +248,9 @@ msgstr "<small><b class=\"text-muted\">Ưu đãi cho bạn</b></small>"
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 msgid "<span class=\"d-none d-md-inline\">Sales Order #</span>\n"
 "                            <span class=\"d-block d-md-none\">Ref.</span>"
-msgstr "<span class=\"d-none d-md-inline\">Đơn #</span>\n"
-"                            <span class=\"d-block d-md-none\">Số</span>"
+msgstr ""
+"<span class=\"d-none d-md-inline\">Đơn hàng</span>\n"
+"                            <span class=\"d-block d-md-none\">Mã.</span>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -1360,6 +1363,9 @@ msgstr "Ngày dự kiến"
 #: model:ir.model.fields,help:sale.field_product_template__expense_policy
 msgid "Expenses and vendor bills can be re-invoiced to a customer.With this option, a validated expense can be re-invoice to a customer at its cost or sales price."
 msgstr ""
+"Chi phí và hóa đơn nhà cung cấp có thể được lập lại hóa đơn cho khách hàng. "
+"Với tùy chọn này, chi phí được xác thực có thể được gửi lại cho khách hàng "
+"với chi phí hoặc giá bán."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search

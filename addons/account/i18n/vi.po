@@ -13,6 +13,7 @@
 # Martin Trigaux, 2019
 # Duy BQ <duybq86@gmail.com>, 2019
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# Chinh Chinh <trinhttp@trobz.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -20,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-08 13:35+0000\n"
 "PO-Revision-Date: 2018-08-24 09:14+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Chinh Chinh <trinhttp@trobz.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -984,7 +985,7 @@ msgstr "Số tài khoản"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__property_account_payable_id
 msgid "Account Payable"
-msgstr "Khoản phải trả"
+msgstr "Tài khoản phải trả"
 
 #. module: account
 #: model:ir.model,name:account.model_account_print_journal
@@ -999,7 +1000,7 @@ msgstr "Thuộc tính Tài khoản"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__property_account_receivable_id
 msgid "Account Receivable"
-msgstr "Khoản phải thu"
+msgstr "Tài khoản phải thu"
 
 #. module: account
 #: model:ir.model,name:account.model_account_reconciliation_widget
@@ -3505,7 +3506,7 @@ msgstr "Được tạo bởi"
 #: code:addons/account/models/account_invoice.py:419
 #, python-format
 msgid "Created by: %s"
-msgstr ""
+msgstr "Tạo bởi: %s"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__create_date
@@ -9804,6 +9805,11 @@ msgid "Tax display B2C"
 msgstr "Hiển thị Thuế B2C"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice__amount_tax_signed
+msgid "Tax in Invoice Currency"
+msgstr "Thuế tính theo tiền tệ hóa đơn"
+
+#. module: account
 #: sql_constraint:account.tax:0 sql_constraint:account.tax.template:0
 msgid "Tax names must be unique !"
 msgstr "Tên thuế phải là duy nhất!"
@@ -9826,7 +9832,7 @@ msgstr ""
 #. module: account
 #: selection:res.config.settings,show_line_subtotals_tax_selection:0
 msgid "Tax-Included"
-msgstr ""
+msgstr "Bao gồm Thuế"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -9846,7 +9852,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
 msgid "Taxes"
-msgstr "Các loại Thuế"
+msgstr "Thuế"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__tax_ids
