@@ -6899,7 +6899,7 @@ msgid ""
 "You must change the preferences of the user to view the changes.</span>"
 msgstr ""
 "<span class=\"o_form_label\">Ngôn ngữ được chọn đã được cài đặt thành công.\n"
-"Bạn có cần cần phải thay đổi tuỳ chọn ngôn ngữ của người dùng để thấy sự thay đổi.</span>"
+"Bạn có thể cần phải thay đổi tuỳ chọn ngôn ngữ của người dùng để thấy sự thay đổi.</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -6916,6 +6916,8 @@ msgid ""
 "<span class=\"o_form_label\">We suggest to reload the menu tab to see the "
 "new menus (Ctrl+T then Ctrl+R).\"</span>"
 msgstr ""
+"<span class=\"o_form_label\">Chúng tôi để nghị bạn nạp lại trang để có thể "
+"thấy menu mới (Ctrl+R).\"</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_config_settings_view_form
@@ -6923,6 +6925,8 @@ msgid ""
 "<span class=\"searchIcon\"><i class=\"fa fa-search\" role=\"img\" aria-"
 "label=\"Search\" title=\"Search\"/></span>"
 msgstr ""
+"<span class=\"searchIcon\"><i class=\"fa fa-search\" role=\"img\" aria-"
+"label=\"Tìm kiếm\" title=\"Tìm kiếm\"/></span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
@@ -6937,6 +6941,10 @@ msgid ""
 "                                <span colspan=\"2\">Month: %(month)s</span>\n"
 "                                <span colspan=\"2\">Day: %(day)s</span>"
 msgstr ""
+"<span colspan=\"2\">Năm hiện hành có thế kỷ: %(year)s</span>\n"
+"                                <span colspan=\"2\">Năm hiện hành không có thế kỷ: %(y)s</span>\n"
+"                                <span colspan=\"2\">Tháng: %(month)s</span>\n"
+"                                <span colspan=\"2\">Ngày: %(day)s</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.sequence_view
@@ -6945,6 +6953,9 @@ msgid ""
 "                                <span colspan=\"2\">Week of the Year: %(woy)s</span>\n"
 "                                <span colspan=\"2\">Day of the Week (0:Monday): %(weekday)s</span>"
 msgstr ""
+"<span colspan=\"2\">Ngày trong năm: %(doy)s</span>\n"
+"                                <span colspan=\"2\">Tuần trong năm: %(woy)s</span>\n"
+"                                <span colspan=\"2\">Ngày trong tuần (0:Monday): %(weekday)s</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.sequence_view
@@ -6962,7 +6973,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
 msgid "<span>Directory</span>"
-msgstr ""
+msgstr "<span>Thư mục</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
