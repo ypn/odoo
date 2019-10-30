@@ -2462,7 +2462,7 @@ msgstr "Theo Quốc gia"
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_refund
 msgid "By Credit Note"
-msgstr "Theo Hoá đơn Hoàn trả"
+msgstr "Theo Hoá đơn Điều chỉnh giảm"
 
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_product
@@ -2564,7 +2564,7 @@ msgstr "Hủy"
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
 msgid "Cancel: create credit note and reconcile"
-msgstr "Hủy: tạo hoá đơn hoàn trả và đối soát"
+msgstr "Hủy: tạo Hoá đơn Điều chỉnh giảm và đối soát"
 
 #. module: account
 #: selection:account.invoice,state:0 selection:account.invoice.report,state:0
@@ -2585,7 +2585,7 @@ msgid ""
 "invoice should be unreconciled first, then only you can add credit note for "
 "this invoice."
 msgstr ""
-"Không thể tạo hoá đơn hoàn trả cho hoá đơn đã được đối soát, hoá đơn "
+"Không thể tạo Hoá đơn Điều chỉnh giảm cho hoá đơn đã được đối soát, hoá đơn "
 "phải được hủy trước tiên, chỉ khi đó bạn mới có thể thêm hoá đơn điều chỉnh "
 "giảm cho hoá đơn này."
 
@@ -2593,7 +2593,7 @@ msgstr ""
 #: code:addons/account/wizard/account_invoice_refund.py:54
 #, python-format
 msgid "Cannot create credit note for the draft/cancelled invoice."
-msgstr "Không thể tạo hoá đơn hoàn trả cho hoá đơn nháp/đã hủy."
+msgstr "Không thể tạo Hoá đơn Điều chỉnh giảm cho hoá đơn dự thảo/đã hủy."
 
 #. module: account
 #: code:addons/account/models/account_move.py:358
@@ -3400,7 +3400,7 @@ msgstr "Tạo một thuế mới"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_invoice_in_refund
 msgid "Create a vendor credit note"
-msgstr "Tạo hoá đơn hoàn trả nhà cung cấp"
+msgstr "Tạo Hoá đơn Điều chỉnh giảm nhà cung cấp"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.tax_adjustments_wizard
@@ -3601,28 +3601,28 @@ msgstr "Phát sinh có"
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_refund
 #, python-format
 msgid "Credit Note"
-msgstr "Hoá đơn hoàn trả"
+msgstr "Hoá đơn Điều chỉnh giảm"
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:487
 #, python-format
 msgid "Credit Note - %s"
-msgstr "Hoá đơn Hoàn trả - %s"
+msgstr "Hoá đơn Điều chỉnh giảm - %s"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Credit Note Bill"
-msgstr "Hoá đơn Hoàn trả"
+msgstr "Hoá đơn Điều chỉnh giảm"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund__date_invoice
 msgid "Credit Note Date"
-msgstr "Ngày Hoá đơn Hoàn trả"
+msgstr "Ngày Hoá đơn Điều chỉnh giảm"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence_id
 msgid "Credit Note Entry Sequence"
-msgstr "Trình tự cho Hoá đơn Hoàn trả"
+msgstr "Trình tự cho Hoá đơn Điều chỉnh giảm"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_invoice_out_refund
@@ -3630,12 +3630,12 @@ msgstr "Trình tự cho Hoá đơn Hoàn trả"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Credit Notes"
-msgstr "Hoá đơn Hoàn trả"
+msgstr "Hoá đơn Điều chỉnh giảm"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence_number_next
 msgid "Credit Notes: Next Number"
-msgstr "Hoá đơn Hoàn trả: Số tiếp theo"
+msgstr "Hoá đơn Điều chỉnh giảm: Số tiếp theo"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__credit_account_id
@@ -3727,7 +3727,7 @@ msgstr "Khách hàng"
 #: code:addons/account/models/account_payment.py:769
 #, python-format
 msgid "Customer Credit Note"
-msgstr "Hoá đơn Hoàn trả Khách hàng"
+msgstr "Hoá đơn Điều chỉnh giảm Khách hàng"
 
 #. module: account
 #: selection:account.invoice,type:0 selection:account.invoice.report,type:0
@@ -4396,7 +4396,7 @@ msgid ""
 "vendor bill/credit note."
 msgstr ""
 "Phát hiện có tham chiếu từ nhà cung cấp bị lặp lại. Chắc bạn đã ghi nhận 2 "
-"lần cho cùng một hoá đơn nhà cung cấp / hoá đơn hoàn trả."
+"lần cho cùng một hoá đơn nhà cung cấp / Hoá đơn Điều chỉnh giảm."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_reports
