@@ -10,17 +10,17 @@
 # fanha99 <fanha99@hotmail.com>, 2018
 # Minh Nguyen <ndminh210994@gmail.com>, 2018
 # khoibv Mr <kendev2009@gmail.com>, 2018
-# Duy BQ <duybq86@gmail.com>, 2019
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2019
 # Dung Nguyen Thi <dungnt@trobz.com>, 2019
+# Duy BQ <duybq86@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 10:08+0000\n"
+"POT-Creation-Date: 2019-11-14 07:33+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
-"Last-Translator: Dung Nguyen Thi <dungnt@trobz.com>, 2019\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,14 +131,14 @@ msgstr ""
 "* Địa điểm nội bộ: Các địa điểm vật lý bên trong hệ thống kho của bạn,\n"
 "* Địa điểm khách hàng: Địa điểm ảo đại diện cho địa điểm đích đối với các sản phẩm / hàng hoá mà bạn giao cho các khách hàng của bạn\n"
 "* Mất mát/Kiểm kê: Địa điểm ảo được sử dụng làm địa điểm đối ứng cho các hoạt động kiểm kê được sử dụng để hiệu chỉnh mức tồn kho (Kiểm kho vật lý)\n"
-"* Cung ứng: Địa điểm ảo được sử dụng như một địa điểm đối ứng tạm thời cho các hoạt động cung ứng (procurement) khi mà địa điểm nguồn chưa được (nhà cung cấp hoặc sản xuất) biết. Địa điểm ảo này sẽ trống rống sau khi Trình lập lịch cung ứng chạy xong.\n"
+"* Cung ứng: Địa điểm ảo được sử dụng như một địa điểm đối ứng tạm thời cho các hoạt động cung ứng (procurement) khi mà địa điểm nguồn chưa được (nhà cung cấp hoặc sản xuất) biết. Địa điểm ảo này sẽ trống rống sau khi trình lập lịch cung ứng chạy xong.\n"
 "* Sản xuất: Địa điểm ảo đối ứng dùng trong các hoạt động sản xuất: nguyên vật liệu được tiêu thụ trong quá trình sản xuất sẽ được đưa vào đây và các thành phẩm sẽ từ đây ra.\n"
 "* Địa điểm chuyển tiếp: Địa điểm đối ứng mà được sử dụng trong các hoạt động dịch chuyển hàng hoá liên kho hoặc liên công ty\n"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_rule
 msgid ", max:"
-msgstr ""
+msgstr ", tối đa:"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.exception_on_picking
@@ -180,6 +180,8 @@ msgid ""
 "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Expected date\" "
 "title=\"Expected date\"/>"
 msgstr ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Ngày mong đợi\" "
+"title=\"Ngày mong đợi\"/>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
@@ -192,6 +194,8 @@ msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products"
 msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/>\n"
+"                                Tất cả các sản phẩm đã không thể giữ phần được. Bấm vào nút \"Kiểm tra khả dụng\" để thử giữ phần sản phầm."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_mrp_line
@@ -199,6 +203,8 @@ msgid ""
 "<i class=\"fa fa-fw fa-caret-right\" role=\"img\" aria-label=\"Unfold\" "
 "title=\"Unfold\"/>"
 msgstr ""
+"<i class=\"fa fa-fw fa-caret-right\" role=\"img\" aria-label=\"Unfold\" "
+"title=\"Mở ra\"/"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
@@ -236,12 +242,20 @@ msgid "<span class=\"o_stat_text\">On Hand</span>"
 msgstr "<span class=\"o_stat_text\">Trong kho</span>"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "<span class=\"o_stat_text\">Hoạt động</span>"
+msgstr ""
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_mrp_line
 msgid ""
 "<span role=\"img\" class=\"o_stock_reports_stream\" title=\"Traceability "
 "Report\" aria-label=\"Traceability Report\"><i class=\"fa fa-fw fa-level-up "
 "fa-rotate-270\"/></span>"
 msgstr ""
+"<span role=\"img\" class=\"o_stock_reports_stream\" title=\"Traceability "
+"Report\" aria-label=\"Báo cáo truy vết\"><i class=\"fa fa-fw fa-level-up"
+" fa-rotate-270\"/></span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking

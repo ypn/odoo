@@ -11,18 +11,18 @@
 # fanha99 <fanha99@hotmail.com>, 2018
 # khoibv Mr <kendev2009@gmail.com>, 2018
 # Nguyen Quang Toan <nqtoan@dqn.vn>, 2019
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2019
 # Dung Nguyen Thi <dungnt@trobz.com>, 2019
-# Duy BQ <duybq86@gmail.com>, 2019
 # Chinh Chinh <trinhttp@trobz.com>, 2019
+# Duy BQ <duybq86@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 13:35+0000\n"
+"POT-Creation-Date: 2019-11-14 07:34+0000\n"
 "PO-Revision-Date: 2018-08-24 09:24+0000\n"
-"Last-Translator: Chinh Chinh <trinhttp@trobz.com>, 2019\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -603,7 +603,6 @@ msgstr "Cho phép bạn gửi hoá đơn Chiếu lệ"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
-#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Amount"
 msgstr "Tổng tiền"
 
@@ -611,6 +610,12 @@ msgstr "Tổng tiền"
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_undiscounted
 msgid "Amount Before Discount"
 msgstr "Tổng Trước Chiết khấu"
+
+#. module: sale
+#: code:addons/sale/models/payment.py:90
+#, python-format
+msgid "Amount Mismatch (%s)"
+msgstr "Số tiền không khớp (%s)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team__quotations_amount
@@ -3502,6 +3507,14 @@ msgstr "Hoá đơn được tạo tự động và có sẵn trong cổng thông
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "The margin is computed as the sum of product sales prices minus the cost set in their detail form."
 msgstr "Biên lợi nhuận được tính bằng tổng giá bán trừ giá vốn được thiết lập trên form sản phẩm."
+
+#. module: sale
+#: code:addons/sale/models/payment.py:97
+#, python-format
+msgid ""
+"The order was not confirmed despite response from the acquirer (%s): order "
+"total is %r but acquirer replied with %r."
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__reference
