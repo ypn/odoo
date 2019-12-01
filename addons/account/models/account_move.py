@@ -605,6 +605,7 @@ class AccountMoveLine(models.Model):
                         AND EXISTS (
                             SELECT NULL
                             FROM account_move_line l
+                            JOIN account_move move ON move.id = l.move_id AND move.state = 'posted'
                             WHERE l.account_id = a.id
                             {7}
                             AND l.amount_residual > 0
@@ -612,6 +613,7 @@ class AccountMoveLine(models.Model):
                         AND EXISTS (
                             SELECT NULL
                             FROM account_move_line l
+                            JOIN account_move move ON move.id = l.move_id AND move.state = 'posted'
                             WHERE l.account_id = a.id
                             {7}
                             AND l.amount_residual < 0
@@ -677,8 +679,9 @@ class AccountMoveLine(models.Model):
             amount = move_line.amount_residual;
             rec_prop = move_line
             query = """
-                    SELECT a.id, a.id FROM account_move_line a
+                    SELECT a.id, a.id FROM account_move_line a, account_move move
                     WHERE a.amount_residual = -%(amount)s
+                    AND move.id = a.move_id AND move.state = 'posted'
                     AND NOT a.reconciled
                     AND a.account_id = %(account_id)s
                     AND a.id != %(move_line_id)s
@@ -690,8 +693,10 @@ class AccountMoveLine(models.Model):
             partner_id_condition = partner_id_condition and partner_id_condition+' AND b.partner_id = %(partner_id)s' or ''
             query = """
                     SELECT a.id, b.id
-                    FROM account_move_line a, account_move_line b
+                    FROM account_move_line a, account_move_line b, account_move move_a, account_move move_b
                     WHERE a.amount_residual = -b.amount_residual
+                    AND move_a.id = a.move_id AND move_a.state = 'posted'
+                    AND move_b.id = b.move_id AND move_b.state = 'posted'
                     AND NOT a.reconciled AND NOT b.reconciled
                     AND a.account_id = %(account_id)s AND b.account_id = %(account_id)s
                     {partner_id_condition}
@@ -782,7 +787,7 @@ class AccountMoveLine(models.Model):
 
     def _domain_move_lines_for_manual_reconciliation(self, account_id, partner_id=False, excluded_ids=None, str=False):
         """ Create domain criteria that are relevant to manual reconciliation. """
-        domain = ['&', ('reconciled', '=', False), ('account_id', '=', account_id)]
+        domain = ['&', '&', ('reconciled', '=', False), ('account_id', '=', account_id), ('move_id.state', '=', 'posted')]
         if partner_id:
             domain = expression.AND([domain, [('partner_id', '=', partner_id)]])
         if excluded_ids:
@@ -987,70 +992,71 @@ class AccountMoveLine(models.Model):
         return debit, credit
 
     def auto_reconcile_lines(self):
-        """ This function iterates recursively on the recordset given as parameter as long as it
-            can find a debit and a credit to reconcile together. It returns the recordset of the
-            account move lines that were not reconciled during the process.
         """
-        if not self.ids:
-            return self
-        sm_debit_move, sm_credit_move = self._get_pair_to_reconcile()
-        #there is no more pair to reconcile so return what move_line are left
-        if not sm_credit_move or not sm_debit_move:
-            return self
-        company_currency_id = self[0].account_id.company_id.currency_id
-        account_curreny_id = self[0].account_id.currency_id
-        field = (account_curreny_id and company_currency_id != account_curreny_id) and 'amount_residual_currency' or 'amount_residual'
-        if not sm_debit_move.debit and not sm_debit_move.credit:
-            #both debit and credit field are 0, consider the amount_residual_currency field because it's an exchange difference entry
-            field = 'amount_residual_currency'
-        if self[0].currency_id and all([x.currency_id == self[0].currency_id for x in self]):
-            #all the lines have the same currency, so we consider the amount_residual_currency field
-            field = 'amount_residual_currency'
-        if self._context.get('skip_full_reconcile_check') == 'amount_currency_excluded':
-            field = 'amount_residual'
-        elif self._context.get('skip_full_reconcile_check') == 'amount_currency_only':
-            field = 'amount_residual_currency'
-        #Reconcile the pair together
-        amount_reconcile = min(sm_debit_move[field], -sm_credit_move[field])
-        #Remove from recordset the one(s) that will be totally reconciled
-        if amount_reconcile == sm_debit_move[field]:
-            self -= sm_debit_move
-        if amount_reconcile == -sm_credit_move[field]:
-            self -= sm_credit_move
+        This function iterates on the recordset given as parameter as long as it
+        can find a debit and a credit to reconcile together. It returns the
+        recordset of the account move lines that were not reconciled during
+        the process.
+        :return: account.move.line recordset
+        """
+        all_moves = self
+        while all_moves:
+            sm_debit_move, sm_credit_move = all_moves._get_pair_to_reconcile()
+            #there is no more pair to reconcile so return what move_line are left
+            if not sm_credit_move or not sm_debit_move:
+                return all_moves
+            company_currency_id = all_moves[0].account_id.company_id.currency_id
+            account_curreny_id = all_moves[0].account_id.currency_id
+            field = (account_curreny_id and company_currency_id != account_curreny_id) and 'amount_residual_currency' or 'amount_residual'
+            if not sm_debit_move.debit and not sm_debit_move.credit:
+                #both debit and credit field are 0, consider the amount_residual_currency field because it's an exchange difference entry
+                field = 'amount_residual_currency'
+            if all_moves[0].currency_id and all([x.currency_id == all_moves[0].currency_id for x in all_moves]):
+                #all the lines have the same currency, so we consider the amount_residual_currency field
+                field = 'amount_residual_currency'
+            if all_moves._context.get('skip_full_reconcile_check') == 'amount_currency_excluded':
+                field = 'amount_residual'
+            elif all_moves._context.get('skip_full_reconcile_check') == 'amount_currency_only':
+                field = 'amount_residual_currency'
+            #Reconcile the pair together
+            amount_reconcile = min(sm_debit_move[field], -sm_credit_move[field])
+            #Remove from recordset the one(s) that will be totally reconciled
+            if amount_reconcile == sm_debit_move[field]:
+                all_moves -= sm_debit_move
+            if amount_reconcile == -sm_credit_move[field]:
+                all_moves -= sm_credit_move
 
-        #Check for the currency and amount_currency we can set
-        currency = False
-        amount_reconcile_currency = 0
-        if sm_debit_move.currency_id == sm_credit_move.currency_id:
-            if sm_debit_move.currency_id.id:
-                currency = sm_credit_move.currency_id.id
-                amount_reconcile_currency = min(sm_debit_move.amount_residual_currency, -sm_credit_move.amount_residual_currency)
-        else:
-            if not sm_debit_move.currency_id or not sm_credit_move.currency_id:
-                # If only one of debit_move or credit_move has a secondary currency, also record the converted amount
-                # in that secondary currency in the partial reconciliation. That allows the exchange difference entry
-                # to be created, in case it is needed.
-                company_currency = sm_debit_move.company_id.currency_id
-                currency = sm_debit_move.currency_id or sm_credit_move.currency_id
-                currency_date = sm_debit_move.currency_id and sm_credit_move.date or sm_debit_move.date
-                amount_reconcile_currency = company_currency.with_context(date=currency_date).compute(amount_reconcile, currency)
-                currency = currency.id
+            #Check for the currency and amount_currency we can set
+            currency = False
+            amount_reconcile_currency = 0
+            if sm_debit_move.currency_id == sm_credit_move.currency_id:
+                if sm_debit_move.currency_id.id:
+                    currency = sm_credit_move.currency_id.id
+                    amount_reconcile_currency = min(sm_debit_move.amount_residual_currency, -sm_credit_move.amount_residual_currency)
+            else:
+                if not sm_debit_move.currency_id or not sm_credit_move.currency_id:
+                    # If only one of debit_move or credit_move has a secondary currency, also record the converted amount
+                    # in that secondary currency in the partial reconciliation. That allows the exchange difference entry
+                    # to be created, in case it is needed.
+                    company_currency = sm_debit_move.company_id.currency_id
+                    currency = sm_debit_move.currency_id or sm_credit_move.currency_id
+                    currency_date = sm_debit_move.currency_id and sm_credit_move.date or sm_debit_move.date
+                    amount_reconcile_currency = company_currency.with_context(date=currency_date).compute(amount_reconcile, currency)
+                    currency = currency.id
 
-        amount_reconcile = min(sm_debit_move.amount_residual, -sm_credit_move.amount_residual)
+            amount_reconcile = min(sm_debit_move.amount_residual, -sm_credit_move.amount_residual)
 
-        if self._context.get('skip_full_reconcile_check') == 'amount_currency_excluded':
-            amount_reconcile_currency = 0.0
+            if all_moves._context.get('skip_full_reconcile_check') == 'amount_currency_excluded':
+                amount_reconcile_currency = 0.0
 
-        self.env['account.partial.reconcile'].create({
-            'debit_move_id': sm_debit_move.id,
-            'credit_move_id': sm_credit_move.id,
-            'amount': amount_reconcile,
-            'amount_currency': amount_reconcile_currency,
-            'currency_id': currency,
-        })
-
-        #Iterate process again on self
-        return self.auto_reconcile_lines()
+            all_moves.env['account.partial.reconcile'].create({
+                'debit_move_id': sm_debit_move.id,
+                'credit_move_id': sm_credit_move.id,
+                'amount': amount_reconcile,
+                'amount_currency': amount_reconcile_currency,
+                'currency_id': currency,
+            })
+        return all_moves
 
     @api.multi
     def reconcile(self, writeoff_acc_id=False, writeoff_journal_id=False):
