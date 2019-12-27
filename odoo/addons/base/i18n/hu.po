@@ -13,6 +13,7 @@
 # gezza <geza.nagy@oregional.hu>, 2019
 # Istvan <leki69@gmail.com>, 2019
 # Martin Trigaux, 2019
+# Tamás Németh <ntomasz81@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -20,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:05+0000\n"
 "PO-Revision-Date: 2017-09-20 10:13+0000\n"
-"Last-Translator: Martin Trigaux, 2019\n"
+"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -734,6 +735,8 @@ msgid ""
 "        This module provides the core of the Odoo Mobile App.\n"
 "        "
 msgstr ""
+"\n"
+"      Ez a modul biztosítja az alapokat az Odoo mobil alkalmazáshoz."
 
 #. module: base
 #: model:ir.module.module,description:base.module_maintenance
@@ -2759,6 +2762,11 @@ msgid ""
 "This Module integrates all post commits, pull requests and activity of github issue to channels in Odoo.\n"
 "    "
 msgstr ""
+"\n"
+"Github integrálása az Odoo Kommunikáció modulba.\n"
+"==============================================\n"
+"\n"
+"Ez a modul integrál minden Github tevékenységet az Odoo csatornákba."
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_drive
@@ -6453,6 +6461,8 @@ msgid ""
 "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
 "<code>timezone</code>: useful Python libraries"
 msgstr ""
+"<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
+"<code>timezone</code>: hasznos Python programkönyvtárak"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_currency_kanban
@@ -6477,7 +6487,7 @@ msgstr "<strong>Függőségek:</strong>"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_res_company_kanban
 msgid "<strong>Email:</strong>"
-msgstr ""
+msgstr "<strong>E-mail:</strong>"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.report_irmodeloverview
@@ -6512,7 +6522,7 @@ msgstr "<strong>Név</strong>"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_res_company_kanban
 msgid "<strong>Phone</strong>"
-msgstr ""
+msgstr "<strong>Telefon</strong>"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.report_irmodulereference
@@ -6857,7 +6867,7 @@ msgstr ""
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_A
 msgid "A AGRICULTURE, FORESTRY AND FISHING"
-msgstr ""
+msgstr "A MEZŐGAZDASÁG, ERDÉSZET ÉS HALÁSZAT"
 
 #. module: base
 #: code:addons/models.py:2826
@@ -7077,7 +7087,7 @@ msgstr "Hozzáférési token"
 #. module: base
 #: model:res.groups,name:base.group_private_addresses
 msgid "Access to Private Addresses"
-msgstr ""
+msgstr "Hozzáférés a lakcímekhez"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_default
@@ -7157,7 +7167,7 @@ msgstr "Könyvelés &amp; Pénzügy"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_account
 msgid "Accounting - MRP"
-msgstr ""
+msgstr "Könyvelés - MRP"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_test
@@ -7351,7 +7361,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_base_address_extended
 msgid "Add extra fields on addresses"
-msgstr ""
+msgstr "Extra mezők hozzáadása a címekhez"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.act_report_xml_view
@@ -7560,7 +7570,7 @@ msgstr "Affero GPL-3"
 #. module: base
 #: model:res.country,name:base.af
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afganisztán"
 
 #. module: base
 #: selection:res.country,name_position:0
@@ -7705,7 +7715,7 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.ad
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #. module: base
 #: model:res.country,name:base.ao
@@ -8027,7 +8037,7 @@ msgstr ""
 #. module: base
 #: selection:ir.actions.server,usage:0
 msgid "Automated Action"
-msgstr ""
+msgstr "Automatizált művelet"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_automation
@@ -8082,7 +8092,7 @@ msgstr "Azerbajdzsán"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_B
 msgid "B MINING AND QUARRYING"
-msgstr ""
+msgstr "B BÁNYÁSZAT ÉS KŐFEJTÉS"
 
 #. module: base
 #: selection:report.paperformat,format:0
@@ -8401,7 +8411,7 @@ msgstr "Belga - Fizetési folyamat"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_fleet
 msgid "Belgium - Payroll - Fleet"
-msgstr ""
+msgstr "Belgium - Bérszámfejtés - Flotta"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_account
@@ -8619,7 +8629,7 @@ msgstr "Által"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_C
 msgid "C MANUFACTURING"
-msgstr ""
+msgstr "C GYÁRTÁS"
 
 #. module: base
 #: selection:report.paperformat,format:0
@@ -8639,7 +8649,7 @@ msgstr "A CRM gamifikációja"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_livechat
 msgid "CRM Livechat"
-msgstr ""
+msgstr "CRM élőcsevegés"
 
 #. module: base
 #: selection:base.language.export,format:0
@@ -8670,7 +8680,7 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.kh
 msgid "Cambodia"
-msgstr ""
+msgstr "Kambodzsa"
 
 #. module: base
 #: model:res.country,name:base.cm
@@ -9025,7 +9035,7 @@ msgstr "Város"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_address_city
 msgid "City Addresses"
-msgstr ""
+msgstr "Cím"
 
 #. module: base
 #: selection:res.company,external_report_layout:0
@@ -10157,17 +10167,17 @@ msgstr "Cseh Köztársaság"
 #. module: base
 #: model:res.country,name:base.ci
 msgid "Côte d'Ivoire"
-msgstr ""
+msgstr "Elefántcsontpart"
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_D
 msgid "D ELECTRICITY,GAS,STEAM AND AIR CONDITIONING SUPPLY"
-msgstr ""
+msgstr "D VILLAMOS ENERGIA-, GÁZ-, GŐZELLÁTÁS ÉS LÉGKONDÍCIONÁLÁS"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_dhl
 msgid "DHL Express Shipping"
-msgstr ""
+msgstr "DHL Express szállítás"
 
 #. module: base
 #: selection:report.paperformat,format:0
@@ -10739,7 +10749,7 @@ msgstr "Dokumentum modell"
 #: code:addons/models.py:2888
 #, python-format
 msgid "Document type:"
-msgstr ""
+msgstr "Dokumentumtípus:"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_forum_doc
@@ -10813,6 +10823,8 @@ msgstr "Az időtartam nem lehet negatív"
 #: model:res.partner.industry,full_name:base.res_partner_industry_E
 msgid "E WATER SUPPLY;SEWERAGE,WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"
 msgstr ""
+"E IVÓVÍZELLÁTÁS; SZENNYVÍZ GYŰJTÉSE, KEZELÉSE, HULLADÉKGAZDÁLKODÁS ÉS "
+"KÁRMENTESÍTÉS"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_mx_edi_cancellation
@@ -11387,17 +11399,17 @@ msgstr "Kizárások"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_category_exclusive
 msgid "Exclusive"
-msgstr ""
+msgstr "Kizárólagos"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_cron_view_form
 msgid "Execute Every"
-msgstr ""
+msgstr "Futtatás minden"
 
 #. module: base
 #: selection:ir.actions.server,state:0
 msgid "Execute Python Code"
-msgstr ""
+msgstr "Python kód futtatása"
 
 #. module: base
 #: selection:ir.actions.server,state:0
@@ -11492,7 +11504,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_address_extended
 msgid "Extended Addresses"
-msgstr ""
+msgstr "Bővített címek"
 
 #. module: base
 #: selection:ir.ui.view,mode:0
@@ -11725,7 +11737,7 @@ msgstr ""
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_F
 msgid "F CONSTRUCTION"
-msgstr ""
+msgstr "F ÉPÍTŐIPAR"
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:128
@@ -12272,7 +12284,7 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.gf
 msgid "French Guiana"
-msgstr ""
+msgstr "Francia Guyana"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_fr_hr_payroll
@@ -12282,7 +12294,7 @@ msgstr "Francia bérszámfelytés"
 #. module: base
 #: model:res.country,name:base.pf
 msgid "French Polynesia"
-msgstr ""
+msgstr "Francia Polinézia"
 
 #. module: base
 #: model:res.country,name:base.tf
@@ -12328,7 +12340,7 @@ msgstr "Funkció"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_G
 msgid "G WHOLESALE AND RETAIL TRADE;REPAIR OF MOTOR VEHICLES AND MOTORCYCLES"
-msgstr ""
+msgstr "G KERESKEDELEM ÉS GÉPJÁRMŰJAVÍTÁS"
 
 #. module: base
 #: selection:ir.module.module,license:0
@@ -12477,7 +12489,7 @@ msgstr "Gibraltár"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_github
 msgid "Github Integration with Discuss"
-msgstr ""
+msgstr "Github integráció a Kommunikációba"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_rule_global
@@ -12695,12 +12707,12 @@ msgstr "Csoportok (globális, ha nincs csoport)"
 #. module: base
 #: model:res.country,name:base.gp
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadeloupe"
 
 #. module: base
 #: model:res.country,name:base.gu
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 #. module: base
 #: model:res.country,name:base.gt
@@ -12725,7 +12737,7 @@ msgstr "Guinea"
 #. module: base
 #: model:res.country,name:base.gw
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Bissau-Guineai Köztársaság"
 
 #. module: base
 #: model:res.country,name:base.gy
@@ -12735,7 +12747,7 @@ msgstr "Guyana"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_H
 msgid "H TRANSPORTATION AND STORAGE"
-msgstr ""
+msgstr "H SZÁLLÍTMÁNYOZÁS ÉS RAKTÁROZÁS"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_maintenance
@@ -12755,7 +12767,7 @@ msgstr "HR Gamifikáció, játékosítás"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_org_chart
 msgid "HR Org Chart"
-msgstr ""
+msgstr "Szervezeti ábra"
 
 #. module: base
 #: model:res.country,vat_label:base.ca
@@ -12820,7 +12832,7 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.hm
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Heard-sziget és McDonald-szigetek"
 
 #. module: base
 #: selection:ir.translation,type:0
@@ -13051,7 +13063,7 @@ msgstr "Órák"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_T
 msgid "Households"
-msgstr ""
+msgstr "Háztartások"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_cron_numbercall
@@ -13101,7 +13113,7 @@ msgstr "Magyarország"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_I
 msgid "I ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
-msgstr ""
+msgstr "I SZÁLLÁSHELY SZOLGÁLTATÁS ÉS VENDÉGLÁTÁS"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_iban
@@ -13243,7 +13255,7 @@ msgstr "IT szolgáltatások"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_J
 msgid "IT/Communication"
-msgstr ""
+msgstr "Informatika/Kommunikáció"
 
 #. module: base
 #: model:res.country,name:base.is
@@ -14037,7 +14049,7 @@ msgstr "Olasz - könyvelés"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_J
 msgid "J INFORMATION AND COMMUNICATION"
-msgstr ""
+msgstr "J INFORMATIKA ÉS KOMMUNIKÁCIÓ"
 
 #. module: base
 #: model:res.country,name:base.jm
@@ -14098,7 +14110,7 @@ msgstr "Just In Time ütemezés"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_K
 msgid "K FINANCIAL AND INSURANCE ACTIVITIES"
-msgstr ""
+msgstr "K PÉNZÜGYI- ÉS BIZTOSÍTÁSI TEVÉKENYSÉGEK"
 
 #. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
@@ -14154,7 +14166,7 @@ msgstr "Kontni načrt za gospodarske družbe"
 #. module: base
 #: model:res.country,name:base.xk
 msgid "Kosovo"
-msgstr ""
+msgstr "Koszovó"
 
 #. module: base
 #: model:res.country,name:base.kw
@@ -14164,12 +14176,12 @@ msgstr "Kuvait"
 #. module: base
 #: model:res.country,name:base.kg
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kirgizisztán"
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_L
 msgid "L REAL ESTATE ACTIVITIES"
-msgstr ""
+msgstr "L INGATLANÜGYLETEK"
 
 #. module: base
 #: selection:ir.module.module,license:0
@@ -14519,7 +14531,7 @@ msgstr "Launchpad/Kiadási szerk."
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_address_format
 msgid "Layout in Reports"
-msgstr ""
+msgstr "Kimutatások elrendezése"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_lead_automation
@@ -14832,7 +14844,7 @@ msgstr "Luxembourg - Főkönyvi kimutatás"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_M
 msgid "M PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES"
-msgstr ""
+msgstr "M SZAKMAI-, TUDOMÁNYOS- ÉS MŰSZAKI TEVÉKENYSÉGEK"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_byproduct
@@ -14904,7 +14916,7 @@ msgstr "Karbantartó"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_maintenance
 msgid "Maintenance - MRP"
-msgstr ""
+msgstr "Karbantartás - MRP"
 
 #. module: base
 #: model:res.country,name:base.mw
@@ -15118,7 +15130,7 @@ msgstr "Marshall-szigetek"
 #. module: base
 #: model:res.country,name:base.mq
 msgid "Martinique"
-msgstr ""
+msgstr "Martinique"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mass_mailing_themes
@@ -15139,7 +15151,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_mrp_mps
 #: model:ir.module.module,summary:base.module_mrp_mps
 msgid "Master Production Schedule"
-msgstr ""
+msgstr "Alapvető termelési ütemterv"
 
 #. module: base
 #: model:res.country,name:base.mr
@@ -15275,7 +15287,7 @@ msgstr "MIME-típus"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_B
 msgid "Mining"
-msgstr ""
+msgstr "Bányászat"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.sequence_view
@@ -15371,7 +15383,7 @@ msgstr "Modell"
 #: code:addons/base/ir/ir_model.py:471
 #, python-format
 msgid "Model %s does not exist"
-msgstr ""
+msgstr "A %s modell nem létezik"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:631
@@ -15449,7 +15461,7 @@ msgstr ""
 #: code:addons/model.py:142 code:addons/model.py:152
 #, python-format
 msgid "Model:"
-msgstr ""
+msgstr "Modell:"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_model_model
@@ -15546,12 +15558,12 @@ msgstr "Modulok"
 #: code:addons/base/module/module.py:410
 #, python-format
 msgid "Modules \"%s\" and \"%s\" are incompatible."
-msgstr ""
+msgstr "\"%s\" és \"%s\" modulok nem kompatibilisek."
 
 #. module: base
 #: model:res.country,name:base.md
 msgid "Moldova"
-msgstr ""
+msgstr "Moldova"
 
 #. module: base
 #: model:res.country,name:base.mc
@@ -15652,7 +15664,7 @@ msgstr "Myanmar"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_N
 msgid "N ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"
-msgstr ""
+msgstr "N ADMINISZTRATÍV ÉS SZOLGÁLTATÁST TÁMOGATÓ TEVÉKENYSÉGEK"
 
 #. module: base
 #: model:res.country,vat_label:base.gt
@@ -15730,7 +15742,7 @@ msgstr "Hollandia - könyvelés"
 #. module: base
 #: model:res.country,name:base.nc
 msgid "New Caledonia"
-msgstr ""
+msgstr "Új-Kaledónia"
 
 #. module: base
 #: code:addons/base/module/wizard/base_export_language.py:18
@@ -15958,7 +15970,7 @@ msgstr "A frissített modulok száma"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_O
 msgid "O PUBLIC ADMINISTRATION AND DEFENCE;COMPULSORY SOCIAL SECURITY"
-msgstr ""
+msgstr "O KÖZIGAZGATÁS ÉS VÉDELEM; TÁRSADALOMBIZTOSÍTÁS"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_oauth
@@ -17370,7 +17382,7 @@ msgstr "Ablak megnyitása"
 #: code:addons/base/ir/ir_model.py:1215 code:addons/models.py:2888
 #, python-format
 msgid "Operation:"
-msgstr ""
+msgstr "Művelet:"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_crm
@@ -17626,7 +17638,7 @@ msgstr "Egyéb tulajdonos"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_S
 msgid "Other Services"
-msgstr ""
+msgstr "Egyéb szolgáltatások"
 
 #. module: base
 #: selection:res.partner,type:0
@@ -17685,7 +17697,7 @@ msgstr "Tulajdonos"
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_P
 msgid "P EDUCATION"
-msgstr ""
+msgstr "P OKTATÁS"
 
 #. module: base
 #: selection:ir.actions.report,report_type:0
@@ -18040,7 +18052,7 @@ msgstr "Telefon"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_phone_validation
 msgid "Phone Numbers Validation"
-msgstr ""
+msgstr "Telefonszám érvényesítő"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -18050,7 +18062,7 @@ msgstr "Telefon:"
 #. module: base
 #: model:res.country,name:base.pn
 msgid "Pitcairn Islands"
-msgstr ""
+msgstr "Pitcairn-szigetek"
 
 #. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
@@ -18304,7 +18316,7 @@ msgstr "Lakcím"
 #. module: base
 #: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 msgid "Private Address Form"
-msgstr ""
+msgstr "Lakcím formátum"
 
 #. module: base
 #: code:addons/models.py:112
@@ -18725,7 +18737,7 @@ msgstr "Csak olvasható"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_L
 msgid "Real Estate"
-msgstr ""
+msgstr "Ingatlan"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_model_data_form
@@ -18779,7 +18791,7 @@ msgstr "Az adatbázis-rekord bejegyzési szabályai"
 #: code:addons/models.py:3235 code:addons/models.py:4020
 #, python-format
 msgid "Records:"
-msgstr ""
+msgstr "Bejegyzések:"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hr_recruitment
@@ -19154,7 +19166,7 @@ msgstr ""
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_S
 msgid "S OTHER SERVICE ACTIVITIES"
-msgstr ""
+msgstr "S EGYÉB SZOLGÁLTATÁSOK"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_sepa
@@ -19174,12 +19186,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_sms
 msgid "SMS Text Messaging"
-msgstr ""
+msgstr "SMS szöveges üzenet"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sms
 msgid "SMS gateway"
-msgstr ""
+msgstr "SMS átjáró"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_mail_server_smtp_port
@@ -19214,12 +19226,12 @@ msgstr "Szent Barthélémy"
 #. module: base
 #: model:res.country,name:base.sh
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Szent Ilona, Ascension és Tristan da Cunha Egyesült Királyság"
 
 #. module: base
 #: model:res.country,name:base.kn
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "Saint Kitts és Nevis"
 
 #. module: base
 #: model:res.country,name:base.lc
@@ -19239,7 +19251,7 @@ msgstr "Saint Pierre és Miquelon"
 #. module: base
 #: model:res.country,name:base.vc
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "Saint Vincent és a Grenadine-szigetek"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_contract_salary
@@ -19413,12 +19425,12 @@ msgstr "Ütemezett műveletek"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_user_id
 msgid "Scheduler User"
-msgstr ""
+msgstr "Ütemező felhasználó"
 
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_M
 msgid "Scientific"
-msgstr ""
+msgstr "Tudományos"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_screen
@@ -19696,7 +19708,7 @@ msgstr "Szerver műveletek"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_ir_actions_server_id
 msgid "Server action"
-msgstr ""
+msgstr "Szerverművelet"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_11
@@ -19787,7 +19799,7 @@ msgstr "Szállítási cím"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_module_uninstall_show_all
 msgid "Show All"
-msgstr ""
+msgstr "Mindent mutat"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_currency_search
@@ -19802,7 +19814,7 @@ msgstr "Inaktív pénznemek mutatása"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Show technical modules"
-msgstr ""
+msgstr "Technikai modulok megjelenítése"
 
 #. module: base
 #: model:res.country,name:base.sl
@@ -19992,7 +20004,7 @@ msgstr "Dél-Afrikai Köztársaság"
 #. module: base
 #: model:res.country.group,name:base.south_america
 msgid "South America"
-msgstr ""
+msgstr "Dél-Amerika"
 
 #. module: base
 #: model:res.country,name:base.gs
@@ -20102,7 +20114,7 @@ msgstr "Állam neve"
 #. module: base
 #: model:res.country,name:base.ps
 msgid "State of Palestine"
-msgstr ""
+msgstr "Palesztina"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state_ids
@@ -20293,7 +20305,7 @@ msgstr "Felmérések"
 #. module: base
 #: model:res.country,name:base.sj
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Spitzbergák és Jan Mayen-sziget"
 
 #. module: base
 #: model:res.country,name:base.sz
@@ -20361,7 +20373,7 @@ msgstr "Rendszerfrissítés"
 #. module: base
 #: model:res.country,name:base.st
 msgid "São Tomé and Príncipe"
-msgstr ""
+msgstr "São Tomé és Príncipe"
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_T
@@ -21351,12 +21363,12 @@ msgstr ""
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "The following apps will be uninstalled"
-msgstr ""
+msgstr "A következő alkalmazások eltávolításra kerülnek"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "The following documents will be permanently lost"
-msgstr ""
+msgstr "A következő dokumentumok véglegesen törlődnek"
 
 #. module: base
 #: code:addons/base/module/wizard/base_module_upgrade.py:69
@@ -21458,7 +21470,7 @@ msgstr "Az egyedüli előre definiált változók a következők"
 #: code:addons/model.py:121
 #, python-format
 msgid "The operation cannot be completed:"
-msgstr ""
+msgstr "A művelet nincs befejezve:"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields_domain
@@ -21808,7 +21820,7 @@ msgstr "Időzóna eltolódás"
 #. module: base
 #: model:res.country,name:base.tl
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Kelet-Timor"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_title
@@ -21947,7 +21959,7 @@ msgstr "Ideiglenes: Igaz"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_transifex
 msgid "Transifex integration"
-msgstr ""
+msgstr "Transifex integráció"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_trans_implied_ids
@@ -22032,7 +22044,7 @@ msgstr "Fordítások"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_H
 msgid "Transportation"
-msgstr ""
+msgstr "Szállítmányozás"
 
 #. module: base
 #: selection:ir.actions.act_window,view_type:0
@@ -22181,7 +22193,7 @@ msgstr "URL"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_us_reports
 msgid "US - Accounting Reports"
-msgstr ""
+msgstr "Egyesült Államok - Könyvelési kimutatások"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_us_check_printing
@@ -22275,7 +22287,7 @@ msgstr "Eltávolítás"
 #: model:ir.ui.view,arch_db:base.view_base_module_uninstall
 #, python-format
 msgid "Uninstall module"
-msgstr ""
+msgstr "Modul eltávolítása"
 
 #. module: base
 #: selection:ir.module.module,state:0
@@ -22675,7 +22687,7 @@ msgstr "Adószám érvényesítése"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_voip
 msgid "VOIP"
-msgstr ""
+msgstr "VoIP"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_voip_onsip
@@ -22884,7 +22896,7 @@ msgstr ""
 #: code:addons/base/ir/ir_model.py:583
 #, python-format
 msgid "View: %s"
-msgstr ""
+msgstr "Nézet: 1%s"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_ui_view
@@ -22946,7 +22958,7 @@ msgstr "WMS összes költség"
 #. module: base
 #: model:res.country,name:base.wf
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Wallis és Futuna"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_warehouse
@@ -22986,7 +22998,7 @@ msgstr "Figyelmeztetések"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_E
 msgid "Water supply"
-msgstr ""
+msgstr "Ivóvízellátás"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -23606,22 +23618,22 @@ msgstr "base.update.translations"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "binary"
-msgstr ""
+msgstr "bináris"
 
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "boolean"
-msgstr ""
+msgstr "logikai"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_bpost
 msgid "bpost Shipping"
-msgstr ""
+msgstr "bpost szállítás"
 
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "char"
-msgstr ""
+msgstr "szöveg"
 
 #. module: base
 #: selection:base.language.export,state:0
@@ -23642,12 +23654,12 @@ msgstr "adatbázis azonosító"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "date"
-msgstr ""
+msgstr "dátum"
 
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "datetime"
-msgstr ""
+msgstr "dátum-idő"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
@@ -23750,7 +23762,7 @@ msgstr "hamis"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "float"
-msgstr ""
+msgstr "lebegőpontos"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_model_fields_form
@@ -23781,7 +23793,7 @@ msgstr "kap"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #. module: base
 #: selection:base.language.install,state:0
@@ -23792,7 +23804,7 @@ msgstr "kezd"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "integer"
-msgstr ""
+msgstr "egész"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -23836,7 +23848,7 @@ msgstr "ir.actions.client"
 #: model:ir.model,name:base.model_ir_actions_report
 #: selection:ir.ui.menu,action:0
 msgid "ir.actions.report"
-msgstr ""
+msgstr "ir.actions.report"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_actions_server
@@ -24042,17 +24054,17 @@ msgstr "ir.ui.view.custom"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "many2many"
-msgstr ""
+msgstr "many2many"
 
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "many2one"
-msgstr ""
+msgstr "many2one"
 
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "monetary"
-msgstr ""
+msgstr "pénzügyi"
 
 #. module: base
 #: code:addons/base/ir/ir_ui_view.py:494
@@ -24080,7 +24092,7 @@ msgstr "ezen"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "one2many"
-msgstr ""
+msgstr "one2many"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_cache
@@ -24090,12 +24102,12 @@ msgstr "pos_cache"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_sale
 msgid "pos_sale"
-msgstr ""
+msgstr "pos_sale"
 
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "reference"
-msgstr ""
+msgstr "hivatkozás"
 
 #. module: base
 #: model:ir.model,name:base.model_report_base_report_irmodulereference
@@ -24135,7 +24147,7 @@ msgstr "res.users.log"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "selection"
-msgstr ""
+msgstr "kiválasztás"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_mimetypes
@@ -24195,12 +24207,12 @@ msgstr "határérték teszt"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_lint
 msgid "test-lint"
-msgstr ""
+msgstr "test-lint"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_translation_import
 msgid "test-translation-import"
-msgstr ""
+msgstr "test-translation-import"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_uninstall
@@ -24215,7 +24227,7 @@ msgstr "Átalakítás teszt"
 #. module: base
 #: selection:ir.model.fields,ttype:0
 msgid "text"
-msgstr ""
+msgstr "szöveg"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.res_config_installer
