@@ -10,6 +10,7 @@
 # khoibv Mr <kendev2009@gmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# Uyen Vo <uyen@trobz.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-19 08:20+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Uyen Vo <uyen@trobz.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,6 +43,8 @@ msgid ""
 "<p>Approve the report here.</p><p>Tip: if you refuse, don’t forget to give "
 "the reason thanks to the hereunder message tool</p>"
 msgstr ""
+"<p>Xác nhận báo cáo ở đây.</p><p>Mẹo: nếu bạn từ chối, đừng quên để lại lý "
+"do nhờ vào công cụ nhắn tin dưới đây</p>"
 
 #. module: hr_expense
 #. openerp-web
@@ -51,6 +54,8 @@ msgid ""
 "<p>Click on <b> Action Create Report </b> to submit selected expenses to "
 "your manager</p>"
 msgstr ""
+"<p>Nhấp vào <b> Hành động tạo báo cáo </b> dể gửi chi phí đã chọn tới quản "
+"lý của bạn</p>"
 
 #. module: hr_expense
 #. openerp-web
@@ -311,7 +316,7 @@ msgstr "Chi tiêu đã xác nhận"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Create Report"
-msgstr ""
+msgstr "Tạo báo cáo"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_request_approve_expense_sheet
@@ -320,12 +325,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "Create a new expense"
-msgstr ""
+msgstr "Tạo mới một chi tiêu"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_product
 msgid "Create a new expense category"
-msgstr ""
+msgstr "Tạo mới một nhóm chi tiêu"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_all
@@ -562,7 +567,7 @@ msgstr "Kê khai chi tiêu bị từ chối"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_account_move_line__expense_id
 msgid "Expense where the move line come from"
-msgstr ""
+msgstr "Chi tiêu mà từ đó phát sinh kế toán được liên kết đến"
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_root
@@ -601,18 +606,20 @@ msgstr "Kê khai Chi tiêu chờ Duyệt"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Expenses by Date"
-msgstr ""
+msgstr "Chi tiêu theo ngày"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Expenses in Draft"
-msgstr ""
+msgstr "Chi tiêu dự thảo"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:568
 #, python-format
 msgid "Expenses must be paid by the same entity (Company or employee)."
 msgstr ""
+"Các chi tiêu phải được thanh toán bởi cùng một thực thể (Công ty hoặc nhân "
+"viên)."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:623
@@ -714,12 +721,12 @@ msgstr "Ẩn phương thức thanh toán"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__hr_expense_ids
 msgid "Hr Expense"
-msgstr ""
+msgstr "Chi tiêu (HR)"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__hr_expense_sheet_id
 msgid "Hr Expense Sheet"
-msgstr ""
+msgstr "Bảng chi tiêu (HR)"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__id
@@ -846,7 +853,7 @@ msgstr "Thông điệp"
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_my_all
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports
 msgid "My Expense Reports"
-msgstr ""
+msgstr "Báo cáo chi tiêu của tôi"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_my_unsubmitted
@@ -880,7 +887,7 @@ msgstr "Tên"
 #: code:addons/hr_expense/models/hr_expense.py:186
 #, python-format
 msgid "New Expense Report"
-msgstr ""
+msgstr "Báo cáo chi tiêu mới"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_date_deadline
@@ -907,6 +914,8 @@ msgid ""
 "No Expense account found for the product %s (or for its category), please "
 "configure one."
 msgstr ""
+"Không tìm thấy tài khoản chi phí cho sản phẩm%s (hoặc cho nhóm của nó), vui "
+"lòng cấu hình tài khoản."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:261
@@ -919,7 +928,7 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_approved_expense
 msgid "No approved employee expenses"
-msgstr ""
+msgstr "Không có chi tiêu nhân viên được phê duyệt"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:257
@@ -933,12 +942,12 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_to_approve
 msgid "No expense reports to approve"
-msgstr ""
+msgstr "Không có báo cáo chi tiêu cần phê duyệt"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_unsubmitted_expense
 msgid "No unreported employee expenses"
-msgstr ""
+msgstr "Không có chi tiêu nhân viên không được báo cáo"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__description
@@ -1010,19 +1019,23 @@ msgid ""
 "Once your <b>Expense report</b> is ready, you can submit it to your manager "
 "and wait for the approval from your manager."
 msgstr ""
+"Khi <b>báo cáo chi tiêu của bạn</b> sẵn sàng, bạn có thể gửi nó cho người "
+"quản lý của mình và chờ phê duyệt từ người quản lý của bạn."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:706
 #, python-format
 msgid "Only HR Officers or the concerned employee can reset to draft."
 msgstr ""
+"Chỉ nhân viên nhân sự hoặc nhân viên có liên quan mới có thể thiết lập về "
+"dự thảo."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:667
 #: code:addons/hr_expense/models/hr_expense.py:688
 #, python-format
 msgid "Only Managers and HR Officers can approve expenses"
-msgstr ""
+msgstr "Chỉ có quản lý và cán bộ nhân sự mới có thể phê duyệt chi tiêu"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
@@ -1045,7 +1058,7 @@ msgstr "Đã thanh toán"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__payment_mode
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__payment_mode
 msgid "Paid By"
-msgstr ""
+msgstr "Thanh toán bởi"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard__partner_id
@@ -1106,7 +1119,7 @@ msgstr "Giá"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Price in Company Currency"
-msgstr ""
+msgstr "Giá theo tiền tệ công ty"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_id
@@ -1147,12 +1160,12 @@ msgstr "Lý do"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Reason :"
-msgstr ""
+msgstr "Lý do: "
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Reason to refuse Expense"
-msgstr ""
+msgstr "Lý do từ chối chi tiêu"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard__partner_bank_account_id
@@ -1209,7 +1222,7 @@ msgstr "Báo cáo"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__company_currency_id
 msgid "Report Company Currency"
-msgstr ""
+msgstr "Tiền tệ công ty trên báo cáo"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -1282,7 +1295,7 @@ msgstr "Hiển thị tất cả dữ liệu có ngày xử lý tiếp theo trư�
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_template__can_be_expensed
 msgid "Specify whether the product can be selected in an expense."
-msgstr ""
+msgstr "Chỉ định xem sản phẩm có thể được chọn trong một chi tiêu."
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
@@ -1318,7 +1331,7 @@ msgstr "Tình trạng của chi tiêu."
 #. module: hr_expense
 #: model:ir.actions.server,name:hr_expense.hr_expense_submit_action_server
 msgid "Submit Report"
-msgstr ""
+msgstr "Trình báo cáo"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
@@ -1414,7 +1427,7 @@ msgstr "Chờ Trình"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "To report"
-msgstr ""
+msgstr "Để báo cáo"
 
 #. module: hr_expense
 #: selection:hr.expense,activity_state:0
@@ -1436,7 +1449,7 @@ msgstr "Tổng"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__total_amount_company
 msgid "Total (Company Currency)"
-msgstr ""
+msgstr "Tổng (tiền tệ công ty)"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__total_amount
@@ -1486,6 +1499,8 @@ msgstr "Chi tiêu Chưa kê khai"
 msgid ""
 "User responsible of expense approval. Should be Expense Officer or Manager."
 msgstr ""
+"Người dùng chịu trách nhiệm phê duyệt chi phí. Nên là cán bộ chi tiêu hoặc "
+"quản lý."
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_register_payment_view_form
@@ -1513,7 +1528,7 @@ msgstr "Xem Kê khai"
 #: code:addons/hr_expense/static/src/js/tour.js:18
 #, python-format
 msgid "Want to manage your expenses? It starts here."
-msgstr ""
+msgstr "Bạn muốn quản lý chi tiêu của bạn? Hãy bắt đầu từ đây."
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__website_message_ids
@@ -1531,7 +1546,7 @@ msgstr "Lịch sử thông tin liên lạc website"
 #: code:addons/hr_expense/models/hr_expense.py:675
 #, python-format
 msgid "You can only approve your department expenses"
-msgstr ""
+msgstr "Bạn chỉ có thể phê duyệt chi tiêu bộ phận của bạn"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:620
@@ -1545,7 +1560,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:696
 #, python-format
 msgid "You can only refuse your department expenses"
-msgstr ""
+msgstr "Bạn chỉ có thể từ chối chi tiêu bộ phận của bạn"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -1556,42 +1571,49 @@ msgid ""
 "between brackets, the product will be set automatically. Type the expense "
 "amount in the mail subject to set it on the expense too."
 msgstr ""
+"Bạn có thể thiết lập một bí danh email chung để tạo chi tiêu một cách dễ "
+"dàng. Viết một email với biên nhận trong tệp đính kèm để tạo một dòng chi "
+"tiêu trong một cú nhấp chuột. Nếu chủ đề thư chứa tham chiếu nội bộ của sản "
+"phẩm giữa các dấu ngoặc, sản phẩm sẽ được đặt tự động. Nhập số tiền chi tiêu "
+"trong chủ đề thư để đặt nó vào chi tiêu."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:575
 #, python-format
 msgid "You cannot add expenses of another employee."
-msgstr ""
+msgstr "Bạn không thể thêm chi tiêu của nhân viên khác."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:672
 #, python-format
 msgid "You cannot approve your own expenses"
-msgstr ""
+msgstr "Bạn không thể duyệt chí tiêu của chính mình"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:145
 #, python-format
 msgid "You cannot delete a posted or approved expense."
-msgstr ""
+msgstr "Bạn không thể xóa một chi tiêu đã vào sổ hoặc đã phê duyệt."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:587
 #, python-format
 msgid "You cannot delete a posted or paid expense."
-msgstr ""
+msgstr "Bạn không thể xóa một chí tiêu đã vào sổ hoặc đã thanh toán"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:693
 #, python-format
 msgid "You cannot refuse your own expenses"
-msgstr ""
+msgstr "Bạn không thể từ chối chi tiêu của chính mình"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:182
 #, python-format
 msgid "You cannot report expenses for different employees in the same report."
 msgstr ""
+"Bạn không thể báo cáo chi tiêu cho các nhân viên khác nhau trong cùng một báo"
+" cáo."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:180
@@ -1602,7 +1624,7 @@ msgstr "Bạn không thể kê khai hai lần cho cùng một dòng"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Your Expense"
-msgstr ""
+msgstr "Chi tiêu của bạn"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view

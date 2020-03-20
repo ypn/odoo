@@ -11,9 +11,9 @@
 # fanha99 <fanha99@hotmail.com>, 2018
 # khoibv Mr <kendev2009@gmail.com>, 2018
 # Nguyen Quang Toan <nqtoan@dqn.vn>, 2019
-# Duy BQ <duybq86@gmail.com>, 2019
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2019
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
+# Duy BQ <duybq86@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:33+0000\n"
 "PO-Revision-Date: 2018-08-24 09:14+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6596,6 +6596,11 @@ msgid "Mail Activity Type"
 msgstr "Kiểu Hoạt động Thư"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice_send__mailing_list_ids
+msgid "Mailing List"
+msgstr "Danh sách Mailing"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__message_main_attachment_id
 #: model:ir.model.fields,field_description:account.field_account_invoice__message_main_attachment_id
 #: model:ir.model.fields,field_description:account.field_account_payment__message_main_attachment_id
@@ -6661,6 +6666,9 @@ msgid ""
 "Check:Pay bill by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
+"Thủ công:Trả qua tiền mặt hoặc bất kì phương thức nào khác bên ngoài hệ thống.\n"
+"Séc:Trả hóa đơn qua séc và in nó trực tiếp từ hệ thống.\n"
+"SEPA Credit Transfer: Thanh toán qua SEPA Credit Transfer file bạn gửi cho ngân hàng của bạn. Kích hoạt casci này từ phần thiết lập."
 
 #. module: account
 #: selection:account.reconcile.model,rule_type:0
@@ -6686,7 +6694,22 @@ msgstr "Phân tích Biên lợi nhuận"
 #: selection:account.payment,payment_difference_handling:0
 #: selection:account.register.payments,payment_difference_handling:0
 msgid "Mark invoice as fully paid"
-msgstr "Đánh dầu hoá đơn là đã thanh toán đủ"
+msgstr "Đánh dầu hoá đơn đã thanh toán đủ"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice_send__mass_mailing_id
+msgid "Mass Mailing"
+msgstr "Gửi mail hàng loạt"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice_send__mass_mailing_campaign_id
+msgid "Mass Mailing Campaign"
+msgstr "Chiến dịch gửi mail hàng loạt"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice_send__mass_mailing_name
+msgid "Mass Mailing Name"
+msgstr "Tên gửi mail hàng loạt"
 
 #. module: account
 #: selection:account.reconcile.model,match_label:0
@@ -6701,7 +6724,7 @@ msgstr ""
 #: code:addons/account/models/chart_template.py:934
 #, python-format
 msgid "Match existing invoices/bills."
-msgstr ""
+msgstr "Khớp hóa đơn hiện có."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__matched_credit_ids
@@ -6728,7 +6751,7 @@ msgstr "Đang khớp"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__full_reconcile_id
 msgid "Matching Number"
-msgstr "Mã số đối chiếu"
+msgstr "Số khớp"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile__max_date
@@ -6745,26 +6768,26 @@ msgstr "Tháng Năm"
 #: model:ir.model.fields,field_description:account.field_account_payment__communication
 #: model:ir.model.fields,field_description:account.field_account_register_payments__communication
 msgid "Memo"
-msgstr "Ghi nhớ"
+msgstr "Nội dung giao dịch"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_from_invoices
 msgid "Memo will be computed from invoices"
-msgstr ""
+msgstr "Nội dung giao dịch sẽ được lấy từ hóa đơn"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:64
 #, python-format
 msgid "Memo:"
-msgstr "Ghi nhớ:"
+msgstr "Nội dung giao dịch:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__message_has_error
 #: model:ir.model.fields,field_description:account.field_account_invoice__message_has_error
 #: model:ir.model.fields,field_description:account.field_account_payment__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Thông báo gửi đi gặp lỗi"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__record_name
@@ -6773,6 +6796,7 @@ msgstr "Tên bản ghi thông điệp"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__invoice_warn_msg
+#: model:ir.model.fields,field_description:account.field_res_users__invoice_warn_msg
 msgid "Message for Invoice"
 msgstr "Thông điệp cho Hoá đơn"
 
@@ -6804,36 +6828,6 @@ msgid "Messages"
 msgstr "Thông điệp"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "Minus Cost of Revenue"
-msgstr "Trừ đi Giá vốn hàng bán"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "Minus Credit Card Accounts"
-msgstr "Trừ Tài khoản Thẻ Tín dụng"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "Minus Current Liabilities"
-msgstr "Trừ Nợ Ngắn hạn"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "Minus Expenses"
-msgstr "Trừ Chi tiêu"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "Minus Non-Current Liabilities"
-msgstr "Trừ Nợ Trung & Dài hạn"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "Minus Payable Accounts"
-msgstr "Trừ các Khoản phải trả"
-
-#. module: account
 #: selection:account.journal,type:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_search
 msgid "Miscellaneous"
@@ -6849,7 +6843,7 @@ msgstr "Hoạt động khác"
 #. module: account
 #: sql_constraint:account.invoice.line:0
 msgid "Missing required account on accountable invoice line."
-msgstr ""
+msgstr "Thiếu tài khoản cần thiết trên dòng hóa đơn có thể hạch toán."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__moderator_id
@@ -6859,7 +6853,7 @@ msgstr "Được kiểm duyệt bởi"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__moderation_status
 msgid "Moderation Status"
-msgstr ""
+msgstr "Tình trạng kiểm duyệt"
 
 #. module: account
 #. openerp-web
@@ -6935,16 +6929,6 @@ msgid "My Invoices"
 msgstr "Hoá đơn của tôi"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "NET ASSETS"
-msgstr "TÀI SẢN THUẦN"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_form
-msgid "NET PROFIT"
-msgstr "LỢI NHUẬN THUẦN"
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__name
 #: model:ir.model.fields,field_description:account.field_account_account_tag__name
 #: model:ir.model.fields,field_description:account.field_account_account_template__name
@@ -6965,7 +6949,7 @@ msgstr "Tên"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_send__record_name
 msgid "Name get of the related document."
-msgstr "Lấy tên của tài liệu liên quan"
+msgstr "Lấy tên của tài liệu liên quan."
 
 #. module: account
 #. openerp-web
@@ -7108,12 +7092,12 @@ msgstr "Nợ trung & dài hạn"
 #: selection:account.tax,type_tax_use:0
 #: selection:account.tax.template,type_tax_use:0
 msgid "None"
-msgstr "Không"
+msgstr "Không dùng"
 
 #. module: account
 #: selection:res.partner,trust:0
 msgid "Normal Debtor"
-msgstr "Con nợ bình thường"
+msgstr "Nợ bình thường"
 
 #. module: account
 #: selection:account.reconcile.model,match_label:0
