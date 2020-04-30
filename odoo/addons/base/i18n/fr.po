@@ -70,6 +70,7 @@
 # Vallen Delobel <edv@odoo.com>, 2020
 # Cécile Collart <cco@odoo.com>, 2020
 # Jonathan Quique <jqu@odoo.com>, 2020
+# Priscilla Sanchez <prs@odoo.com>, 2020
 # Pauline Thiry <pth@odoo.com>, 2020
 # 
 msgid ""
@@ -720,6 +721,9 @@ msgid ""
 "        Accounting reports send to HMRC\n"
 "    "
 msgstr ""
+"\n"
+"        Rapports comptables envoyés à HMRC\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_mx_reports_closing
@@ -845,6 +849,10 @@ msgid ""
 "        UNSPSC code for their products and uoms.  \n"
 "    "
 msgstr ""
+"\n"
+"        Les pays comme la Colombie, le Pérou et le Mexique nécessitent de pouvoir utiliser le \n"
+"        code UNSPSC pour leurs produits et unités de mesure.  \n"
+"    "
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_mx_reports
@@ -1608,6 +1616,10 @@ msgid ""
 "=================================\n"
 "    "
 msgstr ""
+"\n"
+"Rapports comptables pour le Danemark\n"
+"=================================\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_et_reports
@@ -6074,6 +6086,11 @@ msgid ""
 "    - generic Indonesian chart of accounts\n"
 "    - tax structure"
 msgstr ""
+"\n"
+"Ceci est la dernière localisation indonésienne Odoo nécessaire pour gérer votre comptabilité  Odoo pour PMEs avec:\n"
+"=================================================================================================\n"
+"    - plan comptable générique indonésien\n"
+"    - structure de taxe"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_uk
@@ -6587,6 +6604,16 @@ msgid ""
 "- Check on bottom: ADP standard\n"
 "    "
 msgstr ""
+"\n"
+"Module qui permet d'imprimer les paiements sur des chèques pré-imprimés.\n"
+"\n"
+"Dans paramètres de la société, on peut configurer les éditions (mise en page, etc.), et de gérer la numérotation des chèques (si on utilise des chèques pré-imprimés non numérotés) dans les paramètres du journal.\n"
+"\n"
+"Formats pris en compte\n"
+"-------------------------------\n"
+"- Chèque en haut : standard Quicken / QuickBooks\n"
+"- Chèque au milieu :  standard Peachtree\n"
+"- Chèque en bas : standard ADP"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_crm_partner_assign
@@ -8884,7 +8911,7 @@ msgstr "Nom du détenteur du compte si différent du partenaire"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_invoice_extract
 msgid "Account Invoice Extract"
-msgstr ""
+msgstr "Extrait du compte facture"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__account_no
@@ -9627,7 +9654,7 @@ msgstr "Comptabilité analytique"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_analytic_enterprise
 msgid "Analytic Accounting Enterprise"
-msgstr ""
+msgstr "Comptabilité analytique Enterprise"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_account
@@ -9818,7 +9845,7 @@ msgstr "Rapports Comptables - Argentine"
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_client__params
 msgid "Arguments sent to the client along with the view tag"
-msgstr ""
+msgstr "Arguments envoyés au client avec l'étiquette de vue"
 
 #. module: base
 #: model:res.country,name:base.am
@@ -10191,7 +10218,7 @@ msgstr "Code Barre"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_quality_control
 msgid "Barcode Quality bridge module"
-msgstr ""
+msgstr "Module de lien Code-barres/Qualité"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_scanner
@@ -10201,7 +10228,7 @@ msgstr "Pilote pour lecteur de code-barres"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_barcodes_mobile
 msgid "Barcode in Mobile"
-msgstr ""
+msgstr "Lecture de code-barres sur mobile"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_barcodes_mobile
@@ -10259,7 +10286,7 @@ msgstr "Propriétés de base"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view__arch_base
 msgid "Base View Architecture"
-msgstr ""
+msgstr "Architecture de vue de base"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_import
@@ -11016,7 +11043,7 @@ msgstr "China - Comptabilité"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cn_city
 msgid "China - City Data"
-msgstr ""
+msgstr "Chine - données de la ville"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cn_small_business
@@ -11180,12 +11207,12 @@ msgstr "Comptabilité et préconfiguration des taxes - Colombie"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_co_edi
 msgid "Colombian Localization for EDI documents"
-msgstr ""
+msgstr "Localisation colombienne pour documents EDI"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_co_edi_ubl_2_1
 msgid "Colombian Localization for EDI documents UBL 2.1"
-msgstr ""
+msgstr "Localisation colombienne pour documents EDI UBL 2.1"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__color
@@ -11660,7 +11687,7 @@ msgstr "Copié"
 #. module: base
 #: model:ir.module.category,name:base.module_category_theme_corporate
 msgid "Corporate"
-msgstr ""
+msgstr "Corporate"
 
 #. module: base
 #: model:res.country,name:base.cr
@@ -12626,12 +12653,12 @@ msgstr "Danemark"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_dk
 msgid "Denmark - Accounting"
-msgstr ""
+msgstr "Danemark - Comptabilité"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_dk_reports
 msgid "Denmark - Accounting Reports"
-msgstr ""
+msgstr "Danemark - Rapports comptables"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__depends
@@ -13473,7 +13500,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_cancellation
 msgid "EDI Cancellation for Mexican Localization"
-msgstr ""
+msgstr "Annulation EDI pour la localisation mexicaine"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_external_trade
@@ -13671,7 +13698,7 @@ msgstr "Facturation électronique pour la Colombie avec Carvajal"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_co_edi_ubl_2_1
 msgid "Electronic invoicing for Colombia with Carvajal UBL 2.1"
-msgstr ""
+msgstr "Facturation électronique pour la Colombie avec Carvajal UBL 2.1"
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:629
@@ -14046,7 +14073,7 @@ msgstr "Exports"
 #. module: base
 #: model:ir.model,name:base.model_ir_exports_line
 msgid "Exports Line"
-msgstr ""
+msgstr "Ligne d'export"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_server_object_lines__value
@@ -14307,6 +14334,9 @@ msgid ""
 "from mail header:\n"
 "%s"
 msgstr ""
+"Échec d'encodage de l'adresse %s\n"
+"depuis l'en-tête du mail:\n"
+"%s"
 
 #. module: base
 #: model:ir.actions.server,name:base.demo_failure_action
@@ -16483,7 +16513,7 @@ msgstr "Indonésie"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_id
 msgid "Indonesian - Accounting"
-msgstr ""
+msgstr "Comptabilité - Indonésienne"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.res_partner_industry_action
@@ -17145,7 +17175,7 @@ msgstr "Langue"
 #. module: base
 #: model:ir.model,name:base.model_base_language_export
 msgid "Language Export"
-msgstr ""
+msgstr "Langue d'export"
 
 #. module: base
 #: model:ir.model,name:base.model_base_language_import
@@ -18162,6 +18192,8 @@ msgstr "Tests des courriels de masse"
 #: model:ir.module.module,summary:base.module_test_mass_mailing
 msgid "Mass Mail Tests: feature and performance tests for mass mailing"
 msgstr ""
+"Tests du mailing de masse : tests de fonctionnalité et de performance pour "
+"le mailing de masse"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mass_mailing_themes
@@ -18298,7 +18330,7 @@ msgstr "Fusionner les contacts"
 #. module: base
 #: model:ir.model,name:base.model_base_partner_merge_line
 msgid "Merge Partner Line"
-msgstr ""
+msgstr "Fusionner la ligne du partenaire"
 
 #. module: base
 #: model:ir.model,name:base.model_base_partner_merge_automatic_wizard
@@ -18486,7 +18518,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_ir_model_access
 msgid "Model Access"
-msgstr ""
+msgstr "Accès Modèle"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_model_constraint
@@ -18613,7 +18645,7 @@ msgstr "Nom de Module"
 #. module: base
 #: model:ir.model,name:base.model_report_base_report_irmodulereference
 msgid "Module Reference Report (base)"
-msgstr ""
+msgstr "Module référence de rapport (base)"
 
 #. module: base
 #: model:ir.model,name:base.model_base_module_uninstall
@@ -19038,6 +19070,11 @@ msgid ""
 "supposed to do\n"
 "    "
 msgstr ""
+"Des services de tests non-triviaux peuvent nécessiter des modèles ou autres\n"
+"    \n"
+"Ce module-ci est utile pour valider que ce qu'ils font est ce qu'ils sont \n"
+"supposés faire\n"
+"    "
 
 #. module: base
 #: selection:ir.mail_server,smtp_encryption:0
@@ -20137,7 +20174,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_sale_coupon
 #: model:ir.module.module,summary:base.module_l10n_mx_edi_sale_coupon
 msgid "Odoo Mexico Localization for Sale Coupon"
-msgstr ""
+msgstr "Localisation mexicaine Odoo pour les coupons de vente"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_landing
@@ -22046,12 +22083,12 @@ msgstr "Partenaire"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_partner_autocomplete
 msgid "Partner Autocomplete"
-msgstr ""
+msgstr "Autocomplétion de Partenaires"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_partner_autocomplete_address_extended
 msgid "Partner Autocomplete extends Address autocomplete"
-msgstr ""
+msgstr "L'Autocomplétion de Partenaires étend l'Autocomplétation des Adresses"
 
 #. module: base
 #: model:ir.model,name:base.model_res_partner_category
@@ -22117,7 +22154,7 @@ msgstr "Politique de mot de passe"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_password_policy_signup
 msgid "Password Policy support for Signup"
-msgstr ""
+msgstr "Politique de support de mot de passe pour Signup"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging__path
@@ -22128,7 +22165,7 @@ msgstr "Chemin"
 #: code:addons/base/models/ir_qweb_fields.py:224
 #, python-format
 msgid "Pattern to format"
-msgstr ""
+msgstr "Modèle à formater"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_payment
@@ -22351,7 +22388,7 @@ msgstr "Point de vente, réimpression de reçus"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_enterprise
 msgid "Point of Sale enterprise"
-msgstr ""
+msgstr "Point de vente enterprise"
 
 #. module: base
 #: model:res.country,name:base.pl
@@ -22415,7 +22452,7 @@ msgstr "PostgreSQL, nom de table implémentant une relation many2many."
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_predictive_bills
 msgid "Predictive vendor bill data"
-msgstr ""
+msgstr "Données prédicitives pour les factures fournisseurs"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -22565,7 +22602,7 @@ msgstr "Projet"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_enterprise
 msgid "Project Enterprise"
-msgstr ""
+msgstr "Projet Enterprise"
 
 #. module: base
 #: model:ir.module.module,description:base.module_project
@@ -22905,7 +22942,7 @@ msgstr "Qualité"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_quality
 msgid "Quality Base"
-msgstr ""
+msgstr "Base qualitative"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_quality_mrp
@@ -22916,7 +22953,7 @@ msgstr "Gestion de la qualité avec le module MRP"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_quality_iot
 msgid "Quality Steps with IoT"
-msgstr ""
+msgstr "Étapes de qualité avec IoT"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_quality_iot
@@ -22980,7 +23017,7 @@ msgstr "Champ date Qweb"
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_datetime
 msgid "Qweb Field Datetime"
-msgstr ""
+msgstr "Champ date Qweb"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_duration
@@ -22990,12 +23027,12 @@ msgstr "Champ Qweb de durée"
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_float
 msgid "Qweb Field Float"
-msgstr ""
+msgstr "Qweb Field Float"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_float_time
 msgid "Qweb Field Float Time"
-msgstr ""
+msgstr "Qweb Field Float Time"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_qweb_field_html
@@ -23246,7 +23283,7 @@ msgstr "Champ Relation"
 #. module: base
 #: model:ir.model,name:base.model_ir_model_relation
 msgid "Relation Model"
-msgstr ""
+msgstr "Modèle associé"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_relation__name
@@ -23673,7 +23710,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_purchase
 msgid "Sale Purchase"
-msgstr ""
+msgstr "Ventes & Achats"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_subscription_dashboard
@@ -23683,12 +23720,12 @@ msgstr "Tableau de bord d'abonnement"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_purchase
 msgid "Sale based on service outsourcing."
-msgstr ""
+msgstr "Vente basée sur un service de sous traitance."
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_enterprise
 msgid "Sale enterprise"
-msgstr ""
+msgstr "Vente entreprise"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_sales
@@ -24292,7 +24329,7 @@ msgstr "Signature"
 #. module: base
 #: model:ir.module.module,summary:base.module_documents_sign
 msgid "Signature templates from Documents"
-msgstr ""
+msgstr "Modèle de signature du module Documents"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_signup
@@ -24482,7 +24519,7 @@ msgstr "Afrique du Sud - Comptabilité"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_za_reports
 msgid "South Africa - Accounting Reports"
-msgstr ""
+msgstr "Afrique du Sud - Rapports comptable"
 
 #. module: base
 #: model:res.country.group,name:base.south_america
@@ -24602,7 +24639,7 @@ msgstr "Palestine"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__base_onboarding_company_state
 msgid "State of the onboarding company step"
-msgstr ""
+msgstr "Status des étapes d'intégration de la société"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_ids
@@ -24655,7 +24692,7 @@ msgstr "Lecture de code-barres de stock sur mobile"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_intrastat
 msgid "Stock Intrastat"
-msgstr ""
+msgstr "Stock Intrastat"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_account_enterprise
@@ -24665,7 +24702,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_enterprise
 msgid "Stock enterprise"
-msgstr ""
+msgstr "Stock entreprise"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__store
@@ -24729,7 +24766,7 @@ msgstr ""
 #. module: base
 #: selection:ir.translation,type:0
 msgid "Structured Model Field"
-msgstr ""
+msgstr "Modèle de champ structuré"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_studio
@@ -24739,7 +24776,7 @@ msgstr "Studio"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_studio_customization
 msgid "Studio customizations"
-msgstr ""
+msgstr "Customisations Studio"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
@@ -24909,6 +24946,7 @@ msgstr "Archive TGZ"
 #: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "TGZ format: bundles multiple PO(T) files as a single archive"
 msgstr ""
+"Format TGZ format: groupe plusieurs fichiers PO(T) en une seule archive"
 
 #. module: base
 #: selection:ir.mail_server,smtp_encryption:0
@@ -25560,7 +25598,7 @@ msgstr "TaxCloud et Livraison - eCommerce"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_subscription_taxcloud
 msgid "TaxCloud and Subscriptions"
-msgstr ""
+msgstr "TaxCloud et Abonnements"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_taxcloud
@@ -25646,7 +25684,7 @@ msgstr "Test RPC"
 #. module: base
 #: model:ir.module.module,summary:base.module_test_marketing_automation
 msgid "Test Suits for Automated Marketing Campaigns"
-msgstr ""
+msgstr "Suites de tests pour les campagnes d'Automatisation Marketing"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_testing_utilities
@@ -26408,6 +26446,8 @@ msgid ""
 "This module has been generated by Odoo Studio.\n"
 "It contains the apps created with Studio and the customizations of existing apps."
 msgstr ""
+"Ce module a été généré avec Odoo Studio.\n"
+"It contains the apps created with Studio and the customizations of existing apps."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
@@ -26815,7 +26855,7 @@ msgstr "Mur Twitter"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_twitter
 msgid "Twitter scroller snippet in website"
-msgstr ""
+msgstr "Snippet de défilement Twitter dans le site web"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence__implementation
@@ -26890,7 +26930,7 @@ msgstr "Comptabilité - É.A.U"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ae_reports
 msgid "U.A.E. - Accounting Reports"
-msgstr ""
+msgstr "U.A.E. - Rapports comptables"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_uk
@@ -26905,13 +26945,13 @@ msgstr "Rapports Comptables - Grande Bretagne"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_uk_reports_hmrc
 msgid "UK - Accounting Reports to HMRC"
-msgstr ""
+msgstr "UK - Rapports comptable HMRC"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_unspsc
 #: model:ir.module.module,summary:base.module_product_unspsc
 msgid "UNSPSC product codes"
-msgstr ""
+msgstr "Codes produits UNSPSC"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_ups
@@ -26958,7 +26998,7 @@ msgstr "UTM et courriel de masse auprès des pistes / opportunités"
 #. module: base
 #: model:ir.module.module,description:base.module_mass_mailing_sale
 msgid "UTM and mass mailing on sale orders"
-msgstr ""
+msgstr "UTM et courriel de masse sur les bons de commande."
 
 #. module: base
 #: model:res.country,name:base.ug
@@ -27092,7 +27132,7 @@ msgstr "Inconnu"
 #: code:addons/models.py:873
 #, python-format
 msgid "Unknown database error: '%s'"
-msgstr ""
+msgstr "Erreur base de données inconnue : '%s'"
 
 #. module: base
 #: code:addons/models.py:1067
@@ -27464,7 +27504,7 @@ msgstr "Utilisateurs et sociétés"
 #. module: base
 #: model:ir.model,name:base.model_res_users_log
 msgid "Users Log"
-msgstr ""
+msgstr "Log utilisateurs"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_groups_form
@@ -27922,7 +27962,7 @@ msgstr "Note du Site Web"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_dashboard
 msgid "Website Sales Dashboard"
-msgstr ""
+msgstr "Tableau de Bord des Ventes du Siteweb"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_helpdesk_slides
