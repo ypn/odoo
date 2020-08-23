@@ -4,10 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Tuan Tran <tmtuan.projects@gmail.com>, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
-# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2019
 # Duy BQ <duybq86@gmail.com>, 2019
+# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:34+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2019\n"
+"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +37,15 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Ghi nhận chấm công\n"
+"                </p><p>\n"
+"                    Bạn có thể ghi nhận và theo dõi số giờ làm việc của bạn theo dự án mỗi\n"
+"                    ngày. Thời gian làm việc cho dự án sẽ được ghi nhận lại thành chi phí và có thể yêu cầu\n"
+"                    khách hàng thanh toán lại nếu cần thiết.\n"
+"                </p>\n"
+"            "
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_sale_order__billable_type
@@ -56,7 +64,7 @@ msgstr "<b>Tổng</b>"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Time Billing</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Xuất hóa đơn theo thời gian</span>"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_kanban_inherit_sale_timesheet
@@ -110,6 +118,8 @@ msgid ""
 "An employee cannot be selected more than once in the mapping. Please remove "
 "duplicate(s) and try again."
 msgstr ""
+"Một nhân viên không được phép chọn 2 lần khi khớp. Vui lòng bỏ cái bị trùng "
+"và thử lại."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_profitability_report__analytic_account_id
@@ -124,12 +134,12 @@ msgstr "Phân tích từ Chi phí"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Dòng Phân tích"
+msgstr "Phát sinh KT Quản trị"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__analytic_line_ids
 msgid "Analytic lines"
-msgstr "Analytic lines"
+msgstr "Phát sinh KT Quản trị"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_task_assign_so_line_view_form
@@ -179,12 +189,12 @@ msgstr "Ít nhất phải có một dòng được điền"
 #: code:addons/sale_timesheet/controllers/main.py:249
 #, python-format
 msgid "Before"
-msgstr ""
+msgstr "Trước"
 
 #. module: sale_timesheet
 #: selection:account.analytic.line,timesheet_invoice_type:0
 msgid "Billable Fixed"
-msgstr ""
+msgstr "Biểu giá cố định có thể xuất hóa đơn"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
@@ -211,7 +221,7 @@ msgstr "Thanh toán cố định"
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_plan
 msgid "Billable time"
-msgstr "Thời gian có thể tính hoá đơn"
+msgstr "Thời gian có thể xuất hoá đơn"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__billable_type
@@ -221,6 +231,10 @@ msgid ""
 " - At employee rate: each employee log time billed at his rate.\n"
 " - No Billable: track time without invoicing it"
 msgstr ""
+"Loại áp dụng tính phí:\n"
+" - Theo giá công việc: thời gian đã dùng ở mỗi công việc sẽ tính phí theo giá công việc.\n"
+" - Theo giá nhân sự: mỗi nhân sự ghi nhận thời gian sẽ có biểu phí riêng.\n"
+" - Không tính phí: ghi nhận thời gian nhưng không cần tính phí"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
@@ -230,7 +244,7 @@ msgstr "Lập hoá đơn"
 #. module: sale_timesheet
 #: model:ir.filters,name:sale_timesheet.timesheet_filter_billing
 msgid "Billing Rate"
-msgstr "Tỷ lệ thanh toán"
+msgstr "Tỉ lệ xuất hóa đơn"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order__billable_type
@@ -241,7 +255,7 @@ msgstr "Kiểu xuất Hoá đơn"
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_billing_report
 #: model:ir.ui.menu,name:sale_timesheet.menu_timesheet_billing_analysis
 msgid "By Billing Rate"
-msgstr "Theo tỷ lệ thanh toán"
+msgstr "Theo tỷ lệ xuất hóa đơn"
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_create_invoice_view_form
@@ -395,7 +409,7 @@ msgstr "Hoàn thành"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__employee_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__employee_id
 msgid "Employee"
-msgstr "Người lao động"
+msgstr "Nhân viên"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_sale_order_line__employee_id
@@ -1339,7 +1353,7 @@ msgstr ""
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:19
 #, python-format
 msgid "You can only apply this action from a project."
-msgstr ""
+msgstr "Bạn chỉ có thể áp dụng hành động này từ một dự án."
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project.py:208
@@ -1348,6 +1362,8 @@ msgid ""
 "You cannot link the order item %s - %s to this task because it is a re-"
 "invoiced expense."
 msgstr ""
+"Bạn không thể liên kết nội dung đơn bán %s - %s với công việc này bởi nó là"
+" khoản phí cần được thanh toán lại."
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project.py:221
@@ -1355,6 +1371,7 @@ msgstr ""
 msgid ""
 "You have to unlink the task from the sale order item in order to delete it."
 msgstr ""
+"Bạn phải bỏ liên kết giữa công việc và nội dung trong đơn hàng để xóa nó."
 
 #. module: sale_timesheet
 #: model:product.product,weight_uom_name:sale_timesheet.product_service_deliver_manual
