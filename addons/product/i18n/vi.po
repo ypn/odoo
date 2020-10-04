@@ -44,19 +44,19 @@ msgid "# Products"
 msgstr "SL Sản phẩm"
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:462
+#: code:addons/product/models/product_pricelist.py:499
 #, python-format
 msgid "%s %% discount"
 msgstr "%s %% chiếu khấu"
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:464
+#: code:addons/product/models/product_pricelist.py:501
 #, python-format
 msgid "%s %% discount and %s surcharge"
 msgstr "%s %% chiếu khấu %s phụ phí"
 
 #. module: product
-#: code:addons/product/models/product_template.py:357
+#: code:addons/product/models/product_template.py:391
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (bản sao)"
@@ -71,7 +71,7 @@ msgstr "1 năm"
 #: model:product.product,description_sale:product.product_product_4b
 #: model:product.product,description_sale:product.product_product_4c
 #: model:product.product,description_sale:product.product_product_4d
-#: model:product.template,description_sale:product.product_product_4b_product_template
+#: model:product.template,description_sale:product.product_product_4_product_template
 msgid "160x80cm, with large legs."
 msgstr "160x80cm, với chân lớn."
 
@@ -87,12 +87,10 @@ msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Tiền tệ\" title=\
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
-msgid ""
-"<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Public Price  -  </span>\n"
+msgid "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Public Price  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Cost  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Other Pricelist  -  </span>"
-msgstr ""
-"<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Giá niêm yết  -  </span>\n"
+msgstr "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Giá niêm yết  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Giá vốn  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Bảng giá Khác  -  </span>"
 
@@ -145,12 +143,10 @@ msgstr "<strong>SL:</strong>"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
-msgid ""
-"<strong>Warning</strong>: adding or deleting attributes\n"
+msgid "<strong>Warning</strong>: adding or deleting attributes\n"
 "                        will delete and recreate existing variants and lead\n"
 "                        to the loss of their possible customizations."
-msgstr ""
-"<strong>Cảnh báo</strong>: thêm hoặc xoá thuộc tính sẽ\n"
+msgstr "<strong>Cảnh báo</strong>: thêm hoặc xoá thuộc tính sẽ\n"
 "                        sẽ xoá và tạo lại toàn bộ biến thể và dẫn đến việc\n"
 "                        mất mát các tuỳ biến có thể xảy ra."
 
@@ -162,33 +158,23 @@ msgstr "Một mã vạch chỉ có thể được gán cho một sản phẩm"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
-msgid ""
-"A description of the Product that you want to communicate to your customers."
-" This description will be copied to every Sales Order, Delivery Order and "
-"Customer Invoice/Credit Note"
-msgstr ""
-"Mô tả Sản phẩm mà bạn muốn giao tiếp với khách hàng của mình. Mô tả này sẽ "
-"được sao chép vào mọi Đơn đặt hàng, Đơn hàng Giao hàng và Hoá đơn Khách hàng"
-" / Ghi chú Tín dụng"
+msgid "A description of the Product that you want to communicate to your customers. This description will be copied to every Sales Order, Delivery Order and Customer Invoice/Credit Note"
+msgstr "Mô tả Sản phẩm mà bạn muốn giao tiếp với khách hàng của mình. Mô tả này sẽ được sao chép vào mọi Đơn đặt hàng, Đơn hàng Giao hàng và Hoá đơn Khách hàng / Ghi chú Tín dụng"
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
-msgid ""
-"A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
+msgid "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "                This is the perfect tool to handle several pricings, seasonal discounts, etc."
-msgstr ""
-"Giá là một tập hợp giá bán hoặc quy tắc để tính giá của các dòng đơn bán dựa trên sản phẩm, danh mục sản phẩm, ngày và số lượng đặt hàng. \n"
+msgstr "Giá là một tập hợp giá bán hoặc quy tắc để tính giá của các dòng đơn bán dựa trên sản phẩm, danh mục sản phẩm, ngày và số lượng đặt hàng. \n"
 "Đây là công cụ hoàn hảo để xử lý các chính sách giá, giảm giá theo mùa, v.v."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__type
 #: model:ir.model.fields,help:product.field_product_template__type
-msgid ""
-"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+msgid "A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
-msgstr ""
-"Một sản phẩm có thể lưu kho là một sản phẩm mà bạn có thể quản lý dự trữ của nó (với các tính năng quản lý kho). Ứng dụng Tồn kho phải được cài đặt.\n"
+msgstr "Một sản phẩm có thể lưu kho là một sản phẩm mà bạn có thể quản lý dự trữ của nó (với các tính năng quản lý kho). Ứng dụng Tồn kho phải được cài đặt.\n"
 "Một sản phẩm tiêu dùng là một sản phẩm mà không có tính năng quản lý kho / dự trữ.\n"
 "Một dịch vụ là một sản phẩm phi vật thể (hay nói cách khác, là một dịch vụ) mà bạn cung cấp."
 
@@ -230,7 +216,7 @@ msgid "All"
 msgstr "Tất cả"
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:457
+#: code:addons/product/models/product_pricelist.py:488
 #, python-format
 msgid "All Products"
 msgstr "Tất cả Sản phẩm"
@@ -242,11 +228,9 @@ msgstr "Tất cả các cài đặt tổng quát về sản phẩm này được
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_config_settings__group_sale_pricelist
-msgid ""
-"Allows to manage different prices based on rules per category of customers.\n"
+msgid "Allows to manage different prices based on rules per category of customers.\n"
 "                Example: 10% for retailers, promotion of 5 EUR on this product, etc."
-msgstr ""
-"Cho phép quản lý giá khác nhau dựa trên quy tắc theo từng danh mục của khách hàng.\n"
+msgstr "Cho phép quản lý giá khác nhau dựa trên quy tắc theo từng danh mục của khách hàng.\n"
 "                Ví dụ: tăng 10% cho bán lẻ, khuyến mãi 5 EUR cho sản phẩm này, vv."
 
 #. module: product
@@ -350,13 +334,11 @@ msgstr "Mã vạch được sử dụng để nhận dạng gói hàng"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__base
-msgid ""
-"Base price for computation.\n"
+msgid "Base price for computation.\n"
 "Public Price: The base price will be the Sale/public Price.\n"
 "Cost Price : The base price will be the cost price.\n"
 "Other Pricelist : Computation of the base price based on another Pricelist."
-msgstr ""
-"Giá cơ sở để tính toán. \n"
+msgstr "Giá cơ sở để tính toán. \n"
 "Giá niêm yết: Giá cơ bản sẽ là giá bán / giá niêm yết. \n"
 "Giá vốn: Giá cơ sở sẽ là giá vốn. \n"
 "Bảng giá khác: Tính toán giá cơ sở dựa trên bảng giá khác."
@@ -418,7 +400,7 @@ msgid "Category name"
 msgstr "Tên Nhóm"
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:451
+#: code:addons/product/models/product_pricelist.py:482
 #, python-format
 msgid "Category: %s"
 msgstr "Nhóm: %s"
@@ -488,7 +470,7 @@ msgstr "Giá Tính toán"
 #. module: product
 #: model:product.product,name:product.product_product_11
 #: model:product.product,name:product.product_product_11b
-#: model:product.template,name:product.product_product_11b_product_template
+#: model:product.template,name:product.product_product_11_product_template
 msgid "Conference Chair"
 msgstr "Ghế Hội nghị"
 
@@ -551,25 +533,13 @@ msgstr "Tiền tệ Giá vốn"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template__standard_price
-msgid ""
-"Cost used for stock valuation in standard price and as a first price to set "
-"in average/FIFO."
-msgstr ""
-"Giá được sử dụng để định giá tồn kho theo phương pháp giá tiêu chuẩn và cũng là "
-"giá đầu tiên để sử dụng trong phương pháp giá vốn bình quân / FIFO"
+msgid "Cost used for stock valuation in standard price and as a first price to set in average/FIFO."
+msgstr "Giá được sử dụng để định giá tồn kho theo phương pháp giá tiêu chuẩn và cũng là giá đầu tiên để sử dụng trong phương pháp giá vốn bình quân / FIFO"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__standard_price
-msgid ""
-"Cost used for stock valuation in standard price and as a first price to set "
-"in average/fifo. Also used as a base price for pricelists. Expressed in the "
-"default unit of measure of the product."
-msgstr ""
-"Giá vốn được sử dụng cho mục đích định giá tồn kho theo phương thức giá vốn "
-"'Giá tiêu chuẩn' và được coi như là số liệu đầu tiên để thiết lập giá vốn "
-"trong phương pháp Trung bình hoặc FIFO. Nó cũng được sử dụng như là giá cơ "
-"bản cho các bảng giá. Giá vốn này là đơn giá theo đơn vị đo lường mặc định "
-"của sản phẩm."
+msgid "Cost used for stock valuation in standard price and as a first price to set in average/fifo. Also used as a base price for pricelists. Expressed in the default unit of measure of the product."
+msgstr "Giá vốn được sử dụng cho mục đích định giá tồn kho theo phương thức giá vốn 'Giá tiêu chuẩn' và được coi như là số liệu đầu tiên để thiết lập giá vốn trong phương pháp Trung bình hoặc FIFO. Nó cũng được sử dụng như là giá cơ bản cho các bảng giá. Giá vốn này là đơn giá theo đơn vị đo lường mặc định của sản phẩm."
 
 #. module: product
 #: model:ir.model,name:product.model_res_country_group
@@ -659,7 +629,7 @@ msgstr "Mã khách hàng"
 #: model:product.product,name:product.product_product_4b
 #: model:product.product,name:product.product_product_4c
 #: model:product.product,name:product.product_product_4d
-#: model:product.template,name:product.product_product_4b_product_template
+#: model:product.template,name:product.product_product_4_product_template
 msgid "Customizable Desk"
 msgstr "Bàn theo yêu cầu"
 
@@ -695,12 +665,8 @@ msgstr "Đơn vị đo mặc định dùng cho tất cả hoạt động kho."
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__uom_po_id
 #: model:ir.model.fields,help:product.field_product_template__uom_po_id
-msgid ""
-"Default unit of measure used for purchase orders. It must be in the same "
-"category as the default unit of measure."
-msgstr ""
-"Đơn vị mua hàng mặc định được sử dụng cho các đơn mua hàng phải cùng loại "
-"với đơn vị mặc định."
+msgid "Default unit of measure used for purchase orders. It must be in the same category as the default unit of measure."
+msgstr "Đơn vị mua hàng mặc định được sử dụng cho các đơn mua hàng phải cùng loại với đơn vị mặc định."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__seller_ids
@@ -794,11 +760,9 @@ msgstr "Thời lượng"
 #. module: product
 #: model:product.product,description_sale:product.consu_delivery_03
 #: model:product.template,description_sale:product.consu_delivery_03_product_template
-msgid ""
-"Dvorak keyboard\n"
+msgid "Dvorak keyboard\n"
 "left-handed mouse"
-msgstr ""
-"Bàn phím Dvorak\n"
+msgstr "Bàn phím Dvorak\n"
 "chuột trái"
 
 #. module: product
@@ -818,13 +782,10 @@ msgid "Ending valid for the pricelist item validation"
 msgstr "Kết thúc hợp lệ đối với việc thẩm định chi tiết bảng giá"
 
 #. module: product
-#: code:addons/product/models/product.py:300
+#: code:addons/product/models/product.py:331
 #, python-format
-msgid ""
-"Error! It is not allowed to choose more than one value for a given "
-"attribute."
-msgstr ""
-"Lỗi! Không được phép chọn nhiều hơn một giá trị cho thuộc tính được cho."
+msgid "Error! It is not allowed to choose more than one value for a given attribute."
+msgstr "Lỗi! Không được phép chọn nhiều hơn một giá trị cho thuộc tính được cho."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__exclude_for
@@ -834,7 +795,7 @@ msgstr "Không bao gồm"
 #. module: product
 #: model:product.category,name:product.cat_expense
 msgid "Expenses"
-msgstr "Chi phí"
+msgstr "Chi tiêu"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__name
@@ -862,7 +823,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_follower_ids
 #: model:ir.model.fields,field_description:product.field_product_template__message_follower_ids
 msgid "Followers"
-msgstr "Người dõi theo"
+msgstr "Theo dõi"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_channel_ids
@@ -878,11 +839,9 @@ msgstr "Người theo dõi (Các đối tác)"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
-msgid ""
-"For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+msgid "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
-msgstr ""
-"Để quy tắc được áp dụng, số lượng mua / bán phải lớn hơn hoặc bằng số lượng tối thiểu được chỉ định trong trường này. \n"
+msgstr "Để quy tắc được áp dụng, số lượng mua / bán phải lớn hơn hoặc bằng số lượng tối thiểu được chỉ định trong trường này. \n"
 "Được biểu thị theo đơn vị tính mặc định của sản phẩm."
 
 #. module: product
@@ -899,12 +858,12 @@ msgstr "Bàn làm việc cho bốn người"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Future Activities"
-msgstr "Hoạt động trong Tương lai"
+msgstr "Hoạt động tương lai"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "General Information"
-msgstr "Thông tin Tổng quát"
+msgstr "Thông tin chung"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__packaging_ids
@@ -924,7 +883,7 @@ msgid "Global"
 msgstr "Toàn cục"
 
 #. module: product
-#: code:addons/product/models/product_template.py:32
+#: code:addons/product/models/product_template.py:30
 #, python-format
 msgid "Go to Internal Categories"
 msgstr "Chuyển đến Nhóm Nội bộ"
@@ -965,50 +924,41 @@ msgstr "Giờ"
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__id
 #: model:ir.model.fields,field_description:product.field_report_product_report_pricelist__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__message_unread
 #: model:ir.model.fields,help:product.field_product_template__message_unread
 msgid "If checked new messages require your attention."
-msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu chọn, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__message_needaction
 #: model:ir.model.fields,help:product.field_product_template__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+msgstr "Nếu đánh dấu chọn, các thông điệp mới yêu cầu sự có mặt của bạn."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__message_has_error
 #: model:ir.model.fields,help:product.field_product_template__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Nếu được đánh dấu, sẽ hiển thị thông báo lỗi."
+msgstr "Nếu được đánh dấu, thông điệp có lỗi về gửi tin."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_id
-msgid ""
-"If not set, the vendor price will apply to all variants of this product."
-msgstr ""
-"Nếu không chọn, giá nhà cung cấp sẽ áp dụng cho tất cả các biến thể của sản "
-"phẩm."
+msgid "If not set, the vendor price will apply to all variants of this product."
+msgstr "Nếu không chọn, giá nhà cung cấp sẽ áp dụng cho tất cả các biến thể của sản phẩm."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
-msgid ""
-"If unchecked, it will allow you to hide the pricelist without removing it."
-msgstr ""
-"Nếu bỏ đánh dấu, hệ thống sẽ cho phép bạn ẩn bảng giá mà không cần xóa bỏ "
-"nó."
+msgid "If unchecked, it will allow you to hide the pricelist without removing it."
+msgstr "Nếu bỏ đánh dấu, hệ thống sẽ cho phép bạn ẩn bảng giá mà không cần xóa bỏ nó."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__active
 #: model:ir.model.fields,help:product.field_product_template__active
-msgid ""
-"If unchecked, it will allow you to hide the product without removing it."
-msgstr ""
-"Nếu bỏ đánh dấu, hệ thống sẽ cho phép bạn ẩn sản phẩm mà không cần xóa bỏ "
-"nó."
+msgid "If unchecked, it will allow you to hide the product without removing it."
+msgstr "Nếu bỏ đánh dấu, hệ thống sẽ cho phép bạn ẩn sản phẩm mà không cần xóa bỏ nó."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template__image
@@ -1017,47 +967,33 @@ msgstr "Hình ảnh"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__image
-msgid ""
-"Image of the product variant (Big-sized image of product template if false)."
-" It is automatically resized as a 1024x1024px image, with aspect ratio "
-"preserved."
-msgstr ""
-"Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng "
-"hình ảnh với kích thước lớn của sản phẩm). Nó sẽ tự động thay đổi kích thước"
-" thành 1024x10024 mà vẫn giữ nguyên tỷ lệ."
+msgid "Image of the product variant (Big-sized image of product template if false). It is automatically resized as a 1024x1024px image, with aspect ratio preserved."
+msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước lớn của sản phẩm). Nó sẽ tự động thay đổi kích thước thành 1024x10024 mà vẫn giữ nguyên tỷ lệ."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__image_medium
-msgid ""
-"Image of the product variant (Medium-sized image of product template if "
-"false)."
-msgstr ""
-"Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng "
-"hình ảnh với kích thước trung bình của sản phẩm)."
+msgid "Image of the product variant (Medium-sized image of product template if false)."
+msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước trung bình của sản phẩm)."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__image_small
-msgid ""
-"Image of the product variant (Small-sized image of product template if "
-"false)."
-msgstr ""
-"Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng "
-"hình ảnh với kích thước nhỏ của sản phẩm)."
+msgid "Image of the product variant (Small-sized image of product template if false)."
+msgstr "Hình ảnh của biến thể sản phẩm (Nếu không thiết lập, hệ thống sẽ sử dụng hình ảnh với kích thước nhỏ của sản phẩm)."
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:348
+#: code:addons/product/models/product_pricelist.py:376
 #, python-format
 msgid "Import Template for Pricelists"
 msgstr "Mẫu Import cho bảng giá"
 
 #. module: product
-#: code:addons/product/models/product_template.py:573
+#: code:addons/product/models/product_template.py:1078
 #, python-format
 msgid "Import Template for Products"
-msgstr "Mẫu Import cho Sản phẩm"
+msgstr ""
 
 #. module: product
-#: code:addons/product/models/product.py:665
+#: code:addons/product/models/product.py:786
 #, python-format
 msgid "Import Template for Vendor Pricelists"
 msgstr "Mẫu Import cho Bảng giá Nhà cung cấp"
@@ -1076,13 +1012,13 @@ msgstr "Nội bộ"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Internal Notes"
-msgstr "Ghi chú nội bộ"
+msgstr "Ghi chú Nội bộ"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__default_code
 #: model:ir.model.fields,field_description:product.field_product_template__default_code
 msgid "Internal Reference"
-msgstr "Mã nội bộ"
+msgstr "Tham chiếu Nội bộ"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__barcode
@@ -1192,18 +1128,12 @@ msgstr "Cập nhật lần cuối"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Late Activities"
-msgstr "Hoạt động Trễ"
+msgstr "Hoạt động trễ"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__delay
-msgid ""
-"Lead time in days between the confirmation of the purchase order and the "
-"receipt of the products in your warehouse. Used by the scheduler for "
-"automatic computation of the purchase order planning."
-msgstr ""
-"Thời gian được tính theo ngày mà Nhà cung cấp hứa sẽ giao hàng từ lúc xác "
-"nhận đơn hàng đến lúc nhận hàng. Được sử dụng bởi bộ đặt lịch cho việc tính "
-"toán tự động của đơn hàng."
+msgid "Lead time in days between the confirmation of the purchase order and the receipt of the products in your warehouse. Used by the scheduler for automatic computation of the purchase order planning."
+msgstr "Thời gian được tính theo ngày mà Nhà cung cấp hứa sẽ giao hàng từ lúc xác nhận đơn hàng đến lúc nhận hàng. Được sử dụng bởi bộ đặt lịch cho việc tính toán tự động của đơn hàng."
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_1
@@ -1213,12 +1143,12 @@ msgstr "Chân"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__attribute_line_ids
 msgid "Lines"
-msgstr "Các dòng"
+msgstr "Chi tiết"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Logistics"
-msgstr "Kho vận"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_main_attachment_id
@@ -1228,12 +1158,9 @@ msgstr "Đính kèm chính"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
-msgid ""
-"Make this attribute value not compatible with\n"
+msgid "Make this attribute value not compatible with\n"
 "        other values of the product or some attribute values of optional and accessory products."
-msgstr ""
-"Giá trị thuộc tính này không tương thích với \\ ncác giá trị khác của sản "
-"phẩm hoặc một số giá trị thuộc tính của các sản phẩm tùy chọn và phụ kiện."
+msgstr "Giá trị thuộc tính này không tương thích với \\ ncác giá trị khác của sản phẩm hoặc một số giá trị thuộc tính của các sản phẩm tùy chọn và phụ kiện."
 
 #. module: product
 #: model:res.groups,name:product.group_pricelist_item
@@ -1264,25 +1191,18 @@ msgstr "Biên độ giá tối đa"
 #: model:ir.model.fields,field_description:product.field_product_product__image_medium
 #: model:ir.model.fields,field_description:product.field_product_template__image_medium
 msgid "Medium-sized image"
-msgstr "Hình ảnh với kích thước Trung bình"
+msgstr "Hình ảnh cỡ vừa"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template__image_medium
-msgid ""
-"Medium-sized image of the product. It is automatically resized as a "
-"128x128px image, with aspect ratio preserved, only when the image exceeds "
-"one of those sizes. Use this field in form views or some kanban views."
-msgstr ""
-"Hình ảnh cỡ trung bình của sản phẩm. Nó được tự động thay đổi kích thước về "
-"128x128 mà vẫn giữ nguyên tỷ lệ, chỉ khi hình ảnh vượt quá một trong số các "
-"kích thước. Hình ảnh này được sử dụng trên giao diện form hoặc giao diện "
-"kanban."
+msgid "Medium-sized image of the product. It is automatically resized as a 128x128px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+msgstr "Hình ảnh cỡ trung bình của sản phẩm. Nó được tự động thay đổi kích thước về 128x128 mà vẫn giữ nguyên tỷ lệ, chỉ khi hình ảnh vượt quá một trong số các kích thước. Hình ảnh này được sử dụng trên giao diện form hoặc giao diện kanban."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_has_error
 #: model:ir.model.fields,field_description:product.field_product_template__message_has_error
 msgid "Message Delivery error"
-msgstr "Thông báo gửi đi gặp lỗi"
+msgstr "Có Lỗi Gửi Thông điệp"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_ids
@@ -1356,7 +1276,7 @@ msgstr "Số lượng Hành động"
 #: model:ir.model.fields,field_description:product.field_product_product__message_has_error_counter
 #: model:ir.model.fields,field_description:product.field_product_template__message_has_error_counter
 msgid "Number of error"
-msgstr "Số lượng lỗi"
+msgstr "Số lỗi"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__message_needaction_counter
@@ -1368,7 +1288,7 @@ msgstr "Số thông điệp cần có hành động"
 #: model:ir.model.fields,help:product.field_product_product__message_has_error_counter
 #: model:ir.model.fields,help:product.field_product_template__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Số tin gửi đi bị lỗi"
+msgstr "Số lượng các thông điệp có lỗi về gửi tin"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__message_unread_counter
@@ -1443,12 +1363,12 @@ msgstr "Đóng gói"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__parent_id
 msgid "Parent Category"
-msgstr "Nhóm Cha"
+msgstr "Nhóm cha"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__parent_path
 msgid "Parent Path"
-msgstr "Parent Path"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_9
@@ -1501,11 +1421,9 @@ msgstr "Chiết khấu"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
-msgid ""
-"Price Extra: Extra price for the variant with\n"
+msgid "Price Extra: Extra price for the variant with\n"
 "        this attribute value on sale price. eg. 200 price extra, 1000 + 200 = 1200."
-msgstr ""
-"Giá cộng thêm: Giá cộng thêm vào giá bán của biến thể có giá trị thuộc tính này\n"
+msgstr "Giá cộng thêm: Giá cộng thêm vào giá bán của biến thể có giá trị thuộc tính này\n"
 "        Ví dụ: giá cộng thêm 200, giá bán sẽ là 1000 + 200 = 1200"
 
 #. module: product
@@ -1810,10 +1728,10 @@ msgid "Products Price Search"
 msgstr "Tìm giá sản phẩm"
 
 #. module: product
-#: code:addons/product/models/product.py:475
+#: code:addons/product/models/product.py:548
 #, python-format
 msgid "Products: "
-msgstr "Sản phẩm: "
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template__lst_price
@@ -1829,7 +1747,7 @@ msgstr "Bảng giá niêm yết"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Purchase"
-msgstr "Mua hàng"
+msgstr "Mua"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__description_purchase
@@ -1883,7 +1801,7 @@ msgstr "Người chịu trách nhiệm"
 #: model:product.product,name:product.expense_product
 #: model:product.template,name:product.expense_product_product_template
 msgid "Restaurant Expenses"
-msgstr "Chi phí Nhà hàng"
+msgstr "Chi tiêu Nhà hàng"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -1956,12 +1874,10 @@ msgstr "Dịch vụ"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_round
-msgid ""
-"Sets the price so that it is a multiple of this value.\n"
+msgid "Sets the price so that it is a multiple of this value.\n"
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, set rounding 10, surcharge -0.01"
-msgstr ""
-"Thiết lập giá để nó là một bội số (số chia hết) của giá trị này.\n"
+msgstr "Thiết lập giá để nó là một bội số (số chia hết) của giá trị này.\n"
 "Việc làm tròn được áp dụng sau chiết khấu và trước phụ phí.\n"
 "Để có giá là 9,99 thì thiết lập làm tròn là 10 và phụ phí là -0,01"
 
@@ -1972,21 +1888,17 @@ msgstr "Chia sẻ sản phẩm cho tất cả các công ty"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_config_settings__company_share_product
-msgid ""
-"Share your product to all companies defined in your instance.\n"
+msgid "Share your product to all companies defined in your instance.\n"
 " * Checked : Product are visible for every company, even if a company is defined on the partner.\n"
 " * Unchecked : Each company can see only its product (product where company is defined). Product not related to a company are visible for all companies."
-msgstr ""
-"Chi sẻ sản phẩm đến tất cả các công ty được định nghĩa trong cùng một instance của bạn.\n"
+msgstr "Chi sẻ sản phẩm đến tất cả các công ty được định nghĩa trong cùng một instance của bạn.\n"
 " * Đánh dấu: Sản phẩm được nhìn thấy bởi mọi công ty, kể cả nếu một công ty được xác định ở đối tác.\n"
 " * Bỏ dấu : Mỗi công ty chỉ có thể nhìn thấy sản phẩm của chính nó (sản phẩm được xác định cho công ty đó). Sản phẩm mà không liên quan đến công ty nào thì sẽ được thấy bởi mọi công ty."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Show all records which has next action date is before today"
-msgstr ""
-"Hiển thị tất cả các bản ghi mà có ngày hành động tiếp theo trước ngày hôm "
-"nay"
+msgstr "Hiển thị tất cả dữ liệu có ngày xử lý tiếp theo mà trước ngày hôm nay"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_product_pricelist
@@ -2002,17 +1914,12 @@ msgstr "Hiển thị bảng giá cho khách hàng"
 #: model:ir.model.fields,field_description:product.field_product_product__image_small
 #: model:ir.model.fields,field_description:product.field_product_template__image_small
 msgid "Small-sized image"
-msgstr "Ảnh cỡ Nhỏ"
+msgstr "Ảnh cỡ nhỏ"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template__image_small
-msgid ""
-"Small-sized image of the product. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is"
-" required."
-msgstr ""
-"Hình ảnh với kích thước nhỏ của sản phẩm. Nó tự động thay đổi kích thước "
-"thành 64x64 mà vẫn giữ nguyên tỷ lệ."
+msgid "Small-sized image of the product. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Hình ảnh với kích thước nhỏ của sản phẩm. Nó tự động thay đổi kích thước thành 64x64 mà vẫn giữ nguyên tỷ lệ."
 
 #. module: product
 #: model:product.category,name:product.product_category_4
@@ -2021,39 +1928,23 @@ msgstr "Phần mềm"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__categ_id
-msgid ""
-"Specify a product category if this rule only applies to products belonging "
-"to this category or its children categories. Keep empty otherwise."
-msgstr ""
-"Chỉ ra một nhóm sản phẩm nếu quy tắc này chỉ áp dụng cho sản phẩm thuộc nhóm"
-" này hoặc nhóm con của nó. Nếu không thì để trống."
+msgid "Specify a product category if this rule only applies to products belonging to this category or its children categories. Keep empty otherwise."
+msgstr "Chỉ ra một nhóm sản phẩm nếu quy tắc này chỉ áp dụng cho sản phẩm thuộc nhóm này hoặc nhóm con của nó. Nếu không thì để trống."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_id
-msgid ""
-"Specify a product if this rule only applies to one product. Keep empty "
-"otherwise."
-msgstr ""
-"Chỉ ra một sản phẩm nếu quy tắc này chỉ áp dụng trên một sản phẩm. Nếu không"
-" thì để trống."
+msgid "Specify a product if this rule only applies to one product. Keep empty otherwise."
+msgstr "Chỉ ra một sản phẩm nếu quy tắc này chỉ áp dụng trên một sản phẩm. Nếu không thì để trống."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_tmpl_id
-msgid ""
-"Specify a template if this rule only applies to one product template. Keep "
-"empty otherwise."
-msgstr ""
-"Chỉ ra một mẫu sản phẩm nếu quy tắc chỉ áp dụng trên một mẫu sản phẩm. Nếu "
-"không thì để trống."
+msgid "Specify a template if this rule only applies to one product template. Keep empty otherwise."
+msgstr "Chỉ ra một mẫu sản phẩm nếu quy tắc chỉ áp dụng trên một mẫu sản phẩm. Nếu không thì để trống."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_surcharge
-msgid ""
-"Specify the fixed amount to add or substract(if negative) to the amount "
-"calculated with the discount."
-msgstr ""
-"Xác định số tiền cố định để cộng thêm hoặc trừ đi (số âm) số tiền được tính "
-"toán với chiết khấu"
+msgid "Specify the fixed amount to add or substract(if negative) to the amount calculated with the discount."
+msgstr "Xác định số tiền cố định để cộng thêm hoặc trừ đi (số âm) số tiền được tính toán với chiết khấu"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_max_margin
@@ -2084,13 +1975,11 @@ msgstr "Ngày bắt đầu cho việc thiết lập hiệu lực hạng mục b�
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__activity_state
 #: model:ir.model.fields,help:product.field_product_template__activity_state
-msgid ""
-"Status based on activities\n"
+msgid "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
-"Trạng thái dựa trên hoạt động\n"
+msgstr "Trạng thái dựa trên hoạt động\n"
 "Quá hạn: Ngày đến hạn đã trôi qua\n"
 "Hôm nay: Hôm nay là ngày phải thực hiện\n"
 "Đã hoạch định: Các hoạt động trong tương lai."
@@ -2139,11 +2028,8 @@ msgstr "Tính toán kỹ thuật"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__pricelist_id
 #: model:ir.model.fields,help:product.field_product_template__pricelist_id
-msgid ""
-"Technical field. Used for searching on pricelists, not stored in database."
-msgstr ""
-"Trường kỹ thuật. Được sử dụng để tìm kiếm trên bảng giá, không được lưu trữ "
-"trong cơ sở dữ liệu."
+msgid "Technical field. Used for searching on pricelists, not stored in database."
+msgstr "Trường kỹ thuật. Được sử dụng để tìm kiếm trên bảng giá, không được lưu trữ trong cơ sở dữ liệu."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_template_attribute_value_ids
@@ -2152,19 +2038,14 @@ msgstr "Giá trị thuộc tính mẫu"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
-msgid ""
-"The computed price is expressed in the default Unit of Measure of the "
-"product."
+msgid "The computed price is expressed in the default Unit of Measure of the product."
 msgstr "Giá tính toán được tính theo Đơn vị đó lường mặc định của sản phẩm."
 
 #. module: product
-#: code:addons/product/models/product_template.py:303
+#: code:addons/product/models/product_template.py:328
 #, python-format
-msgid ""
-"The default Unit of Measure and the purchase Unit of Measure must be in the "
-"same category."
-msgstr ""
-"Đơn vị đo lường mặc định và đơn vị đo lường mua hàng phải cùng nhóm đơn vị (cùng thể loại)."
+msgid "The default Unit of Measure and the purchase Unit of Measure must be in the same category."
+msgstr "Đơn vị đo lường mặc định và đơn vị đo lường mua hàng phải cùng nhóm đơn vị (cùng thể loại)."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__sequence
@@ -2173,51 +2054,32 @@ msgstr "Thứ tự đầu tiên trong chuỗi mặc định là 1."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__min_qty
-msgid ""
-"The minimal quantity to purchase from this vendor, expressed in the vendor "
-"Product Unit of Measure if not any, in the default unit of measure of the "
-"product otherwise."
-msgstr ""
-"Số lượng tối thiểu để mua từ nhà cung cấp này, được thể hiện theo đơn vị đo "
-"lường phía nhà cung cấp, hoặc nếu ko có là đơn vị đo lượng mặc định của sản "
-"phẩm."
+msgid "The minimal quantity to purchase from this vendor, expressed in the vendor Product Unit of Measure if not any, in the default unit of measure of the product otherwise."
+msgstr "Số lượng tối thiểu để mua từ nhà cung cấp này, được thể hiện theo đơn vị đo lường phía nhà cung cấp, hoặc nếu ko có là đơn vị đo lượng mặc định của sản phẩm."
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:443
+#: code:addons/product/models/product_pricelist.py:474
 #, python-format
 msgid "The minimum margin should be lower than the maximum margin."
 msgstr "Biên độ tối thiểu phải nhỏ hơn biên độ tối đa."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__product_count
-msgid ""
-"The number of products under this category (Does not consider the children "
-"categories)"
-msgstr ""
-"Số lượng sản phẩm trong nhóm này (không bao gồm sản phẩm trong nhóm con của "
-"nhóm này)"
+msgid "The number of products under this category (Does not consider the children categories)"
+msgstr "Số lượng sản phẩm trong nhóm này (không bao gồm sản phẩm trong nhóm con của nhóm này)"
 
 #. module: product
-#: code:addons/product/models/product_template.py:480
+#: code:addons/product/models/product_template.py:521
 #, python-format
-msgid ""
-"The number of variants to generate is too high. You should either not "
-"generate variants for each combination or generate them on demand from the "
-"sales order. To do so, open the form view of attributes and change the mode "
-"of *Create Variants*."
-msgstr ""
-"Số lượng biến thể để tạo quá nhiều. Bạn không nêntạo các biến thể cho mỗi "
-"tổ hợp hoặc tạo chúng theo yêu cầu khi cần từ đơn bán. Để làm như vậy, hãy giao diện "
-"form của các thuộc tính và thay đổi chế độ *Tạo biến thể*."
+msgid "The number of variants to generate is too high. You should either not generate variants for each combination or generate them on demand from the sales order. To do so, open the form view of attributes and change the mode of *Create Variants*."
+msgstr "Số lượng biến thể để tạo quá nhiều. Bạn không nêntạo các biến thể cho mỗi tổ hợp hoặc tạo chúng theo yêu cầu khi cần từ đơn bán. Để làm như vậy, hãy giao diện form của các thuộc tính và thay đổi chế độ *Tạo biến thể*."
 
 #. module: product
-#: code:addons/product/models/product_attribute.py:85
+#: code:addons/product/models/product_attribute.py:101
 #, python-format
-msgid ""
-"The operation cannot be completed:\n"
+msgid "The operation cannot be completed:\n"
 "You are trying to delete an attribute value with a reference on a product variant."
-msgstr ""
-"Hoạt động không thể thực hiện được:\n"
+msgstr "Hoạt động không thể thực hiện được:\n"
 "Bạn đang cố xoá một giá trị thuộc tính mà ánh xạ đến một biến thể sản phẩm."
 
 #. module: product
@@ -2226,20 +2088,15 @@ msgid "The price to purchase a product"
 msgstr "Giá để mua một sản phẩm"
 
 #. module: product
-#: code:addons/product/models/product_template.py:943
+#: code:addons/product/models/product_template.py:966
 #, python-format
 msgid "The product template is archived so no combination is possible."
-msgstr ""
-"Sản phẩm mẫu đã được lưu trữ vì vậy không có sự kết hợp nào có khả năng."
+msgstr "Sản phẩm mẫu đã được lưu trữ vì vậy không có sự kết hợp nào có khả năng."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__lst_price
-msgid ""
-"The sale price is managed from the product template. Click on the 'Configure"
-" Variants' button to set the extra attribute prices."
-msgstr ""
-"Giá bán được quản lý từ mẫu sản phẩm. Bấm vào but 'Cấu hình Biến thể' để "
-"đặt giá thuộc tính bổ sung."
+msgid "The sale price is managed from the product template. Click on the 'Configure Variants' button to set the extra attribute prices."
+msgstr "Giá bán được quản lý từ mẫu sản phẩm. Bấm vào but 'Cấu hình Biến thể' để đặt giá thuộc tính bổ sung."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__qty
@@ -2255,23 +2112,22 @@ msgstr "Thể tích tính theo m3."
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template__weight
 msgid "The weight of the contents in Kg, not including any packaging, etc."
-msgstr ""
-"Khối lượng của hàng hoá trong gói tính bằng kg, không bao gồm khối lượng của gói, v.v."
+msgstr "Khối lượng của hàng hoá trong gói tính bằng kg, không bao gồm khối lượng của gói, v.v."
 
 #. module: product
-#: code:addons/product/models/product_template.py:1010
+#: code:addons/product/models/product_template.py:1035
 #, python-format
 msgid "There are no possible combination."
 msgstr "Không có sự kết hợp khả thi nào."
 
 #. module: product
-#: code:addons/product/models/product_template.py:1005
+#: code:addons/product/models/product_template.py:1030
 #, python-format
 msgid "There are no remaining closest combination."
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:963
+#: code:addons/product/models/product_template.py:988
 #, python-format
 msgid "There are no remaining possible combination."
 msgstr ""
@@ -2288,21 +2144,13 @@ msgstr "Lấy từ form sản phẩm"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__image_variant
-msgid ""
-"This field holds the image used as image for the product variant, limited to"
-" 1024x1024px."
-msgstr ""
-"Trường này chứa hình ảnh được sử dụng làm hình cho biến thể sản phẩm, kích "
-"thước bị giới hạn đến 1024x1024px."
+msgid "This field holds the image used as image for the product variant, limited to 1024x1024px."
+msgstr "Trường này chứa hình ảnh được sử dụng làm hình cho biến thể sản phẩm, kích thước bị giới hạn đến 1024x1024px."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template__image
-msgid ""
-"This field holds the image used as image for the product, limited to "
-"1024x1024px."
-msgstr ""
-"Trường này chứa hình ảnh được sử dụng làm hình cho sản phẩm, kích thước bị "
-"giới hạn đến 1024x1024px."
+msgid "This field holds the image used as image for the product, limited to 1024x1024px."
+msgstr "Trường này chứa hình ảnh được sử dụng làm hình cho sản phẩm, kích thước bị giới hạn đến 1024x1024px."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__price_extra
@@ -2322,39 +2170,18 @@ msgstr "Ghi chú này sẽ được hiển thị trên đơn bán & hoá đơn"
 #. module: product
 #: model:ir.model.fields,help:product.field_res_partner__property_product_pricelist
 #: model:ir.model.fields,help:product.field_res_users__property_product_pricelist
-msgid ""
-"This pricelist will be used, instead of the default one, for sales to the "
-"current partner"
-msgstr ""
-"Bảng giá này sẽ được sử dụng, thay vì mặc định, để bán cho đối tác hiện tại"
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Bảng giá này sẽ được sử dụng, thay vì mặc định, để bán cho đối tác hiện tại"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_code
-#: code:addons/product/models/product_uom.py:63
-#, python-format
-msgid ""
-"This rounding precision is higher than the Decimal Accuracy (%s digits).\n"
-"This may cause inconsistencies in reservations.\n"
-"Please set a precision between %s and 1."
-msgstr ""
-
-#. module: product
-#: model:ir.model.fields,help:product.field_product_supplierinfo_product_code
-msgid ""
-"This vendor's product code will be used when printing a request for "
-"quotation. Keep empty to use the internal one."
-msgstr ""
-"Mã sản phẩm của nhà cung cấp này sẽ được sử dụng khi in một yêu cầu báo giá."
-" Để trống để sử dụng mã sản phẩm nội bộ của bạn."
+msgid "This vendor's product code will be used when printing a request for quotation. Keep empty to use the internal one."
+msgstr "Mã sản phẩm của nhà cung cấp này sẽ được sử dụng khi in một yêu cầu báo giá. Để trống để sử dụng mã sản phẩm nội bộ của bạn."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_name
-msgid ""
-"This vendor's product name will be used when printing a request for "
-"quotation. Keep empty to use the internal one."
-msgstr ""
-"Tên sản phẩm của nhà cung cấp này sẽ được sử dụng khi in một yêu cầu báo "
-"giá. Để trống để sử dụng tên sản phẩm nội bộ của bạn."
+msgid "This vendor's product name will be used when printing a request for quotation. Keep empty to use the internal one."
+msgstr "Tên sản phẩm của nhà cung cấp này sẽ được sử dụng khi in một yêu cầu báo giá. Để trống để sử dụng tên sản phẩm nội bộ của bạn."
 
 #. module: product
 #: model:product.product,name:product.consu_delivery_01
@@ -2379,7 +2206,7 @@ msgstr "Hoạt động Hôm nay"
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_uom
 #: model:ir.model.fields,field_description:product.field_product_template__uom_id
 msgid "Unit of Measure"
-msgstr "Đơn vị đo lường"
+msgstr "Đơn vị Đo lường"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__uom_name
@@ -2424,7 +2251,7 @@ msgstr "Tên đơn vị đo lường"
 #: model:product.template,uom_name:product.product_delivery_02_product_template
 #: model:product.template,uom_name:product.product_order_01_product_template
 #: model:product.template,uom_name:product.product_product_10_product_template
-#: model:product.template,uom_name:product.product_product_11b_product_template
+#: model:product.template,uom_name:product.product_product_11_product_template
 #: model:product.template,uom_name:product.product_product_12_product_template
 #: model:product.template,uom_name:product.product_product_13_product_template
 #: model:product.template,uom_name:product.product_product_16_product_template
@@ -2434,7 +2261,7 @@ msgstr "Tên đơn vị đo lường"
 #: model:product.template,uom_name:product.product_product_25_product_template
 #: model:product.template,uom_name:product.product_product_27_product_template
 #: model:product.template,uom_name:product.product_product_3_product_template
-#: model:product.template,uom_name:product.product_product_4b_product_template
+#: model:product.template,uom_name:product.product_product_4_product_template
 #: model:product.template,uom_name:product.product_product_5_product_template
 #: model:product.template,uom_name:product.product_product_6_product_template
 #: model:product.template,uom_name:product.product_product_7_product_template
@@ -2452,7 +2279,7 @@ msgstr "Đơn vị Đo lường"
 #: model:ir.model.fields,field_description:product.field_product_product__message_unread
 #: model:ir.model.fields,field_description:product.field_product_template__message_unread
 msgid "Unread Messages"
-msgstr "Tin chưa đọc"
+msgstr "Thông điệp chưa đọc"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__message_unread_counter
@@ -2657,15 +2484,6 @@ msgstr "Lịch sử thông tin liên lạc website"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__weight
 #: model:ir.model.fields,field_description:product.field_product_template__weight
-#: code:addons/product/models/product_uom.py:63
-#, python-format
-msgid "Warning!"
-msgstr "Cảnh báo!"
-
-#. module: product
-#: model:ir.model.fields,field_description:product.field_product_product_weight
-#: model:ir.model.fields,field_description:product.field_product_template_weight
-#: model:product.uom.categ,name:product.product_uom_categ_kgm
 msgid "Weight"
 msgstr "Khối lượng"
 
@@ -2682,12 +2500,8 @@ msgstr "Đơn vị Đo Khối lượng"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__weight
-msgid ""
-"Weight of the product, packaging not included. The unit of measure can be "
-"changed in the general settings"
-msgstr ""
-"Khối lượng của sản phẩm, không bao gồm bao bì. Đơn vị đo có thể đã thay đổi"
-" trong cài đặt chung"
+msgid "Weight of the product, packaging not included. The unit of measure can be changed in the general settings"
+msgstr "Khối lượng của sản phẩm, không bao gồm bao bì. Đơn vị đo có thể đã thay đổi trong cài đặt chung"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__product_weight_in_lbs
@@ -2713,32 +2527,22 @@ msgstr "Trắng"
 #. module: product
 #: code:addons/product/models/product_attribute.py:46
 #, python-format
-msgid ""
-"You are trying to change the type of an attribute value still referenced on "
-"at least one product template: %s"
-msgstr ""
-"Bạn đang cố gắng thay đổi kiểu của một giá trị thuộc tính mà vẫnđang được "
-"sử dụng ở ít nhất một mẫu sản phẩm: %s"
+msgid "You are trying to change the type of an attribute value still referenced on at least one product template: %s"
+msgstr "Bạn đang cố gắng thay đổi kiểu của một giá trị thuộc tính mà vẫnđang được sử dụng ở ít nhất một mẫu sản phẩm: %s"
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
-msgid ""
-"You can assign pricelists to your customers or select one when creating a "
-"new sales quotation."
-msgstr ""
-"Bạn có thể chỉ định bảng giá cho khách hàng của mình hoặc chọn một bảng giá "
-"khi tạo mới một báo giá."
+msgid "You can assign pricelists to your customers or select one when creating a new sales quotation."
+msgstr "Bạn có thể chỉ định bảng giá cho khách hàng của mình hoặc chọn một bảng giá khi tạo mới một báo giá."
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:442
+#: code:addons/product/models/product_pricelist.py:468
 #, python-format
-msgid ""
-"You cannot assign the Main Pricelist as Other Pricelist in PriceList Item"
-msgstr ""
-"Bạn không thể chỉ định Bảng giá Chính là Bảng giá khác trong Hạng mục Bảng giá"
+msgid "You cannot assign the Main Pricelist as Other Pricelist in PriceList Item"
+msgstr "Bạn không thể chỉ định Bảng giá Chính là Bảng giá khác trong Hạng mục Bảng giá"
 
 #. module: product
-#: code:addons/product/models/product.py:57
+#: code:addons/product/models/product.py:58
 #, python-format
 msgid "You cannot create recursive categories."
 msgstr "Bạn không thể tạo các nhóm đệ quy lẫn nhau."
@@ -2746,22 +2550,17 @@ msgstr "Bạn không thể tạo các nhóm đệ quy lẫn nhau."
 #. module: product
 #: code:addons/product/models/decimal_precision.py:16
 #, python-format
-msgid ""
-"You cannot define the decimal precision of 'Account' as greater than the "
-"rounding factor of the company's main currency"
-msgstr ""
-"Bạn không thể định nghĩa độ chính xác thập phân của 'Account' mà lớn hơn hệ "
-"số làm tròn của tiền tệ chính của công ty"
+msgid "You cannot define the decimal precision of 'Account' as greater than the rounding factor of the company's main currency"
+msgstr "Bạn không thể định nghĩa độ chính xác thập phân của 'Account' mà lớn hơn hệ số làm tròn của tiền tệ chính của công ty"
 
 #. module: product
-#: code:addons/product/models/product_template.py:332
+#: code:addons/product/models/product_template.py:334
 #, python-format
 msgid "You cannot define two attribute lines for the same attribute."
-msgstr ""
-"Bạn không thể xác định hai dòng thuộc tính với cùng một thuộc tính"
+msgstr "Bạn không thể xác định hai dòng thuộc tính với cùng một thuộc tính"
 
 #. module: product
-#: code:addons/product/models/product_attribute.py:79
+#: code:addons/product/models/product_attribute.py:136
 #, python-format
 msgid "You cannot use this attribute with the following value."
 msgstr "Bạn không thể sử dụng thuộc tính này với giá trị sau."
@@ -2781,35 +2580,28 @@ msgstr "Bạn phải đặt bố cục đầu trang và chân trang của báo c
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
 #: model_terms:ir.actions.act_window,help:product.product_template_action
-msgid ""
-"You must define a product for everything you purchase,\n"
+msgid "You must define a product for everything you purchase,\n"
 "                whether it's a physical product, a consumable or services."
-msgstr ""
-"Bạn phải xác định một sản phẩm cho mọi thứ mà bạn mua, cho dù\n"
+msgstr "Bạn phải xác định một sản phẩm cho mọi thứ mà bạn mua, cho dù\n"
 "                nó có thể là một mặt hàng vật lý (chạm vào được), một hàng tiêu dùng hay là một dịch vụ."
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 #: model_terms:ir.actions.act_window,help:product.product_variant_action
-msgid ""
-"You must define a product for everything you sell, whether it's a physical product,\n"
+msgid "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
-msgstr ""
-"Bạn phải xác định một sản phẩm cho mọi thứ bạn bán, nó có thể là một sản phẩm vật lý,\n"
+msgstr "Bạn phải xác định một sản phẩm cho mọi thứ bạn bán, nó có thể là một sản phẩm vật lý,\n"
 "                tiêu dùng hoặc một dịch vụ mà bạn gửi đến khách hàng.\n"
 "                Form sản phẩm chưa các thông tin cung cấp cho quá trình bán hàng:\n"
 "                giá, ghi chú trong báo giá, dữ liệu kế toán, phương thức cung ứng, v.v."
 
 #. module: product
-#: code:addons/product/models/product_template.py:31
+#: code:addons/product/models/product_template.py:29
 #, python-format
-msgid ""
-"You must define at least one product category in order to be able to create "
-"products."
-msgstr ""
-"Bạn phải xác định ít nhất một danh mục sản phẩm để có thể tạo sản phẩm."
+msgid "You must define at least one product category in order to be able to create products."
+msgstr "Bạn phải xác định ít nhất một danh mục sản phẩm để có thể tạo sản phẩm."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -2878,7 +2670,7 @@ msgstr "từ"
 #: model:product.template,weight_uom_name:product.product_delivery_02_product_template
 #: model:product.template,weight_uom_name:product.product_order_01_product_template
 #: model:product.template,weight_uom_name:product.product_product_10_product_template
-#: model:product.template,weight_uom_name:product.product_product_11b_product_template
+#: model:product.template,weight_uom_name:product.product_product_11_product_template
 #: model:product.template,weight_uom_name:product.product_product_12_product_template
 #: model:product.template,weight_uom_name:product.product_product_13_product_template
 #: model:product.template,weight_uom_name:product.product_product_16_product_template
@@ -2890,7 +2682,7 @@ msgstr "từ"
 #: model:product.template,weight_uom_name:product.product_product_27_product_template
 #: model:product.template,weight_uom_name:product.product_product_2_product_template
 #: model:product.template,weight_uom_name:product.product_product_3_product_template
-#: model:product.template,weight_uom_name:product.product_product_4b_product_template
+#: model:product.template,weight_uom_name:product.product_product_4_product_template
 #: model:product.template,weight_uom_name:product.product_product_5_product_template
 #: model:product.template,weight_uom_name:product.product_product_6_product_template
 #: model:product.template,weight_uom_name:product.product_product_7_product_template
@@ -2900,8 +2692,8 @@ msgid "kg"
 msgstr "kg"
 
 #. module: product
-#: code:addons/product/models/product.py:586
-#: code:addons/product/models/product_template.py:566
+#: code:addons/product/models/product.py:662
+#: code:addons/product/models/product_template.py:1071
 #, python-format
 msgid "product"
 msgstr "sản phẩm"
@@ -2937,3 +2729,4 @@ msgstr "đến"
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "until"
 msgstr "cho đến"
+

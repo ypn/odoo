@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 10:09+0000\n"
-"PO-Revision-Date: 2019-03-29 10:09+0000\n"
+"POT-Creation-Date: 2020-10-04 04:13+0000\n"
+"PO-Revision-Date: 2020-10-04 04:13+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -32,19 +32,19 @@ msgid "# Products"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:462
+#: code:addons/product/models/product_pricelist.py:499
 #, python-format
 msgid "%s %% discount"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:464
+#: code:addons/product/models/product_pricelist.py:501
 #, python-format
 msgid "%s %% discount and %s surcharge"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:357
+#: code:addons/product/models/product_template.py:391
 #, python-format
 msgid "%s (copy)"
 msgstr ""
@@ -59,7 +59,7 @@ msgstr ""
 #: model:product.product,description_sale:product.product_product_4b
 #: model:product.product,description_sale:product.product_product_4c
 #: model:product.product,description_sale:product.product_product_4d
-#: model:product.template,description_sale:product.product_product_4b_product_template
+#: model:product.template,description_sale:product.product_product_4_product_template
 msgid "160x80cm, with large legs."
 msgstr ""
 
@@ -197,7 +197,7 @@ msgid "All"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:457
+#: code:addons/product/models/product_pricelist.py:488
 #, python-format
 msgid "All Products"
 msgstr ""
@@ -377,7 +377,7 @@ msgid "Category name"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:451
+#: code:addons/product/models/product_pricelist.py:482
 #, python-format
 msgid "Category: %s"
 msgstr ""
@@ -447,7 +447,7 @@ msgstr ""
 #. module: product
 #: model:product.product,name:product.product_product_11
 #: model:product.product,name:product.product_product_11b
-#: model:product.template,name:product.product_product_11b_product_template
+#: model:product.template,name:product.product_product_11_product_template
 msgid "Conference Chair"
 msgstr ""
 
@@ -606,7 +606,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_4b
 #: model:product.product,name:product.product_product_4c
 #: model:product.product,name:product.product_product_4d
-#: model:product.template,name:product.product_product_4b_product_template
+#: model:product.template,name:product.product_product_4_product_template
 msgid "Customizable Desk"
 msgstr ""
 
@@ -758,7 +758,7 @@ msgid "Ending valid for the pricelist item validation"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product.py:300
+#: code:addons/product/models/product.py:331
 #, python-format
 msgid "Error! It is not allowed to choose more than one value for a given attribute."
 msgstr ""
@@ -858,7 +858,7 @@ msgid "Global"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:32
+#: code:addons/product/models/product_template.py:30
 #, python-format
 msgid "Go to Internal Categories"
 msgstr ""
@@ -956,19 +956,19 @@ msgid "Image of the product variant (Small-sized image of product template if fa
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:348
+#: code:addons/product/models/product_pricelist.py:376
 #, python-format
 msgid "Import Template for Pricelists"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:573
+#: code:addons/product/models/product_template.py:1078
 #, python-format
 msgid "Import Template for Products"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product.py:665
+#: code:addons/product/models/product.py:786
 #, python-format
 msgid "Import Template for Vendor Pricelists"
 msgstr ""
@@ -1702,7 +1702,7 @@ msgid "Products Price Search"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product.py:475
+#: code:addons/product/models/product.py:548
 #, python-format
 msgid "Products: "
 msgstr ""
@@ -2009,7 +2009,7 @@ msgid "The computed price is expressed in the default Unit of Measure of the pro
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:303
+#: code:addons/product/models/product_template.py:328
 #, python-format
 msgid "The default Unit of Measure and the purchase Unit of Measure must be in the same category."
 msgstr ""
@@ -2025,7 +2025,7 @@ msgid "The minimal quantity to purchase from this vendor, expressed in the vendo
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:443
+#: code:addons/product/models/product_pricelist.py:474
 #, python-format
 msgid "The minimum margin should be lower than the maximum margin."
 msgstr ""
@@ -2036,13 +2036,13 @@ msgid "The number of products under this category (Does not consider the childre
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:480
+#: code:addons/product/models/product_template.py:521
 #, python-format
 msgid "The number of variants to generate is too high. You should either not generate variants for each combination or generate them on demand from the sales order. To do so, open the form view of attributes and change the mode of *Create Variants*."
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_attribute.py:85
+#: code:addons/product/models/product_attribute.py:101
 #, python-format
 msgid "The operation cannot be completed:\n"
 "You are trying to delete an attribute value with a reference on a product variant."
@@ -2054,7 +2054,7 @@ msgid "The price to purchase a product"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:943
+#: code:addons/product/models/product_template.py:966
 #, python-format
 msgid "The product template is archived so no combination is possible."
 msgstr ""
@@ -2081,19 +2081,19 @@ msgid "The weight of the contents in Kg, not including any packaging, etc."
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:1010
+#: code:addons/product/models/product_template.py:1035
 #, python-format
 msgid "There are no possible combination."
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:1005
+#: code:addons/product/models/product_template.py:1030
 #, python-format
 msgid "There are no remaining closest combination."
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:963
+#: code:addons/product/models/product_template.py:988
 #, python-format
 msgid "There are no remaining possible combination."
 msgstr ""
@@ -2141,15 +2141,6 @@ msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_code
-#: code:addons/product/models/product_uom.py:63
-#, python-format
-msgid "This rounding precision is higher than the Decimal Accuracy (%s digits).\n"
-"This may cause inconsistencies in reservations.\n"
-"Please set a precision between %s and 1."
-msgstr ""
-
-#. module: product
-#: model:ir.model.fields,help:product.field_product_supplierinfo_product_code
 msgid "This vendor's product code will be used when printing a request for quotation. Keep empty to use the internal one."
 msgstr ""
 
@@ -2226,7 +2217,7 @@ msgstr ""
 #: model:product.template,uom_name:product.product_delivery_02_product_template
 #: model:product.template,uom_name:product.product_order_01_product_template
 #: model:product.template,uom_name:product.product_product_10_product_template
-#: model:product.template,uom_name:product.product_product_11b_product_template
+#: model:product.template,uom_name:product.product_product_11_product_template
 #: model:product.template,uom_name:product.product_product_12_product_template
 #: model:product.template,uom_name:product.product_product_13_product_template
 #: model:product.template,uom_name:product.product_product_16_product_template
@@ -2236,7 +2227,7 @@ msgstr ""
 #: model:product.template,uom_name:product.product_product_25_product_template
 #: model:product.template,uom_name:product.product_product_27_product_template
 #: model:product.template,uom_name:product.product_product_3_product_template
-#: model:product.template,uom_name:product.product_product_4b_product_template
+#: model:product.template,uom_name:product.product_product_4_product_template
 #: model:product.template,uom_name:product.product_product_5_product_template
 #: model:product.template,uom_name:product.product_product_6_product_template
 #: model:product.template,uom_name:product.product_product_7_product_template
@@ -2459,15 +2450,6 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__weight
 #: model:ir.model.fields,field_description:product.field_product_template__weight
-#: code:addons/product/models/product_uom.py:63
-#, python-format
-msgid "Warning!"
-msgstr ""
-
-#. module: product
-#: model:ir.model.fields,field_description:product.field_product_product_weight
-#: model:ir.model.fields,field_description:product.field_product_template_weight
-#: model:product.uom.categ,name:product.product_uom_categ_kgm
 msgid "Weight"
 msgstr ""
 
@@ -2520,13 +2502,13 @@ msgid "You can assign pricelists to your customers or select one when creating a
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_pricelist.py:442
+#: code:addons/product/models/product_pricelist.py:468
 #, python-format
 msgid "You cannot assign the Main Pricelist as Other Pricelist in PriceList Item"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product.py:57
+#: code:addons/product/models/product.py:58
 #, python-format
 msgid "You cannot create recursive categories."
 msgstr ""
@@ -2538,13 +2520,13 @@ msgid "You cannot define the decimal precision of 'Account' as greater than the 
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:332
+#: code:addons/product/models/product_template.py:334
 #, python-format
 msgid "You cannot define two attribute lines for the same attribute."
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_attribute.py:79
+#: code:addons/product/models/product_attribute.py:136
 #, python-format
 msgid "You cannot use this attribute with the following value."
 msgstr ""
@@ -2578,7 +2560,7 @@ msgid "You must define a product for everything you sell, whether it's a physica
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product_template.py:31
+#: code:addons/product/models/product_template.py:29
 #, python-format
 msgid "You must define at least one product category in order to be able to create products."
 msgstr ""
@@ -2650,7 +2632,7 @@ msgstr ""
 #: model:product.template,weight_uom_name:product.product_delivery_02_product_template
 #: model:product.template,weight_uom_name:product.product_order_01_product_template
 #: model:product.template,weight_uom_name:product.product_product_10_product_template
-#: model:product.template,weight_uom_name:product.product_product_11b_product_template
+#: model:product.template,weight_uom_name:product.product_product_11_product_template
 #: model:product.template,weight_uom_name:product.product_product_12_product_template
 #: model:product.template,weight_uom_name:product.product_product_13_product_template
 #: model:product.template,weight_uom_name:product.product_product_16_product_template
@@ -2662,7 +2644,7 @@ msgstr ""
 #: model:product.template,weight_uom_name:product.product_product_27_product_template
 #: model:product.template,weight_uom_name:product.product_product_2_product_template
 #: model:product.template,weight_uom_name:product.product_product_3_product_template
-#: model:product.template,weight_uom_name:product.product_product_4b_product_template
+#: model:product.template,weight_uom_name:product.product_product_4_product_template
 #: model:product.template,weight_uom_name:product.product_product_5_product_template
 #: model:product.template,weight_uom_name:product.product_product_6_product_template
 #: model:product.template,weight_uom_name:product.product_product_7_product_template
@@ -2672,8 +2654,8 @@ msgid "kg"
 msgstr ""
 
 #. module: product
-#: code:addons/product/models/product.py:586
-#: code:addons/product/models/product_template.py:566
+#: code:addons/product/models/product.py:662
+#: code:addons/product/models/product_template.py:1071
 #, python-format
 msgid "product"
 msgstr ""
