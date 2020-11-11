@@ -27,26 +27,35 @@ class WebsiteSaleLinkTrackerBackend(WebsiteSaleBackend):
             ('confirmation_date', '<=', date_to)
         ]
 
-        orders_data_groupby_campaign_id = request.env['sale.order'].read_group(
-            domain=sale_utm_domain + [('campaign_id', '!=', False)],
-            fields=['amount_total', 'id', 'campaign_id'],
-            groupby='campaign_id')
+        res = {
+                'campaign_id': [],
+                'medium_id': [],
+                'source_id': [],
+            }
 
-        orders_data_groupby_medium_id = request.env['sale.order'].read_group(
-            domain=sale_utm_domain + [('medium_id', '!=', False)],
-            fields=['amount_total', 'id', 'medium_id'],
-            groupby='medium_id')
+        if request.env['res.users'].has_group('sales_team.group_sale_salesman'):
+            orders_data_groupby_campaign_id = request.env['sale.order'].read_group(
+                domain=sale_utm_domain + [('campaign_id', '!=', False)],
+                fields=['amount_total', 'id', 'campaign_id'],
+                groupby='campaign_id')
+    
+            orders_data_groupby_medium_id = request.env['sale.order'].read_group(
+                domain=sale_utm_domain + [('medium_id', '!=', False)],
+                fields=['amount_total', 'id', 'medium_id'],
+                groupby='medium_id')
+    
+            orders_data_groupby_source_id = request.env['sale.order'].read_group(
+                domain=sale_utm_domain + [('source_id', '!=', False)],
+                fields=['amount_total', 'id', 'source_id'],
+                groupby='source_id')
+    
+            res = {
+                'campaign_id': self.compute_utm_graph_data('campaign_id', orders_data_groupby_campaign_id),
+                'medium_id': self.compute_utm_graph_data('medium_id', orders_data_groupby_medium_id),
+                'source_id': self.compute_utm_graph_data('source_id', orders_data_groupby_source_id),
+            }
 
-        orders_data_groupby_source_id = request.env['sale.order'].read_group(
-            domain=sale_utm_domain + [('source_id', '!=', False)],
-            fields=['amount_total', 'id', 'source_id'],
-            groupby='source_id')
-
-        return {
-            'campaign_id': self.compute_utm_graph_data('campaign_id', orders_data_groupby_campaign_id),
-            'medium_id': self.compute_utm_graph_data('medium_id', orders_data_groupby_medium_id),
-            'source_id': self.compute_utm_graph_data('source_id', orders_data_groupby_source_id),
-        }
+        return res
 
     def compute_utm_graph_data(self, utm_type, utm_graph_data):
         return [{
